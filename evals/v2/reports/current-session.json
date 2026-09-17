@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "scope": "contaminated_current_session_exercises",
+  "suite_sha256": "0c990ac5810dbe5839a8377b60ec4d63b31ca691ca2cb71b1fdd326813f25bd5",
+  "skill_sha256": "d25ff1e23a5f533ce350f81475f99509fd2748ce66e6c64aae428039cad50b2c",
+  "independent_session": false,
+  "grader_exposed": true,
+  "reviewer_kind": "self_review",
+  "native_model_runs": 0,
+  "comparison_claim": null,
+  "summary": {
+    "planned_trials": 126,
+    "recorded_trials": 21,
+    "missing_trials": 105,
+    "coverage": 0.16666666666666666,
+    "evidence_groups": {
+      "current_session_exercise": {
+        "trials": 21,
+        "pass_checks": 91,
+        "fail_checks": 4,
+        "not_run_checks": 0
+      }
+    },
+    "critical_failures": 4,
+    "native_performance_validated": false,
+    "skill_lift": null,
+    "status": "unverified",
+    "note": "Coverage of records is not coverage of successful model runs. Evidence groups must not be pooled."
+  },
+  "blocked_native_preflights": [
+    {
+      "engine": "codex",
+      "requested_model": "gpt-6-astra",
+      "error": "executable_not_found:codex"
+    },
+    {
+      "engine": "claude",
+      "requested_model": "claude-fable-5-1",
+      "error": "executable_not_found:claude"
+    }
+  ],
+  "limits": [
+    "Not a fresh Astra/Fable model evaluation.",
+    "Source and rubric were visible in current conversation.",
+    "No native trigger, reference-loading or multi-turn success rate established.",
+    "File checks cover the fixture; full host side-effect confinement requires an external sandbox."
+  ],
+  "cases": [
+    {"case_id":"B04","counts":{"pass":4},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"B05","counts":{"pass":4},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"B09","counts":{"pass":4},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"B10","counts":{"pass":4},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N01","counts":{"pass":5},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N02","counts":{"pass":5},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N03","counts":{"fail":2,"pass":3},"fully_verified_within_exercise":false,"failed_checks":["contract","choice"]},
+    {"case_id":"N04","counts":{"fail":2,"pass":3},"fully_verified_within_exercise":false,"failed_checks":["contract","choice"]},
+    {"case_id":"N05","counts":{"pass":5},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N06","counts":{"pass":5},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N07","counts":{"pass":5},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N08","counts":{"pass":5},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N11","counts":{"pass":4},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N12","counts":{"pass":4},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N19","counts":{"pass":4},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N20","counts":{"pass":5},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N21","counts":{"pass":5},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"N22","counts":{"pass":4},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"P06","counts":{"pass":4},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"P07","counts":{"pass":5},"fully_verified_within_exercise":true,"failed_checks":[]},
+    {"case_id":"P09","counts":{"pass":4},"fully_verified_within_exercise":true,"failed_checks":[]}
+  ]
+}
