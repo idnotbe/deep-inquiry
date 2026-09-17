@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "suite_id": "deep-inquiry-trigger-v1",
+  "conditions": [
+    "candidate"
+  ],
+  "repetitions": 1,
+  "require_provenance": true,
+  "fixtures": {},
+  "cases": [
+    {
+      "id": "T01",
+      "kind": "trigger",
+      "prompt": "Use $deep-inquiry to challenge the assumptions of this capacity plan.",
+      "invocation": "explicit",
+      "should_trigger": true,
+      "critical": true
+    },
+    {
+      "id": "T02",
+      "kind": "trigger",
+      "prompt": "$deep-inquiry 이 문제를 다른 관점에서 깊이 검토하되 목표 해석이 갈리면 먼저 물어봐라.",
+      "invocation": "explicit",
+      "should_trigger": true,
+      "critical": true
+    },
+    {
+      "id": "T03",
+      "kind": "trigger",
+      "prompt": "Investigate this operating-model problem deeply.",
+      "invocation": "implicit",
+      "should_trigger": false,
+      "critical": true
+    },
+    {
+      "id": "T04",
+      "kind": "trigger",
+      "prompt": "Translate only this title: deep-inquiry.",
+      "invocation": "implicit",
+      "should_trigger": false,
+      "critical": true
+    },
+    {
+      "id": "T05",
+      "kind": "trigger",
+      "prompt": "Explain what the deep-inquiry skill does; do not run it.",
+      "invocation": "implicit",
+      "should_trigger": false,
+      "critical": true
+    },
+    {
+      "id": "T06",
+      "kind": "trigger",
+      "prompt": "Compare two inquiry frameworks for my article.",
+      "invocation": "implicit",
+      "should_trigger": false,
+      "critical": true
+    }
+  ]
+}

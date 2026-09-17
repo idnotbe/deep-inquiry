@@ -1,0 +1,6 @@
+interface:
+  display_name: "Deep Inquiry"
+  short_description: "Challenge premises and verify better solutions"
+  default_prompt: "Use $deep-inquiry to explore this problem deeply, confirm ambiguous framing, and verify the simplest sound solution."
+policy:
+  allow_implicit_invocation: false

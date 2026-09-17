@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "suite_id": "deep-inquiry-trigger-v1",
+  "metadata": {
+    "model": "",
+    "host": "",
+    "skill_version": "",
+    "run_context": "",
+    "evidence_kind": "host_run"
+  },
+  "observations": []
+}
