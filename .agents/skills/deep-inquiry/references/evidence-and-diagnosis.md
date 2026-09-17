@@ -4,11 +4,11 @@ Read for E/H or before proposing an experiment. Produce a decision-relevant evid
 
 ## Evidence that changes action
 
-Specify the unknown claim, the decision it affects, what observation could distinguish the possibilities, and the least burdensome authorized source or test. Check supplied materials and primary sources; verify current capabilities and mutable facts rather than relying on memory. Respect requests restricting external research.
+Specify the unknown claim, the decision it affects, what observation could distinguish the possibilities, and the least burdensome authorized source or test. Check supplied materials and primary sources; verify current capabilities and mutable facts rather than relying on memory. Respect requests restricting external research. For an unfamiliar or recently changing model, product or API name, verify the exact spelling in an available current primary source before correcting it or declaring it nonexistent. Low effort or familiarity is not evidence. If lookup is unavailable, preserve the exact name and mark the claim unverified.
 
 Ask: would any plausible result change the next action? If not, the check may be unnecessary for this decision. Include collection, instrumentation, duplicate-work, delay, disruption, privacy and review costs. Do not claim a precise value-of-information calculation without suitable inputs. Never interpret "measurement costs too much" as permission to waive required correctness or mandatory evidence.
 
-Use source comparison for quotations/translations, calculation for arithmetic, logs and executable tests for behavior, and authorized experiments where causal evidence requires them. Distinguish a plan to collect evidence from the actual evidence collected. Preserve provenance, assumptions, units and relevant time/context.
+Use source comparison for quotations/translations, calculation for arithmetic, logs and executable tests for behavior, and authorized experiments where causal evidence requires them. Distinguish a plan to collect evidence from the actual evidence collected. Preserve provenance, assumptions, units and relevant time/context. Paraphrase source explanations; mark brief verbatim quotations explicitly and cite their actual source. Never manufacture a citation or present copied prose as your own synthesis.
 
 Classify evidence as established within scope, contradicted, or unverified. If a decisive premise is false, route to premise-collapse handling. If materials or permission are required, use Q. If unavailable evidence is necessary for current acceptance, stop with that requirement unmet or ask about scope. If the fact is inherently future-dependent, use future-uncertainty handling rather than endless present-day searches.
 

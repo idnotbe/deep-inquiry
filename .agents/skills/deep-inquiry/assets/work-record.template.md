@@ -10,9 +10,11 @@ Use only as needed in an authorized task workspace, never as a private-reasoning
 - Priorities / acceptance criteria:
 - Delegated decisions / reserved decisions / later checkpoints:
 - Tools / permissions / relevant source records:
+- Exact user wording for non-negotiable constraints / unresolved questions:
 
 ## State
 - Current candidate ID / frozen content identity:
+- Model / host / effort as actually reported, or unknown:
 - Current route / blocker / resume point:
 - R (rounds started) / round status / X (re-explorations used):
 - Explicit user-approved limit overrides:
@@ -31,7 +33,9 @@ Use only as needed in an authorized task workspace, never as a private-reasoning
 |---|---|---|---|---|
 
 ## Handoff or closure
+- Accepted and rejected directions / reasons not to reopen:
 - Actual routes / revision state:
+- Completed requested phases / remaining authorized actions:
 - Final whole-contract verification:
 - Unmet requirements / remaining unknowns / residual risks:
 - Required user question or next authorized step:
