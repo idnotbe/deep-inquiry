@@ -28,6 +28,8 @@ For premise collapse, verify the evidence before reopening the core approach. Pr
 
 Check remaining revision capacity and increment the counter before starting, as defined in the root. Batch confirmed same-cause/related-area issues into one next candidate version. Keep one writer per affected area and reconcile independent changes through the single current candidate.
 
+Prefer a targeted edit when it preserves the same behavior as a rewrite; inspect the actual diff for unrelated changes. Add regression tests in the existing test structure when they protect behavior; keep disposable experiments in an authorized scratch area and remove only those you created. Report unrelated defects rather than fixing them without authorization.
+
 Link each issue to its minimal sufficient change and observable closure evidence. Recheck affected criteria, scenarios and dependencies; a writer's claim of success is insufficient. Finish the round after verification. Resume a paused round without incrementing again.
 
 If a revision worsens the result, revert to a better version while preserving spent rounds and unresolved issues. Revalidate evidence for the restored version. Return to integrated review without repeating unchanged full reviews absent new evidence. Stop when the next move needs user authority, missing facts or an exhausted limit, and distinguish a blocked candidate from an accepted one.

@@ -2,7 +2,9 @@
 
 An instruction-only Agent Skill for investigating problems beyond familiar answers, without silently changing the user's objective. It extends an existing user-aligned, evidence-driven revision workflow rather than replacing it with a creativity checklist.
 
-**Status:** implemented candidate. Repository checks validate structure and test the checker; they do not establish model behavior, creativity gains or production reliability. Host evaluations are defined but have not been run.
+**Primary targets:** GPT-6 Astra and Claude Fable 5.1. Shared reasoning rules remain portable; conditional model emphasis does not switch models or effort.
+
+**Status:** guidance-informed candidate. Repository checks validate structure and test the checker; they do not establish model behavior, creativity gains or production reliability. Host evaluations are defined but have not been run.
 
 ## What it does
 
@@ -38,9 +40,15 @@ $deep-inquiry Investigate this problem, confirm ambiguous framing with me, and d
 
 Codex metadata disables implicit invocation to avoid a broad reasoning method activating for unrelated tasks. Other hosts may interpret or ignore host-specific metadata differently; their behavior needs separate testing. Repository creation does not install a ChatGPT web plugin or start background agents.
 
+## Astra and Fable use
+
+Select the model in your existing host, then explicitly invoke the skill. Keep your current effective effort as a comparison baseline; do not assume maximum effort or the same effort label across providers is best. The [model tuning notes](docs/model-tuning.md) record official sources, preserved boundaries and unexecuted model checks.
+
+For Claude Code, copy the complete bundle to `.claude/skills/deep-inquiry/` and invoke `/deep-inquiry`. Its current settings support `"skillOverrides": {"deep-inquiry": "user-invocable-only"}` for a personal/project skill without changing the shared SKILL.md. Merge this entry into existing settings; do not replace other settings. Codex's `openai.yaml` does not enforce Claude invocation policy. Host availability and installed versions must be checked; no host installation is performed by this repository.
+
 ## Structure
 
-Runtime: [SKILL.md](.agents/skills/deep-inquiry/SKILL.md), six conditional references, one work-record template, host metadata and a license notice. No runtime scripts, API keys, database, MCP dependency or autonomous scheduler.
+Runtime: [SKILL.md](.agents/skills/deep-inquiry/SKILL.md), seven conditional references, one work-record template, host metadata and a license notice. No runtime scripts, API keys, database, MCP dependency or autonomous scheduler.
 
 [Design and preservation](docs/design.md) explains the source-to-module mapping. [Evaluation instructions](evals/README.md) distinguish static checks from host observations. [Sources](docs/sources.md) identifies guide versions and private baseline digests. [Implementation review](docs/validation.md) records scope and remaining checks.
 
@@ -53,7 +61,7 @@ python -B -m unittest discover -s tests -v
 python -B tools/check_repository.py
 ```
 
-The deliberately narrow checker rejects broken local paths, orphaned resources, invalid project metadata and malformed evaluation definitions. It does not parse arbitrary YAML/Markdown, execute skills, score creativity or prove prompt-injection resistance. Empty observations stay empty; a successful static check never becomes a host pass.
+The deliberately narrow checker rejects broken local paths, orphaned resources, invalid project metadata and malformed evaluation definitions. It does not parse arbitrary YAML/Markdown, execute skills, score creativity or prove prompt-injection resistance. Empty observations stay empty; a successful static check never becomes a host pass. The [model-specific suite](evals/model-suite.json) is checked by `tests/test_model_profile.py`; it is not a model runner.
 
 Keep task data, local model outputs and evaluation observations outside the installed bundle and outside committed files. The public examples are synthetic; supplied private conversations are not redistributed.
 
