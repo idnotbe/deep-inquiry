@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "report": "2026-09-19-gpt-5.6-luna-max",
+  "reviewer_kind": "independent_model_review",
+  "scope": "read-only report and runner review; no model output existed for semantic grading",
+  "rounds": [
+    {
+      "round": 1,
+      "reviewers": 2,
+      "findings": [
+        "with_skill combines bundle installation with explicit invocation",
+        "global profile and model/effort identity were not verified",
+        "raw artifact retention and public-case generalization needed explicit limits",
+        "future subset needed an exact case list"
+      ],
+      "disposition": "all adopted",
+      "p0_findings": 0
+    },
+    {
+      "round": 2,
+      "reviewers": 2,
+      "findings": [
+        "raw-log deletion must be a publication gate",
+        "effective service tier must match in any resumed pair",
+        "sampling wording must say non-native comparative families",
+        "child-process and evaluator exit codes must be separated"
+      ],
+      "disposition": "all adopted",
+      "p0_findings": 0
+    }
+  ],
+  "limitations": [
+    "Reviewer identities and raw review messages are not published.",
+    "The review record is a redacted operator summary, not cryptographic proof of reviewer independence.",
+    "No semantic model-output review was possible because both target calls failed before a response."
+  ]
+}

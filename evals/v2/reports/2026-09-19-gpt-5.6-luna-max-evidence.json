@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "report": "2026-09-19-gpt-5.6-luna-max",
+  "evidence_kind": "redacted_operator_manifest",
+  "suite_sha256": "0c990ac5810dbe5839a8377b60ec4d63b31ca691ca2cb71b1fdd326813f25bd5",
+  "skill_sha256": "d25ff1e23a5f533ce350f81475f99509fd2748ce66e6c64aae428039cad50b2c",
+  "repository_commit": "453aff2dd9d2849d4841eb9a37611d9cd5089f4b",
+  "engine": "codex",
+  "codex_cli_version": "0.155.0",
+  "requested_model": "gpt-5.6-luna",
+  "requested_effort": "max",
+  "host_default_model_observed_by_doctor": "gpt-5.6-sol",
+  "actual_model_identity": "unknown",
+  "trials": [
+    {
+      "condition": "without_skill",
+      "case_id": "N21",
+      "repetition": 1,
+      "child_exit_code": 1,
+      "record_status": "error",
+      "trace_complete": false,
+      "final_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trace_sha256": "592373d5e04843fc4f09344fe4ce06154b2ae483ebda0a12e3a5723bd7e92b1b",
+      "stderr_sha256": "7a174c5d2c430bf4d57599e5a8f8792a189fa13975bcc6ef0d0ff6b69e5bf84c",
+      "failure_class": "access_token_refresh_failed",
+      "response_present": false,
+      "verified_model_identity": false,
+      "comparison_eligible": false,
+      "grade_exit_code": 0,
+      "critical_checks": {"pass": 0, "fail": 0, "not_run": 5}
+    },
+    {
+      "condition": "with_skill",
+      "case_id": "N21",
+      "repetition": 1,
+      "child_exit_code": 1,
+      "record_status": "error",
+      "trace_complete": false,
+      "final_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "trace_sha256": "f7fb653e4584345c8ee85ee22710ce5b8fd1020552fe08797248d969d1649535",
+      "stderr_sha256": "bc4a8e69b15e1a02c3aebca0b915d4240f320248a8744f317ccf3634935253f2",
+      "failure_class": "access_token_refresh_failed",
+      "response_present": false,
+      "verified_model_identity": false,
+      "comparison_eligible": false,
+      "grade_exit_code": 0,
+      "critical_checks": {"pass": 0, "fail": 0, "not_run": 5}
+    }
+  ],
+  "host_trace_summary": {
+    "event_sequence": ["thread.started", "item.completed(host_warning)", "turn.started", "error", "turn.failed"],
+    "service_tier_warning": "configured flex tier was omitted because it was not advertised for the requested model",
+    "final_response": false,
+    "tool_calls": 0,
+    "timeout_reached": false
+  },
+  "repository_checks": [
+    {"command": "python -B -m unittest discover -s tests -v", "exit_code": 0, "summary": "86 passed; 3 host-permission skips"},
+    {"command": "python -B tools/eval_v2.py validate", "exit_code": 0, "summary": "81 cases; model_runs=0"},
+    {"command": "python -B tools/eval_v2.py preflight", "exit_code": 0, "summary": "codex and claude executables found; no model run"},
+    {"command": "python -B tools/eval_v2.py grade", "exit_code": 0, "summary": "two valid blocked reports; all behavioral checks not_run"}
+  ],
+  "retention": {
+    "raw_trace_files_in_repository": false,
+    "raw_trace_files_deleted_after_inspection": true,
+    "deletion_verified": true,
+    "manifest_limit": "This redacted operator manifest is not an authenticated replacement for complete raw host traces."
+  }
+}
