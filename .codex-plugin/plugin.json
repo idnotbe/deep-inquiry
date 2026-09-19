@@ -1,0 +1,11 @@
+{
+  "name": "deep-inquiry",
+  "version": "1.0.0",
+  "description": "Investigate problems beyond familiar answers while preserving the user objective.",
+  "author": {
+    "name": "idnotbe"
+  },
+  "homepage": "https://github.com/idnotbe/deep-inquiry",
+  "repository": "https://github.com/idnotbe/deep-inquiry",
+  "skills": "./.agents/skills/"
+}
