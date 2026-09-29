@@ -6,7 +6,7 @@ An instruction-only Agent Skill for investigating problems beyond familiar answe
 
 **Primary targets:** GPT-6 Astra and Claude Fable 5.1. Shared reasoning rules remain portable; conditional model emphasis does not switch models or effort.
 
-**Status:** guidance-informed candidate. Repository checks validate structure and test the checker; they do not establish model behavior, creativity gains or production reliability. Host evaluations are defined but have not been run.
+**Status:** guidance-informed candidate. Repository checks validate structure and test the checker; they do not establish model behavior, creativity gains or production reliability. A [native evaluation](evals/v2/reports/2026-09-30-gpt-6-sol-medium.md) completed 96 original responses and a separate six-response skill-revision diagnostic whose one-line candidate was reverted; backend identity and causal skill improvement remain unverified.
 
 ## What it does
 

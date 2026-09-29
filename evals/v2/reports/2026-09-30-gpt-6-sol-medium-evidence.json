@@ -1,0 +1,158 @@
+{
+    "schema_version":  2,
+    "report":  "2026-09-30-gpt-6-sol-medium",
+    "evidence_kind":  "redacted_operator_manifest",
+    "source_commit":  "8af27a41ed7a1efae86b3a1ec5087aa9a9e4b1dd",
+    "original_skill_sha256":  "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871",
+    "revised_skill_sha256":  "b536caabc20c63a5fb3c2d4c2ecdfdda65f6c618151eb1c5b403d2644770da26",
+    "requested":  {
+                      "effort":  "medium",
+                      "host_selection_verified":  true,
+                      "model":  "gpt-6-sol",
+                      "separate_external_model_api_invoked":  false
+                  },
+    "actual_backend":  {
+                           "fallback_model":  "unknown",
+                           "model":  "unknown",
+                           "effective_effort":  "unknown"
+                       },
+    "authority":  {
+                      "selected_90_release_sha256":  "c448d091f845856786bb8717ade77ab11d8e72a0290b5ca289f15eb9eb57debb",
+                      "b10_revision_preregistration_sha256":  "906e4cfa64ef0194690c2df49268da2feabb43df82a2987cc99c82ea40a9e73e",
+                      "b10_independent_two_reviews_sha256":  "cebb2f3a3c8596f7fa3f97c194af5aba63f46aac079ca7d5b814b8fd148f633f",
+                      "original_preregistration_sha256":  "b9118898a52f328b4df52b04bb687ca39d94abcdbd628e54b280351402b04c3a",
+                      "prospective_host_amendment_sha256":  "0445112c1204a8153222661d38ad490b268270d3b461f32602921ca821df9b42",
+                      "objective_all96_sha256":  "c008c66460e160b93c1dc486edaa0c7eb356c1872113b2b73be9329d1c2b3e72",
+                      "candidate_sha256":  "0581db6748cc98db124f49bcdadfa86792e143ca403db0d3f8e3a0e5c5ac2b3f",
+                      "b10_revision_release_sha256":  "020d1b476e96307ed7c1e1adcf8c0a48e651cbd4ce7b743fae4d64c36f62bc76"
+                  },
+    "original_selected":  {
+                              "prospectively_amended":  90,
+                              "total_attempts":  98,
+                              "host_configured_comparison_eligible":  "narrower prospective amendment only",
+                              "logical_slots":  96,
+                              "skill_lift":  null,
+                              "not_run":  0,
+                              "case_groups":  {
+                                                  "workspace":  {
+                                                                    "pass":  0,
+                                                                    "fail":  8,
+                                                                    "total":  8,
+                                                                    "cause":  "workspace permission policy blocked tool attempts"
+                                                                },
+                                                  "n_response":  {
+                                                                     "pass":  22,
+                                                                     "fail":  0,
+                                                                     "total":  22
+                                                                 },
+                                                  "b_controls":  {
+                                                                     "B10_fail":  6,
+                                                                     "pass":  14,
+                                                                     "B02_fail":  4,
+                                                                     "fail":  10,
+                                                                     "total":  24
+                                                                 },
+                                                  "b_planning":  {
+                                                                     "pass":  25,
+                                                                     "fail":  1,
+                                                                     "total":  26,
+                                                                     "B16_baseline_fail":  1
+                                                                 },
+                                                  "p_cases":  {
+                                                                  "pass":  10,
+                                                                  "fail":  0,
+                                                                  "total":  10
+                                                              }
+                                              },
+                              "pre_amendment_calibration":  6,
+                              "semantic_outcome":  {
+                                                       "without_skill":  {
+                                                                             "total":  48,
+                                                                             "pass":  37
+                                                                         },
+                                                       "pass":  77,
+                                                       "with_skill":  {
+                                                                          "total":  48,
+                                                                          "pass":  40
+                                                                      },
+                                                       "fail":  19,
+                                                       "remaining_90":  {
+                                                                            "fail":  19,
+                                                                            "pass":  71
+                                                                        }
+                                                   },
+                              "actual_completed_responses":  96,
+                              "strong_comparison_eligible":  false,
+                              "objective_checks":  {
+                                                       "N05_fail":  6,
+                                                       "pass":  16,
+                                                       "fail":  8,
+                                                       "total":  24,
+                                                       "N08_fail":  2
+                                                   }
+                          },
+    "host_controls":  {
+                          "skill_empty_baseline":  false,
+                          "pure_install_effect":  "NOT_RUN",
+                          "treatment_exact_explicit_skill_expansion_observed":  true,
+                          "baseline_exhaustive_absence_verified":  false,
+                          "common_system_skills_enabled":  5,
+                          "fresh_operating_system_user":  false,
+                          "natural_trigger":  "NOT_RUN",
+                          "conditional_reference_loading":  "blocked",
+                          "user_skills_logically_disabled":  28
+                      },
+    "original_source_preservation":  {
+                                         "retroactive_pass":  false,
+                                         "original_source_preservation":  "unverified",
+                                         "post_outcome_effective_inputs_match":  true,
+                                         "rerun":  false,
+                                         "manifest_false_count":  2,
+                                         "slots":  [
+                                                       "P07-with_skill-r1",
+                                                       "B22-without_skill-r1"
+                                                   ]
+                                     },
+    "extra_attempts":  {
+                           "baseline_n21_r1_postresponse_includeTurns_error_retained":  true,
+                           "included_as_completed_logical_slots":  false,
+                           "preturn_count":  2
+                       },
+    "host_first_diagnostics":  {
+                                   "C":  {
+                                             "actual_blocked_responses":  1,
+                                             "not_run":  9
+                                         },
+                                   "E":  {
+                                             "disposable_project_trust_metadata_error":  true,
+                                             "not_run":  9,
+                                             "actual_blocked_responses":  1
+                                         },
+                                   "pooled_with_original96":  false
+                               },
+    "revised_b10_exploratory":  {
+                                    "outcome_fail":  6,
+                                    "comparison_eligible":  false,
+                                    "demonstrated_improvement":  false,
+                                    "independent_reviewers":  2,
+                                    "backend_identity_verified":  false,
+                                    "with_skill":  {
+                                                       "outcome_pass":  0,
+                                                       "common_checks_pass":  9,
+                                                       "outcome_fail":  3
+                                                   },
+                                    "completed":  6,
+                                    "without_skill":  {
+                                                          "outcome_pass":  0,
+                                                          "common_checks_pass":  9,
+                                                          "outcome_fail":  3
+                                                      },
+                                    "original90_bindings_unchanged":  true,
+                                    "common_checks_pass":  18,
+                                    "source14_bound_revised_exact":  true,
+                                    "outcome_pass":  0
+                                },
+    "privacy":  "Original credential and config contents or hashes, raw native events, hidden reasoning, profiles, account data, user skill names and paths and local working files excluded.",
+    "final_skill_sha256":  "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871",
+    "revision_retained":  false
+}
