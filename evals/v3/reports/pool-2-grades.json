@@ -1,0 +1,1775 @@
+{
+  "schema_version": 1,
+  "candidate_id": "pool-2",
+  "rubrics": "../history/pool-2/rubrics.json",
+  "judge_a": [
+    {
+      "blind_id": "P2S01",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 0,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 6,
+      "full_pass": false,
+      "reason": "Pair-only pickup/charging and owner tombstones address partial delivery and late messages. But 'atomically admit one request' for the contested interval assumes an atomic cross-request admission operation that the stated atomic status changes of a request record do not establish; the claimed winner and parallel minute-six outage path depend on that operation. Therefore the universal minute-seven firm-answer claim is unproved."
+    },
+    {
+      "blind_id": "P2S02",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "$145 contingent on 72 original easy and 18 original difficult confirmations exceeds their $144 effort cost and stays within $150; extra work reduces profit. Positive per-ticket margins induce all 160 effort units and payout above $160; ties do not guarantee work. Immutable customer records defeat relabeling and copies."
+    },
+    {
+      "blind_id": "P2S03",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "One-minute segments retain routine progress and bound urgent response by 1+0.5+2=3.5; an arrival just after a two-minute segment starts approaches 4.5 and misses its four-minute deadline. Including the 0.5 resume, R1 and R2 finish by 7 and 11. The minimum allowed segment supports the stated tight bound."
+    },
+    {
+      "blind_id": "P2S04",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Both initial markers are saved before repair; B then A prevents induced C, and the final check certifies each state by minutes 5, 8 or 11. The A-first both-fault rival takes 16 including C repair. The both-fault path cannot safely fit a universal minute-eight diagnosis, two repairs and check."
+    },
+    {
+      "blind_id": "P2S05",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 0,
+        "comparative_discrimination": 1,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "Misreads clear/hard B as damage 5, although B is (cost 5, damage 0); this invalidates the Safe-first decision and the material-fee boundary."
+      ],
+      "total": 3,
+      "full_pass": false,
+      "reason": "Safe is permissible, and the answer compares policies by worst cost, but clear/hard permits B at cost 5 with zero damage. Material-first, then route only for soft, costs at most 7 with fees 2+1, beating Safe's 9; the claimed fee boundary m=0 is therefore wrong (the original-state strict boundary is m<4). It acknowledges blocked/hard but gives no revised optimal safe branching for that state."
+    },
+    {
+      "blind_id": "P2S06",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Cooling-alone measurement directly tests the authorization lower bound; [45,49] does not wholly reach 47, so the bundle remains. The gains [15,19], [0,24], interaction [-19,9], and bundle 24 are tight and obey cooling plus rotation plus interaction equals 24."
+    },
+    {
+      "blind_id": "P2S07",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "A $3 offer strictly attracts only cost-$2 A; the minute-zero B option preserves completion if A rejects and correctly costs $4 or $5 by state. Worst expected payment is 5-p=4.70 at p=.3. Direct B, non-option offers, unverifiable reports, and the credited fee tie at $2 are addressed."
+    },
+    {
+      "blind_id": "P2S08",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Cooling-alone measurement alone tests the switch condition; lower bound 45 means retain bundle. Reported cooling [15,19], rotation [0,24], interaction [-19,9], and bundle 24 are tight, and the answer states their fixed-sum dependence rather than treating marginal extremes as independent."
+    },
+    {
+      "blind_id": "P2S09",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "The day-3/day-5 staged migration meets demand, stock capacity, maintenance and readiness for $20; the full switch needs four outsourced units ($24), and one preparation day requires one outsourced unit ($26 staged). The displayed stock plan violates the explicit oldest-first rule on day 2 by using new production while leaving day-1 stock; correcting that vintage allocation preserves its result."
+    },
+    {
+      "blind_id": "P2S10",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Four accepted parcels can be routed after minute-seven amendments as two per destination at minutes eight and ten; the first vehicle returns by 9.5 and all deliveries finish by eleven. Five all-north parcels exceed four north seats; no second departure reduces the robust maximum to two, and first-wave promises would add an unrequired limit."
+    },
+    {
+      "blind_id": "P2S11",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Accepting four and freezing routing after the last allowed amendment meets the final-destination contract for any mix, including four last-instant north changes. Two seats on each of two waves establish the four-order bound, while an all-north fifth order fails; without minute-ten departure the bound is two."
+    },
+    {
+      "blind_id": "P2S12",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Material-first identifies clear/hard for safe B at total 7; a soft result gets the route probe and safe A or B at totals 5 or 6. No probe costs 9, route-only 10, material-only 11, and route-first conditional 8. Worst cost m+5 beats Safe for m<4. With blocked/hard added, both probes and state-specific A/B cost at most m+6, or 8 at m=2."
+    },
+    {
+      "blind_id": "P2S13",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Customer-recorded threshold coverage costs 144 effort units, so a $145 all-or-nothing payment gives strictly positive profit within the $150 budget. Extra tickets lower profit; fixed rates above $1 and $4 would induce all 160 effort units and payment above $160. Original classes/IDs prevent label and copy gaming, with strict budget boundaries above $144 and $160."
+    },
+    {
+      "blind_id": "P2S14",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Saved initial A/B probes guide B-before-A repair and the final health check, certifying neither/single/both by minutes 5/8/11 without induced C. Full initial diagnosis reaches minute 15 for both and misses twelve. Its reduced-eight conclusion follows because safely identifying and repairing both faults plus certification takes eleven."
+    },
+    {
+      "blind_id": "P2S15",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "One-minute routine segments retain work and bound urgent response by one wait plus 0.5 handover plus two work minutes = 3.5. A just-after-zero arrival under two-minute segments finishes near 4.5, missing its four-minute response deadline. Including 0.5 resume puts R1/R2 at most at 7/11."
+    },
+    {
+      "blind_id": "P2S16",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The $145 customer-recorded coverage payment strictly rewards the minimum 72 easy/18 difficult subset costing $144 and fits every-subset budget. Positive fixed margins would induce all 100 tickets and payment above $160; equality may be refused. The answer preserves immutable classes and gives B>$144 as the all-or-nothing feasibility boundary."
+    },
+    {
+      "blind_id": "P2S17",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Cooling-alone comparison directly controls authorization; [45,49] has lower bound below 47, so the bundle stays. Gains [15,19] and [0,24], bundle 24, and interaction [-19,9] are tight, and their fixed sum of 24 prevents independent endpoint allocations."
+    },
+    {
+      "blind_id": "P2S18",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Reserve 36 verifier units for urgents and precheck 24 routines in parallel; 24(1)+50(1.2)=84 fits the remaining daily capacity, so admit 74 and refuse six before admission. Current 50 use 111 total units; uncapped 80 need 132 without prechecks. All 80 require 60 prechecks to save twelve units."
+    },
+    {
+      "blind_id": "P2S19",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 0,
+        "comparative_discrimination": 1,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "Misreads clear/hard B as damage 5 rather than its supplied (cost 5, damage 0), making the Safe-first minimax decision and material-fee boundary invalid."
+      ],
+      "total": 3,
+      "full_pass": false,
+      "reason": "Safe is permissible and the answer attempts worst-case comparisons, but B is safe in clear/hard. Material-first with route probing only after soft costs at most 7 at stated fees, beating Safe 9; its worst cost is f+5 and its strict fee boundary versus Safe is f<4, not f=1 or never. The added blocked/hard state is acknowledged but the changed feasible minimax branch is not derived."
+    },
+    {
+      "blind_id": "P2S20",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "At red price 10.50, margin 8(10.50-8)=20 within the finance predicate; address is outside signatures, while red needs new safety review. Review 6–10 and publication 10–11 meet twelve. Both critics are correctly separated, and five minutes is the longest red review leaving one minute to publish."
+    },
+    {
+      "blind_id": "P2S21",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Minute-zero option plus $3 offer attracts only low-cost A, yielding $4 if accepted and credited $5 B fallback if rejected, with completion by minute six. Worst expectation 5-q peaks at $4.70 for q=.3. It compares direct B, other integer offers and unverifiable reports; option fee f ties direct B at f=2."
+    },
+    {
+      "blind_id": "P2S22",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [
+        "The unconditional minute-seven answer bound counts one coordinator stop total, while the stated allowance is one three-minute stop per request; two competing requests can permit successive stops that invalidate the claimed bound."
+      ],
+      "total": 8,
+      "full_pass": false,
+      "reason": "A durable tie breaker before owner contact can serialize contention; pair-only accepted status, charging, matching cancellation and completed-ID fencing address safety and cleanup. The stated minute-six calculation explicitly relies on a single three-minute stop, but the case allows one stop per request across two competitors, so the universal minute-seven answer claim is unproved under the literal allowance."
+    },
+    {
+      "blind_id": "P2S23",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Red at price 11 gives margin 24 under existing conditional finance approval; address does not affect either signature. Blue safety approval is replaced by red review 6–10 and publication ends at eleven. Both critics are resolved by scoped validation, and review can last at most five minutes before publication misses twelve."
+    },
+    {
+      "blind_id": "P2S24",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The $3 posted offer with the minute-zero B option yields $4 after low-cost acceptance or $5 after high-cost rejection, with completion by minute six. Worst expected payment is $4.70 at p=.3; direct B, nonoption offers, tie-prone low offers and unverifiable reports are addressed. General fee f gives low payment 3+f and ties B at f=2."
+    },
+    {
+      "blind_id": "P2S25",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Initial A/B probes remain authoritative after marker changes; B-before-A prevents induced C and a final check certifies none/single/both by minutes 5/8/11. The A-first both-fault rival creates C and certifies only at minute 16. The safe all-state diagnostic/repair path cannot fit a universal minute-eight deadline."
+    },
+    {
+      "blind_id": "P2S26",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The private router waits until minute two, computes and communicates by minute three without exposing pair types. A single type has at most four jobs across four eligible slots; mixed types have the three-machine six-slot neighborhood. Its BC-first greedy example strands AB jobs but assigning BC to C restores feasibility; five of one type exceeds pair capacity."
+    },
+    {
+      "blind_id": "P2S27",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Four binding acceptances are routable after last-instant amendments, two parcels per destination at minutes eight and ten, with arrival by eleven. Five final north parcels exceed that vehicle's four seats; first-wave promises or losing the second wave reduce the robust bound to two. It preserves customer destination rights."
+    },
+    {
+      "blind_id": "P2S28",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The day-3/day-5 staged migrations deliver eight each day using oldest stock, keep at most four stored units, meet maintenance and readiness limits, and cost $20. A zero-output full switch needs four outsourced units ($24); moving first migration to day two leaves one unit short and costs at least $26 staged."
+    },
+    {
+      "blind_id": "P2S29",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Urgents use the first 36 verifier units; 24 parallel prechecks plus 50 ordinary routines use the remaining 84, so 74 admissions and six refusals finish that day. Current intake uses 75 routine units, uncapped open intake needs 96, and all 80 require 60 prechecks to save twelve units."
+    },
+    {
+      "blind_id": "P2S30",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "First 36 units protect urgents; 24 prechecked and 50 standard routines use exactly 84 remaining units, yielding 74 admissions and six truthful pre-admission refusals. Current 50 use 111 total, uncapped 80 need 132, and admitting all 80 requires 60 prechecks, 36 above current clerk capacity."
+    },
+    {
+      "blind_id": "P2S31",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The two-minute rule has an arrival just after segment start with almost two minutes waiting, then 0.5 handover and two urgent minutes, approaching 4.5 response and missing four. One-minute segments give a tight 3.5 response bound, retain progress, and include resume cost in R1/R2 completion by 7/11."
+    },
+    {
+      "blind_id": "P2S32",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "A private whole-batch router assigns only eligible machines and communicates named assignments by minute three. Single-type neighborhoods have four slots and mixed-type neighborhoods all six; the AC/BC/AB greedy order strands AB with only C free, whereas AC-to-C, BC-to-B, AB-to-A fits. Five of one type or arrivals after two lose the guarantee."
+    },
+    {
+      "blind_id": "P2S33",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "The staged days 3 and 5 meet delivery, capacity, maintenance, readiness and $20 spending; full switch needs four outsourced units ($24), and a first migration on day two needs one ($26 staged). The displayed plan violates the explicit oldest-first rule on day two by using new output while retaining day-one stock, and again on day four while a day-two unit remains. Correcting vintage consumption preserves the schedule and totals."
+    },
+    {
+      "blind_id": "P2S34",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 0,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 1,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 7,
+      "full_pass": false,
+      "reason": "The answer requires both confirmations before shared acceptance, gates paired pickup and charging, and rejects before matching cancellation with durable completed-ID fencing. Its contention winner depends on using atomic request-status authority as an interval-wide admission slot across both request IDs; that cross-request operation is not established. Parallel holds plus one total three-minute stop can fit minute seven, but the claimed universal bound does not address the stated one-stop-per-request allowance across two competing requests."
+    },
+    {
+      "blind_id": "P2S35",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The private router waits for all six jobs by minute two, assigns eligible machines in 0.5 minute and communicates only named placements by minute three. A pair type has at most four jobs for four eligible slots; mixed types have all six slots. Its AC-first greedy example strands an AB job although AC and BC can use C while AB fills A/B. Five of one pair exceeds pair capacity, and a later arrival loses the timing bound."
+    },
+    {
+      "blind_id": "P2S36",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "At red price 10.50 and quantity eight, margin is 20 within the finance predicate; the address change affects neither signature, while the blue-only safety approval needs red review. Review from minute six to ten and publication to eleven meet the deadline. It classifies both critics and derives five minutes as the longest red review."
+    }
+  ],
+  "judge_b": [
+    {
+      "blind_id": "P2S01",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [
+        "The asserted minute-seven guarantee counts only one three-minute stop, although one stop per competing request can delay the admitted request's firm answer beyond seven."
+      ],
+      "total": 8,
+      "full_pass": false,
+      "reason": "Single-request admission, parallel holds, paired pickup and repeat-safe cancellation give a sound normal path and late-command fence. But its 'two plus three plus one' outage bound omits the permitted stop after the other customer's early rejection: reject at 0, stop to 3, holds to 5, send confirmations and stop again to 8; the admitted customer's firm answer then misses 7."
+    },
+    {
+      "blind_id": "P2S02",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "$145 conditional on 72 original easy and 18 difficult confirmations strictly beats declining because target effort is 144; extra work only costs more. Strict per-ticket margins induce all 160 units and payout above $160. It rejects relabeling and gives the strict >$144 versus >$160 budget boundaries."
+    },
+    {
+      "blind_id": "P2S03",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "One-minute segments retain routine progress and include both half-minute transfer costs. An arrival just after a two-minute segment starts responds near 4.5, versus the repaired 3.5 bound; R1 and R2 finish by 7 and 11 on the interrupting path. The minimum permitted segment gives the matching lower bound."
+    },
+    {
+      "blind_id": "P2S04",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Both saved probes precede repairs; B before A prevents C, and final certification occurs by 5, 8 or 11 minutes. Its A-first both-fault rival takes 16 minutes. The reduced eight-minute deadline cannot safely distinguish and repair the both-fault and A-only states."
+    },
+    {
+      "blind_id": "P2S05",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 0,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 0,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "It misreads clear/hard B's (5,0) cost/damage as five damage, producing a false worst-case lower bound and changing the recommended policy and material-fee boundary."
+      ],
+      "total": 3,
+      "full_pass": false,
+      "reason": "Safe is permissible, and stays safe when blocked/hard is added, but is not optimal. In clear/hard, B costs 5 and causes zero damage. Material-first then route-on-soft has worst cost 7 at fee 2, beating Safe's 9; the original fee boundary is 4, not 0. The added state requires distinguishing hard by route before using B, which the answer does not analyze."
+    },
+    {
+      "blind_id": "P2S06",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Cooling alone is the decision-making comparison; its [45,49] output interval fails the wholly-at-least-47 authorization rule. It retains the bundle, reports gain ranges [15,19], [0,24], interaction [-19,9], and states their required sum is 24."
+    },
+    {
+      "blind_id": "P2S07",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The $1 option and $3 integer offer handle both private costs and B's disappearing capacity. Payments are $4 on low-cost A and $5 otherwise, so the worst expected payment is 5-0.3=$4.70; the credited-fee strategy beats direct B exactly when fee <2. Unverifiable reports and ties cannot replace this behavior-based guarantee."
+    },
+    {
+      "blind_id": "P2S08",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "It chooses cooling alone as the informative comparison and retains the bundle for [45,49] because 45<47. It gives the tight gain and interaction ranges, the additional bundle gain [5,9], and the dependence interaction=24-cooling gain-rotation gain."
+    },
+    {
+      "blind_id": "P2S09",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "The day-2 schedule delivers eight new day-2 units while two older day-1 units remain, violating the required oldest-first issue rule. Its dated balances, four-unit cap, migration spacing, full-switch four-unit bridge at $24, and one-preparation-day $26 lower bound are otherwise supported."
+    },
+    {
+      "blind_id": "P2S10",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Four accepted parcels can be routed after the last permitted amendment: two per final destination at minute eight and two at ten, delivered by eleven. All four switching to north is feasible; five all north exceeds four seats. Without the second wave the robust bound is two."
+    },
+    {
+      "blind_id": "P2S11",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The answer binds four deliveries without freezing destination or wave, processes minute-seven amendments, and gives a feasible two-plus-two all-north schedule. It rejects five using the four-seat route bound and derives two when the second departure is unavailable."
+    },
+    {
+      "blind_id": "P2S12",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Material-first, route-on-soft yields costs five, six, seven with safe actions, below Safe's nine. The original material-fee boundary is four. With blocked/hard added, both probes identify safe A/B choices and the worst cost is eight at fee two, moving the boundary to three."
+    },
+    {
+      "blind_id": "P2S13",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The $145 customer-record-conditioned payment gives $1 profit on the $144 minimum coverage set and no extra reward for surplus. Strict fixed rates induce all 160 units and payment above $160. Original classes and ties are handled, so only a budget strictly above $144 supports the coverage contract."
+    },
+    {
+      "blind_id": "P2S14",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Saved A/B probes guide B-before-A repairs and a final health check at minute five, eight or eleven. Full initial diagnosis would certify both faults only at fifteen. At minute eight, a safe all-state procedure cannot both distinguish repair targets and complete the both-fault repairs plus certification."
+    },
+    {
+      "blind_id": "P2S15",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The one-minute segment rule retains routine progress and includes handover and resume. A near-zero arrival under two-minute segments completes near 4.5 and misses its deadline; the repair gives a tight 3.5 urgent response with routine finishes bounded by seven and eleven."
+    },
+    {
+      "blind_id": "P2S16",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The $145 all-or-nothing offer uses immutable original classes, costs $144 at exact coverage, and strictly beats declining. Positive fixed margins induce all tickets and exceed $160 payout. It rejects the director's difficult-ticket loss and derives budget B>$144 for the coverage offer."
+    },
+    {
+      "blind_id": "P2S17",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Cooling alone is the only offered comparison resolving the authorization threshold; [45,49] leaves its lower bound below 47, so the bundle stays. The standalone and interaction ranges are tight, and their gains sum to the bundle's 24 without invented point attribution."
+    },
+    {
+      "blind_id": "P2S18",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "It reserves 36 urgent units and uses 24 clerk prechecks so 24+50(1.2)=84 routine units fit. Six of 80 are refused before admission, versus 50 current completions and infeasible uncapped 132-unit work. Sixty prechecks are required to admit all 80."
+    },
+    {
+      "blind_id": "P2S19",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 0,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 0,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "It reads clear/hard B's (cost 5, damage 0) as five damage, giving a false nine-cost lower bound and changing the policy and material-fee decision."
+      ],
+      "total": 3,
+      "full_pass": false,
+      "reason": "Safe is damage-feasible even with blocked/hard added, but the explicit claim that clear/hard B causes five damage reverses the problem. Material-first and route-on-soft achieves worst cost seven at fee two; the original fee boundary against Safe is four, not one or never. The added state requires a changed test branch for the optimal policy."
+    },
+    {
+      "blind_id": "P2S20",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Red at price 10.50 has margin 8(10.50-8)=20 within the signed finance condition. The blue safety signature is replaced by red review from minute six to ten, then publication to eleven. Address is outside both scopes, and red review can last at most five minutes."
+    },
+    {
+      "blind_id": "P2S21",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The minute-zero option and $3 offer cost four on low-cost A and five on rejection, guaranteeing completion by six. Worst expectation is 5-0.3=4.70. It compares direct B, other integer offers and unverifiable reports, and derives credited option fee below two."
+    },
+    {
+      "blind_id": "P2S22",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [
+        "The asserted minute-seven outage guarantee counts only one three-minute stop, despite the prompt allowing one stop per each of two competing requests; the admitted request can be unanswered after seven."
+      ],
+      "total": 8,
+      "full_pass": false,
+      "reason": "Durable tie breaking, paired acceptance and pickup, terminal rejection before cleanup, and request-ID tombstones support a normal safe path. But after sending the loser's rejection at zero, a stop may last to three; winner holds can finish at five, and a second stop just after confirmations are sent can delay the firm acceptance until eight. Its claimed single-stop bound omits this permitted sequence."
+    },
+    {
+      "blind_id": "P2S23",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "At minute six, eight red units priced at eleven yield margin 24 under the retained finance condition. Red safety review ends at ten and publication at eleven. The answer correctly separates address edits and order identity from signature scope and derives a five-minute maximum red review."
+    },
+    {
+      "blind_id": "P2S24",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The $1 B option plus $3 A offer guarantees completion and payments four or five; the worst expected payment is 4.70 at low-type probability .3. It rejects unreliable reports and dominated/tie posted offers, then gives the credited option boundary f<2."
+    },
+    {
+      "blind_id": "P2S25",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Both initial probes are saved, so B then A repairs only present targets and certification is at five, eight or eleven. The A-first both-fault rival creates C and certifies at sixteen. The both-fault all-state requirement exceeds minute eight after necessary diagnosis, repairs and check."
+    },
+    {
+      "blind_id": "P2S26",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 1,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "Private whole-batch assignment by minute three is feasible under pair counts at most four and total six. Its greedy failure with two B/C then four A/B jobs has a valid reassignment to C, A and B. The fixed-seat example is less sound: four A/B jobs use the full two-plus-two eligible slots, rather than more than two seats reserved for their type; the general criticism of fixed quotas remains plausible."
+    },
+    {
+      "blind_id": "P2S27",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Four binding final-destination deliveries can be allocated after minute-seven amendments across two departures, with vehicle return by 9.5. Five all-north after allowed amendments exceeds the north route's four seats; a first-wave or single-departure guarantee supports only two."
+    },
+    {
+      "blind_id": "P2S28",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "The day-five plan delivers two day-four units plus six new units while two older day-four units remain, contrary to oldest-first use. Apart from that stock-order error, dated balances, ages, capacity, maintenance, migration spacing, the $24 full-switch bridge and the one-preparation-day $26 bound are supported."
+    },
+    {
+      "blind_id": "P2S29",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Thirty-six urgent units are reserved, while 24 clerk prechecks and 50 standard routines exactly use the remaining 84 verifier units. Six of 80 are refused before admission. Current 50, uncapped 132 units, no-precheck 70, and the 60-precheck all-arrival boundary are calculated correctly."
+    },
+    {
+      "blind_id": "P2S30",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The cap of 74 admits 24 prechecked plus 50 standard routines at exactly 84 post-urgent units, with six truthful pre-admission refusals. Current and uncapped workloads are compared, and admitting all 80 would require 60 prechecks, 36 above stated clerk capacity."
+    },
+    {
+      "blind_id": "P2S31",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The two-minute adverse response approaches 4.5, while one-minute segments bound urgent response at 3.5 including handover and retain completed routine work. It includes resume time and gives routine finishes by seven and eleven, with the minimum permitted segment yielding the tight response bound."
+    },
+    {
+      "blind_id": "P2S32",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The private router's one-minute whole-batch computation and communication meets the deadline, with pair capacity four and total capacity six covering all subsets. Its A/C then B/C then A/B arrival pattern defeats first-free priority but has an explicit eligible reassignment. It explains static quotas and gives five-of-one-type, reduced total capacity, and late-arrival boundaries."
+    },
+    {
+      "blind_id": "P2S33",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "The staged stock trace delivers new day-two production while two day-one units remain; on day four it again delivers new output while the older day-two unit is left to expire. Those are one repeated oldest-first error. Daily amounts, stock cap, maintenance, migration spacing, $20 versus $24 comparison, and one-preparation-day $26 bridge otherwise check out."
+    },
+    {
+      "blind_id": "P2S34",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [
+        "The claimed minute-seven outage guarantee counts one three-minute stop, although the two simultaneous requests each permit a stop and their serial stops can delay the admitted answer beyond seven."
+      ],
+      "total": 8,
+      "full_pass": false,
+      "reason": "Single-record admission, parallel owner calls, paired acceptance, terminal rejection and ID fencing make a feasible normal path with cleanup before twelve. But rejecting the loser before owner requests can trigger a stop to minute three; a second stop for the admitted request after holds finish at five can defer knowledge of both confirmations until minute eight. The stated one-stop bound does not cover that allowed sequence."
+    },
+    {
+      "blind_id": "P2S35",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Private batch assignment completes by minute three under pair capacity four and total capacity six. Its A/C-then-A/B-then-B/C greedy example strands an A/B job, while two A/B to A, two to B and the other jobs to C are feasible. It explains fixed reservations, the fifth-of-type and late-arrival failures, and why three slots per machine make first-free safe for six jobs."
+    },
+    {
+      "blind_id": "P2S36",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Red at price 10.50 gives margin 8(10.50-8)=20 inside the retained finance condition. The blue-only safety signature is replaced by red review ending at ten, then publication at eleven. Address is outside approval scopes, and red review can last at most five minutes."
+    }
+  ],
+  "adjudicated": [
+    {
+      "blind_id": "P2S01",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 0,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "The universal minute-seven firm-answer bound budgets one three-minute stop, although the prompt permits one stop per competing request; the bound does not establish the claimed guarantee."
+      ],
+      "total": 5,
+      "full_pass": false,
+      "reason": "The answer separates provisional item states from paired acceptance and gates pickup and charging on both confirmations. Its parallel hold/confirm arithmetic works conditionally with one total stop, so the sequential oracle witness does not by itself refute it. But 'atomically admit one request' assumes an interval-wide cross-request gate not established by atomic changes to a request record; normal winner progress is therefore unproved. It then claims every request gets a firm answer by minute seven after counting only one stop, despite the per-request allowance for two competing customers. Matching IDs, an aborting phase and owner tombstones address late commands, but rejection is marked only after cancellations and the terminal accepted/rejected ordering and reconciliation bound remain incomplete."
+    },
+    {
+      "blind_id": "P2S05",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 1,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "It reads clear/hard B=(5,0) as five damage, yielding a false worst-case lower bound, an incorrect Safe-first recommendation, and the wrong material-fee boundary."
+      ],
+      "total": 5,
+      "full_pass": false,
+      "reason": "The answer uses the stated state set and a worst-case, no-prior objective, but misreads B's clear/hard cost/damage pair: B costs 5 and causes zero damage there. Safe immediately is feasible and has correctly counted zero probe fees, so branch safety earns credit independently of optimality. The table attempts the requested rival comparison but its costs and ranking are wrong: material first, then route only on soft, has worst cost 7 at material fee 2, below Safe's 9. Its m=0 boundary is consequently wrong; for the original state set the strict improvement boundary is m<4. It notices the added blocked/hard state and Safe remains safe, but it gives no revised cost-minimizing branching for that state."
+    },
+    {
+      "blind_id": "P2S19",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 1,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "It treats clear/hard B=(5,0) as five damage, making its nine-cost lower bound, Safe-first minimax choice and material-fee conclusion numerically invalid."
+      ],
+      "total": 5,
+      "full_pass": false,
+      "reason": "The answer works over the certified states without a prior, but explicitly says B causes five damage in clear/hard; the supplied pair means cost five, damage zero. Safe immediately remains permitted, costs nine with no fee, and is also safe in the added blocked/hard state, so branch feasibility earns credit. The table attempts worst-case comparison across no, one and conditional probes, but its rankings depend on the erroneous clear/hard premise: material first and route only after soft has worst cost seven at the stated fees. The claimed f=1 comparison between probing options does not give the required boundary against the best safe rival; material-first costs f+5 and strictly improves on Safe when f<4. The new state is acknowledged, but the answer does not derive the changed optimal branching or supported minimax cost."
+    },
+    {
+      "blind_id": "P2S22",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [
+        "Its universal minute-seven answer bound budgets one three-minute coordinator stop in total, although the stated allowance is one stop per competing request; two successive request-specific stops can invalidate that bound."
+      ],
+      "total": 8,
+      "full_pass": false,
+      "reason": "A fixed durable tie breaker chooses one simultaneous request before either owner is approached, avoiding a two-request hold cycle without needing cross-request atomic owner changes. The answer requires both confirmations before shared accepted status, gates pickup and charging on that status, rejects before matching cleanup, and uses completed-request entries to fence delayed commands. Its parallel owner work has a feasible normal winner and a conditional minute-six path if there is one coordinator stop overall. But its firm-answer claim explicitly relies on a single three-minute stop, while the prompt permits one stop per request. For example, one stop after the losing request's rejection and another after the winner's confirmation messages can keep the coordinator from issuing the winner's firm answer by minute seven. This does not establish that every parallel protocol fails under a one-total-stop interpretation."
+    },
+    {
+      "blind_id": "P2S26",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The private router can wait until minute two, compute for 0.5 minute and communicate only named assignments in another 0.5, meeting the deadline without disclosing eligible alternatives. The answer uses pair-specific four-slot capacity and the six-slot union for mixed types, rather than pooled capacity alone. Its greedy witness is valid: placing two B/C jobs on B leaves only A's two slots for four A/B jobs, whereas sending the B/C jobs to C and splitting A/B between A and B fits all six. Its fixed-seat witness is also valid: four A/B jobs exceed two permanently reserved A/B seats but can occupy both A and B completely, leaving C's two slots for one A/C and one B/C job. Five of one pair type exceeds its four eligible slots, and arrival after minute two removes the stated timing guarantee."
+    },
+    {
+      "blind_id": "P2S28",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "The staged day-three/day-five plan has enough authorized production and inventory for eight deliveries daily, fits the four-unit stock cap and two maintenance units, spaces migrations, and is ready by day five. Its day-five stock row nevertheless violates the explicit oldest-first operating rule: after day four it holds four day-four units, but on day five it delivers only two of them plus six new units and leaves two older units. Delivering all four day-four units plus four new units instead would retain the same six-unit output, leave two new units and preserve the $20 plan, so this vintage error does not prove a delivery, expiry or capacity failure or trigger a listed critical failure. The answer correctly establishes the full-switch four-unit outsourced bridge costing $24 and the one-preparation-day staged shortfall of one unit costing $6 more, or at least $26 total."
+    },
+    {
+      "blind_id": "P2S34",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 0,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [
+        "Its universal minute-seven firm-answer bound budgets one three-minute coordinator stop in total, although two competing requests each permit a stop; successive request-specific stops can make the claimed answer deadline fail."
+      ],
+      "total": 6,
+      "full_pass": false,
+      "reason": "The answer keeps item holds reversible until both confirmations are known, gates paired pickup and charging on shared acceptance plus both matching items, records rejection before cancellation, and uses stable IDs and completed-request memory against stale commands. Its parallel owner work can complete by minute six if only one coordinator stop occurs overall. But the proposed atomic interval-wide admission point is not established by the supplied ability to atomically change a request's status; without that cross-request gate, its no-cycle and guaranteed normal winner claims are unproved. Separately, the answer calls the minute-seven deadline universal after counting only one stop. A stop after the losing request's rejection and another after the admitted request's later messages can leave the coordinator unable to give the admitted request a firm answer by seven. This does not refute every parallel alternative under a one-total-stop interpretation."
+    }
+  ],
+  "final": [
+    {
+      "blind_id": "P2S01",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 0,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "The universal minute-seven firm-answer bound budgets one three-minute stop, although the prompt permits one stop per competing request; the bound does not establish the claimed guarantee."
+      ],
+      "total": 5,
+      "full_pass": false,
+      "reason": "The answer separates provisional item states from paired acceptance and gates pickup and charging on both confirmations. Its parallel hold/confirm arithmetic works conditionally with one total stop, so the sequential oracle witness does not by itself refute it. But 'atomically admit one request' assumes an interval-wide cross-request gate not established by atomic changes to a request record; normal winner progress is therefore unproved. It then claims every request gets a firm answer by minute seven after counting only one stop, despite the per-request allowance for two competing customers. Matching IDs, an aborting phase and owner tombstones address late commands, but rejection is marked only after cancellations and the terminal accepted/rejected ordering and reconciliation bound remain incomplete."
+    },
+    {
+      "blind_id": "P2S02",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "$145 contingent on 72 original easy and 18 original difficult confirmations exceeds their $144 effort cost and stays within $150; extra work reduces profit. Positive per-ticket margins induce all 160 effort units and payout above $160; ties do not guarantee work. Immutable customer records defeat relabeling and copies."
+    },
+    {
+      "blind_id": "P2S03",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "One-minute segments retain routine progress and bound urgent response by 1+0.5+2=3.5; an arrival just after a two-minute segment starts approaches 4.5 and misses its four-minute deadline. Including the 0.5 resume, R1 and R2 finish by 7 and 11. The minimum allowed segment supports the stated tight bound."
+    },
+    {
+      "blind_id": "P2S04",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Both initial markers are saved before repair; B then A prevents induced C, and the final check certifies each state by minutes 5, 8 or 11. The A-first both-fault rival takes 16 including C repair. The both-fault path cannot safely fit a universal minute-eight diagnosis, two repairs and check."
+    },
+    {
+      "blind_id": "P2S05",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 1,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "It reads clear/hard B=(5,0) as five damage, yielding a false worst-case lower bound, an incorrect Safe-first recommendation, and the wrong material-fee boundary."
+      ],
+      "total": 5,
+      "full_pass": false,
+      "reason": "The answer uses the stated state set and a worst-case, no-prior objective, but misreads B's clear/hard cost/damage pair: B costs 5 and causes zero damage there. Safe immediately is feasible and has correctly counted zero probe fees, so branch safety earns credit independently of optimality. The table attempts the requested rival comparison but its costs and ranking are wrong: material first, then route only on soft, has worst cost 7 at material fee 2, below Safe's 9. Its m=0 boundary is consequently wrong; for the original state set the strict improvement boundary is m<4. It notices the added blocked/hard state and Safe remains safe, but it gives no revised cost-minimizing branching for that state."
+    },
+    {
+      "blind_id": "P2S06",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Cooling-alone measurement directly tests the authorization lower bound; [45,49] does not wholly reach 47, so the bundle remains. The gains [15,19], [0,24], interaction [-19,9], and bundle 24 are tight and obey cooling plus rotation plus interaction equals 24."
+    },
+    {
+      "blind_id": "P2S07",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "A $3 offer strictly attracts only cost-$2 A; the minute-zero B option preserves completion if A rejects and correctly costs $4 or $5 by state. Worst expected payment is 5-p=4.70 at p=.3. Direct B, non-option offers, unverifiable reports, and the credited fee tie at $2 are addressed."
+    },
+    {
+      "blind_id": "P2S08",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Cooling-alone measurement alone tests the switch condition; lower bound 45 means retain bundle. Reported cooling [15,19], rotation [0,24], interaction [-19,9], and bundle 24 are tight, and the answer states their fixed-sum dependence rather than treating marginal extremes as independent."
+    },
+    {
+      "blind_id": "P2S09",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "The day-3/day-5 staged migration meets demand, stock capacity, maintenance and readiness for $20; the full switch needs four outsourced units ($24), and one preparation day requires one outsourced unit ($26 staged). The displayed stock plan violates the explicit oldest-first rule on day 2 by using new production while leaving day-1 stock; correcting that vintage allocation preserves its result."
+    },
+    {
+      "blind_id": "P2S10",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Four accepted parcels can be routed after minute-seven amendments as two per destination at minutes eight and ten; the first vehicle returns by 9.5 and all deliveries finish by eleven. Five all-north parcels exceed four north seats; no second departure reduces the robust maximum to two, and first-wave promises would add an unrequired limit."
+    },
+    {
+      "blind_id": "P2S11",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Accepting four and freezing routing after the last allowed amendment meets the final-destination contract for any mix, including four last-instant north changes. Two seats on each of two waves establish the four-order bound, while an all-north fifth order fails; without minute-ten departure the bound is two."
+    },
+    {
+      "blind_id": "P2S12",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Material-first identifies clear/hard for safe B at total 7; a soft result gets the route probe and safe A or B at totals 5 or 6. No probe costs 9, route-only 10, material-only 11, and route-first conditional 8. Worst cost m+5 beats Safe for m<4. With blocked/hard added, both probes and state-specific A/B cost at most m+6, or 8 at m=2."
+    },
+    {
+      "blind_id": "P2S13",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Customer-recorded threshold coverage costs 144 effort units, so a $145 all-or-nothing payment gives strictly positive profit within the $150 budget. Extra tickets lower profit; fixed rates above $1 and $4 would induce all 160 effort units and payment above $160. Original classes/IDs prevent label and copy gaming, with strict budget boundaries above $144 and $160."
+    },
+    {
+      "blind_id": "P2S14",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Saved initial A/B probes guide B-before-A repair and the final health check, certifying neither/single/both by minutes 5/8/11 without induced C. Full initial diagnosis reaches minute 15 for both and misses twelve. Its reduced-eight conclusion follows because safely identifying and repairing both faults plus certification takes eleven."
+    },
+    {
+      "blind_id": "P2S15",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "One-minute routine segments retain work and bound urgent response by one wait plus 0.5 handover plus two work minutes = 3.5. A just-after-zero arrival under two-minute segments finishes near 4.5, missing its four-minute response deadline. Including 0.5 resume puts R1/R2 at most at 7/11."
+    },
+    {
+      "blind_id": "P2S16",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The $145 customer-recorded coverage payment strictly rewards the minimum 72 easy/18 difficult subset costing $144 and fits every-subset budget. Positive fixed margins would induce all 100 tickets and payment above $160; equality may be refused. The answer preserves immutable classes and gives B>$144 as the all-or-nothing feasibility boundary."
+    },
+    {
+      "blind_id": "P2S17",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Cooling-alone comparison directly controls authorization; [45,49] has lower bound below 47, so the bundle stays. Gains [15,19] and [0,24], bundle 24, and interaction [-19,9] are tight, and their fixed sum of 24 prevents independent endpoint allocations."
+    },
+    {
+      "blind_id": "P2S18",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Reserve 36 verifier units for urgents and precheck 24 routines in parallel; 24(1)+50(1.2)=84 fits the remaining daily capacity, so admit 74 and refuse six before admission. Current 50 use 111 total units; uncapped 80 need 132 without prechecks. All 80 require 60 prechecks to save twelve units."
+    },
+    {
+      "blind_id": "P2S19",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 1,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "It treats clear/hard B=(5,0) as five damage, making its nine-cost lower bound, Safe-first minimax choice and material-fee conclusion numerically invalid."
+      ],
+      "total": 5,
+      "full_pass": false,
+      "reason": "The answer works over the certified states without a prior, but explicitly says B causes five damage in clear/hard; the supplied pair means cost five, damage zero. Safe immediately remains permitted, costs nine with no fee, and is also safe in the added blocked/hard state, so branch feasibility earns credit. The table attempts worst-case comparison across no, one and conditional probes, but its rankings depend on the erroneous clear/hard premise: material first and route only after soft has worst cost seven at the stated fees. The claimed f=1 comparison between probing options does not give the required boundary against the best safe rival; material-first costs f+5 and strictly improves on Safe when f<4. The new state is acknowledged, but the answer does not derive the changed optimal branching or supported minimax cost."
+    },
+    {
+      "blind_id": "P2S20",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "At red price 10.50, margin 8(10.50-8)=20 within the finance predicate; address is outside signatures, while red needs new safety review. Review 6–10 and publication 10–11 meet twelve. Both critics are correctly separated, and five minutes is the longest red review leaving one minute to publish."
+    },
+    {
+      "blind_id": "P2S21",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Minute-zero option plus $3 offer attracts only low-cost A, yielding $4 if accepted and credited $5 B fallback if rejected, with completion by minute six. Worst expectation 5-q peaks at $4.70 for q=.3. It compares direct B, other integer offers and unverifiable reports; option fee f ties direct B at f=2."
+    },
+    {
+      "blind_id": "P2S22",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [
+        "Its universal minute-seven answer bound budgets one three-minute coordinator stop in total, although the stated allowance is one stop per competing request; two successive request-specific stops can invalidate that bound."
+      ],
+      "total": 8,
+      "full_pass": false,
+      "reason": "A fixed durable tie breaker chooses one simultaneous request before either owner is approached, avoiding a two-request hold cycle without needing cross-request atomic owner changes. The answer requires both confirmations before shared accepted status, gates pickup and charging on that status, rejects before matching cleanup, and uses completed-request entries to fence delayed commands. Its parallel owner work has a feasible normal winner and a conditional minute-six path if there is one coordinator stop overall. But its firm-answer claim explicitly relies on a single three-minute stop, while the prompt permits one stop per request. For example, one stop after the losing request's rejection and another after the winner's confirmation messages can keep the coordinator from issuing the winner's firm answer by minute seven. This does not establish that every parallel protocol fails under a one-total-stop interpretation."
+    },
+    {
+      "blind_id": "P2S23",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Red at price 11 gives margin 24 under existing conditional finance approval; address does not affect either signature. Blue safety approval is replaced by red review 6–10 and publication ends at eleven. Both critics are resolved by scoped validation, and review can last at most five minutes before publication misses twelve."
+    },
+    {
+      "blind_id": "P2S24",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The $3 posted offer with the minute-zero B option yields $4 after low-cost acceptance or $5 after high-cost rejection, with completion by minute six. Worst expected payment is $4.70 at p=.3; direct B, nonoption offers, tie-prone low offers and unverifiable reports are addressed. General fee f gives low payment 3+f and ties B at f=2."
+    },
+    {
+      "blind_id": "P2S25",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Initial A/B probes remain authoritative after marker changes; B-before-A prevents induced C and a final check certifies none/single/both by minutes 5/8/11. The A-first both-fault rival creates C and certifies only at minute 16. The safe all-state diagnostic/repair path cannot fit a universal minute-eight deadline."
+    },
+    {
+      "blind_id": "P2S26",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The private router can wait until minute two, compute for 0.5 minute and communicate only named assignments in another 0.5, meeting the deadline without disclosing eligible alternatives. The answer uses pair-specific four-slot capacity and the six-slot union for mixed types, rather than pooled capacity alone. Its greedy witness is valid: placing two B/C jobs on B leaves only A's two slots for four A/B jobs, whereas sending the B/C jobs to C and splitting A/B between A and B fits all six. Its fixed-seat witness is also valid: four A/B jobs exceed two permanently reserved A/B seats but can occupy both A and B completely, leaving C's two slots for one A/C and one B/C job. Five of one pair type exceeds its four eligible slots, and arrival after minute two removes the stated timing guarantee."
+    },
+    {
+      "blind_id": "P2S27",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Four binding acceptances are routable after last-instant amendments, two parcels per destination at minutes eight and ten, with arrival by eleven. Five final north parcels exceed that vehicle's four seats; first-wave promises or losing the second wave reduce the robust bound to two. It preserves customer destination rights."
+    },
+    {
+      "blind_id": "P2S28",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "The staged day-three/day-five plan has enough authorized production and inventory for eight deliveries daily, fits the four-unit stock cap and two maintenance units, spaces migrations, and is ready by day five. Its day-five stock row nevertheless violates the explicit oldest-first operating rule: after day four it holds four day-four units, but on day five it delivers only two of them plus six new units and leaves two older units. Delivering all four day-four units plus four new units instead would retain the same six-unit output, leave two new units and preserve the $20 plan, so this vintage error does not prove a delivery, expiry or capacity failure or trigger a listed critical failure. The answer correctly establishes the full-switch four-unit outsourced bridge costing $24 and the one-preparation-day staged shortfall of one unit costing $6 more, or at least $26 total."
+    },
+    {
+      "blind_id": "P2S29",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Urgents use the first 36 verifier units; 24 parallel prechecks plus 50 ordinary routines use the remaining 84, so 74 admissions and six refusals finish that day. Current intake uses 75 routine units, uncapped open intake needs 96, and all 80 require 60 prechecks to save twelve units."
+    },
+    {
+      "blind_id": "P2S30",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "First 36 units protect urgents; 24 prechecked and 50 standard routines use exactly 84 remaining units, yielding 74 admissions and six truthful pre-admission refusals. Current 50 use 111 total, uncapped 80 need 132, and admitting all 80 requires 60 prechecks, 36 above current clerk capacity."
+    },
+    {
+      "blind_id": "P2S31",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The two-minute rule has an arrival just after segment start with almost two minutes waiting, then 0.5 handover and two urgent minutes, approaching 4.5 response and missing four. One-minute segments give a tight 3.5 response bound, retain progress, and include resume cost in R1/R2 completion by 7/11."
+    },
+    {
+      "blind_id": "P2S32",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "A private whole-batch router assigns only eligible machines and communicates named assignments by minute three. Single-type neighborhoods have four slots and mixed-type neighborhoods all six; the AC/BC/AB greedy order strands AB with only C free, whereas AC-to-C, BC-to-B, AB-to-A fits. Five of one type or arrivals after two lose the guarantee."
+    },
+    {
+      "blind_id": "P2S33",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 1,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "The staged days 3 and 5 meet delivery, capacity, maintenance, readiness and $20 spending; full switch needs four outsourced units ($24), and a first migration on day two needs one ($26 staged). The displayed plan violates the explicit oldest-first rule on day two by using new output while retaining day-one stock, and again on day four while a day-two unit remains. Correcting vintage consumption preserves the schedule and totals."
+    },
+    {
+      "blind_id": "P2S34",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 0,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 0,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [
+        "Its universal minute-seven firm-answer bound budgets one three-minute coordinator stop in total, although two competing requests each permit a stop; successive request-specific stops can make the claimed answer deadline fail."
+      ],
+      "total": 6,
+      "full_pass": false,
+      "reason": "The answer keeps item holds reversible until both confirmations are known, gates paired pickup and charging on shared acceptance plus both matching items, records rejection before cancellation, and uses stable IDs and completed-request memory against stale commands. Its parallel owner work can complete by minute six if only one coordinator stop occurs overall. But the proposed atomic interval-wide admission point is not established by the supplied ability to atomically change a request's status; without that cross-request gate, its no-cycle and guaranteed normal winner claims are unproved. Separately, the answer calls the minute-seven deadline universal after counting only one stop. A stop after the losing request's rejection and another after the admitted request's later messages can leave the coordinator unable to give the admitted request a firm answer by seven. This does not refute every parallel alternative under a one-total-stop interpretation."
+    },
+    {
+      "blind_id": "P2S35",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The private router waits for all six jobs by minute two, assigns eligible machines in 0.5 minute and communicates only named placements by minute three. A pair type has at most four jobs for four eligible slots; mixed types have all six slots. Its AC-first greedy example strands an AB job although AC and BC can use C while AB fills A/B. Five of one pair exceeds pair capacity, and a later arrival loses the timing bound."
+    },
+    {
+      "blind_id": "P2S36",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "At red price 10.50 and quantity eight, margin is 20 within the finance predicate; the address change affects neither signature, while the blue-only safety approval needs red review. Review from minute six to ten and publication to eleven meet the deadline. It classifies both critics and derives five minutes as the longest red review."
+    }
+  ],
+  "validity_qualification": "Post-baseline independent C05/H05 audit left request-stop semantics and admission authority unverified. Frozen inputs/outputs and numeric thresholds unchanged; no treatment observed. Ambiguity is not proven baseline inability."
+}

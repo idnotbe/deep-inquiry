@@ -6,9 +6,16 @@ An instruction-only Agent Skill for investigating problems beyond familiar answe
 
 **Primary targets:** GPT-6 Astra and Claude Fable 5.1. Shared reasoning rules remain portable; conditional model emphasis does not switch models or effort.
 
-**Status:** guidance-informed candidate. Repository checks validate structure and test the checker; they do not establish model behavior, creativity gains or production reliability. Host evaluations are defined but have not been run.
+**Status:** guidance-informed candidate. Repository checks validate structure and test the checker; they do not establish model behavior, creativity gains or production reliability. A [native evaluation](evals/v2/reports/2026-09-30-gpt-6-sol-medium.md) completed 96 original responses and a separate six-response skill-revision diagnostic whose one-line candidate was reverted; backend identity and causal skill improvement remain unverified.
+
+The [response-quality evaluation](evals/v3/reports/2026-09-30-gpt-6-sol-medium.md) retired three pools after 34/36, 31/36 and 23/24 full baseline passes left zero, one and zero valid difficult families. None met the six-family requirement. A difficult core has not been established, and the skill comparison remains unrun.
 
 ## What it does
+
+See [purpose and observable response depth](docs/evaluation-purpose.md) for the
+skill's intended contribution and the limits of earlier outcome checks. The
+[v3 evaluation protocol](evals/v3/README.md) separates baseline difficulty
+screening from a fresh comparison of response quality.
 
 - Confirm materially different problem interpretations before dependent research or design.
 - Challenge whether a supposedly necessary intermediate step is needed, identifiable, observable and economical; explore different mechanisms rather than renamed frameworks.
@@ -66,7 +73,7 @@ python -B tools/distribution.py
 
 The deliberately narrow checker rejects broken local paths, orphaned resources, invalid project metadata and malformed evaluation definitions. It does not parse arbitrary YAML/Markdown, execute skills, score creativity or prove prompt-injection resistance. Empty observations stay empty; a successful static check never becomes a host pass. The [model-specific suite](evals/model-suite.json) is checked by `tests/test_model_profile.py`; it is not a model runner.
 
-Keep task data, local model outputs and evaluation observations outside the installed bundle and outside committed files. The public examples are synthetic; supplied private conversations are not redistributed.
+Keep private task data and raw host records outside committed files. Reviewed synthetic prompts, final answers and grades may be published under evaluation reports; they remain outside the installed bundle. Supplied private conversations are not redistributed.
 
 ## License
 

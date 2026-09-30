@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "candidate_revision": "round1_repaired_pending_fresh_independent_review",
+  "status": "candidate_draft_requires_two_independent_review_rounds_and_freeze_before_model_execution",
+  "purpose": "Measure response quality of a delivered inquiry instruction package on baseline-screened difficult, self-contained dilemmas. No installed-skill activation, hidden-reasoning, backend identity or general population uplift claim.",
+  "model": {
+    "requested": "gpt-6-sol",
+    "requested_effort": "medium",
+    "execution": "native_host_only_no_external_API",
+    "backend_identity": "record host evidence separately; requested model is not proof of effective backend"
+  },
+  "inputs": {
+    "cases": "cases.json",
+    "rubrics": "rubrics.json",
+    "private_oracles": "temp/2026-09-30-rebuild/oracles.json",
+    "writer_access": "Both calibration and confirmation instances are writer-seen. Confirmation is a frozen new-instance set, not inaccessible/blind holdout.",
+    "freeze": "After reviews freeze SHA256 of exact case, rubric, protocol, root and reference bytes before screening. Amendments require prospective new version; never silently change a frozen item."
+  },
+  "scoring": {
+    "dimensions": 5,
+    "dimension_values": [
+      0,
+      1,
+      2
+    ],
+    "maximum": 10,
+    "full_pass": "score >= 8 AND zero critical failures",
+    "normalized_score": "dimension sum / 10",
+    "judging": "Blind arm labels; judge only final answer against task-specific anchors. Alternative valid answers accepted; concise excellent answers receive full credit. No credit for length, framework names, lens count, novelty or private reasoning.",
+    "missing": "Missing output is NOT_RUN/host failure, never a score of zero or task failure. Record every planned slot and outcome; scores require an actual output."
+  },
+  "screening": {
+    "split": "calibration",
+    "arm": "baseline_only",
+    "trials_per_family": 3,
+    "families": 12,
+    "planned_outputs": 36,
+    "exclude_if": "At least 2 of 3 full passes OR normalized mean strictly greater than 0.70",
+    "incomplete": "Any family with a missing trial remains screening-incomplete and unselected; retain all outcomes without replacing the missing trial.",
+    "zero_pass": "Include 0/3 full-pass family only after independent reviewer validates at least one feasible oracle or decision-useful uncertainty answer and task clarity. Oracle authors are not independent validators.",
+    "selection": "Outcome-blind to treatment; preserve excluded families and reason. No scored treatment trials occur before family selection freezes; the neutral native delivery canary is exempt.",
+    "minimum_retained_families": 6,
+    "insufficient_retention": "If fewer than six families qualify, report insufficient difficult-core coverage. Prospectively revise one candidate using baseline evidence, review and freeze a new candidate version; preserve prior screening records and do not claim adequate difficulty from the initial pool.",
+    "no_later_filter": "Do not filter confirmation based on either arm's results."
+  },
+  "confirmation": {
+    "split": "confirmation",
+    "families": "All and only families selected from calibration; different supplied scenarios/numbers",
+    "fresh_baseline": true,
+    "trials_per_arm_per_family": 3,
+    "arms": [
+      "baseline",
+      "treatment"
+    ],
+    "maximum_outputs": 72,
+    "all_retained": true,
+    "revision_rule": "Any tuned or revised confirmation case becomes development and requires prospectively authored replacement and a new freeze; do not replace an unfavorable observed outcome."
+  },
+  "controls": {
+    "split": "controls",
+    "ids": [
+      "K01",
+      "K02",
+      "K03"
+    ],
+    "trials_per_arm": 1,
+    "planned_outputs": 6,
+    "include_even_if_easy": true,
+    "score_reporting": "Separate conventional-winning checks outside difficult core; no core selection by control outcome.",
+    "counterfactual_links": {
+      "K01": "attribution",
+      "K02": "bottleneck",
+      "K03": "diagnostic_test"
+    },
+    "comparability": "Controls alter governing evidence/constraint toward a conventional winner; contrast reports are descriptive because instance content also changes."
+  },
+  "budget": {
+    "maximum_planned_outputs": 114,
+    "formula": "36 baseline screening + up to 72 confirmation + 6 controls",
+    "canary": "Out of score and outside planned model-output budget; record separately."
+  },
+  "runtime": {
+    "fresh_session_per_trial": true,
+    "timeout_seconds": 300,
+    "common_instructions": "Same host context, task bytes, tools prohibition, final-answer budget and common system instructions across arms; record unmatched host context.",
+    "turn_order": {
+      "seed": 20260930,
+      "method": "Within each stage, use seeded shuffled family/instance blocks and alternate arm order across repetition blocks; retain fixed generated order before dispatch.",
+      "screening": "Only baseline arm; seeded shuffle of all calibration family/repetition slots."
+    },
+    "treatment": {
+      "delivery": "Captured native delivery order: task, explicitly preloaded frozen inquiry-methods, evidence-and-diagnosis, alternatives-and-drafting references, then native root SKILL expansion named deep-inquiry:deep-inquiry. Verify exact bytes, uniqueness, source path and this order; host-provided context is outside the submitted input list.",
+      "root": ".agents/skills/deep-inquiry/SKILL.md",
+      "references": [
+        ".agents/skills/deep-inquiry/references/inquiry-methods.md",
+        ".agents/skills/deep-inquiry/references/evidence-and-diagnosis.md",
+        ".agents/skills/deep-inquiry/references/alternatives-and-drafting.md"
+      ],
+      "record": "Capture exact delivered text bytes/order and hashes. Method-only package; never include cases, rubrics, oracle answers or task-specific hints.",
+      "estimand": "Effect of delivered root plus three-reference package, not root alone, natural activation or progressive-loading success."
+    },
+    "baseline": "No treatment root/references. Verify absence of accidental skill autoexpansion and prior task/answer context; unresolved contamination makes comparison ineligible.",
+    "canary": "Before scored stages prove dispatch/result capture with an unscored neutral task; never use its answer as a scored output.",
+    "retries": {
+      "preturn_setup_maximum": 1,
+      "allowed_only": "Host trace positively proves model turn was never dispatched.",
+      "outcome_reruns": 0,
+      "ambiguous_dispatch": "No retry; preserve unknown delivery as host failure/NOT_RUN."
+    }
+  },
+  "reporting": {
+    "preserve": "All planned slots, actual outputs, scores, critical failures, missing/host failures, screened exclusions, selected families, model/effort evidence and eligibility limits.",
+    "primary": "Per-family confirmation normalized score and full-pass rate by arm plus paired slot differences; aggregate only across selected difficult families with denominator shown.",
+    "controls": "Report separately, including simple/conventional recommendation fidelity.",
+    "limitations": [
+      "Baseline-conditioned selection restricts inference to selected difficult families.",
+      "Same family new-instance confirmation is not transfer to unseen reasoning families.",
+      "All suite instances and oracles are writer-seen; no inaccessible holdout claim.",
+      "Host labels alone do not establish effective model/effort or isolated instruction exposure."
+    ],
+    "no_result": "This draft contains no actual target-model trial evidence."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "calibration": [
+    {
+      "id": "C01",
+      "family": "attribution",
+      "prompt": "A maintenance team must submit a contractually required attribution report for a script and a training course. Output was 40 fixes/day before either and 60 after both; staffing, workload and measurement are unchanged. Neither intervention was observed alone. The contract permits a provisional report of what is and is not supported, but forbids an unsupported numerical split. It defines each separate causal gain as the change caused by adding that intervention with the other absent, and requires any joint interaction reported separately. Next month you may randomly assign equal-workload, equal-staff teams to any combination of the two interventions, including neither; you may collect output in each assigned group. The sponsor proposes splitting the observed gain equally. Recommend what to submit now and a sufficient next-month design, explaining what its results could identify.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "C02",
+      "family": "bottleneck",
+      "prompt": "A plant must raise sustainable good output from 80 to at least 95 units per eight-hour day. Every unit passes preparation and then inspection. Preparation capacity is 140 attempts/day; inspection capacity is 100 attempts/day. One in five inspection attempts rejects a unit, which returns to preparation and inspection; rates and capacities are stable, no other losses occur. You may buy either a preparation upgrade to 200 attempts/day for $10,000, or an inspection fixture for $8,000 that reduces rejection to one in twenty with inspection capacity unchanged. No extra staff or bypass is allowed. Recommend a purchase and justify achieved output.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    },
+    {
+      "id": "C03",
+      "family": "diagnostic_test",
+      "prompt": "A dispatch service is losing deliveries. Exactly one of three mutually exclusive causes holds: A address-cache corruption, B expired credentials, C overloaded queue. A reversible cache reset fixes only A; credential renewal fixes only B; throttling fixes only C. Each action takes 10 minutes and harms service if applied to the wrong cause. A free log-summary test takes 5 minutes: red occurs only under A, blue under either B or C. A credential probe takes 5 minutes: expired only under B, valid under A or C. A full trace takes 45 minutes and identifies any cause. You have 25 minutes total including actions; tests do not change state and their stated results are certain. Recommend an operating procedure.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    },
+    {
+      "id": "C04",
+      "family": "operating_rules",
+      "prompt": "A document desk has 20 routine requests and one emergency arriving exactly when the signer starts a 12-minute batch. Routine release requires signature; the remaining daily schedule has 40 minutes of slack. A checklist-qualified emergency must release within 12 minutes of arrival; the duty officer may classify it and issue an unsigned approved form, with signer review next day. The officer takes eight minutes to classify and prepare the form. Every release, routine or emergency, must first receive a unique number in the existing register; officer registration takes two minutes and handoff one minute. The signer exclusively locks that register while batch signing, but on the officer's request can finish the current indivisible entry and unlock within two minutes, then resume the remaining batch later without losing entries. Officer preparation and signer work use different people and resources. No release before registration, extra staff, preassigned numbers or duplicate registers. Recommend a feasible process for this arrival and the routine batch. Give the maximum unlock delay under which your emergency plan still meets its deadline.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "C05",
+      "family": "threshold",
+      "prompt": "A service owner chooses Fast or Safe for the coming week, minimizing expected total weekly cost. Fast costs $200 plus $1,000 per failed handoff across ten handoffs. The failure probability is either p=.02 or p=.08, with equal prior probability; expected losses add. Safe costs $650 and prevents failures. Before committing you may use no test, a four-minute signal costing $35 that correctly labels the low/high-risk state with probability .8 in either state, or a twelve-minute exact test costing $70 that identifies the state without error. Test fees are additional whichever policy is chosen. After a test you may choose a policy conditional on its result. Policy activation takes five minutes; deadline is twenty minutes; each test may be used at most once, tests run sequentially and do not change the state. Recommend a complete decision plan and compare its expected cost with other permitted plans. Derive the largest exact-test fee for which your chosen plan remains preferable to the best alternative.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "C06",
+      "family": "incentives",
+      "prompt": "A customer-support supplier is paid a bonus when median reported completion time is under two days. It controls when a case is marked 'started' and may mark 'completed' before a customer confirms resolution. Hard cases are deferred; the customer's real objective is at least 90% of arrivals resolved within five days with no growing backlog. A customer-owned ticket system already records arrival time, resolution confirmation and open cases; the customer can change the bonus contract next month and audit five randomly selected tickets weekly but cannot add staff or force customers to respond. Nonresponding customers remain unresolved under the objective. Recommend a replacement bonus rule and address likely adaptation.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    },
+    {
+      "id": "C07",
+      "family": "analogy",
+      "prompt": "A tool library has four drills, two assigned to each of two volunteer desks in a fixed public ownership roster. Requests may arrive at either desk concurrently and concern overlapping time intervals; each customer must get a firm accept/reject within six minutes, and the receiving desk must check other stock before rejecting solely because its pair is busy. Availability is judged at each owning desk's atomic check, not guaranteed against later cancellations. The central clerk alone can atomically modify the combined schedule, but may be unavailable for eight minutes. Each desk is also authorized to atomically reserve or cancel only its own two drills in its existing local record; a request and response to either owning desk takes at most two minutes including its update, even at the stated concurrent load. A cancellation carries reservation ID; delayed/duplicate cancellations can arrive after the drill has been rebooked. You may set which permitted records govern confirmation; every item must have one committing authority at a time, and the ownership roster cannot change while reservations are live. No new stock or software. Advisers suggest supermarket self-service from the shared availability display, or central assignment like a concert box office. Neither display read creates a reservation. Recommend operating rules using whatever parts of these analogies actually fit. Handle simultaneous last-drill requests, cancellation and clerk outage.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "C08",
+      "family": "state_interface",
+      "prompt": "A reservation system has FREE, HELD(id,owner,expiry), and CONFIRMED(id,owner) states. Hold creates a fresh unique ID; expiry clears a matching HELD state at minute ten. The current callback confirm(id,owner) changes any HELD to CONFIRMED(id,owner) without validating current ID, owner or time. At minute zero Ana gets A1; minute ten A1 expires; minute eleven Ben gets B1; minute twelve Ana's payment callback A1 arrives. Callbacks may repeat, and expiry/payment can race. One atomic conditional state transition is available; each successful payment carries unique payment ID and original hold ID, and refunds may be recorded idempotently by payment ID. Recommend the smallest sufficient state/transition rules. Walk the delayed callback, a timely valid callback, a duplicate success callback and an expiry race. Do not refund a payment that already validly confirmed its own reservation.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "C09",
+      "family": "critique",
+      "prompt": "A clinic uses nurse checklist triage: emergencies go immediately to the doctor, others FIFO. Nurse classification is explicitly authorized; Critic A says it is always invalid because nurses are not doctors. Critic B shows a routine patient can deteriorate while waiting and the implemented queue never changes a patient's priority after entry. Existing resources: a desk can relay a patient's new complaint to the nurse within two minutes; nurse may set the priority field at any time and can evaluate the new complaint in three minutes; doctor reads that field for selection and can stop current work and start assessment within one minute of a new emergency priority. These steps are staffed at the stated demand. Emergency assessment must start within seven minutes of a complaint reaching the desk. No extra staff, automatic monitoring or direct observation of unreported symptoms. Recommend how to respond to both critics and repair the workflow, including what guarantee is possible. Explain the change if policy reserves all classification to doctors instead.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "C10",
+      "family": "combined_constraints",
+      "prompt": "A school must hand 24 individually assigned access codes to named students by noon. Only registrar may see codes. At 11:00 all codes are in opaque numbered envelopes, but a checked roster shows two envelopes contain each other's assigned code; registrar can privately inspect and correct each in two minutes, sequentially. Only one authorized courier can deliver; each named student's assigned-room visit and matching-row signature takes two minutes, with no batching. Courier may carry sealed envelopes and see names/numbers, never codes. Twenty-two students are continuously present; the other two are known absent until 11:58. Handoffs must occur in assigned rooms after presence, not advance signatures or proxies. Registrar cannot deliver or use another channel; no new staff or deadline extension. Recommend the confidentiality/identity correction and best feasible delivery schedule; state the maximum supported completion count by noon and how to report the unmet target.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "C11",
+      "family": "measurement_cost",
+      "prompt": "A board chooses Plan A or B for a quarter to minimize expected total cost. Demand is either n=400 or n=1000, equally likely. A costs $50,000+$100n; B $80,000+$50n. It may buy no measurement, a short signal for $1,000 that labels low/high demand correctly with probability .8 in either state, or an exact count for $8,000. Fees add to whichever plan is selected. After measuring, plan choice may depend on result. Signal takes four minutes; exact count twelve; plan commitment ten; decision deadline twenty-five minutes. Measurements are sequential, preserve demand and have no other value; repeating the short signal is not available, but following it with exact count is allowed if time permits. Recommend a decision/measurement plan, compare feasible alternatives including conditional further measurement, and derive a fee boundary for the short signal.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "C12",
+      "family": "complementarity_counterfactual",
+      "prompt": "Two production teams share a $6,000 upgrade budget. Each local workstation upgrade costs $3,000 and saves its team four hours/week with half an hour/week maintenance. A shared network costs $4,000; each team's adapter costs $1,000. The network saves a team ten hours/week only if that team also has an adapter and network is up. Network maintenance is two hours/week total regardless of one or two adapters; adapters need no maintenance. A local upgrade and network benefit cannot both be counted for the same team; purchases are indivisible. Network downtime fraction q is unknown in [.15,.35]; local savings are unaffected. Existing operator can supply at most two maintenance hours/week. Objective is greatest worst-case expected net weekly hours saved over q's interval, after maintenance. Recommend the purchase bundle within budget and compare other feasible bundles. Reconsider for a later quarter if q instead lies in [.65,.75], and give the switching downtime boundary between the full shared bundle and both local upgrades.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    }
+  ],
+  "confirmation": [
+    {
+      "id": "H01",
+      "family": "attribution",
+      "prompt": "A warehouse must report causal gains from routing software and coaching: 70 parcels/hour before either, 100 after both. Workload, staff and measurement are otherwise unchanged; neither was deployed separately. Separate gains mean adding each intervention with the other absent; joint interaction must be reported separately rather than arbitrarily divided. A supported provisional report is permitted, but unsupported allocation is forbidden. Next week you can randomly assign equally staffed lanes with equal workloads to any combination of the interventions and record output by assigned group. The director proposes assigning 20 to software and 10 to coaching. Recommend today's report and a sufficient study, explaining which gains it identifies.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "H02",
+      "family": "bottleneck",
+      "prompt": "A repair center needs at least 108 completed items/day. Intake can process 180 attempts/day; final test can process 120 attempts/day. One in four test attempts fails and repeats both steps. Either spend $12,000 to raise intake capacity to 240 or $9,000 to reduce test failure to one in ten, with capacity unchanged. Stable averages, no other losses, no bypass or new staff. Recommend a purchase.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    },
+    {
+      "id": "H03",
+      "family": "diagnostic_test",
+      "prompt": "A lab uploader fails for exactly one reason: A corrupt destination mapping, B revoked token, C saturated channel. Rebuild mapping fixes only A, replace token only B, cap rate only C; each takes 8 minutes and a wrong action corrupts pending work. A 4-minute status test returns amber only for A, green for B or C. A 4-minute token check returns revoked only for B, active for A or C. A complete diagnosis takes 35 minutes. Deadline is 20 minutes including repair; tests are certain and non-invasive. Recommend what to do.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    },
+    {
+      "id": "H04",
+      "family": "operating_rules",
+      "prompt": "A permit desk has 12 normal requests and an emergency arriving when the engineer starts a ten-minute batch. Normal release requires engineer signature; 30 minutes of slack remain afterwards. A checklist-qualified emergency must issue within nine minutes; dispatcher can classify and prepare the unsigned preset form in five minutes, with engineer review next day. Every issue must first receive a unique number in the single ledger: dispatcher ledger entry takes two minutes, handoff one. Engineer locks the ledger while batch signing but, when requested, can complete the current indivisible entry and unlock within three minutes, preserving unfinished entries for later resumption. Engineer work and dispatcher preparation use different people/resources. No preassigned number, unrecorded release, second ledger or new staff. Recommend the transaction and batch handling; derive the maximum permissible unlock delay.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "H05",
+      "family": "threshold",
+      "prompt": "A distributor selects Rapid or Guarded for a week, minimizing expected total cost. Rapid costs $300 plus $500 per failed order across twenty orders. Risk is either p=.03 or p=.09, equally likely; expected losses add. Guarded costs $850 and prevents failures. No test is mandatory. A three-minute signal costs $40 and labels the low/high state correctly with probability .75 in either state. A ten-minute exact test costs $80 and identifies the state. Test fees add to whichever policy is selected; a policy may depend on observed results. Activation takes four minutes, deadline sixteen, each test may be used at most once, tests are sequential and preserve risk. Recommend the complete plan, compare permitted alternatives, and derive the largest exact-test fee at which it beats the best alternative.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "H06",
+      "family": "incentives",
+      "prompt": "A repairs vendor earns a bonus for average reported wrench time below one hour. It can delay opening work orders and close them before the customer's acceptance; difficult repairs accumulate. The buyer instead needs 85% of weekly arrivals accepted within seven days and no increasing open backlog. Its existing portal records arrivals, customer acceptance and open items. It can amend bonuses and inspect four random jobs weekly but cannot add staff or compel acceptance. No acceptance means unresolved. Recommend the payment rule and account for gaming.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    },
+    {
+      "id": "H07",
+      "family": "analogy",
+      "prompt": "A community center has six projectors, three owned for scheduling by each of two attendant desks under a fixed roster. Either desk may receive overlapping requests. Patrons require firm accept/reject within seven minutes, and the receiving desk must check the other stock before rejecting solely because its own pool is busy. Availability is judged at each owning desk's atomic check, not guaranteed against later cancellations. Coordinator can atomically update the whole schedule but may be absent for nine minutes. Each attendant may atomically reserve/cancel only its own three in a local record; a message/atomic-update/response round trip to either desk is at most three minutes including the maximum concurrent load. Cancellation messages have reservation IDs and can be delayed or duplicated after rebooking. You may designate the governing records, but each item must have one committing authority at a time and live ownership assignments cannot change. No new system or inventory. Suggested analogies are self-service tables chosen from a display and all tickets issued by a central cashier; display reads do not commit anything. Recommend a mechanism, explaining which relations transfer and where the analogies fail. Cover concurrency, cancellation and coordinator absence.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "H08",
+      "family": "state_interface",
+      "prompt": "A locker allocator has EMPTY, RESERVED(id,user,expiry), ASSIGNED(id,user). Rui gets L1 until minute five; expiry empties it; Mina gets L2 at minute six; Rui's delayed success callback L1 arrives at minute seven. Current callback assigns its supplied ID/user whenever state is RESERVED, regardless of current ID or expiry. IDs are unique; callbacks have payment ID and reservation ID, may repeat, and race with expiry. Atomic conditional transitions and idempotent refund recording by payment ID are available. Recommend minimal rules and show the stale, timely, repeated-success and race outcomes. A payment already accepted for its own reservation must not be refunded.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "H09",
+      "family": "critique",
+      "prompt": "A helpdesk uses authorized technician checklist triage: outages to engineer, other tickets FIFO. Critic A says only engineers can classify, contrary to explicit authorization. Critic B documents a routine ticket worsening while queue priority remains fixed. Existing desk messages reach technician in one minute; technician can change priority at any time and evaluate a new report within two minutes; engineer reads priority and can interrupt work to begin handling a newly marked outage within one minute. Staff capacity supports these bounds. Handling must begin within five minutes of a new report reaching desk. No new staff or automatic detection of unreported problems. Recommend responses and a repair, including guaranteed and unobservable cases; consider a policy prohibiting technician classification.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "H10",
+      "family": "combined_constraints",
+      "prompt": "A facility must hand 30 individually assigned PINs to named recipients before 17:00. At 16:00 opaque numbered packets are ready, but a verified roster reveals two packets contain each other's PIN; only security officer may see PINs and can privately correct each in 1.5 minutes, sequentially. One authorized aide can deliver sealed packets; each assigned-room visit and named-recipient roster signature takes 1.5 minutes, no batching. Twenty-eight recipients are present throughout; two return at 16:58. No handoff before presence, proxies, advance signatures, electronic channel, officer delivery, extra staff or deadline extension. Recommend correction and scheduling, state the maximum guaranteed completion count by deadline under these facts, and report any shortfall honestly.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "H11",
+      "family": "measurement_cost",
+      "prompt": "A council chooses X or Y minimizing expected total cost. Demand is n=500 or n=1100 with equal probabilities. X costs $20,000+$40n; Y $35,000+$20n. Optional signal costs $400 and labels low/high demand correctly with probability .75 in either state; exact count costs $3,000. Fees add and plan may depend on result. Signal takes three minutes, exact eight, commitment six, deadline eighteen. A signal cannot be repeated, but exact count may follow a signal on selected outcomes. Demand unchanged; no other measurement benefit. Recommend the complete plan, compare no measurement, exact and conditional refinement, and give the largest signal fee that keeps it preferable to the best alternative.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    },
+    {
+      "id": "H12",
+      "family": "complementarity_counterfactual",
+      "prompt": "Two editing teams have a $10,000 equipment budget. Each local upgrade costs $5,000, saves five hours/week and takes half an hour/week maintenance. Shared storage costs $6,000 plus one $2,000 connector per participating team. Each connected team saves twelve hours/week only when storage is up; storage maintenance takes three hours/week total, connectors none. Local and storage benefits cannot both count for one team; purchases indivisible. Downtime fraction q lies in [.10,.30], no probability distribution over q; operator has three maintenance hours/week. Maximize worst-case expected net weekly hours saved after maintenance. Recommend a bundle, compare feasible rivals, then reconsider if q lies in [.60,.70]. Derive full-shared versus two-local switching boundary.\nGive a justified recommendation in at most 700 words. Use only supplied facts; do not use tools or outside research."
+    }
+  ],
+  "controls": [
+    {
+      "id": "K01",
+      "family": "conventional_attribution",
+      "prompt": "An agreement pays two contractors by verified hours at equal rates, not causal contribution. Approved reconciled records show 30 and 70 hours and a total fee of $5,000. No further data is required. Recommend the payment amounts with a brief justification.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    },
+    {
+      "id": "K02",
+      "family": "conventional_capacity",
+      "prompt": "A line needs 100 good units/day. Preparation supports 80 attempts/day; inspection supports 160. Every attempt succeeds, no rework or other loss. A preparation upgrade to 110 costs $4,000; an inspection upgrade to 220 costs $6,000. Only one may be purchased, no new staff. Recommend a purchase and justify.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    },
+    {
+      "id": "K03",
+      "family": "conventional_existing_test",
+      "prompt": "A device fault is either a disconnected sensor or expired certificate. The already completed certified test says 'certificate expired'; the test has no error and disconnected sensors always return 'sensor absent'. Reconnecting fixes only sensor faults; renewal fixes only expired certificates. Renewal takes five minutes and is authorized. Deadline is ten minutes; new full diagnostics take twenty. Recommend next action.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    }
+  ]
+}

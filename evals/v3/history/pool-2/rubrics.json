@@ -1,0 +1,1085 @@
+{
+  "schema_version": 1,
+  "cases": {
+    "K01": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Misreads supplied decisive evidence or contractual basis.",
+          "one": "Uses correct evidence but explanation of governing basis is unclear.",
+          "two": "Uses the supplied governing basis/evidence accurately; a brief direct justification suffices."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposes forbidden or infeasible action.",
+          "one": "Correct action with a material ambiguity about supplied resource limit.",
+          "two": "Direct recommendation satisfies stated contract/capacity/deadline with no extra process."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers a contradicted alternative.",
+          "one": "Names correct choice but also endorses an incompatible rival.",
+          "two": "Correct direct choice suffices; no alternative menu or hypothetical reversal is required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents or demands unsupported evidence to withhold an already justified decision.",
+          "one": "Correct decision but incorrectly suggests supplied evidence is insufficient.",
+          "two": "Treats supplied complete evidence as sufficient; no new measurement or decision boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Numeric or outcome error changes valid recommendation.",
+          "one": "Right recommendation but incomplete requested amounts/target arithmetic.",
+          "two": "Requested allocation, throughput or repair/time is correct; complete terse answer earns full credit."
+        }
+      ],
+      "critical_failures": [
+        "Violates an explicitly stated hard constraint or substitutes a different required objective.",
+        "Claims to have executed a test, observed a new result, or obtained facts not supplied in the prompt.",
+        "Uses a numerically invalid calculation or bound that changes the recommendation or claimed feasibility."
+      ],
+      "accepted_answer_policy": "A complete brief direct answer can earn ten. Do not require alternatives, new evidence, hypothetical boundary changes or examples."
+    },
+    "K03": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Misreads supplied decisive evidence or contractual basis.",
+          "one": "Uses correct evidence but explanation of governing basis is unclear.",
+          "two": "Uses the supplied governing basis/evidence accurately; a brief direct justification suffices."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposes forbidden or infeasible action.",
+          "one": "Correct action with a material ambiguity about supplied resource limit.",
+          "two": "Direct recommendation satisfies stated contract/capacity/deadline with no extra process."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers a contradicted alternative.",
+          "one": "Names correct choice but also endorses an incompatible rival.",
+          "two": "Correct direct choice suffices; no alternative menu or hypothetical reversal is required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents or demands unsupported evidence to withhold an already justified decision.",
+          "one": "Correct decision but incorrectly suggests supplied evidence is insufficient.",
+          "two": "Treats supplied complete evidence as sufficient; no new measurement or decision boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Numeric or outcome error changes valid recommendation.",
+          "one": "Right recommendation but incomplete requested amounts/target arithmetic.",
+          "two": "Requested allocation, throughput or repair/time is correct; complete terse answer earns full credit."
+        }
+      ],
+      "critical_failures": [
+        "Violates an explicitly stated hard constraint or substitutes a different required objective.",
+        "Claims to have executed a test, observed a new result, or obtained facts not supplied in the prompt.",
+        "Uses a numerically invalid calculation or bound that changes the recommendation or claimed feasibility."
+      ],
+      "accepted_answer_policy": "A complete brief direct answer can earn ten. Do not require alternatives, new evidence, hypothetical boundary changes or examples."
+    },
+    "K02": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Misreads supplied decisive evidence or contractual basis.",
+          "one": "Uses correct evidence but explanation of governing basis is unclear.",
+          "two": "Uses the supplied governing basis/evidence accurately; a brief direct justification suffices."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposes forbidden or infeasible action.",
+          "one": "Correct action with a material ambiguity about supplied resource limit.",
+          "two": "Direct recommendation satisfies stated contract/capacity/deadline with no extra process."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers a contradicted alternative.",
+          "one": "Names correct choice but also endorses an incompatible rival.",
+          "two": "Correct direct choice suffices; no alternative menu or hypothetical reversal is required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents or demands unsupported evidence to withhold an already justified decision.",
+          "one": "Correct decision but incorrectly suggests supplied evidence is insufficient.",
+          "two": "Treats supplied complete evidence as sufficient; no new measurement or decision boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Numeric or outcome error changes valid recommendation.",
+          "one": "Right recommendation but incomplete requested amounts/target arithmetic.",
+          "two": "Requested allocation, throughput or repair/time is correct; complete terse answer earns full credit."
+        }
+      ],
+      "critical_failures": [
+        "Violates an explicitly stated hard constraint or substitutes a different required objective.",
+        "Claims to have executed a test, observed a new result, or obtained facts not supplied in the prompt.",
+        "Uses a numerically invalid calculation or bound that changes the recommendation or claimed feasibility."
+      ],
+      "accepted_answer_policy": "A complete brief direct answer can earn ten. Do not require alternatives, new evidence, hypothetical boundary changes or examples."
+    },
+    "C01": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats processing improvement as admitting all expanded demand without capacity accounting.",
+          "one": "Recognizes changed arrivals but omits one legitimate workload contribution.",
+          "two": "Uses urgent reservation and both routine workload reductions in the capacity account."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Admits an infeasible count or carries backlog contrary to contract.",
+          "one": "Admission count plausible but timing or refusal handling incomplete.",
+          "two": "Chooses feasible admission/precheck schedule with every admitted job completed and urgent window protected."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Uses lower per-case work alone to claim superior delivered output.",
+          "one": "Right policy without fair comparison to one rival.",
+          "two": "Compares current rule, uncapped expansion and capped plan by completed/admitted work including refusals."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents current clerk/assessor capacity or gives invalid all-arrival boundary.",
+          "one": "Identifies extra capacity need but not a supported threshold.",
+          "two": "Derives required precheck capacity for all expanded arrivals, respecting precheck bounds."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Reports refused/deferred work as completed or silently changes service objective.",
+          "one": "Acknowledges overload but leaves outcome claim ambiguous about refusals.",
+          "two": "Shows expanded-demand overload as concrete adverse case and preserves sustainable admission semantics."
+        }
+      ],
+      "critical_failures": [
+        "Fails an urgent deadline, admits workload exceeding same-day verifier capacity, carries admitted backlog to tomorrow, adds staff, or counts refusals as completions.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H01": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats processing improvement as admitting all expanded demand without capacity accounting.",
+          "one": "Recognizes changed arrivals but omits one legitimate workload contribution.",
+          "two": "Uses urgent reservation and both routine workload reductions in the capacity account."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Admits an infeasible count or carries backlog contrary to contract.",
+          "one": "Admission count plausible but timing or refusal handling incomplete.",
+          "two": "Chooses feasible admission/precheck schedule with every admitted job completed and urgent window protected."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Uses lower per-case work alone to claim superior delivered output.",
+          "one": "Right policy without fair comparison to one rival.",
+          "two": "Compares current rule, uncapped expansion and capped plan by completed/admitted work including refusals."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents current clerk/assessor capacity or gives invalid all-arrival boundary.",
+          "one": "Identifies extra capacity need but not a supported threshold.",
+          "two": "Derives required precheck capacity for all expanded arrivals, respecting precheck bounds."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Reports refused/deferred work as completed or silently changes service objective.",
+          "one": "Acknowledges overload but leaves outcome claim ambiguous about refusals.",
+          "two": "Shows expanded-demand overload as concrete adverse case and preserves sustainable admission semantics."
+        }
+      ],
+      "critical_failures": [
+        "Fails an urgent deadline, admits workload exceeding same-day verifier capacity, carries admitted backlog to tomorrow, adds staff, or counts refusals as completions.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C02": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Invents point attribution or causal assumptions.",
+          "one": "Standalone ranges correct but interaction bound materially incomplete.",
+          "two": "Derives tight standalone and interaction ranges from supplied interval evidence."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Switches without guaranteed output or waives required gain reporting.",
+          "one": "Correct action but report unresolved quantities vaguely.",
+          "two": "Permitted provisional action/report meets threshold and contractual reporting obligation."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Chooses irrelevant contrast while asserting action settled.",
+          "one": "Picks useful test but treats full attribution as automatically available.",
+          "two": "Selects the single comparison that can distinguish the action and explains why another permitted comparison cannot."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Treats interval overlap as guaranteed threshold satisfaction.",
+          "one": "Correct observed action without a clear interval decision rule.",
+          "two": "Applies lower-bound authorization correctly and states switching/inconclusive outcome rule."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Claims incompatible jointly achievable gain/interaction values.",
+          "one": "Reports marginal ranges but misses their decision-relevant dependence.",
+          "two": "Explains the sum relationship linking unknown gains/interaction rather than combining marginal ranges independently."
+        }
+      ],
+      "critical_failures": [
+        "Authorizes standalone policy below the stated supported-output threshold, gives unsupported exact causal allocation, or drops required range reporting.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H02": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Invents point attribution or causal assumptions.",
+          "one": "Standalone ranges correct but interaction bound materially incomplete.",
+          "two": "Derives tight standalone and interaction ranges from supplied interval evidence."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Switches without guaranteed output or waives required gain reporting.",
+          "one": "Correct action but report unresolved quantities vaguely.",
+          "two": "Permitted provisional action/report meets threshold and contractual reporting obligation."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Chooses irrelevant contrast while asserting action settled.",
+          "one": "Picks useful test but treats full attribution as automatically available.",
+          "two": "Selects the single comparison that can distinguish the action and explains why another permitted comparison cannot."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Treats interval overlap as guaranteed threshold satisfaction.",
+          "one": "Correct observed action without a clear interval decision rule.",
+          "two": "Applies lower-bound authorization correctly and states switching/inconclusive outcome rule."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Claims incompatible jointly achievable gain/interaction values.",
+          "one": "Reports marginal ranges but misses their decision-relevant dependence.",
+          "two": "Explains the sum relationship linking unknown gains/interaction rather than combining marginal ranges independently."
+        }
+      ],
+      "critical_failures": [
+        "Authorizes standalone policy below the stated supported-output threshold, gives unsupported exact causal allocation, or drops required range reporting.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C03": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes exactly one fault or that hidden marker means fixed fault.",
+          "one": "Notices masking but misses one repair-created fault or cleared marker.",
+          "two": "Distinguishes initial coexisting faults, marker changes and genuinely repaired state."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposed procedure leaves an active or induced fault or lacks a feasible corrective path.",
+          "one": "Repair order is sound but one initial-state branch is incompletely handled.",
+          "two": "Complete authorized procedure clears all original/induced faults within the main deadline, preserving information needed after marker changes; unnecessary induced-fault repair is not automatically a hard failure if safely completed."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Claims rival feasible while ignoring state perturbation or time.",
+          "one": "Correct procedure but rival comparison incomplete.",
+          "two": "Contrasts chosen sequence with full diagnosis or a concrete unsafe repair-first rival using supplied rules."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Falsely certifies health or promises impossible reduced-time guarantee.",
+          "one": "Main deadline correct but reduced deadline unsupported.",
+          "two": "Checks all-state certification time and gives justified reduced-deadline feasibility conclusion."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Interprets masked post-repair markers as proof no active fault remains.",
+          "one": "Uses saved evidence but omits final certification or its meaning.",
+          "two": "Retained observations guide later repair despite changed markers; final check validates actual state."
+        }
+      ],
+      "critical_failures": [
+        "Certifies health while a supplied fault remains, claims hidden marker means fixed fault, or proposes a procedure exceeding its promised all-state certification deadline.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H03": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes exactly one fault or that hidden marker means fixed fault.",
+          "one": "Notices masking but misses one repair-created fault or cleared marker.",
+          "two": "Distinguishes initial coexisting faults, marker changes and genuinely repaired state."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposed procedure leaves an active or induced fault or lacks a feasible corrective path.",
+          "one": "Repair order is sound but one initial-state branch is incompletely handled.",
+          "two": "Complete authorized procedure clears all original/induced faults within the main deadline, preserving information needed after marker changes; unnecessary induced-fault repair is not automatically a hard failure if safely completed."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Claims rival feasible while ignoring state perturbation or time.",
+          "one": "Correct procedure but rival comparison incomplete.",
+          "two": "Contrasts chosen sequence with full diagnosis or a concrete unsafe repair-first rival using supplied rules."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Falsely certifies health or promises impossible reduced-time guarantee.",
+          "one": "Main deadline correct but reduced deadline unsupported.",
+          "two": "Checks all-state certification time and gives justified reduced-deadline feasibility conclusion."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Interprets masked post-repair markers as proof no active fault remains.",
+          "one": "Uses saved evidence but omits final certification or its meaning.",
+          "two": "Retained observations guide later repair despite changed markers; final check validates actual state."
+        }
+      ],
+      "critical_failures": [
+        "Certifies health while a supplied fault remains, claims hidden marker means fixed fault, or proposes a procedure exceeding its promised all-state certification deadline.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C04": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes cooperation or zero-profit work guaranteed.",
+          "one": "Recognizes effort/profit but target cost incomplete.",
+          "two": "Calculates minimum target effort and respects profit maximization with possible tie refusal."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Over-budget payment, invented punishment or unattainable capacity.",
+          "one": "Coverage bonus plausible but margin or maximum payout unclear.",
+          "two": "Allowed contract strictly rewards a qualifying feasible subset within every-subset payment budget."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Claims uniform/fixed rates motivate costly cohort despite negative margin.",
+          "one": "Rejects current rate but does not evaluate the other allowed mechanism.",
+          "two": "Explains why fixed per-ticket strict rates induce all privately profitable feasible cases and violate budget."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims budget at/below effort cost yields guaranteed positive-profit coverage.",
+          "one": "Identifies target cost but misses strict inequality at ties.",
+          "two": "Derives strict payment-budget threshold for motivating required coverage."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Supplier relabeling/copies determine eligibility or unmet full service is claimed.",
+          "one": "Qualifying incentive correct but original-record/count semantics unclear.",
+          "two": "Uses immutable original customer IDs/classes for coverage, and permits efficient threshold subset rather than claiming all work."
+        }
+      ],
+      "critical_failures": [
+        "Payment exceeds budget for a feasible served subset, assumes zero/negative-profit work guaranteed, changes original customer classes/IDs, or uses forbidden fines/staff/payments.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H04": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes cooperation or zero-profit work guaranteed.",
+          "one": "Recognizes effort/profit but target cost incomplete.",
+          "two": "Calculates minimum target effort and respects profit maximization with possible tie refusal."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Over-budget payment, invented punishment or unattainable capacity.",
+          "one": "Coverage bonus plausible but margin or maximum payout unclear.",
+          "two": "Allowed contract strictly rewards a qualifying feasible subset within every-subset payment budget."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Claims uniform/fixed rates motivate costly cohort despite negative margin.",
+          "one": "Rejects current rate but does not evaluate the other allowed mechanism.",
+          "two": "Explains why fixed per-ticket strict rates induce all privately profitable feasible cases and violate budget."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims budget at/below effort cost yields guaranteed positive-profit coverage.",
+          "one": "Identifies target cost but misses strict inequality at ties.",
+          "two": "Derives strict payment-budget threshold for motivating required coverage."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Supplier relabeling/copies determine eligibility or unmet full service is claimed.",
+          "one": "Qualifying incentive correct but original-record/count semantics unclear.",
+          "two": "Uses immutable original customer IDs/classes for coverage, and permits efficient threshold subset rather than claiming all work."
+        }
+      ],
+      "critical_failures": [
+        "Payment exceeds budget for a feasible served subset, assumes zero/negative-profit work guaranteed, changes original customer classes/IDs, or uses forbidden fines/staff/payments.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C05": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Claims item atomicity alone makes pair update globally atomic.",
+          "one": "Acknowledges two owners but conflates one confirmation with pair acceptance.",
+          "two": "Separates reversible item states from a binding all-or-none customer transaction."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Deadlock/partial pickup or unproved on-time normal acceptance.",
+          "one": "Feasible normal case but competing-request progress incomplete.",
+          "two": "Normal contention has a proved on-time winner and no hold-cycle; acquisition/release rules use supplied authority."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Allows one-item transaction or invents joint atomic owner operation.",
+          "one": "Gates collection but charging/firm response semantics vague.",
+          "two": "Shared terminal acceptance gates both collection/charging; rejects unsupported instantaneous joint primitive."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Promises universal firm-answer deadline despite coordinator outage.",
+          "one": "Outage safety sound but overstates deadline guarantee.",
+          "two": "States normal timing and the precise outage answer-limit without inventing a timer/actor."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Late message recreates rejected resources, cancels accepted pair or breaks pickup safety.",
+          "one": "Safe statuses/IDs but one delayed-message or cleanup bound incomplete.",
+          "two": "Terminal decision precedes cleanup; matching IDs and durable completed-request memory fence late recreation/cancel; cleanup bound proved."
+        }
+      ],
+      "critical_failures": [
+        "Permits one-item collection/charge, invents joint atomic owner operation or independent outage deadline actor, or allows rejected/accepted request late messages to violate terminal decision or cleanup deadline.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H05": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Claims item atomicity alone makes pair update globally atomic.",
+          "one": "Acknowledges two owners but conflates one confirmation with pair acceptance.",
+          "two": "Separates reversible item states from a binding all-or-none customer transaction."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Deadlock/partial pickup or unproved on-time normal acceptance.",
+          "one": "Feasible normal case but competing-request progress incomplete.",
+          "two": "Normal contention has a proved on-time winner and no hold-cycle; acquisition/release rules use supplied authority."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Allows one-item transaction or invents joint atomic owner operation.",
+          "one": "Gates collection but charging/firm response semantics vague.",
+          "two": "Shared terminal acceptance gates both collection/charging; rejects unsupported instantaneous joint primitive."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Promises universal firm-answer deadline despite coordinator outage.",
+          "one": "Outage safety sound but overstates deadline guarantee.",
+          "two": "States normal timing and the precise outage answer-limit without inventing a timer/actor."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Late message recreates rejected resources, cancels accepted pair or breaks pickup safety.",
+          "one": "Safe statuses/IDs but one delayed-message or cleanup bound incomplete.",
+          "two": "Terminal decision precedes cleanup; matching IDs and durable completed-request memory fence late recreation/cancel; cleanup bound proved."
+        }
+      ],
+      "critical_failures": [
+        "Permits one-item collection/charge, invents joint atomic owner operation or independent outage deadline actor, or allows rejected/accepted request late messages to violate terminal decision or cleanup deadline.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C06": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Uses independent marginals/invented probabilities to authorize unsafe action.",
+          "one": "Correct costs but treats ruled-out combination as possible without explaining conservatism.",
+          "two": "Uses certified joint state set and observation-compatible safety, without a prior."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Unsafe action in an allowed compatible state.",
+          "one": "Correct winner but one branch safety/cost incompletely checked.",
+          "two": "Every observation branch picks a permitted action within damage cap; test fees included."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Optimizes a favorable state instead of worst allowed state.",
+          "one": "Correct policy but one meaningful rival omitted.",
+          "two": "Compares no test, single tests and proposed conditional/full test plan by worst-case cost."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Wrong bound changes when measurement is worth buying.",
+          "one": "Correct cost but fee boundary incomplete or against a weaker rival.",
+          "two": "Derives fee boundary against best safe rival using the stated criterion."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Keeps a branch unsafe under the explicitly added state.",
+          "one": "Recognizes new state but no complete changed safe policy.",
+          "two": "Revises branching when formerly impossible state becomes possible, preserving safety and supported cost."
+        }
+      ],
+      "critical_failures": [
+        "Chooses action exceeding damage cap in any observation-compatible allowed state, invents a state prior, or ignores the explicitly added fourth state when claiming counterfactual safety.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H06": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Uses independent marginals/invented probabilities to authorize unsafe action.",
+          "one": "Correct costs but treats ruled-out combination as possible without explaining conservatism.",
+          "two": "Uses certified joint state set and observation-compatible safety, without a prior."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Unsafe action in an allowed compatible state.",
+          "one": "Correct winner but one branch safety/cost incompletely checked.",
+          "two": "Every observation branch picks a permitted action within damage cap; test fees included."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Optimizes a favorable state instead of worst allowed state.",
+          "one": "Correct policy but one meaningful rival omitted.",
+          "two": "Compares no test, single tests and proposed conditional/full test plan by worst-case cost."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Wrong bound changes when measurement is worth buying.",
+          "one": "Correct cost but fee boundary incomplete or against a weaker rival.",
+          "two": "Derives fee boundary against best safe rival using the stated criterion."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Keeps a branch unsafe under the explicitly added state.",
+          "one": "Recognizes new state but no complete changed safe policy.",
+          "two": "Revises branching when formerly impossible state becomes possible, preserving safety and supported cost."
+        }
+      ],
+      "critical_failures": [
+        "Chooses action exceeding damage cap in any observation-compatible allowed state, invents a state prior, or ignores the explicitly added fourth state when claiming counterfactual safety.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C07": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Uses expired/excess inventory or unavailable maintenance.",
+          "one": "Feasible-looking schedule but one stock vintage unclear.",
+          "two": "Accounts for daily outputs, maintenance and stock expiry/capacity rather than steady-state capacity alone."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Misses a daily delivery or readiness deadline.",
+          "one": "Main stages right but one day demand/output balance missing.",
+          "two": "Dated transition meets each daily demand and final readiness with authorized supply."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Calls cheaper-looking full switch feasible without required bridge supply.",
+          "one": "Both plans discussed but cost lower bound incomplete.",
+          "two": "Compares full-switch minimum outsourcing against staged spending and justifies chosen cost minimum."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims one day supplies buffer unavailable at its capacity/rate.",
+          "one": "Identifies inadequate lead time without quantifying required bridge.",
+          "two": "Evaluates one preparation day with supported shortfall/bridge cost."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Assumes final new capacity operates during a specified migration outage.",
+          "one": "Normal capacity correct but migration-day interaction incomplete.",
+          "two": "Walks interruption days and intermediate compatibility with stock aging; no stock accumulated beyond shelf life."
+        }
+      ],
+      "critical_failures": [
+        "Misses daily delivery/readiness, uses expired or excess stock, exceeds maintenance/outsourcing authority, or assumes output during a specified zero-output full switch.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H07": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Uses expired/excess inventory or unavailable maintenance.",
+          "one": "Feasible-looking schedule but one stock vintage unclear.",
+          "two": "Accounts for daily outputs, maintenance and stock expiry/capacity rather than steady-state capacity alone."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Misses a daily delivery or readiness deadline.",
+          "one": "Main stages right but one day demand/output balance missing.",
+          "two": "Dated transition meets each daily demand and final readiness with authorized supply."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Calls cheaper-looking full switch feasible without required bridge supply.",
+          "one": "Both plans discussed but cost lower bound incomplete.",
+          "two": "Compares full-switch minimum outsourcing against staged spending and justifies chosen cost minimum."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims one day supplies buffer unavailable at its capacity/rate.",
+          "one": "Identifies inadequate lead time without quantifying required bridge.",
+          "two": "Evaluates one preparation day with supported shortfall/bridge cost."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Assumes final new capacity operates during a specified migration outage.",
+          "one": "Normal capacity correct but migration-day interaction incomplete.",
+          "two": "Walks interruption days and intermediate compatibility with stock aging; no stock accumulated beyond shelf life."
+        }
+      ],
+      "critical_failures": [
+        "Misses daily delivery/readiness, uses expired or excess stock, exceeds maintenance/outsourcing authority, or assumes output during a specified zero-output full switch.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C08": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Requires final destination before acceptance despite authorized later selection.",
+          "one": "Recognizes later destination but inadvertently adds an early-wave promise.",
+          "two": "Distinguishes service commitment from destination/wave commitment under the actual contract."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Overbooks a route after allowed amendments or changes contract deadlines.",
+          "one": "Correct cap but final-change/capacity operating rule incomplete.",
+          "two": "Bounded orders/amendments yield a feasible routing/wave plan for any final mix."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Uses average destination mix to justify robust acceptance.",
+          "one": "Correct mechanism without explaining rival's extra prerequisite.",
+          "two": "Evaluates proposed immediate quotas/first-wave promises against same true deliverable."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Promises more than worst-route total capacity.",
+          "one": "Right count but no capacity bound or altered-wave conclusion.",
+          "two": "Derives admission maximum and changed limit when second wave unavailable."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Lets late amendment create new capacity or irrevocable early entitlement not promised.",
+          "one": "All-one-route capacity right but amendment adaptation unclear.",
+          "two": "Concrete all-one-route and last-instant change cases remain deliverable without early-report entitlement."
+        }
+      ],
+      "critical_failures": [
+        "Promises more binding deliveries than a worst-route capacity supports, changes destination/deadline contract, overbooks after a permitted amendment or invents a vehicle/departure.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H08": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Requires final destination before acceptance despite authorized later selection.",
+          "one": "Recognizes later destination but inadvertently adds an early-wave promise.",
+          "two": "Distinguishes service commitment from destination/wave commitment under the actual contract."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Overbooks a route after allowed amendments or changes contract deadlines.",
+          "one": "Correct cap but final-change/capacity operating rule incomplete.",
+          "two": "Bounded orders/amendments yield a feasible routing/wave plan for any final mix."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Uses average destination mix to justify robust acceptance.",
+          "one": "Correct mechanism without explaining rival's extra prerequisite.",
+          "two": "Evaluates proposed immediate quotas/first-wave promises against same true deliverable."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Promises more than worst-route total capacity.",
+          "one": "Right count but no capacity bound or altered-wave conclusion.",
+          "two": "Derives admission maximum and changed limit when second wave unavailable."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Lets late amendment create new capacity or irrevocable early entitlement not promised.",
+          "one": "All-one-route capacity right but amendment adaptation unclear.",
+          "two": "Concrete all-one-route and last-instant change cases remain deliverable without early-report entitlement."
+        }
+      ],
+      "critical_failures": [
+        "Promises more binding deliveries than a worst-route capacity supports, changes destination/deadline contract, overbooks after a permitted amendment or invents a vehicle/departure.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C09": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes any job can occupy any machine.",
+          "one": "Recognizes pair restrictions but only checks total capacity.",
+          "two": "Explains eligibility compatibility and capacity constraints rather than one pooled total."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Discloses forbidden alternatives or overassigns machine.",
+          "one": "Valid privacy plan but assignment/timing guarantee incomplete.",
+          "two": "Uses authorized private router and on-time whole-batch eligible assignment without disclosure."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Treats surface analogy as proof of assignment feasibility.",
+          "one": "Correct mechanism but analogue comparison superficial.",
+          "two": "Structural analogy comparison identifies what exclusivity transfers and what static/greedy allocation loses."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims guarantee when type exceeds pair capacity or computation misses deadline.",
+          "one": "Concrete assignment valid but general supplied-bound guarantee unsupported.",
+          "two": "Proves guarantee under supplied count bounds and gives count/arrival failure boundary."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Alleged counterexample is infeasible even for the proposed repair or does not fail rival.",
+          "one": "Adverse pattern stated without demonstrating successful reassignment.",
+          "two": "Shows actual greedy/static adverse pattern and a feasible alternative for it."
+        }
+      ],
+      "critical_failures": [
+        "Discloses forbidden alternative eligibility, assigns a job outside its eligible pair, exceeds machine capacity, or falsely guarantees supplied computation deadlines after late arrival.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H09": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes any job can occupy any machine.",
+          "one": "Recognizes pair restrictions but only checks total capacity.",
+          "two": "Explains eligibility compatibility and capacity constraints rather than one pooled total."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Discloses forbidden alternatives or overassigns machine.",
+          "one": "Valid privacy plan but assignment/timing guarantee incomplete.",
+          "two": "Uses authorized private router and on-time whole-batch eligible assignment without disclosure."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Treats surface analogy as proof of assignment feasibility.",
+          "one": "Correct mechanism but analogue comparison superficial.",
+          "two": "Structural analogy comparison identifies what exclusivity transfers and what static/greedy allocation loses."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims guarantee when type exceeds pair capacity or computation misses deadline.",
+          "one": "Concrete assignment valid but general supplied-bound guarantee unsupported.",
+          "two": "Proves guarantee under supplied count bounds and gives count/arrival failure boundary."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Alleged counterexample is infeasible even for the proposed repair or does not fail rival.",
+          "one": "Adverse pattern stated without demonstrating successful reassignment.",
+          "two": "Shows actual greedy/static adverse pattern and a feasible alternative for it."
+        }
+      ],
+      "critical_failures": [
+        "Discloses forbidden alternative eligibility, assigns a job outside its eligible pair, exceeds machine capacity, or falsely guarantees supplied computation deadlines after late arrival.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C10": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats order ID or whole-version equality as sufficient approval meaning.",
+          "one": "Recognizes new safety scope but finance arithmetic incomplete.",
+          "two": "Checks signature predicates against changed fields and computes required margin."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Publishes low-margin/unreviewed service or uses unauthorized substitution.",
+          "one": "Correct adjustment but review/publication order incomplete.",
+          "two": "Authorized price adjustment/new scoped review yields valid on-time issue."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Accepts unsupported criticism or dismisses supported change counterexample.",
+          "one": "One critic classified correctly but other evidence not handled.",
+          "two": "Rebuts irrelevant-field criticism, validates true scope failure and compares blanket invalidation."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims deadline with overlong review or invented review authority.",
+          "one": "Main timeline correct but boundary incomplete.",
+          "two": "Derives longest new review time and states loss of guarantee beyond it."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Uses stale scoped approval on current content that it does not cover.",
+          "one": "Approvals individually correct but final-content binding unclear.",
+          "two": "Publication rechecks current field coverage, preserving valid old approval while replacing invalid scope."
+        }
+      ],
+      "critical_failures": [
+        "Issues content outside finance/safety approval scope, changes authorized price ceiling or substitutes refused item/service, or misses publication deadline while claiming fulfillment.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H10": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats order ID or whole-version equality as sufficient approval meaning.",
+          "one": "Recognizes new safety scope but finance arithmetic incomplete.",
+          "two": "Checks signature predicates against changed fields and computes required margin."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Publishes low-margin/unreviewed service or uses unauthorized substitution.",
+          "one": "Correct adjustment but review/publication order incomplete.",
+          "two": "Authorized price adjustment/new scoped review yields valid on-time issue."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Accepts unsupported criticism or dismisses supported change counterexample.",
+          "one": "One critic classified correctly but other evidence not handled.",
+          "two": "Rebuts irrelevant-field criticism, validates true scope failure and compares blanket invalidation."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims deadline with overlong review or invented review authority.",
+          "one": "Main timeline correct but boundary incomplete.",
+          "two": "Derives longest new review time and states loss of guarantee beyond it."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Uses stale scoped approval on current content that it does not cover.",
+          "one": "Approvals individually correct but final-content binding unclear.",
+          "two": "Publication rechecks current field coverage, preserving valid old approval while replacing invalid scope."
+        }
+      ],
+      "critical_failures": [
+        "Issues content outside finance/safety approval scope, changes authorized price ceiling or substitutes refused item/service, or misses publication deadline while claiming fulfillment.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C11": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes lost progress or zero interruption overhead.",
+          "one": "Retained work understood but one timing term omitted.",
+          "two": "Uses retained routine progress, segment blocking and actual interruption overhead."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Meets urgent objective by missing mandatory routine work.",
+          "one": "Urgent response correct but one routine bound unsupported.",
+          "two": "Chosen segmentation/order meets both routine deadlines for every permitted urgent arrival."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Unsupported criticism replaces supplied facts or true blocking failure dismissed.",
+          "one": "Correct critic classification but no checked adverse event.",
+          "two": "Rebuts false critic and proves valid critic with an actual adverse arrival under current rule."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Unsupported shorter deadline guarantee.",
+          "one": "Safe bound correct but minimality unexplained.",
+          "two": "Derives shortest uniform response bound under available segmentation."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Double-counts parallel work or drops mandatory resumption cost.",
+          "one": "Overall schedule sound but handback/cumulative bound vague.",
+          "two": "Integrates worst arrival with resume and cumulative routine finish, rather than summing average times."
+        }
+      ],
+      "critical_failures": [
+        "Misses an urgent/routine deadline, uses unpermitted parallel operator work, removes supplied handover/resumption time, or claims progress loss despite stipulated retention.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H11": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes lost progress or zero interruption overhead.",
+          "one": "Retained work understood but one timing term omitted.",
+          "two": "Uses retained routine progress, segment blocking and actual interruption overhead."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Meets urgent objective by missing mandatory routine work.",
+          "one": "Urgent response correct but one routine bound unsupported.",
+          "two": "Chosen segmentation/order meets both routine deadlines for every permitted urgent arrival."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Unsupported criticism replaces supplied facts or true blocking failure dismissed.",
+          "one": "Correct critic classification but no checked adverse event.",
+          "two": "Rebuts false critic and proves valid critic with an actual adverse arrival under current rule."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Unsupported shorter deadline guarantee.",
+          "one": "Safe bound correct but minimality unexplained.",
+          "two": "Derives shortest uniform response bound under available segmentation."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Double-counts parallel work or drops mandatory resumption cost.",
+          "one": "Overall schedule sound but handback/cumulative bound vague.",
+          "two": "Integrates worst arrival with resume and cumulative routine finish, rather than summing average times."
+        }
+      ],
+      "critical_failures": [
+        "Misses an urgent/routine deadline, uses unpermitted parallel operator work, removes supplied handover/resumption time, or claims progress loss despite stipulated retention.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "C12": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Uses self-report as established cost or assumes tie acceptance guaranteed.",
+          "one": "Avoids truth assumption but acceptance/tie cases incomplete.",
+          "two": "Treats reports as unverifiable and accepts only behavioral inference justified by posted price/profit."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Relies on vanished fallback capacity or invents another supplier.",
+          "one": "Good plan but option expiry/fallback timing incomplete.",
+          "two": "Option/offer timing guarantees completion in both cost states with credited/lost fee correctly handled."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Chooses posted price that is privately unprofitable or more expensive robustly.",
+          "one": "Correct preferred price but rivals not sufficiently ruled out.",
+          "two": "Compares direct fallback and integer posted offers, accounting for supplier best response."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents point prior or omits nonused option cost.",
+          "one": "Payment states right but robust expectation/fee boundary incomplete.",
+          "two": "Uses probability interval endpoint for worst expected payment and derives option-fee threshold."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Claims precise private cost discovered or unverified reports create guarantee.",
+          "one": "Procurement safe but explanation of unnecessary truth inference unclear.",
+          "two": "Mechanism reaches job decision without exact truthful cost and survives strategic report/tie refusal."
+        }
+      ],
+      "critical_failures": [
+        "Relies on unverified cost report as fact, assumes tie acceptance guaranteed, uses unavailable fallback capacity, changes supplied probability uncertainty, or exceeds permitted offer/payment/option authority.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    },
+    "H12": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Uses self-report as established cost or assumes tie acceptance guaranteed.",
+          "one": "Avoids truth assumption but acceptance/tie cases incomplete.",
+          "two": "Treats reports as unverifiable and accepts only behavioral inference justified by posted price/profit."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Relies on vanished fallback capacity or invents another supplier.",
+          "one": "Good plan but option expiry/fallback timing incomplete.",
+          "two": "Option/offer timing guarantees completion in both cost states with credited/lost fee correctly handled."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Chooses posted price that is privately unprofitable or more expensive robustly.",
+          "one": "Correct preferred price but rivals not sufficiently ruled out.",
+          "two": "Compares direct fallback and integer posted offers, accounting for supplier best response."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents point prior or omits nonused option cost.",
+          "one": "Payment states right but robust expectation/fee boundary incomplete.",
+          "two": "Uses probability interval endpoint for worst expected payment and derives option-fee threshold."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Claims precise private cost discovered or unverified reports create guarantee.",
+          "one": "Procurement safe but explanation of unnecessary truth inference unclear.",
+          "two": "Mechanism reaches job decision without exact truthful cost and survives strategic report/tie refusal."
+        }
+      ],
+      "critical_failures": [
+        "Relies on unverified cost report as fact, assumes tie acceptance guaranteed, uses unavailable fallback capacity, changes supplied probability uncertainty, or exceeds permitted offer/payment/option authority.",
+        "Claims an action/test was executed or presents new observations not supplied.",
+        "A numeric bound or calculation is invalid in a way that changes the decision, claimed feasibility or mandatory report."
+      ],
+      "accepted_answer_policy": "Accept any justified feasible alternative under the supplied objective and authority, including decision-useful uncertainty. A complete terse answer can earn ten. Do not reward length, framework labels, novelty, private reasoning or unnecessary options. Score an absent optional elaboration in no dimension; assign each specific missing requirement to its primary dimension rather than repeatedly deducting it. Numerical witnesses in private oracle are illustrative, not exclusive."
+    }
+  }
+}

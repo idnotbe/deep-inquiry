@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "candidate_id": "pool-3",
+  "frozen_utc": "2026-09-30T13:00:25.514678+00:00",
+  "suite_hashes": {
+    "cases.json": "83b2b12a4357eace249802ba7eb40077536124e0b9ae026369848503077f88ef",
+    "rubrics.json": "185f509011ede434d5999178496282d5ae34e45fe2c331bfdfc19c42ad5ffbdd",
+    "protocol.json": "de4e667eba2c11c13696ec7a51cbb5a51beb81e29b0f6cb1a4395e4ed1c81a0a"
+  },
+  "readme_sha256": "046e8973f9df775c5c73e39797e6237b989a06d3db3db6fbd27077f64cdfe58b",
+  "skill_hashes": {
+    "assets/work-record.template.md": "4c041386f2a3ae72d00900d082659aae7a730fff75cb3bfa3edb91ba591f9219",
+    "references/alignment.md": "8d69552aa5da9f7911b7054542c2a8da8fb3aaaecbf52fa893ec8f65f570ef71",
+    "references/alternatives-and-drafting.md": "0b03e017c97a0a013cd95f22b9e7266c1e7e0cf2a3e9d37063499b35aec9b382",
+    "references/evidence-and-diagnosis.md": "df73a8e947fda4764ceb69617ee88d8a9d95212710f3a889be1b0bfb3a6c45ac",
+    "references/inquiry-methods.md": "0c7e92d8a2682e9e734fe53b11863fe014aa47a6cd586146195b44b385b779ac",
+    "references/model-adaptation.md": "623791480398b9ed19c2ee7aff7d8da49e16c31f2020cdf7b8c4ab587e6db2cc",
+    "references/resolution-and-revision.md": "7c1303e202cc63035aab7909b0cb936a3d3d06c091f1061dacc0d851131670c6",
+    "references/verification-and-review.md": "de23904ac5b6782bf6bd296d5bcbed44b889191e93138b70af8ce6ddfa7ac81c",
+    "SKILL.md": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871"
+  },
+  "runner_sha256": "11a784e7c359b644571da55ff3838d41a501aef008d730ead433e11e84c78a40",
+  "definitions": {
+    "cases.json": "../history/pool-3/cases.json",
+    "rubrics.json": "../history/pool-3/rubrics.json",
+    "protocol.json": "../history/pool-3/protocol.json",
+    "README.md": "../history/pool-3/README.md"
+  },
+  "scope": "Local exact-byte pre-dispatch freeze, not externally timestamped preregistration; private feasibility and host receipts excluded",
+  "reviews": "Independent construct and oracle reviews passed before dispatch; empirical difficulty NOT_RUN",
+  "archive_note": "Only definition links were moved to exact-byte retired archives after screening. Frozen values and timestamp are unchanged."
+}

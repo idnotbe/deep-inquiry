@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "report": "2026-09-19-gpt-5.6-terra-medium",
+  "evidence_kind": "redacted_operator_manifest",
+  "overall": "not_evaluated",
+  "requested": {
+    "target_model": "gpt-5.6-terra",
+    "target_model_identity": "requested_not_verified",
+    "effort": "medium",
+    "effort_identity": "requested_not_verified"
+  },
+  "engine": {
+    "name": "codex",
+    "codex_cli_version": "0.155.0",
+    "python_version": "Python 3.13.1",
+    "launcher": "git_bash"
+  },
+  "source_calibration_manifest_sha256": "e276fcc5fcad5ac58e957573c8e468aaa4adba7cbb84479322c54fc7a7862e6b",
+  "suite_sha256": "0c990ac5810dbe5839a8377b60ec4d63b31ca691ca2cb71b1fdd326813f25bd5",
+  "skill_sha256": "d25ff1e23a5f533ce350f81475f99509fd2748ce66e6c64aae428039cad50b2c",
+  "evaluation_conditions": {
+    "workspace": "fresh_workspace_only",
+    "externally_controlled_profile_or_sandbox": "not_established",
+    "model_and_effort": "requested_not_verified",
+    "native_activation_proof": false,
+    "scope": "N21_calibration_only"
+  },
+  "trials": [
+    {
+      "condition": "without_skill",
+      "case_id": "N21",
+      "repetition": 1,
+      "record_status": "error",
+      "evaluator_run_exit_code": 2,
+      "child_host_exit_code": 1,
+      "response_present": false,
+      "trace_complete": false,
+      "observed_tool_call_count": 0,
+      "native_selection": "unknown",
+      "elapsed_seconds": 3.7602209000033326,
+      "run_exit_category": "authentication_token_refresh_failure",
+      "grader_exit_code": 0,
+      "grade_counts": {
+        "pass": 0,
+        "fail": 0,
+        "not_run": 5
+      },
+      "fully_verified": false,
+      "comparison_eligible": false
+    },
+    {
+      "condition": "with_skill",
+      "case_id": "N21",
+      "repetition": 1,
+      "record_status": "error",
+      "evaluator_run_exit_code": 2,
+      "child_host_exit_code": 1,
+      "response_present": false,
+      "trace_complete": false,
+      "observed_tool_call_count": 0,
+      "native_selection": "unknown",
+      "elapsed_seconds": 3.9943142000120133,
+      "run_exit_category": "authentication_token_refresh_failure",
+      "grader_exit_code": 0,
+      "grade_counts": {
+        "pass": 0,
+        "fail": 0,
+        "not_run": 5
+      },
+      "fully_verified": false,
+      "comparison_eligible": false
+    }
+  ],
+  "raw_artifacts": "excluded"
+}

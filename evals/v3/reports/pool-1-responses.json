@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "candidate_id": "pool-1",
+  "data": "reviewed_synthetic_final_answers_only_no_raw_host_context",
+  "definitions": "../history/pool-1/cases.json",
+  "responses": [
+    {
+      "blind_id": "S01",
+      "case_id": "C05",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "**Use the exact test**, then choose Fast if it reports \\(p=.02\\) and Safe if it reports \\(p=.08\\). The test and policy activation take \\(12+5=17\\) minutes, within the 20-minute deadline.\n\nAcross ten handoffs, Fast’s expected cost is \\(200+10(1{,}000)p\\): **$400** in the low-risk state and **$1,000** in the high-risk state. Safe costs **$650** in either state. The exact-test plan therefore costs\n\\[\n70+\\tfrac12(400)+\\tfrac12(650)=\\boxed{\\$595}\n\\]\nin expectation.\n\n| Plan | Best policy choices | Expected weekly cost |\n|---|---|---:|\n| No test | Safe (Fast would cost $700) | $650 |\n| Four-minute signal | Fast on a low-risk label; Safe on a high-risk label | $620 |\n| Exact test | Fast if low risk; Safe if high risk | **$595** |\n\nFor the signal, a low-risk label gives an 80% chance of the low-risk state, making Fast cost \\(0.8(400)+0.2(1{,}000)=\\$520\\). A high-risk label makes Safe cheaper. Each label occurs with probability one-half, so the signal plan costs \\(35+\\tfrac12(520)+\\tfrac12(650)=\\$620\\).\n\nUsing both tests would take \\(4+12+5=21\\) minutes and miss the deadline. If the exact-test fee is \\(F\\), its expected cost is \\(525+F\\). It ties the best alternative, the signal plan, at **\\(F=\\$95\\)**; it is strictly preferable for any fee below $95.",
+      "final_sha256": "3324a34a5ea6e9e19e9c0d76848f8e8741919be157a6c90e1ce035768c22fa66",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S02",
+      "case_id": "C04",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Request the register unlock as soon as the emergency arrives. While the signer finishes the current indivisible entry, the duty officer classifies the emergency and prepares the approved form. Keep the register available for the officer until the emergency is numbered.\n\nWith the stated two-minute unlock bound, the officer finishes preparation at minute 8, registers the emergency during minutes 8–10, and hands off the numbered form for release during minutes 10–11. The checklist-qualified emergency therefore releases one minute before its deadline. The signer then resumes the remaining routine entries; routine releases still require signatures. Even if the signer has made no progress on the batch before unlocking, holding the register through minute 10 delays the 12-minute batch by at most 10 minutes, within the 40 minutes of schedule slack.\n\nFor this preparation-first sequence, an unlock at time \\(d\\) gives a release time of \\(\\max(8,d)+2+1\\) minutes after arrival. The **maximum unlock delay is 9 minutes**: registration can then run from minute 9 to 11, followed by handoff by minute 12.",
+      "final_sha256": "3b13fff7b247be49fdc094b4e4cd0edb51ef1eefb583c72f6e2f57166b225c2c",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S03",
+      "case_id": "C11",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "**Buy the short signal, then choose A if it labels demand low and B if it labels demand high.** Its expected total cost is **$114,000**, including the $1,000 fee, and the decision finishes in 14 minutes.\n\n| Strategy | Expected total cost | Time |\n|---|---:|---:|\n| No measurement; choose B | $115,000 | 10 minutes |\n| Short signal; choose A on low, B on high | **$114,000** | 14 minutes |\n| Exact count; choose A at 400, B at 1000 | $118,000 | 22 minutes |\n\nAt demand 400, A costs $90,000 and B costs $100,000. At demand 1000, A costs $150,000 and B costs $130,000. Without measurement, B has the lower expected cost: $115,000 versus A’s $120,000.\n\nEach short-signal label occurs with probability one-half. Given a low label, the probability of low demand is 0.8, making A’s expected plan cost $102,000 versus B’s $106,000. Given a high label, B’s expected plan cost is $124,000 versus A’s $138,000. The resulting expected plan cost is $(102,000+124,000)/2=$113,000 before the fee.\n\nA short signal followed by an exact count and plan commitment would take **26 minutes**, missing the 25-minute deadline. The exact count also leaves no need for another signal.\n\nThe short signal saves **$2,000 before its fee** compared with choosing B immediately. Thus its fee boundary is **$2,000**: below that, buy it; at that fee, the two choices tie; above it, choose B without measuring.",
+      "final_sha256": "b05f2dfee562322b00a9c6b209870ae8c996aeb39dbc3e4ae818257e72b1b371",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S04",
+      "case_id": "C03",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Run the **log-summary test** first.\n\n- **Red:** Reset the cache. Total: 15 minutes.\n- **Blue:** Run the credential probe. If it says **expired**, renew credentials; if it says **valid**, throttle the queue. Total: 20 minutes.\n\nThe stated results identify the cause with certainty before any action, so the procedure avoids harming service with a wrong fix. Its worst-case time is 20 minutes, within the 25-minute limit. The full trace alone exceeds the limit, and one five-minute test cannot distinguish all three causes.",
+      "final_sha256": "83dc0ae74ba318c66002f362c4b419ec47dff0373926a3b9e04c728c5321acaa",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S05",
+      "case_id": "C06",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Replace the bonus with a **monthly, all-arrivals rule** based on the customer-owned ticket system:\n\n- Pay the bonus only if at least **90% of cases that arrived in the measurement cohort** have customer-confirmed resolution within five days of arrival. Include every arrival, whether or not the supplier marked it “started.” A case with no customer confirmation counts as unresolved.\n- Also require the **number of open cases not to increase** from the start to the end of the month. Use the system’s open-case records for both snapshots. Assess the five-day result only for arrivals whose full five-day window has elapsed; carry later arrivals into the next assessment.\n\nThis ties payment to the customer’s objective. Supplier-controlled start and completion timestamps no longer affect the result, and deferring hard cases hurts both the resolution rate and the backlog condition. An arrival surge or customers who do not respond may make the bonus unattainable in a particular month, but excluding those cases would conceal a failure of the stated objective. The customer should review such months separately when deciding whether the contract’s target remains workable.\n\nExpect the supplier to concentrate on cases near the five-day deadline, seek quick confirmations, or try to close difficult cases superficially. Keep the original arrival time and case identity when a case is reopened, and count resolution only when the customer actually confirms it. Each week, use the five random ticket audits to compare the recorded arrival, confirmation, and open status with the case history, including whether a purported resolution held. Make accurate records a condition of the bonus: a verified false confirmation or concealed open case should trigger review of that month’s payment. Five audits provide a deterrent and a way to find problems, but they cannot establish that every case was handled well.",
+      "final_sha256": "c5ba85ea19614d511858200b477683ee87167da4297124064c3217f05d86bdcf",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S06",
+      "case_id": "C02",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Buy the **$8,000 inspection fixture**. With a 5% rejection rate, 100 inspection attempts produce \\(100 \\times 0.95 = 95\\) good units per day. Those 100 attempts, including repeat attempts for rejected units, require 100 preparation attempts, within the existing capacity of 140.\n\nThe preparation upgrade would leave inspection at 100 attempts and rejection at 20%, so good output would remain \\(100 \\times 0.80 = 80\\) units per day. It would not meet the target.",
+      "final_sha256": "7c910bbfc6139d291e78e8b58f80d356ee41ce33e5247810bd00d6ddb1f04107",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S07",
+      "case_id": "C12",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Buy the shared network and both adapters.** The $6,000 bundle uses the full budget and requires exactly the operator’s two available maintenance hours. At the worst downtime in the current interval, \\(q=.35\\), it saves \\(20(1-.35)-2=\\mathbf{11}\\) net hours per week.\n\n| Feasible bundle | Cost | Worst-case net hours/week, \\(q\\in[.15,.35]\\) |\n|---|---:|---:|\n| Network + two adapters | $6,000 | **11** |\n| Two local upgrades | $6,000 | 7 |\n| Network + one adapter | $5,000 | 4.5 |\n| One local upgrade | $3,000 | 3.5 |\n| No effective upgrade | $0–$4,000 | At most 0 |\n\nThe last row covers unused adapters and a network with no adapter. Adding unused adapters to a local upgrade leaves its savings unchanged. A local upgrade cannot be combined with the network within the budget.\n\n**For the later quarter**, if \\(q\\in[.65,.75]\\), buy both local upgrades: their worst-case net saving remains **7 hours/week**, versus \\(20(1-.75)-2=3\\) for the full shared bundle.\n\nThe two full bundles tie when \\(20(1-q)-2=7\\), giving a **switching boundary of \\(q=.55\\)**. The shared bundle is better below that downtime fraction; both local upgrades are better above it.",
+      "final_sha256": "e36921f9ff28f5327755f5eb01866862b6d30ddd1ae15b8c3fb850267cf216fe",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S08",
+      "case_id": "C02",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Buy the **$8,000 inspection fixture**. At a 5% rejection rate, 100 inspection attempts produce **95 good units** per day. Each rejected unit returns through preparation, so those 100 inspection attempts also require 100 preparation attempts—within the existing capacity of 140.\n\nThe $10,000 preparation upgrade would leave inspection unchanged. Its 100-attempt capacity and 20% rejection rate would still limit good output to **80 units per day**. Only the fixture meets the 95-unit target.",
+      "final_sha256": "ee97bcfc53cc189d0804f1085ddeeb0d849a3a05e2503b0e33c25f1b585170d3",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S09",
+      "case_id": "C07",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "**Make each owning desk’s local record the authority for its two drills.** A booking is accepted only when that desk atomically reserves an available drill for the requested interval and returns a reservation ID. The central schedule and shared display may show availability, but neither governs confirmation. The clerk should not make competing bookings in the combined schedule while local ownership is in force.\n\nThe receiving desk should first try its own pair. If both are busy, it must send the request to the other owning desk for an atomic availability check and reservation attempt. It should reject only if that attempt also fails. The two desk operations take at most four minutes in sequence, within the six-minute decision limit. A rejection reflects availability at those atomic checks; a later cancellation does not make the earlier rejection wrong.\n\nSimultaneous requests for a last available drill are settled by its owning desk’s atomic operation: one can reserve it, and the other must try remaining stock or reject. Route cancellations by reservation ID to the owning desk. Cancel only if the drill’s **current** reservation ID matches; a delayed or duplicate cancellation must leave a replacement booking intact. Do not reuse reservation IDs.\n\nThe supermarket analogy fits customer choice and a useful availability display, but selecting a displayed drill cannot confirm it. Central box-office assignment would give a single atomic schedule, but the clerk’s eight-minute outage exceeds the decision deadline. Fixed desk ownership supplies one committing authority per drill throughout live reservations, including during that outage.",
+      "final_sha256": "7e3d28c7a0fe1664edc99c7d681fb619631fe6a959c3a9205495377506d31624",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S10",
+      "case_id": "C08",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Store `HELD(id, owner, expiry)` and `CONFIRMED(id, owner, paymentId)`. The payment ID in `CONFIRMED` is needed to recognize a repeat callback for the payment that won.\n\nOn a successful payment callback, atomically change `HELD` to `CONFIRMED` **only if** the current hold has the payment’s original hold ID, the same owner, and `now < expiry`. If that transition fails, inspect the resulting state: if it is `CONFIRMED` with that payment ID, do nothing; otherwise, record a refund idempotently under the payment ID. Expiry atomically changes only the matching `HELD` state to `FREE` at or after its expiry. IDs are never reused.\n\n- **Delayed callback:** At minute twelve the current hold is B1, so A1 cannot confirm Ben’s reservation. Ana’s payment is refunded once.\n- **Timely callback:** A matching payment that wins the transition before minute ten confirms A1. The later expiry cannot clear `CONFIRMED`.\n- **Duplicate success:** A repeat sees its payment ID in `CONFIRMED` and neither confirms again nor refunds.\n- **Expiry race:** The atomic transition determines the order. Confirmation wins only while the matching hold is still present and unexpired; otherwise expiry wins and the payment is refunded. The time check occurs inside the confirmation transition, so a callback arriving before minute ten cannot confirm if its transition occurs at or after minute ten.",
+      "final_sha256": "18f0dea72976cb7c1094f883d637aa688928f664f519ec8149f7df910700c8ee",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S11",
+      "case_id": "C08",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Store `CONFIRMED(hold_id, owner, payment_id)`. The payment ID is needed to recognize a repeated success for the payment that won confirmation.\n\nFor each successful payment, make one atomic transition from `HELD(h, owner, expiry)` to `CONFIRMED(h, owner, payment_id)` **only if** its original hold ID is `h`, its owner matches the held owner, and the transition occurs before expiry. Preserve the owner from the hold. If the transition fails, check whether the state is already confirmed with that same payment ID. If so, do nothing; otherwise, record a refund idempotently by payment ID. Expiry may clear only a matching `HELD` state at or after its deadline.\n\n- **Ana’s delayed callback:** At minute twelve the state is `HELD(B1, Ben, …)`. A1 cannot match, so Ben’s hold stays intact and Ana’s payment is refunded.\n- **Timely valid callback:** It matches the live hold and confirms it. A later expiry cannot clear a `CONFIRMED` state.\n- **Duplicate success:** If its payment ID already owns the confirmation, it does nothing and receives no refund. A different payment for that hold cannot take over the confirmation and is refunded.\n- **Expiry race:** The atomic transition determines the order. A confirmation completed before expiry wins; expiry then has no `HELD` state to clear. At or after expiry, confirmation fails and the payment is refunded. Matching the hold ID also prevents a late A1 expiry from clearing B1.",
+      "final_sha256": "625830ab0335e7bee247342c457a91c69b0d913c18e9da146d9a06c75f6f66c5",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S12",
+      "case_id": "C06",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Replace the bonus with a **monthly, arrival-based rule**:\n\n- For every case that arrives during the month, use the customer-owned arrival timestamp and the customer’s resolution confirmation. Count it as on time only if confirmation occurs within five days of arrival. Assess the month after its last arrivals have had five days to mature. A case awaiting a customer response remains unresolved.\n- Pay a bonus only if at least **90% of arrivals are resolved on time**, the total number of open cases at month end is no higher than at month start, and the number of open cases older than five days has not increased. Within those conditions, increase the bonus with each additional on-time resolution, up to a stated cap.\n\nThis measures the customer’s actual goal. Supplier-controlled “started” and “completed” marks cannot shorten the clock, and deferred hard cases remain in the arrival denominator. The open-case conditions prevent the supplier from earning a bonus by clearing easy cases while a backlog accumulates; paying more for each additional timely resolution reduces the incentive to stop at exactly 90%.\n\nReview the weekly open-case counts as well as the month-end result, so a last-minute clearing effort does not hide a growing backlog. Use the five randomly selected tickets each week to check customer confirmation, case status, and whether a purported resolution held up; make inaccurate records grounds to withhold or recover the affected bonus.\n\nThe supplier may adapt by prioritizing cases likely to receive quick confirmation or by pressing customers to confirm prematurely. Keep nonresponses in the calculation and use the audits to detect premature confirmations. If customer nonresponse makes the target unattainable, report that openly: excluding those cases would make the bonus easier to earn while leaving the stated customer objective unmet.",
+      "final_sha256": "bd39d0ef47c74da82c45f2840f0f3d0b8ee9470b98c3fcd8cb9007a50d761dd6",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S13",
+      "case_id": "C04",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Request the register as soon as the emergency arrives. The officer classifies the request and prepares the approved unsigned form during minutes 0–8, while the signer finishes the current entry and unlocks the register within two minutes. Keep the register available for the officer’s registration at minutes 8–10, then hand off and release the emergency by minute 11. The signer reviews the emergency form the next day.\n\nThe signer can resume the remaining routine batch as soon as registration finishes at minute 10. The batch needs 12 minutes of signing in total, so it finishes by minute 22 at the latest—at most 10 minutes later than planned, within the 40 minutes of slack. Release each routine request only after it has both its signature and its own number in the existing register.\n\nIf the unlock occurs \\(d\\) minutes after arrival, emergency release occurs at \\(\\max(8,d)+3\\): preparation takes eight minutes, then registration takes two and handoff one. The **maximum unlock delay is nine minutes**, which gives release exactly at minute 12. The stated two-minute unlock guarantee provides a seven-minute margin.",
+      "final_sha256": "8b20f748d3f104b8db336a68c7a29eabff028110361e93ea62d56a201677d46d",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S14",
+      "case_id": "C03",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Run the **log-summary test first**.\n\n- **Red:** Cause A is certain. Reset the address cache. Total: **15 minutes**.\n- **Blue:** Run the credential probe. If it reports **expired**, cause B is certain; renew the credentials. If it reports **valid**, cause C is certain; throttle the queue. Total: **20 minutes**.\n\nThe test results identify the cause before any action is taken, so this procedure avoids the harm of applying the wrong fix. It fits within the 25-minute limit in every case. The 45-minute full trace cannot fit.",
+      "final_sha256": "509a463c6eb21ccef4cf8dbbf850055fe9ab42a678308dfb1fbb13bbf3ae07f0",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S15",
+      "case_id": "C11",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "**Buy the short signal, then choose A if it labels demand low and B if it labels demand high.** The expected total cost is **$114,000**, including the $1,000 fee, and the process takes 14 minutes.\n\n| Measurement plan | Plan choice | Expected total cost | Time |\n|---|---|---:|---:|\n| None | B | $115,000 | 10 minutes |\n| Short signal | A on “low”; B on “high” | **$114,000** | 14 minutes |\n| Exact count | A at 400; B at 1,000 | $118,000 | 22 minutes |\n\nAt demand 400, A costs $90,000 and B $100,000. At demand 1,000, A costs $150,000 and B $130,000. With no measurement, B’s expected cost is $115,000, versus $120,000 for A.\n\nEach short-signal label has probability one-half. A “low” label gives an 80% chance of demand 400, making A’s conditional expected cost $102,000 versus B’s $106,000. A “high” label makes B’s conditional expected cost $124,000 versus A’s $138,000. Thus the expected plan cost after the signal is $(102{,}000+124{,}000)/2=\\$113{,}000$.\n\nFollowing the signal with an exact count, even only for one label, is infeasible: 4 minutes for the signal, 12 for the count, and 10 for commitment total **26 minutes**, past the 25-minute deadline. An exact count alone is feasible but costs more in expectation.\n\nIf the short-signal fee is \\(f\\), its expected total cost is \\(\\$113{,}000+f\\). It beats the best alternative, no measurement at $115,000, when **\\(f<\\$2,000\\)**; the board is indifferent at **$2,000**.",
+      "final_sha256": "0781e6cdf19c323a83b08e533dc564d8032a44dc7065ee6df0fd8dbb7bd37ba5",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S16",
+      "case_id": "C04",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Have the officer request the register immediately, then classify the emergency and prepare the approved form. The signer finishes the current indivisible entry and unlocks the register within two minutes. After the officer’s eight minutes of preparation, the officer registers the emergency (two minutes) and hands it off (one minute). **Release occurs at minute 11**, within the 12-minute deadline.\n\nKeep the register available until emergency registration is complete, then let the signer resume the remaining routine batch. At the guaranteed two-minute unlock time, the signer pauses from minute 2 to minute 10 and finishes the 12 minutes of signing work by minute 20. That eight-minute delay fits within the 40 minutes of schedule slack. Each routine request still receives its unique register number before release.\n\nIf unlocking takes \\(d\\) minutes, emergency release occurs at minute \\(\\max(8,d)+3\\). The deadline therefore permits a **maximum unlock delay of 9 minutes**; the stated two-minute guarantee is well within that limit.",
+      "final_sha256": "e1b671e6eaf09a8e2cae480a895e7b5e5ff67fecf0de7f13f7b342bc6e60346b",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S17",
+      "case_id": "C02",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Buy the **$8,000 inspection fixture**. With a 5% rejection rate, 100 inspection attempts produce **95 good units per day**. Those 100 attempts also require 100 preparation attempts, within the existing capacity of 140.\n\nThe preparation upgrade would leave inspection at 100 attempts and rejection at 20%, so output would remain **80 good units per day**. It would cost more and miss the target.",
+      "final_sha256": "c66bad4c36ed24afdd9c2183d312572708776bf618ee4bd6f2ce8dfc01e24a19",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S18",
+      "case_id": "C01",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Submit a provisional report stating that output rose from **40 to 60 fixes per day** after the script and course were introduced together, an observed increase of **20 fixes per day**. State that neither separate causal gain nor the interaction is identified. Reject the sponsor’s 10-and-10 split: neither intervention was observed alone, and unchanged staffing, workload, and measurement do not rule out every other change over time.\n\nNext month, randomly assign comparable teams to four groups: neither intervention, script only, course only, and both. Keep workload, staffing, observation period, and output measurement the same across groups, with enough teams in each group to estimate its mean output.\n\nLet the four group means be \\(Y_{00},Y_{10},Y_{01},Y_{11}\\), in that order. The randomized design can estimate the contract’s separate gains as \\(Y_{10}-Y_{00}\\) for the script and \\(Y_{01}-Y_{00}\\) for the course. Report the interaction separately as \\(Y_{11}-Y_{10}-Y_{01}+Y_{00}\\). Together, those three quantities equal the next-month joint gain \\(Y_{11}-Y_{00}\\). They identify effects for the tested teams and period; applying them to the earlier observed 20-fix increase would require an additional assumption that the effects carried over unchanged.",
+      "final_sha256": "f8e684c1cf04db36a03ed3f9c5053267b86bdbd0fa415255328c5d8ff2f7e22a",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S19",
+      "case_id": "C06",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Replace the median-time bonus with a **monthly outcome bonus** based on the customer-owned ticket system. Pay it only when both conditions hold:\n\n1. At least **90% of all cases that arrived during the month** have customer-confirmed resolution within five days of arrival.\n2. The number of open cases at month end is **no higher than at month start**.\n\nCalculate the first condition after every case in that arrival cohort has had its full five-day window. Include every arrival in the denominator, including hard cases and customers who do not respond. A supplier-set “started” or “completed” timestamp does not establish resolution.\n\nThis rule pays for the stated objective and removes the benefit of starting the clock late or marking work complete early. The backlog condition makes it harder to earn the bonus by handling only quick cases while deferring the rest. The customer should also review weekly open-case counts and the age of open cases, so a temporary reduction at month end does not conceal a recurring buildup.\n\nThe supplier may adapt by concentrating on cases most likely to be confirmed within five days and giving less attention to the remaining 10%. That is partly permitted by the target, but abandoned cases would eventually increase the open count. Each week, use the five random ticket audits to check the arrival record, confirmation record, and current status against the supplier’s account. If an audit finds a reporting discrepancy, correct the monthly calculation before paying. Customer nonresponse may make the target difficult, but counting it as unresolved keeps the bonus aligned with the objective rather than rewarding an unverified completion.",
+      "final_sha256": "f0b0bd2621aed9ff26d7728ee0f13c3ddd2788f0d24e671414d82208ada6051c",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S20",
+      "case_id": "C10",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Have the registrar privately inspect the two swapped envelopes, put each code in its rightful student’s envelope, and reseal them. This takes four minutes, from 11:00 to 11:04. The courier receives only sealed envelopes and the names and numbers needed for delivery.\n\nThe courier can then visit the 22 students who are present, handing each student the assigned envelope in their assigned room and obtaining that student’s matching-row signature. At two minutes each, those visits finish by 11:48. When the other two students become present at 11:58, the courier can complete one more handoff by noon.\n\n**The maximum supported count by noon is 23 of 24.** The two late students require four minutes of separate visits, but only two minutes remain. Report 23 completed with valid signatures and one pending after the deadline. Do not record an advance signature or mark the pending handoff complete.",
+      "final_sha256": "1d3e9025970d5dbbc86bd06317f9071a7942df8c67c92be3d8f6774c7e7aa60c",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S21",
+      "case_id": "C12",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "**Buy the shared network and both adapters for $6,000.** Network maintenance uses the operator’s full two-hour weekly capacity. At the worst downtime in the stated range, \\(q=0.35\\), the bundle saves \\(2\\times10(1-0.35)-2=\\mathbf{11}\\) net hours per week.\n\n| Feasible bundle | Cost | Worst-case net hours/week |\n|---|---:|---:|\n| Network + two adapters | $6,000 | **11** |\n| Two local upgrades | $6,000 | 7 |\n| Network + one adapter | $5,000 | 4.5 |\n| One local upgrade | $3,000 | 3.5 |\n| No purchase | $0 | 0 |\n| Network without adapters | $4,000 | −2 |\n\nAdapters bought without a network add no savings; adding them to a feasible local bundle leaves that bundle’s result unchanged. A network and a local upgrade together exceed the budget.\n\nIf the later quarter’s range is \\(q\\in[0.65,0.75]\\), **buy both local upgrades**: they still save 7 net hours per week, while the full shared bundle saves only \\(2\\times10(1-0.75)-2=3\\) in the worst case.\n\nThe two full bundles tie when \\(20(1-q)-2=7\\), giving a **switching downtime of \\(q=0.55\\)**. Below 55%, the full shared bundle wins; above it, both local upgrades win.",
+      "final_sha256": "d609e647d20cb5a6dea51533de10bd1a7cef83011533486a9e8db13858719539",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S22",
+      "case_id": "C05",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Use the exact test, then choose Fast if it reports \\(p=.02\\) and Safe if it reports \\(p=.08\\).** The test and policy activation take \\(12+5=17\\) minutes, within the deadline.\n\nFast’s expected weekly cost is \\(200+10(1{,}000)p\\): $400 in the low-risk state and $1,000 in the high-risk state. Safe costs $650 in either state. Thus the exact-test plan costs\n\\[\n70+\\tfrac12(400)+\\tfrac12(650)=\\boxed{\\$595}.\n\\]\n\n| Permitted approach | Best decisions | Expected total cost |\n|---|---|---:|\n| No test | Safe | $650 |\n| Four-minute signal | Fast on a low-risk label; Safe on a high-risk label | $620 |\n| Twelve-minute exact test | Fast in the low-risk state; Safe in the high-risk state | **$595** |\n\nFor the signal, each label has probability \\(1/2\\). After a low-risk label, the posterior probability of the low-risk state is .8, making Fast cost \\(.8(400)+.2(1{,}000)=\\$520\\). After a high-risk label, Fast costs $880, so Safe is better. The signal plan therefore costs \\(35+\\tfrac12(520)+\\tfrac12(650)=\\$620\\). Less responsive choices after either test cannot improve those figures.\n\nUsing both tests would take at least \\(4+12+5=21\\) minutes, so it is infeasible. The best alternative is the signal plan at $620. If the exact-test fee is \\(f\\), its plan costs \\(525+f\\); it remains **at least tied for best through \\(f=\\boxed{\\$95}\\)**, and is strictly preferable when \\(f<\\$95\\).",
+      "final_sha256": "5581031af7f81288a8f3993a3c4b3c2468e1a40b962b848e3413d28021d124d4",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S23",
+      "case_id": "C10",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "The registrar should privately correct both swapped envelopes from 11:00 to 11:04, checking each code against the roster and resealing it in the envelope for its assigned student. The courier should receive only sealed envelopes and use the visible names and numbers to match each handoff to the student’s assigned room and roster row.\n\nThe courier can complete the 22 visits to students who are present from 11:04 to 11:48. At 11:58, the courier can visit one of the two newly present students and obtain that student’s matching-row signature by noon. The other student cannot be served by the deadline: both become available at 11:58, and their visits must each take two minutes with one courier and no batching. **The maximum supported completion count is 23 of 24.**\n\nReport the target as **unmet**: record the 23 completed handoffs and signatures, identify the one undelivered assignment without disclosing its code, and keep that envelope sealed in authorized custody for a later authorized handoff.",
+      "final_sha256": "67fa50d55e9147dbad7fce89739bb9daf6b3173175274d434cd57ae20e090568",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S24",
+      "case_id": "C12",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "**Recommend the shared network with both adapters.** It costs exactly $6,000 and uses the operator’s full two-hour weekly maintenance capacity. At the worst downtime in the stated interval, \\(q=0.35\\), its expected net saving is \\(20(1-0.35)-2=\\mathbf{11}\\) hours/week.\n\n| Feasible purchase | Cost | Worst-case net hours/week, \\(q\\in[0.15,0.35]\\) |\n|---|---:|---:|\n| Network + two adapters | $6,000 | **11** |\n| Two local upgrades | $6,000 | 7 |\n| Network + one adapter | $5,000 | 4.5 |\n| One local upgrade, with or without adapters | $3,000–$5,000 | 3.5 |\n| No useful upgrade | $0–$4,000 | 0 or less |\n\nThe network’s two maintenance hours apply whether one or both teams have adapters. A local upgrade plus the network exceeds the budget, so no feasible bundle counts both benefits for one team.\n\n**For the later quarter**, with \\(q\\in[0.65,0.75]\\), buy both local upgrades: their net saving stays at **7 hours/week**, while the full shared bundle falls to \\(20(1-0.75)-2=3\\).\n\nThe two full bundles tie when \\(20(1-q)-2=7\\), or **\\(q=0.55\\)**. Below 55% downtime the full shared bundle saves more; above it, both local upgrades save more.",
+      "final_sha256": "783d255ab6304a2802b06f23ae6c3aa99dfde0a1e069b9dbb5b0ae0c4aafd3f3",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S25",
+      "case_id": "C03",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Run the **log-summary test** first.\n\n- If it is **red**, reset the cache. Red identifies A, so the total time is 15 minutes.\n- If it is **blue**, run the credential probe. If it reports **expired**, renew credentials for B. If it reports **valid**, throttle the queue for C. Either path takes 20 minutes total.\n\nEvery branch identifies exactly one cause before applying its matching action. The procedure stays within 25 minutes and avoids the harm of applying an action to the wrong cause. The full trace alone exceeds the time limit.",
+      "final_sha256": "8b732cd671e78c5e47c6e909777ffad6f4523339bef2768f7a4b3104bfe466ff",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S26",
+      "case_id": "C09",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Critic A’s objection fails under the stated policy: nurse checklist classification is explicitly authorized. The nurse’s job is to identify priority under that policy; being a nurse does not make the classification invalid. Critic B identifies a real workflow defect. FIFO for routine patients cannot mean that a patient’s priority stays fixed after entry.\n\nKeep the initial checklist triage and add a **reported-change path**: when a patient reports a new complaint to the desk, the desk relays it to the nurse; the nurse evaluates it and updates the priority field. The doctor reads the current field when selecting patients and interrupts current work when a new emergency priority appears. Patients who remain routine keep their FIFO order.\n\nFor a complaint that reaches the desk and is correctly classified as an emergency, the stated staffed steps take at most **2 + 3 + 1 = 6 minutes** from desk receipt to the start of doctor assessment. That meets the seven-minute requirement with one minute to spare. The guarantee depends on the complaint being reported, correctly classified, and processed within those bounds. It cannot cover deterioration that no one reports or promise a clinical outcome.\n\nIf policy instead reserves *all* classification to doctors, nurse classification must stop; Critic A would then apply. The reported-change path still needs a doctor’s classification before emergency priority is assigned, so Critic B’s concern remains. No time bound is supplied for getting the complaint to a doctor and obtaining that classification. Consequently, the seven-minute guarantee cannot be established under the doctor-only policy from the supplied resources and timings.",
+      "final_sha256": "eb0b18d876fe33a645a1817adf5a499e778a3946fff3dda243dfea4f3b90824b",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S27",
+      "case_id": "C08",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Recommendation:** Record the winning payment ID in the confirmed state: `CONFIRMED(holdId, owner, paymentId)`. Keep each fresh hold ID unique. This extra field is needed to distinguish a repeat of the payment that confirmed the reservation from a different successful payment for the same hold.\n\nUse these rules:\n\n- **Confirm:** For a successful payment, atomically change `HELD(id, owner, expiry)` to `CONFIRMED(id, owner, paymentId)` only when the callback’s original hold ID and owner match the current hold and the current time is **before** expiry.\n- **Expire:** At or after expiry, atomically clear the state only if it is still the matching `HELD` state.\n- **Otherwise:** If the state is already confirmed with that payment ID, treat the callback as a repeat and do not refund. For any other payment that cannot confirm, record a refund idempotently by payment ID.\n\nFor Ana’s delayed A1 callback at minute twelve, the current hold is Ben’s B1. The IDs differ, so Ana’s payment cannot confirm B1; record its refund.\n\nA timely callback for the current, unexpired hold confirms it. A repeat of that successful callback finds its own payment ID in `CONFIRMED` and causes neither another transition nor a refund. If expiry and payment race, the atomic conditions decide the result: confirmation before expiry leaves nothing for expiry to clear; once expiry is reached, confirmation is ineligible and the payment is refunded. Matching the hold ID also prevents an old expiry action from clearing a newer hold.",
+      "final_sha256": "cc5bb06d685d905afd061d4c5adb155cf94cef186fee58a3a1dc179eb2e833d0",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S28",
+      "case_id": "C07",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "**Make each owning desk’s local record the authority for its two drills.** A desk accepts a request only after an atomic check and reservation in the relevant owner’s record. The shared display can help customers choose what to ask for, but it cannot confirm availability. The central clerk may maintain a combined view, but must not make competing confirmations or cancellations while the local records govern them. Keep the ownership roster fixed while any reservations are live.\n\nThe receiving desk first asks its own record to reserve a suitable drill for the requested interval. If both are busy at that atomic check, it sends the request to the other owning desk. It rejects only if that desk’s atomic check also finds no suitable drill. Each owner returns a firm result and, on acceptance, a reservation ID. The two checks take at most four minutes in sequence under the stated load, within the six-minute deadline.\n\nSimultaneous requests for the last suitable drill are settled by its owner’s atomic reservation: one can succeed; the other must check any remaining stock before receiving an accept or reject. A rejection reflects availability at the two owners’ checks. A later cancellation does not retroactively make it wrong.\n\nRoute each cancellation to the owner identified by its reservation ID. In one atomic operation, that owner cancels only if the ID still matches the active reservation; duplicate or delayed cancellations then leave a replacement booking intact. Do not reuse reservation IDs.\n\nThis uses the useful part of self-service—the display for finding stock—and the useful part of a box office—an authoritative commitment. Because commitment happens at the owning desks, the clerk’s eight-minute outage does not delay decisions.",
+      "final_sha256": "8f0aa37fd13eea7d28f5628fdd61642f6b2a41d4cbe5af85f357d09eb19b112b",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S29",
+      "case_id": "C01",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Submit a provisional report now.** Output rose from 40 to 60 fixes per day after both interventions were introduced, an observed increase of 20. With neither intervention observed alone, the separate gains and any joint interaction cannot be calculated. Unchanged staffing, workload, and measurement do not by themselves rule out other changes over time, so the report should not claim that the full 20 was caused by the interventions. The sponsor’s proposed 10/10 split is unsupported and conflicts with the contract.\n\n**Next month, run a four-group randomized design.** Randomly assign comparable teams with equal staffing and workload to: neither intervention, script only, course only, or both. Collect fixes per day for each group over the same period, using the same measurement method and enough teams in each group to estimate group averages.\n\nLet the four group averages be \\(Y_{00}, Y_{10}, Y_{01}, Y_{11}\\), respectively. Random assignment would allow estimates of the contract’s separate causal gains: script \\(Y_{10}-Y_{00}\\) and course \\(Y_{01}-Y_{00}\\). Report the joint interaction separately as \\(Y_{11}-Y_{10}-Y_{01}+Y_{00}\\). These three quantities sum to the combined effect \\(Y_{11}-Y_{00}\\). The experiment would estimate effects under next month’s conditions; it would not automatically establish how the earlier observed 20-fix increase should be divided.",
+      "final_sha256": "bc7847f4014d91fe91f819a8410547b9e5e024bc087c59f78454a4929a6f8dd6",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S30",
+      "case_id": "C01",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Submit a provisional report stating that output rose from 40 to 60 fixes per day after both the script and course were introduced: an **observed increase of 20 fixes per day**. Neither intervention was observed alone, so the report cannot assign a numerical gain to either one or determine their interaction. The sponsor’s proposed 10–10 split is unsupported. Unchanged staffing, workload, and measurement make the comparison clearer, but do not by themselves rule out other changes over time as a cause of the increase.\n\nNext month, randomly assign comparable, equal-staff teams to four groups: neither intervention, script only, course only, and both. Measure fixes per day over the same period in every group, with enough teams in each group to assess uncertainty and with teams kept from sharing the interventions across groups.\n\nLet the four groups’ mean outputs be \\(Y_{00},Y_{10},Y_{01},Y_{11}\\), respectively. The design can estimate the contract’s separate gains as:\n\n- Script with the course absent: \\(Y_{10}-Y_{00}\\).\n- Course with the script absent: \\(Y_{01}-Y_{00}\\).\n- Joint interaction, reported separately: \\(Y_{11}-Y_{10}-Y_{01}+Y_{00}\\).\n\nThese three quantities sum to the combined effect, \\(Y_{11}-Y_{00}\\). Random assignment supports causal estimates for next month’s teams, subject to ordinary measurement uncertainty; it does not retroactively establish how the earlier observed 20-fix increase should be split.",
+      "final_sha256": "59e7c3d873adf8c49308b7b5af9661b4413dc43334c8be1f3b7cfd728fef56dc",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S31",
+      "case_id": "C11",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Recommend buying the short signal, then choosing A on a “low” label and B on a “high” label.** Its expected total cost is **$114,000**, including the $1,000 fee, and the decision takes 14 minutes.\n\n| Strategy | Expected total cost | Time |\n|---|---:|---:|\n| No measurement; choose B | $115,000 | 10 minutes |\n| Short signal; A if low, B if high | **$114,000** | 14 minutes |\n| Exact count; A at 400, B at 1000 | $118,000 | 22 minutes |\n\nAt demand 400, A costs $90,000 and B $100,000; at demand 1000, A costs $150,000 and B $130,000. Without a measurement, B therefore has the lower expected cost. After a low signal, the probability of low demand is 0.8, making A’s expected plan cost $102,000 versus B’s $106,000. After a high signal, B’s expected plan cost is $124,000 versus A’s $138,000. Each label is equally likely, so the signal strategy costs \\((102{,}000+124{,}000)/2+1{,}000=\\$114{,}000\\).\n\n**Conditional further measurement is infeasible:** a short signal followed by an exact count and plan commitment takes \\(4+12+10=26\\) minutes, one minute beyond the deadline, regardless of the signal result.\n\nIf the short-signal fee is \\(f\\), its expected total cost is **$113,000 + \\(f\\)**. It beats the best no-measurement choice when **\\(f<\\$2,000\\)**, ties at $2,000, and loses above that. At the stated $1,000 fee, it saves $1,000 in expected cost.",
+      "final_sha256": "8d305b7e8fa153ce35c94a6775155231d9139b747d8ffa3bf58d1a926d680ce0",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S32",
+      "case_id": "C09",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Critic A’s categorical objection fails: nurse checklist classification is explicitly authorized. Critic B identifies a real gap. FIFO is appropriate for routine patients only while their priority remains routine; the current queue can leave a deteriorating patient waiting despite a newly reported emergency.\n\nRepair the workflow by making a new complaint a triage event. The desk relays it to the nurse, the nurse evaluates it and updates the patient’s priority field, and the doctor uses the updated field to select the next patient. If the nurse assigns emergency priority, the doctor interrupts current work and starts assessment. Patients who remain routine keep their FIFO order.\n\nFor an emergency **recognized from a complaint that reaches the desk**, the stated bounds total six minutes: two to relay, three to evaluate and update priority, and one for the doctor to start assessment. That meets the seven-minute requirement with one minute of margin. This is a conditional guarantee: it does not cover symptoms nobody reports, or a complaint the nurse does not classify as an emergency.\n\nIf policy instead reserves all classification to doctors, the nurse can relay complaints but cannot make the emergency decision that triggers this escalation. No bound is supplied for doctor classification, so the seven-minute guarantee can no longer be established from the given resources and timings. The clinic would need a bounded doctor classification step and a workflow whose total time to assessment stays within seven minutes.",
+      "final_sha256": "2309e4192d13a5351020292e47412691ce7956161d4c5d705dfb724bfa5757e4",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S33",
+      "case_id": "C07",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Use the fixed ownership roster as the reservation rule. Each drill’s owning desk is its sole committing authority. The clerk’s combined schedule and the shared display may show availability, but neither may confirm, release, or assign a drill. A customer can receive a firm acceptance only after an owning desk has atomically recorded the reservation.\n\nWhen a request arrives, the receiving desk asks its own record to reserve a suitable drill for the requested interval. If that atomic attempt fails because both local drills are busy, it sends the request to the other owning desk for an atomic reservation attempt before rejecting. The desks return the committed drill and reservation ID, or a rejection. Two successive desk requests take at most four minutes under the supplied bound, leaving room within the six-minute deadline. A rejection means no drill was available at either desk’s respective atomic check; a later cancellation does not make that earlier decision incorrect.\n\nIf simultaneous requests seek the last suitable drill, its owner’s atomic operation orders them. At most one reserves it; the other request checks any remaining stock before receiving a rejection. A cancellation must atomically remove a booking **only if its reservation ID still matches** the booking in that drill’s record. Repeated or delayed cancellations then cannot release a replacement booking.\n\nKeep these desk rules in force during a clerk outage. The supermarket analogy fits customer choice and a useful display, but taking an item from the display is not a reservation. The box-office analogy fits atomic assignment, but putting the clerk in the confirmation path would miss the deadline during an eight-minute outage. The clerk can update the combined view afterward without becoming a second committing authority.",
+      "final_sha256": "263014b3c63d727a429821952aa73d1163600512be2ed7e071ebfa9be818cb62",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S34",
+      "case_id": "C05",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "**Use the exact test**, then choose Fast if it reports the low-risk state and Safe if it reports the high-risk state. The test and policy activation take 17 minutes, within the 20-minute deadline.\n\nFast’s expected weekly cost is $400 in the low-risk state ($200 + 10 × .02 × $1,000) and $1,000 in the high-risk state. Safe costs $650 in either state.\n\n| Permitted plan | Best policy choices | Expected total cost |\n|---|---|---:|\n| No test | Safe | $650 |\n| Four-minute signal | Fast on a low-risk label; Safe on a high-risk label | $620 |\n| Exact test | Fast in the low-risk state; Safe in the high-risk state | **$595** |\n\nFor the signal, each label occurs with probability .5. A low-risk label gives Fast an expected cost of $.8(400)+.2(1,000)=$520, so the plan costs $35+.5(520)+.5(650)=$620. The exact-test plan costs $70+.5(400)+.5(650)=$595.\n\nBoth tests together would take 21 minutes including activation, so that sequence misses the deadline. If the exact-test fee were \\(f\\), its plan would cost \\(525+f\\). The best alternative costs $620; therefore the **largest fee at which the exact-test plan remains at least as good is $95**. At $95 the plans tie; below $95 the exact test is strictly preferable.",
+      "final_sha256": "c5e8b0468840fecd104dfaeac7200332927c5d3129915a8925289a42335a2e61",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S35",
+      "case_id": "C09",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Critic A’s objection does not apply:** the clinic explicitly authorizes nurses to classify patients with the checklist. Doctor-only classification would be a different policy choice, not a reason to reject this one.\n\n**Critic B identifies a real gap.** FIFO order is safe only while a patient’s condition remains routine. Make every new complaint reaching the desk trigger a fresh nurse checklist evaluation, including for patients already in the queue. The desk relays it within two minutes; the nurse evaluates it and updates the priority field within the next three minutes. A new emergency priority takes precedence over FIFO, and the doctor interrupts current work and starts assessment within one minute. Patients still classified as routine remain in FIFO order.\n\nThat gives a **six-minute response bound** from a complaint reaching the desk to the start of assessment for a newly identified emergency: 2 + 3 + 1 minutes, within the seven-minute requirement. The guarantee depends on the complaint being reported, correctly identified by the checklist, and the stated staffed response times being met. It cannot cover symptoms nobody reports or establish that every clinical emergency will be classified correctly.\n\nIf policy instead reserves all classification to doctors, the nurse cannot assign an emergency priority from the new complaint. The supplied one-minute doctor response applies *after* that priority is set; no time bound is given for a doctor to review and classify the complaint. The seven-minute guarantee therefore cannot be established under doctor-only classification without a specified, staffed route and deadline for that review.",
+      "final_sha256": "18f627ba3b311efa85fb73c9a915479e0765dba5a3e6a51891f2531ead010c8a",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "S36",
+      "case_id": "C10",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "The registrar should privately correct both swapped envelopes, taking **11:00–11:04**, and reseal them before the courier receives them. The courier should use the checked roster to match each named student to the numbered envelope, deliver only in that student’s assigned room after the student is present, and obtain that student’s signature on the matching row. The courier must never see a code.\n\nA schedule reaching the maximum is:\n\n- **11:00–11:04:** While the registrar corrects the two envelopes, the courier visits two present students whose envelopes are unaffected.\n- **11:04–11:44:** The courier visits the other 20 present students, including any whose envelopes were corrected.\n- **11:58–12:00:** The courier visits one of the two students who were absent.\n\n**At most 23 deliveries can be completed by noon.** The 22 continuously present students can be served first, but the two absent students each require a separate two-minute visit after 11:58. Only one such visit fits before noon.\n\nReport **23 of 24 completed by the deadline, with one named student’s delivery outstanding**. Record the completed signatures and identify the outstanding student accurately; do not enter an advance signature or mark the target met.",
+      "final_sha256": "cb876d87a16cb6b911724e0f6b964c593bea6246725889fa00d5444493744d7a",
+      "tool_attempted": false
+    }
+  ]
+}

@@ -1,0 +1,1675 @@
+{
+  "schema_version": 1,
+  "candidate_id": "pool-1",
+  "rubrics": "../history/pool-1/rubrics.json",
+  "judge_a": [
+    {
+      "blind_id": "S01",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fast costs $400/$1,000 by risk state; exact test plus fee costs $595 in 17 minutes, versus $620 for signal and $650 without testing. Both tests take 21 minutes; exact-fee tie is $95."
+    },
+    {
+      "blind_id": "S02",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "Omits mandatory next-day signer review of the unsigned emergency form."
+      ],
+      "total": 9,
+      "full_pass": false,
+      "reason": "Early unlock and parallel preparation give release at minute 11; max(8,d)+3 yields a nine-minute unlock bound, and routine signing resumes within slack. The answer never schedules the required next-day emergency review."
+    },
+    {
+      "blind_id": "S03",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The signal strategy costs $114,000 in 14 minutes, versus $115,000 without measurement and $118,000 for exact count. A conditional exact follow-up takes 26 minutes; the signal fee ties no measurement at $2,000."
+    },
+    {
+      "blind_id": "S04",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Red identifies A for reset in 15 minutes; blue followed by expired/valid probe maps to B renewal/C throttling in 20 minutes. No repair precedes diagnosis, and the 45-minute trace is excluded."
+    },
+    {
+      "blind_id": "S05",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Uses all arrivals and customer-confirmed resolution within five days, with mature windows and nonincreasing open cases. Supplier start/completion marks cannot game eligibility; five random weekly audits and nonresponse treatment address adaptation."
+    },
+    {
+      "blind_id": "S06",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Counts repeat inspection and preparation attempts: 100 inspection attempts at 5% rejection give 95 good units/day and need 100 preparation attempts. Preparation upgrade retains the 80-good-unit inspection limit."
+    },
+    {
+      "blind_id": "S07",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Full shared bundle fits $6,000 and two maintenance hours, yielding 11 worst-case net hours at q=.35 versus seven for two locals and 4.5 for one adapter. At q=.75 it yields three versus seven; tie is q=.55."
+    },
+    {
+      "blind_id": "S08",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Explicitly returns rejected units through preparation; 100 attempts through each stage fit capacity and produce 95 good units with the fixture. Preparation-only upgrade remains limited to 80 good units/day."
+    },
+    {
+      "blind_id": "S09",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Makes each owning desk's atomic local reservation authoritative, checks the other pair before rejection within four minutes, and matches cancellation IDs. This serializes last-drill requests and survives the eight-minute clerk outage without display-based commitments."
+    },
+    {
+      "blind_id": "S10",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Atomic confirmation matches hold ID, owner and unexpired time; delayed A1 cannot displace B1 and is refunded once. Stored confirmed payment ID protects duplicate success, and ID-matched expiry plus atomic ordering handles races."
+    },
+    {
+      "blind_id": "S11",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Conditional atomic transition accepts only matching live hold ID/owner before expiry. It preserves B1 on Ana's stale callback, refunds unmatched payments idempotently, recognizes duplicate confirmed payment IDs, and restricts expiry to matching HELD."
+    },
+    {
+      "blind_id": "S12",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The monthly bonus counts every arrival, customer confirmation by day five and nonresponse as unresolved, assessing after maturation. Nonincreasing total and older open cases guard backlog; five weekly random audits address premature confirmations."
+    },
+    {
+      "blind_id": "S13",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Unlock request and independent preparation overlap; registration at minutes 8-10 precedes minute-11 release. The max(8,d)+3 deadline gives d<=9, with routine numbered/signature releases preserved and next-day signer review explicit."
+    },
+    {
+      "blind_id": "S14",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Log red maps to A reset in 15 minutes; blue leads to expired B renewal or valid C throttling in 20 minutes. Every repair follows a decisive test result, and full trace exceeds the budget."
+    },
+    {
+      "blind_id": "S15",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Conditional costs yield $113,000 before the short-signal fee and $114,000 with it, lower than no measurement at $115,000 and exact at $118,000. Follow-up exact count misses deadline at 26 minutes; fee tie is $2,000."
+    },
+    {
+      "blind_id": "S16",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "Omits mandatory next-day signer review of the unsigned emergency form."
+      ],
+      "total": 9,
+      "full_pass": false,
+      "reason": "Immediate unlock and parallel preparation allow numbering and handoff by minute 11; max(8,d)+3 gives the correct nine-minute unlock limit, and routine batch work fits slack. The required next-day emergency review is absent."
+    },
+    {
+      "blind_id": "S17",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fixture leaves 100 inspection attempts producing 95 good units/day; all 100 attempts consume preparation capacity within 140. Preparation-only upgrade remains capped at 80 good units/day."
+    },
+    {
+      "blind_id": "S18",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Reports observed 40-to-60 change provisionally without allocating the 20. Four randomized cells identify script-only and course-only contrasts against neither and their separate interaction; earlier causal allocation remains unsupported."
+    },
+    {
+      "blind_id": "S19",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Monthly eligibility uses all arrivals, customer confirmation within five days after full cohort maturation, and no month-end open-case increase. It rejects supplier timestamps, counts nonresponse as unresolved, and uses five random weekly audits to address adaptation."
+    },
+    {
+      "blind_id": "S20",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "Registrar alone corrects both envelopes by 11:04; sealed, named-room signed visits serve 22 present students and one returning at 11:58. Two late visits need four minutes, so 23 is the maximum and one is reported pending. Custody of the undelivered sealed envelope is left unclear."
+    },
+    {
+      "blind_id": "S21",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Network plus two adapters costs $6,000 and uses two maintenance hours, yielding 11 worst-case net hours at q=.35 versus seven for two locals and 4.5 for one adapter. Later q=.75 favors locals, and equality is q=.55."
+    },
+    {
+      "blind_id": "S22",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fast state costs are $400/$1,000. Exact test yields $595 and fits 17 minutes versus signal $620 and no test $650; both tests take 21 minutes. Exact-test fee ties the best alternative at $95."
+    },
+    {
+      "blind_id": "S23",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Registrar privately reseals corrected codes by 11:04, courier completes 22 present-room signed visits by 11:48 and one late visit by noon. The second late visit cannot fit; answer reports 23/24 unmet and retains the final envelope sealed in authorized custody."
+    },
+    {
+      "blind_id": "S24",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Full shared bundle fits budget and maintenance, saving 11 net hours at worst current downtime; local pair saves seven and one-adapter shared saves 4.5. At later q=.75, shared falls to three, so locals win; switching equality is q=.55."
+    },
+    {
+      "blind_id": "S25",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Red log identifies A for reset in 15 minutes; blue plus expired/valid probe identifies B/C for corresponding repair in 20 minutes. Every branch acts after diagnosis and stays within 25 minutes; full trace does not."
+    },
+    {
+      "blind_id": "S26",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Rejects profession-only objection under explicit nurse authority, but repairs frozen priority through desk relay, nurse reassessment, and doctor interruption. Reported emergency complaint reaches assessment in 2+3+1=6 minutes; unreported worsening and doctor-only classification lack this guarantee."
+    },
+    {
+      "blind_id": "S27",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Atomic confirmation requires original hold ID, owner and time before expiry, so Ana's late A1 cannot replace B1 and is refunded. Stored winning payment ID prevents refund of duplicate success; ID-matched expiry and atomic order settle the race."
+    },
+    {
+      "blind_id": "S28",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fixed owning desks alone commit atomic reservations, with two sequential checks taking at most four minutes before rejection. Last-unit requests serialize, ID-matched cancellation protects rebookings, and advisory central/display views do not block decisions during clerk outage."
+    },
+    {
+      "blind_id": "S29",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Provisional report records observed +20 without claiming a causal 10/10 split. Four randomized cells permit script-only and course-only contrasts against neither plus separately calculated interaction; next-month effects do not automatically allocate the earlier increase."
+    },
+    {
+      "blind_id": "S30",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Reports the observed 40-to-60 increase provisionally and rejects unsupported separate numerical gains. Randomized neither/script/course/both groups identify two standalone contrasts and the joint interaction, while leaving earlier causal attribution unknown."
+    },
+    {
+      "blind_id": "S31",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The low/high signal maps to A/B and costs $114,000 total in 14 minutes, below no measurement $115,000 and exact count $118,000. Conditional exact follow-up takes 26 minutes; short-signal fee ties no measurement at $2,000."
+    },
+    {
+      "blind_id": "S32",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps authorized nurse checklist triage and routine FIFO, but routes a newly reported complaint through nurse priority update to doctor interruption. The conditional 2+3+1=6-minute bound meets seven minutes; unseen symptoms and doctor-only classification are not claimed covered."
+    },
+    {
+      "blind_id": "S33",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Owning desk records alone authorize atomic commits; other stock is checked before rejection within four minutes. Atomic owner ordering prevents double booking, ID-matched cancellation leaves replacements intact, and clerk outage cannot block local decisions."
+    },
+    {
+      "blind_id": "S34",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Exact test chooses Fast at low risk and Safe at high risk for $595 in 17 minutes, versus signal $620 and no test $650. Both tests take 21 minutes; the exact-fee tie is $95. A stray dollar sign before .8 does not change the stated posterior calculation."
+    },
+    {
+      "blind_id": "S35",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Distinguishes valid nurse authority from frozen-priority failure and adds desk-triggered nurse reassessment with doctor interruption. The six-minute conditional bound fits seven minutes, excludes unreported deterioration, and marks doctor-only timing unsupported."
+    },
+    {
+      "blind_id": "S36",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "Registrar alone fixes and reseals swapped codes while courier serves two unaffected present students; remaining 20 finish by 11:44 and one late student by noon. Two late visits require four minutes, so 23/24 is correctly reported unmet. The remaining sealed envelope's custody is not specified."
+    }
+  ],
+  "judge_b": [
+    {
+      "blind_id": "S01",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Computes Fast as $400/$1,000, signal $620, exact $595, rejects the 21-minute cascade, and gives the $95 exact-fee tie."
+    },
+    {
+      "blind_id": "S02",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "Requests unlock immediately; preparation to minute 8, registration 8–10 and handoff by 11; max(8,d)+3 yields d=9. Resumes signed routine batch, but omits next-day emergency signer review."
+    },
+    {
+      "blind_id": "S03",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Derives state and posterior costs, selects $114,000 signal plan over $115,000 no-test and $118,000 exact, rejects 26-minute follow-up, and derives $2,000 fee tie."
+    },
+    {
+      "blind_id": "S04",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Maps red to A/reset and blue to probe then B/renewal or C/throttle; worst case 20 minutes, and rejects the 45-minute trace."
+    },
+    {
+      "blind_id": "S05",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Uses all matured arrivals and customer confirmation, requires 90% within five days and non-growing open cases, and addresses nonresponse and weekly five-ticket audits."
+    },
+    {
+      "blind_id": "S06",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fixture makes 100 attempts yield 95 good units with 100 preparation attempts; preparation upgrade leaves 80 good units."
+    },
+    {
+      "blind_id": "S07",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Full network plus adapters costs $6,000 with two maintenance hours and yields worst-case 11; compares partial/local bundles, later 7 versus 3, and q=.55 switch."
+    },
+    {
+      "blind_id": "S08",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fixture yields 95 good units from 100 inspection and preparation attempts; preparation upgrade remains inspection-limited at 80."
+    },
+    {
+      "blind_id": "S09",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Owning desk atomically commits each drill; sequential checks take at most four minutes, concurrent last-unit attempts serialize, ID-matched cancellation protects rebooking, and clerk outage is bypassed."
+    },
+    {
+      "blind_id": "S10",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Atomic hold-ID/owner/unexpired match prevents A1 from confirming B1; payment ID makes repeat success idempotent and expiry races linearize."
+    },
+    {
+      "blind_id": "S11",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Conditional match of hold ID, owner and time rejects Ana's stale callback; matching payment ID avoids duplicate refund and matching expiry cannot clear B1."
+    },
+    {
+      "blind_id": "S12",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "All monthly arrivals remain in the five-day denominator after maturation; bonus needs 90% confirmed, non-growing open backlog, and bounded weekly audits address premature confirmation."
+    },
+    {
+      "blind_id": "S13",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Immediate unlock allows minute-8 preparation, 8–10 registration and minute-11 release; routine signatures/numbers and next-day review remain, with d=9 maximum."
+    },
+    {
+      "blind_id": "S14",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Red identifies A and blue plus credential probe distinguishes B/C; corresponding repairs finish in 15 or 20 minutes without unsafe guessing."
+    },
+    {
+      "blind_id": "S15",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Signal plan costs $114,000 versus $115,000 no test and $118,000 exact; 26-minute conditional exact refinement is infeasible and signal fee ties at $2,000."
+    },
+    {
+      "blind_id": "S16",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "Immediate unlock and independent preparation allow registration after minute 8, release at minute 11 and max(8,d)+3 gives d=9; routine batch resumes, but next-day emergency review is omitted."
+    },
+    {
+      "blind_id": "S17",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fixture reduces rejection to 5%, yielding 95 good units from 100 attempts at both stages; preparation upgrade leaves 80."
+    },
+    {
+      "blind_id": "S18",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Reports observed 40-to-60 joint increase without false split; four randomized arms identify two standalone contrasts and a separately stated interaction."
+    },
+    {
+      "blind_id": "S19",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "All monthly arrivals enter the matured five-day cohort, including nonresponders; 90% confirmed resolution and non-growing open cases govern bonus, with five random weekly audits."
+    },
+    {
+      "blind_id": "S20",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "Registrar privately corrects both swaps by 11:04, courier serves 22 present by 11:48 and one late student by noon; reports 23/24 pending, but does not specify custody of the undelivered sealed envelope."
+    },
+    {
+      "blind_id": "S21",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Full network plus adapters costs $6,000, uses two maintenance hours and nets 11 at q=.35; compares partial/local bundles, later 7 versus 3, and derives q=.55 switch."
+    },
+    {
+      "blind_id": "S22",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Computes Fast $400/$1,000 and exact $595, compares no test $650 and signal $620, rejects 21-minute cascade, and derives $95 fee tie."
+    },
+    {
+      "blind_id": "S23",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Registrar corrects envelopes privately, courier completes 22 present plus one late delivery for maximum 23/24, and retains the last envelope sealed for later authorized handoff."
+    },
+    {
+      "blind_id": "S24",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Full connected network nets 11 at worst q=.35 within budget/maintenance; one-adapter/local comparisons, later local 7 versus shared 3, and q=.55 equality are correct."
+    },
+    {
+      "blind_id": "S25",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Red leads to A/reset in 15 minutes; blue plus probe routes expired to B/renewal or valid to C/throttle in 20, avoiding the 45-minute trace."
+    },
+    {
+      "blind_id": "S26",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Separates authorized nurse triage from frozen-priority defect, uses desk 2+nurse 3+doctor 1=6 minute reported-emergency path, and marks doctor-only timing unproved."
+    },
+    {
+      "blind_id": "S27",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Atomic matching hold ID/owner/unexpired confirmation protects B1 from A1; confirmed payment ID prevents repeat refund, and matching expiry/race rules linearize outcomes."
+    },
+    {
+      "blind_id": "S28",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Owner records alone commit each drill; sequential checks fit four minutes, simultaneous last-drill attempts serialize, ID-matched cancellation protects rebooking, and clerk outage is bypassed."
+    },
+    {
+      "blind_id": "S29",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Reports observed +20 without unsupported 10/10 split; randomized four-arm design identifies both standalone contrasts and separate interaction without retroactive attribution."
+    },
+    {
+      "blind_id": "S30",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Provisional +20 report rejects a numerical split; four randomized arms estimate script/course standalone gains and interaction, with limits on applying next-month effects backward."
+    },
+    {
+      "blind_id": "S31",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Signal plan costs $114,000 versus $115,000 no measurement and $118,000 exact; low/high choices, 26-minute infeasible follow-up and $2,000 fee tie are justified."
+    },
+    {
+      "blind_id": "S32",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps authorized nurse triage and routine FIFO while adding reported-change reassessment; 2+3+1=6 meets deadline conditionally, doctor-only classification has no proved timing."
+    },
+    {
+      "blind_id": "S33",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Local owner records commit atomically within four-minute two-desk bound; last-unit races and ID-matched cancellations are safe, display stays advisory and clerk outage does not block."
+    },
+    {
+      "blind_id": "S34",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Exact contingent plan costs $595 in 17 minutes; compares $650 no-test and $620 signal, excludes 21-minute cascade, and gives $95 fee tie."
+    },
+    {
+      "blind_id": "S35",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Rejects authority-only criticism, fixes reported deterioration with nurse priority update and doctor interruption in six minutes, and identifies doctor-only guarantee as unproved."
+    },
+    {
+      "blind_id": "S36",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "Registrar corrects swapped codes privately; courier can serve two unaffected students during correction, then others and one late student for 23/24, but leaves custody of the last sealed envelope unstated."
+    }
+  ],
+  "adjudicated": [
+    {
+      "blind_id": "S02",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "Omits mandatory next-day signer review of the unsigned emergency form."
+      ],
+      "total": 9,
+      "full_pass": false,
+      "reason": "Requests the safe unlock immediately while the officer prepares independently; numbers the emergency before handoff at minute 11, preserves routine signatures and batch work, and derives max(8,d)+3 <= 12 so d <= 9. The answer omits the required next-day signer review for the unsigned emergency form, which C04 explicitly lists as a critical failure."
+    },
+    {
+      "blind_id": "S16",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "Omits mandatory next-day signer review of the unsigned emergency form."
+      ],
+      "total": 9,
+      "full_pass": false,
+      "reason": "Requests the safe unlock immediately, prepares independently, registers before handoff for minute-11 release, resumes the signed routine batch within slack, and derives max(8,d)+3 <= 12 so d <= 9. The answer omits the required next-day signer review for the unsigned emergency form, which C04 explicitly lists as a critical failure."
+    }
+  ],
+  "final": [
+    {
+      "blind_id": "S01",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fast costs $400/$1,000 by risk state; exact test plus fee costs $595 in 17 minutes, versus $620 for signal and $650 without testing. Both tests take 21 minutes; exact-fee tie is $95."
+    },
+    {
+      "blind_id": "S02",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "Omits mandatory next-day signer review of the unsigned emergency form."
+      ],
+      "total": 9,
+      "full_pass": false,
+      "reason": "Requests the safe unlock immediately while the officer prepares independently; numbers the emergency before handoff at minute 11, preserves routine signatures and batch work, and derives max(8,d)+3 <= 12 so d <= 9. The answer omits the required next-day signer review for the unsigned emergency form, which C04 explicitly lists as a critical failure."
+    },
+    {
+      "blind_id": "S03",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The signal strategy costs $114,000 in 14 minutes, versus $115,000 without measurement and $118,000 for exact count. A conditional exact follow-up takes 26 minutes; the signal fee ties no measurement at $2,000."
+    },
+    {
+      "blind_id": "S04",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Red identifies A for reset in 15 minutes; blue followed by expired/valid probe maps to B renewal/C throttling in 20 minutes. No repair precedes diagnosis, and the 45-minute trace is excluded."
+    },
+    {
+      "blind_id": "S05",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Uses all arrivals and customer-confirmed resolution within five days, with mature windows and nonincreasing open cases. Supplier start/completion marks cannot game eligibility; five random weekly audits and nonresponse treatment address adaptation."
+    },
+    {
+      "blind_id": "S06",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Counts repeat inspection and preparation attempts: 100 inspection attempts at 5% rejection give 95 good units/day and need 100 preparation attempts. Preparation upgrade retains the 80-good-unit inspection limit."
+    },
+    {
+      "blind_id": "S07",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Full shared bundle fits $6,000 and two maintenance hours, yielding 11 worst-case net hours at q=.35 versus seven for two locals and 4.5 for one adapter. At q=.75 it yields three versus seven; tie is q=.55."
+    },
+    {
+      "blind_id": "S08",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Explicitly returns rejected units through preparation; 100 attempts through each stage fit capacity and produce 95 good units with the fixture. Preparation-only upgrade remains limited to 80 good units/day."
+    },
+    {
+      "blind_id": "S09",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Makes each owning desk's atomic local reservation authoritative, checks the other pair before rejection within four minutes, and matches cancellation IDs. This serializes last-drill requests and survives the eight-minute clerk outage without display-based commitments."
+    },
+    {
+      "blind_id": "S10",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Atomic confirmation matches hold ID, owner and unexpired time; delayed A1 cannot displace B1 and is refunded once. Stored confirmed payment ID protects duplicate success, and ID-matched expiry plus atomic ordering handles races."
+    },
+    {
+      "blind_id": "S11",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Conditional atomic transition accepts only matching live hold ID/owner before expiry. It preserves B1 on Ana's stale callback, refunds unmatched payments idempotently, recognizes duplicate confirmed payment IDs, and restricts expiry to matching HELD."
+    },
+    {
+      "blind_id": "S12",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The monthly bonus counts every arrival, customer confirmation by day five and nonresponse as unresolved, assessing after maturation. Nonincreasing total and older open cases guard backlog; five weekly random audits address premature confirmations."
+    },
+    {
+      "blind_id": "S13",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Unlock request and independent preparation overlap; registration at minutes 8-10 precedes minute-11 release. The max(8,d)+3 deadline gives d<=9, with routine numbered/signature releases preserved and next-day signer review explicit."
+    },
+    {
+      "blind_id": "S14",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Log red maps to A reset in 15 minutes; blue leads to expired B renewal or valid C throttling in 20 minutes. Every repair follows a decisive test result, and full trace exceeds the budget."
+    },
+    {
+      "blind_id": "S15",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Conditional costs yield $113,000 before the short-signal fee and $114,000 with it, lower than no measurement at $115,000 and exact at $118,000. Follow-up exact count misses deadline at 26 minutes; fee tie is $2,000."
+    },
+    {
+      "blind_id": "S16",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "Omits mandatory next-day signer review of the unsigned emergency form."
+      ],
+      "total": 9,
+      "full_pass": false,
+      "reason": "Requests the safe unlock immediately, prepares independently, registers before handoff for minute-11 release, resumes the signed routine batch within slack, and derives max(8,d)+3 <= 12 so d <= 9. The answer omits the required next-day signer review for the unsigned emergency form, which C04 explicitly lists as a critical failure."
+    },
+    {
+      "blind_id": "S17",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fixture leaves 100 inspection attempts producing 95 good units/day; all 100 attempts consume preparation capacity within 140. Preparation-only upgrade remains capped at 80 good units/day."
+    },
+    {
+      "blind_id": "S18",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Reports observed 40-to-60 change provisionally without allocating the 20. Four randomized cells identify script-only and course-only contrasts against neither and their separate interaction; earlier causal allocation remains unsupported."
+    },
+    {
+      "blind_id": "S19",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Monthly eligibility uses all arrivals, customer confirmation within five days after full cohort maturation, and no month-end open-case increase. It rejects supplier timestamps, counts nonresponse as unresolved, and uses five random weekly audits to address adaptation."
+    },
+    {
+      "blind_id": "S20",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "Registrar alone corrects both envelopes by 11:04; sealed, named-room signed visits serve 22 present students and one returning at 11:58. Two late visits need four minutes, so 23 is the maximum and one is reported pending. Custody of the undelivered sealed envelope is left unclear."
+    },
+    {
+      "blind_id": "S21",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Network plus two adapters costs $6,000 and uses two maintenance hours, yielding 11 worst-case net hours at q=.35 versus seven for two locals and 4.5 for one adapter. Later q=.75 favors locals, and equality is q=.55."
+    },
+    {
+      "blind_id": "S22",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fast state costs are $400/$1,000. Exact test yields $595 and fits 17 minutes versus signal $620 and no test $650; both tests take 21 minutes. Exact-test fee ties the best alternative at $95."
+    },
+    {
+      "blind_id": "S23",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Registrar privately reseals corrected codes by 11:04, courier completes 22 present-room signed visits by 11:48 and one late visit by noon. The second late visit cannot fit; answer reports 23/24 unmet and retains the final envelope sealed in authorized custody."
+    },
+    {
+      "blind_id": "S24",
+      "case_id": "C12",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Full shared bundle fits budget and maintenance, saving 11 net hours at worst current downtime; local pair saves seven and one-adapter shared saves 4.5. At later q=.75, shared falls to three, so locals win; switching equality is q=.55."
+    },
+    {
+      "blind_id": "S25",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Red log identifies A for reset in 15 minutes; blue plus expired/valid probe identifies B/C for corresponding repair in 20 minutes. Every branch acts after diagnosis and stays within 25 minutes; full trace does not."
+    },
+    {
+      "blind_id": "S26",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Rejects profession-only objection under explicit nurse authority, but repairs frozen priority through desk relay, nurse reassessment, and doctor interruption. Reported emergency complaint reaches assessment in 2+3+1=6 minutes; unreported worsening and doctor-only classification lack this guarantee."
+    },
+    {
+      "blind_id": "S27",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Atomic confirmation requires original hold ID, owner and time before expiry, so Ana's late A1 cannot replace B1 and is refunded. Stored winning payment ID prevents refund of duplicate success; ID-matched expiry and atomic order settle the race."
+    },
+    {
+      "blind_id": "S28",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Fixed owning desks alone commit atomic reservations, with two sequential checks taking at most four minutes before rejection. Last-unit requests serialize, ID-matched cancellation protects rebookings, and advisory central/display views do not block decisions during clerk outage."
+    },
+    {
+      "blind_id": "S29",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Provisional report records observed +20 without claiming a causal 10/10 split. Four randomized cells permit script-only and course-only contrasts against neither plus separately calculated interaction; next-month effects do not automatically allocate the earlier increase."
+    },
+    {
+      "blind_id": "S30",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Reports the observed 40-to-60 increase provisionally and rejects unsupported separate numerical gains. Randomized neither/script/course/both groups identify two standalone contrasts and the joint interaction, while leaving earlier causal attribution unknown."
+    },
+    {
+      "blind_id": "S31",
+      "case_id": "C11",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "The low/high signal maps to A/B and costs $114,000 total in 14 minutes, below no measurement $115,000 and exact count $118,000. Conditional exact follow-up takes 26 minutes; short-signal fee ties no measurement at $2,000."
+    },
+    {
+      "blind_id": "S32",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps authorized nurse checklist triage and routine FIFO, but routes a newly reported complaint through nurse priority update to doctor interruption. The conditional 2+3+1=6-minute bound meets seven minutes; unseen symptoms and doctor-only classification are not claimed covered."
+    },
+    {
+      "blind_id": "S33",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Owning desk records alone authorize atomic commits; other stock is checked before rejection within four minutes. Atomic owner ordering prevents double booking, ID-matched cancellation leaves replacements intact, and clerk outage cannot block local decisions."
+    },
+    {
+      "blind_id": "S34",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Exact test chooses Fast at low risk and Safe at high risk for $595 in 17 minutes, versus signal $620 and no test $650. Both tests take 21 minutes; the exact-fee tie is $95. A stray dollar sign before .8 does not change the stated posterior calculation."
+    },
+    {
+      "blind_id": "S35",
+      "case_id": "C09",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Distinguishes valid nurse authority from frozen-priority failure and adds desk-triggered nurse reassessment with doctor interruption. The six-minute conditional bound fits seven minutes, excludes unreported deterioration, and marks doctor-only timing unsupported."
+    },
+    {
+      "blind_id": "S36",
+      "case_id": "C10",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [],
+      "total": 9,
+      "full_pass": true,
+      "reason": "Registrar alone fixes and reseals swapped codes while courier serves two unaffected present students; remaining 20 finish by 11:44 and one late student by noon. Two late visits require four minutes, so 23/24 is correctly reported unmet. The remaining sealed envelope's custody is not specified."
+    }
+  ]
+}
