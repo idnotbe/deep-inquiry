@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
+  "native_execution_runner": {"path": "../history/native-runner-2026-09-30.py", "sha256": "11a784e7c359b644571da55ff3838d41a501aef008d730ead433e11e84c78a40", "current_runner_repairs": "Publication-stage plan completeness, tool eligibility, invalid UTF-8 accounting, private output boundary and frozen-file copying; behavior-tested, not a native rerun"},
   "report_status": "three_pools_retired_insufficient_difficult_core_coverage",
   "candidate": "v3-pool3-retired",
   "requested_model": "gpt-6-sol",

@@ -13,7 +13,160 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from tools import eval_inquiry as e
 
 
+class ModelFreeHost:
+    def __init__(self, exe, profile, home, workspace, capture):
+        self.profile, self.workspace, self.capture = profile, workspace, capture
+        self.dispatched = False
+        self.copied_files = set()
+
+    def initialize(self):
+        return {'codexHome': str(self.profile)}
+
+    def call(self, method, params, deadline=None):
+        target = self.workspace / '.agents/skills/deep-inquiry'
+        match method:
+            case 'skills/list':
+                skills = [{'name': 'deep-inquiry', 'path': str(target / 'SKILL.md'), 'enabled': True, 'scope': 'repo'}] if target.exists() else []
+                return {'data': [{'skills': skills, 'errors': []}]}
+            case 'config/read':
+                return {'config': {'model': 'gpt-6-sol', 'model_reasoning_effort': 'medium'}, 'layers': []}
+            case 'hooks/list':
+                return {'data': [{'hooks': [], 'errors': []}]}
+            case 'mcpServerStatus/list':
+                return {'data': []}
+            case 'configRequirements/read':
+                return {}
+            case 'skills/extraRoots/set':
+                self.copied_files = {path.relative_to(target).as_posix() for path in target.rglob('*') if path.is_file()}
+                return {}
+            case 'thread/start':
+                return {'model': 'gpt-6-sol', 'reasoningEffort': 'medium', 'instructionSources': [], 'sandbox': {'type': 'readOnly', 'networkAccess': False}, 'approvalPolicy': 'never', 'thread': {'id': 'model-free-thread'}}
+            case 'turn/start':
+                self.dispatched = True
+                self.capture.observe({'method': 'item/started', 'params': {'item': {'type': 'commandExecution'}}})
+                self.capture.observe({'method': 'item/completed', 'params': {'item': {'type': 'agentMessage', 'phase': 'final_answer', 'text': 'preserved\r\n'}}})
+                self.capture.observe({'method': 'turn/completed', 'params': {'turn': {'status': 'completed'}}})
+                self.capture.delivered_user_text = ['<environment_context>\n</environment_context>', params['input'][0]['text']]
+                self.capture.delivered_developer_text = ['fixture developer context']
+                return {'turn': {'id': 'model-free-turn'}}
+            case _:
+                raise AssertionError('Unexpected model-free wire method')
+
+    def stop(self):
+        return True
+
+
 class RunnerTests(unittest.TestCase):
+    def test_completed_tool_response_when_final_bytes_must_survive(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            auth = root / 'auth.json'
+            auth.write_bytes(b'fake credential')
+            folder = root / 'trial'
+            with patch.object(e, 'Host', ModelFreeHost):
+                report = e.run_trial(Path(sys.executable), auth, root, {'id': 'C1', 'prompt': 'task'}, 'baseline', folder, {}, {})
+            self.assertEqual(report['status'], 'error')
+            self.assertEqual(report['error_contract_code'], 'response_tool_attempted')
+            self.assertFalse(report['comparison_eligible'])
+            self.assertTrue(report['actual_completed_final_preserved'])
+            self.assertEqual((folder / 'final.txt').read_bytes(), b'preserved\r\n')
+
+    def test_utf8_when_treatment_asset_is_malformed(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / 'skill'
+            (source / 'references').mkdir(parents=True)
+            (source / 'SKILL.md').write_bytes(b'root')
+            for name in e.REFS:
+                (source / 'references' / name).write_bytes(b'valid')
+            (source / 'references' / e.REFS[0]).write_bytes(bytes([255]))
+            frozen = {path.relative_to(source).as_posix(): e.digest(path) for path in source.rglob('*') if path.is_file()}
+            auth = root / 'auth.json'
+            auth.write_bytes(b'fake credential')
+            folder = root / 'trial'
+            with patch.object(e, 'Host', ModelFreeHost):
+                report = e.run_trial(Path(sys.executable), auth, source, {'id': 'H1', 'prompt': 'task'}, 'treatment', folder, frozen, {})
+            self.assertEqual(report['status'], 'error')
+            self.assertEqual(report['error_stage'], 'input_setup')
+            self.assertEqual(report['error_contract_code'], 'input_utf8_decode')
+            self.assertFalse(report['turn_dispatched'])
+            self.assertTrue(report['source_preserved'])
+            self.assertTrue((folder / 'manifest.json').exists())
+            self.assertTrue((folder / 'source-receipts-private.json').exists())
+
+    def test_treatment_when_unlisted_file_must_not_be_copied(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / 'skill'
+            (source / 'references').mkdir(parents=True)
+            (source / 'SKILL.md').write_bytes(b'root')
+            for name in e.REFS:
+                (source / 'references' / name).write_bytes(b'valid')
+            frozen = {path.relative_to(source).as_posix(): e.digest(path) for path in source.rglob('*') if path.is_file()}
+            (source / 'unlisted-private-file').write_bytes(b'not delivered')
+            auth = root / 'auth.json'
+            auth.write_bytes(b'fake credential')
+            instances = []
+            def host_factory(*args):
+                host = ModelFreeHost(*args)
+                instances.append(host)
+                return host
+            with patch.object(e, 'Host', side_effect=host_factory):
+                e.run_trial(Path(sys.executable), auth, source, {'id': 'H1', 'prompt': 'task'}, 'treatment', root / 'trial', frozen, {})
+            self.assertEqual(instances[-1].copied_files, set(frozen))
+
+    def stage_plan(self, purpose):
+        families = [f'f{i}' for i in range(6)]
+        cases = {'calibration': [{'id': f'C{i}', 'family': family, 'prompt': 'task'} for i, family in enumerate(families)], 'confirmation': [{'id': f'H{i}', 'family': family, 'prompt': 'task'} for i, family in enumerate(families)], 'controls': [{'id': 'K1', 'family': 'control', 'prompt': 'task'}]}
+        phase = {'screening': 'calibration', 'confirmation': 'confirmation', 'controls': 'controls'}[purpose]
+        arms = ['baseline'] if purpose == 'screening' else ['baseline', 'treatment']
+        repetitions = [1] if purpose == 'controls' else [1, 2, 3]
+        plan = {'schema_version': 1, 'purpose': purpose, 'selected_families': families, 'suite_hashes': dict.fromkeys(('cases.json', 'rubrics.json', 'protocol.json'), 'f' * 64), 'trials': [{'case_id': case['id'], 'condition': arm, 'repetition': repetition} for case in cases[phase] for arm in arms for repetition in repetitions]}
+        return cases, plan
+
+    def test_stage_when_required_slot_is_missing(self):
+        for purpose in ('screening', 'confirmation', 'controls'):
+            with self.subTest(purpose=purpose):
+                cases, plan = self.stage_plan(purpose)
+                plan['trials'].pop()
+                with self.assertRaises(e.RunnerError):
+                    e.validate_plan(plan, cases)
+
+    def test_confirmation_when_treatment_arm_is_missing(self):
+        cases, plan = self.stage_plan('confirmation')
+        plan['trials'] = [slot for slot in plan['trials'] if slot['condition'] == 'baseline']
+        with self.assertRaises(e.RunnerError):
+            e.validate_plan(plan, cases)
+
+    def test_confirmation_when_selected_families_are_invalid(self):
+        for selected in (['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'f5'], ['f0', 'f1', 'f2', 'f3', 'f4', 'f5', 'unknown'], ['f0', 'f1', 'f2', 'f3', 'f4']):
+            with self.subTest(selected=selected):
+                cases, plan = self.stage_plan('confirmation')
+                plan['selected_families'] = selected
+                with self.assertRaises(e.RunnerError):
+                    e.validate_plan(plan, cases)
+
+    def test_stage_when_all_required_slots_are_present(self):
+        for purpose in ('screening', 'confirmation', 'controls'):
+            cases, plan = self.stage_plan(purpose)
+            e.validate_plan(plan, cases)
+
+    def test_output_when_public_destination_is_requested(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            destination = root / 'evals/v3/reports/new-run'
+            with patch.object(e, 'ROOT', root), self.assertRaises(e.RunnerError):
+                e.prepare_output(destination)
+            self.assertFalse(destination.exists())
+
+    def test_output_when_private_destination_is_requested(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            with patch.object(e, 'ROOT', root):
+                for name in ('temp', 'local-runs'):
+                    e.prepare_output(root / name / 'new-run')
+                    self.assertTrue((root / name / 'new-run').is_dir())
+
     def test_delivery_when_native_root_has_extra_instructions(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

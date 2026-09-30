@@ -15,7 +15,7 @@ The original pool-3 README and all frozen inputs are preserved in
 
 Eight paired evidence-rich decision dossiers and three unchanged conventional controls: 8 calibration, 8 writer-seen confirmation, 3 controls. Each asks for a justified recommendation under a fixed objective using supplied evidence and permissions. The families concern selection, burden transfer, action-relevant identification, incentives, attribution prerequisites, structural analogy, future adaptation, and repair versus premise revision.
 
-This third prospective candidate follows inadequate difficult-core coverage in the preserved pool-1 and pool-2 screens. Prior Sol baseline answers already showed substantive reasoning. Pool-3 difficulty and treatment effects remain **NOT_RUN**. This measures response quality under prompted fixed goals, not spontaneous goal discovery or hidden reasoning.
+This third prospective candidate follows inadequate difficult-core coverage in the preserved pool-1 and pool-2 screens. Prior Sol baseline answers already showed substantive reasoning. At the pretrial snapshot, pool-3 difficulty and treatment effects were **NOT_RUN**; the completed screen and retirement are reported above. This measures response quality under prompted fixed goals, not spontaneous goal discovery or hidden reasoning.
 
 Five task-specific dimensions score 0–2 each. Full pass requires at least 8/10 and no critical failure. Concise valid answers and justified alternatives receive full credit; oracle witnesses do not create extra obligations. Charge a root mistake once unless it independently causes another consequential error. No reward for length, framework names, novelty, or unnecessary analysis.
 
