@@ -1,0 +1,1085 @@
+{
+  "schema_version": 1,
+  "cases": {
+    "C01": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Endorses the proposed split as identified.",
+          "one": "Correctly rejects a precise split but confuses observed change with a defined standalone effect.",
+          "two": "Separates observed aggregate gain from unsupported separate attribution."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Omits required report or relies on unavailable deployment/evidence.",
+          "one": "Provisional report valid but proposed design misses a needed intervention combination.",
+          "two": "Uses allowed provisional reporting and randomized comparison capabilities without waiving report."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Treats simultaneous before/after change as distinguishing the contributions.",
+          "one": "Calls evidence insufficient with no explanation of what ambiguity affects allocation.",
+          "two": "Explains why the observed joint change cannot choose between separate effects; no numerical worlds required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Uses a sum-to-total split as uniquely identified despite possible interaction.",
+          "one": "Identifies standalone contrasts but leaves interaction unreported or its definition unclear.",
+          "two": "Defines standalone contrasts and joint interaction once, without arbitrarily assigning interaction."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Invents study results or says future observation can identify a context-free allocation not defined by contract.",
+          "one": "Report/design individually useful but does not say which unknown becomes answerable.",
+          "two": "Connects present report to future design results and clearly leaves unobserved numerical gains unknown."
+        }
+      ],
+      "critical_failures": [
+        "Reports an unsupported numerical causal split as established, omits contract-required provisional reporting, or arbitrarily allocates interaction as uniquely identified.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H01": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Endorses the proposed split as identified.",
+          "one": "Correctly rejects a precise split but confuses observed change with a defined standalone effect.",
+          "two": "Separates observed aggregate gain from unsupported separate attribution."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Omits required report or relies on unavailable deployment/evidence.",
+          "one": "Provisional report valid but proposed design misses a needed intervention combination.",
+          "two": "Uses allowed provisional reporting and randomized comparison capabilities without waiving report."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Treats simultaneous before/after change as distinguishing the contributions.",
+          "one": "Calls evidence insufficient with no explanation of what ambiguity affects allocation.",
+          "two": "Explains why the observed joint change cannot choose between separate effects; no numerical worlds required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Uses a sum-to-total split as uniquely identified despite possible interaction.",
+          "one": "Identifies standalone contrasts but leaves interaction unreported or its definition unclear.",
+          "two": "Defines standalone contrasts and joint interaction once, without arbitrarily assigning interaction."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Invents study results or says future observation can identify a context-free allocation not defined by contract.",
+          "one": "Report/design individually useful but does not say which unknown becomes answerable.",
+          "two": "Connects present report to future design results and clearly leaves unobserved numerical gains unknown."
+        }
+      ],
+      "critical_failures": [
+        "Reports an unsupported numerical causal split as established, omits contract-required provisional reporting, or arbitrarily allocates interaction as uniquely identified.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C02": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats reject fraction as unrelated to total attempts.",
+          "one": "Recognizes rework but uses a per-stage yield inconsistently.",
+          "two": "Recognizes each failed attempt consumes both stages again."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Claims an infeasible purchase or forbidden extra capacity meets target.",
+          "one": "Correct purchase but capacity feasibility only partly demonstrated.",
+          "two": "Permitted purchase meets supplied target using both stage attempt capacities."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Chooses by local speed/cost without system throughput.",
+          "one": "Names the right purchase but does not explain why the other cannot meet target.",
+          "two": "Shows faster preparation alone cannot improve the inspection-limited good throughput."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims additional test results or assumes a different supplied rejection rate.",
+          "one": "Asks for unnecessary measurement despite a supported purchase.",
+          "two": "Uses supplied stable rejection rates as sufficient decision evidence; no new measurement or hypothetical boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Arithmetic makes an infeasible target appear met.",
+          "one": "Directionally correct calculation but units or exact target comparison unclear.",
+          "two": "Correct target arithmetic in good units/day and recognizes equality is enough without claiming extra margin."
+        }
+      ],
+      "critical_failures": [
+        "Buys both purchases, bypasses a stage, adds staff, or claims target feasibility by omitting repeated attempts.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H02": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats reject fraction as unrelated to total attempts.",
+          "one": "Recognizes rework but uses a per-stage yield inconsistently.",
+          "two": "Recognizes each failed attempt consumes both stages again."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Claims an infeasible purchase or forbidden extra capacity meets target.",
+          "one": "Correct purchase but capacity feasibility only partly demonstrated.",
+          "two": "Permitted purchase meets supplied target using both stage attempt capacities."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Chooses by local speed/cost without system throughput.",
+          "one": "Names the right purchase but does not explain why the other cannot meet target.",
+          "two": "Shows faster preparation alone cannot improve the inspection-limited good throughput."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims additional test results or assumes a different supplied rejection rate.",
+          "one": "Asks for unnecessary measurement despite a supported purchase.",
+          "two": "Uses supplied stable rejection rates as sufficient decision evidence; no new measurement or hypothetical boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Arithmetic makes an infeasible target appear met.",
+          "one": "Directionally correct calculation but units or exact target comparison unclear.",
+          "two": "Correct target arithmetic in good units/day and recognizes equality is enough without claiming extra margin."
+        }
+      ],
+      "critical_failures": [
+        "Buys both purchases, bypasses a stage, adds staff, or claims target feasibility by omitting repeated attempts.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C03": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats ambiguous first result as identifying one cause.",
+          "one": "Interprets first test but one second-result mapping is unclear.",
+          "two": "Interprets both deterministic result patterns and exclusive causes correctly."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Wrong repair exposure or over-deadline plan.",
+          "one": "Repair mappings sound but no sufficient time bound shown.",
+          "two": "Each repair uses its matching cause and all branches meet deadline; either test order or both-tests-first accepted."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers full trace within nonexistent time or guessing.",
+          "one": "Feasible plan but comparison with obvious prohibited trace/guess is unclear.",
+          "two": "Chooses a permitted cheap diagnostic plan rather than overbudget trace or unsupported immediate repair."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Cannot distinguish two causes requiring different repairs.",
+          "one": "One cause branch omitted without an unsafe claim.",
+          "two": "Covers every possible joint/conditional result with a repair mapping."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Presents planned tests as executed or repairs before information suffices.",
+          "one": "Safe overall idea but sequencing leaves an avoidable ambiguity before action.",
+          "two": "Procedure integrates tests then action safely without assuming execution; unnecessary second test is not penalized when feasible."
+        }
+      ],
+      "critical_failures": [
+        "Uses over-deadline full trace or applies a repair while its cause remains ambiguous, incurring stipulated wrong-repair harm.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H03": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats ambiguous first result as identifying one cause.",
+          "one": "Interprets first test but one second-result mapping is unclear.",
+          "two": "Interprets both deterministic result patterns and exclusive causes correctly."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Wrong repair exposure or over-deadline plan.",
+          "one": "Repair mappings sound but no sufficient time bound shown.",
+          "two": "Each repair uses its matching cause and all branches meet deadline; either test order or both-tests-first accepted."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers full trace within nonexistent time or guessing.",
+          "one": "Feasible plan but comparison with obvious prohibited trace/guess is unclear.",
+          "two": "Chooses a permitted cheap diagnostic plan rather than overbudget trace or unsupported immediate repair."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Cannot distinguish two causes requiring different repairs.",
+          "one": "One cause branch omitted without an unsafe claim.",
+          "two": "Covers every possible joint/conditional result with a repair mapping."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Presents planned tests as executed or repairs before information suffices.",
+          "one": "Safe overall idea but sequencing leaves an avoidable ambiguity before action.",
+          "two": "Procedure integrates tests then action safely without assuming execution; unnecessary second test is not penalized when feasible."
+        }
+      ],
+      "critical_failures": [
+        "Uses over-deadline full trace or applies a repair while its cause remains ambiguous, incurring stipulated wrong-repair harm.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C04": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes preparation/release can ignore register lock.",
+          "one": "Notices lock but misstates which work must wait.",
+          "two": "Recognizes registration lock and preparation are separate timed dependencies; normal signature still mandatory."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Serial waits or unregistered release miss deadline or violate rules.",
+          "one": "Feasible timing idea but registration order or batch preservation is unclear.",
+          "two": "Immediately requests safe unlock while independent preparation proceeds; registers before handoff and resumes preserved normal batch."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Treats blanket batching as equally deadline-feasible.",
+          "one": "Correct process without explaining the tempting serial alternative's failure.",
+          "two": "Shows why waiting for full batch or requesting unlock only after preparation loses the emergency deadline."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invalid delay bound would authorize a late emergency release.",
+          "one": "Correct deadline with supplied delay but switching bound incomplete.",
+          "two": "Derives max(preparation,unlock delay)+registration+handoff and correct maximum unlock delay."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Duplicate/lost entries or emergency review silently removed.",
+          "one": "One required post-interruption obligation omitted without contradiction.",
+          "two": "Retains unique-number single register, routine prior signature and required next-day emergency review."
+        }
+      ],
+      "critical_failures": [
+        "Releases before register numbering or routine signature, duplicates registers/numbers, loses batch entries, adds staff, omits next-day review, or misses emergency deadline.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H04": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes preparation/release can ignore register lock.",
+          "one": "Notices lock but misstates which work must wait.",
+          "two": "Recognizes registration lock and preparation are separate timed dependencies; normal signature still mandatory."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Serial waits or unregistered release miss deadline or violate rules.",
+          "one": "Feasible timing idea but registration order or batch preservation is unclear.",
+          "two": "Immediately requests safe unlock while independent preparation proceeds; registers before handoff and resumes preserved normal batch."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Treats blanket batching as equally deadline-feasible.",
+          "one": "Correct process without explaining the tempting serial alternative's failure.",
+          "two": "Shows why waiting for full batch or requesting unlock only after preparation loses the emergency deadline."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invalid delay bound would authorize a late emergency release.",
+          "one": "Correct deadline with supplied delay but switching bound incomplete.",
+          "two": "Derives max(preparation,unlock delay)+registration+handoff and correct maximum unlock delay."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Duplicate/lost entries or emergency review silently removed.",
+          "one": "One required post-interruption obligation omitted without contradiction.",
+          "two": "Retains unique-number single register, routine prior signature and required next-day emergency review."
+        }
+      ],
+      "critical_failures": [
+        "Releases before register numbering or routine signature, duplicates registers/numbers, loses batch entries, adds staff, omits next-day review, or misses emergency deadline.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C05": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Optimizes realized worst-case loss or invents a risk prior.",
+          "one": "Expected costs directionally sound but misses one fee or posterior.",
+          "two": "Computes state-specific expected loss with supplied equally likely risk states and additive fees."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Cascaded tests exceed deadline or repeat unavailable test.",
+          "one": "Correct winning test but no activation-time feasibility shown.",
+          "two": "Chosen complete test/activation plan fits deadline; each test at most once."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Wrong posterior/policy comparison changes winner.",
+          "one": "Correct winner with one permitted alternative not evaluated.",
+          "two": "Compares no test, signal-contingent policy and exact-contingent policy using expected total costs."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Threshold numerical error changes permissible fee range.",
+          "one": "Policy mapping correct but fee threshold missing or compared to weaker alternative.",
+          "two": "Maps both chosen test results to appropriate policies and derives exact-test fee threshold against best alternative."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Uses forbidden cascade to justify recommendation or treats noisy signal as certainty.",
+          "one": "Useful complete plan but leaves cascade feasibility unsettled.",
+          "two": "Uses sequential time limit to reject cascades and distinguishes choice under signal from certainty under exact result."
+        }
+      ],
+      "critical_failures": [
+        "Uses a plan exceeding activation deadline, repeats a one-use test, substitutes an invented prior/risk objective, or treats noisy signal as certain.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H05": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Optimizes realized worst-case loss or invents a risk prior.",
+          "one": "Expected costs directionally sound but misses one fee or posterior.",
+          "two": "Computes state-specific expected loss with supplied equally likely risk states and additive fees."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Cascaded tests exceed deadline or repeat unavailable test.",
+          "one": "Correct winning test but no activation-time feasibility shown.",
+          "two": "Chosen complete test/activation plan fits deadline; each test at most once."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Wrong posterior/policy comparison changes winner.",
+          "one": "Correct winner with one permitted alternative not evaluated.",
+          "two": "Compares no test, signal-contingent policy and exact-contingent policy using expected total costs."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Threshold numerical error changes permissible fee range.",
+          "one": "Policy mapping correct but fee threshold missing or compared to weaker alternative.",
+          "two": "Maps both chosen test results to appropriate policies and derives exact-test fee threshold against best alternative."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Uses forbidden cascade to justify recommendation or treats noisy signal as certainty.",
+          "one": "Useful complete plan but leaves cascade feasibility unsettled.",
+          "two": "Uses sequential time limit to reject cascades and distinguishes choice under signal from certainty under exact result."
+        }
+      ],
+      "critical_failures": [
+        "Uses a plan exceeding activation deadline, repeats a one-use test, substitutes an invented prior/risk objective, or treats noisy signal as certain.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C06": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats improved reported time as confirmed customer resolution.",
+          "one": "Recognizes gaming but misses its connection to arrival-based objective.",
+          "two": "Explains selectable start/completion measures cause deferred hard work and premature closure."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Adds mandatory customer response, staff or unlimited surveillance.",
+          "one": "Uses right data but audit/staff burden unclear.",
+          "two": "Contract rule uses existing records and authorized bounded audits without claiming capacity guarantees."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Renames selectable timer or substitutes unapproved objective.",
+          "one": "Proposes arrival-based deadline measure but omits backlog condition.",
+          "two": "Replaces manipulable time metric with mature arrival-cohort outcome plus backlog condition."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Excludes difficult arrivals or unresolved nonresponse from target.",
+          "one": "Correct measures but denominator or maturation timing permits exclusion ambiguity.",
+          "two": "Defines denominator, acceptance/confirmation cutoff and observed open backlog so bonus eligibility is auditable."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Accepts vendor self-closure as success or claims incentive rule guarantees all outcomes.",
+          "one": "Contract feasible but second-order gaming or nonresponse handling unclear.",
+          "two": "Addresses likely new gaming with independent customer records/audit and treats nonresponse as unresolved."
+        }
+      ],
+      "critical_failures": [
+        "Counts unconfirmed/unaccepted cases as resolved, excludes hard arrivals, forces customer response, or exceeds stated staffing/audit authority.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H06": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats improved reported time as confirmed customer resolution.",
+          "one": "Recognizes gaming but misses its connection to arrival-based objective.",
+          "two": "Explains selectable start/completion measures cause deferred hard work and premature closure."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Adds mandatory customer response, staff or unlimited surveillance.",
+          "one": "Uses right data but audit/staff burden unclear.",
+          "two": "Contract rule uses existing records and authorized bounded audits without claiming capacity guarantees."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Renames selectable timer or substitutes unapproved objective.",
+          "one": "Proposes arrival-based deadline measure but omits backlog condition.",
+          "two": "Replaces manipulable time metric with mature arrival-cohort outcome plus backlog condition."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Excludes difficult arrivals or unresolved nonresponse from target.",
+          "one": "Correct measures but denominator or maturation timing permits exclusion ambiguity.",
+          "two": "Defines denominator, acceptance/confirmation cutoff and observed open backlog so bonus eligibility is auditable."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Accepts vendor self-closure as success or claims incentive rule guarantees all outcomes.",
+          "one": "Contract feasible but second-order gaming or nonresponse handling unclear.",
+          "two": "Addresses likely new gaming with independent customer records/audit and treats nonresponse as unresolved."
+        }
+      ],
+      "critical_failures": [
+        "Counts unconfirmed/unaccepted cases as resolved, excludes hard arrivals, forces customer response, or exceeds stated staffing/audit authority.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C07": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats display availability as committed stock or central outage as harmless.",
+          "one": "Notices only one analogue's structural failure.",
+          "two": "Identifies display-read concurrency risk and central outage exceeding deadline."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Confirms uncommitted stock or depends on unavailable coordinator.",
+          "one": "Local ownership valid but remote check/deadline handling incomplete.",
+          "two": "Uses allowed disjoint ownership atomic operations and bounded messages to make firm answers on time."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Claims surface analogy alone proves safe operation.",
+          "one": "Correct mechanism but analogy comparison superficial.",
+          "two": "Transfers exclusivity from physical possession/assigned units without copying either imperfect analogue wholesale."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Rejects solely on local stock or misses answer deadline.",
+          "one": "Own-pool handling correct but other stock/time bound incomplete.",
+          "two": "Checks other owner's availability before stock rejection; computes permitted message-time bound."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Allows duplicate booking or stale cancellation to free another reservation.",
+          "one": "Concurrency safe but stale-cancel or combined-record authority unsettled.",
+          "two": "Concurrent last-unit commits serialize at owner; ID-matched cancellation cannot clear a new reservation; central record honors owner authority."
+        }
+      ],
+      "critical_failures": [
+        "Confirms a reservation without owning-desk/authorized atomic commitment, double-books an item/interval, frees a different reservation through stale cancellation, ignores other stock before rejection, or adds software/stock.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H07": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats display availability as committed stock or central outage as harmless.",
+          "one": "Notices only one analogue's structural failure.",
+          "two": "Identifies display-read concurrency risk and central outage exceeding deadline."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Confirms uncommitted stock or depends on unavailable coordinator.",
+          "one": "Local ownership valid but remote check/deadline handling incomplete.",
+          "two": "Uses allowed disjoint ownership atomic operations and bounded messages to make firm answers on time."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Claims surface analogy alone proves safe operation.",
+          "one": "Correct mechanism but analogy comparison superficial.",
+          "two": "Transfers exclusivity from physical possession/assigned units without copying either imperfect analogue wholesale."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Rejects solely on local stock or misses answer deadline.",
+          "one": "Own-pool handling correct but other stock/time bound incomplete.",
+          "two": "Checks other owner's availability before stock rejection; computes permitted message-time bound."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Allows duplicate booking or stale cancellation to free another reservation.",
+          "one": "Concurrency safe but stale-cancel or combined-record authority unsettled.",
+          "two": "Concurrent last-unit commits serialize at owner; ID-matched cancellation cannot clear a new reservation; central record honors owner authority."
+        }
+      ],
+      "critical_failures": [
+        "Confirms a reservation without owning-desk/authorized atomic commitment, double-books an item/interval, frees a different reservation through stale cancellation, ignores other stock before rejection, or adds software/stock.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C08": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Claims current rule is already safe.",
+          "one": "Recognizes stale callback but wrong existing outcome.",
+          "two": "Identifies stale callback replacing a different current reservation in supplied event sequence."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Allows expired/mismatched reservation confirmation.",
+          "one": "ID/time idea correct but condition/update not atomic or record incomplete.",
+          "two": "Atomic condition matches ID/owner/unexpired state and available state records support it."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "A superficially simpler check still admits the counterexample.",
+          "one": "Useful identity check but another necessary guard unclear.",
+          "two": "Repairs exact transition rather than relying on time-only or current-state-only checks; no menu required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Refunds rightful later owner or accepts stale callback.",
+          "one": "Only stale or timely path fully specified.",
+          "two": "Walks stale rejection/refund and timely matching acceptance correctly."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Duplicate valid payment refunded/assigned twice or stale expiry clears a new ID.",
+          "one": "Race safe but duplicate-success payment handling incomplete, or vice versa.",
+          "two": "Stores accepted payment outcomes for idempotency; expiry/callback races linearize with time validity, duplicate success never refunded."
+        }
+      ],
+      "critical_failures": [
+        "Accepts a stale/expired/mismatched callback, clears another reservation with stale expiry, refunds previously accepted payment, or uses a non-atomic guard/update that admits the stated race.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H08": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Claims current rule is already safe.",
+          "one": "Recognizes stale callback but wrong existing outcome.",
+          "two": "Identifies stale callback replacing a different current reservation in supplied event sequence."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Allows expired/mismatched reservation confirmation.",
+          "one": "ID/time idea correct but condition/update not atomic or record incomplete.",
+          "two": "Atomic condition matches ID/owner/unexpired state and available state records support it."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "A superficially simpler check still admits the counterexample.",
+          "one": "Useful identity check but another necessary guard unclear.",
+          "two": "Repairs exact transition rather than relying on time-only or current-state-only checks; no menu required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Refunds rightful later owner or accepts stale callback.",
+          "one": "Only stale or timely path fully specified.",
+          "two": "Walks stale rejection/refund and timely matching acceptance correctly."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Duplicate valid payment refunded/assigned twice or stale expiry clears a new ID.",
+          "one": "Race safe but duplicate-success payment handling incomplete, or vice versa.",
+          "two": "Stores accepted payment outcomes for idempotency; expiry/callback races linearize with time validity, duplicate success never refunded."
+        }
+      ],
+      "critical_failures": [
+        "Accepts a stale/expired/mismatched callback, clears another reservation with stale expiry, refunds previously accepted payment, or uses a non-atomic guard/update that admits the stated race.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C09": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Rejects explicit authorization or dismisses deterioration.",
+          "one": "Accepts real failure but gives unwarranted weight to authority criticism.",
+          "two": "Separates unsupported profession-only criticism from real frozen-priority counterexample."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Invents additional staff/monitoring or leaves priority frozen.",
+          "one": "Uses authorized reassessment but event handoff/trigger unclear.",
+          "two": "Connects desk report, permitted priority update and specialist interruption using stated staff/time."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Degrades correct authority rule in response to unsupported critique.",
+          "one": "Repair valid but unnecessarily discards sound triage.",
+          "two": "Retains useful FIFO/triage for unaffected cases while repairing true failure."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims guaranteed detection of unreported worsening.",
+          "one": "Feasible timing but guarantee boundary about unreported change unclear.",
+          "two": "Checks complaint-to-specialist time against stated deadline and limits guarantee to reported change."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Keeps forbidden delegated classification or invents specialist timing.",
+          "one": "Recognizes authority changes but does not explain lost timing support.",
+          "two": "Under classification-authority reversal routes classification to specialist and marks same deadline unproved without new timing evidence."
+        }
+      ],
+      "critical_failures": [
+        "Overrides supplied classification authority, invents monitoring/staff, guarantees unseen deterioration detection, or retains delegated classification under explicit counterfactual prohibition.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H09": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Rejects explicit authorization or dismisses deterioration.",
+          "one": "Accepts real failure but gives unwarranted weight to authority criticism.",
+          "two": "Separates unsupported profession-only criticism from real frozen-priority counterexample."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Invents additional staff/monitoring or leaves priority frozen.",
+          "one": "Uses authorized reassessment but event handoff/trigger unclear.",
+          "two": "Connects desk report, permitted priority update and specialist interruption using stated staff/time."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Degrades correct authority rule in response to unsupported critique.",
+          "one": "Repair valid but unnecessarily discards sound triage.",
+          "two": "Retains useful FIFO/triage for unaffected cases while repairing true failure."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims guaranteed detection of unreported worsening.",
+          "one": "Feasible timing but guarantee boundary about unreported change unclear.",
+          "two": "Checks complaint-to-specialist time against stated deadline and limits guarantee to reported change."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Keeps forbidden delegated classification or invents specialist timing.",
+          "one": "Recognizes authority changes but does not explain lost timing support.",
+          "two": "Under classification-authority reversal routes classification to specialist and marks same deadline unproved without new timing evidence."
+        }
+      ],
+      "critical_failures": [
+        "Overrides supplied classification authority, invents monitoring/staff, guarantees unseen deterioration detection, or retains delegated classification under explicit counterfactual prohibition.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C10": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes signatures before presence or courier may read codes.",
+          "one": "Identifies absence or mismatch but not their separate effects.",
+          "two": "Distinguishes secrecy/recipient matching from hard absent-recipient timing obstruction."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Unauthorized secret access, proxies or forbidden channel.",
+          "one": "Confidential normal process sound but mismatch correction ownership unclear.",
+          "two": "Only secret-authorized person corrects mismatched envelopes and courier makes named signed sealed handoffs."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Claims all-target completion with insufficient late delivery time.",
+          "one": "Normal schedule plausible but maximum completion not proved.",
+          "two": "Shows feasible present-recipient schedule and best supported absent-recipient partial delivery."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Numerical late-capacity error changes claimed maximum.",
+          "one": "Correct shortfall but boundary arithmetic lacks clear resource bound.",
+          "two": "Computes upper bound from absent-return time and per-recipient handoff duration, not invented spare capacity."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Fabricates completion or extends fixed deadline.",
+          "one": "Acknowledges shortfall but leaves record/secret custody vague.",
+          "two": "Reports exact supported completion/shortfall, retains undelivered sealed packet and never claims unmet target met."
+        }
+      ],
+      "critical_failures": [
+        "Shows secrets to courier, uses proxy/advance signature or forbidden channel/staff, extends deadline, or claims all recipients served despite the supplied absence/handoff bound.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H10": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes signatures before presence or courier may read codes.",
+          "one": "Identifies absence or mismatch but not their separate effects.",
+          "two": "Distinguishes secrecy/recipient matching from hard absent-recipient timing obstruction."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Unauthorized secret access, proxies or forbidden channel.",
+          "one": "Confidential normal process sound but mismatch correction ownership unclear.",
+          "two": "Only secret-authorized person corrects mismatched envelopes and courier makes named signed sealed handoffs."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Claims all-target completion with insufficient late delivery time.",
+          "one": "Normal schedule plausible but maximum completion not proved.",
+          "two": "Shows feasible present-recipient schedule and best supported absent-recipient partial delivery."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Numerical late-capacity error changes claimed maximum.",
+          "one": "Correct shortfall but boundary arithmetic lacks clear resource bound.",
+          "two": "Computes upper bound from absent-return time and per-recipient handoff duration, not invented spare capacity."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Fabricates completion or extends fixed deadline.",
+          "one": "Acknowledges shortfall but leaves record/secret custody vague.",
+          "two": "Reports exact supported completion/shortfall, retains undelivered sealed packet and never claims unmet target met."
+        }
+      ],
+      "critical_failures": [
+        "Shows secrets to courier, uses proxy/advance signature or forbidden channel/staff, extends deadline, or claims all recipients served despite the supplied absence/handoff bound.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C11": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Invents demand probabilities or treats signal as exact.",
+          "one": "Right cost direction but one state/posterior cost incomplete.",
+          "two": "Computes demand-state plan costs using supplied prior and signal reliability."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Uses unavailable repeated measurement or over-deadline refinement.",
+          "one": "Winner feasible but refinement time/fee partly omitted.",
+          "two": "Selected plan includes measurement fee and commitment time; conditional refinement only within authorized time."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Concludes precision alone warrants expensive exact study.",
+          "one": "Correct winner but one plausible alternative omitted.",
+          "two": "Compares no measurement, noisy signal and exact count using expected net decision value."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Wrong branching or bound changes choice.",
+          "one": "Correct branching but fee bound missing or based on weaker rival.",
+          "two": "Maps signal outcomes to plans and derives signal-fee boundary against best permitted rival."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Assumes optional precision always helps or silently ignores a superior permitted follow-up.",
+          "one": "Direct signal plan correct but permitted follow-up not assessed.",
+          "two": "Evaluates conditional exact follow-up with time feasibility and posterior improvement versus added fee."
+        }
+      ],
+      "critical_failures": [
+        "Uses unavailable repeated signal or over-deadline refinement, invents demand/test outcomes, or selects using a different cost objective.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H11": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Invents demand probabilities or treats signal as exact.",
+          "one": "Right cost direction but one state/posterior cost incomplete.",
+          "two": "Computes demand-state plan costs using supplied prior and signal reliability."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Uses unavailable repeated measurement or over-deadline refinement.",
+          "one": "Winner feasible but refinement time/fee partly omitted.",
+          "two": "Selected plan includes measurement fee and commitment time; conditional refinement only within authorized time."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Concludes precision alone warrants expensive exact study.",
+          "one": "Correct winner but one plausible alternative omitted.",
+          "two": "Compares no measurement, noisy signal and exact count using expected net decision value."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Wrong branching or bound changes choice.",
+          "one": "Correct branching but fee bound missing or based on weaker rival.",
+          "two": "Maps signal outcomes to plans and derives signal-fee boundary against best permitted rival."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Assumes optional precision always helps or silently ignores a superior permitted follow-up.",
+          "one": "Direct signal plan correct but permitted follow-up not assessed.",
+          "two": "Evaluates conditional exact follow-up with time feasibility and posterior improvement versus added fee."
+        }
+      ],
+      "critical_failures": [
+        "Uses unavailable repeated signal or over-deadline refinement, invents demand/test outcomes, or selects using a different cost objective.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "C12": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Counts network/storage alone as providing savings.",
+          "one": "Bundle idea right but one dependency or maintenance term missing.",
+          "two": "Recognizes shared component gives no saving without per-team connectors and local/shared cannot double-count."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Over-budget bundle or maintenance capacity violation.",
+          "one": "Valid full bundle but resource check incomplete.",
+          "two": "Bundle budget and maintenance capacity checked with indivisible purchases."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Selects cheapest component regardless of complementary benefit.",
+          "one": "Correct winner versus two locals but neglects viable partial bundle.",
+          "two": "Compares full shared, one connected team and local bundles by net hours, not component price."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents downtime prior or applies wrong worst-case endpoint.",
+          "one": "Initial robust choice right but switching threshold incomplete.",
+          "two": "Uses interval upper downtime for worst-case expected net hours and derives shared/local equality boundary."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Keeps shared winner under changed interval using original assumptions.",
+          "one": "Acknowledges reversal but lacks supported changed comparison.",
+          "two": "Re-evaluates altered downtime interval and selects conventional locals when they dominate; preserves same objective."
+        }
+      ],
+      "critical_failures": [
+        "Exceeds budget/maintenance authority, double-counts mutually exclusive savings, counts an unconnected shared benefit, or substitutes an invented downtime distribution.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "H12": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Counts network/storage alone as providing savings.",
+          "one": "Bundle idea right but one dependency or maintenance term missing.",
+          "two": "Recognizes shared component gives no saving without per-team connectors and local/shared cannot double-count."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Over-budget bundle or maintenance capacity violation.",
+          "one": "Valid full bundle but resource check incomplete.",
+          "two": "Bundle budget and maintenance capacity checked with indivisible purchases."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Selects cheapest component regardless of complementary benefit.",
+          "one": "Correct winner versus two locals but neglects viable partial bundle.",
+          "two": "Compares full shared, one connected team and local bundles by net hours, not component price."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents downtime prior or applies wrong worst-case endpoint.",
+          "one": "Initial robust choice right but switching threshold incomplete.",
+          "two": "Uses interval upper downtime for worst-case expected net hours and derives shared/local equality boundary."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Keeps shared winner under changed interval using original assumptions.",
+          "one": "Acknowledges reversal but lacks supported changed comparison.",
+          "two": "Re-evaluates altered downtime interval and selects conventional locals when they dominate; preserves same objective."
+        }
+      ],
+      "critical_failures": [
+        "Exceeds budget/maintenance authority, double-counts mutually exclusive savings, counts an unconnected shared benefit, or substitutes an invented downtime distribution.",
+        "Claims execution of a proposed action/test or new observations not supplied.",
+        "A numeric calculation or bound is wrong in a way that changes recommendation, timing, required report or claimed feasibility."
+      ],
+      "accepted_answer_policy": "Accept any equally justified authorized feasible answer. Full credit does not require framework names, private reasoning, extra examples, unrequested hypotheticals, or verbose exposition. Assign a missing detail to its primary dimension; do not deduct the same absent optional elaboration across dimensions. Dimension anchors judge the distinct evidence specified. For diagnosis, both-tests-first is fully valid when all actions meet the budget."
+    },
+    "K01": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Misreads supplied decisive evidence or contractual basis.",
+          "one": "Uses correct evidence but explanation of governing basis is unclear.",
+          "two": "Uses the supplied governing basis/evidence accurately; a brief direct justification suffices."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposes forbidden or infeasible action.",
+          "one": "Correct action with a material ambiguity about supplied resource limit.",
+          "two": "Direct recommendation satisfies stated contract/capacity/deadline with no extra process."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers a contradicted alternative.",
+          "one": "Names correct choice but also endorses an incompatible rival.",
+          "two": "Correct direct choice suffices; no alternative menu or hypothetical reversal is required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents or demands unsupported evidence to withhold an already justified decision.",
+          "one": "Correct decision but incorrectly suggests supplied evidence is insufficient.",
+          "two": "Treats supplied complete evidence as sufficient; no new measurement or decision boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Numeric or outcome error changes valid recommendation.",
+          "one": "Right recommendation but incomplete requested amounts/target arithmetic.",
+          "two": "Requested allocation, throughput or repair/time is correct; complete terse answer earns full credit."
+        }
+      ],
+      "critical_failures": [
+        "Violates an explicitly stated hard constraint or substitutes a different required objective.",
+        "Claims to have executed a test, observed a new result, or obtained facts not supplied in the prompt.",
+        "Uses a numerically invalid calculation or bound that changes the recommendation or claimed feasibility."
+      ],
+      "accepted_answer_policy": "A complete brief direct answer can earn ten. Do not require alternatives, new evidence, hypothetical boundary changes or examples."
+    },
+    "K02": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Misreads supplied decisive evidence or contractual basis.",
+          "one": "Uses correct evidence but explanation of governing basis is unclear.",
+          "two": "Uses the supplied governing basis/evidence accurately; a brief direct justification suffices."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposes forbidden or infeasible action.",
+          "one": "Correct action with a material ambiguity about supplied resource limit.",
+          "two": "Direct recommendation satisfies stated contract/capacity/deadline with no extra process."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers a contradicted alternative.",
+          "one": "Names correct choice but also endorses an incompatible rival.",
+          "two": "Correct direct choice suffices; no alternative menu or hypothetical reversal is required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents or demands unsupported evidence to withhold an already justified decision.",
+          "one": "Correct decision but incorrectly suggests supplied evidence is insufficient.",
+          "two": "Treats supplied complete evidence as sufficient; no new measurement or decision boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Numeric or outcome error changes valid recommendation.",
+          "one": "Right recommendation but incomplete requested amounts/target arithmetic.",
+          "two": "Requested allocation, throughput or repair/time is correct; complete terse answer earns full credit."
+        }
+      ],
+      "critical_failures": [
+        "Violates an explicitly stated hard constraint or substitutes a different required objective.",
+        "Claims to have executed a test, observed a new result, or obtained facts not supplied in the prompt.",
+        "Uses a numerically invalid calculation or bound that changes the recommendation or claimed feasibility."
+      ],
+      "accepted_answer_policy": "A complete brief direct answer can earn ten. Do not require alternatives, new evidence, hypothetical boundary changes or examples."
+    },
+    "K03": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Misreads supplied decisive evidence or contractual basis.",
+          "one": "Uses correct evidence but explanation of governing basis is unclear.",
+          "two": "Uses the supplied governing basis/evidence accurately; a brief direct justification suffices."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposes forbidden or infeasible action.",
+          "one": "Correct action with a material ambiguity about supplied resource limit.",
+          "two": "Direct recommendation satisfies stated contract/capacity/deadline with no extra process."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers a contradicted alternative.",
+          "one": "Names correct choice but also endorses an incompatible rival.",
+          "two": "Correct direct choice suffices; no alternative menu or hypothetical reversal is required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents or demands unsupported evidence to withhold an already justified decision.",
+          "one": "Correct decision but incorrectly suggests supplied evidence is insufficient.",
+          "two": "Treats supplied complete evidence as sufficient; no new measurement or decision boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Numeric or outcome error changes valid recommendation.",
+          "one": "Right recommendation but incomplete requested amounts/target arithmetic.",
+          "two": "Requested allocation, throughput or repair/time is correct; complete terse answer earns full credit."
+        }
+      ],
+      "critical_failures": [
+        "Violates an explicitly stated hard constraint or substitutes a different required objective.",
+        "Claims to have executed a test, observed a new result, or obtained facts not supplied in the prompt.",
+        "Uses a numerically invalid calculation or bound that changes the recommendation or claimed feasibility."
+      ],
+      "accepted_answer_policy": "A complete brief direct answer can earn ten. Do not require alternatives, new evidence, hypothetical boundary changes or examples."
+    }
+  }
+}

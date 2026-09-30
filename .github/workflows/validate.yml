@@ -25,3 +25,5 @@ jobs:
         run: python -B -m unittest discover -s tests -v
       - name: Check repository structure
         run: python -B tools/check_repository.py
+      - name: Validate response-quality evaluation definitions
+        run: python -B tools/eval_inquiry.py validate --suite evals/v3

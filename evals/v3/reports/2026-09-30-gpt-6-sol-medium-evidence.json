@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "report_status": "three_pools_retired_insufficient_difficult_core_coverage",
+  "candidate": "v3-pool3-retired",
+  "requested_model": "gpt-6-sol",
+  "requested_effort": "medium",
+  "effective_backend_identity": "UNKNOWN",
+  "effective_backend_effort": "UNKNOWN",
+  "estimand": "Effect of the explicitly delivered root plus three frozen inquiry references on selected difficult response cases under the requested native host configuration",
+  "not_measured": [
+    "natural_skill_triggering",
+    "ordinary_progressive_reference_loading",
+    "root_only_effect",
+    "installation_only_effect",
+    "private_reasoning_quality"
+  ],
+  "candidate_review": {
+    "structural": "PASS_P0_0_P1_0_WITH_NONBLOCKING_P2",
+    "feasibility": "PASS_P0_0_P1_0_WITH_NONBLOCKING_P2",
+    "empirical_difficulty": "INSUFFICIENT_DIFFICULT_CORE_COVERAGE_FOR_POOL_1"
+  },
+  "unscored_native_canary": {
+    "completed_turns": 8,
+    "first_pair": "COMPLETED_RESPONSES_POSTDELIVERY_VERIFIER_FAILED_FOR_TREATMENT",
+    "second_pair": "EXACT_NATIVE_DELIVERY_CONTRACT_AND_CLEANUP_PASSED",
+    "pool_2_pair": "TWO_COMPLETED_READY_EXACT_DELIVERY_MATCHED_OBSERVED_DEVELOPER_AND_USER_PREFIX_SOURCE_PROCESS_AND_COPIED_AUTH_CLEANUP_PASSED",
+    "pool_3_pair": "TWO_COMPLETED_READY_EXACT_DELIVERY_MATCHED_OBSERVED_DEVELOPER_AND_USER_PREFIX_SOURCE_PROCESS_AND_COPIED_AUTH_CLEANUP_PASSED",
+    "common_developer_and_user_prefix": "MATCHED_WITHIN_RECORDED_HOST_NORMALIZATION",
+    "score_contribution": 0,
+    "backend_attestation": false
+  },
+  "delivery": {
+    "treatment_submitted_order": [
+      "task",
+      "references/inquiry-methods.md",
+      "references/evidence-and-diagnosis.md",
+      "references/alternatives-and-drafting.md",
+      "native_root_expansion:deep-inquiry:deep-inquiry"
+    ],
+    "baseline": "same task and common requested host configuration without treatment package"
+  },
+  "screening": {
+    "status": "COMPLETED_POOL_1_RETIRED",
+    "planned_baseline_trials": 36,
+    "completed_verified_baseline_outputs": 36,
+    "families": 12,
+    "trials_per_family": 3,
+    "exclude_if": "full_pass_count >= 2 of 3 OR normalized_mean > 0.70",
+    "full_pass": "score >= 8 of 10 AND no critical failure",
+    "points": 356,
+    "maximum_points": 360,
+    "full_passes": 34,
+    "missing_outcomes": 0,
+    "independent_grading": {
+      "first_panel_grades": 36,
+      "second_panel_grades": 36,
+      "third_adjudication_disagreements": 2,
+      "adjudicated_blind_ids": ["S02", "S16"]
+    },
+    "selected_families": [],
+    "excluded_families_with_reasons": [
+      {"id": "C01", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+      {"id": "C02", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+      {"id": "C03", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+      {"id": "C04", "full_passes": 1, "points": 28, "normalized_mean": 0.9333333333333333, "reasons": ["normalized_mean_strictly_above_0.70"]},
+      {"id": "C05", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+      {"id": "C06", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+      {"id": "C07", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+      {"id": "C08", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+      {"id": "C09", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+      {"id": "C10", "full_passes": 3, "points": 28, "normalized_mean": 0.9333333333333333, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+      {"id": "C11", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+      {"id": "C12", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]}
+    ],
+    "minimum_retained_families": 6,
+    "adequate_difficult_core_coverage": false,
+    "thresholds_changed_after_results": false
+  },
+  "confirmation": {
+    "status": "NOT_RUN",
+    "planned_maximum_outputs": 72,
+    "fresh_trials_per_selected_family_per_arm": 3,
+    "per_family_scores": null,
+    "full_pass_counts": null,
+    "critical_failures": null,
+    "missing_outcomes": null,
+    "comparison_eligible": false,
+    "treatment_effect": "UNDETERMINED"
+  },
+  "conventional_controls": {
+    "status": "NOT_RUN",
+    "ids": ["K01", "K02", "K03"],
+    "planned_outputs": 6,
+    "outside_difficult_core": true,
+    "results": null
+  },
+  "pool_1_scored_output_budget_maximum": 114,
+  "total_completed_baseline_outputs_across_pools": 96,
+  "total_completed_baseline_attempts_across_pools": 96,
+  "total_baseline_points_across_pools": 930,
+  "total_baseline_maximum_points_across_pools": 960,
+  "total_baseline_full_passes_across_pools": 88,
+  "active_adequate_difficult_core": false,
+  "valid_retained_families_by_pool": {"pool_1": 0, "pool_2": 1, "pool_3": 0},
+  "difficulty_goal": "UNMET_AFTER_THREE_MATERIALLY_DIFFERENT_CANDIDATES_NO_POOL_4_PLANNED",
+  "v2_boundary": "These 96 v3 baseline-only outputs are separate from the older v2 mixed-task 96-response set and its 77 of 96 combined passes",
+  "pool_2": {
+    "status": "RETIRED_INSUFFICIENT_VALID_DIFFICULT_CORE_COVERAGE",
+    "review": {
+      "construct": "PASS_P0_0_P1_0",
+      "oracle_feasibility": "PASS_P0_0_P1_0",
+      "repaired_items": ["C07_oldest_stock_reference", "C05_H05_confirmed_reservation_lifetime"],
+      "empirical_difficulty": "NOT_ESTABLISHED"
+    },
+    "retired_definition_sha256": {
+      "evals/v3/history/pool-2/cases.json": "a726eee0135f6f8f840426c146b9a06c4fc91468866428ffdadee25f9b43d75c",
+      "evals/v3/history/pool-2/rubrics.json": "e53a0734dc8447133bb575b58eec6d0cc462f6c2d8737712ff26531a4b8a0817",
+      "evals/v3/history/pool-2/protocol.json": "d3e4de1b85033b62a09e472aee8f06b7ed64e2bdfedf12206d6b4b36b6fd5819"
+    },
+    "freeze_created_before_new_trial": true,
+    "root_and_reference_package_unchanged": true,
+    "runner_unchanged": true,
+    "baseline_plan": {
+      "status": "COMPLETED_RETIRED",
+      "planned_outputs": 36,
+      "verified_completed_outputs": 36,
+      "attempts": 36,
+      "points": 336,
+      "maximum_points": 360,
+      "full_passes": 31,
+      "missing_outcomes": 0,
+      "independent_grading": {
+        "first_panel_grades": 36,
+        "second_panel_grades": 36,
+        "third_adjudication_disagreements": 7,
+        "adjudicated_blind_ids": ["P2S01", "P2S05", "P2S19", "P2S22", "P2S26", "P2S28", "P2S34"]
+      },
+      "numeric_qualifiers": ["cross_owner_commitment", "correlated_robust_information"],
+      "valid_selected_families": ["correlated_robust_information"],
+      "minimum_retained_families": 6,
+      "adequate_difficult_core_coverage": false,
+      "families": [
+        {"id": "C01", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reason": "baseline_ceiling"},
+        {"id": "C02", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reason": "baseline_ceiling"},
+        {"id": "C03", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reason": "baseline_ceiling"},
+        {"id": "C04", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reason": "baseline_ceiling"},
+        {"id": "C05", "full_passes": 0, "points": 19, "normalized_mean": 0.6333333333333333, "selected": false, "reason": "independent_clarity_and_authority_validation_unverified"},
+        {"id": "C06", "full_passes": 1, "points": 20, "normalized_mean": 0.6666666666666666, "selected": true, "reason": "valid_numeric_qualifier"},
+        {"id": "C07", "full_passes": 3, "points": 27, "normalized_mean": 0.9, "selected": false, "reason": "baseline_ceiling"},
+        {"id": "C08", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reason": "baseline_ceiling"},
+        {"id": "C09", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reason": "baseline_ceiling"},
+        {"id": "C10", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reason": "baseline_ceiling"},
+        {"id": "C11", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reason": "baseline_ceiling"},
+        {"id": "C12", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reason": "baseline_ceiling"}
+      ]
+    },
+    "c05_validity_qualification": "Post-baseline audit left coordinator stop semantics and cross-request admission authority unverified; numeric difficulty is descriptive and does not prove model inability",
+    "scored_treatment": "NOT_RUN",
+    "confirmation": "NOT_RUN",
+    "conventional_controls": "NOT_RUN",
+    "claim_boundary": "Quality of integrated answers on explicitly prompted comparisons and decision boundaries; no spontaneous unrequested reframe inference",
+    "grading_boundary": "Assign each distinct error to its nearest anchor; lower another view only for an independently demonstrated consequence; accept concise feasible alternatives",
+    "treatment_effect": "UNDETERMINED"
+  },
+  "pool_3": {
+    "approach": "prospective_dossier",
+    "status": "RETIRED_INSUFFICIENT_VALID_DIFFICULT_CORE_COVERAGE",
+    "case_count": 19,
+    "calibration_families": 8,
+    "writer_seen_confirmation_families": 8,
+    "unchanged_conventional_controls": 3,
+    "review": {
+      "construct_round_2": "PASS_P0_0_P1_0",
+      "oracle_feasibility_round_2": "PASS_P0_0_P1_0",
+      "empirical_difficulty": "INSUFFICIENT_DIFFICULT_CORE_COVERAGE",
+      "bounded_rubric_repair": "Four C/H gates enforce known maximization objective; preserve partial credit and single-root-error charging"
+    },
+    "retired_definition_sha256": {
+      "evals/v3/history/pool-3/cases.json": "83b2b12a4357eace249802ba7eb40077536124e0b9ae026369848503077f88ef",
+      "evals/v3/history/pool-3/rubrics.json": "185f509011ede434d5999178496282d5ae34e45fe2c331bfdfc19c42ad5ffbdd",
+      "evals/v3/history/pool-3/protocol.json": "de4e667eba2c11c13696ec7a51cbb5a51beb81e29b0f6cb1a4395e4ed1c81a0a",
+      "evals/v3/history/pool-3/README.md": "046e8973f9df775c5c73e39797e6237b989a06d3db3db6fbd27077f64cdfe58b"
+    },
+    "freeze_created_before_native_dispatch": true,
+    "root_three_references_and_runner_unchanged": true,
+    "neutral_canary_actual_completed_outputs": 2,
+    "neutral_canary_scored": false,
+    "baseline_plan": {
+      "status": "COMPLETED_RETIRED",
+      "planned_outputs": 24,
+      "verified_completed_outputs": 24,
+      "verified_attempts": 24,
+      "collector_exit_code": 0,
+      "strict_input_and_context_verified": true,
+      "source_process_copied_auth_cleanup_verified": true,
+      "native_executable_unchanged": true,
+      "points": 238,
+      "maximum_points": 240,
+      "full_passes": 23,
+      "missing_outcomes": 0,
+      "independent_grading": {
+        "first_panel_grades": 24,
+        "second_panel_grades": 24,
+        "third_adjudication_disagreements": 1,
+        "adjudicated_blind_ids": ["P3S14"]
+      },
+      "selected_families": [],
+      "minimum_retained_families": 6,
+      "adequate_difficult_core_coverage": false,
+      "families": [
+        {"id": "C01", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+        {"id": "C02", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+        {"id": "C03", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+        {"id": "C04", "full_passes": 2, "points": 28, "normalized_mean": 0.9333333333333333, "selected": false, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70", "handoff_enforcement_underidentified_no_baseline_inability_claim"]},
+        {"id": "C05", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+        {"id": "C06", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+        {"id": "C07", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]},
+        {"id": "C08", "full_passes": 3, "points": 30, "normalized_mean": 1.0, "selected": false, "reasons": ["at_least_two_full_passes", "normalized_mean_strictly_above_0.70"]}
+      ]
+    },
+    "c04_validity_qualification": "Handoff enforcement and customer-confirmation authority underidentified; grade descriptive, neither perfect compliance nor impossibility established; C04 excluded by both fixed ceiling rules regardless",
+    "frozen_inputs_rubrics_and_outcomes_unchanged_after_dispatch": true,
+    "confirmation_maximum_outputs_if_selected": 48,
+    "conventional_control_planned_outputs": 6,
+    "candidate_maximum_scored_outputs": 78,
+    "unchanged_per_pool_ceiling": 114,
+    "scored_treatment": "NOT_RUN",
+    "confirmation": "NOT_RUN",
+    "conventional_controls": "NOT_RUN",
+    "treatment_effect": "UNDETERMINED"
+  },
+  "provenance": {
+    "retired_pool_1_protocol": "evals/v3/history/pool-1/protocol.json",
+    "retired_pool_1_cases": "evals/v3/history/pool-1/cases.json",
+    "retired_pool_1_rubrics": "evals/v3/history/pool-1/rubrics.json",
+    "public_screening_responses": "evals/v3/reports/pool-1-responses.json",
+    "public_screening_grades": "evals/v3/reports/pool-1-grades.json",
+    "retired_pool_2_protocol": "evals/v3/history/pool-2/protocol.json",
+    "retired_pool_2_cases": "evals/v3/history/pool-2/cases.json",
+    "retired_pool_2_rubrics": "evals/v3/history/pool-2/rubrics.json",
+    "public_pool_2_freeze": "evals/v3/reports/pool-2-freeze.json",
+    "public_pool_2_screening_responses": "evals/v3/reports/pool-2-responses.json",
+    "public_pool_2_screening_grades": "evals/v3/reports/pool-2-grades.json",
+    "public_pool_3_freeze": "evals/v3/reports/pool-3-freeze.json",
+    "retired_pool_3_cases": "evals/v3/history/pool-3/cases.json",
+    "retired_pool_3_rubrics": "evals/v3/history/pool-3/rubrics.json",
+    "retired_pool_3_protocol": "evals/v3/history/pool-3/protocol.json",
+    "retired_pool_3_readme": "evals/v3/history/pool-3/README.md",
+    "public_pool_3_screening_responses": "evals/v3/reports/pool-3-responses.json",
+    "public_pool_3_screening_grades": "evals/v3/reports/pool-3-grades.json",
+    "pool_3_private_freeze_record": "temp/2026-09-30-rebuild/pool-3/freeze-r1.json",
+    "pool_3_private_canary_verification": "temp/2026-09-30-rebuild/pool-3/canary-verification.json",
+    "pool_3_private_screening_launch": "temp/2026-09-30-rebuild/runtime/pool3-screening-r1.launch.json",
+    "pool_3_local_review_records": [
+      "temp/2026-09-30-rebuild/pool-3/construct-review2.md",
+      "temp/2026-09-30-rebuild/pool-3/oracle-review2.md",
+      "temp/2026-09-30-rebuild/pool-3/screening-final.json",
+      "temp/2026-09-30-rebuild/pool-3/retirement.json"
+    ],
+    "pool_2_private_freeze_record": "temp/2026-09-30-rebuild/pool-2/freeze-r1.json",
+    "pool_2_local_review_records": [
+      "temp/2026-09-30-rebuild/pool-2/construct-review2.md",
+      "temp/2026-09-30-rebuild/pool-2/oracle-review2.md",
+      "temp/2026-09-30-rebuild/pool-2/transaction-validity-audit.md",
+      "temp/2026-09-30-rebuild/pool-2/screening-final.json",
+      "temp/2026-09-30-rebuild/pool-2/retirement.json"
+    ],
+    "local_review_records": [
+      "temp/2026-09-30-rebuild/construct-review2.md",
+      "temp/2026-09-30-rebuild/oracle-review2.md",
+      "temp/2026-09-30-rebuild/native-contract-review2.md",
+      "temp/2026-09-30-rebuild/h1-delivery.md",
+      "temp/2026-09-30-rebuild/h2-context.md",
+      "temp/2026-09-30-rebuild/h3-completion.md"
+    ],
+    "scored_trial_records": "ALL_THREE_POOLS_TOTAL_96_VERIFIED_BASELINE_OUTPUTS_AND_ATTEMPTS_NO_TREATMENT_CONFIRMATION_OR_CONTROLS"
+  },
+  "publication": {
+    "state": "PREPARATION_ONLY_PENDING_GIT_BLOB_AND_LIVE_MAIN_READBACK",
+    "scoped_byte_preservation_rule_present": true,
+    "git_blob_equivalence_verified": false,
+    "live_main_readback_verified": false
+  }
+}

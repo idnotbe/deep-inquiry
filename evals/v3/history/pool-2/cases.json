@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "calibration": [
+    {
+      "id": "C01",
+      "family": "capacity_adaptation",
+      "prompt": "A case office has 120 verifier work units/day. Twelve urgent cases arrive at opening, need three units each and must finish within first 36 work units; no later urgents. Current intake attracts 50 routines/day costing 1.5 units each including return work. Open intake attracts 80 routines/day costing 1.2 units each. Independent clerk can precheck 24 routines during urgent window, reducing their verifier work to 1.0, without changing demand. Routine verification is indivisible. Office may refuse before admission with truthful notices; admitted work must finish that day, with no carryover or added staff. Maximize sustainable routine admissions while protecting urgent deadlines. Recommend rules, compare current intake and unqualified expansion, count refusals, and derive clerk capacity needed to admit all 80. All routine arrivals are available at opening.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C02",
+      "family": "partial_identification",
+      "prompt": "A workshop must choose a cooling-plus-shift-rotation bundle or cooling alone, and report separate causal-gain ranges. Controlled records in the same fixed context establish output with neither as 30/day and both as 54/day. Either intervention alone is somewhere in [30,54], independently of the other; no other causal assumption. Contract defines each standalone gain against neither and interaction as joint gain minus those gains, forbidding unsupported point allocations. Cooling alone is authorized only if its supported output interval is wholly at least 47; otherwise retain the bundle. One new controlled comparison may measure cooling alone, rotation alone, or repeat a known setting, returning a valid same-context interval. Recommend the comparison and explain what it settles. If cooling-alone report is [45,49], give action and tight report ranges, including dependence that prevents treating those ranges as independent.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C03",
+      "family": "perturbing_diagnosis",
+      "prompt": "A device starts with fault A,B,both or neither. Two-minute read-only A probe and two-minute B probe accurately report their markers before repairs. A repair takes 3 minutes, fixesA, hidesB marker 20 minutes without fixingB, and creates faultC ifB remains active; C needs 5 more minutes. B repair takes 3, fixesB and clearsA marker without fixingA. Repairing an absent target creates another fault requiring 4 minutes. Saved initial probe results remain authoritative about initial faults, no spontaneous faults. Final health check takes 1 minute and certifies exactly no remaining faults without localization; certification due minute 12. Full initial diagnosis takes 8 without perturbing state. One technician sequentially acts. Recommend a safe complete all-state procedure, compare a plausible rival with timing/order, and assess a reduced deadline 8.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C04",
+      "family": "incentive_coverage",
+      "prompt": "Supplier has 80 easy tickets at 1 effort unit and 20 difficult at 4. Capacity 160; each effort unit costs supplier $1, no other benefit. Buyer requires 72 easy and 18 difficult genuine confirmations this period. Customer immediately confirms completed work; original IDs/classes immutable, copies count once, supplier cannot falsify records. Supplier chooses any subset or declines, maximizes payment minus effort, may avoid zero-profit work. Budget $150 must hold for every served subset. Allowed nonnegative fixed per-ticket rates by class, or one all-or-nothing payment conditional on customer-recorded coverage. No fines, new staff or other income. Director suggests $1.50 per ticket and supplier-managed class labels. Recommend strictly motivating contract, assess whether per-ticket rates can do same under budget, derive minimum-budget feasibility boundary.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C05",
+      "family": "cross_owner_commitment",
+      "prompt": "A hire desk has one camera at owner A and one microphone at owner B. Each request needs both for the same interval, all or nothing; two simultaneous customers compete. Each owner can create an exclusive provisional hold or return busy within two minutes. Provisional holds have unique request/hold IDs and expire ten minutes after creation only while unconfirmed. Confirmation takes one minute and ends that provisional expiry: the confirmed item remains reserved until paired pickup at minute twelve or matching cancellation; matching cancellation takes one minute and is repeat-safe. Owners can durably remember completed request IDs and refuse their later commands. A shared request record supports atomic status changes and is readable by both owners. You may govern pickup and charging, but cannot jointly change the owners atomically. Normal firm answer is due minute seven; if both items are initially free and no outage occurs, one competing request must be accepted. Coordinator may stop at most once per request, for three minutes after any message, then recover from its saved messages/record; duplicate messages may arrive later. No customer may collect or pay for only one item. Rejected resources must clear before minute twelve, possibly after the answer. Recommend normal contention and interrupted-processing rules, and identify exactly which answer guarantee can survive the outage.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C06",
+      "family": "correlated_robust_information",
+      "prompt": "Service chooses A,B or Safe. Exactly one certified state: clear/soft, clear/hard, blocked/soft; blocked/hard impossible. No state probabilities. A's cost/damage respectively(2,0),(11,4),(14,8); B's(12,5),(5,0),(3,1). Safe costs 9, damage 0 throughout. Damage may never exceed 3 in any observation-compatible state. Route probe reveals clear/blocked, fee 1; material probe reveals soft/hard, fee 2. Both certain, non-invasive, once each, sequential/conditional allowed, fees add and all time fits. Minimize worst-case total cost subject to damage. Randomization cannot authorize unsafe action. Recommend policy against no/one-probe alternatives and derive material-fee boundary with route fee 1. Reconsider if blocked/hard becomes possible with A=(4,1),B=(13,7).\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C07",
+      "family": "perishable_cutover",
+      "prompt": "A workshop must deliver eight units each day on days 1–5. Two old lanes each produce five per day and need one maintenance unit; operator limit is two per day. Stock starts at zero, capacity four. Surplus is usable on its production day or the next two days, then expires; use oldest stock first. Full new system produces fourteen per day, maintenance two, and must be ready by end of day 5. Full switch takes one day with zero output and no switching fee. Alternatively migrate lanes separately for $10 each: the first migration leaves only the other old lane producing five; afterwards the new half produces six and is compatible with the remaining old lane. The second migration leaves only the new half producing six; afterwards full output is fourteen. Each active half needs one maintenance unit; migration adds none. Migrations last a day, cannot overlap, and need at least one non-migration day between. Outsourcing is authorized for at most four units on a migration/switch day at $6 each; no other supply. Minimize transition spending while meeting every delivery and readiness obligation. Give a dated production/stock/switch plan with stock ages, compare full versus staged, and assess whether one preparation day suffices for your staged plan. Production may be reduced and excess discarded; stored inventory must stay within its capacity.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C08",
+      "family": "commitment_granularity",
+      "prompt": "Five customers need a binding delivery acceptance or refusal by minute four. Each chooses north/south destination only at minute six and may replace it once until minute seven; any mix, including all north, is possible. Contract promises correct final-destination delivery by minute eleven, with no departure-wave promise. Existing north and south vehicles each carry two parcels per departure at minutes eight and ten, return in 1.5 minutes and deliver within one minute. Packaging may begin before destination is known; controller may allocate waves and update destinations until minute seven. No extra vehicles, later departure, destination quota imposed on customers or deadline change. Customers may delay their amendment until the last instant, but cannot change after minute seven. Director proposes immediate fixed destination, early destination quotas, or first-wave delivery for every acceptance. Recommend the maximum robust number of binding acceptances and operating rules, show an adverse destination/amendment pattern, and give the boundary if the second departure is unavailable.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C09",
+      "family": "private_structural_matching",
+      "prompt": "A confidential router sees six jobs, all arriving by minute 2. Each job has one certified eligible pair among machines A/B, B/C or A/C; supervisor may not see these pair types. Each type count is at most four, total six, otherwise unknown. Machine capacity is two each for one delivery window. Router may wait for the whole batch and privately compute any eligible assignment in .5 minute, then communicate named-job-to-machine assignments in .5, without disclosing alternative eligibility. Deadline 3. Supervisor may authorize capacity limits but not read types. Suggestions: one common water tank with greedy first-free placement, or permanent half-to-each-machine allocations for each pair type like fixed concert seats. Recommend guaranteed assignment rules, explain transferable/broken relations, give adverse count/arrival pattern, and state capacity or arrival boundary that changes the guarantee.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C10",
+      "family": "scope_of_approval_critique",
+      "prompt": "Sales order is quantity 8, unit price 10, blue item, address. Finance signed a condition covering blue unit cost 7 or red cost 8: margin quantity*(price-cost)>=20, quantity<=10, price<=11. Clerk may adjust quantity/price inside that signed condition without finance review. Safety signature covers blue only and quantity<=10; red review takes four minutes. Address enters neither condition and can change before dispatch. At minute 6 customer requires red, rejects blue, changes address and permits price up to 11. Publication takes one minute after validations, deadline 12. Current system invalidates every signature on any edit; new finance review takes five minutes, reviews sequential. Critic A says any address change invalidates finance. Critic B says retaining both signatures just because order ID stays same can publish an unsafe/low-margin red order. Recommend repair and order outcome, respond to critics and derive longest red-review time still feasible.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C11",
+      "family": "online_preemption_critique",
+      "prompt": "One operator completes routine R 1 requiring four work minutes by minute 8, then R 2 four minutes by 12. At most one urgent job arrives at unknown time in[0,4], needs two work minutes and must finish within four minutes of arrival. No parallel work/staff. Routine progress retained; choose in advance one-minute or two-minute work segments, pausing only at segment boundaries. Each actual interruption costs .5 minute handover and .5 resume; boundaries otherwise free, urgent cannot pause. Proposed rule uses two-minute segments and urgency next boundary. Critic A says interruption loses all completed routine work; retention rule contradicts it. Critic B warns an arrival just after segment start can miss deadline. Recommend guaranteed all-arrival schedule, respond with adverse case, and derive shortest urgent response guarantee your repair supports without changing routine deadlines.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "C12",
+      "family": "decision_without_truthful_costs",
+      "prompt": "Buyer must get one job complete by minute 8, minimizing worst-case expected payment. Vendor A knows private cost $2 or $6; low-cost probability lies[.3,.7], no point prior. A maximizes profit, accepts strictly profitable integer posted offers 0..8, may reject ties and gives unverifiable cost reports. Offer response by 4, then work two minutes. B's guaranteed price $5 is profitable, work two minutes, but capacity disappears at 3 unless buyer purchases a minute 0 option for $1. Option reserves B through 6; fee credited toward B's $5 if used, otherwise lost. No other payments/vendors/remedies. Option and A offer can begin together. Recommend guaranteed procurement, compare report-based pricing/direct B/other posted offers, and derive option-fee boundary.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    }
+  ],
+  "confirmation": [
+    {
+      "id": "H01",
+      "family": "capacity_adaptation",
+      "prompt": "A repair hub has 150 tester units/day. Ten priorities arrive at opening, need four each, due within first 40 units; none arrive later. Current eligibility attracts 60 routines/day at 1.6 units including return work. Expansion attracts 90/day at 1.3 units each. Independent assessor can precheck 20 during priority window to reduce tested workload to 1.0. Routine testing indivisible. Refusal before admission is allowed with truthful notice; every admitted job due same day, no backlog or new staff. Maximize routine admissions and protect priorities. Recommend rules, compare current eligibility/uncapped expansion, count refusals and derive assessor capacity for all 90. All routine arrivals are available at opening.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H02",
+      "family": "partial_identification",
+      "prompt": "A warehouse chooses a conveyor-gate-plus-sequencing bundle or the gate alone and reports causal-gain ranges. Same-context controlled records establish neither=60 items/hour and both=96. Each intervention alone lies in [60,96], independently of the other; no additional causal assumption. Standalone gains use neither; interaction is the residual joint gain. Gate alone is authorized only if its supported interval is wholly at least 85; otherwise bundle. One comparison may measure either alone or repeat a known setting, returning a valid same-context interval. Recommend the measurement and unresolved quantities. If gate-alone report is [86,90], give action and tight standalone/interaction ranges and their dependence.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H03",
+      "family": "perturbing_diagnosis",
+      "prompt": "A gateway starts X,Y,both or neither. Read-only X probe 3 minutes and Y probe 2 accurately report initial markers. X repair 2 fixesX, hidesY marker 15 minutes, createsZ ifY active; Z repair 5. Y repair 3 fixesY but clearsX marker without fixingX. Absent-target repair creates another fault needing 4. Saved pre-repair results remain authoritative; no spontaneous faults. Final exact healthy/not check 1 minute, no localization, due 11. Full initial diagnosis 7 minutes. One technician sequential. Recommend all-state procedure, adverse rival, timing and feasibility if deadline 8.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H04",
+      "family": "incentive_coverage",
+      "prompt": "Provider has 60 simple jobs needing 2 effort each and 15 complex needing 6. Capacity 210, effort cost $1, no other benefit. Buyer requires 50 simple and 12 complex genuine acceptances this round. Buyer immediately accepts completed work, original IDs/classes immutable, copies countonce. Provider chooses subset or declines, profit-maximizing, may avoid ties. Budget $180 for every subset. Allowed fixed nonnegative class per-job rates or one all-or-nothing coverage payment; no fines/staff/other payments. Proposal $3 per job plus supplier labeling. Recommend strictly motivating contract, compare payment mechanisms and derive budget boundary.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H05",
+      "family": "cross_owner_commitment",
+      "prompt": "A studio has one light at desk L and one audio unit at R; requests need the pair all or nothing, and two customers may compete. An exclusive provisional hold or busy reply takes at most 1.5 minutes per owner. Provisional holds have unique IDs and expire nine minutes after creation only while unconfirmed. Confirmation takes one minute and ends provisional expiry: the confirmed item stays reserved until paired collection at minute eleven or matching cancellation; matching repeat-safe cancellation takes one minute. Owners may durably remember completed request IDs and refuse later commands. Shared request status supports atomic changes and owner reads; no operation jointly changes owners. Normal firm answer is due minute six, with one acceptance when initially free and no outage. Coordinator may stop at most once per request, for three minutes after any message and recover from its saved record; late duplicates exist. You may govern collection and charges; never permit a one-item transaction, and clear rejected resources before minute eleven. Recommend contention/failure rules and identify the answer guarantees surviving outage.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H06",
+      "family": "correlated_robust_information",
+      "prompt": "Process states north/wet,north/dry,south/dry; south/wet certified impossible. No probabilities. A cost/damage respectively(3,0),(12,5),(5,1); B(13,6),(6,0),(15,8); Safe(10,0). Damage<=3 in every observation-compatible state. Direction test fee 2 revealsnorth/south, moisturefee 1 wet/dry, bothcertain/non-invasive/once, conditional allowed, all time fits, feesadd. Minimize worst-case total cost. Recommend policy and no/one-test rivals, give combined-test-fee boundary for full state-dependent action versus Safe, and reconsider south/wet with A=(14,7),B=(4,1).\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H07",
+      "family": "perishable_cutover",
+      "prompt": "A packing site delivers ten units daily on days 1–5. Old lanes each produce six and need one maintenance unit; operator limit two. Stock starts at zero, capacity four; surplus expires after the next two days, oldest used first. Full new line produces sixteen, maintenance two, ready by end of day 5. Full switch takes a day with zero output and no switching fee. Staged conversion costs $12 per lane: first conversion leaves only old output six; then new half eight works with the old lane. Second conversion leaves only new output eight, then full sixteen. Each active half needs one maintenance unit, migration adds none; one-day migrations cannot overlap and require a non-migration day between. Outsource at most six units on a switch/migration day at $5 each, no other supply. Minimize transition cost while meeting all deliveries/readiness. Give dated stock-age plan, compare full/staged, and assess one preparation day. Production may be reduced and excess discarded, with inventory always within capacity.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H08",
+      "family": "commitment_granularity",
+      "prompt": "Seven customers need binding delivery decisions by minute five. East/west destination becomes known at minute eight, with one amendment until nine and arbitrary final mix. Contract promises delivery by fourteen, no departure wave. Existing east/west vehicles each carry three on departures at ten and thirteen, return in two minutes and deliver within one. Packaging may be destination-neutral; controller chooses waves and updates until nine. No added supply, destination quotas or deadline extension; last-instant amendments are possible. Proposals bind destination at acceptance, count only first-departure capacity, or grant early reporters irrevocable early-wave priority. Recommend maximum robust acceptances and rules, an adverse pattern, and the boundary when the second departure is unavailable.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H09",
+      "family": "private_structural_matching",
+      "prompt": "A private router receives nine jobs by minute 3; each has a confidential certified eligible pair X/Y, Y/Z or X/Z. Counts each at most six, total nine, no other distribution. Machines capacity three each for one window. Router can wait, privately compute any eligible whole-batch assignment in .5 minute and communicate assignments in .5 more; supervisor authorizes capacities but cannot see alternative eligibility. Deadline 4. Suggestions: pooled inventory and greedy first-free assignment, or permanent half-half splits per pair type like fixed numbered seats. Recommend guaranteed rules, explain structural transfer/failure, a concrete adverse pattern and boundary for a type count or arrival time.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H10",
+      "family": "scope_of_approval_critique",
+      "prompt": "Travel order has quantity 6, price 12, standard service and destination. Finance signed condition includes standard cost 8 or premium 10: margin quantity*(price-cost)>=18, quantity<=8, price<=13. Clerk may vary quantity/price inside envelope. Safety signature covers standard only; premium review three minutes. Destination affects neither and may change before issue. At minute 4 buyer requires premium, refuses standard and permits price up to 13. Issue one minute, deadline 9. Blanket finance review four minutes, reviews sequential. Critic A says destination amendment invalidates finance; B says unchanged order ID permits keeping both signatures on premium change. Recommend validation/adjustment, critic responses and maximum premium-review duration.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H11",
+      "family": "online_preemption_critique",
+      "prompt": "One technician completes ordinary P needing five work minutes by 10, then Q five by 15. At most one priority arrives in[0,5], needs three work minutes, due within five minutes of arrival. No staff/parallel work. Ordinary progress retained; choose one-minute or two-minute segments beforehand, pause only at boundaries. Handover .5 and resume .5 on interruption, other boundaries free, priority uninterrupted. Current rule uses two-minute segments; A critic says work is lost, B says immediate-after-boundary arrival can miss priority deadline. Recommend guaranteed schedule and critic/adverse-case response, shortest supported priority bound and ordinary deadlines.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    },
+    {
+      "id": "H12",
+      "family": "decision_without_truthful_costs",
+      "prompt": "Purchaser needs completion by 9, minimizing worst-case expected payment. J private cost $3 or $8, low-cost probability[.2,.6], no point prior. Profit-maximizing J accepts strictly profitable integer offers 0..10, may reject ties; reports unverifiable. Response by 5 and work two minutes. K guarantees profitable price $6/two-minute work, but capacity disappears at 4 unless minute 0 option $1.50 reserves through 7, fee credited into K price if used, lost otherwise. No extrasupplier/penalty/payment. Option and offer simultaneous allowed. Recommend guaranteed plan, compare reports/direct K/other offers and derive option-fee condition.\nRecommend and justify in at most 700 words. Use only supplied facts; no tools or outside research."
+    }
+  ],
+  "controls": [
+    {
+      "id": "K01",
+      "family": "conventional_attribution",
+      "prompt": "An agreement pays two contractors by verified hours at equal rates, not causal contribution. Approved reconciled records show 30 and 70 hours and a total fee of $5,000. No further data is required. Recommend the payment amounts with a brief justification.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    },
+    {
+      "id": "K02",
+      "family": "conventional_capacity",
+      "prompt": "A line needs 100 good units/day. Preparation supports 80 attempts/day; inspection supports 160. Every attempt succeeds, no rework or other loss. A preparation upgrade to 110 costs $4,000; an inspection upgrade to 220 costs $6,000. Only one may be purchased, no new staff. Recommend a purchase and justify.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    },
+    {
+      "id": "K03",
+      "family": "conventional_existing_test",
+      "prompt": "A device fault is either a disconnected sensor or expired certificate. The already completed certified test says 'certificate expired'; the test has no error and disconnected sensors always return 'sensor absent'. Reconnecting fixes only sensor faults; renewal fixes only expired certificates. Renewal takes five minutes and is authorized. Deadline is ten minutes; new full diagnostics take twenty. Recommend next action.\nGive a justified recommendation in at most 700 words. Use only the supplied facts; do not perform tools or outside research."
+    }
+  ]
+}

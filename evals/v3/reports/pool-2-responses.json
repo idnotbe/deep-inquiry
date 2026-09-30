@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "candidate_id": "pool-2",
+  "definitions": "../history/pool-2/cases.json",
+  "data": "Actual synthetic final answers only; raw host records excluded",
+  "responses": [
+    {
+      "blind_id": "P2S01",
+      "case_id": "C05",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Use the shared record to **atomically admit one request** for the contested interval. Both owners accept hold commands only for that request and check its recorded status before acting. Reject the other customer promptly. This prevents the two requests from each holding a different item; if both items are free and there is no outage, the admitted request can be accepted.\n\nFor the admitted request, send the camera and microphone hold commands in parallel, using fixed request and hold IDs. Wait for both successful holds before entering a recorded *confirming* status and sending both confirmations in parallel. Give a firm acceptance only when both owners have recorded confirmation. Permit pickup and charging at minute twelve only for that accepted pair, through one paired transaction.\n\nIf either hold fails, move the record to *aborting*. Send matching cancellations to both owners, including one that reported busy, so a delayed or duplicate hold cannot create a reservation afterward. Each owner records the completed request ID and refuses later commands for it. Mark the request rejected after both cancellations are accounted for. The same abort rule handles any decision to abandon a partly confirmed pair; a confirmed item needs explicit cancellation because its provisional expiry has ended. On recovery, the coordinator reads the record and saved messages, then continues the recorded phase using the same IDs. Owners’ recorded outcomes and repeat-safe cancellation resolve uncertain replies.\n\n**The minute-seven firm-answer guarantee can survive the specified single outage**, provided processing starts immediately and the two owners are contacted in parallel. Holds take at most two minutes, the interruption adds at most three, and confirmation or cancellation takes one: the ordinary worst path finishes by minute six. Even if a confirmation reply must be resolved by a one-minute repeat or status check after recovery, it reaches minute seven. Rejected reservations therefore also clear before minute twelve. The guarantee is a firm accept *or* reject for each request; it is not a promise that both competing customers can be accepted.",
+      "final_sha256": "d69f62abb15fa8b30f300aeaf96c8cd28e17b75c06f8bf7b9bd3569104340d67",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S02",
+      "case_id": "C04",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Offer **$145 all or nothing**, payable only when customer records show at least 72 original easy tickets and 18 original difficult tickets genuinely completed this period.\n\nCompleting exactly those tickets costs the supplier $144 and earns $1 profit. Declining earns $0. Any work below the threshold earns no payment, while extra work adds cost without adding payment. The required 72 easy and 18 difficult confirmations are therefore the supplier’s strictly best choice. Payment is $145, within the $150 budget.\n\nFixed per-ticket rates cannot give the same guarantee under that budget. Because the supplier may avoid zero-profit work, the easy rate must exceed $1 and the difficult rate must exceed $4. With both margins positive, the supplier would serve all 80 easy and 20 difficult tickets; capacity permits exactly that workload of 160 effort units. Paying for every possible served subset would thus require **more than $160**, above budget.\n\nThe director’s $1.50 rate gives a $0.50 gain on an easy ticket but a $2.50 loss on a difficult one, so it does not motivate the difficult confirmations. Supplier-managed labels cannot change the immutable customer records or satisfy the recorded coverage condition.\n\nThe minimum-budget boundaries are **strictly above $144** for the coverage payment and **strictly above $160** for fixed per-ticket rates. At either boundary, the supplier can earn zero profit and may decline or omit required work.",
+      "final_sha256": "dccbc3e895511fc04b3a994d3a36fae21b36bdca560fe8e6c7877923dd43bce5",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S03",
+      "case_id": "C11",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Use **one-minute routine segments**. Work on R1 from time 0 to 4, then R2 from 4 to 8, unless an urgent job arrives. Start the urgent job at the next segment boundary; when it interrupts unfinished routine work, allow 0.5 minute for handover, run it for two minutes, then allow 0.5 minute to resume.\n\nCritic A is incorrect: completed routine work is retained. Critic B has a valid adverse case for the proposed two-minute rule. If an urgent job arrives just after time 0, it waits almost two minutes for the boundary, then needs 0.5 minute of handover and two minutes of work. Its response time approaches **4.5 minutes**, exceeding its four-minute deadline.\n\nWith one-minute segments, that same worst-case pattern gives a response time approaching **3.5 minutes**. This is the shortest uniform response guarantee supported by this repair: an arrival just after a one-minute segment begins must wait almost one minute, then incur handover and two minutes of urgent work.\n\nThe routine deadlines also hold. If urgent work interrupts R1, its completion shifts to time 7 and R2’s to time 11, including both handover costs. If the arrival occurs after R1’s last segment starts, R1 finishes at time 4; the urgent job runs before R2, which finishes by time 10. All are within their deadlines.",
+      "final_sha256": "2d0c3f0c7662224dc0d8621de88214e1be5ffe403f78e6d41f86eb7d8e44768f",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S04",
+      "case_id": "C03",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Probe A and B before any repair, saving both results (4 minutes). Repair B if its initial probe was positive (3 minutes), then repair A if its initial probe was positive (3 minutes). Finish with the one-minute health check. The check occurs by minute 5 for neither fault, minute 8 for either single fault, and minute 11 for both.\n\nThe saved results prevent a cleared or hidden marker from changing the repair decision. Repairing B first also ensures that an A repair cannot create C: B is already fixed whenever A is repaired. No absent target is repaired.\n\nA plausible rival uses the same probes but repairs A first. When both faults are present, that order creates C. Its two repairs, C repair, probes, and final check take **4 + 3 + 3 + 5 + 1 = 16 minutes**, missing minute 12.\n\n**A universal minute-8 deadline is impossible.** In the both-fault state, repairing B then A and checking health already takes 7 minutes. A first would create C and take at least 12 minutes even without probes. That leaves at most one minute before the B-first sequence, too little for either two-minute probe. A preliminary health check could fit, but it cannot distinguish both faults from A alone. Following the same B-first sequence in the A-only state repairs an absent B, creating another fault that needs four minutes.",
+      "final_sha256": "6f4260230a9669b92a470e80b669512dbc18376d2537b2be56b1e1f42cb60a02",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S05",
+      "case_id": "C06",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "**Recommend Safe immediately.** In clear/hard, A causes 4 damage and B causes 5, so both violate the damage limit of 3. Safe is the only permissible action there and costs 9. Any probe taken on that state adds its fee, so a worst-case cost below 9 is impossible. Safe without probing achieves 9 in every state.\n\nWith the stated fees, the best alternatives have these worst-case total costs:\n\n| Policy | Worst-case cost |\n|---|---:|\n| No probe → Safe | **9** |\n| Route probe, then act | 10 |\n| Material probe, then act | 11 |\n| Material probe; probe route only after “soft” | 11 |\n| Route probe; probe material only after “clear” | 12 |\n\nFor example, the conditional material-first policy uses A in clear/soft, B in blocked/soft, and Safe in clear/hard. Its hard outcome still costs \\(2+9=11\\). Randomization cannot make an action with damage above 3 permissible.\n\nLet the material fee be \\(m\\), with the route fee fixed at 1. Clear/hard still requires Safe. A policy that takes a material probe on that state costs at least \\(9+m\\); one that takes a route probe there costs at least 10. Thus **the material-fee boundary is \\(m=0\\)**: at zero it can tie the no-probe cost of 9, while at every positive fee Safe without probing is strictly better in the worst case.\n\nIf blocked/hard becomes possible with the stated A and B outcomes, A is permissible in that state, but clear/hard still forces Safe. The same lower bound and recommendation therefore hold.",
+      "final_sha256": "61ceaf9e67092fbd3c51d629cb203b0bb204a1fc06f58c84de305ddc8694c698",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S06",
+      "case_id": "C02",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Measure cooling alone.** Its interval directly determines the authorized choice: use cooling alone only if the entire interval is at least 47/day; otherwise retain the bundle. Measuring rotation alone would not settle that choice, and repeating a known setting would add no information to it.\n\nIf cooling alone is **[45,49]/day**, retain the **cooling-plus-rotation bundle**. The supported lower bound for cooling alone is 45, below 47.\n\nRelative to 30/day with neither intervention, the tight causal-gain ranges are:\n\n| Quantity | Supported range |\n|---|---:|\n| Cooling alone | 15–19/day |\n| Rotation alone | 0–24/day |\n| Interaction | −19 to 9/day |\n| Bundle | 24/day |\n\nThese ranges **cannot be chosen independently**. For every valid allocation, cooling gain + rotation gain + interaction = 24/day. For example, interaction of −19 requires cooling gain 19 and rotation gain 24; interaction of 9 requires cooling gain 15 and rotation gain 0.",
+      "final_sha256": "76add52deed7cbd929e6c46a030aaef12eb3760c6e0bf803423337f2e112ed21",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S07",
+      "case_id": "C12",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Buy the $1 option at minute 0 and simultaneously offer A $3 for the job. If A accepts, pay A $3 and let A finish by minute 6; the unused option makes the total payment $4. If A rejects, use the reserved B capacity by minute 6. B finishes by minute 8, and the credited option fee makes the total payment $5. This guarantees completion even if A waits until minute 4 to respond.\n\nOnly a $2-cost A finds $3 strictly profitable. If its probability is \\(p\\in[0.3,0.7]\\), expected payment is\n\\[\n4p+5(1-p)=5-p.\n\\]\nThe worst case is \\(p=0.3\\), giving **$4.70**.\n\nBuying directly from B guarantees completion for $5. An offer to A without the option cannot provide a cheaper guarantee: B’s capacity may disappear before A responds, and the smallest integer offer that a $6-cost A must accept is $7. With the option, offers below $3 cannot attract A, while higher offers increase the payment when A accepts. A cost report cannot justify a lower guaranteed payment: it is unverifiable, and the $2-cost A would prefer to claim $6 if that earned a higher price.\n\nFor an option fee \\(f\\) credited toward B’s $5 price, the $3-offer strategy costs \\(3+f\\) when A accepts and $5 otherwise. Its worst-case expected payment beats direct B precisely when **\\(f<\\$2\\)**; at \\(f=\\$2\\), both cost $5 in the worst case.",
+      "final_sha256": "3fe5a0661f49e73ee1bdb9cd4a39f6b6f9b344a075783a85e41fb22a51b34c1c",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S08",
+      "case_id": "C02",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Measure **cooling alone**. That comparison directly determines its supported output interval, so it is the only offered comparison that can establish whether cooling alone meets the contract’s 47/day threshold. If the interval starts below 47, retain the bundle.\n\nWith a cooling-alone report of **[45, 49]/day**, retain the **cooling-plus-rotation bundle**: cooling alone is not supported as producing at least 47/day throughout its interval.\n\n| Causal gain relative to neither | Tight range |\n|---|---:|\n| Cooling alone | 15–19/day |\n| Rotation alone | 0–24/day |\n| Bundle | 24/day |\n| Interaction | −19 to 9/day |\n\nThe bundle’s additional gain over cooling alone is **5–9/day**. These ranges are linked: the interaction always equals **24 minus the cooling gain minus the rotation gain**. Their endpoints therefore cannot be selected independently as a causal allocation.",
+      "final_sha256": "9d3b7db9207b5c1f632cf19700e12799faad09a07408581ec0d20b1d0d7cb8c5",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S09",
+      "case_id": "C07",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "**Recommend staged migration.** It costs **$20**, compared with **$24** for a full switch. Both meet all five deliveries and leave the full system ready by the end of day 5.\n\n| Day | Work and production | Eight units delivered | Stock at day’s end |\n|---|---|---|---|\n| 1 | Two old lanes: 10 | 8 from day 1 | 2 from day 1, age 0 |\n| 2 | Two old lanes: 10 | 8 from day 2 | 2 from day 1, age 1; 2 from day 2, age 0 |\n| 3 | First lane migrates; other old lane: 5 | 5 from day 3, 2 from day 1, 1 from day 2 | 1 from day 2, age 1 |\n| 4 | New half and old lane: 11 | 7 from day 4, 1 from day 2 | 4 from day 4, age 0 |\n| 5 | Second lane migrates; new half: 6 | 6 from day 5, 2 from day 4 | 2 from day 4, age 1 |\n\nThe migrations are separated by day 4. Stock never exceeds four, oldest stock is used first, and no stock expires. Active lanes or halves require at most two maintenance units on any day. There is no outsourcing, so spending is just the two $10 migration fees. That also proves $20 is the minimum for a staged migration.\n\nA full switch can use the same stock buildup on days 1–2, then switch on day 3. With zero production that day, it needs all four stored units plus **four outsourced units**, costing $24. Full production can cover days 4–5.\n\n**One preparation day is insufficient for the $20 staged plan:** after day 1, only two units can be stocked, while the first migration day’s output of five leaves a three-unit delivery gap. Migrating on day 2 would require at least one outsourced unit, raising staged spending to at least **$26**.",
+      "final_sha256": "bc42dc9e31254266dffc1b2953749cf5568758f6fa436cd1541072ecd2a0cb3c",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S10",
+      "case_id": "C08",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "**Accept four customers by minute four and refuse the fifth.** Bind each acceptance to delivery at the customer’s final north or south destination by minute eleven. Begin packaging before destinations are known, record choices and the permitted amendment through minute seven, then assign parcels to vehicles and departure waves.\n\nFor each destination, put up to two parcels on its minute-eight departure and any remaining parcels on its minute-ten departure. The first departure delivers by minute nine; its vehicle returns by minute 9.5 and can depart again at minute ten, delivering by minute eleven.\n\nAn adverse pattern is that all four accepted customers choose south at minute six, then amend to north at the last instant of minute seven. The north vehicle carries two at eight and two at ten, so all four still meet the promise. **Five acceptances cannot be robust:** if all five end at north, that vehicle has capacity for only four parcels across the two permitted departures.\n\nDo not fix destinations before customers choose, impose destination quotas, or promise every accepted parcel the first wave. A first-wave promise would limit robust acceptances to two. If the second departure is unavailable, **two** is also the maximum robust number for the original delivery promise, since all accepted parcels could have the same final destination.",
+      "final_sha256": "831784787943df20074d00b4eb05aa1bc926cbf903563b383747b32085fbe49f",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S11",
+      "case_id": "C08",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "**Accept four customers and refuse one by minute four.** Prepare the four parcels without fixing their destinations. Treat each customer’s choice, including an amendment made at the last instant of minute seven, as final for routing. Then assign up to two parcels per destination to its vehicle’s minute-eight departure and any remainder to its minute-ten departure. Each vehicle returns by minute 9.5, so it can make the second departure; parcels on that departure are delivered by minute eleven.\n\nThis works for every final mix. No destination can have more than four accepted parcels, and its vehicle can carry four across the two departures.\n\nThe adverse case is that all five customers choose south at minute six and amend to north at the last instant of minute seven. The north vehicle can deliver only four by minute eleven, so **five binding acceptances cannot be guaranteed**. Four remain feasible: two go north at minute eight and two at minute ten.\n\nDo not fix destinations at acceptance or impose early destination quotas: customers retain their stated choice and amendment rights. Do not promise every accepted parcel the first wave; an all-north outcome leaves only two first-wave places. **If the minute-ten departure is unavailable, the robust maximum is two acceptances**, because all accepted parcels could require the same vehicle at minute eight.",
+      "final_sha256": "bb407c26a049127d281e400bdb9a00c01e2305f790c5532e1ee750a55b032d0f",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S12",
+      "case_id": "C06",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Recommend the material probe first.** If it reports hard, choose B. If it reports soft, buy the route probe, then choose A for clear or B for blocked. Every chosen action has damage at most 3 in its identified state. Total costs are 7 in clear/hard, 5 in clear/soft, and 6 in blocked/soft, so the worst case is **7**.\n\nWith no probe, Safe is the only action permitted across all three states; its cost is 9. A route probe alone has worst-case cost 10: a clear result leaves both A and B unsafe in a compatible state, requiring Safe. A material probe alone has worst-case cost 11: a soft result likewise requires Safe. Probing route first and then material when clear has worst-case cost 8.\n\nThe recommended cost of 7 is optimal. In clear/hard, choosing B costs 5 and requires the material result; without route information after a hard result, B is already safe under the original three-state certification, so no second probe is needed. Any policy taking a different path in that state costs at least 8 (both probes and B) or 9 (Safe). Randomization cannot make an unsafe action permissible.\n\nLet the material fee be \\(m\\), with route fee fixed at 1. The recommended policy has worst-case cost \\(m+5\\). Safe costs 9, so the policy is strictly preferable for **\\(m<4\\)**, ties at **\\(m=4\\)**, and Safe is preferable above 4.\n\nIf blocked/hard becomes possible, the recommendation changes to **use both probes, in either order**, then choose A in clear/soft or blocked/hard and B in clear/hard or blocked/soft. The worst-case cost is **8** at the stated fees. A single probe now leaves an outcome requiring Safe, so the no-probe, route-only, and material-only worst cases remain 9, 10, and 11. With material fee \\(m\\), the two-probe worst case is \\(m+6\\); its boundary against Safe moves to **\\(m=3\\)**.",
+      "final_sha256": "2fe793ddcfffab2d1812713dbbce02ee4d1f7a7ebe15b45859d177363cb7e4bb",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S13",
+      "case_id": "C04",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Use a **$145 all-or-nothing payment** if the customer records at least 72 completed easy tickets and 18 completed difficult tickets this period. The supplier can meet those thresholds with 144 effort units, costing $144, so doing so earns a strictly positive $1 profit. Declining or completing fewer genuine confirmations earns nothing. Extra work brings no extra payment and adds cost, so the supplier’s profit-maximizing choice is to complete exactly the required coverage. The payment stays within the $150 budget for every served subset.\n\nFixed per-ticket rates cannot give the same strict incentive within the budget. An easy-ticket rate must exceed $1 and a difficult-ticket rate must exceed $4; at equality, the supplier may avoid that zero-profit work. With both rates above cost, the supplier profits from completing all 80 easy and 20 difficult tickets. That full set uses exactly 160 effort units, and its payment would exceed \\(80(1)+20(4)=\\$160\\), breaching the budget.\n\nThe director’s $1.50 rate makes easy tickets profitable but difficult tickets loss-making. The supplier would complete easy tickets and skip difficult ones. Supplier-managed labels cannot change the immutable classes or the customer’s genuine confirmation records.\n\nThe **minimum-budget feasibility boundaries** are therefore *strictly above $144* for the coverage payment and *strictly above $160* for fixed per-ticket rates. The $150 budget admits the first and rules out the second.",
+      "final_sha256": "ad440b0d2e5e0535f0717adbc2c542705cbb7802e623643902072c2ed43eb868",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S14",
+      "case_id": "C03",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Probe A and B first, saving both initial results. Repair B if its probe was positive, then repair A if its probe was positive. Finish with the one-minute health check. Use the saved A result even if the B repair has since cleared A’s marker.\n\nThis takes 5 minutes for neither fault, 8 for either single fault, and 11 for both. In the both-fault case, repairing B first avoids creating C. Each repair is made only when its target was confirmed present.\n\nA plausible rival is to use the eight-minute full initial diagnosis, then repair in the same B-before-A order. It is safe, but takes 9 minutes for neither fault, 12 for one, and 15 for both, including certification.\n\n**A deadline of minute 8 cannot be guaranteed across all initial states.** With both faults present, the two probes take 4 minutes, the two repairs take 6, and certification takes 1: 11 minutes total. Repairing A first also creates C, adding its five-minute repair.",
+      "final_sha256": "f2ddd1916d8309f91dd96215749e5e04887a4196553d6739364b67b4db0ae73f",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S15",
+      "case_id": "C11",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Use **one-minute routine segments**. Work on R1 first, then R2. When an urgent job arrives, finish the current segment, spend 0.5 minute on handover, complete the urgent job in 2 minutes, spend 0.5 minute resuming, and continue the routines. Completed routine work is retained.\n\nCritic A’s lost-work objection contradicts the stated retention rule. Critic B’s timing objection is valid: under the proposed two-minute rule, an arrival just after time 0 waits until time 2, then finishes at time 4.5—later than its deadline of just after time 4.\n\nWith one-minute segments, any arrival waits at most one minute for a boundary. Handover and urgent work take another 2.5 minutes, so urgent completion is guaranteed within **3.5 minutes of arrival**. The interruption adds at most 3 minutes to the routine schedule: R1 finishes by time 7, and R2 by time 11, both before their deadlines.\n\nThe **3.5-minute bound is the shortest guarantee for this repair**. An arrival just after a one-minute segment begins can require almost one minute of waiting, followed by 0.5 minute of handover and 2 minutes of urgent work.",
+      "final_sha256": "47d9a89158b105c9d31f9f5b334ad705f4cb3e9efce6b806754b085c8bc2fd92",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S16",
+      "case_id": "C04",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Offer a single **$145 payment** only if customer records show at least 72 easy and 18 difficult genuine confirmations this period. Pay nothing otherwise. Use the immutable original IDs and classes to check coverage.\n\nThe required work costs the supplier \\(72(1)+18(4)=\\$144\\), so completing exactly that work earns a $1 profit. Any extra ticket adds cost without increasing payment. An ineligible subset earns no payment, and declining earns zero. The supplier is therefore strictly better off completing exactly the required mix. Its 144 effort units fit within capacity, and the payment stays below $150 for every served subset.\n\nFixed per-ticket rates cannot achieve the same result under the budget. To strictly motivate both classes, the easy rate must exceed $1 and the difficult rate must exceed $4. At those rates every available ticket is profitable, and all 100 tickets fit exactly within the 160-unit capacity. The supplier would serve all of them, requiring payment greater than \\(80(1)+20(4)=\\$160\\).\n\nThe director’s $1.50 rate makes easy tickets profitable but difficult tickets loss-making. The supplier would choose the 80 easy tickets and miss the difficult-ticket requirement. Supplier-managed labels cannot change genuine coverage when original classes are immutable.\n\nFor the coverage-conditioned payment, the **minimum-budget feasibility boundary is $144**: a budget \\(B\\) works exactly when \\(B>\\$144\\), by choosing a payment \\(P\\) with \\(\\$144<P\\le B\\). At $144, the required work yields zero profit, which the supplier may avoid.",
+      "final_sha256": "3f4ef24109af4ff5be38bf1f56a450da95da7509d59a91c6becb878c4704ad80",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S17",
+      "case_id": "C02",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Measure **cooling alone**. It is the only new comparison that directly tests the contract’s authorization rule: choose cooling alone only if the reported output interval has a lower bound of at least 47/day. Otherwise, retain the bundle. Measuring rotation alone or repeating a known setting cannot settle that decision.\n\nFor a cooling-alone report of **[45, 49]/day**, retain the **cooling-plus-rotation bundle**. The lower bound is below 47/day.\n\nThe tight causal-gain ranges, in output per day, are:\n\n| Quantity | Range |\n|---|---:|\n| Cooling standalone gain over neither | [15, 19] |\n| Rotation standalone gain over neither | [0, 24] |\n| Bundle gain over neither | 24 |\n| Interaction | [−19, 9] |\n\nThese ranges cannot be treated as independent allocations. For every feasible case, **cooling gain + rotation gain + interaction = 24**. In particular, a larger rotation gain requires a smaller interaction when the cooling gain is fixed. The cooling-alone comparison narrows the cooling gain and interaction ranges, but does not determine the rotation gain or interaction separately.",
+      "final_sha256": "e53fcf59b66fb1e7c14f749888d437b7f33a5e5fd8602ebb010e4b4cfc4ce65b",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S18",
+      "case_id": "C01",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "**Admit at most 74 routines under open intake.** Reserve the first 36 verifier work units for the 12 urgents, which use exactly 36 units and therefore meet their deadline. During that window, have the independent clerk precheck 24 routines. Afterward, the verifier can finish those 24 at 1 unit each and another 50 at 1.2 units each: \\(24+50(1.2)=84\\), exactly the capacity left that day.\n\nSet a daily routine admission cap of 74, identify the 24 precheck cases at opening, and refuse the other 6 of the 80 arrivals **before admission**, with a truthful capacity notice. Admit no routine that cannot finish that day.\n\n| Rule | Routine admissions | Refusals | Verifier workload |\n|---|---:|---:|---:|\n| Current intake | 50 | 0 | \\(36+50(1.5)=111\\) units |\n| Open intake without a cap or clerk | 80 | 0 | \\(36+80(1.2)=132\\) units; exceeds capacity by 12 |\n| Open intake with 24 prechecks and a cap | **74** | **6** | \\(36+24+50(1.2)=120\\) units |\n\nThe proposed cap is maximal: each additional routine beyond the 24 prechecked cases needs 1.2 verifier units, and all 84 post-urgent units are used.\n\nTo admit all 80, the clerk would need to precheck **at least 60 routines** during the urgent window. Each precheck saves 0.2 verifier unit, so the required saving from the 96 routine units is 12: \\(12/0.2=60\\).",
+      "final_sha256": "7a5f18a414e0f39d9fd2864ed1adc821126b3e65017216b96e26ddd3f15e5214",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S19",
+      "case_id": "C06",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "**Recommend Safe immediately.** It has zero damage in every certified state and a worst-case total cost of 9. Without observations, A is unsafe in clear/hard and blocked/soft, while B is unsafe in both clear states.\n\nThe alternatives have higher worst-case costs at the stated fees:\n\n| Policy | Worst-case total cost |\n|---|---:|\n| Safe, no probe | **9** |\n| Route probe, then choose an action | 10 |\n| Material probe, then choose an action | 11 |\n| Probe both, with conditional stopping allowed | At least 11 |\n\nClear/hard forces Safe even when the state is fully known: A causes damage 4 and B causes damage 5. Any probe taken on that path adds its fee to Safe’s cost of 9. Thus a probing policy cannot improve the worst case. A route probe can still help after a blocked result, where B costs 3, but its clear result costs 1 + 9 = 10.\n\nLet the material fee be \\(f\\), with the route fee fixed at 1. The best material-first policy has worst-case cost \\(9+f\\); the best route-only policy has worst-case cost 10. Their **boundary is \\(f=1\\)**: material-first is cheaper among those probing options below 1, and route-only is cheaper above 1. For every nonnegative \\(f\\), Safe without probing remains minimax optimal.\n\nIf blocked/hard becomes possible, its safe action is A, costing 4 with damage 1. Identifying that state can improve its own outcome, but clear/hard still forces Safe at cost 9. **The recommendation and minimax cost remain Safe immediately and 9.**",
+      "final_sha256": "068decf4d9fd069b73ffa29e334341b64f8c9280829e96d6189b3452b4d222d1",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S20",
+      "case_id": "C10",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Replace blanket invalidation with **condition-based validation**. After each edit, check the order against each signed condition. Keep finance’s approval while its margin, quantity, and price limits hold; require a new safety review when the item changes to red. An address edit affects neither condition.\n\nAt minute 6, set the order to **8 red units at 10.50 each** and update the address. The red margin is \\(8(10.50-8)=20\\), with quantity at most 10 and price at most 11, so finance review is unnecessary. The blue-only safety signature cannot authorize red. Red safety review finishes at minute 10, and one-minute publication finishes at minute 11, before the minute-12 deadline.\n\nCritic A is wrong: the address is outside finance’s signed condition. Critic B is right to reject order ID alone as a reason to retain signatures: red at the original price of 10 has margin 16, and the blue safety signature does not cover red. The repair checks each signature’s actual scope.\n\nWith no finance review needed, the longest feasible red-review time is **5 minutes**: minute 6 to minute 11, leaving one minute to publish.",
+      "final_sha256": "e4c3d66926d354ca28a352d381d1333987d793ee48ae5340b0aa57f3555c1fa4",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S21",
+      "case_id": "C12",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Buy B’s $1 option at minute 0 and simultaneously offer A **$3**. A’s low-cost type earns $1 and accepts; its high-cost type rejects. If A accepts, the job finishes by minute 6 and total payment is $4, including the lost option fee. If A rejects by minute 4, use reserved B; B finishes by minute 6 and total payment is $5 because the fee is credited.\n\nLet \\(q\\in[0.3,0.7]\\) be the probability A has low cost. Expected payment is \\(4q+5(1-q)=5-q\\), so the **worst case is $4.70**.\n\nGoing directly to B guarantees completion for $5. Without the option, a selective offer to A cannot guarantee completion: A may respond after B’s unreserved capacity disappears. Offers of $0–$2 can be rejected even by low-cost A; $4–$6 buy the same certain acceptance as $3 at a higher price; and $7–$8 make both types accept but cost more. Unverifiable cost reports do not support type-specific prices: low-cost A would prefer to claim high cost to obtain a higher offer.\n\nFor a general option fee \\(f\\), credited if B is used, the $3 strategy costs \\(5+q(f-2)\\) in expectation. It beats direct B in the worst case exactly when **\\(f<\\$2\\)**; at $2 they tie.",
+      "final_sha256": "b2ea614f6d9fab2276d02cb3bac424dcb8915c492b898c31b79920144812644c",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S22",
+      "case_id": "C05",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Choose one of the simultaneous requests by a fixed, durable tie breaker before approaching either owner. Record that choice and reject the other request. Send the chosen request’s hold commands to A and B in parallel, using its request ID and distinct hold IDs. This prevents the two customers from acquiring opposite halves of the pair.\n\nWhen both holds are reported, record the intent to confirm and send both confirmations. Mark the request accepted in the shared record only after both confirmations are known to have succeeded. Permit pickup at minute twelve and charge only for a request marked accepted, and release both items as one paired pickup. If either hold is busy or confirmation cannot be completed, mark the request rejected and send matching cancellations for every hold or confirmation that may exist. A rejection may be answered before those cancellations finish, but the resources must clear before minute twelve.\n\nOn recovery, use the saved commands, replies, and shared status to resume that sequence. Owners should treat repeats for the same request and hold as the same operation; cancellation is repeat safe, and a durable completed-request entry must prevent a delayed hold or confirmation from reviving a cancelled request. Never infer acceptance from just one confirmation.\n\n**The minute-seven firm-answer guarantee can survive the stated outage**, provided commands are dispatched promptly and the stated operation times include their replies. In the worst case, the coordinator stops just after sending the first hold command at minute zero. It recovers at minute three, sends the other hold command, has both results by minute five, and finishes confirmations or a needed cancellation by minute six. A stop after the minute-two hold replies likewise leaves time to confirm by minute six. Thus, if both items are initially free, one request can still be accepted by minute seven; rejection and cleanup also fit before minute twelve. This bound relies on the single three-minute stop and the supplied operation times.",
+      "final_sha256": "18ed0fa5b643cd9edb6ecd2414d95fc220a31ed0798adb5d6cb650e733f4731a",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S23",
+      "case_id": "C10",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Repair the system so each signature is checked against the facts and condition it actually covers, rather than invalidated by every edit or retained solely by order ID.\n\nAt minute 6, change the item to red, update the address, and raise the price to 11 while keeping quantity at 8. The existing finance signature covers red unit cost 8, and the revised order satisfies its limits: margin is \\(8(11-8)=24\\ge20\\), quantity is at most 10, and price is at most 11. The clerk can make that price change without another finance review. The blue-only safety signature does not cover red, so obtain red safety review. It takes four minutes, finishing at minute 10; publication takes one more minute, finishing at minute 11, before the minute-12 deadline.\n\nCritic A is wrong because the address enters neither signed condition. Critic B is right that order ID alone cannot preserve approval: the red order needs its own safety review, and red at the original price of 10 would fail the finance margin condition.\n\nStarting at minute 6 and allowing one minute to publish, the **longest feasible red review is five minutes**.",
+      "final_sha256": "1d54f0de58c7af7092c119815a2a921548a7122e35b48a586eec03bf269d5583",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S24",
+      "case_id": "C12",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "**Buy the $1 option at minute 0 and simultaneously offer A $3.** If A accepts, A’s cost must be $2: the $3 offer is strictly profitable only for that type. A finishes by minute 6, and the buyer pays $4 including the lost option fee. If A rejects by minute 4, use reserved B. B finishes by minute 6, and the credited fee keeps the total payment at $5.\n\nLet \\(p\\) be the probability that A’s cost is $2. Expected payment is \\(4p+5(1-p)=5-p\\). Its worst case over \\(p\\in[.3,.7]\\) is **$4.70**.\n\nDirect B guarantees completion for $5. A’s cost reports cannot support cheaper contingent pricing: they are unverifiable, and a low-cost A would prefer any higher offer intended for the high-cost type. Without the option, an offer below $7 risks losing B when A rejects; an offer of $7 or $8 guarantees acceptance but costs more than direct B. With the option, offers of $4–$6 cannot improve on $5, while $7–$8 cost more. Offers of $0–$2 cannot be accepted profitably and lead to B at $5.\n\nFor a variable option fee \\(f\\) credited toward B’s price, the $3-offer strategy pays \\(3+f\\) when A accepts and $5 when B is used. It beats direct B in the worst case exactly when **\\(f<\\$2\\)**; at $2 it ties.",
+      "final_sha256": "c0849f67b2225f7f6fc8af40c6d8f326444a2832c86789ab0b6c0a785ff02921",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S25",
+      "case_id": "C03",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Probe A and B first, saving both results (4 minutes). Repair only faults shown by those results. If both are present, repair **B before A**; otherwise repair the one present. Finish with the one-minute health check.\n\n| Initial faults | Action after probes | Certification time |\n|---|---|---:|\n| Neither | Health check | Minute 5 |\n| A only or B only | One repair, then health check | Minute 8 |\n| Both | B repair, A repair, health check | Minute 11 |\n\nThis meets the minute-12 deadline in every state. When both faults exist, B-first removes B before the A repair, so A cannot create C. Although the B repair clears A’s marker, the saved positive A probe still establishes that A needs repair. No absent target is repaired.\n\nA plausible rival probes both but repairs A first. In the both-fault state, that order creates C. It then needs the A and B repairs (6 minutes), C repair (5 minutes), and health check (1 minute) after the probes: certification comes at **minute 16**. The initial probe results still prevent confusion from A hiding B’s marker, but they cannot prevent C once A is repaired first.\n\nWith a deadline of **minute 8**, no safe complete all-state procedure is possible. The both-fault state alone requires two two-minute probes to establish which repairs are warranted, two three-minute repairs, and the one-minute certification: **11 minutes** in the safe order.",
+      "final_sha256": "c15135bca22e7f58333860977bdeb2fec5126779c04004bc42225e325138458a",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S26",
+      "case_id": "C09",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "**Authorize two slots on each machine.** At minute 2, the router should privately find a complete eligible assignment, then send only each named job’s assigned machine. Its 0.5-minute computation and 0.5-minute communication finish by the minute-3 deadline.\n\nA complete assignment is guaranteed under the stated limits. Jobs of one pair type can use four slots across their two eligible machines, and there are at most four such jobs. Any set containing multiple pair types can use all six machine slots, and the whole batch has only six jobs.\n\nThe common-water-tank idea correctly captures the **total** of six slots, but slots cannot be transferred freely across eligibility pairs. For example, let two B/C jobs arrive before four A/B jobs, all by minute 2. A first-free rule that places the B/C jobs on B and then two A/B jobs on A strands the last two jobs, although placing the B/C jobs on C makes the batch feasible.\n\nPermanent half-to-each allocations also break the guarantee: four A/B jobs plus one B/C and one A/C job need more than the two seats permanently reserved for A/B, despite having a feasible assignment: A/B fills A and B, while the other two jobs use C.\n\nThe capacity boundary is **four jobs of one pair type**: five would exceed that pair’s four eligible slots. The timing guarantee also depends on the full batch arriving by minute 2, leaving the stated one minute to compute and communicate.",
+      "final_sha256": "d4a3a0e0586d2bda046d65265e3d7120ff8c61a7a40c83dc5fa20dfb3d4faf5d",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S27",
+      "case_id": "C08",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Accept four customers by minute four and refuse the fifth.** Make each acceptance binding for either final destination, without a first-wave promise.\n\nPackaging can begin before destinations are known. Keep destinations updateable through minute seven, then assign each destination’s first two parcels to its minute-eight vehicle and any remaining parcels to its minute-ten vehicle. A vehicle returning 1.5 minutes after the first departure is available for the second. The two waves deliver by minutes nine and eleven, respectively.\n\nFour is the robust maximum: even if all four final destinations are north, the north vehicle can carry two parcels on each departure. With five acceptances, an allowed pattern is two customers choosing north and three choosing south at minute six, followed by all three south customers amending to north at the last instant of minute seven. North then has capacity for only four of the five parcels by the deadline.\n\nThe director’s fixed-destination and early-quota proposals conflict with customers’ allowed choices and amendments. A first-wave promise for every acceptance would reduce the robust maximum to **two**, since all accepted customers could choose the same destination.\n\n**If the second departure is unavailable, the robust maximum is two:** the sole departure can carry only two parcels when every accepted customer chooses the same destination.",
+      "final_sha256": "1bc33ca85dc213c84e200b116f28b303a4be74071dd2303f52d6aa36eca0cfd5",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S28",
+      "case_id": "C07",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "**Recommend staged migration on days 3 and 5.** It meets every delivery, finishes by the end of day 5, and costs **$20** in migration fees with no outsourcing.\n\nStock ages below are measured in days since production. Each day uses the oldest stock before that day’s output.\n\n| Day | Action | Production | Delivery sources | Stock at day’s end |\n|---|---|---:|---|---|\n| 1 | Both old lanes | 10 | 8 produced | 2, age 0 |\n| 2 | Both old lanes | 10 | 2 stock (age 1) + 6 produced | 4, age 0 |\n| 3 | Migrate first lane | 5 | 3 stock (age 1) + 5 produced | 1, age 1 |\n| 4 | New half and remaining old lane | 11 | 1 stock (age 2) + 7 produced | 4, age 0 |\n| 5 | Migrate second lane | 6 | 2 stock (age 1) + 6 produced | 2, age 1 |\n\nProduction is reduced where needed, so stock never exceeds four. The two migrations have a non-migration day between them. Active halves need at most two maintenance units per day, and the full system is ready after day 5. No stock expires before use.\n\n**Full switch comparison:** Produce 10 on each of days 1 and 2, using day 1’s two stored units on day 2. This leaves four age-0 units. Switch on day 3: use those four units (then age 1) and outsource four for **$24**. On days 4 and 5, produce eight per day with the full system. A switch day has zero output, and stock plus authorized outsourcing can supply at most eight; four outsourced units are therefore necessary. The full-switch minimum is $24. The staged plan reaches the $20 minimum set by its two migration fees, saving $4.\n\n**One preparation day does not suffice for the $20 staged plan.** After day 1, at most two units can be stored. A first migration on day 2 produces five, leaving delivery one unit short and requiring $6 of outsourcing. A staged plan with just that one preparation day therefore costs at least **$26**.",
+      "final_sha256": "680231458157106e5647403f7458aeca95e7b9958a9b6b4166210af82b2c1814",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S29",
+      "case_id": "C01",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Reserve the first 36 verifier units for the 12 urgent cases. That meets their deadline and leaves 84 units for routines.\n\n**Recommended rule:** Under open intake, have the independent clerk precheck 24 opening-day routines during the urgent window. Admit at most **74 routines** and give the other **6** truthful refusal notices before admission. Verify the routines after the urgent cases. The admitted workload is exactly \\(24(1.0)+50(1.2)=84\\) units, so all admitted work finishes that day. Since every additional routine needs at least 1.0 unit, 74 is the maximum with 24 prechecks.\n\n| Intake rule | Routine admissions | Refusals | Result |\n|---|---:|---:|---|\n| Current intake | 50 | 0 of 50 | Uses 75 routine units; 9 units remain unused. |\n| Open intake without admission limits or prechecks | 80 | 0 | Needs 96 routine units; exceeds capacity by 12. |\n| Open intake without prechecks, with refusals | 70 | 10 of 80 | Fits exactly in 84 units. |\n| **Open intake with 24 prechecks and refusals** | **74** | **6 of 80** | **Fits exactly in 84 units.** |\n\nTo admit all 80, prechecks must save 12 units from their 96-unit workload. Each saves 0.2 unit, so the clerk would need capacity to precheck **60 routines during the urgent window**, rather than 24.",
+      "final_sha256": "29a2a6d86b2fbbb01a2203ab7f485b9f8d243c94f46d91f592817de2e7d14c0e",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S30",
+      "case_id": "C01",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "**Admit at most 74 routines per day under open intake:** designate 24 for the clerk’s precheck, admit 50 for standard verification, and give truthful refusal notices to the remaining 6 before admission. Reserve the first 36 verifier units for the 12 urgent cases. This meets their deadline exactly; afterward, the 74 admitted routines use the remaining 84 units: \\(24(1.0)+50(1.2)=84\\).\n\n| Policy | Sustainable routine admissions | Routine refusals | Verifier units used, including urgents |\n|---|---:|---:|---:|\n| Current intake | 50 | 0 | \\(36+50(1.5)=111\\) |\n| Open intake, no clerk precheck | 70 | 10 | \\(36+70(1.2)=120\\) |\n| Open intake, 24 clerk prechecks | **74** | **6** | \\(36+84=120\\) |\n\nUnqualified admission of all 80 open-intake routines would require \\(36+80(1.2)=132\\) verifier units, exceeding daily capacity by 12. Because routine verification is indivisible, the admission limits above must be enforced before work is accepted.\n\nTo admit all 80, the clerk would need capacity to precheck **60 routines during the urgent window**. Each precheck saves 0.2 verifier unit, so 60 save the required 12 units. That is **36 more prechecks** than the stated capacity of 24.",
+      "final_sha256": "a10042dc84558132a7a5d6fb39b9574f6d5835987fb5ea470ed362a762206240",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S31",
+      "case_id": "C11",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Critic A is incorrect: completed routine work is retained. Critic B has a valid adverse case. If the urgent job arrives just after a two-minute segment begins, it waits almost two minutes for the boundary, then needs 0.5 minute of handover and two minutes of work. Its response time approaches **4.5 minutes**, missing the four-minute limit.\n\nUse **one-minute routine segments**. Work on R1 from time 0, take any urgent job at the next boundary, then resume routine work after the 0.5-minute resume cost. Once R1 is complete, work on R2.\n\nFor an arrival during the first three R1 segments, the worst timing is just after a segment starts. The urgent job then finishes in less than **3.5 minutes** from arrival: up to one minute of waiting, 0.5 minute of handover, and two minutes of work. R1 finishes by time 7 and R2 by time 11. An arrival during the fourth segment finds R1 complete at time 4; serving it then also leaves both deadlines intact. With no arrival, R1 finishes at 4 and R2 at 8.\n\nThus the repair guarantees **3.5 minutes** as its shortest uniform response bound: arrivals arbitrarily close to the start of an early one-minute R1 segment can make response time arbitrarily close to 3.5 minutes.",
+      "final_sha256": "737ba4ce617633b32dd96b17000b488e1252d51e89db17597cb2d381a93fccc8",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S32",
+      "case_id": "C09",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "**Authorize capacity two on each machine and let the router assign the whole batch privately.** Once all six jobs have arrived by minute 2, the router can compute an eligible assignment in 0.5 minute and send only the six named job-to-machine assignments in another 0.5 minute, meeting the minute-3 deadline.\n\nAn assignment is guaranteed. Any jobs of one pair type can use two machines with four total slots, and that type has at most four jobs. Jobs spanning two or three pair types can use all three machines, with six slots for the six jobs. Thus every group of jobs has enough eligible slots.\n\nThe *common water tank* idea captures the six-slot total but misses eligibility: a free slot on C cannot serve an A/B job. For example, with “first free” priority A, then B, then C, let two A/C jobs arrive first, two B/C jobs next, and two A/B jobs at minute 2. Greedy placement fills A and B before the A/B jobs arrive, leaving only C free. A batch assignment succeeds: put A/C on C, B/C on B, and A/B on A.\n\n*Fixed seats* preserve eligibility but prevent capacity from shifting with the type counts. Four A/B jobs need all four slots on A and B; a different valid batch of four A/C jobs needs all four on A and C. A permanent half allocation cannot cover both possibilities.\n\nThe guarantee depends on both boundaries: reducing any machine to one slot leaves only five slots for six jobs; allowing five jobs of one pair type exceeds its four eligible slots. With the stated one-minute processing and communication time, an arrival after minute 2 also falls outside the deadline guarantee.",
+      "final_sha256": "a913db0e755113ffd2e35795dad7502a7f2f0ed9c22b541eb696f961e7ddd9ca",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S33",
+      "case_id": "C07",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Recommend staged migration: $20 total.** It meets all five deliveries without outsourcing and leaves the full system ready at the end of day 5. The full switch costs $24 because its zero-output day requires four outsourced units.\n\n| Day | Production and transition | Delivery of 8 | Stock at day’s end |\n|---|---|---|---|\n| 1 | Two old lanes: 10 | 8 produced today | 2 from day 1 |\n| 2 | Two old lanes: 10 | 8 produced today | 2 from day 1; 2 from day 2 |\n| 3 | Migrate first lane; other old lane: 5 | 5 produced today; use 2 from day 1 and 1 from day 2 | 1 from day 2 |\n| 4 | New half and old lane: 11 | 8 produced today | 3 from day 4; the remaining day-2 unit expires at day’s end |\n| 5 | Migrate second lane; new half: 6 | 6 produced today; use 2 from day 4 | 1 from day 4 |\n\nStock briefly reaches four on day 4, so capacity is respected. Maintenance uses at most two operator units each day. Day 4 separates the two migrations, and the second finishes by the end of day 5.\n\nFor a **full switch**, produce 10 on each of days 1 and 2, storing four units in total. Switch on day 3: its zero output requires all four stored units plus four outsourced units, costing **$24**. The new system can supply days 4 and 5.\n\n**One preparation day suffices for a feasible staged schedule, but not for the $20 plan.** Migrating first on day 2 leaves only two units stored against that day’s three-unit shortfall, so one outsourced unit is needed. That raises staged spending to **$26**.",
+      "final_sha256": "695a46b8cf8ef736adac88c7fa94e6edc5cfc5812c8c4319755d401122f823ae",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S34",
+      "case_id": "C05",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Use the shared record as a **single admission point for the two simultaneous requests**. Atomically name one request as the contender and reject the other before either owner creates a hold. This prevents the camera and microphone from being provisionally held for different customers.\n\nFor the admitted request, send both hold requests immediately. Record each unique request and hold ID. Once both holds are known, send both confirmations; mark the request **accepted** only after both confirmations are known. Owners should make repeated commands with the same IDs safe, and use their durable completed-request history to refuse later stale commands. On recovery, the coordinator reads its saved messages and the record, checks uncertain owner outcomes, and resumes the recorded decision. If either hold is busy or the request is rejected, record rejection and send matching cancellations for every hold or confirmation that may exist. Gate pickup and charging at minute twelve on the accepted record **and both matching confirmed items**.\n\nWith one contender, the two owners work in parallel: holds take at most two minutes, then confirmations take one. Even if the coordinator stops immediately after sending just the first hold request, it recovers three minutes later, sends the second, and can know both confirmations by minute six. A busy result can likewise be answered firmly after the other hold is cancelled. Any rejected resource is cancelled well before minute twelve, including when cancellation must follow recovery.\n\nThus **the minute-seven firm-answer guarantee can survive the stated single outage**, provided admission happens before owner requests and owner work is parallel. If both items start free and there is no outage, the admitted request is accepted. The accepted answer must always mean *both* confirmations are recorded; a single successful confirmation is never an acceptance.",
+      "final_sha256": "aa14fecb199f571e7bbb10480771f428789b0516bf78a74b98c99aaa180f9c95",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S35",
+      "case_id": "C09",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "**Authorize two slots per machine, and let the router assign the complete batch.** Once all six jobs have arrived by minute 2, the router can privately compute a feasible assignment in 0.5 minute and send only each job’s assigned machine in the next 0.5 minute. That meets the minute 3 deadline without revealing pair types.\n\nA feasible assignment is guaranteed. Any jobs of one pair type can use four slots across their two eligible machines, and there are at most four such jobs. Jobs spanning two or more pair types can use all three machines, whose combined capacity is six. Those are the relevant capacity checks for assigning every job.\n\nThe **common tank** analogy works for sharing unused capacity, but irreversible greedy first-free placement loses that flexibility. For example, with first-free order A, B, C, let one A/C job arrive first, then four A/B jobs, then one B/C job, all by minute 2. Greedy puts the A/C job on A and cannot place the fourth A/B job, although an assignment exists: put two A/B jobs on A, two on B, and the other two jobs on C.\n\n**Fixed seats** also break the guarantee. Permanently reserving one slot on each machine for each pair type gives any one type only two slots, while four jobs of that type are allowed. The router needs to choose how eligible capacity is shared after seeing the counts.\n\nThe boundary is sharp for this protocol: a fifth job of one pair type could exceed its two machines’ four slots. If every machine instead had three slots, even irreversible first-free placement would handle any six jobs, since a job could fail only after both its eligible machines had already filled six slots. An arrival after minute 2 would leave too little time for the stated whole-batch computation and communication steps.",
+      "final_sha256": "6ac93834a657738a263b468a9a2f2751df5740189905216db35d544b08dc0e29",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P2S36",
+      "case_id": "C10",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Repair signature handling by checking each signature against the condition it actually covers. An address edit does not affect either signed condition. The finance signature remains valid for a red item only if the clerk’s final quantity and price satisfy the signed red-cost rule; the blue-only safety signature cannot authorize red.\n\nAt minute 6, change the order to **red, quantity 8, unit price 10.50**, and update the address. The red margin is \\(8(10.50-8)=20\\), quantity is at most 10, and price is at most 11. Finance review is therefore unnecessary under the existing signed condition. Obtain the required four-minute red safety review, finishing at minute 10, then publish in one minute at **minute 11**, before the minute-12 deadline.\n\nCritic A’s address objection fails because address enters neither condition. Critic B’s warning is valid: keeping signatures merely because the order ID is unchanged could authorize the red order at price 10, whose margin is only 16, and would improperly carry over blue-only safety approval.\n\nStarting at minute 6 and reserving one minute to publish, the **longest feasible red review is five minutes**.",
+      "final_sha256": "178a153d083ebee33b8e80803f6ee7f85926c221fee7fb0e36952a337cea2834",
+      "tool_attempted": false
+    }
+  ]
+}

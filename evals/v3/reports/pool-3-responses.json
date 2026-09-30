@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "candidate_id": "pool-3",
+  "definitions": "../history/pool-3/cases.json",
+  "data": "Reviewed synthetic actual final responses only. Raw native events, authentication, configuration, host fingerprints, private oracles and reasoning are excluded. Requested native host labels do not attest backend identity.",
+  "responses": [
+    {
+      "blind_id": "P3S01",
+      "case_id": "C01",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "The director should **fund the four-week comparison and hold current coverage while it runs**, rather than give the service the rest of the desk’s hours.\n\nThe promoter’s participant rate did double, from 20/50 (40%) to 80/100 (80%). But the objective is completion among *all eligible arrivals*. That rate was 120/400 (30%) both before and after. Staff also encouraged a very different mix of people to participate: easy cases rose from 20 to 90. The participant figures therefore cannot establish what the advice caused. The unchanged overall rate does not prove the operations lead’s claim either: any benefit from advice could have been offset by moving twenty hours away from the general desk.\n\nRandomly assign two branches to the proposed expansion and two to current coverage, within each branch’s fixed staffing budget. For every eligible arrival during the four weeks, use the same registry definition and wait for the full fourteen-day follow-up. Compare the **share of all arrivals completing**, including nonusers, between the assigned groups. That comparison captures both any benefit from advice and the cost of taking hours from the desk. With only four branches, the result may be imprecise, so the director should weigh its uncertainty before making a longer-term spending decision.",
+      "final_sha256": "478b01c1be697b3e6213d9c655ea27073e8398a6f31278ee599dcefb9aaebad1",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S02",
+      "case_id": "C06",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "The manager should designate each depot’s **numbered custodian ledger** as the record that governs firm replies. A desk sends the requested interval to a custodian and promises one kit only after that custodian atomically records an allocation and returns the kit, depot and unique booking ID. If the first depot has no kit for the interval, the desk must ask the other before saying stock is unavailable. A cancellation goes to the custodian holding that booking ID, so the correct allocation is released.\n\nTwo sequential custodian exchanges take at most 2.5 minutes, even with two concurrent requests, leaving time within the three-minute limit for the desk’s reply. Atomic ledger entries prevent both desks from receiving a firm booking for the same kit and interval. The fifteen-minute display may guide which depot a desk contacts first, but it cannot authorize a promise.\n\nThe concert analogy identifies the useful rule—confirm against an authoritative record that is updated at once. Its proposed central clerk lacks allocation authority and takes twenty minutes. The supermarket analogy identifies immediate exclusion of a second claimant, but no one takes physical possession of these remote kits at booking time. Here the custodian’s atomic ledger entry supplies that exclusion.",
+      "final_sha256": "c66bcec376fa70fcb2bbe2db3867a029099c8a90bac8f87067e0170fd680824b",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S03",
+      "case_id": "C06",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "The manager should designate each depot’s numbered ledger as the authority for firm bookings. A desk may use the shared display to choose which depot to contact first, but it must promise a kit only after that depot’s custodian has atomically recorded one allocation and returned its booking ID. If the first depot is full, the desk must try the other. A cancellation must name its booking ID so the custodian releases that specific booking.\n\nThis gives each kit one custodian who can commit its availability. Two desks can ask for kitK, but only one allocation can succeed; the other desk can then seek another kit. Contacting both depots in sequence takes at most **2.5 minutes** under the stated load, within the three-minute limit.\n\nThe seating analogy supplies the useful rule—confirm from an immediately updated authoritative record—but the twenty-minute central clerk cannot serve as its cashier. The shelf analogy depends on physical removal, which does not occur when a remote kit is promised. Neither analogy alone supplies the operating procedure. If both depots have no kit for the interval, the desk must report that after checking both; it cannot issue a firm booking without stock.",
+      "final_sha256": "3fcc074feaa41a961bd4c9633e1012249510f75d821f86e9f55718d2e3daa881",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S04",
+      "case_id": "C02",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Authorize a **mixed workflow**: send all 20 urgent requests and 20 ordinary requests through the existing workflow, and 60 ordinary requests through the new workflow.\n\nAll urgent requests must stay on the existing workflow. Its validated urgent success rate is 90%; assigning even one urgent request to the new workflow would bring the expected urgent completion fraction below the board’s 90% threshold.\n\nThe 60 new-workflow requests use exactly 24 support hours, including support for requests that fail. This is the most ordinary work the new workflow can take within the limit. Expected completions are 18 urgent plus 10 ordinary on the existing workflow and 48 ordinary on the new workflow: **76 total**.\n\nThe pilot’s 58% to 80% headline does not settle this decision. Its case mix changed, it counts only this desk’s completions, and the support handoffs use another team’s staff. The stipulated rates and support limit support the mixed allocation above.",
+      "final_sha256": "dc4fbc2369f8b10c55b5ca3a582c00e79832e7e151d32f079ffc19641e7e56d4",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S05",
+      "case_id": "C02",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Authorize a mixed workflow: keep all 20 urgent requests on the existing process, route 60 ordinary requests to the new process, and keep the other 20 ordinary requests on the existing process.\n\nThis meets the board’s urgent priority: the validated urgent success rate stays at 90%. The 60 new-process requests use exactly 24 support hours (four hours per ten assigned requests, including failures). Expected completions are 18 urgent plus 48 and 10 ordinary, for **76 total**. Moving fewer ordinary requests would leave completions on the table; moving more would exceed support capacity.\n\nThe pilot headline is not a like-for-like comparison. Its population shifted from 20 urgent and 80 ordinary to 10 urgent and 190 ordinary, and the headline excludes downstream support work. Routing every request to the new process would also drop urgent success to 80%, below the board’s requirement.",
+      "final_sha256": "006b1f0d052412a9ca3eaeef44df28130645dd22c478c57d1e425da24230d948",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S06",
+      "case_id": "C04",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Offer $1.25 for each easy case and $5 for each difficult case, payable only when the **original case** is customer confirmed as genuinely resolved within seven days of its original arrival. Link any recurrence in that window to the original case and require it to be fixed before payment. Prohibit customer-team handoffs. Audit four original cases each week using the existing records, with payment withheld or recovered for a discovered violation.\n\nThis pays at most \\(8(1.25)+2(5)=\\$20\\) for a day’s arrivals. Supplier effort costs \\(8(1)+2(4)=\\$16\\) and uses exactly the 16 units available each day. Every case has a positive margin, including each difficult case, so the supplier has a profit reason to accept and resolve all ten.\n\nDo **not** renew on the proposed completion clock plus satisfaction survey. That clock can look fast while difficult work moves to the customer and recurrences restart as new tickets. Original arrival times, linked recurrences, and customer confirmation should govern payment and the seven-day measure.\n\nThe buyer should recognize one limit before signing: four audits a week do not guarantee detection of every prohibited handoff. The contract makes the required work profitable and violations actionable, but it cannot honestly promise perfect enforcement of the no-customer-labor objective.",
+      "final_sha256": "f3b84784a20b0779a76723ff335321863d5224bc3d98814bb79b421876e8f25b",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S07",
+      "case_id": "C03",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Keep the $50 scanning-plus-coaching bundle for Friday’s renewal unless a controlled **scanner-only** run returns an output interval whose lower bound is at least 120. The bundle is proven to deliver 130 dispatches within the $55 fee cap. Scanner-only costs $30 and is the only cheaper eligible replacement; coaching-only costs $60, above the cap. Operations can keep using the bundle while arranging the run.\n\nThe renewal note should report the supported causal result: **the bundle adds 30 dispatches relative to neither intervention** (130 versus 100). Each intervention’s defined separate gain—its output alone minus 100—could be anywhere from 0 to 30. The interaction is separate and unidentified. Nothing in the dossier supports the vendor’s claim that scanning accounts for 15 of the 30 dispatches.\n\nIf the scanner-only interval has a lower bound below 120, keep the bundle: an upper bound of 120 or more does not establish that the scanner meets the objective.",
+      "final_sha256": "c8469ca89bb793d62c3af2a017677304bc9922405b94a9cb0050d3934b4d3902",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S08",
+      "case_id": "C07",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Authorize a **daily automation cap of five**. Automate five replies and handle the other five manually. Under both possible models, every answer is correct at that cap, and the ten replies use 20 of the 26 available work units.\n\nA higher cap cannot meet the one-error limit under Model H. Above five, any four automated answers may be wrong. Even if reviewers use all three available checks, the errors could be among the unchecked answers. Review therefore cannot guarantee at most one wrong commitment.\n\nThe zero-error record at the current cap of three does not distinguish the models: both predict correct answers there. The proposed uptake survey would not distinguish them either or add review capacity. With no safe higher-cap study before authorization, five is the largest defensible cap for the thirty-day deployment.",
+      "final_sha256": "3a7342b8e174b7bb88d8702e8bc4ff32d4c001ff2299c910ed2f59cad79678fb",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S09",
+      "case_id": "C03",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Arrange the one controlled run for **scanning alone**, while keeping the proven bundle available for Friday. Scanning is the only cheaper eligible replacement: it costs $30, while coaching alone costs $60 and exceeds the $55 fee limit.\n\nSwitch to scanning alone only if the run returns a valid output interval **wholly at or above 120 dispatches**. Otherwise renew the $50 bundle, which is proven to deliver 130. An interval that merely reaches 120 at its upper end does not support switching.\n\nThe renewal note should state that the bundle’s supported gain over neither intervention is **30 dispatches**. On the current evidence, each separate gain—scanning alone minus neither, and coaching alone minus neither—could be anywhere from 0 to 30. Interaction is a separate, unidentified part of the bundle result. The vendor’s claim that scanning accounts for 15 dispatches is therefore unsupported. The scanning run can narrow scanning’s separate gain, but it cannot by itself establish a numerical split of the bundle gain.",
+      "final_sha256": "8c0b9d9906b1a6d2cb4928153d66e13937b1f6a672fdc63de0b61f59afbf6539",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S10",
+      "case_id": "C08",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Choose the runner-up before opening. At 08:30, buy the four exclusive options for $24, assign each option once to a different customer through the atomic ledger, and send the confirmations. Four sequential assignments and notifications take at most 20 minutes, so all four binding reservations can be confirmed by 08:50. The options remain held through the 17:00 collection time, and the total fee is within the $30 limit.\n\nThe retry patch fixes the selected design’s duplicate-confirmation incident, but it cannot make a stock-page row a binding reservation. Under the stipulated vendor policy, that requires a vendor-issued option or an authorized purchasing-officer confirmation. The selected automation has neither, and the officer is unavailable before the 10:00 deadline. Logging and alerts cannot change that. The runner-up’s upfront fee was its only stated reason for earlier rejection; at $24, it now fits the budget and meets the deadline without duplicate commitments.",
+      "final_sha256": "e97bab7cdb0a3ced97087bbc207ecd19d9b63cf95b348332100e81bf25129442",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S11",
+      "case_id": "C08",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "The manager should choose the runner-up before opening. At 08:30, the manager can buy all four exclusive options for $24, assign each exactly once in the shared ledger, and send four binding confirmations by 08:50. The options remain held through the 17:00 collection time, and the total fee stays below the $30 limit.\n\nThe retry patch fixes duplicate confirmations, but it does not make a stock-page row a binding reservation. Under the stipulated vendor policy, the selected design lacks the authority needed to secure an item. The officer cannot provide that authority before the 10:00 deadline. The runner-up’s upfront fee was its only stated reason for rejection, and that fee is within budget.",
+      "final_sha256": "b5563b281a7251c514e224eff1d94d87273d8b1bfc02000035debd2cea59ec4b",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S12",
+      "case_id": "C02",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Authorize the new workflow for **60 ordinary requests**. Keep all **20 urgent** and the remaining **20 ordinary** requests on the existing workflow.\n\nThis uses exactly 24 support hours: 60 × 0.4 hours. Expected urgent completions remain 20 × 90% = **18**, meeting the board’s 90% priority. Expected ordinary completions are 60 × 80% + 20 × 50% = **58**, for **76 total**.\n\nMoving any urgent request to the new workflow would lower the validated urgent completion rate below 90%. Each ordinary request moved to it adds 0.3 expected completions, so assigning all 60 available support slots to ordinary requests maximizes the total.\n\nThe pilot’s “58% to 80%” headline compares different case mixes and counts only desk completions. The support email confirms that the new workflow also consumes downstream staff time. Authorizing it for every request would require 40 support hours and would miss the urgent target.",
+      "final_sha256": "bfad976ed9ac07fa9643e6b412bf2f21149eb46fd3cbd8b7648667cceb73ca61",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S13",
+      "case_id": "C08",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "The manager should choose the runner-up before opening. At 08:30, they can buy the four exclusive options for $24, assign each option once in the shared ledger, and send all four binding confirmations by 08:50—well before the 10:00 deadline. The options remain held through the 17:00 collection time.\n\nThe retry patch fixes duplicate confirmations, but it does not make stock-page rows binding. Under the stipulated vendor policy, the selected design has no authority to reserve the items, and the officer who could confirm them is unavailable until 16:00. It therefore cannot reliably make the required binding commitments by 10:00.\n\nThe runner-up’s only stated reason for rejection was its upfront fee. That fee is within the $30 limit, and its exclusive options and atomic assignments meet the supply and no-duplicate-commitment requirements. The ready patch does not justify keeping a design that cannot meet the central requirement.",
+      "final_sha256": "3a4e9eabdb1d3b0a022b864cacdd58a30c907a339219a6a1f1b9d2ef6cb22a6a",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S14",
+      "case_id": "C04",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "**Do not renew if the stated objective is a hard requirement.** The buyer can write a much better offer, but the permitted controls cannot ensure that no customer-team labor is used.\n\nThe best available offer would pay only for customer-confirmed original cases resolved within seven days of their original arrival: **$1.25 for each easy case and $5 for each difficult case**. Link any recurrence within seven days to the original case, use the recorded class, prohibit customer-team handoffs, and audit four original cases each week. Ten completed cases cost exactly $20 in fees. The supplier’s effort costs $16, leaving $4 profit; each class pays strictly more than its effort cost, so accepting and completing all ten is profitable within the 16-unit daily capacity.\n\nThat fixes the incentive to skip difficult cases or improve reports by resetting their clocks. It does **not** remove the incentive to hand a case to the customer’s team: a confirmed handoff could still earn the fee while saving supplier effort. Four audits a week cannot guarantee detection across 70 weekly arrivals. The vendor’s completion clock and proposed satisfaction survey do not close that gap. If the buyer requires the fixed objective rather than a better but uncertain outcome, it should decline this renewal under the available terms.",
+      "final_sha256": "d6524aef4390dc059a1b3be6c4e1a87926dd98edc08a69b4b596c1a8d83c5c4f",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S15",
+      "case_id": "C07",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Authorize a **daily automation cap of five** for the thirty-day deployment. At that cap, both possible models say every automated answer is correct. Five automated replies plus five manual replies use 20 work units per day, within the 26-unit limit, and all ten messages receive replies.\n\nA cap above five cannot meet the error limit under Model H. Exactly four automated answers could be wrong, with no way to identify them before review. Even if reviewers check their maximum of three, at least three automated answers remain unchecked at a cap of six or more; all three could be wrong. That exceeds the limit of one wrong unreviewed commitment.\n\nThe zero-error record at the current cap of three is consistent with both models, so it does not support the vendor’s full-automation claim. The proposed survey would not distinguish the models or add review capacity. Five is therefore the largest cap defensible from this dossier.",
+      "final_sha256": "f4029fc5e63c6291ca0d59ea013612048c19762c40aa9e13a1ef56163c18e3ef",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S16",
+      "case_id": "C01",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "The director should **fund the four-week comparison and defer the proposed expansion**. The registry gives no reason to hand over the rest of the desk’s hours now: completions among *all eligible arrivals* were 120 of 400 (30%) both before and after the service changed. That is the stated objective, at a fixed total staffing budget.\n\nThe promoter’s doubled rate describes participants only: 20 of 50 (40%) before and 80 of 100 (80%) after. Staff chose whom to encourage, and the participant mix shifted sharply toward easy cases. Those rates cannot establish that advice caused the increase. The operations lead’s claim also goes too far. The unchanged overall rate does not prove advice never helps anyone; it could reflect benefits to some arrivals offset by the effect of moving twenty hours away from the general desk, among other changes.\n\nFor the comparison, randomly assign two branches to expansion and two to current coverage, using each branch’s existing staff budget. Count applications completed within fourteen days **for every eligible arrival**, including nonusers, under each assigned policy. That estimates the net effect of expansion on the director’s objective, including any loss of general-desk capacity. Four branches and four weeks may yield an imprecise result, so a small difference should be treated cautiously, not as proof of no effect.",
+      "final_sha256": "d85f4a703f645688726fca1d2a50db1251fc784cb5a08937c91bd3150b919ae9",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S17",
+      "case_id": "C01",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "The director should **fund the four-week branch comparison within the existing staffing budget**, while keeping the proposed expansion limited to the branches assigned to receive it. She should not give the service the rest of the desk’s hours now.\n\nThe promoter’s doubled rate is the *participant* rate: 20/50 (40%) before and 80/100 (80%) after. The director’s objective concerns **all eligible arrivals**. On that measure, completions were 120/400 (30%) in both periods. Participants also changed markedly: easy cases rose from 20 of 50 to 90 of 100, and staff chose whom to encourage. The participant figures therefore cannot establish what the advice caused.\n\nThe operations lead’s claim is also too strong. The unchanged overall rate does not prove advice never helps anyone. It combines any benefit to users with the effects of moving twenty hours away from the general desk, changes in who participated, and any other differences between periods.\n\nRandomly assign two branches to expansion and two to current coverage. Each branch must stay within its own fixed staff budget. For every eligible arrival, record whether an application is completed within fourteen days, including arrivals who never use the service. Compare outcomes by **assigned branch policy**, regardless of participation. That tests the decision the director actually faces: whether reallocating desk hours to expanded advice produces more completions overall. With only four branches and four weeks, the result may be uncertain; she should treat it as evidence for the spending decision, not as a verdict on whether advice helps each individual user.",
+      "final_sha256": "14fc6ad59863ceb3039ccda0928eb0bb2beb734a88263e884e8551cf5fcbbec3",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S18",
+      "case_id": "C05",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Authorize **Package Cedar** for next week at 8 resource units, using its existing cost ledger and safety/handoff report.\n\nCedar is the only trial package that meets every fixed requirement: 24 completed cases, zero backlog, zero incidents, and cost no more than 10. Elm leaves four cases in backlog; Pine completes only 22.\n\nDo not make the individual ROI dashboard a condition of allocation. It adds 3 units, taking Cedar’s total to 11, and its task-minute logs would not establish separate human or assistant causal contributions. Finance’s decision note can report the actual package costs and outcomes, while stating the remaining uncertainty: these are whole-package trial results for the stipulated workload and case mix, not measurements of individual contributions or guarantees of next week’s outcome.",
+      "final_sha256": "cd7f5467b6422c27e8fde01c79c497b9281e4f48bf85220d66d8811544bae10f",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S19",
+      "case_id": "C06",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "The manager should designate **the custodians’ numbered ledgers as the records that govern firm replies**. A desk sends the requested interval to a depot custodian and promises a kit only after that custodian atomically records an allocation and returns its booking ID and kit. If the first depot is full, the desk checks the other before declining for lack of stock. Cancellations go to the custodian responsible for the booking and identify that one retained booking ID.\n\nThis meets the three-minute limit: one request, ledger action and reply takes at most 1.25 minutes, even at the stated concurrent load. Checking both depots in sequence takes at most 2.5 minutes. Each interval needs just one kit, so the depots can allocate their own kits without transferring custody authority.\n\nThe concert analogy supplies the useful rule—confirm only from an authoritative, immediately updated record—but the central clerk takes twenty minutes and cannot allocate kits. The shelf analogy supplies the idea of immediate exclusion, but neither customers nor desks take possession of remote kits when booking. Here, the custodian’s atomic ledger entry provides that exclusion. The fifteen-minute display can help desks decide whom to contact first; it cannot justify a firm promise.",
+      "final_sha256": "6b025ac6148dea7f0c65079b2294b03402cf19fa24654a50fbb07360ac5ea5ff",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S20",
+      "case_id": "C04",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Do not renew the $3 vendor-marked-completion contract. Offer **$20 for each day’s ten original cases**, earned only when all ten are customer-confirmed as genuinely resolved within seven days, including any linked recurrence. Hold payment until the seven-day window closes. Forbid customer-team handoffs, and make the entire week’s coverage payment conditional on compliance. Select four original cases at random each week for an audit of the existing records. Release no more than $20 on any payment day.\n\nThe work requires 16 effort units per day, exactly the supplier’s capacity, and costs $16. Completing it earns $20, or $4 profit. The original arrival times, fixed case classes, recurrence links, and customer confirmations make the coverage condition measurable. Schedule each day’s arrivals promptly; there is no spare daily capacity to absorb a growing backlog.\n\nA class-rate increase alone leaves an incentive to send difficult cases to the customer: doing so saves four effort units while a customer-confirmed completion could still generate payment. Putting the week’s coverage payment at risk gives the random audit a meaningful consequence. It does **not** guarantee detection of every handoff, so the buyer should monitor the four audits and refuse to treat a vendor clock or satisfaction survey as evidence of resolution. The supplier may keep its clock for internal reporting, but it must have no effect on payment or the seven-day deadline.",
+      "final_sha256": "17057d333245150816474be00c9cf9d6c4ede478b8258d1cceb98281cbf6f177",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S21",
+      "case_id": "C03",
+      "condition": "baseline",
+      "repetition": 2,
+      "answer": "Keep the proven **scanner-plus-coaching bundle** while arranging the one permitted controlled run of **scanning alone** before Friday. The bundle delivers 130 dispatches for $50, so it already meets both requirements.\n\nUse the run’s *entire supported output interval* to decide the renewal:\n\n- If its lower bound is at least 120, choose scanning alone at $30.\n- Otherwise, renew the $50 bundle. An interval that merely reaches 120 at its upper end does not support replacing it.\n\nThe renewal note can state that the **combined package causes a gain of 30 dispatches** over neither intervention in this context. Scanning’s separate gain and coaching’s separate gain are each only supported as **0–30 dispatches**; the interaction is also unidentified. The vendor’s claim that 15 of the 30 belongs to scanning is unsupported. Even a scanner-only run would identify only what its returned interval supports, not a numerical split of the combined gain.",
+      "final_sha256": "f165aa0a29a446a493fd3ed34d8fdf479328325375052894df06280a19d25b64",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S22",
+      "case_id": "C07",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Authorize a **daily automation cap of five**, with five manual replies and no routine review. Both possible models say answers are correct at that cap. Ten automated and manual replies together use 20 of the 26 available work units each day.\n\nA cap above five cannot meet the one-error limit under Model H. It produces four wrong automated answers. Reviewers can check only three answers, have no way to identify the wrong ones beforehand, and could leave at least three wrong answers unchecked. The extra six work units can pay for three reviews, but cannot make them reliably target the errors.\n\nZero recorded errors at the current cap of three is consistent with both models. The proposed survey would not distinguish them or add review capacity. Five is therefore the largest defensible cap for the thirty-day authorization.",
+      "final_sha256": "fa26ccd366167546fa1867461146ce8a6a7cf0f144dafaffa3cce05255cc6681",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S23",
+      "case_id": "C05",
+      "condition": "baseline",
+      "repetition": 1,
+      "answer": "Authorize **Package Cedar** for next week at its stated cost of **8 units**, and continue the existing cost ledger and safety/handoff report.\n\nCedar is the only package that meets every fixed goal: **24 completed cases, zero backlog, zero incidents, and cost within 10 units**. Elm costs 7 and completes 26 cases, but leaves 4 in backlog. Pine has zero backlog and incidents, but completes only 22 cases.\n\nDo not make the individual human/assistant ROI dashboard a condition of allocation. It would add 3 units per week, bringing Cedar’s total to **11**, above the budget. Its task-minute logs also would not establish separate causal contributions, because the records contain no worker-alone or assistant-alone comparisons. Finance’s requested decision note can use the actual package costs and outcomes above, while stating that individual contributions are unknown and that the whole-package trial outcomes are planning evidence, not a guarantee of next week’s result.",
+      "final_sha256": "bdaafe11337d8deb513e27e2f1857ded27099fda86fe3cd934e4d4bcc0e8b397",
+      "tool_attempted": false
+    },
+    {
+      "blind_id": "P3S24",
+      "case_id": "C05",
+      "condition": "baseline",
+      "repetition": 3,
+      "answer": "Authorize **Cedar for next week** and continue the existing cost ledger and safety/handoff report.\n\nCedar is the only package that meets every fixed requirement: 24 completed cases, zero backlog, zero incidents, and a cost of 8 units. Elm leaves four cases in backlog; Pine completes only 22 cases.\n\nDo not make the decision wait for the individual ROI dashboard. It adds no separate intervention comparison, so its task-minute logs cannot establish each worker’s or assistant’s causal contribution. It would also bring Cedar’s weekly cost to 11 units, above the 10-unit limit. The decision note should record the actual package costs and outcomes and state that individual contributions remain unknown.",
+      "final_sha256": "bd24a47cb3024a5771ba0b6715472daee31138589a5ace3cc6aff8886a8d66f8",
+      "tool_attempted": false
+    }
+  ]
+}

@@ -1,0 +1,1118 @@
+{
+  "schema_version": 1,
+  "candidate_id": "pool-3",
+  "rubrics": "../history/pool-3/rubrics.json",
+  "judge_a": [
+    {
+      "blind_id": "P3S01",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Correctly computes 120/400 in both periods, identifies easier participant selection and displaced desk hours, rejects both unsupported causal claims, and chooses the authorized fixed-budget branch comparison on all arrivals."
+    },
+    {
+      "blind_id": "P3S02",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Firm replies follow the permitted custodian's atomic ledger entry and unique ID; a second depot check takes the worst case to 2.5 minutes. It correctly extracts exclusivity from the analogies without assuming central authority or physical possession and prevents the duplicate promise."
+    },
+    {
+      "blind_id": "P3S03",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Uses the depot custodians' atomic ledgers for the only firm commitment, checks both depots before stock refusal, and correctly bounds two contacts at 2.5 minutes. It distinguishes useful exclusivity from unavailable cashier speed and shelf possession, including booking-ID cancellation."
+    },
+    {
+      "blind_id": "P3S04",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps all urgent work on the 90% existing route, allocates 60 ordinary requests to the new route for exactly 24 support hours, and computes 18+10+48=76 expected completions. It treats the shifted pilot mix and downstream handoffs correctly."
+    },
+    {
+      "blind_id": "P3S05",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Authorizes the optimal 60 new ordinary, 20 existing ordinary, and 20 existing urgent routing: 24 support hours, 90% urgent rate, and 76 expected completions. It does not mistake the changed pilot mix or exported support work for a free blanket gain."
+    },
+    {
+      "blind_id": "P3S06",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Customer-confirmed original cases and linked recurrences govern payment and time; handoffs are prohibited. The $1.25/$5 rates pay exactly $20 for ten resolutions, cost 16 effort units, and give both classes positive margins. Four weekly audits are correctly treated as bounded detection, not a guarantee."
+    },
+    {
+      "blind_id": "P3S07",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps the proven 130-dispatch, $50 bundle while testing the only affordable cheaper candidate, scanner alone. Switching requires its interval lower bound at least 120. It reports the known joint gain of 30 and leaves separate gains and interaction unidentified."
+    },
+    {
+      "blind_id": "P3S08",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects the greatest robust cap, five: five automated plus five manual replies cost 20 units with zero errors under either model. At cap six or higher, three reviews can leave three wrong answers unchecked under H; low-cap observations and the preference survey do not eliminate H."
+    },
+    {
+      "blind_id": "P3S09",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Runs the permitted scanner-only test while retaining the proven bundle, and switches only on a wholly qualifying interval. The $30 scanner is the only affordable single alternative. The answer reports the joint 30-dispatch gain without fabricating a separate causal split."
+    },
+    {
+      "blind_id": "P3S10",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Buys four authorized exclusive options for $24 at 08:30 and assigns them atomically, completing sequential notifications by 08:50. It separates the useful duplicate-retry patch from the missing binding authority of stock-page rows and the unavailable officer."
+    },
+    {
+      "blind_id": "P3S11",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Chooses the authorized four-option transaction at $24, assigns each once, and meets the 10:00 deadline by 08:50. It correctly recognizes that fixing duplicate messages cannot give stock-page rows binding authority and that the officer is too late."
+    },
+    {
+      "blind_id": "P3S12",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Precisely derives the optimal whole-request routing: 60 new ordinary cases use 24 hours, urgent remains 18/20, and ordinary contributes 58 for 76 total. It correctly rejects changed-mix pilot inference and counts support handoffs, including failed assignments."
+    },
+    {
+      "blind_id": "P3S13",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects the authorized four exclusive options for $24, uses one-time ledger assignment, and binds four customers by 08:50 with collection coverage through 17:00. It identifies the selected design's nonbinding stock-page premise despite its useful retry repair."
+    },
+    {
+      "blind_id": "P3S14",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 1,
+        "comparative_discrimination": 1,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [],
+      "total": 7,
+      "full_pass": false,
+      "reason": "It correctly diagnoses handoffs and clock resets, gives a feasible $20 positive-margin contract using original customer-confirmed cases, and recognizes that four audits cannot guarantee detection. But its final decision is to decline renewal and provides no operating path to resolve the ten daily arrivals; the dossier permits an incentive-aligned audited renewal without requiring perfect detection. Credit for the sound conditional design and bounded-audit observation is retained."
+    },
+    {
+      "blind_id": "P3S15",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Authorizes the greatest robust cap, five: all ten replies are covered for 20 work units and no wrong commitments under either model. At six or more, three checks can leave three of H's four errors unchecked. Current cap-three success and the survey cannot distinguish the models."
+    },
+    {
+      "blind_id": "P3S16",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Uses the governing all-arrival rate, 120/400 in both periods, and identifies both easier selection and twenty displaced desk hours. It rejects both unsupported causal assertions and authorizes the fixed-budget branch comparison on every arrival before expansion."
+    },
+    {
+      "blind_id": "P3S17",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Correctly distinguishes the doubled participant rate from unchanged 120/400 all-arrival completion, with selected easy cases and reallocated desk hours. It proposes the authorized randomized branch-policy comparison within separate fixed budgets, including nonusers, without claiming individual causal credit."
+    },
+    {
+      "blind_id": "P3S18",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects Cedar at cost 8, output 24, zero backlog and incidents, retaining required ledgers. It rejects Elm's backlog and Pine's output shortfall. The optional dashboard would cost 11 total and minute logs cannot identify separate causal ROI; whole-package planning evidence is kept with honest uncertainty."
+    },
+    {
+      "blind_id": "P3S19",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Makes each custodian's atomic ledger entry the source of firm commitments, uses retained booking IDs for cancellation, and checks both depots before refusing stock. Two sequential exchanges take 2.5 minutes. It transfers the analogies' exclusive-commitment idea without assuming unavailable central authority or remote physical possession."
+    },
+    {
+      "blind_id": "P3S20",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Replaces vendor-marked completions with a $20 full-coverage payment for ten customer-confirmed original cases within seven days, including linked recurrence, and prohibits customer-team handoffs. Sixteen effort units fit capacity and leave $4 supplier profit. Weekly sampled audits are a bounded deterrent, expressly not a perfect detection claim."
+    },
+    {
+      "blind_id": "P3S21",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps the proven 130-dispatch bundle for $50 while using the one run on the affordable $30 scanner-only replacement. It switches only if the whole supported interval meets 120. The note identifies the joint gain of 30 but not separate gains, interaction, or the vendor's claimed 15-dispatch split."
+    },
+    {
+      "blind_id": "P3S22",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Authorizes robust cap five with five manual replies, 20 daily work units and zero errors under both possible models. Under H at a higher cap, at most three untargeted reviews can leave three of four errors unchecked. Current cap-three records and the uptake survey do not distinguish the models."
+    },
+    {
+      "blind_id": "P3S23",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Cedar uniquely meets output 24, zero backlog/incidents and cost 8 within 10; Elm has backlog four and Pine output 22. It continues mandatory reports, explains why optional three-unit logs breach the budget and cannot identify individual causal credit, and retains whole-package planning evidence."
+    },
+    {
+      "blind_id": "P3S24",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects Cedar's qualifying cost-8, 24-case, zero-backlog, zero-incident package and retains required cost and safety reporting. It rejects Elm and Pine on their binding failures, shows the optional dashboard would cost 11, and states that task-minute logs cannot establish separate contributions."
+    }
+  ],
+  "judge_b": [
+    {
+      "blind_id": "P3S01",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Uses 120/400 in both periods, identifies selection and shifted desk hours, rejects both causal claims, and chooses the authorized branch comparison on all arrivals within fixed budgets."
+    },
+    {
+      "blind_id": "P3S02",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Makes each custodian ledger the sole booking authority, checks the second depot, uses the 2.5-minute bound, and rejects both analogies' unavailable central or physical mechanism."
+    },
+    {
+      "blind_id": "P3S03",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Requires an atomic custodian allocation and booking ID before promise, checks both depots within 2.5 minutes, and preserves ID-specific cancellation and exclusive authority."
+    },
+    {
+      "blind_id": "P3S04",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Routes all 20 urgent to the 90% existing process and 60 ordinary to new, using all 24 support hours for 76 expected completions; accounts for changed pilot mix and downstream staff."
+    },
+    {
+      "blind_id": "P3S05",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects the optimal 20 urgent existing, 60 ordinary new, 20 ordinary existing allocation: urgent 90%, support 24 hours, expected completions 76; does not rely on the pilot headline."
+    },
+    {
+      "blind_id": "P3S06",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Sets positive-margin class rates totaling $20 for 16 effort units, pays only confirmed original cases, links recurrence, forbids customer handoffs, and correctly limits audit claims."
+    },
+    {
+      "blind_id": "P3S07",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps proven $50 bundle at 130, selects action-relevant scanner-only run, switches only if its lower bound reaches 120, and reports joint gain 30 without unsupported component split."
+    },
+    {
+      "blind_id": "P3S08",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Authorizes maximal safe cap five with 20 daily work units; both models give zero errors there, while at cap six three unchecked positions can all be wrong under H."
+    },
+    {
+      "blind_id": "P3S09",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Runs affordable scanner-only comparison, retains the proven bundle unless the full output interval meets 120, and distinguishes the identified 30 joint gain from unknown separate gains and interaction."
+    },
+    {
+      "blind_id": "P3S10",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Buys four exclusive options for $24 at 08:30, atomically assigns each once and completes binding notices by 08:50; correctly separates retry repair from missing vendor authority."
+    },
+    {
+      "blind_id": "P3S11",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Chooses four exclusive $24 options with one-time ledger assignment and 08:50 binding confirmations; the ready retry patch does not cure stock-page nonbinding status."
+    },
+    {
+      "blind_id": "P3S12",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Uses 60 new ordinary slots for 24 support hours, keeps urgent at 90%, calculates 76 expected completions, and identifies the pilot mix and downstream work limits."
+    },
+    {
+      "blind_id": "P3S13",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Adopts exclusive four-option runner-up within $30 and by 08:50, retains unique assignment, and recognizes that retry patch cannot grant vendor reservation authority."
+    },
+    {
+      "blind_id": "P3S14",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 1,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "Final recommendation declines renewal and leaves the fixed all-ten-case resolution objective unserved, despite a feasible authorized contract."
+      ],
+      "total": 8,
+      "full_pass": false,
+      "reason": "Accurately diagnoses shifted labor and reset clocks, and calculates a positive-margin $20 contract with original-case controls, but finally says not to renew because four audits cannot guarantee detection; the task asks for an operating decision meeting all ten arrivals, not perfect detection."
+    },
+    {
+      "blind_id": "P3S15",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects maximal safe cap five at 20 work units, keeps manual fallback, and shows that at higher caps three unchecked answers may all be wrong under H; current records and survey cannot rule H out."
+    },
+    {
+      "blind_id": "P3S16",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Uses unchanged 120/400 all-arrival completion, participant selection and shifted desk hours to reject both causal assertions; authorizes the four-week branch comparison within fixed budgets on every arrival."
+    },
+    {
+      "blind_id": "P3S17",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Separates doubled participant rate from unchanged 120/400 all-arrival result, preserves both causal uncertainties, and compares assigned branch policies within each existing staff budget."
+    },
+    {
+      "blind_id": "P3S18",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Chooses Cedar at cost 8 for 24 completions, zero backlog and incidents; Elm and Pine fail different fixed goals, while optional logs would raise cost to 11 without identifying individual causal ROI."
+    },
+    {
+      "blind_id": "P3S19",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Makes custodian ledgers authoritative, requires atomic allocation and ID-specific cancellation, checks a second depot within 2.5 minutes, and transfers exclusivity without assuming central speed or physical possession."
+    },
+    {
+      "blind_id": "P3S20",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Replaces vendor-marked closures with a $20 full-coverage payment for ten confirmed original cases; 16 effort units leave $4 profit, recurrence and customer-labor rules govern payment, and four weekly audits are not claimed to guarantee detection."
+    },
+    {
+      "blind_id": "P3S21",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps proven $50 bundle at 130 pending scanner-only run, switches to $30 scanner only if its entire interval meets 120, and states joint gain 30 without an unsupported separate causal split."
+    },
+    {
+      "blind_id": "P3S22",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Authorizes maximal cap five with manual fallback at 20 daily units and no errors in either model; above five, four possible errors and only three untargeted reviews cannot ensure the one-error limit."
+    },
+    {
+      "blind_id": "P3S23",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects Cedar as sole package meeting 24 completions, zero backlog and incidents within 10 units; keeps required reports and identifies that the extra dashboard costs 11 total yet lacks causal comparisons."
+    },
+    {
+      "blind_id": "P3S24",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Authorizes Cedar at 8 with 24 completions and zero backlog/incidents, retains current reports, and explains why task-minute logs neither identify separate contributions nor fit the 10-unit cap."
+    }
+  ],
+  "adjudicated": [
+    {
+      "blind_id": "P3S14",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 1,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "The final do-not-renew operating decision provides no way to resolve the ten daily arrivals under the fixed objective, despite describing an authorized, profitable $20 contract."
+      ],
+      "total": 8,
+      "full_pass": false,
+      "reason": "The answer correctly identifies customer-team handoffs and reset recurrence clocks, preserves original-case confirmation, and calculates $12.50 + $10 = $20 in fees against $16 effort, with positive margins and enough daily capacity. It proposes a meaningful rate and record rule and correctly says four weekly audits are not perfect detection. Its final decision nevertheless declines renewal, leaving the fixed ten-case operating objective without a delivery path; its proposed terms also do not establish that handoffs cease in actual delivery. The dossier does not establish that supplier performance under an express handoff ban requires perfect detection, so the asserted impossibility is not proven."
+    }
+  ],
+  "final": [
+    {
+      "blind_id": "P3S01",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Correctly computes 120/400 in both periods, identifies easier participant selection and displaced desk hours, rejects both unsupported causal claims, and chooses the authorized fixed-budget branch comparison on all arrivals."
+    },
+    {
+      "blind_id": "P3S02",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Firm replies follow the permitted custodian's atomic ledger entry and unique ID; a second depot check takes the worst case to 2.5 minutes. It correctly extracts exclusivity from the analogies without assuming central authority or physical possession and prevents the duplicate promise."
+    },
+    {
+      "blind_id": "P3S03",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Uses the depot custodians' atomic ledgers for the only firm commitment, checks both depots before stock refusal, and correctly bounds two contacts at 2.5 minutes. It distinguishes useful exclusivity from unavailable cashier speed and shelf possession, including booking-ID cancellation."
+    },
+    {
+      "blind_id": "P3S04",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps all urgent work on the 90% existing route, allocates 60 ordinary requests to the new route for exactly 24 support hours, and computes 18+10+48=76 expected completions. It treats the shifted pilot mix and downstream handoffs correctly."
+    },
+    {
+      "blind_id": "P3S05",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Authorizes the optimal 60 new ordinary, 20 existing ordinary, and 20 existing urgent routing: 24 support hours, 90% urgent rate, and 76 expected completions. It does not mistake the changed pilot mix or exported support work for a free blanket gain."
+    },
+    {
+      "blind_id": "P3S06",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Customer-confirmed original cases and linked recurrences govern payment and time; handoffs are prohibited. The $1.25/$5 rates pay exactly $20 for ten resolutions, cost 16 effort units, and give both classes positive margins. Four weekly audits are correctly treated as bounded detection, not a guarantee."
+    },
+    {
+      "blind_id": "P3S07",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps the proven 130-dispatch, $50 bundle while testing the only affordable cheaper candidate, scanner alone. Switching requires its interval lower bound at least 120. It reports the known joint gain of 30 and leaves separate gains and interaction unidentified."
+    },
+    {
+      "blind_id": "P3S08",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects the greatest robust cap, five: five automated plus five manual replies cost 20 units with zero errors under either model. At cap six or higher, three reviews can leave three wrong answers unchecked under H; low-cap observations and the preference survey do not eliminate H."
+    },
+    {
+      "blind_id": "P3S09",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Runs the permitted scanner-only test while retaining the proven bundle, and switches only on a wholly qualifying interval. The $30 scanner is the only affordable single alternative. The answer reports the joint 30-dispatch gain without fabricating a separate causal split."
+    },
+    {
+      "blind_id": "P3S10",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Buys four authorized exclusive options for $24 at 08:30 and assigns them atomically, completing sequential notifications by 08:50. It separates the useful duplicate-retry patch from the missing binding authority of stock-page rows and the unavailable officer."
+    },
+    {
+      "blind_id": "P3S11",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Chooses the authorized four-option transaction at $24, assigns each once, and meets the 10:00 deadline by 08:50. It correctly recognizes that fixing duplicate messages cannot give stock-page rows binding authority and that the officer is too late."
+    },
+    {
+      "blind_id": "P3S12",
+      "case_id": "C02",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Precisely derives the optimal whole-request routing: 60 new ordinary cases use 24 hours, urgent remains 18/20, and ordinary contributes 58 for 76 total. It correctly rejects changed-mix pilot inference and counts support handoffs, including failed assignments."
+    },
+    {
+      "blind_id": "P3S13",
+      "case_id": "C08",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects the authorized four exclusive options for $24, uses one-time ledger assignment, and binds four customers by 08:50 with collection coverage through 17:00. It identifies the selected design's nonbinding stock-page premise despite its useful retry repair."
+    },
+    {
+      "blind_id": "P3S14",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 1,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 1
+      },
+      "critical_failures": [
+        "The final do-not-renew operating decision provides no way to resolve the ten daily arrivals under the fixed objective, despite describing an authorized, profitable $20 contract."
+      ],
+      "total": 8,
+      "full_pass": false,
+      "reason": "The answer correctly identifies customer-team handoffs and reset recurrence clocks, preserves original-case confirmation, and calculates $12.50 + $10 = $20 in fees against $16 effort, with positive margins and enough daily capacity. It proposes a meaningful rate and record rule and correctly says four weekly audits are not perfect detection. Its final decision nevertheless declines renewal, leaving the fixed ten-case operating objective without a delivery path; its proposed terms also do not establish that handoffs cease in actual delivery. The dossier does not establish that supplier performance under an express handoff ban requires perfect detection, so the asserted impossibility is not proven."
+    },
+    {
+      "blind_id": "P3S15",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Authorizes the greatest robust cap, five: all ten replies are covered for 20 work units and no wrong commitments under either model. At six or more, three checks can leave three of H's four errors unchecked. Current cap-three success and the survey cannot distinguish the models."
+    },
+    {
+      "blind_id": "P3S16",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Uses the governing all-arrival rate, 120/400 in both periods, and identifies both easier selection and twenty displaced desk hours. It rejects both unsupported causal assertions and authorizes the fixed-budget branch comparison on every arrival before expansion."
+    },
+    {
+      "blind_id": "P3S17",
+      "case_id": "C01",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Correctly distinguishes the doubled participant rate from unchanged 120/400 all-arrival completion, with selected easy cases and reallocated desk hours. It proposes the authorized randomized branch-policy comparison within separate fixed budgets, including nonusers, without claiming individual causal credit."
+    },
+    {
+      "blind_id": "P3S18",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects Cedar at cost 8, output 24, zero backlog and incidents, retaining required ledgers. It rejects Elm's backlog and Pine's output shortfall. The optional dashboard would cost 11 total and minute logs cannot identify separate causal ROI; whole-package planning evidence is kept with honest uncertainty."
+    },
+    {
+      "blind_id": "P3S19",
+      "case_id": "C06",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Makes each custodian's atomic ledger entry the source of firm commitments, uses retained booking IDs for cancellation, and checks both depots before refusing stock. Two sequential exchanges take 2.5 minutes. It transfers the analogies' exclusive-commitment idea without assuming unavailable central authority or remote physical possession."
+    },
+    {
+      "blind_id": "P3S20",
+      "case_id": "C04",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Replaces vendor-marked completions with a $20 full-coverage payment for ten customer-confirmed original cases within seven days, including linked recurrence, and prohibits customer-team handoffs. Sixteen effort units fit capacity and leave $4 supplier profit. Weekly sampled audits are a bounded deterrent, expressly not a perfect detection claim."
+    },
+    {
+      "blind_id": "P3S21",
+      "case_id": "C03",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Keeps the proven 130-dispatch bundle for $50 while using the one run on the affordable $30 scanner-only replacement. It switches only if the whole supported interval meets 120. The note identifies the joint gain of 30 but not separate gains, interaction, or the vendor's claimed 15-dispatch split."
+    },
+    {
+      "blind_id": "P3S22",
+      "case_id": "C07",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Authorizes robust cap five with five manual replies, 20 daily work units and zero errors under both possible models. Under H at a higher cap, at most three untargeted reviews can leave three of four errors unchecked. Current cap-three records and the uptake survey do not distinguish the models."
+    },
+    {
+      "blind_id": "P3S23",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Cedar uniquely meets output 24, zero backlog/incidents and cost 8 within 10; Elm has backlog four and Pine output 22. It continues mandatory reports, explains why optional three-unit logs breach the budget and cannot identify individual causal credit, and retains whole-package planning evidence."
+    },
+    {
+      "blind_id": "P3S24",
+      "case_id": "C05",
+      "dimensions": {
+        "premise_evidence": 2,
+        "mechanism_feasibility_burden": 2,
+        "comparative_discrimination": 2,
+        "observation_decision_boundary": 2,
+        "integration_counterexamples": 2
+      },
+      "critical_failures": [],
+      "total": 10,
+      "full_pass": true,
+      "reason": "Selects Cedar's qualifying cost-8, 24-case, zero-backlog, zero-incident package and retains required cost and safety reporting. It rejects Elm and Pine on their binding failures, shows the optional dashboard would cost 11, and states that task-minute logs cannot establish separate contributions."
+    }
+  ],
+  "validity_qualification": "Independent C04 adjudication notes handoff enforcement and confirmation authority are underidentified; limited audit supports neither perfect compliance nor proven impossibility. Its numeric descriptive grades are qualified, not evidence of baseline inability. C04 is excluded by both fixed numeric ceiling criteria regardless. No frozen input, rubric or outcome was changed after dispatch.",
+  "adjudication_notes": [
+    "Source clarity qualification: the dossier does not specify a penalty, an audit detection probability, or whether customer confirmation independently attests who performed the work. It therefore supports a feasible authorized incentive-and-prohibition contract, but neither a perfect compliance guarantee nor a proof that every prohibited handoff would go undetected. The score does not assume any unstated enforcement power or demand perfect detection."
+  ]
+}

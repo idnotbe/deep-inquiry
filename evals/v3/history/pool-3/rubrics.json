@@ -1,0 +1,769 @@
+{
+  "schema_version": 1,
+  "cases": {
+    "K01": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Misreads supplied decisive evidence or contractual basis.",
+          "one": "Uses correct evidence but explanation of governing basis is unclear.",
+          "two": "Uses the supplied governing basis/evidence accurately; a brief direct justification suffices."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposes forbidden or infeasible action.",
+          "one": "Correct action with a material ambiguity about supplied resource limit.",
+          "two": "Direct recommendation satisfies stated contract/capacity/deadline with no extra process."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers a contradicted alternative.",
+          "one": "Names correct choice but also endorses an incompatible rival.",
+          "two": "Correct direct choice suffices; no alternative menu or hypothetical reversal is required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents or demands unsupported evidence to withhold an already justified decision.",
+          "one": "Correct decision but incorrectly suggests supplied evidence is insufficient.",
+          "two": "Treats supplied complete evidence as sufficient; no new measurement or decision boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Numeric or outcome error changes valid recommendation.",
+          "one": "Right recommendation but incomplete requested amounts/target arithmetic.",
+          "two": "Requested allocation, throughput or repair/time is correct; complete terse answer earns full credit."
+        }
+      ],
+      "critical_failures": [
+        "Violates an explicitly stated hard constraint or substitutes a different required objective.",
+        "Claims to have executed a test, observed a new result, or obtained facts not supplied in the prompt.",
+        "Uses a numerically invalid calculation or bound that changes the recommendation or claimed feasibility."
+      ],
+      "accepted_answer_policy": "A complete brief direct answer can earn ten. Do not require alternatives, new evidence, hypothetical boundary changes or examples."
+    },
+    "K03": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Misreads supplied decisive evidence or contractual basis.",
+          "one": "Uses correct evidence but explanation of governing basis is unclear.",
+          "two": "Uses the supplied governing basis/evidence accurately; a brief direct justification suffices."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposes forbidden or infeasible action.",
+          "one": "Correct action with a material ambiguity about supplied resource limit.",
+          "two": "Direct recommendation satisfies stated contract/capacity/deadline with no extra process."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers a contradicted alternative.",
+          "one": "Names correct choice but also endorses an incompatible rival.",
+          "two": "Correct direct choice suffices; no alternative menu or hypothetical reversal is required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents or demands unsupported evidence to withhold an already justified decision.",
+          "one": "Correct decision but incorrectly suggests supplied evidence is insufficient.",
+          "two": "Treats supplied complete evidence as sufficient; no new measurement or decision boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Numeric or outcome error changes valid recommendation.",
+          "one": "Right recommendation but incomplete requested amounts/target arithmetic.",
+          "two": "Requested allocation, throughput or repair/time is correct; complete terse answer earns full credit."
+        }
+      ],
+      "critical_failures": [
+        "Violates an explicitly stated hard constraint or substitutes a different required objective.",
+        "Claims to have executed a test, observed a new result, or obtained facts not supplied in the prompt.",
+        "Uses a numerically invalid calculation or bound that changes the recommendation or claimed feasibility."
+      ],
+      "accepted_answer_policy": "A complete brief direct answer can earn ten. Do not require alternatives, new evidence, hypothetical boundary changes or examples."
+    },
+    "K02": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Misreads supplied decisive evidence or contractual basis.",
+          "one": "Uses correct evidence but explanation of governing basis is unclear.",
+          "two": "Uses the supplied governing basis/evidence accurately; a brief direct justification suffices."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Proposes forbidden or infeasible action.",
+          "one": "Correct action with a material ambiguity about supplied resource limit.",
+          "two": "Direct recommendation satisfies stated contract/capacity/deadline with no extra process."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Prefers a contradicted alternative.",
+          "one": "Names correct choice but also endorses an incompatible rival.",
+          "two": "Correct direct choice suffices; no alternative menu or hypothetical reversal is required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents or demands unsupported evidence to withhold an already justified decision.",
+          "one": "Correct decision but incorrectly suggests supplied evidence is insufficient.",
+          "two": "Treats supplied complete evidence as sufficient; no new measurement or decision boundary required."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Numeric or outcome error changes valid recommendation.",
+          "one": "Right recommendation but incomplete requested amounts/target arithmetic.",
+          "two": "Requested allocation, throughput or repair/time is correct; complete terse answer earns full credit."
+        }
+      ],
+      "critical_failures": [
+        "Violates an explicitly stated hard constraint or substitutes a different required objective.",
+        "Claims to have executed a test, observed a new result, or obtained facts not supplied in the prompt.",
+        "Uses a numerically invalid calculation or bound that changes the recommendation or claimed feasibility."
+      ],
+      "accepted_answer_policy": "A complete brief direct answer can earn ten. Do not require alternatives, new evidence, hypothetical boundary changes or examples."
+    },
+    "C01": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Calls participant-rate increase a demonstrated causal net improvement.",
+          "one": "Recognizes selection but omits the fixed-budget/all-arrival consequence.",
+          "two": "Uses all-arrival totals and changed participant mix/staff allocation rather than user rate as net effect."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Changes staffing/eligibility or proposes unavailable experiment authority.",
+          "one": "Useful provisional decision but experiment population/resource boundary unclear.",
+          "two": "Decision preserves current service/budget or uses the authorized comparable branch experiment without extra staff."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Uses either unsupported assertion as the settled decision premise.",
+          "one": "Rejects expansion claim but treats unchanged aggregate as proof zero individual effect.",
+          "two": "Decisive justification distinguishes both stakeholder assertions from established findings; no separate rebuttal section needed."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents trial results or demands contributor attribution irrelevant to expansion.",
+          "one": "Acknowledges uncertainty but proposed check cannot distinguish the relevant policy.",
+          "two": "Unknown marginal/net effect remains explicit; selected evidence could change expansion decision."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Improves a selected denominator while silently replacing the fixed goal.",
+          "one": "Correct direction but leaves claimed objective confined to participants.",
+          "two": "Integrates displaced nonusers into outcome evaluation; a concise all-arrival decision suffices."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "H01": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Calls participant-rate increase a demonstrated causal net improvement.",
+          "one": "Recognizes selection but omits the fixed-budget/all-arrival consequence.",
+          "two": "Uses all-arrival totals and changed participant mix/staff allocation rather than user rate as net effect."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Changes staffing/eligibility or proposes unavailable experiment authority.",
+          "one": "Useful provisional decision but experiment population/resource boundary unclear.",
+          "two": "Decision preserves current service/budget or uses the authorized comparable branch experiment without extra staff."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Uses either unsupported assertion as the settled decision premise.",
+          "one": "Rejects expansion claim but treats unchanged aggregate as proof zero individual effect.",
+          "two": "Decisive justification distinguishes both stakeholder assertions from established findings; no separate rebuttal section needed."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents trial results or demands contributor attribution irrelevant to expansion.",
+          "one": "Acknowledges uncertainty but proposed check cannot distinguish the relevant policy.",
+          "two": "Unknown marginal/net effect remains explicit; selected evidence could change expansion decision."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Improves a selected denominator while silently replacing the fixed goal.",
+          "one": "Correct direction but leaves claimed objective confined to participants.",
+          "two": "Integrates displaced nonusers into outcome evaluation; a concise all-arrival decision suffices."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "C02": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Uses aggregate headline as sufficient governing evidence.",
+          "one": "Recognizes cohort difference but omits transferred work.",
+          "two": "Uses stable class-specific validated rates and downstream workload with fixed priority."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Over-budget downstream work or priority rate below required minimum.",
+          "one": "Priority preserved but support-bounded routing incomplete.",
+          "two": "Recommended routing fits support capacity and protects priority; exact equivalent allocation accepted."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Substitutes blanket equality or new-workflow novelty for board priority.",
+          "one": "Safe plan without recognizing a feasible better ordinary routing.",
+          "two": "Chosen mechanism improves total expected completion under priority constraint; no exhaustive option matrix required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Changes supplied rates or invents extra support capacity.",
+          "one": "Right action but unnecessary missing-data claim obscures usable evidence.",
+          "two": "Given validation is sufficient for this planning decision; no invented trial or threshold section needed."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Claims benefit by exporting prohibited support cost.",
+          "one": "Routing plausible but handoff burden/outcome population vague.",
+          "two": "Includes outside-team burden and all intake in its outcome claim."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision.",
+        "Determinably suboptimal final authorization fails the full-pass gate because maximization is an explicit fixed objective. Preserve partial dimension credit and charge the root error once, not across five dimensions. A provisional answer is valid only if the optimum is genuinely unidentifiable or the task explicitly authorizes a conditional decision; neither exception applies to the supplied optimum here."
+      ]
+    },
+    "H02": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Uses aggregate headline as sufficient governing evidence.",
+          "one": "Recognizes cohort difference but omits transferred work.",
+          "two": "Uses stable class-specific validated rates and downstream workload with fixed priority."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Over-budget downstream work or priority rate below required minimum.",
+          "one": "Priority preserved but support-bounded routing incomplete.",
+          "two": "Recommended routing fits support capacity and protects priority; exact equivalent allocation accepted."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Substitutes blanket equality or new-workflow novelty for board priority.",
+          "one": "Safe plan without recognizing a feasible better ordinary routing.",
+          "two": "Chosen mechanism improves total expected completion under priority constraint; no exhaustive option matrix required."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Changes supplied rates or invents extra support capacity.",
+          "one": "Right action but unnecessary missing-data claim obscures usable evidence.",
+          "two": "Given validation is sufficient for this planning decision; no invented trial or threshold section needed."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Claims benefit by exporting prohibited support cost.",
+          "one": "Routing plausible but handoff burden/outcome population vague.",
+          "two": "Includes outside-team burden and all intake in its outcome claim."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision.",
+        "Determinably suboptimal final authorization fails the full-pass gate because maximization is an explicit fixed objective. Preserve partial dimension credit and charge the root error once, not across five dimensions. A provisional answer is valid only if the optimum is genuinely unidentifiable or the task explicitly authorizes a conditional decision; neither exception applies to the supplied optimum here."
+      ]
+    },
+    "C03": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats stakeholder numerical credit as established.",
+          "one": "Recognizes uncertainty but gives a partly unsupported gain allocation.",
+          "two": "Separates known joint output from unidentified separate gains/interaction."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Unaffordable package or unsupported lower-output replacement.",
+          "one": "Keeps safe package but cheaper-replacement authorization unclear.",
+          "two": "Interim/final package choice respects price and supported-output rule."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Spends only comparison on quantity unable to settle proposed replacement.",
+          "one": "Useful measurement but not connected to renewal alternative.",
+          "two": "Chooses action-relevant affordable component measurement if pursuing cheaper renewal; no full attribution prerequisite."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Uses favorable upper bound as guarantee or invents test result.",
+          "one": "Correct interim choice but unclear treatment of inconclusive output.",
+          "two": "Decision is conditional on supported output meeting target, with unresolved credit preserved."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Waives required report or blocks every feasible decision until unavailable full identification.",
+          "one": "Decision sound but required uncertainty report materially incomplete.",
+          "two": "Required causal report and permitted operating decision coexist without arbitrary allocation."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "H03": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats stakeholder numerical credit as established.",
+          "one": "Recognizes uncertainty but gives a partly unsupported gain allocation.",
+          "two": "Separates known joint output from unidentified separate gains/interaction."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Unaffordable package or unsupported lower-output replacement.",
+          "one": "Keeps safe package but cheaper-replacement authorization unclear.",
+          "two": "Interim/final package choice respects price and supported-output rule."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Spends only comparison on quantity unable to settle proposed replacement.",
+          "one": "Useful measurement but not connected to renewal alternative.",
+          "two": "Chooses action-relevant affordable component measurement if pursuing cheaper renewal; no full attribution prerequisite."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Uses favorable upper bound as guarantee or invents test result.",
+          "one": "Correct interim choice but unclear treatment of inconclusive output.",
+          "two": "Decision is conditional on supported output meeting target, with unresolved credit preserved."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Waives required report or blocks every feasible decision until unavailable full identification.",
+          "one": "Decision sound but required uncertainty report materially incomplete.",
+          "two": "Required causal report and permitted operating decision coexist without arbitrary allocation."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "C04": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats vendor closure/survey as genuine customer resolution.",
+          "one": "Recognizes one gaming route but not consequence for claimed outcome.",
+          "two": "Reads shifted labor and reopened clocks as outcome/transaction changes, not mere reporting style."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Promises full completion from negative/tie-profit hard work or extra staff.",
+          "one": "Records fixed but incentive margin or budget incomplete.",
+          "two": "Feasible payment/operating rule strictly motivates all required work within effort/payment limits."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Retains reset/outsourcing incentives while claiming fixed objective met.",
+          "one": "Improves metric but leaves one supplier-controlled eligibility boundary.",
+          "two": "Chosen rule changes genuine case resolution incentives or boundary; not only headline vocabulary."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Counts forged/unconfirmed or reset cases as supported success.",
+          "one": "Useful validation but overstates audit coverage.",
+          "two": "Customer-original records/confirmation are sufficient; bounded audits not perfect detection."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Achieves reported speed by prohibited workload transfer/new clock.",
+          "one": "Contract feasible but repeat or labor boundary remains vague.",
+          "two": "Preserves recurrence identity/time and prohibition on customer-team labor in actual delivery."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "H04": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats vendor closure/survey as genuine customer resolution.",
+          "one": "Recognizes one gaming route but not consequence for claimed outcome.",
+          "two": "Reads shifted labor and reopened clocks as outcome/transaction changes, not mere reporting style."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Promises full completion from negative/tie-profit hard work or extra staff.",
+          "one": "Records fixed but incentive margin or budget incomplete.",
+          "two": "Feasible payment/operating rule strictly motivates all required work within effort/payment limits."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Retains reset/outsourcing incentives while claiming fixed objective met.",
+          "one": "Improves metric but leaves one supplier-controlled eligibility boundary.",
+          "two": "Chosen rule changes genuine case resolution incentives or boundary; not only headline vocabulary."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Counts forged/unconfirmed or reset cases as supported success.",
+          "one": "Useful validation but overstates audit coverage.",
+          "two": "Customer-original records/confirmation are sufficient; bounded audits not perfect detection."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Achieves reported speed by prohibited workload transfer/new clock.",
+          "one": "Contract feasible but repeat or labor boundary remains vague.",
+          "two": "Preserves recurrence identity/time and prohibition on customer-team labor in actual delivery."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "C05": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Claims fine-minute logs identify causal contributions.",
+          "one": "Identifies entangled credit but treats all outcome evidence as unusable.",
+          "two": "Distinguishes whole-package planning evidence from missing individual causal ROI."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Chooses a package or added instrumentation violating a fixed requirement.",
+          "one": "Right package but one fixed requirement not checked.",
+          "two": "Selects permitted package meeting all budget/output/backlog/safety requirements."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Blocks allocation for optional unidentified credit or discards mandatory reporting.",
+          "one": "Rejects instrumentation but gives unclear reason beyond expense.",
+          "two": "Recognizes attribution is not a necessary prerequisite for this allocation; required reporting still kept."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents individual causal ROI or new measurements.",
+          "one": "Uncertainty honest but required observed records confused with optional attribution.",
+          "two": "Retains actual cost/outcome/safety observations and explicit causal uncertainty."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Silently changes objective to dashboard completion or removes safety/cost accountability.",
+          "one": "Correct selection with ambiguous continuing accountability.",
+          "two": "Recommendation reaches confirmed allocation objective without replacing it with a measurement project."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "H05": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Claims fine-minute logs identify causal contributions.",
+          "one": "Identifies entangled credit but treats all outcome evidence as unusable.",
+          "two": "Distinguishes whole-package planning evidence from missing individual causal ROI."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Chooses a package or added instrumentation violating a fixed requirement.",
+          "one": "Right package but one fixed requirement not checked.",
+          "two": "Selects permitted package meeting all budget/output/backlog/safety requirements."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Blocks allocation for optional unidentified credit or discards mandatory reporting.",
+          "one": "Rejects instrumentation but gives unclear reason beyond expense.",
+          "two": "Recognizes attribution is not a necessary prerequisite for this allocation; required reporting still kept."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents individual causal ROI or new measurements.",
+          "one": "Uncertainty honest but required observed records confused with optional attribution.",
+          "two": "Retains actual cost/outcome/safety observations and explicit causal uncertainty."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Silently changes objective to dashboard completion or removes safety/cost accountability.",
+          "one": "Correct selection with ambiguous continuing accountability.",
+          "two": "Recommendation reaches confirmed allocation objective without replacing it with a measurement project."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "C06": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Imports nonexistent possession/authority from analogy.",
+          "one": "Notices stale display but assumes central actor can commit.",
+          "two": "Identifies real exclusivity/authority difference in supplied analogues and incident."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Display-based commitment, unauthorized transfer, or over-deadline guarantee.",
+          "one": "Authoritative owner choice right but stock-check/answer timing incomplete.",
+          "two": "Firm reply follows permitted owner commitment and meets contact-time bound."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Treats shared vocabulary as proof of full applicability.",
+          "one": "Valid mechanism with only superficial analogue explanation.",
+          "two": "Transfers useful exclusive commitment without copying unavailable central speed or physical possession."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims absent coordination power or unsupported timing evidence.",
+          "one": "Correct decision but unnecessary new-system dependency unclear.",
+          "two": "Uses supplied owner availability/bounds; no invented software, power or unrequested boundary discussion."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Allows conflicting commitments or stale cancellation to destroy an unrelated booking it promises safe.",
+          "one": "Safe normal process but duplicate incident not addressed by its own rule.",
+          "two": "Same rule resolves observed duplicate promise and preserves one authority per item; extra cancellation examples optional."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "H06": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Imports nonexistent possession/authority from analogy.",
+          "one": "Notices stale display but assumes central actor can commit.",
+          "two": "Identifies real exclusivity/authority difference in supplied analogues and incident."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Display-based commitment, unauthorized transfer, or over-deadline guarantee.",
+          "one": "Authoritative owner choice right but stock-check/answer timing incomplete.",
+          "two": "Firm reply follows permitted owner commitment and meets contact-time bound."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Treats shared vocabulary as proof of full applicability.",
+          "one": "Valid mechanism with only superficial analogue explanation.",
+          "two": "Transfers useful exclusive commitment without copying unavailable central speed or physical possession."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Claims absent coordination power or unsupported timing evidence.",
+          "one": "Correct decision but unnecessary new-system dependency unclear.",
+          "two": "Uses supplied owner availability/bounds; no invented software, power or unrequested boundary discussion."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Allows conflicting commitments or stale cancellation to destroy an unrelated booking it promises safe.",
+          "one": "Safe normal process but duplicate incident not addressed by its own rule.",
+          "two": "Same rule resolves observed duplicate promise and preserves one authority per item; extra cancellation examples optional."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "C07": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats current success/poll as ruling out high-cap response.",
+          "one": "Recognizes uncertain behavior but omits adaptation trigger.",
+          "two": "Keeps both supplied response models possible despite low-cap success/preferences."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Promises unsafe cap, hidden error targeting, excess reviews or backlog.",
+          "one": "Safe cap plausible but fallback/work feasibility unclear.",
+          "two": "Capped automated/manual plan satisfies daily work and loss constraint without hidden review selection."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Full rollout based on unsupported cooperative behavior/prior.",
+          "one": "Safe lower cap without acknowledging feasible greater supported cap.",
+          "two": "Authorizes the greatest supported cap; no compulsory alternative list or future-study paragraph."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents probability/model identification or promises an unobservable switching trigger.",
+          "one": "Uncertainty stated but proposes irrelevant evidence as sole expansion condition.",
+          "two": "Future expansion needs action-relevant evidence; current low-cap record/poll is not decisive."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Separately checks average work while ignoring the possible wrong commitments.",
+          "one": "Loss-safe decision but supplied fallback/response interaction unclear.",
+          "two": "Integrates advertised-cap adaptation with review limits and manual continuity; concise decisive reason suffices."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision.",
+        "Determinably suboptimal final authorization fails the full-pass gate because maximization is an explicit fixed objective. Preserve partial dimension credit and charge the root error once, not across five dimensions. A provisional answer is valid only if the optimum is genuinely unidentifiable or the task explicitly authorizes a conditional decision; neither exception applies to the supplied optimum here."
+      ]
+    },
+    "H07": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Treats current success/poll as ruling out high-cap response.",
+          "one": "Recognizes uncertain behavior but omits adaptation trigger.",
+          "two": "Keeps both supplied response models possible despite low-cap success/preferences."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Promises unsafe cap, hidden error targeting, excess reviews or backlog.",
+          "one": "Safe cap plausible but fallback/work feasibility unclear.",
+          "two": "Capped automated/manual plan satisfies daily work and loss constraint without hidden review selection."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Full rollout based on unsupported cooperative behavior/prior.",
+          "one": "Safe lower cap without acknowledging feasible greater supported cap.",
+          "two": "Authorizes the greatest supported cap; no compulsory alternative list or future-study paragraph."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents probability/model identification or promises an unobservable switching trigger.",
+          "one": "Uncertainty stated but proposes irrelevant evidence as sole expansion condition.",
+          "two": "Future expansion needs action-relevant evidence; current low-cap record/poll is not decisive."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Separately checks average work while ignoring the possible wrong commitments.",
+          "one": "Loss-safe decision but supplied fallback/response interaction unclear.",
+          "two": "Integrates advertised-cap adaptation with review limits and manual continuity; concise decisive reason suffices."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision.",
+        "Determinably suboptimal final authorization fails the full-pass gate because maximization is an explicit fixed objective. Preserve partial dimension credit and charge the root error once, not across five dimensions. A provisional answer is valid only if the optimum is genuinely unidentifiable or the task explicitly authorizes a conditional decision; neither exception applies to the supplied optimum here."
+      ]
+    },
+    "C08": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes public/draft indication is binding reservation.",
+          "one": "Acknowledges policy gap but treats it as ordinary connector bug.",
+          "two": "Separates local defect from missing binding-authority prerequisite using incident evidence."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Unavailable signing, unsupported binding promise, fee/capacity violation.",
+          "one": "Right alternative but timing or one-time assignment incomplete.",
+          "two": "Authorized option/token allocation meets same quantity, timing, fees and uniqueness objective."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Repeats administrative patch that cannot supply authority, or replaces sound parts only for novelty.",
+          "one": "Chooses alternate without explaining why ready patch insufficient.",
+          "two": "Preserves useful local repair if wanted but does not use it to defend defeated core mechanism."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents changed vendor policy or signing powers.",
+          "one": "Core decision sound but asks for unnecessary unavailable authority.",
+          "two": "Uses supplied vendor/instructor rule and authorized alternative; no extra approval/test needed."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Calls nonbinding notice a fulfilled binding commitment.",
+          "one": "Feasible choice but final customer commitment semantics vague.",
+          "two": "Result is a binding customer transaction supported by exclusive recorded right, not a prettier notification."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    },
+    "H08": {
+      "dimensions": [
+        {
+          "id": "premise_evidence",
+          "zero": "Assumes public/draft indication is binding reservation.",
+          "one": "Acknowledges policy gap but treats it as ordinary connector bug.",
+          "two": "Separates local defect from missing binding-authority prerequisite using incident evidence."
+        },
+        {
+          "id": "mechanism_feasibility_burden",
+          "zero": "Unavailable signing, unsupported binding promise, fee/capacity violation.",
+          "one": "Right alternative but timing or one-time assignment incomplete.",
+          "two": "Authorized option/token allocation meets same quantity, timing, fees and uniqueness objective."
+        },
+        {
+          "id": "comparative_discrimination",
+          "zero": "Repeats administrative patch that cannot supply authority, or replaces sound parts only for novelty.",
+          "one": "Chooses alternate without explaining why ready patch insufficient.",
+          "two": "Preserves useful local repair if wanted but does not use it to defend defeated core mechanism."
+        },
+        {
+          "id": "observation_decision_boundary",
+          "zero": "Invents changed vendor policy or signing powers.",
+          "one": "Core decision sound but asks for unnecessary unavailable authority.",
+          "two": "Uses supplied vendor/instructor rule and authorized alternative; no extra approval/test needed."
+        },
+        {
+          "id": "integration_counterexamples",
+          "zero": "Calls nonbinding notice a fulfilled binding commitment.",
+          "one": "Feasible choice but final customer commitment semantics vague.",
+          "two": "Result is a binding customer transaction supported by exclusive recorded right, not a prettier notification."
+        }
+      ],
+      "accepted_answer_policy": "Illustrative witnesses are not mandatory answer components. Accept concise justified valid alternatives and decision-useful uncertainty. Do not require unsolicited comparisons, thresholds, examples, or sections. Charge a root error once unless it causes a distinct consequential error.",
+      "critical_failures": [
+        "A recommendation violates an explicit binding objective, budget, safety limit, or governing authority in the dossier.",
+        "Claims an experiment, execution, observation, or permission occurred that the dossier does not supply.",
+        "A materially invalid calculation makes the recommended action infeasible or reverses the justified decision."
+      ]
+    }
+  }
+}

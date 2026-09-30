@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "candidate_id": "pool-2",
+  "frozen_utc": "2026-09-30T10:28:56.832563+00:00",
+  "suite_hashes": {
+    "cases.json": "a726eee0135f6f8f840426c146b9a06c4fc91468866428ffdadee25f9b43d75c",
+    "rubrics.json": "e53a0734dc8447133bb575b58eec6d0cc462f6c2d8737712ff26531a4b8a0817",
+    "protocol.json": "d3e4de1b85033b62a09e472aee8f06b7ed64e2bdfedf12206d6b4b36b6fd5819"
+  },
+  "skill_hashes": {
+    "assets/work-record.template.md": "4c041386f2a3ae72d00900d082659aae7a730fff75cb3bfa3edb91ba591f9219",
+    "references/alignment.md": "8d69552aa5da9f7911b7054542c2a8da8fb3aaaecbf52fa893ec8f65f570ef71",
+    "references/alternatives-and-drafting.md": "0b03e017c97a0a013cd95f22b9e7266c1e7e0cf2a3e9d37063499b35aec9b382",
+    "references/evidence-and-diagnosis.md": "df73a8e947fda4764ceb69617ee88d8a9d95212710f3a889be1b0bfb3a6c45ac",
+    "references/inquiry-methods.md": "0c7e92d8a2682e9e734fe53b11863fe014aa47a6cd586146195b44b385b779ac",
+    "references/model-adaptation.md": "623791480398b9ed19c2ee7aff7d8da49e16c31f2020cdf7b8c4ab587e6db2cc",
+    "references/resolution-and-revision.md": "7c1303e202cc63035aab7909b0cb936a3d3d06c091f1061dacc0d851131670c6",
+    "references/verification-and-review.md": "de23904ac5b6782bf6bd296d5bcbed44b889191e93138b70af8ce6ddfa7ac81c",
+    "SKILL.md": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871"
+  },
+  "runner_sha256": "11a784e7c359b644571da55ff3838d41a501aef008d730ead433e11e84c78a40",
+  "scope": "Local freeze written before pool-2 native canary and scored baseline dispatch; not an externally timestamped preregistration.",
+  "definitions": "../history/pool-2/cases.json; ../history/pool-2/rubrics.json; ../history/pool-2/protocol.json",
+  "review": "Independent construct and oracle reviews closed known P0/P1 before dispatch; feasible answers do not establish empirical difficulty.",
+  "treatment": "Unchanged root plus three explicit references; full source bundle hashes are listed, only designated three references are preloaded.",
+  "archive_note": "Definition bytes archived unchanged after baseline screening; original local freeze preceded dispatch."
+}
