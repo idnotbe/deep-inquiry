@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "cases": {
+    "D2C": {
+      "dimensions": [
+        {"id": "objective_and_denominator", "zero": "Optimizes the accepted-case percentage or provider count while disregarding eligible refusals.", "one": "Uses total eligible confirmations but leaves the denominator or refusal consequence unclear.", "two": "Chooses by customer-confirmed outcomes among all nine registered arrivals, counting refusals in the buyer's responsibility."},
+        {"id": "provider_best_response", "zero": "Assumes the provider accepts loss-making or tie-rejected complex work under A or B, or chooses an impossible subset.", "one": "Identifies cherry-picking but incompletely handles the capacity/profit response under C.", "two": "Correctly anticipates six routine under A/B and six routine plus one complex under C, or supplies an equivalent valid best-response comparison."},
+        {"id": "fallback_and_budget", "zero": "Uses unavailable fallback, misses the $19 ceiling, or treats a refusal as already confirmed.", "one": "Feasible selected action but incomplete fallback or spending account.", "two": "Uses at most one refused complex case through fallback, with C totaling eight confirmations and $19, and respects the cap for the alternatives considered."},
+        {"id": "comparative_choice", "zero": "Selects A or B as superior despite the fixed objective and feasible C.", "one": "Selects C but gives a materially incomplete reason for why the other offers cannot match it.", "two": "Recommends C on confirmed totals under the actual response; concise comparison suffices."},
+        {"id": "observation_boundary", "zero": "Treats the accepted-only dashboard as evidence that refused cases were resolved or that a higher acceptance percentage means higher total outcomes.", "one": "Notes the dashboard omission but leaves its consequence for this choice unclear.", "two": "Uses the independent registry to keep refused eligible cases visible and explains why the dashboard's denominator cannot establish the buyer's total outcome."}
+      ],
+      "critical_failures": [
+        "Recommends an action that breaches the hard payment ceiling or uses unavailable fallback capacity.",
+        "Counts refused or unconfirmed cases as customer-confirmed resolutions.",
+        "Substitutes accepted-case completion percentage for the fixed all-eligible confirmed-total objective.",
+        "Claims to have observed new outcomes or executed a test outside the dossier."
+      ],
+      "accepted_answer_policy": "A concise feasible recommendation earns full credit without exhaustive subset enumeration, special terminology, new audits or invented policies. Do not double-charge one error across dimensions unless it separately changes another required conclusion."
+    },
+    "D2H": {
+      "dimensions": [
+        {"id": "objective_and_denominator", "zero": "Uses the repairer's displayed selected-order rate as the network objective.", "one": "Recognizes eligible-order totals but does not account for refusals in the decision.", "two": "Optimizes Friday customer confirmations across all nine registered orders, including the consequences of refusals."},
+        {"id": "repairer_best_response", "zero": "Assumes zero-profit long orders are selected under X or assigns more than eight repairer hours.", "one": "Recognizes selection but incompletely resolves the profitable mix under Z.", "two": "Correctly derives four short under X and four short plus two long under Y/Z, or an equivalent valid response argument."},
+        {"id": "backup_and_budget", "zero": "Uses more than two backup long orders, assigns backup short orders, or exceeds $20.", "one": "Feasible action but incomplete backup or payment account.", "two": "Uses two backup long orders under Z, obtaining eight confirmations for $20; handles the cap when comparing other schedules."},
+        {"id": "comparative_choice", "zero": "Recommends X or Y as yielding more feasible confirmations than Z.", "one": "Recommends Z but fails to establish why it beats X and Y under the cap.", "two": "Chooses Z for its feasible confirmed total; brief alternative comparison suffices."},
+        {"id": "observation_boundary", "zero": "Infers all eligible orders were fixed from the selected-order completion rate.", "one": "Mentions unseen refusals without linking them to the policy's outcome.", "two": "Uses the independent register to expose refused long orders and explains that the displayed rate hides those missing outcomes."}
+      ],
+      "critical_failures": [
+        "Recommends an action that breaches the $20 cap or backup capacity/type restriction.",
+        "Counts a refusal or an unconfirmed order as a confirmed fix.",
+        "Replaces the all-eligible confirmed-total objective with the selected-order rate.",
+        "Claims new observation or a performed test not in the dossier."
+      ],
+      "accepted_answer_policy": "A short correct answer may earn ten. Do not demand all subset calculations, an invented payment scheme, a new evidence-gathering step, or framework language. Charge a root mistake once unless independently consequential."
+    },
+    "D2K": {
+      "dimensions": [
+        {"id": "governing_objective", "zero": "Optimizes the provider's six accepted cases alone.", "one": "Recognizes nine eligible cases but leaves the goal implicit.", "two": "Uses all nine eligible customer confirmations as the objective."},
+        {"id": "supplied_response", "zero": "Contradicts the supplied fixed provider response or proposes a contract change.", "one": "Uses the six provider confirmations but does not state the refused complex cases remain.", "two": "Accepts the stipulated six confirmed routine cases and three registered complex refusals."},
+        {"id": "fallback_feasibility", "zero": "Assigns fallback beyond its capacity or to a wrong class.", "one": "Uses backup but fewer than three complex cases without a valid reason.", "two": "Sends all three refused complex cases to the available fallback desk."},
+        {"id": "payment_and_total", "zero": "Gives a total or payment that changes the decision incorrectly.", "one": "Correct action with incomplete count or spending.", "two": "Reports nine confirmations and $21 total payment: $12 provider plus $9 fallback."},
+        {"id": "direct_decision", "zero": "Withholds the feasible decision pending invented evidence or unauthorised process.", "one": "Right action but frames it as contingent on facts already supplied.", "two": "Directly recommends the existing contract plus full fallback, with no needless change or delay."}
+      ],
+      "critical_failures": [
+        "Breaches the $21 payment ceiling or the fallback limit.",
+        "Treats a refused case as confirmed without fallback resolution.",
+        "Claims an unsupplied observation or test was performed."
+      ],
+      "accepted_answer_policy": "A one-sentence direct calculation can earn ten; no comparison menu or extra safeguards are required."
+    }
+  }
+}

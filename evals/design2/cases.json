@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "calibration": [
+    {
+      "id": "D2C",
+      "family": "participant_adaptation_observation",
+      "prompt": "A service buyer wants the largest number of customer-confirmed resolutions among nine eligible cases this week, within a $19 payment ceiling. An independent intake clerk registers every arrival before the provider sees it: six routine cases cost the provider one effort unit each and three complex cases cost three each. The provider has nine effort units, may accept any subset, pays $1 per effort unit, and chooses the subset with greatest payment minus effort; at equal profit it chooses fewer complex cases, then more total cases. It can see class before accepting. Each accepted case is resolved and confirmed by its customer this week; unaccepted cases get no provider result. The clerk's registry, including refusals, cannot be edited by the provider. The buyer must retain responsibility for every refusal. A separate fallback desk can resolve and get customer confirmation for at most one refused complex case, at a fixed $3 buyer cost; it cannot handle routine cases. Fallback is used if it increases the confirmed total and stays within budget. No other labor, monitoring, penalties, transfers, or payment types are available. Payment is made only for customer-confirmed provider cases. Choose one of the following complete offers for this week: A pays $2 for each confirmed case of either class; B pays $3 for each confirmed case of either class; C pays $2 per confirmed routine case and $4 per confirmed complex case. The buyer may not mix offers or change rates. Current dashboard reports only accepted cases, so its confirmation percentage omits refusals. Which offer and fallback action best serve the stated objective? Give the resulting confirmed count and spending, and explain what the dashboard hides. Use only these facts; answer in at most 700 words."
+    }
+  ],
+  "confirmation": [
+    {
+      "id": "D2H",
+      "family": "participant_adaptation_observation",
+      "prompt": "A repair network wants the most customer-confirmed fixes among nine eligible work orders by Friday, with at most $20 in payments. A dispatcher independent of the repairer records all four short orders and five long orders, including any that the repairer refuses; this record is complete and immutable. A short order uses one repairer hour, a long order two, and the repairer has eight hours. Each hour costs the repairer $1. It sees order type and freely picks a subset to maximize fee revenue minus hours. Profit ties go to fewer long orders, then more orders. Every chosen order is actually fixed and confirmed by its customer by Friday; a refusal has no repairer outcome. The network remains responsible for refusals. Its backup shop can fix and obtain confirmation for up to two refused long orders, at $3 each; it cannot fix short orders. Use the backup when it raises total confirmations within the cap. The only allowed fee schedules are X: $2 per confirmed order of either type; Y: $3 per confirmed order of either type; Z: $2 per confirmed short order and $3 per confirmed long order. Select one whole schedule. No other payments, staff, actions, or observation sources exist. The displayed completion rate counts only work the repairer chose. Recommend a schedule and backup use for the stated goal, with the total confirmed orders and payment. Explain why the displayed rate alone is an unsafe decision measure. At most 700 words; no tools or external facts."
+    }
+  ],
+  "controls": [
+    {
+      "id": "D2K",
+      "family": "participant_adaptation_observation",
+      "prompt": "A service buyer has six routine and three complex eligible cases this week. An independent intake register already records all nine cases and every refusal. A provider may accept any subset, can spend at most nine effort units, and pays $1 per unit; routine cases take one unit and complex cases three. It maximizes payment minus effort, breaking profit ties toward fewer complex cases and then more total cases. Accepted cases are genuinely resolved and customer-confirmed; refusals are not. The current, fixed contract pays $2 per confirmed case of either class, so the provider accepts all six routine cases and refuses the three complex cases. A separate fallback desk can resolve and obtain confirmation for all three refused complex cases for $3 each. Total buyer payment cannot exceed $21. The buyer's goal is the most customer-confirmed resolutions among all nine eligible cases. The buyer may use any amount of available fallback capacity or leave it idle; contract changes and other actions are unavailable. What should the buyer do, and what total confirmed count and payment result? At most 700 words; use only these facts."
+    }
+  ]
+}

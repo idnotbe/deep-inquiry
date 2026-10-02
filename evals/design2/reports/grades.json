@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "candidate_id": "design2-2026-10-03",
+  "case_id": "D2C",
+  "judging": "two independent judgments preserved without adjudication",
+  "judgments": [
+    {
+      "grader": "grade-a",
+      "outputs": [
+        {
+          "id": "R01",
+          "dimensions": {
+            "objective_and_denominator": 2,
+            "provider_best_response": 2,
+            "fallback_and_budget": 2,
+            "comparative_choice": 2,
+            "observation_boundary": 2
+          },
+          "score": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "notes": {
+            "objective_and_denominator": "Uses eight confirmations out of all nine registered cases and retains responsibility for the unresolved refusal.",
+            "provider_best_response": "Correctly gives six routine under A/B and six routine plus one complex under C; B's zero complex margin invokes the tie rule.",
+            "fallback_and_budget": "C pays $16 for provider confirmations plus $3 for one refused complex case, totaling $19 and eight confirmations; A/B spending is feasible as stated.",
+            "comparative_choice": "Compares C's eight confirmations with A's seven and B's six under the ceiling.",
+            "observation_boundary": "Explains that the accepted-only 100% dashboard omits two C refusals and cannot show the buyer's full nine-case outcome."
+          }
+        },
+        {
+          "id": "R02",
+          "dimensions": {
+            "objective_and_denominator": 2,
+            "provider_best_response": 2,
+            "fallback_and_budget": 2,
+            "comparative_choice": 2,
+            "observation_boundary": 2
+          },
+          "score": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "notes": {
+            "objective_and_denominator": "Counts eight of nine registered cases and identifies the unresolved refusal as the buyer's responsibility.",
+            "provider_best_response": "Correctly gives six routine under A/B and six routine plus one complex under C, including B's zero-margin tie exclusion.",
+            "fallback_and_budget": "C provider cost is $16 and one complex fallback costs $3; A reaches seven for $15, while B's $18 leaves insufficient budget for fallback.",
+            "comparative_choice": "Explains why C's eight confirmations exceed A's seven and B's six within the $19 ceiling.",
+            "observation_boundary": "Separates the dashboard's seven accepted confirmations from the two registered refusals and the buyer's eight-of-nine total after fallback."
+          }
+        },
+        {
+          "id": "R03",
+          "dimensions": {
+            "objective_and_denominator": 2,
+            "provider_best_response": 2,
+            "fallback_and_budget": 2,
+            "comparative_choice": 1,
+            "observation_boundary": 2
+          },
+          "score": 9,
+          "critical_failures": [],
+          "full_pass": true,
+          "notes": {
+            "objective_and_denominator": "Uses eight customer confirmations in the full nine-case registry and retains responsibility for the remaining refusal.",
+            "provider_best_response": "Correctly derives the C best response: six routine plus one complex use nine effort and yield $7 profit; the missing A/B account is charged only under comparative choice.",
+            "fallback_and_budget": "Pays $16 for seven provider confirmations and $3 for one refused complex fallback, reaching eight confirmations at the $19 cap.",
+            "comparative_choice": "Selects feasible C but gives no reason A or B cannot also reach eight confirmations; this leaves the superiority comparison materially incomplete.",
+            "observation_boundary": "Shows why the accepted-only 100% dashboard hides two refusals, while the clerk's registry exposes the nine-case total."
+          }
+        }
+      ],
+      "mean": 9.666666666666666,
+      "full_pass_count": 3
+    },
+    {
+      "grader": "independent_grader_b",
+      "outputs": [
+        {
+          "id": "R01",
+          "dimensions": {
+            "objective_and_denominator": 2,
+            "provider_best_response": 2,
+            "fallback_and_budget": 2,
+            "comparative_choice": 2,
+            "observation_boundary": 2
+          },
+          "score": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "notes": "Correct C response, eight of nine confirmations at $19, and feasible A/B comparison. Registry and unresolved refusal are explicit."
+        },
+        {
+          "id": "R02",
+          "dimensions": {
+            "objective_and_denominator": 2,
+            "provider_best_response": 2,
+            "fallback_and_budget": 2,
+            "comparative_choice": 2,
+            "observation_boundary": 2
+          },
+          "score": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "notes": "Correct C response, eight of nine confirmations at $19, and sufficient comparison with A/B. Accepted-only dashboard omission and remaining buyer responsibility are clear."
+        },
+        {
+          "id": "R03",
+          "dimensions": {
+            "objective_and_denominator": 2,
+            "provider_best_response": 2,
+            "fallback_and_budget": 2,
+            "comparative_choice": 2,
+            "observation_boundary": 2
+          },
+          "score": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "notes": "Correct C best response and eight confirmations at the ceiling. The six-routine/one-complex capacity result plus one-case fallback reaches the feasible eight-case maximum; explicit A/B enumeration is unnecessary. Registry, two refusals, and one unresolved buyer responsibility are clear."
+        }
+      ],
+      "mean": 10,
+      "full_pass_count": 3
+    }
+  ],
+  "screening_decision": "excluded_easy_under_both_judgments"
+}

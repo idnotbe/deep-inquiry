@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "candidate_id": "design2-2026-10-03",
+  "case_id": "D2C",
+  "split": "calibration",
+  "condition": "baseline",
+  "outputs": [
+    {
+      "id": "R01",
+      "case_id": "D2C",
+      "condition": "baseline",
+      "repetition": 1,
+      "completed_attempt": 2,
+      "final_sha256": "587d28104245d5e15669c538c3cb61065b0347576973533cc7eea71d12ac5b8d",
+      "answer": "**Choose C and use the fallback desk for one refused complex case.** The provider accepts all six routine cases and one complex case: they use all nine effort units and yield the provider its greatest profit under C. Provider payments are $16. The fallback desk confirms one of the two refused complex cases for $3, bringing the result to **8 confirmed cases for $19**.\n\nFor comparison, A leads the provider to accept only the six routine cases; fallback brings the total to 7 for $15. Under B, accepting a complex case adds no profit, so the tie rule makes the provider choose only the six routine cases. Fallback would raise spending to $21, above the ceiling, leaving B at 6 confirmations for $18.\n\nThe dashboard shows 100% confirmation among accepted cases, but omits refusals. Under C, it hides the two refused complex cases: the provider confirms 7 of all 9 registered arrivals, and fallback brings the buyer’s total to 8 of 9. The buyer remains responsible for the one unresolved refusal."
+    },
+    {
+      "id": "R02",
+      "case_id": "D2C",
+      "condition": "baseline",
+      "repetition": 2,
+      "completed_attempt": 1,
+      "final_sha256": "8a20bb851bd68905ddc9b7fcb4a11a166956a9d6043dd41eea3f2f33de90b890",
+      "answer": "Choose **C** and use the fallback desk for one refused complex case. The provider accepts all six routine cases and one complex case: that uses all nine effort units and gives it the greatest profit under C. Provider payments are \\(6 \\times \\$2 + 1 \\times \\$4 = \\$16\\). Fallback adds one confirmed resolution for $3, bringing the result to **8 of 9 cases confirmed for $19**.\n\nUnder A, the provider accepts only the six routine cases; fallback brings the total to 7 for $15. Under B, it also accepts only the six routine cases: complex cases add no profit, so the tie rule excludes them. Those six confirmations cost $18, leaving too little for fallback.\n\nThe dashboard would show **100% confirmation for the seven cases the provider accepted under C**. It omits the two registered refusals. The full registry shows eight confirmations after fallback and one unresolved complex case for which the buyer remains responsible."
+    },
+    {
+      "id": "R03",
+      "case_id": "D2C",
+      "condition": "baseline",
+      "repetition": 3,
+      "completed_attempt": 1,
+      "final_sha256": "8c12e20fc74607b036b1ff38e07e187b2bb54dd2bb6885a6d4662146532ae9c7",
+      "answer": "**Choose C and use the fallback desk for one refused complex case.** The provider accepts all six routine cases and one complex case, using all nine effort units. Its profit is $7; no other feasible subset gives it more. Provider payments are $16, and fallback costs $3, so the buyer spends **$19** for **eight customer-confirmed resolutions**. The remaining complex case is refused and remains the buyer’s responsibility.\n\nThe dashboard shows 100% confirmation because every *accepted* case is confirmed. It omits the two refusals. The clerk’s registry shows the full nine-case picture: eight confirmed after fallback, one unresolved."
+    }
+  ]
+}
