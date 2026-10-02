@@ -57,6 +57,57 @@ class ModelFreeHost:
 
 
 class RunnerTests(unittest.TestCase):
+    def test_native_catalog_exposure_is_separate_from_shared_context(self):
+        with tempfile.TemporaryDirectory() as temp:
+            source = Path(temp) / 'source'
+            source.mkdir()
+            (source / 'SKILL.md').write_text('---\nname: deep-inquiry\ndescription: "Exact method description."\n---\n')
+            workspace = Path(temp) / 'workspace'
+            profile = Path(temp) / 'profile'
+            prefix = ('<skills_instructions>\n## Skills\n'
+                      'A skill is a set of local instructions to follow that is stored in a `SKILL.md` file. Below is the list of skills that can be used. Each entry includes a name, description, and a short path that can be expanded into an absolute path using the skill roots table.\n'
+                      '### Skill roots\n- `r0` = `' + (profile / 'skills/.system').as_posix() + '`\n')
+            catalog = ('### Available skills\n- deep-inquiry:imagegen: Shared description. '
+                       '(file: r0/imagegen/SKILL.md)\n')
+            suffix = '</skills_instructions>'
+            mapping = '- `r1` = `' + (workspace / '.agents/skills').as_posix() + '`\n'
+            entry = ('- deep-inquiry:deep-inquiry: Exact method description. '
+                     '(file: r1/deep-inquiry/SKILL.md)\n')
+            paths = ((workspace, '<WORKSPACE>'), (profile, '<PROFILE>'))
+            baseline = [prefix + catalog + suffix, 'other shared instructions']
+            treatment = [prefix + mapping + catalog + entry + suffix, 'other shared instructions']
+            baseline_hash, baseline_proof = e.verified_shared_context(baseline, paths, None, source)
+            treatment_hash, treatment_proof = e.verified_shared_context(treatment, paths, workspace / '.agents/skills/deep-inquiry', source)
+            self.assertEqual(baseline_hash, treatment_hash)
+            self.assertFalse(baseline_proof['present'])
+            self.assertTrue(treatment_proof['present'])
+            self.assertEqual(baseline_proof['advertisement_sha256'], treatment_proof['advertisement_sha256'])
+            for changed in (
+                prefix + mapping + catalog + entry + suffix,
+                prefix + catalog + entry + suffix,
+            ):
+                with self.subTest(baseline=changed), self.assertRaises(e.RunnerError):
+                    e.verified_shared_context([changed, baseline[1]], paths, None, source)
+            for changed in (
+                prefix + mapping.replace('.agents/skills', 'wrong') + catalog + entry + suffix,
+                prefix + mapping + catalog + entry.replace('Exact method description.', 'Wrong description.') + suffix,
+                prefix + mapping + catalog + entry.replace('r1/', 'r0/') + suffix,
+                prefix + mapping * 2 + catalog + entry + suffix,
+                prefix + mapping + catalog + entry * 2 + suffix,
+                prefix + catalog + entry + suffix,
+                prefix + mapping + catalog + suffix,
+            ):
+                with self.subTest(treatment=changed), self.assertRaises(e.RunnerError):
+                    e.verified_shared_context([changed, treatment[1]], paths, workspace / '.agents/skills/deep-inquiry', source)
+            changed_hash, _ = e.verified_shared_context([baseline[0], 'different shared instructions'], paths, None, source)
+            self.assertNotEqual(baseline_hash, changed_hash)
+            changed_catalog = baseline[0].replace('Shared description.', 'Different system skill description.')
+            changed_hash, _ = e.verified_shared_context([changed_catalog, baseline[1]], paths, None, source)
+            self.assertNotEqual(baseline_hash, changed_hash)
+            (source / 'SKILL.md').write_text('---\nname: deep-inquiry\ndescription: "Unexpected source description."\n---\n')
+            with self.assertRaises(e.RunnerError):
+                e.verified_shared_context(treatment, paths, workspace / '.agents/skills/deep-inquiry', source)
+
     def test_completed_tool_response_when_final_bytes_must_survive(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
@@ -223,11 +274,26 @@ class RunnerTests(unittest.TestCase):
             path = Path(temp) / 'common.json'
             context = {'system': {'skill': 'a' * 64}, 'requirements': {}, 'layers': [], 'actual_developer_sha256': 'b' * 64, 'actual_user_prefix_sha256': 'e' * 64}
             frozen = {'suite_hashes': {'cases.json': 'c' * 64}, 'skill_hashes': {'SKILL.md': 'd' * 64}}
-            path.write_text(json.dumps({'schema_version': 1, 'canary_cross_arm_verified': True, 'context': context, **frozen}))
+            path.write_text(json.dumps({'schema_version': 1, 'canary_cross_arm_verified': True, 'context': context, 'runner_sha256': e.digest(Path(e.__file__)), **frozen}))
             original = path.read_bytes()
             observed = e.read_common_context(path, {'common_context_sha256': e.digest(path)}, frozen)
             self.assertEqual(observed, context)
             self.assertEqual(path.read_bytes(), original)
+
+    def test_context_reference_when_runner_hash_is_missing_or_wrong(self):
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / 'common.json'
+            frozen = {'suite_hashes': {}, 'skill_hashes': {}}
+            context = {'system': {'skill': 'a' * 64}, 'requirements': {}, 'layers': [], 'actual_developer_sha256': 'b' * 64, 'actual_user_prefix_sha256': 'e' * 64}
+            reference = {'schema_version': 1, 'canary_cross_arm_verified': True, 'context': context, **frozen}
+            for runner_hash in (None, '0' * 64):
+                with self.subTest(runner_hash=runner_hash):
+                    if runner_hash is not None:
+                        reference['runner_sha256'] = runner_hash
+                    path.write_text(json.dumps(reference))
+                    with self.assertRaises(e.RunnerError) as result:
+                        e.read_common_context(path, {'common_context_sha256': e.digest(path)}, frozen)
+                    self.assertEqual(result.exception.code, 'context_runner_mismatch')
 
     def test_context_when_only_trial_paths_differ(self):
         first = e.actual_context_hash(['instructions at C:/first/workspace'], ((Path('C:/first/workspace'), '<WORKSPACE>'),))

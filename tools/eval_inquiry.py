@@ -273,6 +273,60 @@ def actual_context_hash(texts: list[str], paths: tuple[tuple[Path, str], ...]) -
     return hashlib.sha256(json.dumps(normalized, ensure_ascii=False).encode('utf-8')).hexdigest()
 
 
+def verified_shared_context(texts: list[str], paths: tuple[tuple[Path, str], ...], target: Path | None, source: Path) -> tuple[str, dict]:
+    """Hash shared instructions after verifying the one native skill advertisement."""
+    if not texts or not all(text.strip() for text in texts):
+        raise RunnerError('actual developer instruction readback missing')
+    normalized = []
+    for text in texts:
+        for path, label in paths:
+            text = text.replace(str(path), label).replace(str(path).replace(chr(92), '/'), label)
+        normalized.append(text)
+    header = ('<skills_instructions>\n## Skills\n'
+              'A skill is a set of local instructions to follow that is stored in a `SKILL.md` file. Below is the list of skills that can be used. Each entry includes a name, description, and a short path that can be expanded into an absolute path using the skill roots table.\n'
+              '### Skill roots\n')
+    # The captured native catalog has one root section and one catalog section.
+    first = normalized[0]
+    catalog_header = '### Available skills\n'
+    if not first.startswith(header) or first.count(catalog_header) != 1 or not first.endswith('</skills_instructions>'):
+        raise RunnerError('native developer skill catalog format changed', 'context_catalog_format')
+    roots_text, catalog_text = first[len(header):-len('</skills_instructions>')].split(catalog_header)
+    roots, entries = roots_text.splitlines(keepends=True), catalog_text.splitlines(keepends=True)
+    if not roots or not entries or any(not re.fullmatch(r'- `r\d+` = `[^`\n]+`\n', line) for line in roots) or any(not re.fullmatch(r'- [^:\n]+:[^:\n]+: .+ \(file: r\d+/[^()\n]+/SKILL\.md\)\n', line) for line in entries):
+        raise RunnerError('native developer skill catalog format changed', 'context_catalog_format')
+    frontmatter = (source / 'SKILL.md').read_text(encoding='utf-8').split('---\n', 2)
+    if len(frontmatter) != 3 or frontmatter[0] != '':
+        raise RunnerError('target skill frontmatter format changed', 'context_catalog_source')
+    fields = frontmatter[1].splitlines()
+    if len(fields) != 2 or fields[0] != 'name: deep-inquiry' or not fields[1].startswith('description: '):
+        raise RunnerError('target skill frontmatter format changed', 'context_catalog_source')
+    try:
+        description = json.loads(fields[1][len('description: '):])
+    except json.JSONDecodeError as error:
+        raise RunnerError('target skill description format changed', 'context_catalog_source') from error
+    if not isinstance(description, str) or not description.strip():
+        raise RunnerError('target skill description format changed', 'context_catalog_source')
+    mapping = '- `r1` = `<WORKSPACE>/.agents/skills`\n'
+    entry = f'- deep-inquiry:deep-inquiry: {description} (file: r1/deep-inquiry/SKILL.md)\n'
+    suspicious_roots = [line for line in roots if line.startswith('- `r1`') or '/.agents/skills' in line]
+    suspicious_entries = [line for line in entries if line.startswith('- deep-inquiry:deep-inquiry:') or '/deep-inquiry/SKILL.md)' in line]
+    if target is None:
+        if suspicious_roots or suspicious_entries:
+            raise RunnerError('baseline advertises target method', 'context_catalog_baseline')
+    elif target == paths[0][0] / '.agents/skills/deep-inquiry':
+        if suspicious_roots != [mapping] or suspicious_entries != [entry] or roots[-1] != mapping or entries[-1] != entry:
+            raise RunnerError('target method advertisement mismatch', 'context_catalog_target')
+        roots.pop()
+        entries.pop()
+    else:
+        raise RunnerError('target skill path mismatch', 'context_catalog_target')
+    normalized[0] = header + ''.join(roots) + catalog_header + ''.join(entries) + '</skills_instructions>'
+    advertisement_sha256 = hashlib.sha256((mapping + entry).encode('utf-8')).hexdigest()
+    proof = {'format_version': 1, 'present': target is not None, 'advertisement_sha256': advertisement_sha256,
+             'source_root_sha256': digest(source / 'SKILL.md')}
+    return actual_context_hash(normalized, ()), proof
+
+
 def prepare_output(path: Path) -> None:
     destination = path.resolve()
     if not any(destination != private and destination.is_relative_to(private) for private in (ROOT.resolve() / 'temp', ROOT.resolve() / 'local-runs')):
@@ -290,6 +344,8 @@ def read_common_context(path: Path | None, plan: dict, frozen: dict):
     reference = load(path)
     if reference.get('schema_version') != 1 or reference.get('canary_cross_arm_verified') is not True:
         raise RunnerError('cross-arm canary context proof absent')
+    if reference.get('runner_sha256') != digest(Path(__file__)):
+        raise RunnerError('canary context runner hash mismatch', 'context_runner_mismatch')
     for key in ('suite_hashes', 'skill_hashes'):
         if reference.get(key) != frozen[key]:
             raise RunnerError('common context input freeze mismatch')
@@ -452,7 +508,9 @@ def run_trial(exe: Path, auth: Path, source: Path, case: dict, condition: str, f
                     stage = 'delivery_readback'
                     verify_delivery(capture, inputs, target)
                     stage = 'common_context'
-                    developer_hash = actual_context_hash(capture.delivered_developer_text, ((workspace, '<WORKSPACE>'), (profile, '<PROFILE>'), (home, '<HOME>')))
+                    developer_hash, method_exposure = verified_shared_context(capture.delivered_developer_text, ((workspace, '<WORKSPACE>'), (profile, '<PROFILE>'), (home, '<HOME>')), target, source)
+                    report['method_exposure'] = method_exposure
+                    report['actual_developer_context_format'] = 'shared_after_verified_method_advertisement_v1'
                     matched_actual_context = 'actual_developer_sha256' in common
                     if 'actual_developer_sha256' in common and common['actual_developer_sha256'] != developer_hash:
                         raise RunnerError('actual shared developer instructions mismatch', 'context_developer_mismatch')
