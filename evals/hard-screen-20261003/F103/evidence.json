@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "status": "CURRENT_EVIDENCE_BOUND_FOR_ROOT_FINAL",
+  "bindings": {
+    "temp/hard-screen-20261003/worker/F103/SAFE-HANDOFF.json": "7d7654332639bc7b952dda70b069ed800b58c0c024669a489c222e61563f6acc",
+    "temp/hard-screen-20261003/worker/F103/original-safe-readback.json": "8dd50a71e6578fb8ef3e683d88e50a619e75095ab462ea1be8c4c4f1fcc91636",
+    "temp/hard-screen-20261003/worker/F103/qualification/neutral-safe-readback.json": "43afa777ee08b19c82ad84286f1eade6009e86a73a1d31dbdc2664857225f8e0",
+    "temp/hard-screen-20261003/worker/F103/qualification/freeze.json": "c28db6cb45af5c63cef52648218d0b6abf2349994b391ed64c7c7c1a2fdb2cad",
+    "temp/hard-screen-20261003/worker/F103/original-tool-handle.json": "a7192ae4a6699f2b788665526c99010de8839ff3fbcd6d3f35e80d744924ef12",
+    "temp/hard-screen-20261003/worker/F103/qualification/canary-tool-handle.json": "2ec2cd52ee4492bb812003c598121e4bcd41609a77acbafe50d6df24e2c730d4",
+    "temp/hard-screen-20261003/worker/F103/evidence/canary-collection-actual-lossless.json": "d386df7a90a579d57ac440ae8a69238d784a70627bcac4ba3dc1e770104a9f98",
+    "temp/hard-screen-20261003/worker/F103/evidence/original-collection-actual-lossless.json": "3f02d5c86ba172a1b43e248a83ac763d9305a96a49fbe349d904fae3115f3403",
+    "temp/hard-screen-20261003/worker/F103/evidence/build-blind-actual-lossless.json": "99fcec3c2071758d60b011d912f74f905d34f27975c9ad88c7ed042b956aa666",
+    "temp/hard-screen-20261003/worker/F103/evidence/final-frozen-bindings-readback.json": "321e399eb397ce931c6cbf60192a90e17f5246121178ad162d6ede331160b2c9",
+    "temp/hard-screen-20261003/worker/F103/reviews/both-FIRST-boundary.json": "66893c3f76310263e0742be21e5d6fc8f2d05a7dd33a13039dbc6085cee60aed",
+    "temp/hard-screen-20261003/worker/F103/reviews/blind-dispatch.json": "24cd2a924f63827f99afcecf6e1a27661d87951b1dea187029435c4ef4a99cb0",
+    "temp/hard-screen-20261003/worker/F103/reviews/blind-assignment.exact.txt": "2a743deed90421a2f9bac79ce28d0f9e58194f3ef4a016729ba41bba7a444e20",
+    "temp/hard-screen-20261003/worker/F103/reviews/grade-one-FIRST.full.md": "aa5662fe726cfdca42112fd4c5d3325d057ac7ad09243ef2047bedd9947c87ca",
+    "temp/hard-screen-20261003/worker/F103/reviews/grade-two-FIRST.full.md": "afc339c63a6ba33f835db69f39033644ebe27243951cff019f7efe7cbcb3001c",
+    "temp/hard-screen-20261003/worker/F103/blind/packet.json": "82058df2d8b3a7cf67c28fe91051655408cb2812250e2b9589c882178cddaaba",
+    "temp/hard-screen-20261003/worker/F103/blind-private-mapping.json": "8162b91e211b841bcaffe793cdd9c0b9cc553d3e6de27e29c6c066c396faac2d",
+    "temp/hard-screen-20261003/worker/F103/blind-display-provenance.json": "7e910bc8c3e03b843ecb0a4e64a1cedabb00d798c20485560ed359f1833d229b",
+    "temp/hard-screen-20261003/worker/F103/private-proof.aligned-draft.md": "1639ce823e10f70a2086c25aab307b87f5b8e4ceb961c8a71cbacaf8ac305f48",
+    "temp/hard-screen-20261003/worker/F103/prospective-anchors.aligned-draft.md": "d92f3ab1a5d49696e2e562cbb24ccf37199f9c5b8e2234f0c70020c38cdbd8b1",
+    "temp/hard-screen-20261003/f103-pretrial-root-gate.json": "65999662a86dbd09c0f91f8fbe009ee06a8d29da060f23387e9aad61735fb529",
+    "temp/hard-screen-20261003/f103-safe-root-gate.json": "949cf7ac842a498810308b43d45cbf4e2a7c449ddd6b4eb732ece859a92182a3",
+    "evals/hard-screen-20261003/F103/cases.json": "47d592aea10935edd920e40810ce5582e99d9d4be8a34105afe8175a8d47b059",
+    "evals/hard-screen-20261003/F103/rubrics.json": "4073501f84518300bac7cfeb02f0cc215a49e5f5b4ea9deef39e9196857afab2",
+    "evals/hard-screen-20261003/F103/protocol.json": "20e5e5ab6be95fc0401e554b541412693ba40d89ca6b4cf4e9f77c3a939b555c",
+    "evals/hard-screen-20261003/F103/blind-FIRST-one.md": "aa5662fe726cfdca42112fd4c5d3325d057ac7ad09243ef2047bedd9947c87ca",
+    "evals/hard-screen-20261003/F103/blind-FIRST-two.md": "afc339c63a6ba33f835db69f39033644ebe27243951cff019f7efe7cbcb3001c",
+    "evals/hard-screen-20261003/F103/responses/F103_C-baseline-r3.txt": "03778db803b373de6661976827e84d804055ba206b8462abfb4b904deb937096",
+    "evals/hard-screen-20261003/F103/responses/F103_C-baseline-r1.txt": "d5e68511552de7b4d786088b743b01e22e37ca98169e6adfba76037dcdef277e",
+    "evals/hard-screen-20261003/F103/responses/F103_C-baseline-r2.txt": "cf3d788ceb939d251acb999d7d45c6e03f0658715c51475198c0a5885aee11d3"
+  },
+  "current_frozen_binding_readback": {
+    "path": "temp/hard-screen-20261003/worker/F103/evidence/final-frozen-bindings-readback.json",
+    "checked": 206,
+    "mismatches": 0
+  },
+  "runtime": {
+    "neutral_SAFE": "temp/hard-screen-20261003/worker/F103/qualification/neutral-safe-readback.json",
+    "original_SAFE": "temp/hard-screen-20261003/worker/F103/original-safe-readback.json",
+    "PID_before_GO": true,
+    "SAME_owned_Python_close0": true,
+    "MCP_Node_exit0": true,
+    "all_required_actual_guards_pass": true,
+    "requested_MCP_timeout_parameter": "timeout",
+    "neutral_timeout": 900000,
+    "original_timeout": 1200000,
+    "whole_seconds": 300
+  },
+  "blind": {
+    "prospective_contract": "temp/hard-screen-20261003/f103-prospective-review-contract.md",
+    "assignment": "temp/hard-screen-20261003/worker/F103/reviews/blind-assignment.exact.txt",
+    "identical_inline_chars": 3777,
+    "exact_new_graders": 2,
+    "procedural_allowlist_count": 19,
+    "packet_only_substantive": true,
+    "full_wrappers_preserved": true,
+    "both_originals_saved_readback_before_synthesis_mapping": true,
+    "eligibility_details": "grades.json"
+  },
+  "construction": {
+    "source_revision": "Canonical suite1 from proposal/revision2",
+    "ordinary_proof_rubric_unchanged_after_alignment": true,
+    "early_opening_equivalents_accepted": true,
+    "helper_FIRST_and_SAME": "See PRETRIAL and reviews/helper-FIRST.full.md, reviews/helper-confirm.full.md",
+    "combined_check_executions": 1,
+    "native_replays": 0
+  },
+  "disclosures": [
+    "Initial source-only proposal was not selected, not empirically excluded; revision2 became this suite.",
+    "Independent source review broadened accepted opening schedules before freeze; opening is not execution.",
+    "Helper negative witnesses were corrected for mandatory parent retries; duplicated scenarios removed before the single check.",
+    "Initial fixture receipt escaping was corrected from its retained original return without rerunning the helper; initial artifact preserved.",
+    "Final PRETRIAL digest comparison initially assumed text-mode formatting; actual binary-mode hashes matched; no helper/check replay.",
+    "Toolkit status exit127; no retry or repair.",
+    "Full FIRST procedural reads and generic-default exceptions are disclosed in complete originals; no forbidden substantive access reported."
+  ],
+  "limits": [
+    "Actual backend identity and descendant cleanup remain unverified; requested outer timeout is not a proven watchdog.",
+    "Numerical scores are secondary; zero joint qualifying IDs excludes this candidate under unchanged admission.",
+    "ROOT FINAL and shared README remain ROOT-owned."
+  ],
+  "root_final": "ACCEPTED",
+  "classification": "EXCLUDED_NOT_HARD",
+  "root_final_gate": "temp/hard-screen-20261003/f103-final-root-gate.json",
+  "historical_delivery": "Original FINAL binds three preserved root-final-prefinals; all other original bindings unchanged."
+}

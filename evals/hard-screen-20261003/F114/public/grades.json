@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "stage": "ROOT_FINAL_ACCEPTED",
+  "packet": {
+    "path": "evals/hard-screen-20261003/F114/public/packet.json",
+    "bytes": 16945,
+    "sha256": "63a8475d837c3b876d4781bd3294e7a0240dc8477e5c80f92773572301ca3e37"
+  },
+  "graders": [
+    {
+      "grader": "one",
+      "full_FIRST": {
+        "path": "temp/hard-screen-20261003/worker/F114/reviews/blind-one-FIRST.full.md",
+        "bytes": 6819,
+        "sha256": "e2bf798238aaa3e4954bfc2b4bfda98964f664a2fae3c5c534e5b6d7dc0947aa"
+      },
+      "rows": [
+        {
+          "id": "R-A",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "id": "R-B",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "id": "R-C",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ],
+      "full_passes": 3,
+      "mean_quality": 10,
+      "eligibility": "ELIGIBLE_ON_FULL_DISCLOSURES",
+      "eligibility_basis": "Only packet as substantive input; disclosed procedural files are within the frozen 19-file allowlist; no prohibited substantive read, tool execution, writing, delegation or truncation reported."
+    },
+    {
+      "grader": "two",
+      "full_FIRST": {
+        "path": "temp/hard-screen-20261003/worker/F114/reviews/blind-two-FIRST.full.md",
+        "bytes": 4815,
+        "sha256": "a145177b6fe88e6b39ab3e2692bcc3c470eb48d89d836265e4be49cae0d3fb0c"
+      },
+      "rows": [
+        {
+          "id": "R-A",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "id": "R-B",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "id": "R-C",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ],
+      "full_passes": 3,
+      "mean_quality": 10,
+      "eligibility": "ELIGIBLE_ON_FULL_DISCLOSURES",
+      "eligibility_basis": "Only packet as substantive input; disclosed procedural files are within the frozen 19-file allowlist; no prohibited substantive read, tool execution, writing, delegation or truncation reported."
+    }
+  ],
+  "joint_qualifying_response_ids": [],
+  "required_joint_count": 2,
+  "retention_gate_met": false,
+  "extra_all_three_review_required": false,
+  "objective_errors_each": [
+    0,
+    0
+  ],
+  "replacements": 0,
+  "regrading": 0,
+  "mapping_opened_only_after_both_proof": {
+    "path": "temp/hard-screen-20261003/worker/F114/BOTH-FIRSTs-proof.json",
+    "bytes": 1663,
+    "sha256": "a621c6e9d48222a4da6346bfb8f82f6a8be26de53ac8d97a78c2548abed20f7d"
+  }
+}

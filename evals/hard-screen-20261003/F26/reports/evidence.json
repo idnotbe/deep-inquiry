@@ -1,0 +1,70 @@
+{
+  "suite_hashes": {
+    "cases.json": "1591edce463836baa18e3efe3cd3bacf64d68c3d4a572741bc52825f9ba7cf42",
+    "rubrics.json": "d8713a03f984d41e5fefe35a30b7fcb3049d1993c5706ba0b0e7f5fd08af9cd2",
+    "protocol.json": "6d3d979d6e7d0a91b5799b5446b15ecc91a2c1273b7bf27231d6408343812cb0"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "repository_commit_at_dispatch": "7595bb1050d319744add5b5e946f74e042eb3716",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F26C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "853297fb1909c912acb8e6cc9e0e090fb3a5c8a4deb7b87df86b88c215555782",
+      "turn_id": "local-turn-599e0076071a99ad",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F26C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "cc4418772e504e1eb035c7e6d9e6e1587ad990614cee50ae621db56b3c8f2652",
+      "turn_id": "local-turn-44d7502d39deb480",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F26C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "434a5bc6dbc451109ab820fa626af4c9bf392e509fa9d0f8f7c7d26c7775c64b",
+      "turn_id": "local-turn-967d1d5e76689346",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "afb9837454856a909e254d5f250982339951ca6e832d9aef7f0e5c5acc940d05",
+  "grading_packet_redaction": "Assembled from blank structure using currenttask/rubric/anchor/anonymousanswers and explicitly written genericcriteria, not copiedfrompriorgradingpacket. Checked beforedispatch forcondition/model/host/path/turnID andstalepriorcasewords; manualcriteria readback below.",
+  "pretrial_reviews": {
+    "source_only_independent_reconstruction": [
+      "f26_source_a: C0/H0/K120 with fullcoordinates",
+      "f26_source_b: C0/H0/K120 with independently checked fullcoordinates"
+    ],
+    "prefreeze_source_correction": "Both reviewers found H advisory2200 width contradicted booked2500; advisory corrected beforefreeze andallparticipantturns.",
+    "round1": "A approvedgeometry butrequired explicitdistinction ofv3 false-exclusion localrepair fromconstruction-copyexception, andlimitedarea statement. Correctedbeforefreeze.",
+    "round2": "B approvedexact finalhashes, independentlychecked containment/pairwiseoverlap/orientations/mass andall-equivalent-layout acceptance. Confirmedpublicarithmetic alone insufficient: localrepairmustresolveclaim+decision.",
+    "limitation": "Recognizable small packing structure; source-only reconstruction proves solvability, not difficulty."
+  }
+}

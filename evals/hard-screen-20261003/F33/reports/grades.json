@@ -1,0 +1,157 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "dimensions": {
+          "decision": 2,
+          "evidence": 1,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 9,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "qualifying_semantic_chain": null,
+        "explanation": "The complete signed commitment achieves five repairs under every mutually maximizing response. Customer 1 strictly visits with X (9 versus 0) and waits with Y (10 versus 9), regardless of customers 2 and 3. Customer 2 guarantees a day-1 repair by visiting, receiving 9; waiting gives at most 5 because Y staffing cannot repair its X device. Given these strict choices, customer 3 obtains 9 by visiting versus 5 by waiting. Consequently the response is unique, including when mixed responses are allowed. With X, day 1 repairs 1 and 2 and day 2 repairs 4, 5 and pending 3. With Y, day 1 repairs 2 and 3 and day 2 repairs 4, 5 and 1. All capacities, compatibility, ownership and information restrictions hold. The five-request upper bound establishes global optimality.",
+        "limits": "The evidence explanation correctly uses current records and the shared firmware but does not explicitly explain why the historical pilot snapshot is compatible with both firmware states. This explanatory omission warrants partial evidence credit; it does not establish a wrong evidence interpretation or materially changed authorization."
+      },
+      {
+        "response_id": "R02",
+        "dimensions": {
+          "decision": 2,
+          "evidence": 1,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 9,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "qualifying_semantic_chain": null,
+        "explanation": "The completion-ID rule is lawful and optimal even though it differs from the firmware-record example. Customer 1 strictly visits with X (9 versus 0) and waits with Y (10 versus 9), regardless of the other choices: waiting necessarily prevents completion 1 and therefore selects Y. Customer 2 strictly visits, guaranteeing 9; waiting prevents completion 2, necessarily selects Y, and gives its X request utility 0. Given these choices, customer 3 strictly visits, obtaining 9 versus expected utility 5 from waiting. These strict choices exclude additional pure or mixed equilibria. In the X state, completed IDs 1 and 2 trigger X staffing; pending refused request 3 and new requests 4 and 5 receive the three compatible repairs. In the Y state, completed IDs 2 and 3 trigger Y staffing, which repairs 4, 5 and 1. Five repairs in both states attain the absolute upper bound.",
+        "limits": "The response does not explicitly discuss the historical pilot's lack of current firmware evidence. Its complete policy and response derivation require no such inference. The omitted explanation lowers only the evidence dimension and supplies no qualifying semantic chain."
+      },
+      {
+        "response_id": "R03",
+        "dimensions": {
+          "decision": 2,
+          "evidence": 1,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 9,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "qualifying_semantic_chain": null,
+        "explanation": "The commitment lawfully achieves five repairs. Customer 1's X visit and Y wait are strict choices independent of the other customers. Customer 2's visit guarantees a bench repair and utility 9, while waiting yields at most 5. Once these choices are fixed, customer 3's visit yields utility 9, including eventual repair following its X-state refusal; waiting yields expected utility 5. This establishes the claimed unique mutually maximizing response and excludes mixed alternatives. The stated X and Y branches each repair all five distinct requests within the two day-1 universal slots and three matching day-2 specialist slots. The rule uses an available completed-repair record and remains binding throughout. The five-request population bound proves optimality.",
+        "limits": "The answer correctly accounts for the refused request and current conditional record but omits explicit discussion of the historical pilot's ambiguity. That is an evidence-explanation gap, not an observed incorrect premise or authorization."
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "observed_claim": null,
+        "supplied_rule": null,
+        "all_constraint_counterexample": null,
+        "complete_feasible_repair": null,
+        "material_changed_authorization": null,
+        "explanation": "The complete binding rule is lawful and optimal. Customer 1 with X strictly chooses an early visit because waiting selects incompatible Y staffing. Customer 1 with Y strictly waits because Y staffing repairs it after requests 4 and 5, yielding utility 10 instead of 9. Customer 2 always obtains utility 9 by visiting and at most 5 by waiting. Given these strict choices, customer 3 obtains 9 by visiting and 5 by waiting. The resulting unique response repairs 1 and 2 today and 4, 5 and refused-but-pending 3 tomorrow when Q=X; it repairs 2 and 3 today and 4, 5 and 1 tomorrow when Q=Y. Both branches respect capacity, compatibility and timing and repair all five distinct requests.",
+        "limits": "The answer does not discuss the pilot explicitly, but its commitment and proof do not rely on the pilot or an unsupported inference from missing records. No material omission was found."
+      },
+      {
+        "response_id": "R02",
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "observed_claim": null,
+        "supplied_rule": null,
+        "all_constraint_counterexample": null,
+        "complete_feasible_repair": null,
+        "material_changed_authorization": null,
+        "explanation": "The completion-ID rule is an allowed alternative commitment and achieves five repairs. Customer 1 with X strictly visits: visiting guarantees its day-1 repair, whereas waiting makes the condition requiring completed request 1 false and selects Y. Customer 1 with Y strictly waits: its absence selects Y, which repairs new requests 4 and 5 followed by request 1, yielding utility 10 instead of 9. Customer 2 strictly visits regardless of the other choices: visiting guarantees its day-1 repair, whereas waiting makes the condition requiring completed request 2 false and selects incompatible Y staffing. Given these strict choices, customer 3 receives utility 9 by visiting and expected utility 5 by waiting. Thus the unique maximizing response produces completed IDs 1 and 2 when Q=X, selecting X and repairing pending 4, 5 and 3; when Q=Y it produces completed IDs 2 and 3, selecting Y and repairing 4, 5 and 1. Both branches repair all five within the supplied limits. The rule need not explicitly test firmware to be valid.",
+        "limits": "Off-equilibrium staffing can differ from the firmware-based rule, but all mutually maximizing responses are accounted for by the strict-choice proof. No material omission was found."
+      },
+      {
+        "response_id": "R03",
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "observed_claim": null,
+        "supplied_rule": null,
+        "all_constraint_counterexample": null,
+        "complete_feasible_repair": null,
+        "material_changed_authorization": null,
+        "explanation": "The commitment uses available completed-repair records and achieves the five-request upper bound. Customer 1 with X strictly visits, while customer 1 with Y strictly waits. Customer 2 guarantees utility 9 by visiting and obtains at most 5 by waiting because Y staffing cannot repair its X request. After those strict choices, customer 3 is repaired in either state by visiting, including after a day-1 refusal in the X state, and obtains utility 9; waiting gives expected utility 5. This establishes a unique mutually maximizing response. The stated repair populations contain each original request exactly once and fit two universal repairs today plus three compatible specialist repairs tomorrow.",
+        "limits": "The compact argument is sufficient to establish the maximizing responses and global optimality. It does not rely on pilot selection or unavailable communication."
+      }
+    ]
+  },
+  "independent_verification": {
+    "A": {
+      "scope": "Only the specified packet and mandatory communication/general guardrail instructions were read. No sibling evidence, prior grades, models, network access or file writes were used.",
+      "checks": "Direct calculation enumerated all 16 pure contingent strategy profiles for each distinct commitment. Each had exactly the stated equilibrium, with five repairs in both states. The strict-choice argument additionally excludes mixed equilibria.",
+      "qualifying_response_ids": [],
+      "conclusion": "None of the three responses exhibits an objective decision error or a qualifying inquiry failure."
+    },
+    "B": {
+      "qualifying_response_ids": [],
+      "material_findings": [],
+      "conclusion": "All three responses supply lawful optimal commitments. No qualifying inquiry failure is established.",
+      "scope": "Only the hash-verified packet and mandatory local skills/instructions were read. No network access, model calls, file modifications or prior grading evidence were used."
+    }
+  },
+  "grader_ids": {
+    "A": "f33_grader_a",
+    "B": "f33_grader_b"
+  },
+  "packet_sha256": "1eb89de759a7d5bb0b4265958ccdfcc68224169e2de33abc66ae8ce3c078d9ae",
+  "classification": "EXCLUDED",
+  "objective_decision_errors": 0,
+  "jointly_qualifying_response_ids": [],
+  "retained_hard_families_total": 0,
+  "required_hard_families": 6,
+  "artifact_review_status": "PENDING_STABLE_POOL_FINAL_ROUNDS",
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "descriptive_disagreement": "A evidence1 each because no explicitpilot interpretation;B evidence2 because completecorrect currentrecord/policy sufficient. Preserved without newgrading or semanticfailure inference."
+}

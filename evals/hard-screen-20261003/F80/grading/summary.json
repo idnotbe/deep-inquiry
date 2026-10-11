@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "status": "GRADING_COMPLETE_PENDING_ROOT_FINAL",
+  "proposed_final_verdict": "EXCLUDED_NOT_HARD",
+  "mechanical_admission": {
+    "grader_one_qualifying_IDs": [],
+    "grader_two_qualifying_IDs": [],
+    "SAME_ID_intersection": [],
+    "required_same_ID_count": 2,
+    "all_three_extra_validity_audit_required": false,
+    "retained_change_authorized": false
+  },
+  "FIRSTs": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F80/grading/grader-one-FIRST.md",
+      "bytes": 3186,
+      "sha256": "ae1753d8ba1f277e7e59cd016f67675bbe0c1f989a7586216e8f681243fcb2c8"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F80/grading/grader-two-FIRST.md",
+      "bytes": 5002,
+      "sha256": "15b6662f8cbed68b6b416a0bad8e99d7e98c72b0bd6568914b6bb143d054461a"
+    }
+  ],
+  "grades": [
+    [
+      {
+        "anonymous_id": "Response-A",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      },
+      {
+        "anonymous_id": "Response-B",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      },
+      {
+        "anonymous_id": "Response-C",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      }
+    ],
+    [
+      {
+        "anonymous_id": "Response-A",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      },
+      {
+        "anonymous_id": "Response-B",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      },
+      {
+        "anonymous_id": "Response-C",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      }
+    ]
+  ],
+  "mapping": [
+    {
+      "anonymous_id": "Response-A",
+      "case_id": "F80C",
+      "condition": "baseline",
+      "repetition": 1,
+      "attempt": 1,
+      "final_sha256": "576804dfa6873a5c22408d3f95dec586ae5ea3b80464af2d32b60ca20c2116f1",
+      "public_response": "responses/F80C-baseline-r1.txt"
+    },
+    {
+      "anonymous_id": "Response-B",
+      "case_id": "F80C",
+      "condition": "baseline",
+      "repetition": 3,
+      "attempt": 1,
+      "final_sha256": "5b62a1cad9a01ffeb7eda7725e895329ec0d8b3737baec1866b72af2245d4bf5",
+      "public_response": "responses/F80C-baseline-r3.txt"
+    },
+    {
+      "anonymous_id": "Response-C",
+      "case_id": "F80C",
+      "condition": "baseline",
+      "repetition": 2,
+      "attempt": 1,
+      "final_sha256": "1fa5abe0ee9607c3df0c66b8c1512073e999534c54ec4c819e6f44d15be56f59",
+      "public_response": "responses/F80C-baseline-r2.txt"
+    }
+  ],
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "objective_error_counts": [
+    0,
+    0
+  ],
+  "secondary_full_pass_counts": [
+    3,
+    3
+  ],
+  "secondary_means": [
+    10,
+    10
+  ],
+  "disagreement": "None",
+  "rules": "Fixed V2/V3/generic unchanged; all lawful equivalents accepted; objective/qualifying/secondary separate; one root once; no quotas.",
+  "H_K_participant_use": 0,
+  "scored_treatment": 0,
+  "efficacy": "UNKNOWN",
+  "retained": 0,
+  "target": 6,
+  "next": "STOPROOT FINAL; no retention change before ROOT FINAL"
+}

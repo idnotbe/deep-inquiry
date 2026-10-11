@@ -1,0 +1,607 @@
+{
+  "schema_version": 1,
+  "candidate": "F98",
+  "classification": "EXCLUDED_NOT_HARD",
+  "ROOT_adjudication": "ROOT FINAL accepted: all three responses correct; no objective errors or qualifying failures; retained0/6.",
+  "fixed_rule_priority": "V3/generic exact public-evidence and local-error rules; objective/numeric/qualifying separate; no hidden cause inference, preferred proof quota or safe-cost-alone qualification; all lawful equivalents accepted.",
+  "chronology": {
+    "both_FULL_FIRSTs_saved_and_exact_readback_before_mapping_read_or_synthesis": true,
+    "ROOT_meaning_preview_before_both": false,
+    "reviews_replaced": 0,
+    "regraded": 0,
+    "native_replays": 0,
+    "check_replays": 0
+  },
+  "reviewers": [
+    {
+      "identity": "logical-agent/f98_candidate_writer/f98_blind_first_one",
+      "agent_type": "independent-reviewer",
+      "fork_turns": "none",
+      "model_override": false,
+      "reasoning_override": false,
+      "packet_only": true,
+      "full_FIRST_path": "temp/hard-screen-20261003/worker/F98/reviews/blind-one-FIRST.full.md",
+      "full_FIRST_sha256": "5e1da1d95b18181a4ed30d9da7e8cd3ee8554ee74fa0673f21b2ea8769ea49e1",
+      "FULL_saved_and_exact_readback": true
+    },
+    {
+      "identity": "logical-agent/f98_candidate_writer/f98_blind_first_two",
+      "agent_type": "independent-reviewer",
+      "fork_turns": "none",
+      "model_override": false,
+      "reasoning_override": false,
+      "packet_only": true,
+      "full_FIRST_path": "temp/hard-screen-20261003/worker/F98/reviews/blind-two-FIRST.full.md",
+      "full_FIRST_sha256": "8f18260d79599ce30832d3e187f09512cda23770bcac21c0367fb85ecc76a81a",
+      "FULL_saved_and_exact_readback": true
+    }
+  ],
+  "grades": [
+    {
+      "response_id": "R_A",
+      "original_repetition": 1,
+      "original_final": {
+        "path": "temp/hard-screen-20261003/worker/F98/original/F98_C-baseline-r1-attempt1/final.txt",
+        "bytes": 1620,
+        "sha256": "e1a826b256c43a573a50fef23830cb708e96ec2bdef0391e13559a5863b9017a"
+      },
+      "grader_one": {
+        "objective_decision_error": false,
+        "component_scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "full_pass": true,
+        "qualifying_inquiry_failure": false
+      },
+      "grader_two": {
+        "objective_decision_error": false,
+        "component_scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "full_pass": true,
+        "qualifying_inquiry_failure": false
+      }
+    },
+    {
+      "response_id": "R_B",
+      "original_repetition": 2,
+      "original_final": {
+        "path": "temp/hard-screen-20261003/worker/F98/original/F98_C-baseline-r2-attempt1/final.txt",
+        "bytes": 1433,
+        "sha256": "c648903ec3e601a0902d120258f0c5af3c5e0b40a9a92eba5c096d5f80c6d895"
+      },
+      "grader_one": {
+        "objective_decision_error": false,
+        "component_scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "full_pass": true,
+        "qualifying_inquiry_failure": false
+      },
+      "grader_two": {
+        "objective_decision_error": false,
+        "component_scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "full_pass": true,
+        "qualifying_inquiry_failure": false
+      }
+    },
+    {
+      "response_id": "R_C",
+      "original_repetition": 3,
+      "original_final": {
+        "path": "temp/hard-screen-20261003/worker/F98/original/F98_C-baseline-r3-attempt1/final.txt",
+        "bytes": 1489,
+        "sha256": "221e8e8b7da5a0c03f1d2672f1f9575fa8a6228245e75c20412e42e1142ae9e5"
+      },
+      "grader_one": {
+        "objective_decision_error": false,
+        "component_scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "full_pass": true,
+        "qualifying_inquiry_failure": false
+      },
+      "grader_two": {
+        "objective_decision_error": false,
+        "component_scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "full_pass": true,
+        "qualifying_inquiry_failure": false
+      }
+    }
+  ],
+  "joint_qualifying_ids": [],
+  "runtime_observation": {
+    "neutral_SAFE_sha256": "3cf5186d3639c2683bfc87478197441abf93a33c554ce1f379e34279de606753",
+    "original_SAFE_sha256": "cdc48bf9917c10f257e71fe7d9d687dec2ee8e2d0e613544aa11711ffcbf38b7",
+    "neutral_primary_invocation_timeout": 900000,
+    "original_primary_invocation_timeout": 1200000,
+    "requested_outer_timeout_not_watchdog": true,
+    "MCP_Node_exit_codes": [
+      0,
+      0
+    ],
+    "SAME_owned_Python_close_codes": [
+      0,
+      0
+    ],
+    "PID_before_GO": true,
+    "all_required_actual_guards_pass": true,
+    "original_retries": 0,
+    "neutral_retries": 0,
+    "original_semantics_preview_only_after_ROOT_SAFE": true
+  },
+  "check_observation": {
+    "actual_combined_executions": 1,
+    "passed": 1,
+    "synthetic_collector_positive_fixtures": 2,
+    "expected_rejection_fixtures": 11,
+    "synthetic_does_not_substitute_for_native": true
+  },
+  "heldout_control": {
+    "H_revision": 1,
+    "H_participant": "NOT_RUN",
+    "K_participant": "NOT_RUN",
+    "writer_and_source_reviewers_saw_H_K": true,
+    "scored_treatment": "NOT_RUN",
+    "skill_efficacy": "UNKNOWN",
+    "empirical_H_difficulty_matching": "UNKNOWN"
+  },
+  "source_hints": [
+    {
+      "url": "https://www.ipr.northwestern.edu/documents/working-papers/2022/wp-22-40.pdf",
+      "version": "2022-09-19",
+      "provenance": "ROOT verified primary working-paper hint before construction; no empirical table copied. Synthetic fully supplied law and independent proof govern this task."
+    }
+  ],
+  "lineage_limit": "Related marginal-identification/coupling themes already existed in ROOT-reported F61; no global novelty, distinct-hard-family or causal scaffolding claim. This negative result does not establish intrinsic hardness or skill efficacy.",
+  "procedural_deviations": [
+    {
+      "type": "seed_call_command_cap_deviation",
+      "detail": "The first seed-write command was8162 characters, exceeding the strict<6000 cap. It succeeded only in assigned F98 seed files. Preserved argument text is explicitly reconstructed, not a contemporaneously saved verbatim invocation; actual full return is unchanged. Before/diff retained; no replay. Procedural evidence, not difficulty.",
+      "paths": [
+        "seed-write-actual-invocation.json",
+        "provenance-clarification.diff"
+      ]
+    },
+    {
+      "type": "pre_native_H_matching_correction",
+      "detail": "ROOT found that the initially anticipated additive-identification error selected AB correctly in old H. Before any source reviewer/check/native, H-only revision1 changed reported means and fee to preserve a consequential false-identification-to-AB error while reversing the audit decision. C/K unchanged; all v0 drafts/freeze retained. This was prospective source validity repair, not response optimization.",
+      "paths": [
+        "H-revision1-source.diff",
+        "H-revision1-proof.diff",
+        "H-revision1-proposal.diff"
+      ]
+    },
+    {
+      "type": "full_FIRST_transport_preservation",
+      "detail": "The initial printf transport of source FIRST evidence collapsed doubled backslashes. Exact FULL outputs were losslessly corrected and read back before either ALIGN; no reviewer replay or replacement."
+    },
+    {
+      "type": "pre_check_private_and_rubric_clarifications",
+      "detail": "Private revision1 source paths and exact fixed V3 local-error precision were clarified, with before/diffs. Public rubric wording scoped exclusions to qualifying failure, leaving objective/numeric assessment separate. Ordinary reviewed sources unchanged.",
+      "paths": [
+        "ALIGN-private-clarification.diff",
+        "rubrics.qualification-clarification.diff"
+      ]
+    },
+    {
+      "type": "pre_execution_helper_findings",
+      "detail": "One independent helper reviewer found real receipt-to-checked-byte binding and packaging containment gaps. Minimal fixes and SAME-reviewer targeted confirmations resolved them, including the v0 C/K reference manifest line. FIRST actual combined check still0 during fixes. Final single check passed; no full-review/check replay.",
+      "paths": [
+        "helper-review-disposition.json",
+        "combined-check.helper-review-fix.diff",
+        "combined-check.reference-manifest-fix.diff",
+        "prepare-runtime.helper-review-fix.diff"
+      ]
+    },
+    {
+      "type": "blind_packet_parse_only_failure",
+      "detail": "First packet-builder invocation failed Python parsing before any statement executed: a backslash in path display became an unterminated string literal. No packet/map/reviewer existed. Local Path.as_posix() plus base64 source transport produced the sole successful packet; failure and success full actuals retained. No native/check/reviewer replay.",
+      "paths": [
+        "blind-packet-build-FIRST-failure.actual.json",
+        "blind-packet-build-success.actual.json"
+      ]
+    },
+    {
+      "type": "ROOT_ancillary_read_errors",
+      "detail": "ROOT reported guessed source-FIRST and neutral-primary filenames producing ENOENT; exact delivered paths then resolved. One displayed ALIGN truncation was resolved by reading the same full file. No execution/review/check rerun."
+    }
+  ],
+  "artifact_bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/PRETRIAL.json",
+      "bytes": 21063,
+      "sha256": "130088ff7d52fcb6d63734bb66d28c1ca2d7b6c905af438642d4a361033f0399"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/qualification/freeze.json",
+      "bytes": 16061,
+      "sha256": "0206ed915ebcdfc15d5734e3e052c8df13e77c8938be34397cafc32f2a034f3f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/private-proof.md",
+      "bytes": 10430,
+      "sha256": "c94443962b2fc5cb4185e3181d8d95210bcad89fa0f90739de91bbd7a1b7807d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/proposal-and-bindings.md",
+      "bytes": 8241,
+      "sha256": "b14d42027f896375583f023dfc406143f94ab6145bcc5405c1eaac16f265bbaf"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/semantic-anchors.json",
+      "bytes": 2629,
+      "sha256": "b925419a7493185569e596fddae98bba616bd5b0473ec4f943ea15e8e7e5d2c6"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/revision1/C.txt",
+      "bytes": 2704,
+      "sha256": "e93f98abaf7e8c94cb0d0a3dc947f09597d0f5b9840c13531f89b0adfeb114a8"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/revision1/H.txt",
+      "bytes": 2706,
+      "sha256": "0fdfbeada5436f94a7f2eea002b092d0e8c5afb6e0fc0d4f0789e5a88123473c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/revision1/K.txt",
+      "bytes": 2514,
+      "sha256": "9ec3a3b186385e3ab8bf4c4bac5f7398d94806675ce9c0ddf5836df198d200cd"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/COMMON.txt",
+      "bytes": 87,
+      "sha256": "d8e1251fc87d672c63051832a336a731c223ada2f98202337210e18e78ff74b5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/whole-inputs/C.txt",
+      "bytes": 2792,
+      "sha256": "7539f521a6f9f501f01f4b642d3fb5e6da6655b2730d751206b7134f950731b0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/whole-inputs/H.txt",
+      "bytes": 2794,
+      "sha256": "e649d6f4d19938b7942e2144675e8e4e6056699f18c695a2cab4f6f103499868"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/whole-inputs/K.txt",
+      "bytes": 2602,
+      "sha256": "b449e663876311c014595375b5d3c29eb9a0fe22fc348691fc389dc2907daecb"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/combined-check-attempt.json",
+      "bytes": 48,
+      "sha256": "8b2ec881d7f18be00693e1434203d274e7f319c6f3e05f614afb0d2565ef519b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/combined-check-result.json",
+      "bytes": 10184,
+      "sha256": "d129060ab37931042fe5a28397719b46e75fb7805774c7a022a5d8fcb3868e3d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/combined-check-actual-lossless.json",
+      "bytes": 11035,
+      "sha256": "c7ede96ce31a9ec544019fb4479438e832f24e33f7056721e98b4124a4839672"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/prepare-runtime-actual-lossless.json",
+      "bytes": 1134,
+      "sha256": "5645eff56627812b58a7e876dcb0215b36e4585d2dca60018ff397f2a4fd300d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/runtime-adaptation.json",
+      "bytes": 1632,
+      "sha256": "8667a990801674099f7929616ab0a3fe0d1b20907270bd9084c3fd4c48279842"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/run-current.cjs",
+      "bytes": 2934,
+      "sha256": "e735e5e1bc598b043e56170a1854ca3ecbd0f93af9d0c6f0a6b9680ae5596702"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/collect-runtime.cjs",
+      "bytes": 13607,
+      "sha256": "cd97d30bc6464bbd2c6c1606273940a2a7976d572f12c72069e1bae3f4c7c192"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/neutral-native-primary-actual.json",
+      "bytes": 674,
+      "sha256": "ae6726a0a8b167205eb0773baff643889f05dd93e198f84330a727772f200916"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/original-native-primary-actual.json",
+      "bytes": 791,
+      "sha256": "47dc134870b9e475b352df47fdaed43e02f81488bebfdc13adf3b4792d221226"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/neutral-collector-primary-actual.json",
+      "bytes": 1366,
+      "sha256": "93fdd8a4c03cf0200d4d6a986917d879cc11ca5e91914398cf83058fa6d60070"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/original-collector-primary-actual.json",
+      "bytes": 1022,
+      "sha256": "fb2760e4c9aee5f786be402131585c3ffd7e33c20f42b349a808b013e95e02f1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/qualification/canary-tool-handle.json",
+      "bytes": 554,
+      "sha256": "61b5ee7e1ee0b8d790e655f09ba0aa74de826b482f1136818146d7a5d088b34f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/original-tool-handle.json",
+      "bytes": 664,
+      "sha256": "165f560f39b928b41d908197c9094ff9ed8576466405abb5fdf18c6bc17e5cd7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/qualification/neutral-safe-readback.json",
+      "bytes": 8913,
+      "sha256": "3cf5186d3639c2683bfc87478197441abf93a33c554ce1f379e34279de606753"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/original-safe-readback.json",
+      "bytes": 12405,
+      "sha256": "cdc48bf9917c10f257e71fe7d9d687dec2ee8e2d0e613544aa11711ffcbf38b7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/original-operational-freeze.json",
+      "bytes": 1230,
+      "sha256": "b41356001ac7473d6a40c55fafe67f2d5b55a4d8207cf7026196db7a7b91f30d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/qualification/canary-plan.json",
+      "bytes": 1029,
+      "sha256": "dd8c6874e2d7aae391c7478eab1e8b08df571529066f656dc25dad84c7cbba9f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/qualification/screening-plan.json",
+      "bytes": 1168,
+      "sha256": "70ac5607c46bacb81fe95985e420e9b7d86cafab01def008596a9a6d11a09b05"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/blind-packet.json",
+      "bytes": 17706,
+      "sha256": "0f9f8d182ce83dc38f4f415fc91d411f9951b17c0c85883e2a32d0a46c36adbc"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/blind-mapping-private.json",
+      "bytes": 1953,
+      "sha256": "07731f7fbde3f99bb3dea50aa351d8b9a5577bba2b9901c1b707ae3d8f173c23"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/blind-packet-bindings.json",
+      "bytes": 536,
+      "sha256": "c870f3160f099d12a9e5efd3b3d998dc78efc8283ba3fac13679ae65dc5d4c86"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/blind-review-launches.json",
+      "bytes": 770,
+      "sha256": "eaf9b99d98ddb3fe92cbb1cc33005d91ec69e1f7bd2fd430fa38666f59d2ae8b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/blind-synthesis.json",
+      "bytes": 5806,
+      "sha256": "89833a232bcfd31180802bd283b1f1d49b67edf6211e59e40e6abf1d725fd64f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/blind-packet-build-FIRST-failure.actual.json",
+      "bytes": 6415,
+      "sha256": "0c914bd85367e34725a4d6910a2d00289fd3babdbb46a2ef56fd501991ce721a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/blind-packet-build-success.actual.json",
+      "bytes": 1123,
+      "sha256": "8a77e09056126fdd0f8e0bd973278eae0bd650fe6164b3ce9382186dd74dd651"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/seed-write-actual-invocation.json",
+      "bytes": 8979,
+      "sha256": "ead4da903b90636a1883c887aa129fd5b8161016e8ac0585378f4b81ad471945"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/provenance-clarification.diff",
+      "bytes": 513,
+      "sha256": "68f32e4dd7a50a92083da7d277fe942d2bcf512d465cc3c497409800ebd91fc1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/H-revision1-source.diff",
+      "bytes": 2012,
+      "sha256": "d9273b2af7d04cfe2bdf77e46c690c4c7c462ee662a4af7a66ec9456f098a9f4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/H-revision1-proof.diff",
+      "bytes": 15271,
+      "sha256": "e4f8ad219801230087bc97729bcc66136ca8b66f68c5c7a4baa8a170e276c134"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/H-revision1-proposal.diff",
+      "bytes": 12593,
+      "sha256": "d239c532d20fc992c0ac0d06d27963b102d4f6760e876adeef39a48e7b6d02f4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/ALIGN-private-clarification.diff",
+      "bytes": 6287,
+      "sha256": "3875c8479615adc6dd518e0eede7ae777efe7f40ec99ded7165e203925bb9556"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/rubrics.qualification-clarification.diff",
+      "bytes": 13618,
+      "sha256": "2e005266bc90f817b9f54e0ffa6ebfe5ac628ca8330a527d3d277b068e3a8084"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/helper-review-disposition.json",
+      "bytes": 1207,
+      "sha256": "40f2f7718118c4fa6b297d5dde4b9b4fecf84ffe3164e56c427ae58f85b27dae"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/combined-check.helper-review-fix.diff",
+      "bytes": 21364,
+      "sha256": "5978dd7ce4e9db08dc1e3a926244ee5687380054cb833541e572e157840b2221"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/combined-check.reference-manifest-fix.diff",
+      "bytes": 135,
+      "sha256": "213789551fd768a53f6948c657a62fceeddb91ba140b4777d25de1ace56a4809"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/prepare-runtime.helper-review-fix.diff",
+      "bytes": 12194,
+      "sha256": "483c172bf02d6154a0ecbbdbe10ab7e0a5d32e8b18c678cca07e932d50d9f718"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/reviews/source-one-FIRST.full.md",
+      "bytes": 8623,
+      "sha256": "15b9ef488bb1f35056ca5739c95a016c02496f3e3ded196419e87c7178d04833"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/reviews/source-two-FIRST.full.md",
+      "bytes": 10136,
+      "sha256": "9294926cf5fc737550e63dbeb9a5eae42d25563f1fc8c11849281cc66ede8bbe"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/reviews/source-one-ALIGN.full.md",
+      "bytes": 11235,
+      "sha256": "f39a1f85a46a6015e2d197d72febf77c8d35b69cdb5bcedb2371aca60d71043e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/reviews/source-two-ALIGN.full.md",
+      "bytes": 11454,
+      "sha256": "12cef61372c295df251e9100176d23ca0cb46379b25ad3641486d356591f003f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/reviews/helper-delta-FIRST.full.md",
+      "bytes": 6379,
+      "sha256": "7dc69c8df74b161da38e296e7f17afbf65823a956a11eabfd99ee69e54419c01"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/reviews/helper-delta-confirmation-before-reference-fix.full.md",
+      "bytes": 2907,
+      "sha256": "6e800c69ad766e551ba6d0df0b5d44f8e2fea8bebd2867463b5aa144344c28cf"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/reviews/helper-delta-confirmation.full.md",
+      "bytes": 1074,
+      "sha256": "a99a15ea823813c71cc186ba874ac9f1ac6c669540e77d04ce04e055f66ec4e1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/reviews/blind-one-FIRST.full.md",
+      "bytes": 6886,
+      "sha256": "5e1da1d95b18181a4ed30d9da7e8cd3ee8554ee74fa0673f21b2ea8769ea49e1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F98/reviews/blind-two-FIRST.full.md",
+      "bytes": 6061,
+      "sha256": "8f18260d79599ce30832d3e187f09512cda23770bcac21c0367fb85ecc76a81a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f98-pretrial-root-gate.json",
+      "bytes": 1054,
+      "sha256": "2db49e817e9aeda4c4d420daf03e2695588d9795d668d5099abf15956bf6db6e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f98-pretrial-root-gate.actual.json",
+      "bytes": 752,
+      "sha256": "995445786f15035c75f8d524c77c3b6acc02965f56c9d38d31c3ee77dbd931b1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f98-safe-root-gate.json",
+      "bytes": 861,
+      "sha256": "c4e1418f49d5762ea4eed44f807d5be0752655bb8472b1aa546cd13c22ab47a1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f98-safe-root-gate.actual.json",
+      "bytes": 756,
+      "sha256": "aebde64ffd2ac28c4f574d33b0a5a1b4a6b1c009c58d084bfd21d65b36efe3a6"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f98-selection-note.md",
+      "bytes": 5069,
+      "sha256": "2fde51e092ff9f4f98e6b11d4894e02f1c4965ef4b6f2adeb63c00a03ccb91d5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f98-pretrial-preparation-release.md",
+      "bytes": 6224,
+      "sha256": "3eaac0fd85532f9e49cad7756b972e3f26aad81a94ecc42148f6e1b9e94180cd"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f98-heldout-matching-correction-release.md",
+      "bytes": 3607,
+      "sha256": "17f40ee70afaaacb5eddb7150dfa074ff60fa715bf2298ef3be5de63f802e08d"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F98/cases.json",
+      "bytes": 8425,
+      "sha256": "a917b9e07299163404e97ee2d74514b6201a4dc00f335194046d785ad6ef5962"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F98/rubrics.json",
+      "bytes": 9868,
+      "sha256": "5e071c2ae3f76ff7d5a07a6a4f1c80b496aac90df5f78da6ccffaa5136857343"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F98/protocol.json",
+      "bytes": 1668,
+      "sha256": "a0ae136626b6f6358e6c242c964c674e86fd1559d3ebf0e090fa76fa749df194"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v2.md",
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v3.md",
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F85/revision1/generic-grading-rules.json",
+      "bytes": 3456,
+      "sha256": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d"
+    }
+  ],
+  "privacy": "Only public task/terminal answers/full independent assessments and artifact metadata published; no credentials, raw host context, process identifiers or private model reasoning.",
+  "accounting": {
+    "screened_candidate_identifiers": 82,
+    "preserved_final_phase_problem_FILES": 237,
+    "completed_problem_model_turns": 296,
+    "older_protected_unknown": "UNKNOWN; not imputed zero",
+    "neutral_excluded": true,
+    "all_files_protocol_valid_trials": false
+  },
+  "publication_boundary": "Only new F98 report/status/evidence written; existing frozen/runtime/source/review/original bytes unchanged. Shared README exact append proposal/inverse supplied separately; writer does not edit shared files. ROOT preserves these prefinal public bytes and finalizes acceptance markers plus exact ROOT README append; original writer handoff binds the preserved prefinal stage.",
+  "ROOT_FINAL_gate": "temp/hard-screen-20261003/f98-final-root-gate.json"
+}

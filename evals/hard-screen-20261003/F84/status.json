@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "candidate_id": "F84-probe-regime-F54-related",
+  "created_at": "2026-10-07T14:01:48.258Z",
+  "observed_classification": "EXCLUDED_NOT_HARD",
+  "publication_creation_checkpoint": "PENDING_ROOT_FINAL_READBACK",
+  "retained": false,
+  "retained_count": 0,
+  "target": 6,
+  "overall": "ACTIVE_UNMET",
+  "lineage": "Conservative F54-related intervention-sensitive evidence refinement; no global novelty claim; same retained mechanism counts once.",
+  "requested_model": "gpt-6-sol",
+  "backend_identity": "UNVERIFIED nonblocking",
+  "effort_policy": "NOT consideration",
+  "original_problem_trials": 3,
+  "valid_original_problem_trials": 3,
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "neutral_unscored_turns": 2,
+  "setup_retries": 0,
+  "objective_error_counts": [
+    0,
+    0
+  ],
+  "qualifying_failure_counts": [
+    0,
+    0
+  ],
+  "joint_qualifying_ids": [],
+  "secondary_scores": [
+    [
+      10,
+      10,
+      10
+    ],
+    [
+      10,
+      10,
+      10
+    ]
+  ],
+  "heldout_H": "PARTICIPANT_UNUSED author/reviewer seen",
+  "control_K": "PARTICIPANT_UNUSED author/reviewer seen",
+  "scored_treatment": 0,
+  "efficacy": "UNKNOWN",
+  "counts": {
+    "screened_candidate_identifiers": 71,
+    "terminal_problem_files_lower_bound": 208,
+    "completed_problem_turns_lower_bound": 264,
+    "unknown_additional_contributions": [
+      "F46",
+      "F51"
+    ],
+    "neutral_excluded": true,
+    "terminal_files_are_not_valid_trials": true,
+    "retained_distinct_families": 0,
+    "target": 6
+  },
+  "shared_README_edited": false,
+  "README_append": "PROPOSED_LOCAL_BYTES_ONLY_ROOT_OWNER",
+  "frozen_protocol_status": "AUTHOR_DRAFT_NOT_FROZEN_NOT_RUN is original creation-checkpoint text, not current run status; frozen protocol bytes remain unchanged."
+}

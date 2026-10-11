@@ -1,0 +1,299 @@
+{
+  "candidate": "F41",
+  "status": "INCOMPLETE_HOST_SOURCE_PRESERVATION_FAILURE",
+  "original_runner_exit_code": 1,
+  "transport_expiry": false,
+  "planned_original_slots": [
+    {
+      "case_id": "F41C",
+      "condition": "baseline",
+      "repetition": 2,
+      "status": "error",
+      "attempt": 1,
+      "final_sha256": "22ed7087cda5ffaa312d0aee84b1430cf6d0125871cfa1e6f9e0f864c6fe20af",
+      "actual_completed_final_preserved": true
+    },
+    {
+      "case_id": "F41C",
+      "condition": "baseline",
+      "repetition": 3,
+      "status": "not_run"
+    },
+    {
+      "case_id": "F41C",
+      "condition": "baseline",
+      "repetition": 1,
+      "status": "not_run"
+    }
+  ],
+  "actual_original_slot": {
+    "slot": "F41C-baseline-r2-attempt1",
+    "manifest_sha256": "97ad40ad31cb3e19f58d850e2fa18cb73bfd82740ee793ca778323828076d9e2",
+    "delivery_sha256": "692cc4d9a56e398732ef1c664f2c8f20031108c9fedc71f7321d467d636be376",
+    "status": "error",
+    "turn_dispatched": true,
+    "output_seen": true,
+    "actual_completed_final_preserved": true,
+    "final_sha256": "22ed7087cda5ffaa312d0aee84b1430cf6d0125871cfa1e6f9e0f864c6fe20af",
+    "final_bytes": 1877,
+    "completion_status": "completed",
+    "task_input_readback_verified": true,
+    "actual_context_observed": true,
+    "actual_common_developer_match": true,
+    "actual_common_user_prefix_match": true,
+    "host_config_verified": true,
+    "process_stopped": true,
+    "source_preserved": false,
+    "copied_auth_root_removed": true,
+    "tool_attempted": false,
+    "backend_model_verified": false,
+    "method_exposure": {
+      "format_version": 1,
+      "present": false,
+      "advertisement_sha256": "6c442d247e6cc75e619ace7426aeb349f37a5f88b633dd514527f272b395cd02",
+      "source_root_sha256": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871"
+    }
+  },
+  "changed_protected_sources": [
+    {
+      "path": "local-codex-home/config.toml",
+      "unchanged": false,
+      "after_exists": true
+    }
+  ],
+  "checks": {
+    "frozen_reviewed10_runner_skill_unchanged": true,
+    "exact_current_task_plus_common_suffix_delivery": true,
+    "final_bytes_hash_preserved": true,
+    "process_and_auth_copy_cleanup": true,
+    "source_preservation": false
+  },
+  "actual_problem_turns_added": 1,
+  "actual_finals_added": 1,
+  "valid_original_slots": 0,
+  "not_run_original_slots": 2,
+  "no_retry_or_replacement": true,
+  "grading": "NOT_RUN_INVALID_INCOMPLETE_NOT_SCORE_ZERO",
+  "limits": "No config content/credential/hidden reasoning/raw events read. Protected config change observed by producer receipt, cause/actor/content unknown. Final content copied as original only, not previewed or scored; one actual non-dialogue completed turn. Native backend unknown/nonblocking, effort irrelevant. Neutral2 separate zero problem counts.",
+  "actual_counts_verified_from_safe_telemetry": {
+    "completed_turns": 1,
+    "completed_finals": 1
+  },
+  "telemetry_sha256": "5a7376013764753be91bd1e7ec787de49e57fcae2dacc623eb523717524fb0f0",
+  "protected_file_inventory": [
+    {
+      "path": "local-codex-home/auth.json",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": ".agents/skills/deep-inquiry/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": ".agents/skills/deep-inquiry/references/inquiry-methods.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": ".agents/skills/deep-inquiry/references/evidence-and-diagnosis.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": ".agents/skills/deep-inquiry/references/alternatives-and-drafting.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-codex-home/config.toml",
+      "unchanged": false,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/ask-matt/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/code-review/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/codebase-design/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/diagnosing-bugs/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/domain-modeling/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/find-skills/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/grill-me/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/grill-with-docs/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/grilling/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/handoff/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/implement/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/improve-codebase-architecture/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/last30days/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/prototype/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/research/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/resolving-merge-conflicts/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/setup-matt-pocock-skills/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/skill-quality-builder/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/tdd/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/teach/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/to-questionnaire/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/to-spec/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/to-tickets/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/triage/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/wait-what/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/wayfinder/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/wizard/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-user-home/.agents/skills/writing-for-agents/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-retained:temp/hard-screen-20261003/worker/F41/original/inquiry-v3-jlf2qqok/profile/skills/.system/imagegen/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-retained:temp/hard-screen-20261003/worker/F41/original/inquiry-v3-jlf2qqok/profile/skills/.system/openai-docs/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-retained:temp/hard-screen-20261003/worker/F41/original/inquiry-v3-jlf2qqok/profile/skills/.system/review-agent/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-retained:temp/hard-screen-20261003/worker/F41/original/inquiry-v3-jlf2qqok/profile/skills/.system/skill-creator/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    },
+    {
+      "path": "local-retained:temp/hard-screen-20261003/worker/F41/original/inquiry-v3-jlf2qqok/profile/skills/.system/skill-installer/SKILL.md",
+      "unchanged": true,
+      "after_exists": true
+    }
+  ],
+  "protected_inventory_source_path": "temp/hard-screen-20261003/worker/F41/original/F41C-baseline-r2-attempt1/source-receipts-private.json",
+  "safe_status_check_command": "node -e 'const fs=require(\"fs\");const m=JSON.parse(fs.readFileSync(\"temp/hard-screen-20261003/worker/F41/original/F41C-baseline-r2-attempt1/manifest.json\"));console.log(JSON.stringify(Object.fromEntries([\"status\",\"source_preserved\",\"process_stopped\",\"copied_auth_root_removed\",\"actual_completed_final_preserved\",\"completion_status\"].map(k=>[k,m[k]]))))'",
+  "freeze_sha256": "9923c0de9db75c55beace55594652c029be72f4ca6840d1f12e882317fbb9f71",
+  "screening_plan_sha256": "331c9be6d09930a502635898592827196672adbb73d18cd0f1dde478881cb380",
+  "canary_check_sha256": "7bf0fb62aec84faf9c1d2c8128e52735a1384d44deeadc72f36da6f0ec0ce82a",
+  "common_reference_sha256": "8743f8fcf79aea781458af09763011a77106694af1aa90107e00f9533eb07e03",
+  "pretrial_readback_sha256": "5fad260e94f48a6b1106165dab2508e6df4e2081796db6ef6c7e6c398506de3c",
+  "original_collection_sha256": "f6d9e9699ebe80e3d75c9faffd099b57ac8a82ad881506509c93530d9c5dee7c",
+  "counts_definition": "Attempted candidate families and actual preserved outputs/turns including invalid originals; remaining planned NOT_RUN contributes zero. Previous36/108/149 plus F41 one attempted family/one final/one turn=37/109/150. Not valid screened family count or difficulty finding.",
+  "author_context_note": "Reading previous stable report structure exposed F40 answer summaries in author context only; no current final preview, anonymous packet, grader or new model dispatch received that content.",
+  "final_artifact_review": "PENDING_DEFERRED_TO_POOL_CLOSURE",
+  "local_status_command_note": "Shell quoting precision corrected during draft before stable readback; only report text, no producer execution or original change.",
+  "actual_cumulative_counts": {
+    "families": 37,
+    "finals": 109,
+    "problem_solving_turns": 150,
+    "retained": 0,
+    "required": 6
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "suite_hashes": {
+    "cases.json": "feaa3843702fb700e40eb0e1ece99789fcaacf46e1cfcab05e14f5cefb39594e",
+    "rubrics.json": "36e276f2b89c43f834a9b1f02aeb70378a5676327a49d50d378043f912f6429e",
+    "protocol.json": "40efe0d1c20534e22cbb7c1724d069fa234b843ece0d9fa741e1866fc9b57e00"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "repository_commit_at_dispatch": "89fee94fb134e9df5ad507303d675637d0e2fb18",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F31C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "d07749667d93095d0e3f2e6aa11ee9e577ab91b36bda4d6942ecbc15fb6cc196",
+      "turn_id": "local-turn-23b3ee238e79bd0d",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F31C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "90ece7754cffad6a14e0711ed20055ddf0e7b3882e584cfbb5b0937ef38d5463",
+      "turn_id": "local-turn-7d75a671f7299077",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F31C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "69c9d7e5a1f4f35a50429570b37049d6135b025abaa0f7799e0c9ac1503cfa86",
+      "turn_id": "local-turn-d090ad958f63b805",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "1ed7a244f1596371f5f4afbb220d3bd3de9d0f11c2718971894abfbcc5a191cc",
+  "grading_packet_redaction": "Built from blank current task/rubric/anchor/anonymous answers and manually reviewed generic rules; metadata/stale-case checks before graders.",
+  "pretrial_reviews": [
+    "f31_source_a/b independently C4/H4/K3 from participant-only sources; both found K timing conflict, corrected beforefreeze.",
+    "First oracle comparison corrected witness scope and historical attribution; distinct final exact-input review approved suite/oracle/certificate/v3 hashes.",
+    "Four-state policy/counterexample checks plus analytical lower bounds; no empirical difficulty inferred."
+  ],
+  "freeze_sha256": "ffe9eeeec3a3c1c958693dce667e2dc04e40ec2b98dfb01a94f4a785d86ad427",
+  "producer_file_sha256": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "plan_sha256": "0a32782583196c1868954329d0161232766ef54c30386cc4a731e3177028ed4f",
+  "neutral_canary_plan_sha256": "ea3983b4bf51bfcac99a7a5e3a0f6cdedc4c6a842ff0fbca73f4fccd80bee57b",
+  "common_context_sha256": "271f99709be1f9b1db92b3fcc0301a7ee8d6fc592a148a34514149100327b3a0"
+}

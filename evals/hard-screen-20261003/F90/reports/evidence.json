@@ -1,0 +1,100 @@
+{
+  "source_FIRSTs": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F90/source-first-a.md",
+      "bytes": 8176,
+      "sha256": "177fd68a988b6c6982884c6a24e292e767ed32af59955e03ce10ce1db7bd839a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F90/source-first-b.md",
+      "bytes": 7641,
+      "sha256": "4bd0624590bb9221d55a3d4d13ce1aa4f78518ff88d740d770cfdc5efc9fe51c"
+    }
+  ],
+  "same_ALIGNs": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F90/source-align-a.md",
+      "bytes": 5798,
+      "sha256": "b769f7d7797678e88282ffb5d6eab6b17aba61c37857ffdf7d8fe90ef5f75019"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F90/source-align-b.md",
+      "bytes": 4977,
+      "sha256": "e417c9baa6e5d946142017bc7f6f8931a84500b890dbe1d2ed9e95756a4bb71b"
+    }
+  ],
+  "blind_FIRSTs": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F90/blind-first-a.md",
+      "bytes": 5558,
+      "sha256": "30752ff1651083ecc20e7d32e592019064bd446e8b8b230f874a80841e5e05d2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F90/blind-first-b.md",
+      "bytes": 5057,
+      "sha256": "740464fef3b2ed82f7eebac3a3531f75c38bf01f8780aa15ec7c85a576e86311"
+    }
+  ],
+  "PRETRIAL": {
+    "path": "temp/hard-screen-20261003/worker/F90/PRETRIAL-bindings.json",
+    "bytes": 21081,
+    "sha256": "6735b4777a4e91cf8b7517b19c444864147ccb1587502302244d418e42767127"
+  },
+  "SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F90/SAFE.json",
+    "bytes": 45991,
+    "sha256": "60b783718b0c8402e06f1ba3077975d5a8da3f3c5c4a3722c36a3307c6b274d6"
+  },
+  "historical_proof": {
+    "status": "HISTORICAL_F89_EVIDENCE_REUSED_NOT_EXECUTED",
+    "reason": "Only C/H final request paragraph changed; complete world prefix and K preserved; actual affected authorcheck must certify exact transformation.",
+    "historical_candidate": "F89",
+    "historical_executions": 1,
+    "F90_proof_executions": 0,
+    "bindings": [
+      {
+        "path": "temp/hard-screen-20261003/worker/F89/private-proof.py",
+        "bytes": 4214,
+        "sha256": "4d4d7a4784f0342a85afcfc207392c635b56a6748e2c1a544aa10532b46b1e0d"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F89/private-proof-result.json",
+        "bytes": 6537,
+        "sha256": "28d7fc5b07e584a12c6d36375c262a9db0208e589d3b33d953760c1386677db0"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F89/private-proof-receipt.json",
+        "bytes": 9511,
+        "sha256": "5da3a1c4d3543c6eee4f30dedff46ac58392725304e3406811e595b223084d4d"
+      }
+    ],
+    "copied_as_fresh_execution": false,
+    "claims": "Existing bounded exact policy check plus analytic global certificates; no fresh proof, participant, or empirical hardness claim."
+  },
+  "authorcheck_executions": 1,
+  "neutral": {
+    "setup_launches": 2,
+    "turn_dispatches": 2,
+    "completed_turns": 2,
+    "preserved_terminal_finals": 2,
+    "setup_retry_count": 0
+  },
+  "original": {
+    "setup_launches": 3,
+    "turn_dispatches": 3,
+    "completed_turns": 3,
+    "preserved_terminal_finals": 3,
+    "setup_retry_count": 0
+  },
+  "both_actual_owned_Python_close0_and_ALL_guards": true,
+  "original_anonymous_public_byteidentity": true,
+  "blind_FIRSTs_both_full_saved_before_map_synthesis_preview": true,
+  "no_grader_replay_or_replacement": true,
+  "provenance_limits": [
+    "Historical builder inline oracle visible to author before new source FIRSTs; ROOT adjudicated continuation, no clean author-blindness claim.",
+    "ALIGN B neighboring directory names/metadata listing after source FIRST; no mathematical/outcome contents; no allreads-strictly-whitelisted claim.",
+    "Missing Biome LSP, no installation/global decision writes; read-only initial path negatives preserved.",
+    "One oversized receipt-save command rejected by strict <6000 pretool guard; no tool submission; actual receipt then saved in bounded chunks.",
+    "F46/F51 UNKNOWN preserved; F77 protected originals not opened; backend unverified, effort not considered; no fullverification."
+  ]
+}

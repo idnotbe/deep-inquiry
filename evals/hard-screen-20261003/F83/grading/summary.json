@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "status": "BOTH_BLIND_FIRST_SAVED_SYNTHESIZED_PENDING_ROOT_FINAL",
+  "FIRSTs": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F83/blind/grader-1-FIRST.md",
+      "bytes": 2242,
+      "sha256": "4faf6febc97ca9df26f3f3b6d499a36629a899f726da1388ec6fcfd851406a7b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F83/blind/grader-2-FIRST.md",
+      "bytes": 2193,
+      "sha256": "c8a8ac2d9139d6088123a56eae47fcc8ddb772b568a84769813bc9c8d044a1f9"
+    }
+  ],
+  "reviewers": [
+    "logical-agent/f83_candidate_writer/f83_blind_grader_one",
+    "logical-agent/f83_candidate_writer/f83_blind_grader_two"
+  ],
+  "both_NEW_forkNONE": true,
+  "packet_only": true,
+  "full_FIRST_saved_before_synthesis_mappingpreview_unblinding_ROOTpreview": true,
+  "grades": [
+    {
+      "grader": "one",
+      "responses": [
+        {
+          "id": "Response-A",
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "secondary_total": 10,
+          "correct": true,
+          "fullpass": true
+        },
+        {
+          "id": "Response-B",
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "secondary_total": 10,
+          "correct": true,
+          "fullpass": true
+        },
+        {
+          "id": "Response-C",
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "secondary_total": 10,
+          "correct": true,
+          "fullpass": true
+        }
+      ],
+      "qualifying_ids": []
+    },
+    {
+      "grader": "two",
+      "responses": [
+        {
+          "id": "Response-A",
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "secondary_total": 10,
+          "correct": true,
+          "fullpass": true
+        },
+        {
+          "id": "Response-B",
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "secondary_total": 10,
+          "correct": true,
+          "fullpass": true
+        },
+        {
+          "id": "Response-C",
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "secondary_total": 10,
+          "correct": true,
+          "fullpass": true
+        }
+      ],
+      "qualifying_ids": []
+    }
+  ],
+  "joint_qualifying_ids": [],
+  "joint_qualifying_count": 0,
+  "objective_errors": [
+    0,
+    0
+  ],
+  "secondary_scores": [
+    [
+      10,
+      10,
+      10
+    ],
+    [
+      10,
+      10,
+      10
+    ]
+  ],
+  "fullpasses": [
+    3,
+    3
+  ],
+  "same_ID_admission_met": false,
+  "extra_all3_validity_audit_required": false,
+  "proposed_verdict": "EXCLUDED_NOT_HARD",
+  "scores_secondary": true,
+  "one_root_once": true,
+  "criteria_changed": false,
+  "regrades": 0,
+  "replacements": 0,
+  "grader_retries": 0,
+  "original_outcome_retries": 0,
+  "claim": "Actual three no-skill originals all correct under both independent FIRSTs; not universal ease proof or skill-effect evidence."
+}

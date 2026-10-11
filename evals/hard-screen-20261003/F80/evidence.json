@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "status": "PUBLIC_EVIDENCE_PENDING_ROOT_FINAL",
+  "task_sources": [
+    {
+      "path": "evals/hard-screen-20261003/F80/sources/F80C.md",
+      "bytes": 1872,
+      "sha256": "bcffd19db16c94c398313e4a6b9da3471b59c8cd853238fea49e4e51c5c1bed6"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F80/sources/F80H.md",
+      "bytes": 2150,
+      "sha256": "48f5e6cfd43502c189c016c78bb7c4ddc766ffd3bd1e2bc475019f1333948488"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F80/sources/F80K.md",
+      "bytes": 1442,
+      "sha256": "c9904268d9eb697359a4015335a663210983f57f6cf57ae3de3f1e32d7b7b376"
+    }
+  ],
+  "responses": [
+    {
+      "anonymous_id": "Response-A",
+      "case_id": "F80C",
+      "condition": "baseline",
+      "repetition": 1,
+      "attempt": 1,
+      "final_sha256": "576804dfa6873a5c22408d3f95dec586ae5ea3b80464af2d32b60ca20c2116f1",
+      "public_response": "responses/F80C-baseline-r1.txt",
+      "path": "evals/hard-screen-20261003/F80/responses/F80C-baseline-r1.txt",
+      "bytes": 977,
+      "sha256": "576804dfa6873a5c22408d3f95dec586ae5ea3b80464af2d32b60ca20c2116f1"
+    },
+    {
+      "anonymous_id": "Response-B",
+      "case_id": "F80C",
+      "condition": "baseline",
+      "repetition": 3,
+      "attempt": 1,
+      "final_sha256": "5b62a1cad9a01ffeb7eda7725e895329ec0d8b3737baec1866b72af2245d4bf5",
+      "public_response": "responses/F80C-baseline-r3.txt",
+      "path": "evals/hard-screen-20261003/F80/responses/F80C-baseline-r3.txt",
+      "bytes": 887,
+      "sha256": "5b62a1cad9a01ffeb7eda7725e895329ec0d8b3737baec1866b72af2245d4bf5"
+    },
+    {
+      "anonymous_id": "Response-C",
+      "case_id": "F80C",
+      "condition": "baseline",
+      "repetition": 2,
+      "attempt": 1,
+      "final_sha256": "1fa5abe0ee9607c3df0c66b8c1512073e999534c54ec4c819e6f44d15be56f59",
+      "public_response": "responses/F80C-baseline-r2.txt",
+      "path": "evals/hard-screen-20261003/F80/responses/F80C-baseline-r2.txt",
+      "bytes": 810,
+      "sha256": "1fa5abe0ee9607c3df0c66b8c1512073e999534c54ec4c819e6f44d15be56f59"
+    }
+  ],
+  "blind_FIRSTs": [
+    {
+      "path": "evals/hard-screen-20261003/F80/grading/grader-one-FIRST.md",
+      "bytes": 3186,
+      "sha256": "ae1753d8ba1f277e7e59cd016f67675bbe0c1f989a7586216e8f681243fcb2c8"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F80/grading/grader-two-FIRST.md",
+      "bytes": 5002,
+      "sha256": "15b6662f8cbed68b6b416a0bad8e99d7e98c72b0bd6568914b6bb143d054461a"
+    }
+  ],
+  "grading_summary": {
+    "path": "evals/hard-screen-20261003/F80/grading/summary.json",
+    "bytes": 3867,
+    "sha256": "4021a178c6421161cd5c96dae492872b2e450f67e0ddd333e9395c8d0da3cfe1"
+  },
+  "public_inverse": {
+    "path": "evals/hard-screen-20261003/F80/grading/inverse-mapping.json",
+    "bytes": 947,
+    "sha256": "4a66f9ca48b6af5849308603194158cfec91ea67e97208501c28cc0bf76adfab"
+  },
+  "root_PRETRIAL_release": {
+    "path": "temp/hard-screen-20261003/f80-pretrial-gate-readback.json",
+    "bytes": 2949,
+    "sha256": "e581acba8263eda80a2b0e800a5618fa6f44e1ee6648d51b03f52000691e666f"
+  },
+  "root_SAFE_release": {
+    "path": "temp/hard-screen-20261003/f80-safe-gate-readback.json",
+    "bytes": 2203,
+    "sha256": "1ad75dd3c4c723bd580919ef4db566e4d67889257c60117b585c57048b76621a"
+  },
+  "runtime_SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F80/original-safe-readback.json",
+    "bytes": 11966,
+    "sha256": "21569d5d192a1d86983406e9a8158253537b3db179cd6f92548dc4fe7f428d3a"
+  },
+  "actual_counts": {
+    "setup_launches": 3,
+    "turn_dispatches": 3,
+    "completed_turns": 3,
+    "preserved_terminal_finals": 3,
+    "setup_retry_count": 0
+  },
+  "all_actual_guards_pass": true,
+  "PID_before_GO": true,
+  "SAME_primary_and_owned_close0": true,
+  "setup_retries": 0,
+  "source_revision": 0,
+  "H_private_definition_revision": 0,
+  "empirical_criteria_changes": 0,
+  "participant_H_K_use": 0,
+  "scored_treatment": 0,
+  "backend_identity": "UNVERIFIED/nonblocking",
+  "effort_policy": "Not a screening consideration",
+  "permanent_caveats": [
+    "Initial obsolete broad filename find timed out before brief reads; no protected content read; exact brief/SSOT/route separately read in full; no unknown process termination claimed.",
+    "Full FIRST/ALIGN originals preserved as human-readable message payloads including math/caveats; raw internal transport byte equality not claimed.",
+    "H seed computed ONCE before ordinary sources; seed receipt transcribed later, original command/result retained in conversation, no independently saved pre-source timestamp/command receipt.",
+    "Conditional H1/50 proposal NOT APPLIED because BOTH original FIRSTs had launched; ROOT explicitly continued unchanged source0; no reviewer swaps/regrading.",
+    "ALIGN-save preparation syntax error occurred before shell invocation/mutation; corrected save succeeded; no check/review replay.",
+    "Reviewers verify current source/representation mathematics and bindings, not historical execution guards, participant outcomes or grader behavior.",
+    "Known prior-family author templates only were read, not native answers/grades. Bytehash-only correct experimental skill paths.",
+    "No empirical difficulty inference or runtime acceptance from author checks.",
+    "ROOT SAFE reader initially used wrong saved-tool envelope after completed raw/freeze/plan/first-process checks; original first-attempt preserved, only affected and unreached schema-corrected resume completed, no runtime/check/proof replay.",
+    "Full blind FIRST message payloads transcribed with all substantive evidence/caveats; raw internal transport byte equality not claimed."
+  ]
+}

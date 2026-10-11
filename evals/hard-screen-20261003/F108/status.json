@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "candidate": "F108",
+  "decision": "EXCLUDED_NOT_HARD",
+  "ROOT_FINAL": "ACCEPTED",
+  "retained_before": 0,
+  "retained_after_proposed_decision": 0,
+  "target": 6,
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "original_completed": 3,
+  "neutral_completed": 2,
+  "setup_retries": 0,
+  "original_outcome_replays": 0,
+  "joint_qualifying_response_ids": [],
+  "joint_qualifying_count": 0,
+  "extra_all_three_validity_audit_required": false,
+  "diagnostic_mean_each_grader": 10,
+  "diagnostic_full_pass_count_each_grader": 3,
+  "objective_decision_errors_each_grader": 0,
+  "qualification_rule": "Unchanged prospective V2/V3: at least two SAME original response IDs must be independently qualifying to both eligible graders. Numeric scores are secondary. All three jointly qualifying requires an extra separately ROOT-released validity audit.",
+  "response_grades_each_grader": {
+    "R-A": {
+      "dimensions": {
+        "decision": 2,
+        "target_water_accounting": 2,
+        "participant_responses": 2,
+        "contract_feasibility": 2,
+        "grounded_reasons": 2
+      },
+      "total": 10,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "insufficient_evidence": false
+    },
+    "R-B": {
+      "dimensions": {
+        "decision": 2,
+        "target_water_accounting": 2,
+        "participant_responses": 2,
+        "contract_feasibility": 2,
+        "grounded_reasons": 2
+      },
+      "total": 10,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "insufficient_evidence": false
+    },
+    "R-C": {
+      "dimensions": {
+        "decision": 2,
+        "target_water_accounting": 2,
+        "participant_responses": 2,
+        "contract_feasibility": 2,
+        "grounded_reasons": 2
+      },
+      "total": 10,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "insufficient_evidence": false
+    }
+  },
+  "grade_normalization": "Author transcribed identical numeric/boolean findings from two preserved complete independent FIRSTs after both whole exact readbacks. Complete originals remain authoritative; this is not a replacement grade or new grading round.",
+  "grader_one": {
+    "agent": "logical-agent/f108_documentary_decision_designer/f108_blind_one",
+    "role": "explorer",
+    "fork_turns": "none",
+    "actual_assignment_matches_canonical_except_terminal_LF": true,
+    "FIRST": "reviews/blind-one-FIRST.full.md",
+    "procedural_reads": [
+      "local-codex-home/skills/general-agent-guardrails/SKILL.md",
+      "local-codex-home/skills/communicate-plainly/SKILL.md",
+      "local-codex-home/skills/top-orchestrator-router/SKILL.md",
+      "local-codex-home/skills/top-orchestrator-router/references/worker.md",
+      "local-codex-home/skills/top-orchestrator-router/references/delegation-review.md",
+      "local-codex-home/skills/deep-delegated-workflow/SKILL.md"
+    ],
+    "read_disclosure": "Initial combined display truncated; exact packet reread completely without truncation. All actual reads exit0, empty stderr, no timeout. No forbidden substantive read disclosed."
+  },
+  "grader_two": {
+    "agent": "logical-agent/f108_documentary_decision_designer/f108_blind_two",
+    "role": "explorer",
+    "fork_turns": "none",
+    "actual_assignment_matches_canonical_except_terminal_LF": false,
+    "FIRST": "reviews/blind-two-FIRST.full.md",
+    "procedural_reads": [
+      "local-codex-home/skills/communicate-plainly/SKILL.md",
+      "local-codex-home/skills/general-agent-guardrails/SKILL.md",
+      "local-codex-home/skills/top-orchestrator-router/SKILL.md",
+      "local-codex-home/skills/top-orchestrator-router/references/worker.md",
+      "local-codex-home/skills/deep-delegated-workflow/SKILL.md",
+      "local-codex-home/skills/top-orchestrator-router/references/delegation-review.md",
+      "local-codex-home/skills/execution-preflight/SKILL.md"
+    ],
+    "assignment_deviation": "The actual initial assignment mistyped the remove-ai-slops generic path as local-codex-home/skills/remove-ai-slops/SKILL.md. SAME-agent correction restored only the already-authorized plugin path before FIRST. Planned canonical assignment, actual initial assignment and exact correction are preserved separately. No additional substantive guidance, regrade or replacement.",
+    "wrong_or_corrected_path_attempted": false,
+    "read_disclosure": "FIRST explicitly says neither mistaken nor corrected remove-ai-slops path was attempted; all other actual reads were allowed, exit0, empty stderr, no timeout, no truncation. No forbidden substantive read disclosed.",
+    "eligibility": "ROOT explicitly accepted eligibility after whole-reading both FIRSTs and original answers: neither mistaken nor corrected path attempted, seven allowed procedural reads, preserved actual assignment/correction distinction. Not claimed byte-identical to canonical."
+  },
+  "raw_accounting_from_ROOT_assignment": {
+    "candidate_identifiers": 92,
+    "preserved_terminal_problem_final_files": 265,
+    "completed_problem_turns_known_subtotal": 324,
+    "older_unknown_turns": "UNKNOWN",
+    "neutral_turns_excluded": true,
+    "not_valid_trial_count": true,
+    "independently_recounted_here": false
+  },
+  "limits": [
+    "No empirical hardness retained; all three original no-skill decisions were correct under both full FIRSTs.",
+    "H and K remain participant-unused; equal heldout difficulty and control effect untested.",
+    "No scored treatment; skill effectiveness unknown.",
+    "Requested gpt-6-sol; effort not considered; actual backend identity unverified.",
+    "Descendant cleanup and hard watchdog unverified; outer timeout requests are not watchdog evidence.",
+    "Raw aggregate accounting is ROOT-supplied, not a valid-trial count or a fresh audit of past runs.",
+    "ROOT FINAL accepted all final bindings and the exact shared README append; prior prefix preserved."
+  ],
+  "public_evidence": "evidence.json",
+  "public_grades": "grades.json",
+  "public_report": "report.md",
+  "native_dispatches": 5,
+  "problem_dispatches": 3,
+  "neutral_dispatches": 2,
+  "H_K_participant_UNUSED": true,
+  "scored_treatment": 0,
+  "source_revision": 1,
+  "policy_revision": 0,
+  "empirical_criterion_changes": 0,
+  "retained_after": 0,
+  "shared_README_append_accepted": true
+}

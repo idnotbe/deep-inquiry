@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "derivation": "Mechanical transcription of two unchanged full original FIRSTs; not a regrade",
+  "graders": [
+    {
+      "id": "grader-one",
+      "FIRST_sha256": "218d2eba497d44d23f32338618a7b2e09a26ed4735333e5456e610d5e6a3e74e",
+      "exact_assignment": true,
+      "eligibility": "USED_WITH_DISCLOSED_ADMINISTRATIVE_DEVIATION_UNDER_OUTCOME_HIDDEN_ROOT_DISPOSITION",
+      "responses": [
+        {
+          "response_id": "R-A",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-B",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-C",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ]
+    },
+    {
+      "id": "grader-two",
+      "FIRST_sha256": "d0ba36d8f16ec05e3044435f613dadd44f03064ceed05abcb8dc58a2641106f6",
+      "exact_assignment": false,
+      "eligibility": "USED_WITH_DISCLOSED_ADMINISTRATIVE_DEVIATION_UNDER_OUTCOME_HIDDEN_ROOT_DISPOSITION",
+      "responses": [
+        {
+          "response_id": "R-A",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-B",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-C",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ]
+    }
+  ],
+  "same_id_joint_qualifying": [],
+  "joint_qualifying_count": 0,
+  "all_three_extra_validity_trigger": false,
+  "screening_result": "EXCLUDED_NOT_HARD",
+  "full_pass_count_each_grader": 3,
+  "mean_each_grader": 10,
+  "retained": 0,
+  "target": 6,
+  "root_final_verified": true
+}

@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "status": "TWO_ELIGIBLE_FULL_FIRSTS_JOINT_QUALIFYING_ZERO",
+  "criteria": "Unchanged V2/V3/generic plus current case rubric; one root once; every lawful equivalent accepted",
+  "both_full_FIRST_boundary": "temp/hard-screen-20261003/worker/F103/reviews/both-FIRST-boundary.json",
+  "graders": [
+    {
+      "id": "one",
+      "role": "explorer",
+      "fork_turns": "none",
+      "complete_FIRST": "blind-FIRST-one.md",
+      "private_original": "temp/hard-screen-20261003/worker/F103/reviews/grade-one-FIRST.full.md",
+      "full_return_chars": 9004,
+      "entire_task_graded": true,
+      "eligibility": {
+        "eligible": true,
+        "basis": "Complete FIRST disclosure; only assigned packet substantive and named allowed generic reads",
+        "procedural_reads": [
+          "local-codex-home/skills/communicate-plainly/SKILL.md",
+          "local-codex-home/skills/general-agent-guardrails/SKILL.md",
+          "local-codex-home/skills/top-orchestrator-router/SKILL.md",
+          "local-codex-home/skills/top-orchestrator-router/references/worker.md",
+          "local-codex-home/skills/top-orchestrator-router/references/delegation-review.md",
+          "local-codex-home/skills/deep-delegated-workflow/SKILL.md"
+        ],
+        "truncation_reported": false,
+        "forbidden_substantive_access_reported": false,
+        "writes_or_delegation_reported": false,
+        "exceptions": "User-authorized native route and no-delegation/no-further-exploration instructions override generic defaults; tool metadata discovery only",
+        "full_wrapper_preserved": true
+      },
+      "responses": [
+        {
+          "id": "R-A",
+          "repetition": 3,
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false,
+          "full_public_claim_premise_programme_consequence_chain": "See complete FIRST for this response; no failure chain asserted because the proposed procedure and minimum charge are correct."
+        },
+        {
+          "id": "R-B",
+          "repetition": 1,
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false,
+          "full_public_claim_premise_programme_consequence_chain": "See complete FIRST for this response; no failure chain asserted because the proposed procedure and minimum charge are correct."
+        },
+        {
+          "id": "R-C",
+          "repetition": 2,
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false,
+          "full_public_claim_premise_programme_consequence_chain": "See complete FIRST for this response; no failure chain asserted because the proposed procedure and minimum charge are correct."
+        }
+      ]
+    },
+    {
+      "id": "two",
+      "role": "explorer",
+      "fork_turns": "none",
+      "complete_FIRST": "blind-FIRST-two.md",
+      "private_original": "temp/hard-screen-20261003/worker/F103/reviews/grade-two-FIRST.full.md",
+      "full_return_chars": 9699,
+      "entire_task_graded": true,
+      "eligibility": {
+        "eligible": true,
+        "basis": "Complete FIRST disclosure; only assigned packet substantive and named allowed generic reads",
+        "procedural_reads": [
+          "local-codex-home/skills/communicate-plainly/SKILL.md",
+          "local-codex-home/skills/general-agent-guardrails/SKILL.md",
+          "local-codex-home/skills/top-orchestrator-router/SKILL.md",
+          "local-codex-home/skills/top-orchestrator-router/references/worker.md",
+          "local-codex-home/skills/top-orchestrator-router/references/delegation-review.md",
+          "local-codex-home/skills/deep-delegated-workflow/SKILL.md",
+          "local-codex-home/skills/execution-preflight/SKILL.md"
+        ],
+        "truncation_reported": false,
+        "forbidden_substantive_access_reported": false,
+        "writes_or_delegation_reported": false,
+        "exceptions": "User-authorized native route and no-delegation/no-further-exploration instructions override generic defaults; tool metadata discovery only",
+        "full_wrapper_preserved": true
+      },
+      "responses": [
+        {
+          "id": "R-A",
+          "repetition": 3,
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false,
+          "full_public_claim_premise_programme_consequence_chain": "See complete FIRST for this response; no failure chain asserted because the proposed procedure and minimum charge are correct."
+        },
+        {
+          "id": "R-B",
+          "repetition": 1,
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false,
+          "full_public_claim_premise_programme_consequence_chain": "See complete FIRST for this response; no failure chain asserted because the proposed procedure and minimum charge are correct."
+        },
+        {
+          "id": "R-C",
+          "repetition": 2,
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false,
+          "full_public_claim_premise_programme_consequence_chain": "See complete FIRST for this response; no failure chain asserted because the proposed procedure and minimum charge are correct."
+        }
+      ]
+    }
+  ],
+  "joint_qualifying_ids": [],
+  "joint_qualifying_count": 0,
+  "objective_errors_each": 0,
+  "full_score_each": 3,
+  "admission_threshold_same_ids": 2,
+  "all_three_joint_qualification": false,
+  "additional_all_three_validity_audit_required": false,
+  "replacements": 0,
+  "regrades": 0,
+  "author_synthesis": "Both credit buffer then route then fence at 09:00; final drain/history import and opening at 09:02; child receipts by 09:04; minimum charge1. No evidence of qualifying inquiry failure."
+}

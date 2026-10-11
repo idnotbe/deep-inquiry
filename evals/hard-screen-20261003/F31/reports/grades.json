@@ -1,0 +1,144 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "Before the stock cutoff, the policy holds the replacement. Free definitive old-ID receipts at time 2 determine independent payment and dispatch branches. Each of the four histories yields one net price and one delivery at time 3 or 4. Costs are 1 when D-17 succeeds and 4 when it fails. The lower bound correctly excludes an uncompensated early dispatch and compares the complete 7-credit reset alternative."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "The complete policy covers all four independent terminal histories, preserves supplier availability, and uses old-ID receipts rather than the new dashboard. It attains worst-case cost 4. The statement that reset booking alone costs at least 4 is sufficient to exclude any reset policy with total cost below 4; the lower-bound argument need not calculate its full 7-credit cost."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "The table supplies complete independent branches for both receipts. It explicitly retains the admitted old delivery when D-17 succeeds, so the subsequent no-further-unit sentence does not assert that sealing cancels that delivery. Across all four histories, one price and one unit result by the deadline, with worst-case cost 4. The complete supplier and reset alternatives support the lower bound."
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "The pre-cutoff hold preserves replacement availability. Free terminal replay supports independent payment and dispatch branches across all four histories. Payment contributes exactly one price; fulfillment contributes exactly one unit arriving at time 3 or 4. Costs are 1 when old dispatch succeeds and 4 when it fails. The lower bound correctly compares hold-plus-dispatch at 4 with reset-plus-dispatch at 7 and excludes uncompensated early dispatch."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "The policy handles all four terminal histories with one retained old effect or one replacement effect in each domain. Held stock remains available at time 2 and reaches the customer at time 4 when needed. No duplicate dispatch occurs. The proof need only exclude costs below 4: the reset booking fee alone reaches 4, while the supplier route requires hold-plus-dispatch totaling 4. Omitting reset's additional dispatch fee from that lower-bound sentence does not invalidate its argument."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "The table supplies complete independent branches for both old IDs. Each branch yields exactly one charge and one delivery, with maximum cost 4. Its final no-further-unit statement follows the explicit accounting of D-17's admitted unit; it does not claim sealing cancels D-17. The lower bound correctly identifies the only guaranteed replacement routes and their costs."
+      }
+    ]
+  },
+  "reviewers": {
+    "A": "f31_grader_a, fresh-context packet only, independent manual tracing",
+    "B": "f31_grader_b, fresh-context packet only, independent manual tracing"
+  },
+  "grading_packet_sha256": "1ed7a244f1596371f5f4afbb220d3bd3de9d0f11c2718971894abfbcc5a191cc",
+  "decision_valid_counts": {
+    "A": 3,
+    "B": 3
+  },
+  "secondary_numeric_pass_counts": {
+    "A": 3,
+    "B": 3
+  },
+  "joint_qualifying_ids": [],
+  "decision": "EXCLUDED: zero jointly qualifying failures; all three original policies attain guaranteed minimum worst cost4."
+}

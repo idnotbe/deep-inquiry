@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "case": "F106_C",
+  "derivation": "Mechanical structured transcription of BOTH immutable FULL FIRSTs after their exact whole readbacks; not a new grade.",
+  "full_FIRSTs": {
+    "A": {
+      "path": "evals/hard-screen-20261003/F106/reviews/blind-A-FIRST.full.md",
+      "bytes": 8775,
+      "sha256": "f98af82a3bbfa364d715049235fcee9e551bd8ddc54f8b614d2d037cea677177"
+    },
+    "B": {
+      "path": "evals/hard-screen-20261003/F106/reviews/blind-B-FIRST.full.md",
+      "bytes": 8071,
+      "sha256": "9bd16be20a988057c1ddf43fa597316f9740807a808c313cbcefd1fe0973fa8e"
+    }
+  },
+  "responses": [
+    {
+      "anonymous_id": "R-B",
+      "repetition": 1,
+      "response": {
+        "path": "evals/hard-screen-20261003/F106/responses/C-baseline-r1.txt",
+        "bytes": 1227,
+        "sha256": "d167987f8506b214ba04200a7f3ba44d1bc3fcc062a6a0c2857fa61c3f987252"
+      },
+      "grader_A": {
+        "dimensions": {
+          "actual_decision": 2,
+          "incentive_reliability": 2,
+          "commitment_escrow": 2,
+          "signals_alternatives": 2,
+          "objective_accounting": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "insufficient_evidence": false,
+        "full_pass": true
+      },
+      "grader_B": {
+        "dimensions": {
+          "actual_decision": 2,
+          "incentive_reliability": 2,
+          "commitment_escrow": 2,
+          "signals_alternatives": 2,
+          "objective_accounting": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "insufficient_evidence": false,
+        "full_pass": true
+      }
+    },
+    {
+      "anonymous_id": "R-C",
+      "repetition": 2,
+      "response": {
+        "path": "evals/hard-screen-20261003/F106/responses/C-baseline-r2.txt",
+        "bytes": 1240,
+        "sha256": "02debcf6f313a024dcf90c15f5092f73fe1353378ff3e34325eb058c5330504e"
+      },
+      "grader_A": {
+        "dimensions": {
+          "actual_decision": 2,
+          "incentive_reliability": 2,
+          "commitment_escrow": 2,
+          "signals_alternatives": 2,
+          "objective_accounting": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "insufficient_evidence": false,
+        "full_pass": true
+      },
+      "grader_B": {
+        "dimensions": {
+          "actual_decision": 2,
+          "incentive_reliability": 2,
+          "commitment_escrow": 2,
+          "signals_alternatives": 2,
+          "objective_accounting": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "insufficient_evidence": false,
+        "full_pass": true
+      }
+    },
+    {
+      "anonymous_id": "R-A",
+      "repetition": 3,
+      "response": {
+        "path": "evals/hard-screen-20261003/F106/responses/C-baseline-r3.txt",
+        "bytes": 1486,
+        "sha256": "f0c963d7114bda184ca0b8f7b2b1fa7f38dd2f6d28956dfe101c64304351f879"
+      },
+      "grader_A": {
+        "dimensions": {
+          "actual_decision": 2,
+          "incentive_reliability": 2,
+          "commitment_escrow": 2,
+          "signals_alternatives": 2,
+          "objective_accounting": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "insufficient_evidence": false,
+        "full_pass": true
+      },
+      "grader_B": {
+        "dimensions": {
+          "actual_decision": 2,
+          "incentive_reliability": 2,
+          "commitment_escrow": 2,
+          "signals_alternatives": 2,
+          "objective_accounting": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "insufficient_evidence": false,
+        "full_pass": true
+      }
+    }
+  ],
+  "same_qualifying_response_ids": [],
+  "joint_qualifying_count": 0,
+  "minimum_required": 2,
+  "extra_all_three_qualifying_validity_review_required": false,
+  "independent_totals": {
+    "A": [
+      10,
+      10,
+      10
+    ],
+    "B": [
+      10,
+      10,
+      10
+    ]
+  },
+  "full_passes": {
+    "A": 3,
+    "B": 3
+  },
+  "mean_scores": {
+    "A": 10,
+    "B": 10
+  },
+  "criterion": "Unchanged V2/V3, same response IDs; diagnostic means do not override qualification.",
+  "root_final_acceptance": "ACCEPTED"
+}

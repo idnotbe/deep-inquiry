@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/blind/packet.json",
+      "bytes": 22214,
+      "sha256": "e30e5fda326f395a9ae39515da4f90a5dde8d8e15e10c52ae65de26a439aef0e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/blind-private-mapping.json",
+      "bytes": 1182,
+      "sha256": "b32a6eb1b2cb3fddc5639d4714b2458462304e068f481b198ce0fa83a1ec3d51"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/blind-display-provenance.json",
+      "bytes": 2075,
+      "sha256": "582fb8a55ec628f52c8d3ee1cb381eee4554cf0b987d78e0cbd51e2892cec5cd"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/blind-phase-provenance.md",
+      "bytes": 1685,
+      "sha256": "07f05d6f4209e97919a494622e12778c2903a98770c7a3cf4eb6c7f193468c22"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/blind-packet-build-actual-lossless.json",
+      "bytes": 746,
+      "sha256": "1b9b1fb23e64a6f98baa5f0b7728412adc20c2493cc7a6a4585c8b3506efbe39"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/blind-BOTH-FULL-readback-actual-lossless.json",
+      "bytes": 14644,
+      "sha256": "4a2cc37efede6db2b71e7c250bc16824b69116f6f3d0aec73f1f60d94d3fbbf4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/grades-synthesis.json",
+      "bytes": 4831,
+      "sha256": "81060d91387fd8b5ccf819cb0d6b01fc783f5441c455732f9aa6c5c5b720683b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/native-phase-handoff.json",
+      "bytes": 6363,
+      "sha256": "f6dd2d973fd73c41ce58ff3b3b58c8fc452f4a84ec3f7f7da7628605810f2d3f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/native-phase-handoff-readback-actual-lossless.json",
+      "bytes": 11428,
+      "sha256": "985f08df3738cbfeb341fd1de149742792df01a177f51f69ed9f7468fbfcb5b9"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/native-original-actual-lossless.json",
+      "bytes": 804,
+      "sha256": "db09589c4334dac90b5345764a84c740b068eff2b8889e9031cbf3d27d06ad3d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/collector-original-actual-lossless.json",
+      "bytes": 1062,
+      "sha256": "2ef404cb31f0f75134568a206a6539ae314362922972477f807a96a3c95f9c63"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/original-safe-readback.json",
+      "bytes": 12469,
+      "sha256": "5bbf152b69ce5e915cca7328b6763df4f9a859a1970f4f6fbb7fffa04905f2d3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/qualification/neutral-safe-readback.json",
+      "bytes": 8938,
+      "sha256": "4c30cdec4770e47f9df62e3792cdb7ab4aed269854e572d0b69617f51300b18e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/qualification/native-canary-actual-lossless.json",
+      "bytes": 685,
+      "sha256": "a9999553e494ea59dffaa3b2ea2a97555b0b6a90cb782383446f9c734db6298f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/qualification/freeze.json",
+      "bytes": 48805,
+      "sha256": "807a3d97439e0d648cea966433207bc64223d85aa8a07869e3565eb4ed4e491d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/combined-check-actual-lossless.json",
+      "bytes": 48753,
+      "sha256": "5bfafe550b3907921ee6b421827525638dbc452a14532fab631c7b89626342dc"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/runtime-reconciliation-record.json",
+      "bytes": 3491,
+      "sha256": "556376ab196d531de5bc6b193523843cf12059ade75237e97aef75c0be4b9354"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/pin-gap-provenance-limit.md",
+      "bytes": 2425,
+      "sha256": "1d2cbc8f9c0f7f813344376e7030e65f0dec0ec6a1ea092b691c227fe93a8463"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/PIN_GAP.json",
+      "bytes": 21680,
+      "sha256": "6d01442cc0673c87acfb2ab56527eff0829019c0dcce63a63d28d10fea7d0514"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f101-safe-root-gate.json",
+      "bytes": 1052,
+      "sha256": "9666973cee01e383e019117d4a3701ea4c94ec1cdfdb07adf74cb3d3ce69d4ec"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f101-root-grading-disposition.md",
+      "bytes": 2856,
+      "sha256": "c624f96dc53361c08e88ff558541586a81c711e40133e64f914eb7086bc65f85"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/reviews/blind-one-FIRST.full.md",
+      "bytes": 4876,
+      "sha256": "47d9dbbf70639b6d49cc6cc29635cbd2639fc30606c815f92e6dcf39eef1e6af"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/reviews/blind-one-FIRST.report.md",
+      "bytes": 5914,
+      "sha256": "60a1f1e91f62ab47905580fd45c6e1cc83e8274b37e48848634af339e6db9bf7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/reviews/blind-two-FIRST.full.md",
+      "bytes": 7646,
+      "sha256": "306aa45bea619c170873c2f43d09eaf7b0bacc2f63b3c1208d50756db400a19b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F101/reviews/blind-two-FIRST.report.md",
+      "bytes": 7741,
+      "sha256": "9df921e65d8aad05caa5aaa08f0f3ad7cdf27235dc29790d7a468b4b9a2de681"
+    }
+  ],
+  "public_response_bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F101/responses/C-r1.txt",
+      "bytes": 1260,
+      "sha256": "8567f8b6675a8552042668a738389aa3cbf253bdf2fed84f229ca8b10175031c"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F101/responses/C-r2.txt",
+      "bytes": 1223,
+      "sha256": "54f5b34b06aade65880613343fed63b45b301563a03f18627a6416f1881c6e91"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F101/responses/C-r3.txt",
+      "bytes": 1305,
+      "sha256": "f6310c57646761cac13e4c3bfea1990d7ea716f2063b7fa6c00adc47991c3a78"
+    }
+  ],
+  "public_FIRST_bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F101/grading/blind-one-FIRST.full.md",
+      "bytes": 4876,
+      "sha256": "47d9dbbf70639b6d49cc6cc29635cbd2639fc30606c815f92e6dcf39eef1e6af"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F101/grading/blind-one-FIRST.report.md",
+      "bytes": 5914,
+      "sha256": "60a1f1e91f62ab47905580fd45c6e1cc83e8274b37e48848634af339e6db9bf7"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F101/grading/blind-two-FIRST.full.md",
+      "bytes": 7646,
+      "sha256": "306aa45bea619c170873c2f43d09eaf7b0bacc2f63b3c1208d50756db400a19b"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F101/grading/blind-two-FIRST.report.md",
+      "bytes": 7741,
+      "sha256": "9df921e65d8aad05caa5aaa08f0f3ad7cdf27235dc29790d7a468b4b9a2de681"
+    }
+  ],
+  "grader_eligibility": {
+    "blind_one": {
+      "status": "ELIGIBLE",
+      "basis": "Reports complete packet-only task evidence; ROOT accepts eligible FIRST."
+    },
+    "blind_two": {
+      "status": "INELIGIBLE_RAW_ONLY",
+      "basis": "Disclosed procedural SKILL reads outside packet; ROOT strict packet-only disposition.",
+      "additional_deviations": "Reviewer reports command>6000, truncated skill read and no report readback; not reconstructed as independent actual tool receipts."
+    }
+  },
+  "eligible_independent_FIRST_count": 1,
+  "two_protocol_valid_blind_grades": false,
+  "ROOT_content_verification": {
+    "path": "temp/hard-screen-20261003/f101-root-grading-disposition.md",
+    "bytes": 2856,
+    "sha256": "c624f96dc53361c08e88ff558541586a81c711e40133e64f914eb7086bc65f85"
+  },
+  "ROOT_verification_not_independent_blind_grade": true,
+  "blind_boundary": "BOTH complete original FIRSTs saved/exactreadback before synthesis/mapping; no replacement or regrade.",
+  "frozen_bindings_currently_verified": 255,
+  "native_guards": "Actual setup/dispatch/terminal/input/context/exposure/isolation/source/noTools/process/authcopy guards SAFE; durable PID-before-GO, SAMEownedPython close0, MCPNode0; retries0.",
+  "limitations": [
+    "Only blind_one is eligible under strict packet-only protocol. blind_two raw grades remain ineligible; no claim of two fully protocol-valid independent blind grades.",
+    "blind_two reports extra general skill reads, truncated skill output, command>6000 and no report readback. These are reviewer-reported deviations; not silently waived or reconstructed as actual receipts.",
+    "ROOT directly verified original answer correctness separately; it is not a replacement blind grader.",
+    "Backend and binary version unknown; package metadata0.162.0 only; effort not considered.",
+    "Outer requested timeouts are not watchdogs; descendant cleanup unverified and no hard wholecleanup deadline.",
+    "Earlier first-match and first-failing support reads lack lossless durable receipts; preserved transcript-derived limits are not retroactive actual evidence.",
+    "Same-path runtime pin drift was prospectively ROOT-reconciled before native; no install or outcome replacement.",
+    "Original helper report-only .omo write retained; later report-only writes explicitly scoped.",
+    "ROOT initial SAFE-gate inverse-file assumption failed and was corrected to exact in-memory inverse; no native/collector/formal replay."
+  ],
+  "root_final": "ACCEPTED",
+  "classification": "EXCLUDED_NOT_HARD",
+  "root_final_gate": "temp/hard-screen-20261003/f101-final-root-gate.json",
+  "historical_delivery": "Original FINAL binds preserved root-final-prefinals for three changed acceptance records; all other original bindings unchanged."
+}

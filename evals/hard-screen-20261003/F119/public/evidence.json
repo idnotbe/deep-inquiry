@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "exact_public_copies": [
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F119/blind/packet.json",
+        "bytes": 18022,
+        "sha256": "7b3d756641efad39905246181ebd6da02dc209e42f2ec8c39c32cd3d27dbf409"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F119/public/packet.json",
+        "bytes": 18022,
+        "sha256": "7b3d756641efad39905246181ebd6da02dc209e42f2ec8c39c32cd3d27dbf409"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F119/blind-grades/grader-one-FIRST.full.md",
+        "bytes": 6289,
+        "sha256": "fd4575f303791c29c7fb5953fd330b71e7ce6edca88c1796af82ee5ebb3757b3"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F119/public/grader-one-FIRST.full.md",
+        "bytes": 6289,
+        "sha256": "fd4575f303791c29c7fb5953fd330b71e7ce6edca88c1796af82ee5ebb3757b3"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F119/blind-grades/grader-two-FIRST.full.md",
+        "bytes": 6793,
+        "sha256": "d0360a8cef7aa954cd896fd939a277f9fe5a3ae801474ea4159538b8c5edc890"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F119/public/grader-two-FIRST.full.md",
+        "bytes": 6793,
+        "sha256": "d0360a8cef7aa954cd896fd939a277f9fe5a3ae801474ea4159538b8c5edc890"
+      },
+      "byte_exact": true
+    }
+  ],
+  "response_byte_bindings": [
+    {
+      "response_id": "R-A",
+      "repetition": 3,
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F119/original/F119_C-baseline-r3-attempt1/final.txt",
+        "bytes": 151,
+        "sha256": "62d45db2595370bf85020b6275aecd9aee86bd44507a42cb7d85e6fd2572619a"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F119/public/response-r3.txt",
+        "bytes": 151,
+        "sha256": "62d45db2595370bf85020b6275aecd9aee86bd44507a42cb7d85e6fd2572619a"
+      },
+      "byte_exact": true
+    },
+    {
+      "response_id": "R-B",
+      "repetition": 2,
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F119/original/F119_C-baseline-r2-attempt1/final.txt",
+        "bytes": 182,
+        "sha256": "48612242de6821cedf270ab3f4912176a57864d9456a5bc977d2ad43f4b085f9"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F119/public/response-r2.txt",
+        "bytes": 182,
+        "sha256": "48612242de6821cedf270ab3f4912176a57864d9456a5bc977d2ad43f4b085f9"
+      },
+      "byte_exact": true
+    },
+    {
+      "response_id": "R-C",
+      "repetition": 1,
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F119/original/F119_C-baseline-r1-attempt1/final.txt",
+        "bytes": 160,
+        "sha256": "bca389e46fc6940089a96139bcb44356095b82a9d8adbbf60e48b64d02882ce6"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F119/public/response-r1.txt",
+        "bytes": 160,
+        "sha256": "bca389e46fc6940089a96139bcb44356095b82a9d8adbbf60e48b64d02882ce6"
+      },
+      "byte_exact": true
+    }
+  ],
+  "source_proposal_manifest_sha256": "513cbfbcf6b86919f52fb834500efbd6ed4126bc2052e2e4a2f1b31400d8e277",
+  "helper_review": "temp/hard-screen-20261003/worker/F119/reviews/helper-FIRST.full.md",
+  "ROOT_PRETRIAL_gate": "temp/hard-screen-20261003/f119-pretrial-root-gate.json",
+  "ROOT_SAFE_gate": {
+    "path": "temp/hard-screen-20261003/f119-safe-root-gate.json",
+    "sha256": "5c229cac7e423d780ad9bbbd91a79fe142adf140f88c7a8bf9a99849e32b27f1"
+  },
+  "neutral_SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F119/qualification/neutral-safe-readback.json",
+    "bytes": 8938,
+    "sha256": "98481e276d680b34943d39f52082aaaf3b992ddf9ed059dca1cd618bead932a9"
+  },
+  "original_SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F119/original-safe-readback.json",
+    "bytes": 12466,
+    "sha256": "4e225cbde19a9bee074fe9589b6df84c0ff9a41fd6482b156e8d61f119078792"
+  },
+  "actual_primary_returns": [
+    "temp/hard-screen-20261003/worker/F119/qualification/canary-tool-handle.json",
+    "temp/hard-screen-20261003/worker/F119/neutral-collector-actual-lossless.json",
+    "temp/hard-screen-20261003/worker/F119/original-tool-handle.json",
+    "temp/hard-screen-20261003/worker/F119/original-collector-actual-lossless.json"
+  ],
+  "both_full_FIRSTs_preserved_before_synthesis": "temp/hard-screen-20261003/worker/F119/blind-grades/BOTH-FIRSTs-preserved.json",
+  "grader_disclosures": {
+    "grader_one": "Only packet plus six exact permitted procedural files; no truncation/fallback/deviation reported.",
+    "grader_two": "Only packet plus same six exact permitted procedural files; orchestration syntax error before any file read, then corrected; no truncation/fallback/forbidden read."
+  },
+  "packaging_tool_failure": "Node REPL exited before any proposed public file existed. Failure and exact no-write reconciliation preserved; one subsequent Git Bash/Node packaging execution succeeded. No model or grader replay.",
+  "packaging_actual": "temp/hard-screen-20261003/worker/F119/final-proposal-packaging.actual.json",
+  "ROOT_FINAL_verified": true,
+  "raw_context_auth_or_process_IDs_published": false,
+  "ROOT_FINAL_gate": "temp/hard-screen-20261003/f119-final-root-gate.json",
+  "ROOT_FINAL_readonly_gate": {
+    "path": "temp/hard-screen-20261003/f119-final-root-readonly-gate.json",
+    "bytes": 1169,
+    "sha256": "35e9a72209d0d51a727c7516e3394b01ccba74737146157aaf4b94abcd404897"
+  }
+}

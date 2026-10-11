@@ -1,0 +1,64 @@
+{
+  "candidate": "F99",
+  "stage": "ROOT_FINAL_ACCEPTED",
+  "classification_proposal": "EXCLUDED_NOT_HARD",
+  "ROOT_FINAL_acceptance": "ACCEPTED",
+  "retained": 0,
+  "target": 6,
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "original_completed_turns": 3,
+  "original_preserved_finals": 3,
+  "original_structural_guards": "PASS_ROOT_SAFE_ACCEPTED",
+  "unscored_neutral_turns": 2,
+  "setup_retries": 0,
+  "native_replays": 0,
+  "blind_graders": 2,
+  "FULL_FIRSTs_preserved_before_synthesis": true,
+  "per_grader": {
+    "one": {
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "numerical_full_pass": 3,
+      "objective_errors": 0,
+      "qualifying_failures": 0
+    },
+    "two": {
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "numerical_full_pass": 3,
+      "objective_errors": 0,
+      "qualifying_failures": 0
+    }
+  },
+  "same_ID_joint_qualifying_ids": [],
+  "additional_all_three_qualifying_audit_required": false,
+  "H_K_participant": "UNUSED",
+  "scored_treatment": "NOT_RUN",
+  "backend_model": "UNVERIFIED/nonblocking",
+  "reasoning_effort_considered": false,
+  "efficacy": "NOT_EVALUATED",
+  "raw_accounting": {
+    "screened_candidate_IDs": 83,
+    "preserved_problem_final_files": 240,
+    "completed_problem_model_turns": 299,
+    "older_protected_completion": "UNKNOWN",
+    "neutral_excluded": true,
+    "not_valid_trial_totals": true
+  },
+  "full_agreed_scope_verification": "NOT_RUN; only required after actual six retained families",
+  "construction_raw_author_calculation_receipts": "UNAVAILABLE; retrospective transcription only",
+  "formal_combined_affected_check_executions": 1,
+  "full_responses_and_FULL_FIRSTs": "evidence.json",
+  "classification": "EXCLUDED_NOT_HARD",
+  "next": "F99 closed; no replay or regrade. Overall stages1-2 ACTIVE_UNMET0/6."
+}

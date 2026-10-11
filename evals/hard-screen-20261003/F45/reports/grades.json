@@ -1,0 +1,230 @@
+{
+  "family": "F45",
+  "packet_sha256": "17017bc6551b183ba591faaac36b3072afb639ff05a514f68b2e6d493737318b",
+  "original_grade_sha256": {
+    "A": "0bf489685cc7c6756515bb7b2f914d918d1a3f083df8b582b4675addc815fd61",
+    "B": "5a08b32d7bc4110a664f61c8d8f64c64d2fdd2fd13cfd0e90906a5075ce15945"
+  },
+  "originals": {
+    "A": {
+      "grades": [
+        {
+          "response_id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "findings": [],
+          "assessment": {
+            "exact_public_program": "Route to **A if \\(r_A=9/10\\)**; otherwise route to **B**. Ignore \\(r_B\\) and notes.",
+            "applicable_supplied_law": "FC-20 permits arbitrary real forecasts, archived defaults, notes and mixed strategies. SL-20 settles only the selected forecast against its own station's production result under LC-20. CC-20 permits this measurable controller at tick3 without purchases or rewards.",
+            "complete_program_verification": "For Z=0, triggering A fixes rA=0.9 and gives expected utility 0.01-0.04=-0.03. A B route gives at most 0, attained with rB=0.8 and any rA other than 0.9, including the archived 0.6. For Z=1, triggering A gives 0.04-0.01=0.03. A B route gives at most 0.01, attained at rB=0.7. Therefore every best response selects B for Z=0 and A for Z=1. Best responses exist for both codes. Ignored notes, the unselected entry, defaults, supported timing and independent seeds cannot improve those bounds; mixtures containing inferior routing have strictly lower expected utility. No actor needs a realized production result before tick3. Selected success is 0.8 for each code, and the realized NEW invoice is always 0.",
+            "support_limitation": "The answer correctly proves attainment and minimum invoice and identifies a lawful Z=0 best response defeating the vendor. It does not explicitly complete the vendor's Z=1 best-response branch, the aggregate all-A success calculation of 3/4, or the physical service ceiling. This is incomplete support, not an observed false premise, objective decision error or qualifying failure.",
+            "material_authorization_change_required": false,
+            "root_count": 0
+          }
+        },
+        {
+          "response_id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "findings": [],
+          "assessment": {
+            "exact_public_program": "at tick3 route to **A if \\(r_A\\ge 9/10\\)**; otherwise route to **B**.",
+            "applicable_supplied_law": "FC-20 permits arbitrary real forecasts, archived defaults, notes and mixed strategies. SL-20 settles only the selected forecast against its own station's production result under LC-20. CC-20 permits this measurable controller at tick3 without purchases or rewards.",
+            "complete_program_verification": "For Z=0, all A-triggering reports have rA>=0.9 and give utility at most 0.01-(0.9-0.7)^2=-0.03. B gives at most 0, attained at rB=0.8 with rA=0.6. For Z=1, the maximum A utility is attained at rA=0.9 and equals 0.04-(0.9-0.8)^2=0.03. B gives at most 0.01, attained at rB=0.7. Consequently every best response selects the 0.8-success station, and maximizing reports exist for both codes. Ignored notes, unselected entries, supported timing, archived defaults and independent seeds introduce no superior alternative. Mixed best responses cannot assign positive probability to the strictly inferior station. Routing locks at tick3; no early result, override or unavailable input is needed. NEW invoice is always 0, attaining its nonnegative lower bound.",
+            "support_limitation": "The answer supplies the correct optimum, mechanism and Z=0 vendor counterexample. It leaves the aggregate all-A vendor best response and physical service ceiling implicit. This omission warrants partial support credit only and does not qualify as a substantive failure.",
+            "material_authorization_change_required": false,
+            "root_count": 0
+          }
+        },
+        {
+          "response_id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "findings": [],
+          "assessment": {
+            "exact_public_program": "at tick3 route to A if the locked \\(r_A\\geq17/20\\); otherwise route to B. Ignore \\(r_B\\) and all notes for routing. Never use HOLD.",
+            "applicable_supplied_law": "FC-20 permits arbitrary real forecasts, archived defaults, notes and mixed strategies. SL-20 settles only the selected forecast against its own station's production result under LC-20. CC-20 permits this measurable controller at tick3 without purchases or rewards.",
+            "complete_program_verification": "For Z=0, triggering A requires rA>=0.85 and gives utility at most 0.01-(0.85-0.7)^2=-0.0125=-1/80. B gives at most 0, attained at rB=0.8 with rA=0.6. For Z=1, triggering A with rA=0.85 maximizes A utility at 0.04-(0.85-0.8)^2=0.0375=3/80. B gives at most 0.01. Every best response therefore routes Z=0 to B and Z=1 to A. Both maxima are attained. Arbitrary ignored notes, unselected entries, archived defaults, supported timing and independent seeds cannot improve the utility bounds; mixed strategies cannot make an inferior station part of a best response. The executable tick3 controller uses no unavailable outcome and incurs no NEW charges. Expected success is 0.8 under every best response, and invoice 0 is globally minimal.",
+            "support_limitation": "The answer correctly explains selected-only settlement and supplies a Z=0 vendor best response. It does not explicitly establish the vendor's complete all-A response and aggregate 3/4 success or state the physical ceiling. These are support omissions without a false authorization premise or qualifying failure.",
+            "material_authorization_change_required": false,
+            "root_count": 0
+          }
+        }
+      ],
+      "common_support_completion": {
+        "purpose": "Complete the supplied-law checks underlying the diagnostic support scores; this identifies no failure in the authorized response programs.",
+        "vendor_counterexample": {
+          "program": "Under V-20, buy no reader, promise no supplemental reward, and route A exactly when rA>rB.",
+          "Z_0_best_response": "Replace entries with rA=0.7 and rB=0.6. A is selected and expected signed book improvement is (0.6-0.7)^2-(0.7-0.7)^2=0.01. Every A selection yields at most 0.01 and every B selection at most 0, so this is a global conditional best response.",
+          "Z_1_best_response": "Replace entries with rA=0.8 and rB=0.7. A is selected and expected signed book improvement is (0.6-0.8)^2-(0.8-0.8)^2=0.04. Every A selection yields at most 0.04 and every B selection at most (0.8-0.7)^2=0.01, so this is a global conditional best response.",
+          "all_premise_legality": "Both forecast pairs lie in [0,1] and can be submitted by tick2 after the supplier learns Z at tick1. Neither branch observes future production results. Notes may be empty. No reader, reward, extra execution, override or uninstalled payment change is used. LC-20 delivers only the selected A result at tick4. Existing signed escrow and bond cover book improvements, which are excluded from NEW invoice. These attained utility maxima also bound every supported timing, note or mixed-strategy deviation because the vendor ignores those inputs and selects only one station.",
+          "service": "Both conditional best responses select A. Under the signed equal-probability register, expected success is (0.7+0.8)/2=0.75, below 0.8.",
+          "new_invoice": 0
+        },
+        "complete_lawful_repair": {
+          "program": "Publish no reader orders and no supplemental rewards; ignore notes and rB for routing; at tick3 select A if locked rA>=0.9 and otherwise select B.",
+          "best_responses": "For Z=0, use rA=0.6 and rB=0.8, obtaining B utility 0, strictly above every A utility, which is at most -0.03. For Z=1, use rA=0.9 and any legal rB, obtaining A utility 0.03, strictly above every B utility, which is at most 0.01. These maxima are attained and exclude inferior routing under any mixed best response.",
+          "result": "Every best response selects the station with conditional success 0.8. Realized NEW invoice is 0 and satisfies cap1.",
+          "material_change_from_vendor": "The report-to-routing rule changes, inducing B for Z=0 instead of A. Expected service rises from 0.75 to 0.8 without any new purchase or reward.",
+          "change_required_to_graded_responses": "None. R01, R02 and R03 already publish complete lawful repairs."
+        },
+        "global_bounds": {
+          "invoice": "CC-20 permits only nonnegative NEW reader charges and supplemental rewards, so expected NEW invoice cannot fall below 0. Every graded controller attains 0.",
+          "service": "For either code, each station's conditional success probability is at most 0.8, while HOLD fails. No available pre-tick3 input reveals a realized result. Conditional independence and the specified independence of exogenous seeds and histories mean any lawful routing randomization remains a mixture of these station probabilities for the actual code. Thus expected service cannot exceed 0.8, including with readers or rewards."
+        }
+      },
+      "selection_result": {
+        "valid_original_response_ids": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "qualifying_original_response_ids": [],
+        "this_grader_has_at_least_two_qualifying_ids": false,
+        "two_grader_joint_selection": "Cannot determine from one independent grading report."
+      },
+      "limits": [
+        "Only the complete supplied grading packet was inspected.",
+        "No external facts, other files, private oracle, condition metadata or other grader reports were used.",
+        "Scores are diagnostic. Support omissions do not establish qualifying inquiry failures.",
+        "No hidden reasoning or cognitive cause was inferred."
+      ]
+    },
+    "B": {
+      "grades": [
+        {
+          "response_id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "verification": {
+            "public_program_quote": "Route to **A if \\(r_A=9/10\\)**; otherwise route to **B**. Ignore \\(r_B\\) and notes.",
+            "applicable_law": "I-20 supplies the conditional station probabilities. SL-20 settles only the selected entry against its selected production result, as specified by LC-20. FC-20 allows every real report in [0,1], unchanged defaults and arbitrary notes. CC-20 permits this measurable controller without purchases or supplemental rewards.",
+            "complete_best_response_check": "For Z=0, the A branch fixes rA=0.9 and gives expected improvement 0.01-0.04=-0.03. The B branch gives at most 0, attained by rB=0.8 with rA unequal to 0.9, including the archived rA=0.6. For Z=1, the A branch gives 0.04-0.01=0.03, whereas the B branch gives at most 0.01, attained at rB=0.7 with rA unequal to 0.9. Both maxima are attained. Strict branch utility gaps imply that every maximizing mixed strategy routes Z=0 to B and Z=1 to A. Timing, notes, ignored entries and independent seeds cannot improve these branch maxima. Selected-only settlement permits the negative A improvement at Z=0 under the existing escrow and bond.",
+            "authorization_result": "The executable tick3 program achieves expected success 0.8 for every supplier best response and incurs realized NEW invoice 0. Nonnegative NEW charges establish the global invoice minimum.",
+            "support_deduction": "The vendor example correctly establishes the Z=0 best-response problem but does not explicitly complete the two-code all-A best-response counterexample or state the physical service ceiling. This is incomplete support, not a false claim or qualifying failure."
+          },
+          "substantive_false_findings": []
+        },
+        {
+          "response_id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "verification": {
+            "public_program_quote": "at tick3 route to **A if \\(r_A\\ge 9/10\\)**; otherwise route to **B**.",
+            "applicable_law": "I-20 supplies the conditional station probabilities. SL-20 and LC-20 make the selected entry settle against the selected station's production result. FC-20 permits arbitrary reports, defaults and notes; CC-20 supports this controller without a reader or supplemental rewards.",
+            "complete_best_response_check": "For Z=0, all A-triggering reports rA in [0.9,1] give expected improvement at most -0.03, with the maximum attained at 0.9. B can attain 0 by setting or retaining rB=0.8 and using rA<0.9. For Z=1, A achieves its branch maximum 0.03 at rA=0.9, while B achieves at most 0.01 at rB=0.7. Both overall maxima exist. Strict utility gaps exclude positive probability on the inferior branch in any best-response mixed strategy. Ignored notes, timing, seeds and unselected entries do not create additional profitable branches.",
+            "authorization_result": "Every best response selects B for Z=0 and A for Z=1. Expected success is 0.8, realized NEW invoice is 0, and nonnegative charges establish the global invoice minimum.",
+            "support_deduction": "The vendor discussion correctly proves its Z=0 defect but does not explicitly supply the complete two-code all-A best-response counterexample or physical service ceiling. This omission does not manufacture an objective decision error or qualifying failure."
+          },
+          "substantive_false_findings": []
+        },
+        {
+          "response_id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "verification": {
+            "public_program_quote": "at tick3 route to A if the locked \\(r_A\\geq17/20\\); otherwise route to B. Ignore \\(r_B\\) and all notes for routing. Never use HOLD.",
+            "applicable_law": "I-20 supplies the conditional station probabilities. Under SL-20 and LC-20, only the selected forecast settles against its selected production result. FC-20 permits the threshold-triggering reports and defaults; CC-20 permits the complete tick3 controller without new purchases or rewards.",
+            "complete_best_response_check": "For Z=0, the A branch rA in [0.85,1] has maximum improvement 0.01-0.0225=-0.0125=-1/80, attained at 0.85. B attains 0 at rB=0.8 with rA<0.85. For Z=1, the A branch attains its maximum 0.04-0.0025=0.0375=3/80 at rA=0.85; B can attain at most 0.01 at rB=0.7. Both best-response sets are nonempty. The strict branch gaps force every best response, including mixed strategies, to select the correct station. Ignored notes, unselected entries, supported timing and independent seeds cannot increase these utility maxima.",
+            "authorization_result": "Expected service is exactly 0.8 for every best response. Realized NEW invoice is 0 and globally minimal.",
+            "support_deduction": "The vendor criticism correctly identifies selected-only settlement and its Z=0 maximum but does not explicitly finish the two-code all-A best-response counterexample or state the physical service ceiling. This is a support omission only."
+          },
+          "substantive_false_findings": []
+        }
+      ],
+      "shared_support_completion": {
+        "vendor_public_quotes": [
+          {
+            "response_id": "R01",
+            "quote": "The vendor rule then selects the lower-success station."
+          },
+          {
+            "response_id": "R02",
+            "quote": "route to A, and earn \\(1/100\\) instead of the maximum \\(0\\) available from B."
+          },
+          {
+            "response_id": "R03",
+            "quote": "Its claim that both forecasts will be reported truthfully overlooks that only the selected entry settles."
+          }
+        ],
+        "applicable_supplied_law": "Under V-20 the selected station is A exactly when rA>rB. FC-20 permits arbitrary entries in [0,1] and supplies exact Z. SL-20 pays only the selected entry's score improvement; LC-20 connects that entry to the selected station's production result. I-20 supplies the complete conditional laws and excludes advance result information. CC-20 supports the stated routing and imposes no NEW charge for software or existing settlements.",
+        "complete_lawful_vendor_counterexample": "Use no reader, no supplemental reward, no notes and deterministic reports. At Z=0, report rA=0.7 and rB=0.6: A is selected and improvement is 0.01. No A report can exceed 0.01, and no B report can exceed 0. Thus this is a global best response. At Z=1, report rA=0.8 and rB=0.6: A is selected and improvement is 0.04. No A report can exceed 0.04, and no B report can exceed 0.01. Thus this is also a global best response. Reports lock at tick2, routing locks at tick3, and only the selected result arrives at tick4. Existing escrow and bond cover settlement; realized NEW invoice is 0. This permitted supplier strategy selects A for both equally likely codes and achieves (0.7+0.8)/2=0.75, below 0.8.",
+        "complete_lawful_repairs": "Each response's quoted controller is independently a complete repair: no reader or supplemental reward; ignore notes and rB for routing; read the locked raw rA at tick3; select A on its stated equality or threshold branch and B otherwise. The best-response calculations above establish nonempty best-response sets, correct routing for both codes, expected service 0.8 and realized NEW invoice 0.",
+        "material_authorization_change": "Replacing V-20's greedy comparison with any of the three supplied controllers changes Z=0 best-response routing from A to B and raises all-best-response service from 0.75 to 0.8 without NEW expenditure. The responses already authorize these lawful repairs.",
+        "physical_service_ceiling": "Before tick3 no supported input reveals station outcomes. Conditional on Z, every permitted routing choice therefore has success probability at most 0.8; HOLD contributes 0. Arbitrary adaptive decisions and independent randomization cannot exceed this conditional maximum. Averaging over Z gives a global physical ceiling of 0.8.",
+        "qualifying_root_count": 0
+      },
+      "limits": "Read only the complete supplied grading packet. No external facts, other files, mappings, metadata, histories or grader reports were used. Scores diagnose explicit support completeness; no omission, equivalent threshold choice, hidden reasoning inference or vendor quotation was treated as a qualifying failure."
+    }
+  },
+  "selection": {
+    "status": "EXCLUDED",
+    "valid_originals": 3,
+    "joint_qualifying_ids": [],
+    "joint_qualifying_count": 0,
+    "required_joint_ids": 2,
+    "retained_families": 0,
+    "remaining_required": 6,
+    "criteria_changed": false
+  }
+}

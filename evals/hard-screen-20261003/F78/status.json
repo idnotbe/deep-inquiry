@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "family": "F78",
+  "status": "PENDING_ROOT_FINAL",
+  "proposed_final_verdict": "EXCLUDED_NOT_HARD",
+  "qualifying_IDs": [],
+  "secondary_scores": [
+    [
+      10,
+      10,
+      10
+    ],
+    [
+      10,
+      10,
+      10
+    ]
+  ],
+  "objective_errors": [
+    0,
+    0
+  ],
+  "qualifying_counts": [
+    0,
+    0
+  ],
+  "screening": "Three valid original C baseline turns, no repeated qualifying failure found by either independent grader.",
+  "general_difficulty": "UNKNOWN; this screen does not establish intrinsic universal ease",
+  "efficacy": "UNKNOWN; no scored treatment",
+  "retained": 0,
+  "target": 6,
+  "goal_status": "ACTIVE_UNMET",
+  "H_K_participant_use": 0,
+  "source_revision": 0,
+  "counts_lower_bounds": [
+    65,
+    190,
+    246
+  ],
+  "unknown_contributions": [
+    "F46",
+    "F51"
+  ],
+  "counts_note": "190 preserved terminal problem output files are not190 valid; neutral2 excluded."
+}

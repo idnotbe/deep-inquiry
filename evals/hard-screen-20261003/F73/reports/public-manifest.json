@@ -1,0 +1,100 @@
+{
+  "status": "STABLE_EXCLUDED",
+  "public_artifacts": [
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/screening.md",
+      "bytes": 2626,
+      "sha256": "6ca8833035bb9940e3b02dc0b85a0c0c279609e26edfa90f495cb06745ceaf23"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/original-status.json",
+      "bytes": 3530,
+      "sha256": "1a9858bc5f5ae5d4e848929ae4fed9b361a54996fa7952b720273cbdd45d5632"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/evidence.json",
+      "bytes": 17836,
+      "sha256": "7b7c7413b0ad30f5329fa1a3a321ac83d8b7667ccd02c59005b50d4eb7301a53"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/responses.json",
+      "bytes": 5061,
+      "sha256": "3a9bef185babe487d7a1675d13ec34f0f3821ab85d3bae96c448200b82f6bcb8"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/grades.json",
+      "bytes": 16634,
+      "sha256": "c93f7d6d762f273510abc3ffbead8405990ba16187dbc42bc5545b0548a85106"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/grade-a-first.json",
+      "bytes": 6109,
+      "sha256": "3b0c57d25e01cfbdaaba059300f9ef7d4243c14890a1b244dacf5779d5bbba3f"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/grade-b-first.json",
+      "bytes": 5234,
+      "sha256": "fd86d3dff9243e7888964d6414504c02752a384b9662e8e38ca5b21401fb3c27"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/grade-a-parsed.json",
+      "bytes": 6110,
+      "sha256": "3090c271d320cf5c73184a1f89abbc4dbfe0b123e42d1c6febcb4d3d04bde7c8"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/grade-b-parsed.json",
+      "bytes": 5235,
+      "sha256": "484dd0e331715a0cd475dfc7fec7439ea7fc6c5ed37c460a9d66010c353a45f5"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/R01-final.txt",
+      "bytes": 1146,
+      "sha256": "beec5607d7e2342896f78b7315bee505e4a982d7dbb3af02443bd7846717e187"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/R02-final.txt",
+      "bytes": 1273,
+      "sha256": "ff3fcc041f9355cb698770de529244839e7b4abd0beaa34de4573a010676e7e7"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F73/reports/R03-final.txt",
+      "bytes": 983,
+      "sha256": "66463ba2d2eca405cce6f70644e025412e7c7e9caa10571c3b359471793fbdda"
+    }
+  ],
+  "readme": {
+    "path": "evals/hard-screen-20261003/README.md",
+    "bytes": 55048,
+    "sha256": "c9cce3e44c111ec857944620b2c81ee935b08db4b31e2db36829b5b26e1b6a94"
+  },
+  "readme_before": {
+    "path": "local-retained:temp/hard-screen-20261003/worker/F73/README-before-F73.md",
+    "bytes": 53751,
+    "sha256": "1e2750ce461a42cdf0112179de82484361c7effb2edef49abe74622b74792514"
+  },
+  "readme_delta": {
+    "path": "local-retained:temp/hard-screen-20261003/worker/F73/README-F73-delta.json",
+    "bytes": 5207,
+    "sha256": "b950d7cf781f00e47d58f99a7cc60323ca7c8fd46846de76d8edfdfc17a18024"
+  },
+  "pretrial_manifest": {
+    "path": "local-retained:temp/hard-screen-20261003/worker/F73/pretrial-manifest.json",
+    "bytes": 7399,
+    "sha256": "78562c316aac3ce57f96f904c6c63fec0464deec0bedd41d699b56223e554731"
+  },
+  "pretrial_readback": {
+    "path": "local-retained:temp/hard-screen-20261003/worker/F73/pretrial-final-readback.json",
+    "bytes": 4112,
+    "sha256": "a7bfe9bba2d77bb5b24a261aff417dadbab2c3365f81f4086509a1c9f4d7f0e9"
+  },
+  "counts": {
+    "attempted_families_lower_bound": 60,
+    "preserved_terminal_finals_lower_bound": 175,
+    "completed_problem_turn_captures_lower_bound": 231,
+    "unknown_contributions": [
+      "F46",
+      "F51"
+    ],
+    "retained_families": 0
+  }
+}

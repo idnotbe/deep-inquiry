@@ -1,0 +1,359 @@
+{
+  "family": "F48",
+  "selection": {
+    "status": "EXCLUDED",
+    "valid_originals": 3,
+    "joint_qualifying_ids": [],
+    "joint_qualifying_count": 0,
+    "required_joint_ids": 2,
+    "retained_families": 0,
+    "remaining_required": 6,
+    "criteria_changed": false,
+    "postoutput_extra_audit_required": false
+  },
+  "current_confirmed_lowerbounds": {
+    "confirmed_family_lowerbound": 43,
+    "preserved_terminal_finals_lowerbound": 127,
+    "problem_turns_lowerbound": 183,
+    "retained": 0,
+    "F46_contribution": "UNKNOWN originaldispatch/completedturns/exit; preservedprofile unchanged"
+  },
+  "counts_added": {
+    "families": 1,
+    "preserved_terminal_finals": 3,
+    "problem_turns": 3
+  },
+  "receipt_sha256": {
+    "temp/hard-screen-20261003/worker/F48/freeze.json": "c93d60242209edf24f7ac3544d007fad9849ed818ee3d029682f44588a1995f7",
+    "temp/hard-screen-20261003/worker/F48/canary-check.json": "9f9073d878451a272dc6924efd3e2db384be14e8c984a61452deecac636b8033",
+    "temp/hard-screen-20261003/worker/F48/canary/canary-common-context.json": "f9cfbb2acede8501c2e891031c432d53a62c10c6a056856afb64c098407c0482",
+    "temp/hard-screen-20261003/worker/F48/screening-plan.json": "5de5bab8536ba0c68008c87358687c74a5c77ab7a9458d514c3d88b54363d496",
+    "temp/hard-screen-20261003/worker/F48/producer-invocation-canary.json": "a7dea5b77180d6af7977c7335de7164eba3c92f3498c4aa751005edb31d79b12",
+    "temp/hard-screen-20261003/worker/F48/producer-terminal-canary.json": "ffeee68844b507bbfd192f72dfdeadc64841627e6e20dda1da6091dc362c0dec",
+    "temp/hard-screen-20261003/worker/F48/native-setup-attempt-check.json": "4f6d4a04a1ca932c87fc42d16faa3235bbec12d2ac7ff64fb5b67fce3160b9c9",
+    "temp/hard-screen-20261003/worker/F48/run-canary-setup2.cjs": "b8c4471673a1f6a13df60e663f9cb7cbd77e3b537a8dd11f420f5ef2c233c1d5",
+    "temp/hard-screen-20261003/worker/F48/canary-setup2-route-binding.json": "f01f16d084f50923f6d2ba93ded9ee5c2ffaf20356d3d3db9319e1026dfa3264",
+    "temp/hard-screen-20261003/worker/F48/producer-invocation-canary-setup2.json": "cdce442dc65fbbbc7b37cf0eef3be895ebd00075727442282d55dee1c81b4393",
+    "temp/hard-screen-20261003/worker/F48/producer-terminal-canary-setup2.json": "716350f8f07e40ae33f71e0111f67bb0d667ea598d72902df8a47ee5b4190427",
+    "temp/hard-screen-20261003/worker/F48/producer-invocation-original.json": "8d1f1af35d1ca93b3b3cbce9677fe464daa45959837f95de457cfb6d411433b2",
+    "temp/hard-screen-20261003/worker/F48/producer-terminal-original.json": "2b35e3484e7ec635620e16aa6a75560bd03bc5ff5ae834e7526bfb4a01dff4ae",
+    "temp/hard-screen-20261003/worker/F48/original-collection-check.json": "4cb7cc2927d3093a9a01b8bfdce1406c09fc4c4b0f77f2d90719bbf4ded950a5",
+    "temp/hard-screen-20261003/worker/F48/collection-packet-readback.json": "955ac2c9252b1f6fac58d9a672cff286ed81acb8787733616ee70d910b3e0779",
+    "temp/hard-screen-20261003/worker/F48/grading-packet.json": "6d7f510f608d02434858337f5299b4aeda99e7145aa003d55f87c12fd00e616b",
+    "temp/hard-screen-20261003/worker/F48/anonymous-mapping.json": "c18e1a6600ad4878eabe613a25148eb65833b9b3cadf9cf1fce72bbb1079cd6a",
+    "temp/hard-screen-20261003/worker/F48/packet-display-transform.json": "2db90d4bd0380857ccd391eda50a173744e25aad6051f7f6eddaca4c0da33e13",
+    "temp/hard-screen-20261003/worker/F48/generic-grading-rules.json": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d",
+    "temp/hard-screen-20261003/worker/F48/generic-rules-display-selection.json": "039fcc2c121ff5fa47e5614046b0e4424fd862364ef209072a3958c9e756fafe",
+    "temp/hard-screen-20261003/worker/F48/pretrial-manifest.json": "cb010f2d6c53a9680a28aa7b34ece00672aed7690ce0e6ce25a1d5ac805dc2f5",
+    "temp/hard-screen-20261003/worker/F48/exact-review-a-original.md": "464050d3bd025ea197323899d8cc4cd28dfb0feb921b3adcbc130ba90b65fac0",
+    "temp/hard-screen-20261003/worker/F48/exact-review-b-original.md": "9d5abc9a4a0af804a6aaefabbc57866bb4461d2ae9831f63d855ce248b9d8df5",
+    "temp/hard-screen-20261003/worker/F48/exact-review-a-targeted.md": "732c724679f544d6738f989f3d57bea70337c26e0fd7a0e10cb9f138abb8991c",
+    "temp/hard-screen-20261003/worker/F48/exact-review-b-targeted.md": "ae474c4f87c801eed12871d641d0d532862c55ce5c9c01897226305cb85a258e",
+    "temp/hard-screen-20261003/worker/F48/exact-review-ledger.json": "e0527d082e2213fd3e84c1802038fbe6bde7c8ba6cfa7a9d59419f1863d40333",
+    "temp/hard-screen-20261003/worker/F48/pretrial-final-readback.json": "fe47b74db7878a7f2fb46137f5bba2ae9d1a84de60dd3ffacd3284942ac54a40",
+    "temp/hard-screen-20261003/worker/F48/helper-preparation-readback.json": "fcf8a84d225f3408d700082fd2c170b5f64150a0743d147b379481d05218aeda",
+    "temp/hard-screen-20261003/worker/F48/helper-preparation-reserved-readback.json": "64c9af9c25258b41b2ad5cec8e31b661773d3af4fcdae9cd4f4856875e3fc2b4",
+    "temp/hard-screen-20261003/worker/F48/helper-shortwrite-readback.json": "3a5c4a2f8f69270b885f9b662ce8a8c10cb36018fd16758f8901cab49cafc0d4",
+    "temp/hard-screen-20261003/worker/F48/grade-a-first-original.json": "aa62f3a959f021986d2c570dd41962fdb31c24a9043efb181bcb4b0e84202f4c",
+    "temp/hard-screen-20261003/worker/F48/grade-b-first-original.json": "03572f64f30d3c2bf6ae1bade72dbb03f4268b6e400fc336f1aab8de1c672ddb",
+    "temp/hard-screen-20261003/worker/F48/first-grade-ledger.json": "90823bf2f5e53fe0f9cef997627de00205135aaf45844e112459efcca704ecc5",
+    "temp/hard-screen-20261003/worker/F48/first-grade-readback.json": "b45560ba5913922d57dfc5de39e7b75a4c95cae63b3a7498d2593f95e51b2a9c"
+  },
+  "exact_frozen_files": {
+    "evals/hard-screen-20261003/F48/sources/F48C.md": "9b184d112531e2025b6071304cdaa6ffdfea928939d9278d721f1b38c1df9c17",
+    "evals/hard-screen-20261003/F48/sources/F48H.md": "43deb1a2be7501bd93b5f96f2997e4fd570e5aeb09fca1878afd7757a1c3cb70",
+    "evals/hard-screen-20261003/F48/sources/F48K.md": "2f126ae9a1867ffc333eb09749ee258c568963e3fd27a7b9c7d632417d65bab2",
+    "evals/hard-screen-20261003/F48/cases.json": "42d4f4c1d436cadc8cf9ec42ad793a4ecc8e3474683ef785909b4143c70babbc",
+    "evals/hard-screen-20261003/F48/rubrics.json": "f2cd754cae1b046ce0f19bbcc5fb8d9dc349f8c248ece94c19255d840f660863",
+    "evals/hard-screen-20261003/F48/protocol.json": "df06ea069e46e351cc0ed47213c545e7a3386c1e61381b45845c9c98e0918b57",
+    "temp/hard-screen-20261003/worker/F48/oracle.md": "85bef73c9220902145e422956d485d1d52efe0cf235a751949aa99c4fe95dc0e",
+    "temp/hard-screen-20261003/worker/F48/certificate.json": "62bcd66300b8247de11df7b14c3b4d3b4d387246099a0c227aabdb58a1738405",
+    "temp/hard-screen-20261003/worker/F48/proof.cjs": "879c09e6d8d865e56ea5ca47ce6e46a0a7e95ffe8f93fb0b6e0638970e1f0fd0",
+    "temp/hard-screen-20261003/worker/F48/check.json": "73ebd335ba89418d5450757eaf430d47defa272e15e3b7fb42b9ec75eaa781ae"
+  },
+  "runner_hashes": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "method_hashes": {
+    "evals/hard-screen-20261003/prospective-method-v2.md": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e",
+    "evals/hard-screen-20261003/prospective-method-v3.md": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+  },
+  "skill_hashes": {
+    "SKILL.md": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871",
+    "references/inquiry-methods.md": "0c7e92d8a2682e9e734fe53b11863fe014aa47a6cd586146195b44b385b779ac",
+    "references/evidence-and-diagnosis.md": "df73a8e947fda4764ceb69617ee88d8a9d95212710f3a889be1b0bfb3a6c45ac",
+    "references/alternatives-and-drafting.md": "0b03e017c97a0a013cd95f22b9e7266c1e7e0cf2a3e9d37063499b35aec9b382"
+  },
+  "canary_check": {
+    "status": "PASS_ACTUAL_NEUTRAL_READY_PAIR",
+    "checks": [
+      {
+        "arm": "baseline",
+        "attempt": 1,
+        "manifest_sha256": "05be0c33cb2f2076502a783918ff2ad2d563ff39f4a27d46086edd5d3a2ee801",
+        "delivery_sha256": "00651514aa248dc49aa36ca9354342e4109263e9d919b2a3c62fa383dd68e61b",
+        "telemetry_sha256": "ac6f4b64795f84a2457d2f3605b49e89bd005e3fc5967b48be4b91cf517e0777",
+        "final_sha256": "c2e3ac47f4a325469c1a2d5f117e463ec943c721986d5d9f09ac4540b7d80526",
+        "first_input_sha256": "1727ae28b8ff544c61f31f3d79b5cb3e5ac48d63abe3a961fc6b1213101a04ed",
+        "completed_turns": 1,
+        "final_phase_messages": 1,
+        "actual_common_developer_match": false,
+        "actual_common_user_prefix_match": false,
+        "source_preserved": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true,
+        "tool_attempted": false
+      },
+      {
+        "arm": "treatment",
+        "attempt": 1,
+        "manifest_sha256": "52f145804bb37802725f65d3cdcbc1706e27da230b805cbe3a874f73ba314730",
+        "delivery_sha256": "cfa6d72cb51ab12ef015bc6c943ce75450e3598f5a92d59d509dcac233237248",
+        "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+        "final_sha256": "c2e3ac47f4a325469c1a2d5f117e463ec943c721986d5d9f09ac4540b7d80526",
+        "first_input_sha256": "1727ae28b8ff544c61f31f3d79b5cb3e5ac48d63abe3a961fc6b1213101a04ed",
+        "completed_turns": 1,
+        "final_phase_messages": 1,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "source_preserved": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true,
+        "tool_attempted": false
+      }
+    ],
+    "preserved_preturn_setup_failures": [],
+    "common_reference_sha256": "f9cfbb2acede8501c2e891031c432d53a62c10c6a056856afb64c098407c0482",
+    "first_baseline_false_match": "Reference establishment, not failed shared-context comparison; actual second arm matches.",
+    "unscored": true,
+    "problem_counts": 0,
+    "actual_neutral_turns": 2,
+    "future_runtime_guarantee": false
+  },
+  "original_collection": {
+    "status": "PASS_ALL_THREE_ORIGINALS_SAFE_COMPLETED",
+    "checks": [
+      {
+        "repetition": 2,
+        "status": "VALID_ORIGINAL_COMPLETED",
+        "attempt": 1,
+        "manifest_sha256": "328f71017626f8fd730fc36ca104011562f8d5995a2474cec19df8febcd5ff18",
+        "delivery_sha256": "de4e0535d53c68c846a3ae3eed7ad8635588f128bf7f30dc6599f5f7979fe6eb",
+        "telemetry_sha256": "a7a5ea4ff8f4925ffc94b03139e1a17a2de15fb61ffeebe985f45ccd7217e4c3",
+        "final_sha256": "7f633293723faa1328c36ff991ac8ea413762f25ebc64bfe4f8c1a740dcfcfbb",
+        "final_bytes": 1603,
+        "completed_problem_turns": 1,
+        "actual_completed_final_phase_messages": 1,
+        "preserved_terminal_problem_finals": 1,
+        "first_input_sha256": "375d290f2fcdbc33055a427de8bb91a8eb10590b216b8a2e1c58003f66347a63",
+        "task_input_readback_verified": true,
+        "source_preserved": true,
+        "tool_attempted": false,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true
+      },
+      {
+        "repetition": 3,
+        "status": "VALID_ORIGINAL_COMPLETED",
+        "attempt": 1,
+        "manifest_sha256": "a2f72572c355ec3d5660d93613a3aa6d93b0ea0ced3b12ba5d0797868364a21f",
+        "delivery_sha256": "de4e0535d53c68c846a3ae3eed7ad8635588f128bf7f30dc6599f5f7979fe6eb",
+        "telemetry_sha256": "310f342a0c0d590abeaa05f85ffb1f21dca05b465f9faffedc5562d0300dcb69",
+        "final_sha256": "f56b3f6a5838bc56272f200deb3a747cc268eed68071ba6c75a8176913c711e6",
+        "final_bytes": 1604,
+        "completed_problem_turns": 1,
+        "actual_completed_final_phase_messages": 1,
+        "preserved_terminal_problem_finals": 1,
+        "first_input_sha256": "375d290f2fcdbc33055a427de8bb91a8eb10590b216b8a2e1c58003f66347a63",
+        "task_input_readback_verified": true,
+        "source_preserved": true,
+        "tool_attempted": false,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true
+      },
+      {
+        "repetition": 1,
+        "status": "VALID_ORIGINAL_COMPLETED",
+        "attempt": 1,
+        "manifest_sha256": "815da2051c85ea29dbfd3953c27f64fcc947d14e225c264f82a57f1f73a68caf",
+        "delivery_sha256": "de4e0535d53c68c846a3ae3eed7ad8635588f128bf7f30dc6599f5f7979fe6eb",
+        "telemetry_sha256": "a7a5ea4ff8f4925ffc94b03139e1a17a2de15fb61ffeebe985f45ccd7217e4c3",
+        "final_sha256": "afc6dabbdcaef1e140db6d0a82c15a2080fbc1fb8f98dd9e89546dbe656178cf",
+        "final_bytes": 1635,
+        "completed_problem_turns": 1,
+        "actual_completed_final_phase_messages": 1,
+        "preserved_terminal_problem_finals": 1,
+        "first_input_sha256": "375d290f2fcdbc33055a427de8bb91a8eb10590b216b8a2e1c58003f66347a63",
+        "task_input_readback_verified": true,
+        "source_preserved": true,
+        "tool_attempted": false,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true
+      }
+    ],
+    "current_counts": {
+      "confirmed_family_lowerbound": 43,
+      "preserved_terminal_finals_lowerbound": 127,
+      "problem_turns_lowerbound": 183,
+      "retained": 0,
+      "F46_contribution": "UNKNOWN originaldispatch/completedturns/exit; preservedprofile unchanged"
+    },
+    "counts_added": {
+      "families": 1,
+      "preserved_terminal_finals": 3,
+      "problem_turns": 3
+    },
+    "neutral_turns_not_counted": 2,
+    "packet_sha256": "6d7f510f608d02434858337f5299b4aeda99e7145aa003d55f87c12fd00e616b",
+    "mapping_sha256": "c18e1a6600ad4878eabe613a25148eb65833b9b3cadf9cf1fce72bbb1079cd6a",
+    "packet_redaction": "Blank current-only complete C task, local rubric/frozen anchor/immutable generic rules, actual terminal finals only; one-turn task has no READ transcript. No condition/model/host/turnIDs/sibling/private-oracle/author interpretation fields. Native answer bodies processed only by helper, never displayed or interpreted by author before grading.",
+    "generic_rules_source": "ONLY selected immutable v2/v3 generic classification clauses; full raw history/condition texts omitted. Exact frozen source→display selection separatelybound; no criteria change.",
+    "grading_status": "NOT_STARTED; separate parent release required",
+    "hardness_status": "PENDING_ORIGINAL_BLIND_GRADING",
+    "freeze_sha256": "c93d60242209edf24f7ac3544d007fad9849ed818ee3d029682f44588a1995f7",
+    "screening_plan_sha256": "5de5bab8536ba0c68008c87358687c74a5c77ab7a9458d514c3d88b54363d496",
+    "common_reference_sha256": "f9cfbb2acede8501c2e891031c432d53a62c10c6a056856afb64c098407c0482",
+    "generic_rules_display_selection_sha256": "039fcc2c121ff5fa47e5614046b0e4424fd862364ef209072a3958c9e756fafe"
+  },
+  "pretrial_ledger": {
+    "status": "BOTH_CURRENT_FULL_REVIEW_APPROVE_UNCHANGED_BYTES_ORIGINAL_A_REVISE_PRESERVED",
+    "review_order": "SOURCE_FIRST_TWO_INDEPENDENT_REVIEWERS_REUSED_PARALLEL_FULL_NO_CROSS_FULL_REPORTS",
+    "reviewed_manifest": {
+      "path": "temp/hard-screen-20261003/worker/F48/pretrial-manifest.json",
+      "sha256": "cb010f2d6c53a9680a28aa7b34ece00672aed7690ce0e6ce25a1d5ac805dc2f5",
+      "bytes": 8059
+    },
+    "reviewed_author_readback": {
+      "path": "temp/hard-screen-20261003/worker/F48/author-binding-readback.json",
+      "sha256": "f196a12b6e0dd7ee51052026eb882a822357b29a2f2f42155d87935f498a8444",
+      "bytes": 2371
+    },
+    "reviews": {
+      "A": {
+        "reviewer": "logical-agent/screening_writer_resume/f48_source_a",
+        "first": {
+          "path": "temp/hard-screen-20261003/worker/F48/exact-review-a-original.md",
+          "sha256": "464050d3bd025ea197323899d8cc4cd28dfb0feb921b3adcbc130ba90b65fac0",
+          "bytes": 11042
+        },
+        "first_verdict": "REVISE_SUPPORT_ESCAPING_PROVENANCE_ONLY_SUBSTANTIVE_APPROVAL",
+        "targeted": {
+          "path": "temp/hard-screen-20261003/worker/F48/exact-review-a-targeted.md",
+          "sha256": "732c724679f544d6738f989f3d57bea70337c26e0fd7a0e10cb9f138abb8991c",
+          "bytes": 3720
+        },
+        "current_verdict": "APPROVE_SAME_UNCHANGED_BUNDLE_REVIEWER_ERROR_CORRECTED",
+        "source_first": {
+          "path": "temp/hard-screen-20261003/worker/F48/source-a-received.md",
+          "sha256": "110ef88841ab68bfce86519f34ea26cc56fd2edbf7221b13feb85404296295a9",
+          "bytes": 6385
+        },
+        "checks": "Initial all37 manifest bindings and source/math/15rubric/protocol review. Initial own affected Python realLF PASS but manually constructed FALSE comparison was NOT actual evaluated author code; followup actual raw byte and independent VM capture/all generator in-memory equality withdraws own sole finding. No followup Python/proof/native/regeneration."
+      },
+      "B": {
+        "reviewer": "logical-agent/screening_writer_resume/f48_source_b",
+        "first": {
+          "path": "temp/hard-screen-20261003/worker/F48/exact-review-b-original.md",
+          "sha256": "9d5abc9a4a0af804a6aaefabbc57866bb4461d2ae9831f63d855ce248b9d8df5",
+          "bytes": 10710
+        },
+        "first_verdict": "APPROVE_AUTHOR_PRETRIAL_ONLY",
+        "targeted": {
+          "path": "temp/hard-screen-20261003/worker/F48/exact-review-b-targeted.md",
+          "sha256": "ae474c4f87c801eed12871d641d0d532862c55ce5c9c01897226305cb85a258e",
+          "bytes": 1825
+        },
+        "current_verdict": "APPROVE_SAME_UNCHANGED_BUNDLE_ESCAPING_ACK",
+        "source_first": {
+          "path": "temp/hard-screen-20261003/worker/F48/source-b-received.md",
+          "sha256": "90d31b781fad0d94b40a8378814b4130081356c2456d592105b2b7917e013622",
+          "bytes": 7707
+        },
+        "checks": "All37 hashes/bindings and whole law/15dimensions/protocol static review; Python not executed. Targeted independent Node VM actualargv and generator newline declarations captures match; no Python/proof/native/regeneration."
+      }
+    },
+    "source_originals_preserved_before_oracle_exposure": true,
+    "both_full_first_originals_preserved_before_shared_followup": true,
+    "current_input_revision": false,
+    "source_revision": false,
+    "support_script_revision": false,
+    "regeneration_or_rebinding": false,
+    "writer_affected_diagnosis": {
+      "capture": {
+        "path": "temp/hard-screen-20261003/worker/F48/escaping-runtime-capture.json",
+        "sha256": "c4f35bceb73bcc5b89c4de28faef0710588d9d8ff24ffe58e9b8c011ff2741b2",
+        "bytes": 1690
+      },
+      "python_argv": {
+        "path": "temp/hard-screen-20261003/worker/F48/escaping-captured-python.txt",
+        "sha256": "75f50e3ea588181ff3b931c44593f1b50ffa9c61bca8ee83d1e44c6e14afa489",
+        "bytes": 881
+      },
+      "scope": "ONE in-memory JavaScript VM interception of spawnSync; no subprocess/Python/native; rawJS5c5c6e becomes Pythonargv5c6e. Saved JSON parse-only. Both same independent reviewers acknowledged unchangedbytes.",
+      "python_calls": 0,
+      "native_calls": 0,
+      "selected_proof_rerun": false,
+      "old_fulltests_rerun": false
+    },
+    "transcription": "Complete first and targeted received bodies saved with final newline. Hashes bind local transcript bytes, not raw host-transport authentication.",
+    "coverage": "10exact+27support; fullwholetrim3/15localdimensions; alllawful contracts/mutual bestresponses/seeds/information; Caggregatejoint-only vendor vs independent floor/nosignal alternatives; HconditionalEXPECTED GOOD Jensen and BADpointwise; Kexistingbinding/newliabilities; immutablev2v3 exactpublicchain; READYrealLF and r2r3r1 drafts.",
+    "future_handle_proposal": {
+      "path": "temp/hard-screen-20261003/worker/F48/future-producer-handle-proposal.md",
+      "sha256": "bf3ad2ec338fa55a43f0efeb3f366e535ff18b96dad95afe76c6c07845d1ba1a",
+      "bytes": 2269
+    },
+    "future_handle_status": "SUPPLEMENTAL_PROPOSAL_ONLY_NOT_IMPLEMENTED_NOT_PART_OF37MANIFEST_NOT_NATIVE_AUTHORIZATION",
+    "retained": 0,
+    "counts": "Confirmed42families/124terminalfinals/180problemturns LOWERBOUNDS plus UNKNOWN F46; hard0/6 active/unmet unchanged.",
+    "limits": "No freeze/neutral/native/grading/backend/isolation/cleanup/hardness/retention/finalpool approval. Historical transport/producer execution timing not authenticated. F32+ two successive FINAL artifact rounds/archive deferred."
+  },
+  "helper_final_review": {
+    "path": "temp/hard-screen-20261003/f48-helper-review-shortwrite-original.md",
+    "sha256": "a2138b44064335220c349479a9bc2a95d119bf94fd8c1c064f28e1a1af8a478c"
+  },
+  "neutral_turns": 2,
+  "neutral_problem_count": 0,
+  "problem_turns": [
+    1,
+    1,
+    1
+  ],
+  "terminal_finals": [
+    1,
+    1,
+    1
+  ],
+  "outcome_retries": 0,
+  "replacements": 0,
+  "regrades": 0,
+  "H_K_participant_runs": 0,
+  "scored_treatment_runs": 0,
+  "host_setup_retry": 1,
+  "host_setup_retry_scope": "Known exec_command ENOENT/nullPythonPID/noGO pre-entry; original receipts preserved; ONE authorized working GitBash route canary setup2, not model outcome retry.",
+  "native_internal_setup_retries": 0,
+  "actual_original_producer_pid": 26776,
+  "actual_original_exit_code": 0,
+  "transport_expiry": false,
+  "requested_model": "gpt-6-sol",
+  "effective_backend_verified": false,
+  "reasoning_effort_considered": false,
+  "selected_proof_rerun": false,
+  "old_fulltests_rerun": false,
+  "reused_fulltests": "Historic153total/147pass/6environment-skips/0fail evidence reused, not fresh verification.",
+  "limits": [
+    "F46 actual contribution/exit UNKNOWN; copiedprofile preserved, not assumed0. F41 incomplete remains unpreviewed/ungraded.",
+    "Source-first same two independent reviewers reused for parallel FULL, not four fresh reviewers. A firstFULL REVISE preserved; own escaped-output misreading corrected on SAME unchangedbytes, original affectedFALSE manually constructed separator not author defect.",
+    "Separate helper review firstREVISE terminalcollision, secondREVISE shortwrite, finalAPPROVE after narrowly affected benignchecks. PID/placeholder alone not native exit or cleanup proof.",
+    "Initial metadata-rich raw-method packet and associated receipts preserved; no grader received it. Currentpacket selects only identical genericclassification; exactF11metadata removals and raw-source-to-display selection bound, no criteria change.",
+    "Grade originals are complete received JSON transcriptions with compacted score whitespace, not rawtransport authentication; no field/score/claim/verdict changed.",
+    "EditorTypeScript/Biome unavailable; no install/settings changes; actualaffectedNodechecksPASS.",
+    "F32+two successiveFINALartifactrounds/archive DEFERRED; exclusion not skill-effect evidence."
+  ]
+}

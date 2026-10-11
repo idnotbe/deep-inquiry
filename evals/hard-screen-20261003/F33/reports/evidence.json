@@ -1,0 +1,84 @@
+{
+  "suite_hashes": {
+    "cases.json": "aeb71a4e43207ac163dd03132a9b1276f22eb4981b2024360e34d78c6d3a27bf",
+    "rubrics.json": "da18dc1f0d59d4a404075896740a93f8938799789a24ce50e720386d1b3e84fb",
+    "protocol.json": "540c51dd1e9c91bbfea55ed703be6c351f7f9be6c36061a9ff90b3bab0047200"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "repository_commit_at_dispatch": "554095ddedf57b8fa26bcde1aacb1b78d96f6345",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F33C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "014d9f52c8cd62348ef210bf92566fda029dd8552d0250143c908f32e7f7c36f",
+      "turn_id": "local-turn-89e442c910a7d324",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F33C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "7d5df6fa025a56d05aaa0a63c7586365e0b9b68238a5b36312a9943fea4ace8d",
+      "turn_id": "local-turn-09711a913160d2f3",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F33C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "54a4881116cacfed9e1680e7fc5e821a88731f4aa8367cb43af1bbf090ec7c1c",
+      "turn_id": "local-turn-af2f4eee10b491a5",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "1eb89de759a7d5bb0b4265958ccdfcc68224169e2de33abc66ae8ce3c078d9ae",
+  "grading_packet_redaction": "Built blank with only current task/rubric/anchor, manually read unchanged generic selection rules, original anonymous answers; metadata/stale-case check and readback before both fresh graders. No prior grades/model/context/oracle.",
+  "pretrial_reviews": [
+    "Two fresh source-only reconstructors C5/H4.5/K5, strict all-mixed proofs and independent physical global bounds. K certificate exception and common all-equilibrium objective clarified beforefreeze.",
+    "First bundled A approval then distinct B REVISE found private H retained1 appointment equivalence wrong. Sources/objective/rubric unchanged; oracle corrected and two explicit4/4 counterexamples added. Original finding/first approval preserved. Targeted A and distinct corrected B both APPROVE and independently actually offline no-cache reran10x16/K8/bounds/certificate histories.",
+    "Writer actualuv proofPASS, no-excuse2filesPASS, suitevalidate3PASS. Static validity not difficulty."
+  ],
+  "freeze_sha256": "bbb7524d218f6b0dd4193bc968958251c219694fb1a493ce8c860746d0271975",
+  "producer_file_sha256": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "plan_sha256": "d9b888458b5948ca502b4d7cddd4848c846a6d467be7dadb7a9282fbc1efe4c5",
+  "neutral_canary_plan_sha256": "cc64b77e8b65f942ad4869cf89ae51b030876003c94839ad57832d20a6549fa9",
+  "common_context_sha256": "bc5004f573d28713e8699683f359d2fb02336109f182536c460ca376d56f11f2",
+  "static_proof_sha256": "382cd97266f3911289589f6fa5d8d0e8042ed92c1e9efcf836ea25f1e25ebfef",
+  "certificate_sha256": "3cc0f035a266f101fcf99e783cb0003b82a879f7f02a491174fab56d8a02a8c0",
+  "oracle_sha256": "d27daa0f1fc268570bfcc8231b2d511bcbac9eb2a48aec2a6452558c8cfcd874",
+  "neutral_canary_completed": 2,
+  "original_slots": 3,
+  "outcome_retries": 0,
+  "new_full_tests_run": false,
+  "reused_full_checks": "Unchanged153tests6environment skips0fail;147executedpasses. No runner/skill edits.",
+  "artifact_review_status": "PENDING_STABLE_POOL_FINAL_ROUNDS",
+  "local_archive_status": "DEFERRED_NO_PUSH",
+  "transport_expiry": "Outer GitBash300s timeout while original runner live; all3 originalattempt1 later completed, no rerun/replacement."
+}

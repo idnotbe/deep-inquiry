@@ -1,0 +1,86 @@
+{
+  "suite_hashes": {
+    "cases.json": "3dc010e397a8fc5583cdb085eda9afda580a35b520077de016ab0826e8b7cd2a",
+    "rubrics.json": "62db9e7757b2e613dd669f4b6ace11d749d7b3291699757f8e67a9ff70af3bea",
+    "protocol.json": "9ab4e79beaff4d55a034e2a76d801e7ba22828407d52345608d803c8d0ecba3c"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "repository_commit_at_dispatch": "554095ddedf57b8fa26bcde1aacb1b78d96f6345",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F34C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "fa318d104df499616d09af99fdb8d993187a10e383c0ec968cbffd3516e36aba",
+      "turn_id": "local-turn-0bd50c790cf50b6f",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F34C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "6bbbba066e6306e8e5938afb46d5cf78f08d6323c0abb4963de3360a6cbe5f67",
+      "turn_id": "local-turn-1b0de347a4b60d53",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F34C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "ee2e5410503caead86c39f2474751d6c2af22031e17adc0adacdc62c4212a76d",
+      "turn_id": "local-turn-dd8e9865969104cb",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "d3bbb585ad2ccb8c1935a515213258760d09ccd11adf93cbcc24bade3d7eb161",
+  "grading_packet_redaction": "Builtblank/currentcase-onlytask,rubric,anchor,manuallyreadgenericrules,actualanonymousanswers. Numericstalecheck wronglymatchedlegitimatecurrentD9 26/35; checkscopedcaseIDs/metadata withoutpacket/inputedit. Readbackverifiedbeforefreshgraderdispatch.",
+  "pretrial_reviews": [
+    "Freshsource-onlyA/B independentlyactualall78125maps C/H exactintegersearch, exactmodepairsearch, components/randomizationproof. OriginalID/private-seedformalinputprecision gaps closedbyserialbeforeintake andALLseedindependentlaws; bothtargetedreread.",
+    "FirstbundledA REVISE ONLYcase-localrubricfairness; no mathematical/source disagreement. Correctedgraded-case-only mechanismdimension/sharedanchor. DistinctfinalB APPROVE exactcurrent9hashes andextra centered/perfectfloors/zeroA/Hwrongframebehavior checks, reusedoriginal independentfullsearch.",
+    "Writer actualuv all78125 EACHafter/before/exact,all15B,21componenttracePASS; validate3/no-excuse1filePASS; designerORIGINAL+SEPARATEcorrection rawreporthashbound, notnativeevidence. Staticvalidityonly."
+  ],
+  "freeze_sha256": "7fe9323412c453376262a21a780a489da6ab2f59c62ebf6f7aea438418e020a8",
+  "producer_file_sha256": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "plan_sha256": "ca8aa3cd250ac05edf5e5eba91639f5a88054e6c13d8f5913fc8940c8e23b45d",
+  "neutral_canary_plan_sha256": "d113e2f054e70d26968f89441428a29807f7f663597eb11608fe1f656a04db6f",
+  "common_context_sha256": "2d10d72b3e4e368ef1c2b88f5b00ac2dca45876d122da9b9cc0d6f549de77dbb",
+  "static_proof_sha256": "a45e874c4764a565fb3b7520b5650e5d88d2cf2f19ce7c376a0b692d90bb09ff",
+  "certificate_sha256": "542538bf0ae69d76ba096a001b84b770b7e337b562e4f48ebaf0840c0dac687a",
+  "oracle_sha256": "aa2c6c5bfb8471101771140953eba87ef41d3c1242309cef98120dc7272efa85",
+  "neutral_canary_completed": 2,
+  "original_slots": 3,
+  "outcome_retries": 0,
+  "new_full_tests_run": false,
+  "reused_full_checks": "Unchanged153tests6environment skips0fail;147executedpasses. No runner/skill edits.",
+  "artifact_review_status": "PENDING_STABLE_POOL_FINAL_ROUNDS",
+  "local_archive_status": "DEFERRED_NO_PUSH",
+  "transport_expiry": "Outer GitBash300s timeout while original runner live; all3 originalattempt1 later completed, no rerun/replacement.",
+  "designer_original_and_correction_sha256": "4b0349b313ef3362cd14d474e468ef36d67a4be0c786560d3200bb2b2721e768",
+  "actual_final_code_behavior_sha256": "cab11274994e91e0c94e3bb33974a01e347bdfe7335cc49ebb9271480462642f"
+}

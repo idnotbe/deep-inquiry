@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "candidate": "F104",
+  "formal_revision": 1,
+  "proposal_revision": 2,
+  "status": "EXCLUDED_NOT_HARD_ROOT_FINAL_ACCEPTED",
+  "retained": 0,
+  "target": 6,
+  "scenarios": [
+    {
+      "scenario": "Frozen source, contracts, finite algebra and collector guards",
+      "invocation_receipt": "temp/hard-screen-20261003/worker/F104/PRETRIAL.json",
+      "observable": "Six case scenarios and twelve collector scenarios passed before native release",
+      "artifact": "temp/hard-screen-20261003/worker/F104/qualification/freeze.json"
+    },
+    {
+      "scenario": "Fresh static neutral pair",
+      "invocation_receipt": "temp/hard-screen-20261003/worker/F104/qualification/canary-MCP-invocation.json",
+      "primary_return": "temp/hard-screen-20261003/worker/F104/qualification/canary-tool-handle.json",
+      "observable": "2 completed; all actual guards SAFE; MCP/Node exit0; SAME owned Python close0",
+      "artifact": "temp/hard-screen-20261003/worker/F104/qualification/neutral-safe-readback.json"
+    },
+    {
+      "scenario": "First C originals in order 2,3,1",
+      "invocation_receipt": "temp/hard-screen-20261003/worker/F104/original-MCP-invocation.json",
+      "primary_return": "temp/hard-screen-20261003/worker/F104/original-tool-handle.json",
+      "observable": "3 completed; all actual guards SAFE; MCP/Node exit0; SAME owned Python close0; no retries or replays",
+      "artifact": "temp/hard-screen-20261003/worker/F104/original-safe-readback.json"
+    },
+    {
+      "scenario": "Gate-bound first blind packet",
+      "invocation": "node temp/hard-screen-20261003/worker/F104/build-blind.cjs 2bf1c3b79b7173deae0d76de0befd5451dbe83aa3b2371b90a188084ab49952f",
+      "primary_return": "temp/hard-screen-20261003/worker/F104/build-blind-actual-lossless.json",
+      "observable": "Packet created once after ROOT SAFE",
+      "artifact": "temp/hard-screen-20261003/worker/F104/blind/packet.json"
+    },
+    {
+      "scenario": "Exactly two independent FIRST graders",
+      "invocation_receipt": "temp/hard-screen-20261003/worker/F104/blind-launches.json",
+      "observable": "Both full original wrappers saved and exact-read back before synthesis or mapping; each gives all three 10/10, no objective or qualifying failure",
+      "artifact": "temp/hard-screen-20261003/worker/F104/BOTH-FIRST-boundary.json"
+    },
+    {
+      "scenario": "Public response preservation",
+      "observable": "Each response SHA256 equals its corresponding original final; full FIRST copies preserved",
+      "artifacts": [
+        "evals/hard-screen-20261003/F104/responses/r1.txt",
+        "evals/hard-screen-20261003/F104/responses/r2.txt",
+        "evals/hard-screen-20261003/F104/responses/r3.txt",
+        "evals/hard-screen-20261003/F104/blind-FIRST-one.md",
+        "evals/hard-screen-20261003/F104/blind-FIRST-two.md"
+      ]
+    },
+    {
+      "scenario": "Private README append and inverse",
+      "invocation_receipt": "temp/hard-screen-20261003/worker/F104/README-proposal-invocation.json",
+      "primary_return": "temp/hard-screen-20261003/worker/F104/README-proposal-actual-lossless.json",
+      "observable": "Inverse equals before; shared README equals before; exit0",
+      "artifact": "temp/hard-screen-20261003/worker/F104/README-proposal.json"
+    }
+  ],
+  "publication_bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F104/cases.json",
+      "sha256": "98b64aaea367dff984c58dfac6cca27bed099c2c71a5397607e86acdef3a5aea"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F104/rubrics.json",
+      "sha256": "88dd7c58529fd68ae11b3028c7a0cb115f17ff7a89d8cba7bbb3de7677130b83"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F104/protocol.json",
+      "sha256": "01b4fa798a93ec02fb6ff08464a334cc30322594d19cc3ae182ec17127327711"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/root-final-prefinals/grades.json",
+      "sha256": "544bdb8b6111a533100ee80fe088c8b8476cf2cd8f19eb59b5cf521546fcad9b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/root-final-prefinals/status.json",
+      "sha256": "587467175bedd1edc67217d6d9863bf27ccfbbd61a8225ff3cbc9408c384bf53"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/root-final-prefinals/report.md",
+      "sha256": "a01927b60e184e7e56b252fa3b25f3c45e15bf523deb261c1802f8d1d39bc40f"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F104/blind-FIRST-one.md",
+      "sha256": "b95b9be15997003542b844eac656c45a31ba4d52b1a6d977e02fb6d96a4c7195"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F104/blind-FIRST-two.md",
+      "sha256": "e8ab88aab031e768ac15c7a27fe3417f122c5ae0be58b03abf254b6e664b42e8"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F104/responses/r1.txt",
+      "sha256": "7bd7228f185db1fec59427eb043acaa19e78e111619f5d3a0962d3cac9b99944"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F104/responses/r2.txt",
+      "sha256": "5caf852813f0ae6678a2a226689eea435ac2999615867333b10d4f79832481be"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F104/responses/r3.txt",
+      "sha256": "48e2807b2f4f7e54ec08c35b576ef8e7e699c52e86d0d42354b6f5bdeb3b6b50"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/README-before.md",
+      "sha256": "f8b339f47c9aeef77cec3b8d0529696d93ead07ee356f45dddd1d9d800d2ae70"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/README-append.md",
+      "sha256": "ebf85929d3e4e1d165ff7d0d4fe80a6bdb42a920d9e78aaa3f4cd2017e617dd6"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/README-proposed.md",
+      "sha256": "aaa091745357d9efa1be41fad4ec01e3e44801c112cc3c8585dfa76a73e2c6a6"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/README-inverse.md",
+      "sha256": "f8b339f47c9aeef77cec3b8d0529696d93ead07ee356f45dddd1d9d800d2ae70"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/BOTH-FIRST-boundary.json",
+      "sha256": "9d513445e2013268a1c3a62bed7987296e72c003ab5486172e68f738a405543c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/build-blind-actual-lossless.json",
+      "sha256": "9f38fae82c1d161389822bcb411257d2684ed7c15ff669d04fb98e9981601a7f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/blind/packet.json",
+      "sha256": "f193a80a2e70ccc3226f3d8519a6dfb2646b1e3a2fcaf21e6cb9f84aae49c414"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/blind-launches.json",
+      "sha256": "36bafe89551d92a2563aeb27a9a76d1a98024dd5ecf381f3c0b495fa8a2bfd25"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/blind-display-provenance.json",
+      "sha256": "680253f3c40d860acbe38a27cee92820a82cfa8e0b76de700fe24bc3aced588d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f104-safe-root-gate.json",
+      "sha256": "2bf1c3b79b7173deae0d76de0befd5451dbe83aa3b2371b90a188084ab49952f"
+    }
+  ],
+  "runtime_bindings": [
+    {
+      "path": "temp/hard-screen-20261003/f104-pretrial-root-gate.json",
+      "sha256": "8efaf4b5a87cffd1c771ef1485041533ca0f39f4a18a1fac3ab19c2c5abfc494"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/qualification/freeze.json",
+      "sha256": "24d021f209b4fad8a0d68211d4bcd829482229f132b9be1e686aad0810baf0b7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/qualification/canary-MCP-invocation.json",
+      "sha256": "e9303bd59a0e346736c7c3c4c1b6d2668ad764279ee3ea87f5b400b9ebeeb05b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/qualification/canary-tool-handle.json",
+      "sha256": "85c7ab82a6920b0c3fb1c401b4a2f1c0d930b35f69ea71df12619dbd90482057"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/qualification/canary-collector-invocation.json",
+      "sha256": "9701af7417df30f4309b0a615a63eedf98478b4ec26d694083c4b864b631daeb"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/qualification/canary-collector-actual-lossless.json",
+      "sha256": "e6c1da1fdc4ad663b61e76844517a617424143a10069cecb730e2ba462b0407d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/qualification/neutral-safe-readback.json",
+      "sha256": "779e38b4b53f943d053949f0dd6b82ed2e0a917ebae8e0f7507630889c3e99ae"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/qualification/screening-plan.json",
+      "sha256": "287bcc07656264e4b66b229bb71c725a109c633278722831a606d2f23acbc49f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/original-operational-freeze.json",
+      "sha256": "6708ceae928f16f63cc8e370596983c41283ec24fd315392d080f48ea4a371de"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/original-MCP-invocation.json",
+      "sha256": "db03996d49b13e09936861b0714930ecf2a7d3083de8a2398c5e9e4663a5a699"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/original-tool-handle.json",
+      "sha256": "c2f72b06d71d4c50f788468aa696518da660d0c6dd1c77d71ca8844d371c5dd7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/original-collector-invocation.json",
+      "sha256": "7fefcdba7cfcad43ebb8e8e75f51cc07c3346cf7e1fcb15a04a87b802b4a81f2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/original-collector-actual-lossless.json",
+      "sha256": "23069604ee8e98c96fd364ca7744cea83fd30522e2c5cc92a77f76e705cb8bd9"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F104/original-safe-readback.json",
+      "sha256": "3c9e477203ca3289ad4fdfeb28ca6d8be166e8a18f37ece92cf6709894fd0605"
+    }
+  ],
+  "joint_qualifying_ids": [],
+  "objective_failures": 0,
+  "qualifying_failures": 0,
+  "unused": [
+    "F104_H",
+    "F104_K"
+  ],
+  "scored_treatment": 0,
+  "model_replays": 0,
+  "backend": "UNKNOWN/nonblocking",
+  "reasoning_effort_considered": false,
+  "disclosures": [
+    "Grader one first tried native PowerShell; process creation failed before packet content; continued through Git Bash. Full original disclosure retained.",
+    "Grader two initial combined display truncated packet; isolated complete packet read before grading. Full original disclosure retained.",
+    "Both read only packet plus permitted generic procedural skills; no forbidden substantive read disclosed. Eligibility proposed with explicit transport/display exceptions for ROOT final review.",
+    "Two orchestration JavaScript parse errors occurred before tool invocation; no model or collector replay.",
+    "Earlier source heredoc truncation and helper review report truncation/arithmetic correction are retained in PRETRIAL and full helper review.",
+    "Descendant cleanup is not verified beyond the inherited actual guards; requested outer timeout is not a watchdog guarantee."
+  ],
+  "accounting": {
+    "proposed_ids": 88,
+    "proposed_problem_final_files": 255,
+    "proposed_completed_problem_turns": 314,
+    "older_protected": "UNKNOWN unchanged",
+    "neutral_excluded": true,
+    "counts_are_not_all_valid_trials": true
+  },
+  "overall_goal": "TASK_UNMET_REGISTERED_GOAL_BLOCKED",
+  "root_final": "ACCEPTED",
+  "root_final_gate": "temp/hard-screen-20261003/f104-final-root-gate.json",
+  "historical_delivery": "Original FINAL and original publication hashes preserved through root-final-prefinals; accepted publication hashes below. Exact source, responses, FIRSTs and runtime unchanged.",
+  "accepted_publication_bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F104/report.md",
+      "bytes": 3324,
+      "sha256": "3c816bf2281a4616606abf3f43749f5093b969d968710e9b1a3572446fbd81b7"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F104/status.json",
+      "bytes": 1230,
+      "sha256": "1739b6b1d23fe5dad2ffa44ded26028e1c59644ad652a607ed46cbe4b54e6d38"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F104/grades.json",
+      "bytes": 5438,
+      "sha256": "9fa4ad0f9d876aef1e2966e9c80a274fa0f20493173c242ac80fe43ea8af660d"
+    }
+  ]
+}

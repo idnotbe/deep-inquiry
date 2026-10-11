@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "candidate": "F103",
+  "classification": "EXCLUDED_NOT_HARD",
+  "root_final": "ACCEPTED",
+  "retained": false,
+  "retained_count": 0,
+  "target_count": 6,
+  "overall_goal": "ACTIVE_UNMET",
+  "originals": {
+    "order": [
+      2,
+      3,
+      1
+    ],
+    "completed": 3,
+    "preserved_terminal_finals": 3,
+    "retries": 0,
+    "replays": 0,
+    "valid_runtime_guards": true
+  },
+  "neutral": {
+    "unscored_completed": 2,
+    "retries": 0
+  },
+  "grading": {
+    "eligible_independent_FIRSTs": 2,
+    "all_originals_correct": true,
+    "scores_each": [
+      10,
+      10,
+      10
+    ],
+    "objective_errors_each": 0,
+    "joint_qualifying_ids": [],
+    "joint_qualifying_count": 0
+  },
+  "H_K_participant_unused": true,
+  "scored_treatment": "NOT_RUN",
+  "efficacy": "NOT_EVALUATED",
+  "requested_model": "gpt-6-sol",
+  "backend_identity": "UNVERIFIED_NONBLOCKING",
+  "reasoning_effort_considered": false,
+  "raw_accounting": {
+    "prior": {
+      "candidate_ids": 86,
+      "problem_final_files": 249,
+      "completed_problem_turns": 308
+    },
+    "added": {
+      "candidate_ids": 1,
+      "problem_final_files": 3,
+      "completed_problem_turns": 3
+    },
+    "current": {
+      "candidate_ids": 87,
+      "problem_final_files": 252,
+      "completed_problem_turns": 311
+    },
+    "neutral_excluded": true,
+    "not_valid_trial_totals": true,
+    "older_protected_unknowns": "Unchanged; F46/F51/F93-r3 remain protected UNKNOWN"
+  },
+  "limits": [
+    "Only these three preserved C originals were screened.",
+    "H shares the mechanism but empirical difficulty matching remains unknown.",
+    "No scored skill comparison or retained-family claim."
+  ],
+  "next": "F103 closed, stages1-2 unmet 0/6; no replay or regrade."
+}

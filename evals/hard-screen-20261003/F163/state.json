@@ -1,0 +1,215 @@
+{
+  "candidate": "F163",
+  "version": "closure-1",
+  "source_version": "F163_SOURCE_V1",
+  "issue": 14,
+  "outcome": "EXCLUDED_NOT_HARD",
+  "difficulty": "NOT_HARD_IN_THIS_THREE_ORIGINAL_SCREEN",
+  "delivery_state": "PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW",
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "increment": 0,
+    "after": 0,
+    "target": 6
+  },
+  "interaction": "SINGLE_TURN",
+  "planned_original_episodes": 3,
+  "planned_problem_turns": 3,
+  "original_episodes_launched": 3,
+  "observed_problem_turns": 3,
+  "original_finals_preserved": 3,
+  "accepted_gradeable_finals": 3,
+  "protocol_acceptance": "THREE_ORIGINALS_VALID_PER_INITIAL_AUDIT_PLUS_FRESH_PREFIX_COMPLETION_AND_ROOT_ACCEPTANCE",
+  "retries": 0,
+  "replacements": 0,
+  "followups": 0,
+  "extra_problem_turns": 0,
+  "grader_calls": 2,
+  "grade_results": 2,
+  "grading": "TWO_FRESH_COMPLETE_PACKET_RESULTS_COMPLETE",
+  "response_ids": [
+    "R-197C856586",
+    "R-0424DA83A3",
+    "R-8116ECB73B"
+  ],
+  "response_mapping": [
+    {
+      "anonymous_response_id": "R-197C856586",
+      "slot": "r3",
+      "bytes": 2844,
+      "sha256": "f77c96c44e735b4dbe9d87fde87e6661cda6b395dcecba438a578234966b83d9",
+      "original_record_index": 18
+    },
+    {
+      "anonymous_response_id": "R-0424DA83A3",
+      "slot": "r2",
+      "bytes": 2711,
+      "sha256": "f85c71f3307332ccfef5195e531e5b75ace86f4fc2214e229be8b287f8789f84",
+      "original_record_index": 18
+    },
+    {
+      "anonymous_response_id": "R-8116ECB73B",
+      "slot": "r1",
+      "bytes": 3114,
+      "sha256": "466351bd9c66820df6d10caf6f88d1cc01b43a71b5aeaa701df69f9e87fc682d",
+      "original_record_index": 18
+    }
+  ],
+  "retention_threshold_same_ids": 2,
+  "correct_decision": "Fence, Audit, preserve existing warehouse work, register truthful owners and dispatch only NONE purchases; Cedar at8 and conditional Birch at10, at most7 operator-minutes and $0 extra",
+  "scores": {
+    "a": [
+      10,
+      10,
+      10
+    ],
+    "b": [
+      10,
+      10,
+      10
+    ]
+  },
+  "objective_decision_errors": {
+    "a": [
+      false,
+      false,
+      false
+    ],
+    "b": [
+      false,
+      false,
+      false
+    ]
+  },
+  "qualifying_inquiry_failures": {
+    "a": [
+      false,
+      false,
+      false
+    ],
+    "b": [
+      false,
+      false,
+      false
+    ]
+  },
+  "qualifying_ids": {
+    "a": [],
+    "b": []
+  },
+  "same_id_intersection": [],
+  "additional_postoutput_validity_review_required": false,
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "heldout": {
+    "writer_reviewer_seen": true,
+    "participant_episodes": 0,
+    "used_in_grading": false
+  },
+  "route": {
+    "kind": "native subagent",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "observed_configuration": "Matches requested settings per fresh independent semantic audit",
+    "protected_initial_plaintext": "UNVERIFIED_ROOT_NATIVE_API_TRUST_ASSUMPTION",
+    "actual_backend_fallback": "UNVERIFIED",
+    "internal_isolation": "UNVERIFIED",
+    "shared_filesystem_isolated": false,
+    "effort_used_for_admission": false
+  },
+  "semantic_audit": {
+    "initial_path": "temp/hard-screen-20261003/f163-semantic-audit-initial.md",
+    "completion_path": "temp/hard-screen-20261003/f163-prefix-semantic-completion.md",
+    "root_acceptance": "temp/hard-screen-20261003/f163-validity-acceptance.md",
+    "initial_status": "UNVERIFIED",
+    "initial_gap": "38 approved command prefixes lacked complete meaning/relevance review",
+    "completion_status": "PASS_NO_RESIDUAL_MEANING_GAP",
+    "slots": [
+      {
+        "slot": "r1",
+        "overall": "VALID"
+      },
+      {
+        "slot": "r2",
+        "overall": "VALID"
+      },
+      {
+        "slot": "r3",
+        "overall": "VALID"
+      }
+    ],
+    "wrapper_difference": "FROZEN_WRAPPER_PLUS_ONE_LF_SEMANTICALLY_ACCEPTABLE_NOT_BYTE_IDENTICAL",
+    "command_prefixes": "38_ACTUAL_ENTRIES_MEANING_REVIEWED_BY_FRESH_COMPLETION",
+    "original_records": 66
+  },
+  "source_validity": {
+    "review_a": "APPROVE",
+    "review_b": "APPROVE",
+    "scope": "Source V1 validity only",
+    "novelty": "Substantial historical overlap disclosed; not an independent new family or empirical hardness proof"
+  },
+  "grader_provenance": {
+    "kind": "ROOT_PRESERVED_DELIVERED_JSON",
+    "original_rawlogs_independently_audited": false,
+    "additional_public_action_provenance": "UNVERIFIED_BY_CLOSURE"
+  },
+  "blind_packet": {
+    "path": "temp/assessment-0163/packet.json",
+    "bytes": 130475,
+    "sha256": "7385ffc37b9974bab8566e13c38040936a9df19ddf0e1ab10a6b3dfe23c4ecec",
+    "status": "COMPLETE_PACKET_ROOT_ACCEPTED_AND_GRADED",
+    "ordered_read_actions_observations_in_packet": true,
+    "C_only_oracle_in_packet": true,
+    "public_records": 21,
+    "root_acceptance": "temp/hard-screen-20261003/f163-validity-acceptance.md"
+  },
+  "historical_frozen_statuses_edited": false,
+  "historical_recovery_or_reclassification": false,
+  "catalog_application": "PREFIX_PRESERVING_APPEND_BOUND_BY_CLOSURE_VERIFICATION",
+  "closure_frozen": true,
+  "deviations": [
+    {
+      "id": "initial-prefix-gap-P1",
+      "severity": "P1",
+      "status": "COMPLETED_BY_FRESH_INDEPENDENT_REVIEW",
+      "initial_verdict": "UNVERIFIED_NOT_INVALID",
+      "description": "Initial audit reviewed all66 records but did not finish meaning review of38 actual permission entries. Fresh completion closes this gap; initial report remains unchanged.",
+      "evidence": [
+        "temp/hard-screen-20261003/f163-semantic-audit-initial.md",
+        "temp/hard-screen-20261003/f163-prefix-semantic-completion.md"
+      ]
+    },
+    {
+      "id": "denied-broad-output",
+      "status": "RETAINED_NOT_EXECUTED",
+      "description": "Preflight auxiliary skill read and initial/completion broad outputs were denied. Permitted bounded reads completed all required proof. Initial gap was unfinished review, not denial of individual prefix reads."
+    },
+    {
+      "id": "baseline-B-P2",
+      "severity": "P2",
+      "status": "RETAINED",
+      "description": "Prior regex-error output exposed a local-account Python installation path; no session-log path, raw UUID, secret or protected plaintext. Subsequent errors masked.",
+      "evidence": "temp/hard-screen-20261003/prospective-v4-review-rehearsal-b.md"
+    },
+    {
+      "id": "rehearsal-A-FAIL",
+      "status": "RETAINED",
+      "description": "Failed rehearsal A remains historical evidence; it is not repaired or reclassified.",
+      "evidence": "temp/hard-screen-20261003/prospective-v4-review-rehearsal-a.md"
+    }
+  ],
+  "additional_charge_usd": [
+    0,
+    0,
+    0
+  ],
+  "material_loss_usd": [
+    0,
+    0,
+    0
+  ]
+}

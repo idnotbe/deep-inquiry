@@ -1,0 +1,129 @@
+{
+  "candidate": "F158",
+  "version": "closure-1",
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "inputs": {
+    "temp/hard-screen-20261003/worker/F158-proposal/freeze.json": {
+      "bytes": 1010,
+      "sha256": "353fc199bff47876f1a62455025af504d76c2486d86d8f337b1510d96ba1c34f"
+    },
+    "temp/hard-screen-20261003/worker/F158-proposal/C.md": {
+      "bytes": 1214,
+      "sha256": "e943502027564d5ae01160245d53c4492ff952977cf3e866a939d154e04d31eb"
+    },
+    "temp/hard-screen-20261003/worker/F158-proposal/H.md": {
+      "bytes": 1292,
+      "sha256": "3782a360100311d80871b2c5a027ce89f9f03cd5cc0facb18ff9f2e207498ef2"
+    },
+    "temp/hard-screen-20261003/worker/F158-proposal/oracle.md": {
+      "bytes": 10665,
+      "sha256": "379059ff0db0fd9305ecfb8eaa040ee6d5cff3ab17088595034367ec67d9bca7"
+    },
+    "temp/hard-screen-20261003/worker/F158-proposal/protocol.json": {
+      "bytes": 3591,
+      "sha256": "fd6408880ecc86e0f1cedb820709fe82b505ef0a9a338f99f23409a92d1d799f"
+    },
+    "temp/hard-screen-20261003/worker/F158-proposal/design-note.md": {
+      "bytes": 2859,
+      "sha256": "da996341761244a3a3d2c42caeee27298e7efbd48b2bae4a29149631ce277bf5"
+    },
+    "temp/hard-screen-20261003/worker/F158-proposal/evidence.md": {
+      "bytes": 2060,
+      "sha256": "3007bc45af7090672647952dcda7249e68dcbf561b8f0fcc17d4ac17ad852b3d"
+    },
+    "temp/hard-screen-20261003/worker/F158-proposal/checks.json": {
+      "bytes": 3607,
+      "sha256": "72bd1ee4f290806e394abe1f1f0bc1d1717842056bf446e2ea414776a1702c0c"
+    },
+    "temp/hard-screen-20261003/f158-source-review-c.md": {
+      "bytes": 2539,
+      "sha256": "250a5be9f4ec45e52165058483ba2b0865eb5f43674158b8552837b2c5afd9bd"
+    },
+    "temp/hard-screen-20261003/f158-source-review-d.md": {
+      "bytes": 2327,
+      "sha256": "36bcc7e16ddc87e0ebfd34e8ae467d2007a11b74e46efdf304327c1b0373e586"
+    },
+    "temp/hard-screen-20261003/prospective-semantic-evidence-v3.md": {
+      "bytes": 9329,
+      "sha256": "9e7bf446a62b9896ee3756f52782dc4b208a057cf1622558b51dee2b8e43753a"
+    },
+    "temp/hard-screen-20261003/prospective-semantic-evidence-v3.checks.json": {
+      "bytes": 1886,
+      "sha256": "0f7a550f8972243a9816074b0b99148d9a119aef93c25eaa869daa00425bee4d"
+    },
+    "temp/hard-screen-20261003/prospective-native-collection-v1.md": {
+      "bytes": 9372,
+      "sha256": "33a456118f011b35745b6d4731a1637d6054383b13b18c69180ce5dba33900e5"
+    },
+    "temp/hard-screen-20261003/prospective-native-collection-v1.checks.json": {
+      "bytes": 3432,
+      "sha256": "a3af0c855a6334499de10b24dae70f0c7cf5546382e10231d2bf03e37a3647cd"
+    },
+    "temp/hard-screen-20261003/native-evidence-adoption.md": {
+      "bytes": 2055,
+      "sha256": "c2590f8c2d486206ca5fdf467017613c9b40a04e9cfe52a2be2a63a5dede640d"
+    },
+    "temp/hard-screen-20261003/native-evidence-bundle-review-c.md": {
+      "bytes": 3120,
+      "sha256": "8148d46f119f80785521dba3643c968cbfb8c75a3afd8abdc6e28d91c2097b2e"
+    },
+    "evals/hard-screen-20261003/prospective-method-v2.md": {
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    "evals/hard-screen-20261003/prospective-method-v3.md": {
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    },
+    "temp/problem-input-0158/input.txt": {
+      "bytes": 1214,
+      "sha256": "e943502027564d5ae01160245d53c4492ff952977cf3e866a939d154e04d31eb"
+    },
+    "temp/hard-screen-20261003/f158-native-pretrial.json": {
+      "bytes": 15852,
+      "sha256": "49c4483237ab49c97dfc7bc4a55f6525dae4e687277d5ec5ae3ca5c9070533a6"
+    },
+    "temp/hard-screen-20261003/f158-native-launches.json": {
+      "bytes": 4874,
+      "sha256": "c954901c2da08e67a5a30c2b45b33aa1ba71ab16a25ae0b3974897fc9bf11ef6"
+    },
+    "temp/hard-screen-20261003/f158-preflight-review.md": {
+      "bytes": 2442,
+      "sha256": "5e9b4aab4caf478381097aa762be2ce54a38c634b7230223bafe092ca9eb0b9f"
+    },
+    "temp/hard-screen-20261003/f158-root-predispatch-checks.json": {
+      "bytes": 2239,
+      "sha256": "29b6fb698ecd8e254d3ecc54b781974d33e70d45c507796ce34450c3efc94387"
+    },
+    "temp/hard-screen-20261003/worker/F158/pretrial-preparation.json": {
+      "bytes": 3237,
+      "sha256": "610f29a99156dfedc8871f507c449873d245c5a10872344c3b9fda515f13d49a"
+    },
+    "temp/hard-screen-20261003/worker/F158/evidence/collection-manifest.json": {
+      "bytes": 61453,
+      "sha256": "766339bad385dde488c1937e81a4d9382051fd6e63dd741e830bbbce2900eadf"
+    },
+    "temp/hard-screen-20261003/worker/F158/evidence/public-originals.json": {
+      "bytes": 34200,
+      "sha256": "e24b6a3a69141ed10db806f63f1d5d00b7de218ba5dbfd657a08c159e5f9b617"
+    },
+    "temp/hard-screen-20261003/worker/F158/evidence/semantic-audit.md": {
+      "bytes": 10902,
+      "sha256": "2f81bd7657ff55e9bd520f8278d356cdff92bcf9417dd546d93755c49db6eabc"
+    },
+    "temp/hard-screen-20261003/worker/F158/blind/non-grader-manifest.json": {
+      "bytes": 9281,
+      "sha256": "893f1c86c7817a54588307ae90061882029f0a34d47e5ae9b2b4633ec343ea21"
+    },
+    "temp/hard-screen-20261003/worker/F158/blind/grader-packet.json": {
+      "bytes": 30439,
+      "sha256": "f1b2890affe1e2b735d2245664e5f0b8f54b1e8003a6e218c02222f16ad5524b"
+    },
+    "temp/hard-screen-20261003/worker/F158/blind/check_packet.py": {
+      "bytes": 3394,
+      "sha256": "5ca4a52ccfc41d7c2ecaa6ffe277cd4616da6a439be8be10190c3d7545374d68"
+    }
+  },
+  "outputs": "Output hashes are in closure/selfcheck.json; manifest excludes itself and verification artifacts to avoid circular bindings.",
+  "binding_meaning": "Exact current file bytes; matching hashes alone do not establish runtime or semantic acceptance."
+}

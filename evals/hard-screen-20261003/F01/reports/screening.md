@@ -1,0 +1,6 @@
+# F01 screening: excluded as too easy
+Three actual fresh native baseline answers all derived the feasible target rate [.4,1], recommended A fraction2/3, obtained regret2/15, and rejected paid perfect information at cost.15. Independent graders A and B each scored10/10/10, full passes3/3. The frozen exclusion gate excludes this family. No arithmetic or inquiry failure was observed. This is no evidence for or against skill benefit.
+
+Inputs and reference oracle were reviewed before exact-byte freeze. Two neutral delivery canaries completed, then three screening outputs completed. All original final answers and separate grader decisions are retained beside this report. Confirmation F01H and control F01K remain unused; no scored treatment ran. Requested native model gpt-6-sol; backend identity unverified. Reasoning effort is not a selection consideration.
+
+Original construct inspired by [joint subgroup evidence](https://www.nber.org/papers/w30461) and [fractional treatment choice](https://www.nber.org/papers/w11675); source structures only, original wording and numbers. The author had access to the heldout: unused, not author-blind. Validity reviews support solvability and material evidence/decision choices, but observed responses prove this instance is easy for the tested baseline.

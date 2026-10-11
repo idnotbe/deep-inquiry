@@ -1,0 +1,114 @@
+{
+  "status": "EXCLUDED_AFTER_VALID_THREE_FIRST_ORIGINALS_AND_TWO_FIRST_BLIND_GRADES",
+  "candidate": "F53",
+  "originals": [
+    {
+      "repetition": 2,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "7eac8652fb326a63929e94cf3f7ba6acb277d74192a07534b1784798475f1a6c",
+      "delivery_sha256": "51b5fca4ef28367ea66d0db49fb45322edd4ed680a7ea33e629917e5538f32a0",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "ab00215e2be36926d1ec582bf6effc70df68e635f7099c8ed51cb2a06780e975",
+      "final_bytes": 1174,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "d9d48633d3364bd610546f45a18cfda15361d395ec644ea99fc4a2ad9792e7fe",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "repetition": 3,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "1c8d57960582b1c90d2f4a0c1314e6159e7922a08c982fb2ab05fecf0cb2930c",
+      "delivery_sha256": "51b5fca4ef28367ea66d0db49fb45322edd4ed680a7ea33e629917e5538f32a0",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "2be8b211a502b4985efb8dc855f1f5222f10a704cda7ef740b5f438ed2b97470",
+      "final_bytes": 1323,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "d9d48633d3364bd610546f45a18cfda15361d395ec644ea99fc4a2ad9792e7fe",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "repetition": 1,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "47dec94431461ba84b4948dbf164075d464dd94466e47af3742c08704798fdbc",
+      "delivery_sha256": "51b5fca4ef28367ea66d0db49fb45322edd4ed680a7ea33e629917e5538f32a0",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "a379b6afbb0e647747ac74430f62e7cb97f85da9ca604d09a1b0c30893acb9a6",
+      "final_bytes": 1159,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "d9d48633d3364bd610546f45a18cfda15361d395ec644ea99fc4a2ad9792e7fe",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "counts": {
+    "confirmed_family_lowerbound": 48,
+    "preserved_terminal_finals_lowerbound": 139,
+    "problem_turns_lowerbound": 195,
+    "retained": 0,
+    "F46_contribution": "UNKNOWN originaldispatch/completedturns/exit; protected profile unchanged",
+    "F51_contribution": "Actual model execution/completion UNKNOWN; successful captures0; protected originals unchanged"
+  },
+  "grade_totals": {
+    "A": [
+      10,
+      10,
+      10
+    ],
+    "B": [
+      10,
+      10,
+      10
+    ]
+  },
+  "objective_errors": {
+    "A": 0,
+    "B": 0
+  },
+  "qualifying_failures": {
+    "A": 0,
+    "B": 0
+  },
+  "joint_ids": [],
+  "retained": 0,
+  "goal": "0/6 active unmet",
+  "neutral": {
+    "roots": 2,
+    "completed_turns": 2,
+    "unscored": true,
+    "problem_counts": 0
+  },
+  "current_source": "Historical CL-4 four/day preserved; current SO-63 six/day; original historical private4 rejected, current refinement3 selected prospectively.",
+  "H_K": "Author/reviewer seen, model UNUSED/NOT_RUN",
+  "scored_treatment": "NOT_RUN",
+  "skill_efficacy": "UNKNOWN; excluded screening is not a skill-effect comparison",
+  "effective_backend_verified": false,
+  "reasoning_effort_considered": false,
+  "no_retry_replacement_regrade": true,
+  "protected_F41_F46_F51": "All original states/artifacts unchanged; F46/F51 execution-completion contributions UNKNOWN"
+}

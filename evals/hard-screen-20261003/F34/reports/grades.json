@@ -1,0 +1,300 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "reason": "The complete finite selector correctly enumerates actual post-A frame observation groups, optimizes bounded integer B commands, includes every charge and the D9 fee, and compares the selected minimum with the exact ceiling. Its scoring produces S6=255 units and D9=292 units. Item IDs and independent seeds cannot improve the deterministic minimum. Exact printed decimals or an explicitly stated S6 result are unnecessary under the accepted algorithm policy."
+      },
+      {
+        "response_id": "R02",
+        "dimensions": {
+          "decision": 0,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 1
+        },
+        "total": 7,
+        "critical_failures": [],
+        "objective_decision_error": true,
+        "qualifying_inquiry_failure": false,
+        "public_error": "**Do not qualify the release:** even D9’s exact-position policy costs \\(73/70\\) credit per item, above \\(23/25\\).",
+        "code_behavior": "The selector correctly obtains S6=255 units, selects S6 over D9=292 units, and prints qualify: True. Its integer ceiling comparisons are correct.",
+        "reason": "The public refusal contradicts the complete correct decision algorithm. This establishes an objective decision error. The answer does not unambiguously state a false universal S6 bound or a wrong input, state, frame, or action premise: interpreting 'even D9' as an explicit universal lower bound would add an unstated premise. The observable contradiction alone is insufficient for the frozen qualifying chain.",
+        "repair": "Retain the supplied selector and its feasible alternatives; replace the contrary public refusal with its computed decision: qualify using S6 at 51/56. No arithmetic defect in the supplied selector was established."
+      },
+      {
+        "response_id": "R03",
+        "dimensions": {
+          "decision": 0,
+          "evidence": 2,
+          "mechanism": 1,
+          "feasibility": 1,
+          "support": 0
+        },
+        "total": 4,
+        "critical_failures": [
+          {
+            "type": "Explicit false universal bound excluding a complete better legal policy",
+            "public_claim": "S6 has no surcharge, but its noisy frame makes its best legal station programs more expensive overall.",
+            "associated_authorization": "**Do not qualify the release.** The least expected charge is **73/70 credit per item**, using D9.",
+            "code_expression": "assert s6_score > d9_score",
+            "supplied_premises": [
+              "X is uniform over -5,-3,-2,0,2,3,5.",
+              "A observes X at 3ms, chooses integer u in [-2,2], and produces Z=X+u.",
+              "The same-item frame captures Z at 6ms and publishes Y=Z+N, with independent N weights 1,2,1 over -1,0,1.",
+              "S6 supplies Y to B before its 8ms command; B chooses integer b in [-7,7].",
+              "The total charge is u²/5+b²/10+(Z-b)², plus the selected mode surcharge.",
+              "S6 has zero surcharge; D9 supplies exact current Z and costs 3/10.",
+              "Programs are loaded before intake; the 30ms audit is unavailable for the current commands.",
+              "IDs and all seeds are independent of current X and N.",
+              "The common objective is minimum expected total charge, with ceiling 23/25; zero finished displacement is not required."
+            ],
+            "complete_legal_counterpolicy": {
+              "mode": "S6",
+              "station_A_X_to_u": {
+                "-5": 1,
+                "-3": 2,
+                "-2": 1,
+                "0": -1,
+                "2": 0,
+                "3": -1,
+                "5": -2
+              },
+              "resulting_Z_in_X_order": [
+                -4,
+                -1,
+                -1,
+                -1,
+                2,
+                2,
+                3
+              ],
+              "station_B_Y_to_b": {
+                "-8": 0,
+                "-7": 0,
+                "-6": 0,
+                "-5": -4,
+                "-4": -4,
+                "-3": -4,
+                "-2": -1,
+                "-1": -1,
+                "0": -1,
+                "1": 2,
+                "2": 2,
+                "3": 2,
+                "4": 3,
+                "5": 0,
+                "6": 0,
+                "7": 0,
+                "8": 0
+              },
+              "constraint_check": "A uses only its actual X input; B uses only its actual Y input. All commands satisfy their integer ranges. The static tables are loaded before intake, use no audit data or correlated seeds, and account for the supplied same-item frame and independent noise.",
+              "expected_charges": {
+                "A_movement": "96/280",
+                "B_movement": "129/280",
+                "finished_displacement": "30/280",
+                "surcharge": "0",
+                "total": "255/280 = 51/56"
+              }
+            },
+            "material_changed_authorization": "255 is below both the claimed D9 minimum of 292 units and the qualification ceiling of 257.6 units. The complete legal replacement qualifies the release using S6, changing the public refusal and selected mode.",
+            "arithmetic_exclusion_check": "The exposed enumeration objective, D9 charge, and ceiling calculation are correct. The false comparison assertions and explicit universal S6 claim are not supported by an exposed arithmetic operation whose local correction explains and repairs the decision. No hidden cause is inferred.",
+            "root_count": 1
+          }
+        ],
+        "objective_decision_error": true,
+        "qualifying_inquiry_failure": true,
+        "reason": "The public universal S6 comparison is directly refuted by a complete all-constraint legal policy. The supplied enumeration itself obtains the better S6 score, but its false assertions prevent the advertised output and mode comparison. The D9 table and its 73/70 charge are otherwise legal and correct; no zero-displacement necessity is attributed to the answer."
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "findings": [
+          "The complete offline generator correctly minimizes both modes and selects qualifying S6. An explicit decimal or prose announcement of S6 qualification is unnecessary under the accepted-answer policy.",
+          "Its score scaling, observation groups, command bounds, D9 surcharge, and exact qualification comparison are correct. Its tables require only the actual station execution inputs.",
+          "IDs and independent seeds cannot lower the optimum: fixing the exogenous ID and all seeds gives deterministic station tables, and averaging their costs cannot beat the minimum deterministic pair."
+        ]
+      },
+      {
+        "response_id": "R02",
+        "dimensions": {
+          "decision": 0,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 1
+        },
+        "total": 7,
+        "critical_failures": [],
+        "objective_decision_error": true,
+        "qualifying_inquiry_failure": false,
+        "findings": [
+          "The public instruction \"**Do not qualify the release:**\" is wrong. The supplied generator instead selects S6 at 255/280 and prints qualify=True.",
+          "The executable selector correctly handles all physical costs, actual observation groups, D9 exact Z, mode surcharge, and bounded commands. The integer ceiling description and executable comparison are equivalent for its integer objective.",
+          "The stated D9 cost and its failure to meet the ceiling are correct. The answer does not explicitly state a false S6 universal bound or an incorrect execution-input/state premise. Inferring that exact D9 must dominate S6 would invent a hidden premise.",
+          "The contradictory rejection is therefore an objective decision error, but the required public semantic failure chain is insufficient. It is not classified as an exposed arithmetic/copy exclusion."
+        ]
+      },
+      {
+        "response_id": "R03",
+        "dimensions": {
+          "decision": 0,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 1
+        },
+        "total": 7,
+        "critical_failures": [
+          {
+            "type": "explicit_false_universal_bound",
+            "root": "The claimed S6 minimum exceeds the D9 minimum.",
+            "exact_public_claim": "S6 has no surcharge, but its noisy frame makes its best legal station programs more expensive overall.",
+            "exact_executable_claim": "assert s6_score > d9_score",
+            "supplied_premises": [
+              "X is uniform on -5,-3,-2,0,2,3,5 and independent of IDs and seeds.",
+              "At 3ms A uses X and chooses integer u in [-2,2], producing Z=X+u.",
+              "The same-item frame captures Z at 6ms and publishes Y=Z+N, with independent N probabilities 1/4,1/2,1/4.",
+              "At 8ms S6 B observes only its item ID and Y and chooses integer b in [-7,7].",
+              "Total charge is u²/5+b²/10+(Z-b)² plus mode surcharge; S6 surcharge is zero.",
+              "Programs load before intake; the 30ms audit is unavailable before departure.",
+              "Qualification uses expected total charge at most 23/25; zero finished displacement is not required."
+            ],
+            "complete_legal_counterpolicy": {
+              "mode": "S6",
+              "station_A_X_to_u": {
+                "-5": 1,
+                "-3": 2,
+                "-2": 1,
+                "0": -1,
+                "2": 0,
+                "3": -1,
+                "5": -2
+              },
+              "station_B_Y_to_b": {
+                "-8": 0,
+                "-7": 0,
+                "-6": 0,
+                "-5": -4,
+                "-4": -4,
+                "-3": -4,
+                "-2": -1,
+                "-1": -1,
+                "0": -1,
+                "1": 2,
+                "2": 2,
+                "3": 2,
+                "4": 3,
+                "5": 0,
+                "6": 0,
+                "7": 0,
+                "8": 0
+              },
+              "execution_legality": "A uses only X at 3ms; B uses only Y at 8ms. Both programs are loaded before intake. Every command is within its physical range. IDs, seeds, late audit, and rewriting are unused. Impossible Y entries have legal defaults.",
+              "expected_charge_components": {
+                "A_movement": "96/280",
+                "B_movement": "129/280",
+                "finished_displacement": "30/280",
+                "mode_surcharge": "0",
+                "total": "255/280 = 51/56"
+              },
+              "qualification_margin": "23/25 - 51/56 = 13/1400 > 0"
+            },
+            "material_changed_authorization": "The answer rejects qualification and selects D9 at 73/70. The complete legal counterpolicy permits qualification using S6 at 51/56 and changes both the input mode and loaded station commands.",
+            "arithmetic_copy_exclusion": "Not established. The D9 arithmetic is correct, and the S6 search kernel calculates the correct objective. The erroneous assertions and prose state a false universal ordering; no publicly exposed erroneous arithmetic operation has a demonstrated local arithmetic repair that fixes both claim and decision.",
+            "counting": "One root failure, counted once."
+          }
+        ],
+        "objective_decision_error": true,
+        "qualifying_inquiry_failure": true,
+        "findings": [
+          "The presented D9 table is legal and achieves its correctly stated 73/70 charge.",
+          "The S6 enumeration kernel is correct and yields 255, but its first assertion requires 255 > 292 and therefore fails. Its subsequent rejection assertion is also false.",
+          "Unlike R02, the public prose and executable assertion explicitly bound the best S6 policy above D9. The complete legal counterpolicy and changed authorization satisfy all four required elements of the frozen false-bound chain."
+        ]
+      }
+    ]
+  },
+  "independent_verification": {
+    "A": {
+      "native_python_execution": "NOT_RUN: python was unavailable; the installed py launcher could not start its interpreter.",
+      "executed_check": "An independently derived equivalent was executed in memory using Node. It exhaustively evaluated all 78125 deterministic A tables and every bounded B command within each actual Y observation group, then independently minimized D9.",
+      "results": {
+        "s6_minimum": "255/280 = 51/56",
+        "d9_minimum": "292/280 = 73/70",
+        "qualification": "YES, using S6",
+        "r03_assertions": "Both supplied assertions are false under the independently verified results."
+      },
+      "limits": "The original Python programs were inspected but not executed byte-for-byte. Their formulas and control flow were checked against the supplied facts and the independently executed calculation."
+    },
+    "B": {
+      "submitted_python_executed": false,
+      "limitation": "python was unavailable; py referenced a WindowsApps interpreter whose process could not be created.",
+      "verification_performed": "Read every submitted program and independently executed an equivalent exhaustive integer optimization in memory using Node. Enumerated all 78,125 deterministic A tables, optimized every actual Y observation group over all 15 legal B commands, independently optimized D9, and audited each selected policy over all 21 X/noise combinations.",
+      "verified_minima": {
+        "S6": "255/280 = 51/56",
+        "D9": "292/280 = 73/70",
+        "qualification_ceiling": "23/25"
+      },
+      "limits": "Node verification establishes the mathematical program behavior; it is not a native execution transcript of the submitted Python."
+    }
+  },
+  "grader_scope": {
+    "A": "Blind review of the permitted packet and mandatory skills only. No sibling artifacts, prior grades, model conditions, or external sources consulted. No files modified.",
+    "B": "Blind independent grading of the three supplied finals only. No siblings, oracle, mapping, previous grades, model conditions, or memory consulted. No files modified."
+  },
+  "grader_ids": {
+    "A": "f34_grader_a",
+    "B": "f34_grader_b"
+  },
+  "packet_sha256": "d3bbb585ad2ccb8c1935a515213258760d09ccd11adf93cbcc24bade3d7eb161",
+  "classification": "EXCLUDED",
+  "objective_decision_errors": 2,
+  "objective_error_response_ids": [
+    "R02",
+    "R03"
+  ],
+  "jointly_qualifying_response_ids": [
+    "R03"
+  ],
+  "jointly_qualifying_count": 1,
+  "required_same_qualifying_response_count": 2,
+  "retained_hard_families_total": 0,
+  "required_hard_families": 6,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "artifact_review_status": "PENDING_STABLE_POOL_FINAL_ROUNDS",
+  "descriptive_disagreement": "R03 A4 B7 componentseveritydifference preserved; rootfailure andprimarycount bothone, noaverage/regrade.",
+  "all_three_failure_extra_review": "NOT_TRIGGERED: R01correct"
+}

@@ -1,0 +1,70 @@
+{
+  "suite_hashes": {
+    "cases.json": "42beaed6062199057e3b0604d5f5cd151e551af4ceba7fae8d1a6c307be81eb4",
+    "rubrics.json": "d185871d25087cf434997552be0645591a1e4abb4b486e45c33e5059e67ef9c7",
+    "protocol.json": "cd70935acc09c221bd7e97e61ebd689801cd4ac09c892b3cf47ca0b5629b96a3"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "repository_commit_at_dispatch": "0281f1f9145407e0eddb32544c9fbc6e325f8030",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F25C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "8089982602c0a99d7684abf6bfa6b03caa531ee76e83d655a7eabd47088923b8",
+      "turn_id": "local-turn-64104fcddbf5b1dd",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F25C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "e5f4511f131b48bf5137b8089449c21f1e2249b38039412552864940383c1dde",
+      "turn_id": "local-turn-3a455dce55bd1ffe",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F25C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "48b6ed22ebf7f943d166b28355d544c3cd859b27e8991f7a634641c4516cc7d5",
+      "turn_id": "local-turn-ec612c15b04535be",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "8f82145903f07ba4bc126abec743f030d26072c186dfd911276b3c3d9b8d655a",
+  "grading_packet_redaction": "Minimal task/rubric/semantic anchor/generic criteria/anonymous answers; checked before fresh grader dispatch. No condition/model/host/path/turn ID metadata.",
+  "grading_packet_limitation": "Original minimalpacket selection_rules mistakenly retained F24 sentence anywithin60legalinternalplanacceptable. F25 task/rubric/semantic anchor correctly specify minimum40, and both original grades apply40. Preserve packet andgrades, no regrade/retry; disclose defective generic-rule tail.",
+  "pretrial_reviews": {
+    "source_only_independent_reconstruction": [
+      "f25_source_reconstruct_a: C40/H70/K80",
+      "f25_source_reconstruct_b: C40/H70/K80; withdrew mistaken incidental claim that partialpayments permit0 borrowing"
+    ],
+    "round1": "A identified unnecessarily mandatory cancellation and overstated no-model-use provenance; fixedbeforefreeze.",
+    "round2": "B approved exactcases/rubric/protocol/oracle hashes andall legaloptimalroutes aftercorrection.",
+    "limitation": "Small structured contract; reconstruction agreement proves solvability, not difficulty."
+  }
+}

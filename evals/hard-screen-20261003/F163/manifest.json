@@ -1,0 +1,177 @@
+{
+  "candidate": "F163",
+  "version": "closure-1",
+  "outcome": "EXCLUDED_NOT_HARD",
+  "inputs": {
+    "evals/hard-screen-20261003/prospective-method-v2.md": {
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    "evals/hard-screen-20261003/prospective-method-v3.md": {
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    },
+    "temp/assessment-0163/packet.json": {
+      "bytes": 130475,
+      "sha256": "7385ffc37b9974bab8566e13c38040936a9df19ddf0e1ab10a6b3dfe23c4ecec"
+    },
+    "temp/assessment-0163/private/freeze.json": {
+      "bytes": 3507,
+      "sha256": "2b44b8381765d721be7d6d67e9c638bfae8a4d7ed37e51f86495e50e657e1cd8"
+    },
+    "temp/assessment-0163/private/projection-checks.json": {
+      "bytes": 21490,
+      "sha256": "ec93355b25febea738cd337c3b3588402ac727cd287b1d6a683f6103ab56feec"
+    },
+    "temp/hard-screen-20261003/f163-blind-grade-a.json": {
+      "bytes": 5930,
+      "sha256": "38b449d5aadf4f060b421a4731ce82d92df9c3b99db44e33ca0e80f20c02b4d5"
+    },
+    "temp/hard-screen-20261003/f163-blind-grade-b.json": {
+      "bytes": 5982,
+      "sha256": "92ad023da9998b0a7727d54a434065736d6f6f6009a0fb4979830b12b32e2715"
+    },
+    "temp/hard-screen-20261003/f163-blind-packet-map.json": {
+      "bytes": 7307,
+      "sha256": "d9c2c0e0a2878f8528c19db1f781a7f86b70fd02f20d78489abd2cec052f6d35"
+    },
+    "temp/hard-screen-20261003/f163-dispatch-acceptance.md": {
+      "bytes": 1401,
+      "sha256": "ecac3b08aafa7b0c0baeab6086e41c2f81247765fcc5dd7a68a7d9c1936c739d"
+    },
+    "temp/hard-screen-20261003/f163-independent-packet-review.json": {
+      "bytes": 1130,
+      "sha256": "eddaf26259e02e93502fa53eb614860401e607a5b771ccf48e80ace04e4aa0a5"
+    },
+    "temp/hard-screen-20261003/f163-native-launches.json": {
+      "bytes": 5503,
+      "sha256": "ab959e74ee8f81de3fb7239d5a7ce70a8f74d7da173e8ee84cda5defd5f23fc1"
+    },
+    "temp/hard-screen-20261003/f163-native-pretrial.json": {
+      "bytes": 40679,
+      "sha256": "733db7bdd1ce14f1e99f3a826016bdd40e7c11002b6efa72f27254e4aa1af22c"
+    },
+    "temp/hard-screen-20261003/f163-prefix-semantic-completion.md": {
+      "bytes": 7830,
+      "sha256": "bea0c6b977f872d9c315085f2f5af68a1f78bb6923d376f95d02ec561762ea0d"
+    },
+    "temp/hard-screen-20261003/f163-preflight-review.md": {
+      "bytes": 2782,
+      "sha256": "9f39c65bb533c1c5c38ba32b327f3ed2c8400ba12fea29e1e785cc6a4a283335"
+    },
+    "temp/hard-screen-20261003/f163-root-predispatch-checks.json": {
+      "bytes": 940,
+      "sha256": "39c1d058fca9dae12f3f8f4207e646d01367f9e732c010576454a0d67eb4e936"
+    },
+    "temp/hard-screen-20261003/f163-semantic-audit-initial.md": {
+      "bytes": 4307,
+      "sha256": "195d61f0eb2bed0898761c145b21278b642e4278d66f79308c5078ae714a0df1"
+    },
+    "temp/hard-screen-20261003/f163-source-review-a.md": {
+      "bytes": 2636,
+      "sha256": "1af48bde8d70d6c9a93295877897037ce3f4b18beebf396a02984e0fa61a8aea"
+    },
+    "temp/hard-screen-20261003/f163-source-review-b.md": {
+      "bytes": 2601,
+      "sha256": "9f09574f2514ebc1ae94f753c54fedc4824ca578fed333d89b5231377112a2a0"
+    },
+    "temp/hard-screen-20261003/f163-validity-acceptance.md": {
+      "bytes": 1670,
+      "sha256": "080ff8462a84ffa341695e193a28c128ffe0869375f96bbab26fe005f03f2b82"
+    },
+    "temp/hard-screen-20261003/native-evidence-v4-adoption.md": {
+      "bytes": 3729,
+      "sha256": "475a0e569ad9e6c206b693d069bc71ee844c4809c2c96bd4450aeea2a1bc74c4"
+    },
+    "temp/hard-screen-20261003/prospective-native-collection-v1.md": {
+      "bytes": 9372,
+      "sha256": "33a456118f011b35745b6d4731a1637d6054383b13b18c69180ce5dba33900e5"
+    },
+    "temp/hard-screen-20261003/prospective-semantic-evidence-v3.md": {
+      "bytes": 9329,
+      "sha256": "9e7bf446a62b9896ee3756f52782dc4b208a057cf1622558b51dee2b8e43753a"
+    },
+    "temp/hard-screen-20261003/prospective-semantic-evidence-v4-checks.json": {
+      "bytes": 4356,
+      "sha256": "1480aec769a047c537d703d5b1e13e8a72baec6299378302a2a538e6e26a1baf"
+    },
+    "temp/hard-screen-20261003/prospective-semantic-evidence-v4.md": {
+      "bytes": 9571,
+      "sha256": "db7a049fb9a95843459bb884032a1750202af5d25c7075f1843c8f77ddd3ebcc"
+    },
+    "temp/hard-screen-20261003/prospective-v4-review-rehearsal-a.md": {
+      "bytes": 9973,
+      "sha256": "14c20cac353b08046a2cc3b5e436634df190eb40cddb31c9e62f91e3aa50de28"
+    },
+    "temp/hard-screen-20261003/prospective-v4-review-rehearsal-b.md": {
+      "bytes": 11376,
+      "sha256": "a8415466de836a4b2bf4dd42fb0e5beae06469d2bf3ca085dc6df922924a46eb"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/C.txt": {
+      "bytes": 7328,
+      "sha256": "522849454c2cb93c83a07d8f81a5f6411de85bfe0444a2d8d6873086f6ef8801"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/H.txt": {
+      "bytes": 7361,
+      "sha256": "c811f7239d5bc60fa84b5f73286575bb7b7eb1445203888a8cbe151d08ec29e2"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/README.md": {
+      "bytes": 1313,
+      "sha256": "a64d97ff8f691e757eab5fc14206fe9995c2703330cf43a11383402369314cd8"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/checks.json": {
+      "bytes": 4915,
+      "sha256": "f732ad8e3c5265a2ee7c1b413b2402342d481d3787b5d3a5225326494ed8d870"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/design-note.md": {
+      "bytes": 5351,
+      "sha256": "831d2a4f9919bd59c82f4643e4e1e60cca0f0c77fce2e102f7e3311ebddfcc34"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/freeze.json": {
+      "bytes": 4020,
+      "sha256": "88fa4f36d1c63ebc7a42b3bd586ce712f5cc823b8d08e30f864163e3749730bf"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/oracle-C.md": {
+      "bytes": 5408,
+      "sha256": "4ec0149066b5ca98ecdcc1a98f35a1a9061fee2ea3290cff3845891de76b8e7f"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/oracle-H.md": {
+      "bytes": 2103,
+      "sha256": "d6ed5bf0963a3f121a26cd58676108d397754bc1ca5be260eb56569c8d9b3f86"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/protocol.json": {
+      "bytes": 4623,
+      "sha256": "0f29625d8536dff77c2e54e813f08696a584b7bd29a12648b1669c816b7c6649"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/rubric.json": {
+      "bytes": 4345,
+      "sha256": "6fc96afebb6ade9c2fd61ba7281fbf86d62d8f7431daf0b93ffddcdd69a5c4e6"
+    },
+    "temp/hard-screen-20261003/worker/F163-proposal/verify.mjs": {
+      "bytes": 10173,
+      "sha256": "8b5db99d4853fa833a99bec55848052d807868e7c5f483c4f1fa42fbb3e151b1"
+    },
+    "temp/hard-screen-20261003/worker/F163/evidence/collection-checks.json": {
+      "bytes": 1708,
+      "sha256": "ec874c351b0ef095d4afa777ad0cde715e353ac86f4ae888fc734833ab84b363"
+    },
+    "temp/hard-screen-20261003/worker/F163/evidence/collection-manifest.json": {
+      "bytes": 209147,
+      "sha256": "f394d3ae8ca388c26d5c691ba02100e37484fec1fbac6a86d3e76e51c5063963"
+    },
+    "temp/hard-screen-20261003/worker/F163/evidence/public-originals.json": {
+      "bytes": 107673,
+      "sha256": "6a6ed4ef3eada622d4c71107a5cfe4d01656d9bc9794d73976dea300c7176a92"
+    },
+    "temp/hard-screen-20261003/worker/F163/pretrial-preparation.json": {
+      "bytes": 9555,
+      "sha256": "227dcf0bf65fd6a00d636d34e22c24f7fe5c622c64a13aca57c2ca13c3aee472"
+    },
+    "temp/problem-input-0163/input.txt": {
+      "bytes": 7328,
+      "sha256": "522849454c2cb93c83a07d8f81a5f6411de85bfe0444a2d8d6873086f6ef8801"
+    }
+  },
+  "binding_meaning": "Byte equality only; original validity relies on initial independent audit plus fresh prefix semantic completion and separate root acceptance. Grades are exact parent-preserved delivered JSON, not independently audited grader rawlogs.",
+  "outputs": "Exact outputs and appended catalog bound by closure/candidate.json; no recursive self-hash."
+}

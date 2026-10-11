@@ -1,0 +1,140 @@
+{
+  "candidate": "F157",
+  "version": "closure-1",
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "inputs": {
+    "temp/hard-screen-20261003/f157-runtime-audit.md": {
+      "bytes": 5736,
+      "sha256": "27d16725b034720c7b5fb05f1983da3e8c72d22ae26be490843fa8659172de45"
+    },
+    "temp/hard-screen-20261003/f157-native-capture.json": {
+      "bytes": 8188,
+      "sha256": "2b4bb5a214c01a9358975f0fc85ed5f8c8e6cc0420eb17ca7f94df9052018aff"
+    },
+    "temp/hard-screen-20261003/f157-native-pretrial.json": {
+      "bytes": 16848,
+      "sha256": "a0866e260678f7f6899325b082586daebbe634801d8bea9fa431536f97e1640d"
+    },
+    "temp/hard-screen-20261003/f157-native-launches.json": {
+      "bytes": 4875,
+      "sha256": "cab0339701ee7946a167911ab332ca65d36d7610d8d8c06bf7ab1894b811ccfc"
+    },
+    "temp/hard-screen-20261003/f157-source-review-a.md": {
+      "bytes": 2466,
+      "sha256": "8d1969558476f7196fcab28c26aea7be2fd5ec5f282dee98e37cb0a7065b9a58"
+    },
+    "temp/hard-screen-20261003/f157-source-review-b.md": {
+      "bytes": 2121,
+      "sha256": "795d4cfe760cc8be2c1cc256184eaea466457d24d382e23fb12d8ffa2aa8defc"
+    },
+    "temp/hard-screen-20261003/f157-capture-review-a.md": {
+      "bytes": 2724,
+      "sha256": "9c7f5531a789dc2aa97cb743442143e327eb1123fd2b2d17d59b922e42a2c618"
+    },
+    "temp/hard-screen-20261003/f157-capture-review-b.md": {
+      "bytes": 1791,
+      "sha256": "80d8c24a73a594e006ca009f1675e84f42eee07e837fbc2a14fc6ea3bf2184e4"
+    },
+    "temp/hard-screen-20261003/worker/F157-proposal/C.md": {
+      "bytes": 5847,
+      "sha256": "2367a9bc7bc47e63f2e5b49794568c8fdf11b4b42c34f7b4ab54ea5b40a85df9"
+    },
+    "temp/hard-screen-20261003/worker/F157-proposal/checks.json": {
+      "bytes": 10515,
+      "sha256": "bd0381567f1ddf55c50f97fc0db105f426e68fdcf7f0c0d114a146ab034933b5"
+    },
+    "temp/hard-screen-20261003/worker/F157-proposal/design-note.md": {
+      "bytes": 5750,
+      "sha256": "c92e0afdbf2493cd0040f08f821a111c758b158af227eeb28bfd3c21f528b2f3"
+    },
+    "temp/hard-screen-20261003/worker/F157-proposal/evidence.md": {
+      "bytes": 3752,
+      "sha256": "07f905f4151dbb4b46ef06006fc44805b4c40f1f8229b905ec3345ae48b3f366"
+    },
+    "temp/hard-screen-20261003/worker/F157-proposal/freeze.json": {
+      "bytes": 3042,
+      "sha256": "adc678c998ac1b6be3e9fcb429704a6b6293efc05cca55215d6318b6038b2c7e"
+    },
+    "temp/hard-screen-20261003/worker/F157-proposal/H.md": {
+      "bytes": 5901,
+      "sha256": "a1bfe8b13a5e6a32caa3e6270d815524566bb6b4aebca58a4b5d87bfd19b14b5"
+    },
+    "temp/hard-screen-20261003/worker/F157-proposal/oracle.md": {
+      "bytes": 11464,
+      "sha256": "e90fa6c1a6cca6574de57cad946fbcda48203e3ed9f054070ca7072167b33e53"
+    },
+    "temp/hard-screen-20261003/worker/F157-proposal/protocol.json": {
+      "bytes": 4064,
+      "sha256": "0c4dbcbc1afe9cc8136fc83d6c2d106ca666d0001bc9129be1d86815ec53fb32"
+    },
+    "temp/hard-screen-20261003/worker/F157/capture/capture.py": {
+      "bytes": 21421,
+      "sha256": "a85fccd283ce591ece03422c4cf67ce8b5f2880f850987761a38d50c8db35140"
+    },
+    "temp/hard-screen-20261003/worker/F157/capture/checks.json": {
+      "bytes": 5879,
+      "sha256": "600ad864b32c6beed6c795671a96ec5615830a103033f4318b6167ab67671cd5"
+    },
+    "temp/hard-screen-20261003/worker/F157/capture/contract.md": {
+      "bytes": 10435,
+      "sha256": "81a90576d51f43e49b70720dfee8fea7532609d5055430f2ab3e77ff598fa9c2"
+    },
+    "temp/hard-screen-20261003/worker/F157/capture/test_capture.py": {
+      "bytes": 15192,
+      "sha256": "7936527dc11ac40cd217c0895342c9a2f6f56bb8177e3dd1d3b2cc9872c3a7be"
+    },
+    "temp/hard-screen-20261003/worker/F149/capture/capture.py": {
+      "bytes": 11300,
+      "sha256": "df85e5939415d47e0f5c807a8e53400c8710c0f848a231b56cb57c65b0036887"
+    },
+    "temp/problem-input-0157/input.txt": {
+      "bytes": 5847,
+      "sha256": "2367a9bc7bc47e63f2e5b49794568c8fdf11b4b42c34f7b4ab54ea5b40a85df9"
+    },
+    "evals/hard-screen-20261003/prospective-method-v2.md": {
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    "evals/hard-screen-20261003/prospective-method-v3.md": {
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    }
+  },
+  "unchanged_baselines": {
+    "README.md": {
+      "bytes": 6288,
+      "sha256": "2b8d4fe99f90806beb8a81c63bbe74747ab941621faa71b9090ebb931dbeb2c8"
+    },
+    "evals/hard-screen-20261003/README.md": {
+      "bytes": 115871,
+      "sha256": "f39b2eecf9f8a2c9eeb883f7b50be81f8adbb014769994375424cdf31b002d19"
+    }
+  },
+  "outputs": {
+    "evals/hard-screen-20261003/F157/report.md": {
+      "bytes": 4089,
+      "sha256": "db96ee3b2d21da6df5cf01e73aed23a488223d65783c824d65d2530359c15a23"
+    },
+    "evals/hard-screen-20261003/F157/state.json": {
+      "bytes": 3177,
+      "sha256": "bb06d7c1b1200c1ff0808170bc9738fad7d9e367a95f571424ad0fb2cb009e4a"
+    },
+    "evals/hard-screen-20261003/F157/verification.json": {
+      "bytes": 5135,
+      "sha256": "dcd9ae604969ba416252dd058002b2d73602cb081b58d41d1921bc910324ec77"
+    },
+    "temp/hard-screen-20261003/f157-catalog-append.md": {
+      "bytes": 926,
+      "sha256": "e16db1be8f79039afab4e271cd17c1b3766393d445d80d0b0d426cdfbf83ae87"
+    }
+  },
+  "binding_rules": {
+    "algorithm": "SHA-256",
+    "bytes": "Exact bytes without normalization",
+    "manifest_self_hash": "Excluded; five final artifact hashes returned in writer handoff",
+    "originals": "Original snapshot bindings are copied from capture and corroborated by independent runtime audit; closure writer did not read raw sessions",
+    "original_finals": "Exact preserved final text UTF-8 bindings in verification.json; no grading",
+    "catalog": "Append fragment links resolve from evals/hard-screen-20261003; parent owns prefix-preserving append"
+  }
+}
+

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "candidate": "F98",
+  "classification": "EXCLUDED_NOT_HARD",
+  "adjudicated_by": "ROOT",
+  "publication_checkpoint": "ROOT_FINAL_ACCEPTED",
+  "retained": 0,
+  "target": 6,
+  "original_trials": {
+    "case_id": "F98_C",
+    "condition": "baseline_without_skill",
+    "operational_order": [
+      2,
+      3,
+      1
+    ],
+    "setup_launches": 3,
+    "turn_dispatches": 3,
+    "completed_problem_model_turns": 3,
+    "preserved_terminal_problem_files": 3,
+    "setup_retry_count": 0,
+    "all_runtime_guards_SAFE": true
+  },
+  "neutral": {
+    "unscored": true,
+    "turns": 2,
+    "conditions": [
+      "baseline",
+      "treatment"
+    ],
+    "setup_retry_count": 0,
+    "excluded_from_problem_counts": true
+  },
+  "grades": {
+    "grader_one_scores": [
+      10,
+      10,
+      10
+    ],
+    "grader_two_scores": [
+      10,
+      10,
+      10
+    ],
+    "grader_one_mean": 10,
+    "grader_two_mean": 10,
+    "numeric_full_passes_each": 3,
+    "objective_decision_errors_each": 0,
+    "qualifying_inquiry_failures_each": 0,
+    "joint_qualifying_ids": [],
+    "extra_all3_validity_audit_triggered": false
+  },
+  "cumulative_raw_accounting": {
+    "screened_candidate_identifiers": 82,
+    "preserved_final_phase_problem_FILES": 237,
+    "completed_problem_model_turns": 296,
+    "older_protected_unknown": "UNKNOWN; not imputed zero",
+    "neutral_excluded": true,
+    "all_files_protocol_valid_trials": false
+  },
+  "H_participant": "NOT_RUN",
+  "K_participant": "NOT_RUN",
+  "scored_treatment": "NOT_RUN",
+  "skill_efficacy": "UNKNOWN_NOT_EVALUATED",
+  "actual_backend": "UNVERIFIED/nonblocking",
+  "reasoning_effort_considered": false,
+  "reviewer_replacements": 0,
+  "regrades": 0,
+  "native_replays": 0,
+  "combined_check_executions": 1,
+  "check_replays": 0,
+  "current_full_verification_claimed": false,
+  "design_and_native_ownership_ended": true,
+  "next": "F98 closed EXCLUDED_NOT_HARD; no F98 source/runtime/grading continuation. Overall stages1-2 remain ACTIVE_UNMET0/6; current F99 is separate."
+}

@@ -1,0 +1,870 @@
+{
+  "schema_version": 1,
+  "ROOT_FINAL_accepted": true,
+  "source_pins": {
+    "temp/hard-screen-20261003/worker/F132-proposal/manifest.json": "a6dc4a7f8869b8e926d6ede65edf5e8bc8280d1aeb588875a68baa5f79ff396c",
+    "temp/hard-screen-20261003/worker/F132-proposal/C.md": "4e06534e77655515beba3e8c1fcbab15b6c5d9490a2814ff81ee695fb32be41a",
+    "temp/hard-screen-20261003/worker/F132-proposal/H.md": "76e3f01016212a0cacc4d8fccc3777cfffd4cc2f6eac039c2d1726dde920f7a1",
+    "temp/hard-screen-20261003/worker/F132-proposal/K.md": "450baf755e5a2b280fed854753d8d5ff021d11b5dccee8da0a987ab95f3cfdcf",
+    "temp/hard-screen-20261003/worker/F132-proposal/oracle.json": "73dcb27e2077277a910af99c8366cb2e1bdd730b89bcdc4b142d94a2065e868a",
+    "temp/hard-screen-20261003/worker/F132-proposal/README.md": "55a3f300e76491b84af736af0e6344ff6e0006dfa536ad5ae6b31c944c89db3d",
+    "temp/hard-screen-20261003/worker/F132-proposal/source-audit.md": "b658f62f4a8d08d7a831f2de5c0c188f982497f00504ee34a3ae57f2cc5bf63e",
+    "temp/hard-screen-20261003/f132-authoring-contract.md": "45ad8cf79908dc6330a0e399e5e0a9674934979d56629e7f4a216f45f2268634",
+    "temp/hard-screen-20261003/worker/F132-proposal/architecture.md": "ab9c8fae19ff2a658c076608bafdba0c39644a9bdc949c0a92781b7f5d58e590",
+    "temp/hard-screen-20261003/worker/F132-proposal/architecture-original.md": "0e0718158ec269c3b1f342f46ec70ca4a55536e7b888fb7a0def00baeafe85ff",
+    "evals/hard-screen-20261003/prospective-method-v2.md": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e",
+    "evals/hard-screen-20261003/prospective-method-v3.md": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099",
+    "evals/hard-screen-20261003/F85/revision1/public/generic-grading-rules.json": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d",
+    "evals/hard-screen-20261003/F85/revision1/public/rubric.json": "95c9cbd6774fdbcb7e5f6d3e1fe35731694454a850d795d296b9324aa9a744b2",
+    "temp/hard-screen-20261003/f132-root-reviews/source-one-FIRST.full.md": "a9c111b3766f203472ba22fed8ab3e7795b7d09b55c30a7676526a4d7da93f37",
+    "temp/hard-screen-20261003/f132-root-reviews/source-two-FIRST.full.md": "afbd4909f5224154e306425efc48738fd00282407cad1da4a089366330601346",
+    "temp/hard-screen-20261003/f132-root-reviews/source-one-ALIGN.full.md": "6bf3a9ca6ee14b3c5ff318ff3072ea5de29f73335b17469113296df137ba3fd5",
+    "temp/hard-screen-20261003/f132-root-reviews/source-two-ALIGN.full.md": "bc23ced961ae2d3dbb37fccf2fb3a1f39e80418472a31e6c5fa128c90483b00b",
+    "temp/hard-screen-20261003/f132-source-preparation-release.md": "789ce17e6b2db706344b4bd095fa1ed08ca4ac9e0735db1f322afb72a4eacd74",
+    "temp/hard-screen-20261003/f125-prospective-review-contract.md": "1b1f94aeb7e4f1fda0177a36bb6c62e9313e57c91c7f030ffe65b4e50c7400f4",
+    "temp/hard-screen-20261003/future-three-checkpoint-route.md": "af157428e08e7e5a517a2b66ac260cd87a4cc26c7b719c3afc0290a29d68eba4"
+  },
+  "bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/PRETRIAL.json",
+      "bytes": 85054,
+      "sha256": "ee71543181ded484ef6d4097ff271243a50f8312e68889bcbd829af6507d790f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/qualification/freeze.json",
+      "bytes": 60950,
+      "sha256": "767ded0ddd1e08ea2fa22ba9760c2aa7d8f190467eb89e8dc99b40e5b8530661"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/checked-input-freeze.json",
+      "bytes": 46283,
+      "sha256": "26e039daeaba348bec28703e93b24735e98934fe303abadc0462812d6681f036"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/combined-check-result.json",
+      "bytes": 45027,
+      "sha256": "659204218d5efc3e4ea2cd994e3cd052f015bf9f82f3c03a8e0ae13afb4aff23"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/combined-check-actual-lossless.json",
+      "bytes": 47311,
+      "sha256": "72ec15be1b8840917569412301765be5d6c928832f4e7ee7fbde04d61d31bcfd"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/prepare-runtime-actual-lossless.json",
+      "bytes": 778,
+      "sha256": "302880fd0f1bf3ca071629f8c67ff274a653738a3947c91012a01fd185e931f0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/build-static-actual-lossless.json",
+      "bytes": 723,
+      "sha256": "9499c3b32f41d66d2c1dfbc0743b1fc19f671e53c9f70f20f2463dbed4b5415e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/build-fixtures-actual-lossless.json",
+      "bytes": 400,
+      "sha256": "f2810904245a7016d772f378144784803bce0fd3861c9233fafa37cc352d57e8"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/freeze-checked-inputs-actual-lossless.json",
+      "bytes": 471,
+      "sha256": "088a4395eeb1d5a2f37d562d80a88ccd999f12cfe71fb7930abff1db2938bac9"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/review-synthesis.json",
+      "bytes": 6621,
+      "sha256": "a9391527180ed6bd4ba530ee1ebc29fe39f590982993830e4bca4a93c8b75d8d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/reviewed-helper-bindings.json",
+      "bytes": 1878,
+      "sha256": "9b3fe4b40dcdd6b09b6409fd81fcddc117564f20bf2ac3180ce1db87b843f360"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/reviewed-helper-bindings-r2.json",
+      "bytes": 2694,
+      "sha256": "8ea1fee0ac444309aa15ac25fe20daea2dc5e87893a25cf19de334520de19b23"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/runtime-pattern-bindings.json",
+      "bytes": 2261,
+      "sha256": "b32a0ffa0092ab30fdb0f53f4873a2ea6cc1a248938038511b3febe94ef03c05"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/support-pins.json",
+      "bytes": 2085,
+      "sha256": "e0c7ea0b9cce91c3d72d306d11471ad95671232e1f23d706820362ef5b53643a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/ordinary-source-bindings.json",
+      "bytes": 2690,
+      "sha256": "b4a0a3e070dd498c7e3bff803d27c740d6c3c041d5115d1708d51af782800de6"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/reviews/helper-FIRST.full.md",
+      "bytes": 7473,
+      "sha256": "207cb31661caeb847a3fb0cbf5ec4b31b9b5cd002f297acb6bad3819431f58fe"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/reviews/helper-disposition.json",
+      "bytes": 797,
+      "sha256": "6111c28b5a6de9886c5ff71d6c7df79d394d4bbd83a0e2ede9c3a0c0157ffd9e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/reviews/helper-r2-FIRST.full.md",
+      "bytes": 6398,
+      "sha256": "c2bf2ef6f46da3f2cc7897fc0e100d56d572687fe32ddb71adc549b1116df174"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/reviews/helper-r2-disposition.json",
+      "bytes": 635,
+      "sha256": "b2afcbdfc1954e9331a0c4929125246514981878926cf7eacc93b67f9d026493"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/qualification/neutral-safe-readback.json",
+      "bytes": 8850,
+      "sha256": "fdc09b83d69e0aba641f25f888bbe75ee73e6d5f88018a28d52fe933f5d232b4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/qualification/canary-tool-actual-lossless.json",
+      "bytes": 450,
+      "sha256": "24d4bc8ffc7ba134b4039ed70e0d6f6ba2b96b5f54e157a0a6ddcd6d83887dda"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/qualification/canary-collector-actual-lossless.json",
+      "bytes": 1153,
+      "sha256": "5e9bcd935a68204adf5e6305d5ee2e5d0d96f833a24eff4f758fddb8ab566065"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/qualification/canary-tool-invocation.json",
+      "bytes": 138,
+      "sha256": "b190a4224ddef5b43d8c44c37b4244941ad5a29a18fa0b608f550b7ef6402803"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/qualification/canary-collector-invocation.json",
+      "bytes": 142,
+      "sha256": "3a38360213475920aab5251c48e308cebbc600f33909e0f7d5fdda52df79326f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/qualification/producer-invocation-canary.json",
+      "bytes": 2101,
+      "sha256": "d036bd508cf14d96c1021e8bf45ede36504581fce22636cf6e394857dbcd66ff"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/qualification/producer-terminal-canary.json",
+      "bytes": 364,
+      "sha256": "0d7ae60b41864381f1eb18891a76c92bd01c0705c77a2267b6bc153f7fc33306"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/original-safe-readback.json",
+      "bytes": 12378,
+      "sha256": "fefbaf52449f6a1de0f352dc15c1ad6032662fa77195411f23bfbcfee9482e4e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/original-tool-actual-lossless.json",
+      "bytes": 560,
+      "sha256": "d0e159637689c8f758d5247c1162b28da29c3834da693bae66a8ae801b0f3924"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/original-collector-actual-lossless.json",
+      "bytes": 803,
+      "sha256": "32f7f46b0137ed129e0174b5661b3b63a59ee6105722161315a40be510e046ee"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/original-tool-invocation.json",
+      "bytes": 141,
+      "sha256": "f689c916cfa7c35d452b1e9ce8f0f89945837f2b8bf856df2b5c836d4efcd0b0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/original-collector-invocation.json",
+      "bytes": 144,
+      "sha256": "a37bd1778cca47143baf52965d52ccc67e36093fe8f843a1420d229c4d1087de"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/producer-invocation-original.json",
+      "bytes": 2456,
+      "sha256": "53ee1bd989d056ca4c66ab76c0737f2a62d3d9de71370bef81b5923044914a5e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/producer-terminal-original.json",
+      "bytes": 364,
+      "sha256": "f5ce56917f2c0f319a318c784ee33f2e77e35f12fb8eb6c635f6f9e6856bcbc3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/original-operational-freeze.json",
+      "bytes": 1232,
+      "sha256": "e3a6980adaddcba5e004794b210842e2b12d5a23e591e6d2a0e6277dd462d8b8"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/qualification/screening-plan.json",
+      "bytes": 1171,
+      "sha256": "c9ac6b15a0c9a3925307a22e40eb84351ef2010c12b279c2728a512c8e58098a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/screening-plan.draft.json",
+      "bytes": 1076,
+      "sha256": "15ec381a60e586cd5c045a5ef4cff8f30c509d4a0d09b19cbb49c9ef18d468a1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/blind/packet.json",
+      "bytes": 20950,
+      "sha256": "e749f292b9e0711be4b8a2503b13827021edf3c17ed0920968e8b4c1fc3fe099"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/blind-private-mapping.json",
+      "bytes": 1179,
+      "sha256": "df3503ac3cbc935c65104d236f441e26dc2697b4a8d2f24fcd530db3aae80b67"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/blind-display-provenance.json",
+      "bytes": 2353,
+      "sha256": "532ed9ca1a438562588e943b75041b2927f6b385f31160b9cc24d9da3dd85df4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/blind-assignment.txt",
+      "bytes": 3347,
+      "sha256": "9cea6c6fe134b7b90614cffa50d897faf3228382386d4244b4fc8b22432ebffe"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/blind/grader-one-FIRST.full.md",
+      "bytes": 6055,
+      "sha256": "258a572810f949ff8e45915cfb33be3b025f4418514de5b1eafdb1c640004fc2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/blind/grader-two-FIRST.full.md",
+      "bytes": 6102,
+      "sha256": "5e20274d15fcf6d95db91123fed512b7550c88927589c4292f6a4380eca2ad0d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/evidence/blind-builder-invocation.json",
+      "bytes": 196,
+      "sha256": "f01f3e5c924a7436c037e4e46de89dfc225960c444f162107695744e62fbb6b3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/evidence/blind-builder-actual.json",
+      "bytes": 493,
+      "sha256": "9441555012a3414ca04385b8fa5858fb0ecc285eef753c6cd1187d2fa9caa404"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/evidence/blind-precondition-invocation.json",
+      "bytes": 1673,
+      "sha256": "d311d7625e42284fc563b24ab41a3b36d0a5540effae77581ee9428abc7c7446"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/evidence/blind-precondition-actual.json",
+      "bytes": 784,
+      "sha256": "ac345e7107bcee27f3f4400823f99d61c1a5de9a10db7d44922b1c41b8599936"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/evidence/initial-deviation.json",
+      "bytes": 1037,
+      "sha256": "c8052b28bd499fed8eaf02aeb2bf66742037e5e8c7aa3ee08ffc55f8bb52d184"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/evidence/editor-diagnostics.md",
+      "bytes": 1146,
+      "sha256": "88324294dc0dafc114ce83a080784450693bedef86f3626a40a63848f5e52867"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/construction-provenance.md",
+      "bytes": 2394,
+      "sha256": "45843fe6fb9a1a80f5f3808dad8f7a83992153093491559f8fe0d541264b26df"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/evidence/pretrial-readback-actual.json",
+      "bytes": 1860,
+      "sha256": "d921649d72fc77ae4d59c9cfabcd4f930fcbf38e6ded76e478f01a791755a6de"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/evidence/native-safe-metadata-readback-actual.json",
+      "bytes": 5863,
+      "sha256": "d6b8149e31c3be7beb356bb09075ecae9c15d2e5621ef31aaa38770db1c2bb5d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior.invocation.json",
+      "bytes": 307,
+      "sha256": "f3150374dbf565ef6d67689edc608cb8f297b2497a2f6042bd09038e374bc50e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior.actual.json",
+      "bytes": 1154,
+      "sha256": "5a3487f0538a75e5c1b5b7230efe333608b40a8582b80d4787370054732029b9"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior-result.json",
+      "bytes": 922,
+      "sha256": "3a41f4ac9e2703ac1946b7a1b9c2e719bd5b2d45ef9a76c2d8abe8e4e467be05"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/check-receipts.py",
+      "bytes": 6169,
+      "sha256": "2c4631ebd21b0203cc38ab248d06cae061132bd5fc52a5aa52b1263a270da7c2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-pretrial-root-gate.json",
+      "bytes": 1198,
+      "sha256": "320df90b54a8db2a365da80f981e860bcb300a10897288ec280e8f4a20eff1e4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-pretrial-root-verification-actual.json",
+      "bytes": 8948,
+      "sha256": "806aac616351c65d55a2a493b5795a2727356107c1124c3b5677b533c39e88a5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-safe-root-gate.json",
+      "bytes": 9690,
+      "sha256": "44b4e72560bd22e4b567123d980f4418c1f75c74f38c4d288c26ed755684c4fa"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-safe-root-verification-actual.json",
+      "bytes": 10633,
+      "sha256": "e835c2efb29ad49eaf4b1de58aca58ba2fc34c0d255c8f91ad6e6613645216c5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-blind-dispatch.json",
+      "bytes": 7755,
+      "sha256": "410fb1273151e0d571fc5f4965553a8d994668921b1f21f20c04a3ddb883ea55"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-blind-first-readback-actual.json",
+      "bytes": 13323,
+      "sha256": "a28316fb73b861378d67281cdc196b7f8bcad25853427908af3099e631263b73"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-root-semantic-gate.json",
+      "bytes": 1234,
+      "sha256": "55ae91d6be0c7032902ecfc948691a58f676cddf88ae94d8c6afdddf9e39d67c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-r2-root-proof-actual.json",
+      "bytes": 12737,
+      "sha256": "7c6f311a3293930523755bc59e238594a7ded0ada3475e4577724b6e09393e2e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-source-dispatch.json",
+      "bytes": 1561,
+      "sha256": "64e428e9484f66fd5ac045dcf6d28bb898566a391f1859b0dc18684a0c921c4a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-source-preparation-release.md",
+      "bytes": 7828,
+      "sha256": "789ce17e6b2db706344b4bd095fa1ed08ca4ac9e0735db1f322afb72a4eacd74"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-native-release.md",
+      "bytes": 2838,
+      "sha256": "ca29691fd458c9c493f523b2deb0632cf48a5ccbd32a2c65f3980745142404ea"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132-proposal/manifest.json",
+      "bytes": 4030,
+      "sha256": "a6dc4a7f8869b8e926d6ede65edf5e8bc8280d1aeb588875a68baa5f79ff396c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132-proposal/C.md",
+      "bytes": 3183,
+      "sha256": "4e06534e77655515beba3e8c1fcbab15b6c5d9490a2814ff81ee695fb32be41a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132-proposal/H.md",
+      "bytes": 3661,
+      "sha256": "76e3f01016212a0cacc4d8fccc3777cfffd4cc2f6eac039c2d1726dde920f7a1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132-proposal/K.md",
+      "bytes": 1895,
+      "sha256": "450baf755e5a2b280fed854753d8d5ff021d11b5dccee8da0a987ab95f3cfdcf"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132-proposal/oracle.json",
+      "bytes": 8561,
+      "sha256": "73dcb27e2077277a910af99c8366cb2e1bdd730b89bcdc4b142d94a2065e868a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132-proposal/README.md",
+      "bytes": 1777,
+      "sha256": "55a3f300e76491b84af736af0e6344ff6e0006dfa536ad5ae6b31c944c89db3d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132-proposal/source-audit.md",
+      "bytes": 3739,
+      "sha256": "b658f62f4a8d08d7a831f2de5c0c188f982497f00504ee34a3ae57f2cc5bf63e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-authoring-contract.md",
+      "bytes": 5487,
+      "sha256": "45ad8cf79908dc6330a0e399e5e0a9674934979d56629e7f4a216f45f2268634"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132-proposal/architecture.md",
+      "bytes": 12483,
+      "sha256": "ab9c8fae19ff2a658c076608bafdba0c39644a9bdc949c0a92781b7f5d58e590"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132-proposal/architecture-original.md",
+      "bytes": 11245,
+      "sha256": "0e0718158ec269c3b1f342f46ec70ca4a55536e7b888fb7a0def00baeafe85ff"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v2.md",
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v3.md",
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F85/revision1/public/generic-grading-rules.json",
+      "bytes": 3456,
+      "sha256": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F85/revision1/public/rubric.json",
+      "bytes": 2219,
+      "sha256": "95c9cbd6774fdbcb7e5f6d3e1fe35731694454a850d795d296b9324aa9a744b2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-root-reviews/source-one-FIRST.full.md",
+      "bytes": 10497,
+      "sha256": "a9c111b3766f203472ba22fed8ab3e7795b7d09b55c30a7676526a4d7da93f37"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-root-reviews/source-two-FIRST.full.md",
+      "bytes": 9823,
+      "sha256": "afbd4909f5224154e306425efc48738fd00282407cad1da4a089366330601346"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-root-reviews/source-one-ALIGN.full.md",
+      "bytes": 3830,
+      "sha256": "6bf3a9ca6ee14b3c5ff318ff3072ea5de29f73335b17469113296df137ba3fd5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f132-root-reviews/source-two-ALIGN.full.md",
+      "bytes": 3923,
+      "sha256": "bc23ced961ae2d3dbb37fccf2fb3a1f39e80418472a31e6c5fa128c90483b00b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f125-prospective-review-contract.md",
+      "bytes": 5739,
+      "sha256": "1b1f94aeb7e4f1fda0177a36bb6c62e9313e57c91c7f030ffe65b4e50c7400f4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/future-three-checkpoint-route.md",
+      "bytes": 3233,
+      "sha256": "af157428e08e7e5a517a2b66ac260cd87a4cc26c7b719c3afc0290a29d68eba4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/syntax-build-static/invocation.json",
+      "bytes": 293,
+      "sha256": "31a623d95d83736d663e0b40acf7fb07ab3929c75ec6cde1ccb35fca554d2b93"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/syntax-build-static/actual.json",
+      "bytes": 115,
+      "sha256": "aa0ab55d1085040d01c9f946025dfa349d09e9515d64d2cfa72439745593569f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/success/invocation.json",
+      "bytes": 659,
+      "sha256": "6506add31ae1c0dc43477e249a654b66431c684f1bdb04bc65c57cc6d0831468"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/success/actual.json",
+      "bytes": 131,
+      "sha256": "5fbc1356d460755fcfda02f1d133496342afaffeacdcc51247bd51c4859dc552"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/reject/invocation.json",
+      "bytes": 364,
+      "sha256": "d667c5d3cf6343dbf28c88a42f5fcc41250925c226f0ad60ded4a1463c6e9c04"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/reject/actual.json",
+      "bytes": 123,
+      "sha256": "0a94c1287d32f2994553b7458de99dc702395c5771543bb08a2bce6ffa409441"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/parse-failure/invocation.json",
+      "bytes": 332,
+      "sha256": "543ab0ed2aba54307de67c2ba498bdc65f8a2689949cb3ea9eb1387015655045"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/parse-failure/actual.json",
+      "bytes": 131,
+      "sha256": "ded07ba817cb3b823bbd725ce78415ec7622492c6c817526f8257adcc8fe1ca3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/assertion-failure/invocation.json",
+      "bytes": 334,
+      "sha256": "b21bcbf910bbb6a77e38055386983df7211cc456c43823010587e207f38c4688"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/assertion-failure/actual.json",
+      "bytes": 131,
+      "sha256": "6a171b34e7e8395f61e236549f8f02a6e97bc97d06be9867169aae5942bb1e0c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/decode-failure/invocation.json",
+      "bytes": 370,
+      "sha256": "d6bbd7ed88a206806b3cc38d8434487634e1e19342a8e0e5d9d8bdd12769952e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/decode-failure/actual.json",
+      "bytes": 123,
+      "sha256": "f7db19bd48a1ba48cd1b08cd13441b6cec534f62ae5a206a0d360b7b2a2b4f6a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/timeout/invocation.json",
+      "bytes": 402,
+      "sha256": "1fd533e3b52184dee7b230ed05cb0f6b34c239b5c667417f00a53299c3e9a541"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/timeout/actual.json",
+      "bytes": 2458,
+      "sha256": "3e373f5451c14ac69ef090e6040d640aacc343efd7a0689aab056e5d5e723029"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/launch-failure/invocation.json",
+      "bytes": 281,
+      "sha256": "6192ae47bc82c54ad19f80a8f9c1aa9f43487e286ad1a5abcd26a07e5938faee"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/launch-failure/actual.json",
+      "bytes": 1822,
+      "sha256": "f9b865351d561fc90f81ef127579aa8363c881bd4cbbaf40e0b46753cc3bf237"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F132/cases.json",
+      "bytes": 9242,
+      "sha256": "1c71371a07f3df8f21447e7aa573912654effa5e21d724818ed8cd1cfa08f4e9"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F132/rubrics.json",
+      "bytes": 6925,
+      "sha256": "56673559626cd7c246add5296aa8ba32e746b2018352877429eb1d9a9e6f571b"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F132/protocol.json",
+      "bytes": 4274,
+      "sha256": "fae0bd6a5587294699d95199f707970274895642ac17987cc492c3526465e8ba"
+    },
+    {
+      "path": ".omo/evidence/F132-code-review.md",
+      "bytes": 7473,
+      "sha256": "207cb31661caeb847a3fb0cbf5ec4b31b9b5cd002f297acb6bad3819431f58fe"
+    },
+    {
+      "path": ".omo/evidence/F132-code-review-r2.md",
+      "bytes": 6398,
+      "sha256": "c2bf2ef6f46da3f2cc7897fc0e100d56d572687fe32ddb71adc549b1116df174"
+    }
+  ],
+  "public_copy_manifest": [
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F132/blind/grader-one-FIRST.full.md",
+        "bytes": 6055,
+        "sha256": "258a572810f949ff8e45915cfb33be3b025f4418514de5b1eafdb1c640004fc2"
+      },
+      "proposed": {
+        "path": "temp/hard-screen-20261003/worker/F132/final/public-proposed/grader-one-FIRST.full.md",
+        "bytes": 6055,
+        "sha256": "258a572810f949ff8e45915cfb33be3b025f4418514de5b1eafdb1c640004fc2"
+      }
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F132/blind/grader-two-FIRST.full.md",
+        "bytes": 6102,
+        "sha256": "5e20274d15fcf6d95db91123fed512b7550c88927589c4292f6a4380eca2ad0d"
+      },
+      "proposed": {
+        "path": "temp/hard-screen-20261003/worker/F132/final/public-proposed/grader-two-FIRST.full.md",
+        "bytes": 6102,
+        "sha256": "5e20274d15fcf6d95db91123fed512b7550c88927589c4292f6a4380eca2ad0d"
+      }
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F132/original/F132_C-baseline-r1-attempt1/final.txt",
+        "bytes": 968,
+        "sha256": "8616861a78daeebb051e8caf1ccbb9847a565a9b76185a9533ec70597ae3d658"
+      },
+      "proposed": {
+        "path": "temp/hard-screen-20261003/worker/F132/final/public-proposed/response-r1.txt",
+        "bytes": 968,
+        "sha256": "8616861a78daeebb051e8caf1ccbb9847a565a9b76185a9533ec70597ae3d658"
+      }
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F132/original/F132_C-baseline-r3-attempt1/final.txt",
+        "bytes": 786,
+        "sha256": "4adf0221a1b0f9248ca0c2fd0fffb68e2fe23dd322896bd6bbb9e31fda194f84"
+      },
+      "proposed": {
+        "path": "temp/hard-screen-20261003/worker/F132/final/public-proposed/response-r3.txt",
+        "bytes": 786,
+        "sha256": "4adf0221a1b0f9248ca0c2fd0fffb68e2fe23dd322896bd6bbb9e31fda194f84"
+      }
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F132/original/F132_C-baseline-r2-attempt1/final.txt",
+        "bytes": 754,
+        "sha256": "890b27aa27f3f99c31bdd3efccc8e39fd3236eecffb868bdf2f3ed03a4a25628"
+      },
+      "proposed": {
+        "path": "temp/hard-screen-20261003/worker/F132/final/public-proposed/response-r2.txt",
+        "bytes": 754,
+        "sha256": "890b27aa27f3f99c31bdd3efccc8e39fd3236eecffb868bdf2f3ed03a4a25628"
+      }
+    }
+  ],
+  "helper_review_rounds": [
+    {
+      "round": 1,
+      "FIRST": {
+        "path": "temp/hard-screen-20261003/worker/F132/reviews/helper-FIRST.full.md",
+        "bytes": 7473,
+        "sha256": "207cb31661caeb847a3fb0cbf5ec4b31b9b5cd002f297acb6bad3819431f58fe"
+      },
+      "copy": {
+        "path": ".omo/evidence/F132-code-review.md",
+        "bytes": 7473,
+        "sha256": "207cb31661caeb847a3fb0cbf5ec4b31b9b5cd002f297acb6bad3819431f58fe"
+      },
+      "disposition": {
+        "status": "REQUIRED_FIXES",
+        "reviewer": "logical-agent/f132_runtime_preparation/f132_helper_first",
+        "FIRST_sha256": "207cb31661caeb847a3fb0cbf5ec4b31b9b5cd002f297acb6bad3819431f58fe",
+        "FIRST_bytes": 7473,
+        "exact_string_readback": true,
+        "exact_omo_copy": true,
+        "required_fixes": 1,
+        "finding": "P2 combined-check.py must durably save each child invocation before execution and full actual return before parsing/assertion, including timeout/launch failures.",
+        "candidate_unchanged_after_review": true,
+        "candidate_bindings_sha256": "9b3fe4b40dcdd6b09b6409fd81fcddc117564f20bf2ac3180ce1db87b843f360",
+        "next": "STOP before edits; ROOT assigns fresh fixer/reviewer and ownership transfer.",
+        "static_build_executed": false,
+        "combined_check_executed": false,
+        "native_dispatches": 0
+      },
+      "candidate_bindings": {
+        "path": "temp/hard-screen-20261003/worker/F132/reviewed-helper-bindings.json",
+        "bytes": 1878,
+        "sha256": "9b3fe4b40dcdd6b09b6409fd81fcddc117564f20bf2ac3180ce1db87b843f360"
+      }
+    },
+    {
+      "round": 2,
+      "FIRST": {
+        "path": "temp/hard-screen-20261003/worker/F132/reviews/helper-r2-FIRST.full.md",
+        "bytes": 6398,
+        "sha256": "c2bf2ef6f46da3f2cc7897fc0e100d56d572687fe32ddb71adc549b1116df174"
+      },
+      "copy": {
+        "path": ".omo/evidence/F132-code-review-r2.md",
+        "bytes": 6398,
+        "sha256": "c2bf2ef6f46da3f2cc7897fc0e100d56d572687fe32ddb71adc549b1116df174"
+      },
+      "disposition": {
+        "status": "CLEAR_NO_REQUIRED_FIXES",
+        "FIRST_sha256": "c2bf2ef6f46da3f2cc7897fc0e100d56d572687fe32ddb71adc549b1116df174",
+        "FIRST_bytes": 6398,
+        "exact_string_readback": true,
+        "exact_omo_copy": true,
+        "candidate_bindings_sha256": "8ea1fee0ac444309aa15ac25fe20daea2dc5e87893a25cf19de334520de19b23",
+        "original_FIRST_status": "REQUIRED_FIXES",
+        "original_FIRST_preserved": true,
+        "disclosures": [
+          "Read-only broad filename lookup showed historical fixture path names; no contents read.",
+          "One truncated output recovered with exact-file reads."
+        ],
+        "runtime_acceptance": false,
+        "root_pretrial_released": false
+      },
+      "candidate_bindings": {
+        "path": "temp/hard-screen-20261003/worker/F132/reviewed-helper-bindings-r2.json",
+        "bytes": 2694,
+        "sha256": "8ea1fee0ac444309aa15ac25fe20daea2dc5e87893a25cf19de334520de19b23"
+      }
+    }
+  ],
+  "repair_actual_calls": [
+    {
+      "name": "syntax-build-static",
+      "invocation": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/syntax-build-static/invocation.json",
+        "bytes": 293,
+        "sha256": "31a623d95d83736d663e0b40acf7fb07ab3929c75ec6cde1ccb35fca554d2b93"
+      },
+      "actual": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/syntax-build-static/actual.json",
+        "bytes": 115,
+        "sha256": "aa0ab55d1085040d01c9f946025dfa349d09e9515d64d2cfa72439745593569f"
+      },
+      "outcome": "completed"
+    },
+    {
+      "name": "success",
+      "invocation": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/success/invocation.json",
+        "bytes": 659,
+        "sha256": "6506add31ae1c0dc43477e249a654b66431c684f1bdb04bc65c57cc6d0831468"
+      },
+      "actual": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/success/actual.json",
+        "bytes": 131,
+        "sha256": "5fbc1356d460755fcfda02f1d133496342afaffeacdcc51247bd51c4859dc552"
+      },
+      "outcome": "completed"
+    },
+    {
+      "name": "reject",
+      "invocation": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/reject/invocation.json",
+        "bytes": 364,
+        "sha256": "d667c5d3cf6343dbf28c88a42f5fcc41250925c226f0ad60ded4a1463c6e9c04"
+      },
+      "actual": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/reject/actual.json",
+        "bytes": 123,
+        "sha256": "0a94c1287d32f2994553b7458de99dc702395c5771543bb08a2bce6ffa409441"
+      },
+      "outcome": "completed"
+    },
+    {
+      "name": "parse-failure",
+      "invocation": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/parse-failure/invocation.json",
+        "bytes": 332,
+        "sha256": "543ab0ed2aba54307de67c2ba498bdc65f8a2689949cb3ea9eb1387015655045"
+      },
+      "actual": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/parse-failure/actual.json",
+        "bytes": 131,
+        "sha256": "ded07ba817cb3b823bbd725ce78415ec7622492c6c817526f8257adcc8fe1ca3"
+      },
+      "outcome": "completed"
+    },
+    {
+      "name": "assertion-failure",
+      "invocation": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/assertion-failure/invocation.json",
+        "bytes": 334,
+        "sha256": "b21bcbf910bbb6a77e38055386983df7211cc456c43823010587e207f38c4688"
+      },
+      "actual": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/assertion-failure/actual.json",
+        "bytes": 131,
+        "sha256": "6a171b34e7e8395f61e236549f8f02a6e97bc97d06be9867169aae5942bb1e0c"
+      },
+      "outcome": "completed"
+    },
+    {
+      "name": "decode-failure",
+      "invocation": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/decode-failure/invocation.json",
+        "bytes": 370,
+        "sha256": "d6bbd7ed88a206806b3cc38d8434487634e1e19342a8e0e5d9d8bdd12769952e"
+      },
+      "actual": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/decode-failure/actual.json",
+        "bytes": 123,
+        "sha256": "f7db19bd48a1ba48cd1b08cd13441b6cec534f62ae5a206a0d360b7b2a2b4f6a"
+      },
+      "outcome": "completed"
+    },
+    {
+      "name": "timeout",
+      "invocation": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/timeout/invocation.json",
+        "bytes": 402,
+        "sha256": "1fd533e3b52184dee7b230ed05cb0f6b34c239b5c667417f00a53299c3e9a541"
+      },
+      "actual": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/timeout/actual.json",
+        "bytes": 2458,
+        "sha256": "3e373f5451c14ac69ef090e6040d640aacc343efd7a0689aab056e5d5e723029"
+      },
+      "outcome": "timeout"
+    },
+    {
+      "name": "launch-failure",
+      "invocation": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/launch-failure/invocation.json",
+        "bytes": 281,
+        "sha256": "6192ae47bc82c54ad19f80a8f9c1aa9f43487e286ad1a5abcd26a07e5938faee"
+      },
+      "actual": {
+        "path": "temp/hard-screen-20261003/worker/F132/repair-r2/behavior/subprocess-evidence/launch-failure/actual.json",
+        "bytes": 1822,
+        "sha256": "f9b865351d561fc90f81ef127579aa8363c881bd4cbbaf40e0b46753cc3bf237"
+      },
+      "outcome": "exception"
+    }
+  ],
+  "repair_actual_call_count": 8,
+  "root_blind_dispatch": {
+    "path": "temp/hard-screen-20261003/f132-blind-dispatch.json",
+    "bytes": 7755,
+    "sha256": "410fb1273151e0d571fc5f4965553a8d994668921b1f21f20c04a3ddb883ea55"
+  },
+  "root_first_readback": {
+    "path": "temp/hard-screen-20261003/f132-blind-first-readback-actual.json",
+    "bytes": 13323,
+    "sha256": "a28316fb73b861378d67281cdc196b7f8bcad25853427908af3099e631263b73"
+  },
+  "root_semantic_gate": {
+    "path": "temp/hard-screen-20261003/f132-root-semantic-gate.json",
+    "bytes": 1234,
+    "sha256": "55ae91d6be0c7032902ecfc948691a58f676cddf88ae94d8c6afdddf9e39d67c"
+  },
+  "FIRSTs_before_semantic_mapping_synthesis": true,
+  "root_semantic_assessment": "All three terminal policies explicitly rewash three N and two P exactly once, inspect every batch, preserve release threshold, and correctly reconstruct N6 from historical post-rewash N3. Five slots suffice; all nine ship under exact process qualifications. No objective or inquiry failure.",
+  "readback_provenance": "ROOT states original string plus exactly one file LF readback; both exact file identities rechecked here.",
+  "raw_inventory": {
+    "candidate_identifiers": 102,
+    "problem_final_files": 295,
+    "known_completed_problem_turns": 363,
+    "older_problem_turns": "UNKNOWN",
+    "neutral_excluded": true,
+    "scope": "ROOT-supplied cumulative F132 checkpoint; not valid independent trial or family counts",
+    "independently_recounted": false
+  },
+  "limits": [
+    "Not ROOT FINAL acceptance.",
+    "Full source/helper FIRSTs retained as bound private evidence; no heldout source/answer copied publicly.",
+    "No actual backend identity or efficacy claim."
+  ],
+  "ROOT_FINAL_acceptance": {
+    "frozen_proposal": {
+      "path": "temp/hard-screen-20261003/worker/F132/FINAL-PROPOSAL.json",
+      "bytes": 33386,
+      "sha256": "109c4bbb40f878f2b3bf30833dbabb222191d267de13cc06753e5242a61fdd65"
+    },
+    "root_verification": {
+      "path": "temp/hard-screen-20261003/f132-final-root-actual.json",
+      "bytes": 19256,
+      "sha256": "1fd11abda2253aba978e5d41fc726bac1112eeffbb2d7ef11b5b1623e6b492fe"
+    },
+    "assembly_correction": {
+      "path": "temp/hard-screen-20261003/worker/F132/final/assembly-correction.md",
+      "bytes": 787,
+      "sha256": "c84335ea5a5f212256741b7e85655d1fcd5cdf953de3f952b749158d7f9c8d40"
+    },
+    "original_failed_assembly": {
+      "path": "temp/hard-screen-20261003/worker/F132/final/assembly-actual.json",
+      "bytes": 1426,
+      "sha256": "8961960cf080f3f584557db2850b903bcadfcf3f2c121faf4db9a753f3a007e4"
+    },
+    "corrected_assembly": {
+      "path": "temp/hard-screen-20261003/worker/F132/final/assembly-r2-actual.json",
+      "bytes": 927,
+      "sha256": "d4be1189144411ab518663a369353f21a932bd2c0a4aba260996435c018e4dc3"
+    }
+  }
+}

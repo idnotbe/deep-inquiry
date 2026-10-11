@@ -1,0 +1,71 @@
+{
+  "suite_hashes": {
+    "cases.json": "d3dc355beb29e527bfa8f2464383f7abdd6e7bd3c8038aa0ce7a89dd150abd61",
+    "rubrics.json": "1729daafbd0be3947d165119ae5e5e67d41029921346343b89266f5c25c38c93",
+    "protocol.json": "742c930399d8fb26755e054f45a7754dc538bffbb003b4144f054c402edd034e"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "repository_commit_at_dispatch": "7d2264ce3d1a5ce670596fda393f55744b62b0b4",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F27C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "712df71a7310e6f851e686912543ff0d8ef869a53ab39c664b7ddba945be7f63",
+      "turn_id": "local-turn-89f7b1a604f31e6d",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F27C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "9e652f1d3743f848dad3aefbdf85055af0552f30e7575318f3b54856d3f4c514",
+      "turn_id": "local-turn-fd98d302ab3b3bba",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F27C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "b28f3d5048aa07786671325de8140e7410a000bbab53463fc214313e2e309cb5",
+      "turn_id": "local-turn-cfe356f3e9901059",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "8184e0c374a4d8012b073fee779f66c36717a6743f768a6cee1c1212e71277ff",
+  "grading_packet_redaction": "Blank structure, current task/rubric/anchor/anonymous answers plus reviewed generic criteria. Inspected before grader dispatch for condition/model/host/path/IDs and stale previous-case content.",
+  "transport_limitation": "Git Bash MCP outer call returned tools/call timeout after300s despite requested1200000ms. Original runner completed all3 first-attempt slots withfinals/ledger/readback/cleanup. Read-only builtinexec inspected statuses while transport unavailable; no rerun or slot replacement. Not a participant timeout or difficulty finding.",
+  "pretrial_reviews": {
+    "source_only_independent_reconstruction": [
+      "f27_source_a: independentlyconstructeddifferentcontinuousC/Hpaths, Kdiagonalboundimpossible",
+      "f27_source_b: independentlyconstructeddifferentprojectionlengthpaths withfullcapsuleclearance, sameCADverdicts"
+    ],
+    "scope_correction": "Unreviewed physicalhandlingdraft withartificialall-inclusivefixtureassumption supersededbeforefreeze/trials; privatelypreserved. FinaltaskonlyCADgeometricnecessity, explicitlaterfieldhandlingreview.",
+    "round1": "A approvedanalyticall-angleauthorpath/fullcapsule/startend andcriteria; removedunpersisted1001samplecertificatewording. Numericcertificatecontainsscalarbounds/pathformula, notsampletrace.",
+    "round2": "B approvedexactfinalbytes, analyticcontinuousproof andallvalidrouteacceptance; no equipmentfiction.",
+    "limits": "Sourcefacts explicitlyseparateCADscopeandallowintermediateorientation; one reviewerflaggedthisaspossible scaffolding. Solvabilityonly, notdifficultyproof."
+  }
+}

@@ -1,0 +1,27 @@
+# F167 — INCOMPLETE_PROTOCOL / UNVERIFIED
+
+2026-10-11 · F167_SOURCE_V1 · closure-1 · issue #18 · native worker route.
+
+F167 screening closes incomplete. r1/r2/r3 remain UNVERIFIED and ungraded. The audit privacy boundary remains FAIL/INVALID; this is not participant-proven INVALID, contamination or misconduct. The executed incident was an unrelated historical locator exposure in ephemeral preparation output. No historical session body was read and no F167 source identity/path was exposed according to the preserved initial report. This closure reproduces no raw values. The contract interpretation supplies no acceptance route or retroactive cure. Same-audit supplemental facts do not erase the violation.
+
+The same auditor resolved 27 of 33 classification strings. Six labels failed the pre-output lexical safety guard and were not printed or meaning-read: r1 records 5 and 18, r2 records 5 and 20, r3 records 5 and 18, each part 0. All 15 containing-record hashes matched the collection in the supplement. The 27 resolved meanings concern previously reviewed instructions and context; they do not prove the backend ignores labels. Six unresolved meanings independently block acceptance.
+
+Four auditor calls were denied before execution, distinct from the collector's one unexecuted denial and two initialization errors. Audit denials concerned complete-record retention, ordinary-record retention, recursive inventory and parent append bytes beyond the frozen range. The last proposed expansion was unnecessary because the range already covers cutoff; it is not itself a missing-evidence requirement. The collector errors reported no raw source access or sensitive output. None of these seven events substitutes for, or erases, the executed audit incident.
+
+| Original | Validity | Records | Public text parts | Final bytes |
+| --- | --- | ---: | ---: | ---: |
+| r1 | UNVERIFIED | 22 | 10 | 1613 |
+| r2 | UNVERIFIED | 24 | 10 | 1403 |
+| r3 | UNVERIFIED | 22 | 10 | 1315 |
+
+The 68 record boundaries and 30 public text parts are preserved in existing evidence. Final texts remain there unscored; state binds each by bytes/hash. Public parts include 21 primary/mirror copies plus nine action-argument mirrors. This closure checks public-text integrity mechanically and does not evaluate answer content. The nine supplied evidence files are frozen in manifest.json; historical pending/preparation statuses remain untouched. Preparation/source approval and collection integrity do not establish independent audit acceptance.
+
+Preserved audit scope: latest-128 bounded header discovery found one original per task without a boundary timestamp tie and checked direct-parent links. The positioned parent range [241130739,245325043), 4194304 bytes, SHA-256 b1b9114c2a1418809ceb8bc15ed6c998ca77c5343acf981319dbb16bef026581 covers cutoff 2026-10-11T13:24:20Z. No extra target calls were observed through that cutoff. Three requested/observable gpt-6.1-sol, medium, fork_turns none settings and non-message dispatch fields matched. The initial audit checked 57 ordinary record inventories, eight private-reasoning record types only, three ordinary 82-byte initial headers, 33 instruction components, 38 prefix values/order per original and 75 structural checks. It established no answer/H/oracle/rubric or target-skill content in checked instructions; generic guidance can affect performance. C receipts were 2427 bytes, SHA-256 534b771f8657c3880f3f6841733f286974dc05a2baeb2ab9861fef64e9cfdb8f. The wrapper differed by one trailing LF with the same inner arguments and observation. Last complete reported stability check: 2026-10-11T13:44:33.685Z. These are preserved audit claims, not new raw-source verification.
+
+All three originals must be independently VALID before grading. Anonymous packet NOT_CREATED, grading NOT_RUN, grader calls/results 0. No retries, replacements, followups, new trials, clean reaudit, H participant use or treatment runs. Retained increment 0; total 0/6. Difficulty UNDETERMINED: no easy/hard, skill-effect or causal inference is supported. The overall stages 1–2 goal remains incomplete.
+
+Protected initial plaintext remains adopted root/native-API trust, not independent equality. Private reasoning was excluded. Complete private bootstrap, memory truncation, opaque reference contents, actual backend/fallback and complete internal isolation remain unproved. Effort shows protocol fidelity only. Public source explanations used unpinned main and do not prove the runtime version. The contract reviewer accepted the incident description without raw inspection; adoption/frozen-byte linkage is supplied by pretrial bindings, not that interpretation. No pure unguided-model claim follows from the shared operating environment.
+
+check.mjs verifies frozen inputs, closure gates, original metadata/public-copy integrity, accounting, catalog baseline and any available output freeze. behavior-tests.mjs tests rejection of prohibited state changes. They do not perform raw-session audit or grading. Candidate outputs and checks are frozen by f167-closure-candidate.json; its own hash is delivered in the handoff, avoiding a circular self-hash.
+
+Delivery remains PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW. The separate catalog fragment is a draft only; catalog README remains unchanged at 126841 bytes and SHA-256 d09d8dc665a84cafce44a61532aa4f11eb5a4a05dbd5c24762c5fa7e2f9c6c5e. Root independent review and publication/readback are outside this worker's writes.

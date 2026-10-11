@@ -1,0 +1,60 @@
+{
+  "suite_hashes": {
+    "cases.json": "c2302f7c7ed95e0c384048fe9e93bb2aa3853af94916787b72a06ffd7fcb983d",
+    "rubrics.json": "95c2d2933e1edb58ef721c15524948383ae7bde10d55aeb1cd9c733804b2210d",
+    "protocol.json": "9483603af68fbd9de742ced6e18d70ba422ad69e7324fb5d9e742719f4b39e23"
+  },
+  "code_commit": "f33931f",
+  "repository_commit_at_dispatch": "8673d2eebe60827dec57f1bc5b5204b8c1087f51",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F22C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "c1a67271aa8367e3f8fce343effc29c9f941af4293a95a7c4e45093173b484e3",
+      "turn_id": "local-turn-10c320ce2bcfc476",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F22C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "f621ad6ccb652b21cd1718503787c43b87697e99152f7f2ec52daf4ac4cd4783",
+      "turn_id": "local-turn-f1758c480bda5387",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F22C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "2ecb56f87d6baee3b093a04f68b0fe81af94336bfd8c31a2a58346c591f139cb",
+      "turn_id": "local-turn-ede08bb927f3dbd9",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "660131ae232a36275b9d57c9562a022c77f9102272feb902d855dd52ef7a0dd8",
+  "grading_packet_redaction": "Only task,rubric,genericrules,anonymousanswers; no dispatchprotocol/arm/model/nativepaths. Checked before grader dispatch."
+}

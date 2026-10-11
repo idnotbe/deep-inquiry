@@ -1,0 +1,45 @@
+{
+  "status": "F66_EXCLUDED_EXACT_EVIDENCE_BINDINGS",
+  "current_bindings": {
+    "temp/hard-screen-20261003/worker/F66/qualification2/original-operational-freeze.json": "0de5602b9b135259cf93012e9c454d1bdc8c792be5155535b84ab3cb30bcd8a9",
+    "temp/hard-screen-20261003/worker/F66/qualification2/operational-freeze.json": "b581fa3dbbe82347ea0350cda3f435a92edb29a3d90c64ca591d99a65ebb5807",
+    "temp/hard-screen-20261003/worker/F66/qualification2/canary-check.json": "2865fa77d86ee93dbaf6576c74ecbc62c4bb0e3fa8653932ab33caaa0f501fba",
+    "temp/hard-screen-20261003/worker/F66/qualification2/neutral-safe-readback.json": "091249659c808c167739f24ad43fb792850105ff8e9fc55b197f65412bcdfa59",
+    "temp/hard-screen-20261003/worker/F66/qualification2/neutral-plan-delta-note.json": "0e966cdfa09f713fea3c9bacb15e47b660a4125dbe75edd09a613cf4bae4d342",
+    "temp/hard-screen-20261003/worker/F66/qualification2/canary/canary-common-context.json": "919de1e45ba25ce9f07a6bdf4d1693b3ed9df2334b5d22f4d67d83462519b41a",
+    "temp/hard-screen-20261003/worker/F66/qualification2/screening-plan.json": "54ce8b66f13913ff17eb97deb795b5b2634bbbd8ef16ceff76a92b65d604fdf3",
+    "temp/hard-screen-20261003/worker/F66/qualification2/original-route-binding.json": "6326d55ab40268296343f1322dec942120f38d58bba2e130117629d58cf78f1b",
+    "temp/hard-screen-20261003/worker/F66/qualification2/producer-invocation-original.json": "5fd5cb54cbbae010a93de5a0ae9280ac696bf3edaf3475dd6150d404a7c9501b",
+    "temp/hard-screen-20261003/worker/F66/qualification2/producer-terminal-original.json": "eb65ff5145eb9b080840ce2309432e5bedf7699bd91f7e73070931db2d179f16",
+    "temp/hard-screen-20261003/worker/F66/qualification2/original-collection-check.json": "3c5b1d09075e8fd73e51d2bfd524a24d3c13c1a974b369682fde4e7d44e3758e",
+    "temp/hard-screen-20261003/worker/F66/qualification2/collection-packet-readback.json": "4baf3520ec2d978d6d41875ad467e1ac6a41e3aba1ae3b459cb7e504cf186541",
+    "temp/hard-screen-20261003/worker/F66/qualification2/safe-collection-supplement.json": "6574da9540eb03d992754e1cda553014826732767426a8e86eaf740f951ed6de",
+    "temp/hard-screen-20261003/worker/F66/qualification2/packet-display-binding.json": "66afa5523e6c569aba465debbb0ff51ad37513934b3492bfa441daffc60c3500",
+    "temp/hard-screen-20261003/worker/F66/qualification2/grade-a-FIRST.json": "8eac47afe77720be756b6adab40901fcf7e9b39b7c04309c35c7a83006a41de7",
+    "temp/hard-screen-20261003/worker/F66/qualification2/grade-b-FIRST.json": "e69d28606c8d3348177823b58fb255eb436f13fceba4cf0d2ca62e74c7bacf42",
+    "temp/hard-screen-20261003/worker/F66/qualification2/grade-a-FIRST-parsed.json": "8eac47afe77720be756b6adab40901fcf7e9b39b7c04309c35c7a83006a41de7",
+    "temp/hard-screen-20261003/worker/F66/qualification2/grade-b-FIRST-parsed.json": "5bc268e33330e6c8df66a89d3cdd3de39893fa153336e37309dc98fdd0b6e5f9",
+    "temp/hard-screen-20261003/worker/F66/qualification2/grading-check.json": "5f67c61c5913828c0b7828832cdafb912f3c59671b8acdd3d6b5ae5b6e54be64",
+    "temp/hard-screen-20261003/worker/F66/qualification2/grading-readback.json": "6552f3f486cd9a47771eaaad947cf9d59cfa9fb0bc2e880e723062556d01a21e",
+    "temp/hard-screen-20261003/worker/F66/qualification2/grading-preservation-supplement.json": "1841e6591c71183e6ea718e869f8c346d584440b0d56de6338b22867c3deec0b"
+  },
+  "reused_pretrial": {
+    "manifest_path": "temp/hard-screen-20261003/worker/F66/pretrial-manifest.json",
+    "manifest_sha256": "f4f58aa6d7256afd93edc46a38fdbb97febe6e65e75063f3da3f2f13facc9e1e",
+    "readback_path": "temp/hard-screen-20261003/worker/F66/pretrial-final-readback.json",
+    "readback_sha256": "0581ffa5b7014f1937f5ee34074431561457a48b77ca65635e97fe3ced1a83d1"
+  },
+  "historical_failed_neutral": {
+    "check": "temp/hard-screen-20261003/worker/F66/neutral-incomplete-check.json",
+    "sha256": "1cd10e6f6f17d9c9e261251c8dab6d532fdbebdea0bc76a034722c8e95fe065c",
+    "readback": "temp/hard-screen-20261003/worker/F66/neutral-incomplete-readback.json",
+    "readback_sha256": "f39d583766b7ddcd140abef0aa5439b17db28fd94c4e5f6e46da9b223fd97b07"
+  },
+  "public_response_sha256": "cf030bbf6509c9f13692dceeb33019b818fd8304eca2cd7829e3ccd7290965ed",
+  "public_grades_sha256": "b59fb5d9fb7bf02a8f63d9834e64ed8c3e99d259d09c84d96df8ccd0a03235e0",
+  "public_status_sha256": "40b875eeea8a1ac057d72c0ac835dd6cc7ff2052b32cfdca0f2ff7deecae4f98",
+  "review_scope": "Two source-FIRST plus SAME two targeted alignment completion; two total not four. Unchanged source/pretrial coverage reused, current722 runtime adoption and actual qualification2 independently gated.",
+  "classification": "All3 lawful q1/4 equivalents; expected invoice17/10, strict G. No canonical q1/5 quota or global C optimum requirement.",
+  "checks": "Affected public JSON/full FIRST preservation/original UTF8/count/hash/README exact own inverse only",
+  "finalartifact": "F32+two successive FINAL artifact rounds/archive deferred; not pool final approval"
+}

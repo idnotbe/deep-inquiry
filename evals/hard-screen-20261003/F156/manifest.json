@@ -1,0 +1,200 @@
+{
+  "candidate": "F156",
+  "version": "closure-1",
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "inputs": {
+    "temp/hard-screen-20261003/f156-capture-review-a.md": {
+      "bytes": 3105,
+      "sha256": "39fb41d8e4374258ad4b6881d3bfe22ab5f53fc6997f710cf62693aa9b0f9422"
+    },
+    "temp/hard-screen-20261003/f156-capture-review-b.md": {
+      "bytes": 2910,
+      "sha256": "f4e46be61862da1535f4d12c7da3e5b9f6d5b70cde0c26209a563cadf6dab0b2"
+    },
+    "temp/hard-screen-20261003/f156-capture-review-c.md": {
+      "bytes": 2731,
+      "sha256": "d81fb0935e6812ac786fb2937d34c8db91aaac87e385c9ed612772faf6aa76eb"
+    },
+    "temp/hard-screen-20261003/f156-coordination.md": {
+      "bytes": 2345,
+      "sha256": "e67871aafd8f1f62b529097f52c13a9e478e1eed76f4395022a4a7f7d4f60933"
+    },
+    "temp/hard-screen-20261003/f156-native-launches.json": {
+      "bytes": 8933,
+      "sha256": "e27ea40144bace082647e381cad064446c3569852168074b31eabf77c14b9958"
+    },
+    "temp/hard-screen-20261003/f156-native-pretrial.json": {
+      "bytes": 17787,
+      "sha256": "41390c79147671a953515b9546848ea9fbed9b2761f4c5172b7b95349f45dfe8"
+    },
+    "temp/hard-screen-20261003/f156-native-readback.json": {
+      "bytes": 116,
+      "sha256": "b57b6312d438bfab9a79cf6d3fac677e1dd21374d4c98f6d549c94c403c1e4e1"
+    },
+    "temp/hard-screen-20261003/f156-native-unaccepted-finals.json": {
+      "bytes": 3889,
+      "sha256": "9f0c490a0b9a8918677056898ed133e09c6fb4bc179909d1eae2e31de1a41940"
+    },
+    "temp/hard-screen-20261003/f156-source-review-a.md": {
+      "bytes": 3594,
+      "sha256": "2ff31fb46e883f63077ee9f8d60c18eb8fc503e10d70b43815f7b4c5db00bba3"
+    },
+    "temp/hard-screen-20261003/f156-source-review-b.md": {
+      "bytes": 2609,
+      "sha256": "bd730995e2a5e81e2b3824bdf591d0fbb211971b30cbf10ffb01ae652222d2ed"
+    },
+    "temp/hard-screen-20261003/f156-stage1-checkpoint.json": {
+      "bytes": 3777,
+      "sha256": "87446c2cfcf1f47e028ecd34a69090cbb3abef3c8cc2d16a67e8c24bdd18a510"
+    },
+    "temp/hard-screen-20261003/f156-stage1-shape-diagnostic.json": {
+      "bytes": 11823,
+      "sha256": "c3cd1ade8eba756b56cc3d98ade7e49e8436f52f01c68992cf0b70ae7da0162e"
+    },
+    "temp/hard-screen-20261003/f156-two-stage-capture-design.md": {
+      "bytes": 6467,
+      "sha256": "c00904f23c3d602aaae86a4b05505bbd872b4ca46b77cfe1184b2a5b9029c9b2"
+    },
+    "temp/hard-screen-20261003/worker/F156-proposal/C.md": {
+      "bytes": 4367,
+      "sha256": "04057225ce630d3d9df9e590eb33162bd35e5c4da2bd7a7de36479ad454801dc"
+    },
+    "temp/hard-screen-20261003/worker/F156-proposal/checks.json": {
+      "bytes": 13604,
+      "sha256": "08918ca8bb492ee42a1efd924602820f99d6428932756bec852b42727987ea41"
+    },
+    "temp/hard-screen-20261003/worker/F156-proposal/design-note.md": {
+      "bytes": 2272,
+      "sha256": "1bb58f84dcafa589c4d162ba917f1d09181b16cb3914a6529feeba99a5eff956"
+    },
+    "temp/hard-screen-20261003/worker/F156-proposal/evidence.md": {
+      "bytes": 5333,
+      "sha256": "28cd6ef1eced0850310e9a52d1714458afd8e25a751c0728a878cb2cf7f07a20"
+    },
+    "temp/hard-screen-20261003/worker/F156-proposal/freeze.json": {
+      "bytes": 5177,
+      "sha256": "58723b372104e5e599708d2eb4306c8490278205233a0ca8bf69d12ad21f375e"
+    },
+    "temp/hard-screen-20261003/worker/F156-proposal/H.md": {
+      "bytes": 4456,
+      "sha256": "9089a7686a29a495e84fc89a923d6be3949b1ea62db4433fddf86e322e722443"
+    },
+    "temp/hard-screen-20261003/worker/F156-proposal/oracle.md": {
+      "bytes": 7069,
+      "sha256": "fb4922f95ea82b188ee062ca37525d7e3d4009e70712c6bf952e444902dda593"
+    },
+    "temp/hard-screen-20261003/worker/F156-proposal/protocol.json": {
+      "bytes": 7890,
+      "sha256": "0abb01b10a26d0e7c3c6da63a121f2d8f61039dd6e2088d3cc8662f1d918954f"
+    },
+    "temp/hard-screen-20261003/worker/F156/capture/capture.py": {
+      "bytes": 18252,
+      "sha256": "8a85cc67fc6774db28aab403a618ac764dfc326ee87710e3839bdab6c7b7efc9"
+    },
+    "temp/hard-screen-20261003/worker/F156/capture/checks.json": {
+      "bytes": 8912,
+      "sha256": "611a0847e3563de2eba7edf06716870789b5c969657011438fc123b0a680a910"
+    },
+    "temp/hard-screen-20261003/worker/F156/capture/contract.md": {
+      "bytes": 14007,
+      "sha256": "dd138b0a4c8cef04cc58136952fe1b33d1b3b6bd38e4056cf51d18bf86205cac"
+    },
+    "temp/hard-screen-20261003/worker/F156/capture/test_capture.py": {
+      "bytes": 23392,
+      "sha256": "802947a99994fd4b6a346be2854599d9296f0c7939cf7c1f64daee20ea787f84"
+    },
+    "temp/hard-screen-20261003/worker/F156/pretrial-preparation.json": {
+      "bytes": 6905,
+      "sha256": "c2d432386f9bfafa0ec3aef6246417e4d471e10af115642081a4a7bbc37a9075"
+    },
+    "temp/hard-screen-20261003/worker/F149/capture/capture.py": {
+      "bytes": 11300,
+      "sha256": "df85e5939415d47e0f5c807a8e53400c8710c0f848a231b56cb57c65b0036887"
+    },
+    "temp/problem-input-0156/stage1.txt": {
+      "bytes": 2638,
+      "sha256": "ff651ed2d3efdb2dd92528c3c547a53af836f26bd8f10511dca90be106766f4c"
+    },
+    "temp/problem-input-0156/stage2.txt": {
+      "bytes": 1662,
+      "sha256": "d01be1dcf473bd2a4a7a8384f9f8e210fdbb63938a6a6d7e22ba6e4bb0f8658b"
+    },
+    "evals/hard-screen-20261003/prospective-method-v2.md": {
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    "evals/hard-screen-20261003/prospective-method-v3.md": {
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    },
+    "README.md": {
+      "bytes": 6288,
+      "sha256": "2b8d4fe99f90806beb8a81c63bbe74747ab941621faa71b9090ebb931dbeb2c8"
+    },
+    "evals/hard-screen-20261003/README.md": {
+      "bytes": 114774,
+      "sha256": "5d80d5bde0103d497217e4701eb49c2d68debe1ec51d3a670c9b52e42dd0a98e"
+    },
+    "temp/hard-screen-20261003/f156-incomplete-delivery-audit.md": {
+      "bytes": 2946,
+      "sha256": "563e194e100ff82163dd7135d80b2f803fb1a56c71a05aad308e2782a3898479"
+    }
+  },
+  "outputs": {
+    "evals/hard-screen-20261003/F156/report.md": {
+      "bytes": 4385,
+      "sha256": "6285543c5ab8ea9ebd6245f60876a48f685f849f13ef3b54a70617e333ebe711"
+    },
+    "evals/hard-screen-20261003/F156/state.json": {
+      "bytes": 3074,
+      "sha256": "86671eb5a32a2550dc122482faa5929bb85198449365f3b8b6526fa7deb52409"
+    },
+    "temp/hard-screen-20261003/f156-catalog-append.md": {
+      "bytes": 1097,
+      "sha256": "28f874aa13fe2b7b163719635b9d7dde10fd92c2e9d2b6a97a202313444f25e6"
+    },
+    "evals/hard-screen-20261003/F156/verification.json": {
+      "bytes": 3270,
+      "sha256": "c0e9ee3fb24796bfe91b13f13a8e53f98c09555995ffedd58990edd647b7bf89"
+    }
+  },
+  "catalog": {
+    "applied": false,
+    "owner": "parent",
+    "append": "temp/hard-screen-20261003/f156-catalog-append.md",
+    "baseline": {
+      "bytes": 114774,
+      "sha256": "5d80d5bde0103d497217e4701eb49c2d68debe1ec51d3a670c9b52e42dd0a98e"
+    },
+    "expected_after_append_bytes": 115871,
+    "root_readme_baseline": {
+      "bytes": 6288,
+      "sha256": "2b8d4fe99f90806beb8a81c63bbe74747ab941621faa71b9090ebb931dbeb2c8"
+    }
+  },
+  "archive": {
+    "path": "temp/hard-screen-20261003/f156-native-unaccepted-finals.json",
+    "original_finals": 3,
+    "scored": 0,
+    "observed_turns": 3,
+    "planned_turns": 6,
+    "terminal_finals": 0,
+    "canonical_string_bindings": [
+      {
+        "bytes": 256,
+        "sha256": "46ca2b13e289c4ae0649647f89f5c9ee04b4cbfa1e6271749ff030575fed982e"
+      },
+      {
+        "bytes": 297,
+        "sha256": "e1f22c0141febc84a8648b5dd880d51969b96b6f6a0e1d3626e267ca46d2d591"
+      },
+      {
+        "bytes": 334,
+        "sha256": "a992b40b72eb85538c19434bc82cb9137857bdc1184c58faeb728e3df4a11dca"
+      }
+    ]
+  },
+  "root_final_acceptance_claimed": false,
+  "self_hash": "Excluded to avoid circular binding; bytes and SHA-256 returned in worker handoff.",
+  "scope": "Exactly five assigned closure files; no source/parser/pretrial/archive/catalog/root README changes, participant calls, grading, Git or external writes."
+}

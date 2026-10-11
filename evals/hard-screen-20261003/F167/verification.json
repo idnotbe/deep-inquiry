@@ -1,0 +1,14 @@
+{
+  "candidate": "F167",
+  "version": "closure-1",
+  "verdict": "PASS",
+  "checks": [
+    "frozen inputs",
+    "closure status and non-grading gates",
+    "three original metadata bindings and 30 public text hashes",
+    "denial and error accounting",
+    "catalog unchanged",
+    "available output freeze"
+  ],
+  "scope": "Artifact integrity and closure consistency only; no raw-session audit, grading or hardness proof."
+}

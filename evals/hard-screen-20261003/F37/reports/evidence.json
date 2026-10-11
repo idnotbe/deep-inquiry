@@ -1,0 +1,125 @@
+{
+  "suite_hashes": {
+    "cases.json": "699f5b8656eca046ae515d73e01ebf13c6dc225c3e5dffd1360f56b47816c9cb",
+    "rubrics.json": "2fb6d9599b428ac6f7e3552768586122e138a18cc75c7696babe7d84d86de680",
+    "protocol.json": "75073a79bfdcb54692bccbe1b83ebddbb342d532e3e34e8345d1bf210d97ad28"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": "Three original F37C baseline attempt1 sessions r2/r3/r1; no replacement/retry/outer transport expiry.",
+  "grading_packet_sha256": "d538dd1aa9114390228345063020f022db41c3ede6d9ec0fdfaa986fed81311b",
+  "grading_packet_redaction": "Blank fresh task/rubric/current-case anchor/generic criteria/anonymous exactfinals only; writer interpretation and model/host/condition/old-case metadata absent.",
+  "pretrial_reviews": {
+    "source_original": "Two NEW terminal REVISE reports, full bodies/original raw3/hash manifests retained.",
+    "targeted": "Two seed-scope sentences clarified after originals; exact inverse recovers raw3; same reviewers targeted APPROVE; no new mathematical controls or unaffected rerun.",
+    "first_exact": "APPROVE; independent 12384cells12556pureeq zero discrepancies; UV interpreter access blocked, no claimed UV rerun PASS.",
+    "distinct_final": "APPROVE; independent6240cells39000pureprofilecandidates6348pureeq zero discrepancies; all10bytes match."
+  },
+  "source_prompt_relation": "Source raw bytes separately hashed; CRLF->LF and trailing whitespace removed for actual case prompt. Native task adds identical no-tools/700words suffix. Original source reports are conversation copies, not authenticated raw native events.",
+  "freeze_sha256": "56817fb9aabe2a7152f6f4915ab17ae318ed3eece45c67da3bcfb6ff524c0d35",
+  "producer_file_sha256": {
+    "eval_inquiry_py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "inquiry_dialogue_py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "plan_sha256": "6809a8d45448fabbc40488bfa3c90a8500c574c604742a2e574b71a06d2d6b19",
+  "neutral_canary_plan_sha256": "c72c8354e4d0eacbded041ef6fd025f54d2eb8e5e069e57a93ce52bd66f1a923",
+  "common_context_sha256": "6d70bb40ec9f8bad8ef8c27a83782ba0d7cdc1a8fd3f6c5e55ed044db06c1162",
+  "static_proof_sha256": "f6a51528aa8224a95ebb72d9e080ff485b0221d2513c2de88e2e8391cf73f6a9",
+  "certificate_sha256": "9c2a935c74516ecae0038314b42358b95b0222ada0a2c60c173eba22fc8a3523",
+  "oracle_sha256": "5aee7d1dc4f83098adc284a1e1f771e4b7ad425bff7dee72c6528e058212f778",
+  "static_coverage": "Actual writer Fraction sampled pure two-type rule pairs, H28menu/weight probes; continuous/allmixed/correlated/public-history/global scope analytic, not numerical enumeration or empirical substitute.",
+  "neutral_canary_completed": 2,
+  "neutral_canaries_counted_in_problem_turns": false,
+  "canary_readback_sha256": "98e3df916e4bb52c55bda33512140759398b88c79231b932fae5ada1e7189a3c",
+  "canary_reference_semantics": "Initial baseline false common matches establish captured reference; second arm matches and cross-arm verified; no local canary assertion failure or retry.",
+  "original_slots": [
+    {
+      "response_id": "R01",
+      "status": "VALID_ORIGINAL",
+      "safe_manifest_sha256": "a61ba28778c271355793bbee11e359a4666c89c50377b73567e09150bb9199f5",
+      "telemetry_sha256": "a7a5ea4ff8f4925ffc94b03139e1a17a2de15fb61ffeebe985f45ccd7217e4c3",
+      "input_readback": true,
+      "no_method_exposure": true,
+      "no_tools": true,
+      "common_context_match": true,
+      "completed_turns": 1,
+      "completed_finals": 1,
+      "source_preserved": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "status": "VALID_ORIGINAL",
+      "safe_manifest_sha256": "bf66173cea3ac6e9cfe3cf6c48460c0967e000aae9868b1c897eeb075c6458e5",
+      "telemetry_sha256": "310f342a0c0d590abeaa05f85ffb1f21dca05b465f9faffedc5562d0300dcb69",
+      "input_readback": true,
+      "no_method_exposure": true,
+      "no_tools": true,
+      "common_context_match": true,
+      "completed_turns": 1,
+      "completed_finals": 1,
+      "source_preserved": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "status": "VALID_ORIGINAL",
+      "safe_manifest_sha256": "c30c338f0169390c7a118ffc28e40f249e7a87defd3b7ec25c11b91b254e9838",
+      "telemetry_sha256": "310f342a0c0d590abeaa05f85ffb1f21dca05b465f9faffedc5562d0300dcb69",
+      "input_readback": true,
+      "no_method_exposure": true,
+      "no_tools": true,
+      "common_context_match": true,
+      "completed_turns": 1,
+      "completed_finals": 1,
+      "source_preserved": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "problem_turns_added": 3,
+  "actual_problem_turn_counts": [
+    {
+      "response_id": "R01",
+      "completed_turns": 1,
+      "finals": 1
+    },
+    {
+      "response_id": "R02",
+      "completed_turns": 1,
+      "finals": 1
+    },
+    {
+      "response_id": "R03",
+      "completed_turns": 1,
+      "finals": 1
+    }
+  ],
+  "safe_original_capture": "Safe manifests/final/delivery/telemetry verified; no private runtime event/hidden reasoning/auth/profile contents read. Source-preservation/process-stop/copied-auth-root cleanup flags true; actual backend not established.",
+  "outcome_retries": 0,
+  "transport_expiry": false,
+  "new_full_tests_run": false,
+  "reused_full_checks": "Unchanged producer: existing153tests6environment-skips0fail147executedpasses; no repeated old full checks.",
+  "current_totals": {
+    "families": 33,
+    "finals": 99,
+    "problem_solving_turns": 140,
+    "retained": 0,
+    "required": 6,
+    "remaining": 6
+  },
+  "original_grade_sha256": {
+    "A": "ed372615a2ff19e553f796afbee690f717c97bd8ced3b20621acc6b845f3fecf",
+    "B": "870faf22b4ff4cda3075af8e9b472d6358ab6cc6374b9f3595d010058251b4d9"
+  },
+  "local_authoring_corrections": "Absent phases-key assumption TypeError before cases write corrected to actual three root splits; no-op notepad patch missing expected text wrote nothing then append; manifest-only stdout premature producer statement followed by actual two producerhash verification. None is a participant trial/retry or result change.",
+  "grader_diagnostic_correction": "B original verification preserves intermediate A-share mislabeled as B endpoint then corrected using1-w; no grade change/regrade.",
+  "artifact_review_status": "PENDING_DEFERRED_TO_STABLE_POOL_CLOSURE",
+  "local_archive_status": "DEFERRED_NOT_RUN"
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "candidate": "F106",
+  "source_revision": 1,
+  "proposal_revision": 1,
+  "screening_outcome": "EXCLUDED_NOT_DIFFICULT",
+  "root_final_acceptance": "ACCEPTED",
+  "criterion_satisfied": false,
+  "joint_qualifying_count": 0,
+  "valid_original_slots": 3,
+  "retained_before": 0,
+  "retained_after_proposed": 0,
+  "target": 6,
+  "six_families_goal": "INCOMPLETE",
+  "H_K_participant_unused": true,
+  "scored_treatment_trials": 0,
+  "model_requested": "gpt-6-sol",
+  "actual_backend": "UNVERIFIED",
+  "reasoning_effort_considered": false,
+  "scope_of_result": "This fixed finite-menu case failed the prospective hardness screen; not a statement of universal family ease or skill efficacy.",
+  "retained_after": 0,
+  "next": "F106 closed; no replay or regrade; stage1-2 objective remains unmet."
+}

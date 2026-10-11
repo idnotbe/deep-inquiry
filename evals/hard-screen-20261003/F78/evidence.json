@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "status": "PUBLIC_EVIDENCE_PENDING_ROOT_FINAL",
+  "task_sources": [
+    {
+      "path": "evals/hard-screen-20261003/F78/sources/F78C.md",
+      "bytes": 2698,
+      "sha256": "8d0eac725e29097a7a40e482ce09f57d62dedcf31f93edff26e0feef099facee"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F78/sources/F78H.md",
+      "bytes": 2700,
+      "sha256": "b684f90f00901d452ede3c3bd359ab2d280f195016d5b914e4ba665ed6512ef1"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F78/sources/F78K.md",
+      "bytes": 2299,
+      "sha256": "6632c6878d7b0e8fd6f536309a0247cfd3be11f0c659f0b7f75af8091f31abdf"
+    }
+  ],
+  "responses": [
+    {
+      "anonymous_id": "Response-A",
+      "case_id": "F78C",
+      "condition": "baseline",
+      "repetition": 3,
+      "attempt": 1,
+      "path": "evals/hard-screen-20261003/F78/responses/F78C-baseline-r3.txt",
+      "bytes": 648,
+      "sha256": "7623146c28dc39c0457539eca8af095482988fcdebda44af22e000de0d3d0526"
+    },
+    {
+      "anonymous_id": "Response-B",
+      "case_id": "F78C",
+      "condition": "baseline",
+      "repetition": 2,
+      "attempt": 1,
+      "path": "evals/hard-screen-20261003/F78/responses/F78C-baseline-r2.txt",
+      "bytes": 638,
+      "sha256": "397795e3a7b96cb8bdf8feb09ce0d08f9cf2c9c0375d14f0ed53495dd33f0e5f"
+    },
+    {
+      "anonymous_id": "Response-C",
+      "case_id": "F78C",
+      "condition": "baseline",
+      "repetition": 1,
+      "attempt": 1,
+      "path": "evals/hard-screen-20261003/F78/responses/F78C-baseline-r1.txt",
+      "bytes": 694,
+      "sha256": "da8d08cb09970053eecef722da5d6e1932477fc8eabd948b37796a51ba446099"
+    }
+  ],
+  "blind_FIRSTs": [
+    {
+      "path": "evals/hard-screen-20261003/F78/grading/grader-one-FIRST.md",
+      "bytes": 3105,
+      "sha256": "dc9ff5d2ebbfe076515aa6db4162e79cc5e1c63af80cd25c216f34f83596e87c"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F78/grading/grader-two-FIRST.md",
+      "bytes": 4161,
+      "sha256": "ce3a5a9ba8cb87c4d2c3cc7069702bc0cd339e983014bedc29402f6ddec9af63"
+    }
+  ],
+  "grading_summary": {
+    "path": "evals/hard-screen-20261003/F78/grading/summary.json",
+    "bytes": 3988,
+    "sha256": "5ee8218a89fc2ef75558a1130bd263af5df0bc07a386e46f57802d81c86e1ea4"
+  },
+  "public_inverse": {
+    "path": "evals/hard-screen-20261003/F78/grading/inverse-mapping.json",
+    "bytes": 947,
+    "sha256": "4dabdbd92894d843a3a0d50aecfdddf21b076708a72d11efc8263764ab2bea34"
+  },
+  "root_PRETRIAL_release": {
+    "path": "temp/hard-screen-20261003/f78-pretrial-gate-readback.json",
+    "bytes": 2281,
+    "sha256": "f882b571f3b8123aebe1b2417a8d39972fc331a56fbba47b615104d9f675281b"
+  },
+  "root_SAFE_release": {
+    "path": "temp/hard-screen-20261003/f78-safe-gate-readback.json",
+    "bytes": 1484,
+    "sha256": "aff95e631205e3f33b7914473847a7492aa93bb5033328cec8a409a749732e71"
+  },
+  "runtime_SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F78/root-safe-readback.json",
+    "bytes": 22684,
+    "sha256": "28dc67e1db7c767e978f28fd0c969ec90c49d93594436722c1b66b75909c79ec"
+  },
+  "actual_counts": {
+    "neutral": {
+      "setup_launches": 2,
+      "turn_dispatches": 2,
+      "completed_turns": 2,
+      "preserved_terminal_finals": 2,
+      "setup_retry_count": 0
+    },
+    "original": {
+      "setup_launches": 3,
+      "turn_dispatches": 3,
+      "completed_turns": 3,
+      "preserved_terminal_finals": 3,
+      "setup_retry_count": 0
+    },
+    "total_setup_launches": 5,
+    "total_turn_dispatches": 5,
+    "total_completed_turns": 5,
+    "total_preserved_terminal_finals": 5,
+    "problem_turns": 3,
+    "neutral_unscored_turns": 2,
+    "preturn_setup_retry_count": 0
+  },
+  "all_actual_guards_pass": true,
+  "PID_before_GO": true,
+  "SAME_primary_and_owned_close0": true,
+  "setup_retries": 0,
+  "source_revision": 0,
+  "empirical_criteria_changes": 0,
+  "participant_H_K_use": 0,
+  "scored_treatment": 0,
+  "backend_identity": "UNVERIFIED/nonblocking",
+  "effort_policy": "Not a screening consideration",
+  "earlier_failures_preserved": "Original checker contradictory negative after completed suite/plans/C positive checks; remaining-tail compileZERO; bounded compile repair completed only previously unreached assertions. Both FAILs/prior PRETRIALs remain unchanged. ROOT escaped comparison failure also preserved in its own metadata. No completed author check/proof/review/native replay."
+}

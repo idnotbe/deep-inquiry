@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "candidate": "F107",
+  "source_revision": 1,
+  "proposal_revision": 1,
+  "status": "EXCLUDED_NOT_HARD",
+  "decision_basis": "Both independent eligible blind FIRST graders score all three originals 10/10, no objective or qualifying failure; same-ID intersection empty.",
+  "protocol_valid_originals": 3,
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "joint_qualifying_count": 0,
+  "retained": 0,
+  "target": 6,
+  "counts": {
+    "raw_candidate_identifiers": 91,
+    "raw_problem_final_FILES": 262,
+    "completed_problem_turns": 321,
+    "older_history": "UNKNOWN",
+    "valid_trial_count": "NOT_INFERRED_FROM_RAW_FILES",
+    "source": "Coordinator final-preparation instruction; no protected historical-output rescan by this worker",
+    "F107_added": {
+      "candidate_identifiers": 1,
+      "problem_final_FILES": 3,
+      "completed_problem_turns": 3
+    },
+    "neutral_turns_excluded": 2
+  },
+  "native_setup_retries": 0,
+  "native_outcome_replays": 0,
+  "collector_replays": 0,
+  "root_SAFE_verification_attempts": 2,
+  "root_SAFE_initial_failure": "ENOENT from old per-phase invocation filename assumption; metadata lookup alone corrected to native-execution-invocations.json, before original meaning.",
+  "assignment_discrepancy": "Grader two repeated one already allowed lifecycle path; 20 entries, same19 unique paths. Exact sent text, canonical prelaunch copy and same-grader duplicate-only correction preserved; ROOT confirmed eligible.",
+  "H_K_participant_UNUSED": true,
+  "scored_treatment": 0,
+  "reasoning_effort_considered": false,
+  "efficacy": "UNKNOWN",
+  "full_verification": "NOT_RUN; deferred until six retained families",
+  "root_final_acceptance": "ACCEPTED",
+  "shared_index_changed": true
+}

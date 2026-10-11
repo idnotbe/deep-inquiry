@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "candidate": "F122",
+  "status": "ROOT_FINAL_VERIFIED_LOCAL_ACCEPTANCE",
+  "root_final_verified": true,
+  "bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F122/public/packet.json",
+      "bytes": 17110,
+      "sha256": "7e99e5086e108aeb50adc16bc558466c47187ffbaba8f938c05b96397a66b23d"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F122/public/blind-one-FIRST.full.md",
+      "bytes": 6477,
+      "sha256": "549c77858d94477408a4506d68f7706d0b1a9df120a922746971226e3071c1d0"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F122/public/blind-two-FIRST.full.md",
+      "bytes": 6382,
+      "sha256": "898e802f3edda8d25e283293d0e543e3a8f33a58d310b4936c5b2e4e904b8b8c"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F122/public/grader2-outcome-hidden-admin.md",
+      "bytes": 4647,
+      "sha256": "b550a33184e29d3d32c1a8227cd38d1515fdd5731174bd45e48d0b72d7f3eee6"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F122/public/grader-procedure-disposition.md",
+      "bytes": 2933,
+      "sha256": "968bb50c08b17fcac70274d6d45b0d2255e4633f440cf0aab77c95de06ef518f"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F122/public/grades.json",
+      "bytes": 6151,
+      "sha256": "625657233d507c05dab7e932cda004c033c0fd7c6503fc584a3447aed82bd724"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F122/public/status.json",
+      "bytes": 1592,
+      "sha256": "fc0d88050f19f302ae70bf7b1db0faff450565203fdb9d5a74ee692896a21a49"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F122/public/deviations.json",
+      "bytes": 7069,
+      "sha256": "e54795ba9066651bb742f4eabb675606306df38fabfd032eab563e4e86bc95ec"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F122/public/report.md",
+      "bytes": 6218,
+      "sha256": "0f9281c10028b16fd8931034bae1a3b3d18a5220d1325908a57d422ada71876c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/PRETRIAL.json",
+      "bytes": 58555,
+      "sha256": "2f478c5a950539770637a9324d19f4771adad5602f2e13878c057b147da7c572"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/qualification/freeze.json",
+      "bytes": 44006,
+      "sha256": "2b272d190aa38107bf031ce032b2a29fb3920bb1f84e0a32fd57f7030638d572"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/original-safe-readback.json",
+      "bytes": 12463,
+      "sha256": "64d26a14d453aba6b11491d5ea889f9b3062d6002c749375b359397b805dfb60"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/qualification/neutral-safe-readback.json",
+      "bytes": 8938,
+      "sha256": "5d7e7a9fafdae92832c9688a1145922525e28e74d3eb649863b402436c9dbe53"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/blind-build-actual-lossless.json",
+      "bytes": 814,
+      "sha256": "25a4d8c4f9ae4fb4e55ce33f223fb7c88c1af25f5eb422a9b32685c75fcdd121"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/blind-display-provenance.json",
+      "bytes": 2263,
+      "sha256": "3534369532681d0def558d5d759afdf88c774c711b57991ff0eeb594c1cb2ea4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/blind-private-mapping.json",
+      "bytes": 1179,
+      "sha256": "17a08a4a9272f0c3dddbc9a5c6cb15ad80aa192e39bdc114f8ad7677d8872c90"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/grader-dispatch-arguments.json",
+      "bytes": 9111,
+      "sha256": "fff415e775a01ad4ae6e6abfc962563290773579826738800552d81639cbf495"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/reviews/both-FIRST-full-readback-actual.json",
+      "bytes": 14294,
+      "sha256": "003eeeb00ddee180b31871387ab3449ab80eea70146a61ff38bc94697656df1b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/reviews/helper-FIRST.full.md",
+      "bytes": 6472,
+      "sha256": "fd0c6f92863f41cf3aac459cfe3bfd1198e8002a6253811366acfa3ea2cc3f6e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/reviews/helper-round2-FIRST.full.md",
+      "bytes": 4863,
+      "sha256": "ccb9d3b914c72c6a54fbdfc401db2e078cb2ca74a7e8d1146973f1f1fc41e264"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f122-source-preparation-release.md",
+      "bytes": 6263,
+      "sha256": "7d866cf9f8f85e1699240a5999e0a60b06f2f6fedf75f6593aeb550fc04226b2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f122-helper-fix-release.md",
+      "bytes": 2871,
+      "sha256": "a8957b2450284cd92b1c5fbeda974531c82a08cd9b790c5a6f81d8cc4a8c19f3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f122-pretrial-root-gate.json",
+      "bytes": 3499,
+      "sha256": "bfb8ff8b2e8f25f6c8a555c618cbfdb821eedaf88ff8687d1b0e5872873d9bd0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f122-safe-root-gate.json",
+      "bytes": 2126,
+      "sha256": "c52eb8bd721731acec2995c3ad741bbe1732705ecd7e4f14eb160d56b75f6ae2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f122-grader-procedure-disposition.md",
+      "bytes": 2933,
+      "sha256": "968bb50c08b17fcac70274d6d45b0d2255e4633f440cf0aab77c95de06ef518f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f122-root-reviews/source-one-FIRST.full.md",
+      "bytes": 8101,
+      "sha256": "31b30bfc7ca383bca877804cb1cf5b890ff399adc80b60d5ddde7471ef4561d3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f122-root-reviews/source-two-FIRST.full.md",
+      "bytes": 6134,
+      "sha256": "2052f41d50e73dd2ebe7670cd1c72125ee307855bb8f16504baa04ed1c13333e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f122-root-reviews/source-one-ALIGN.full.md",
+      "bytes": 9921,
+      "sha256": "3095fea861a07c1ae7c2f16c4b72584570e757c323d0332735d739ff5241e141"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f122-root-reviews/source-two-ALIGN.full.md",
+      "bytes": 7468,
+      "sha256": "762c1a3f1d770e9b3f697d56e5bb586551de959736c2c8177da3b398265c5546"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/original-operational-freeze.json",
+      "bytes": 1232,
+      "sha256": "b0090f383d1d032f7ef7dd659bfd73b1a2514d185df44d6f39abf649294fd000"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/qualification/screening-plan.json",
+      "bytes": 1171,
+      "sha256": "2f941fd7d8cb21cb4488d310216e565e058614e6aa0ac50454c27b32f3462bab"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/original-tool-actual-lossless.json",
+      "bytes": 833,
+      "sha256": "046fc817caef5dfd42f67559d2b9bafa1fbe7bd4a681899687502108d5061226"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/original-tool-handle.json",
+      "bytes": 917,
+      "sha256": "6910bf1a7fcfc26b067163eacbd3b0727f2c0fb5f38ff955917c8ef098e371e3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/original-collector-actual-lossless.json",
+      "bytes": 1079,
+      "sha256": "2ff307c84549b5c82ff93ccd1946da7a0b1132b93522b80aa97ba5f3f37f1ab7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/producer-invocation-original.json",
+      "bytes": 2456,
+      "sha256": "73ac5b5203d2ad5e70037444af5f7cc8078a2cfcdb5319260a7789f3eb5077de"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/producer-terminal-original.json",
+      "bytes": 364,
+      "sha256": "ddfb6930c84a2583e0243cc086bc6d5974803bd47cae3d5e8615e318a8160040"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/original/run-slots.json",
+      "bytes": 818,
+      "sha256": "1f22b02215738ef6f0d78457ae55d44e6307b0ed42f6e572d66b606853bf85fa"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/qualification/canary-tool-actual-lossless.json",
+      "bytes": 716,
+      "sha256": "9483a179fec899d23a7aa291922a50774d870407b379835724395fdbc752f7dc"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/qualification/neutral-collector-actual-lossless.json",
+      "bytes": 1422,
+      "sha256": "9b9da94300e2f08817a39f65d03627c0e512f530829f7d2242b630fb871c052a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/native-execution-invocations.json",
+      "bytes": 1664,
+      "sha256": "99e9af6ccb569814de34e988fcebb6cb725540e4cb21c63e4971db316e6323d2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/build-static-actual-lossless.json",
+      "bytes": 1002,
+      "sha256": "85dbdf7b17e6ce583b4c02b30497f9c6fa2685c1e9eeda5de9ce8b53e544ab99"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/build-fixtures-actual-lossless.json",
+      "bytes": 734,
+      "sha256": "9b18dd2e32eccd167f601852cd39984959c7727ae21ea656ef1ff3964039763f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/freeze-checked-inputs-actual-lossless.json",
+      "bytes": 819,
+      "sha256": "5785c6b562f978e36afe17d5e4b3e802ff66d646afe0fea7b837f5f8d2689573"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/combined-check-actual-lossless.json",
+      "bytes": 40567,
+      "sha256": "486039f4f20c273558108929a0cb9734cf26890f8c799f1579158cdb122fb4cd"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/prepare-runtime-actual-lossless.json",
+      "bytes": 1157,
+      "sha256": "1bb6ca2078d7a4fe08358d44efc8bfb68c0e9e274f984e7382503dde99e8987c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/combined-check-result.json",
+      "bytes": 38284,
+      "sha256": "8e370c5602170da8f7aa61f8b04a8f7d4ff12d8cd0130f45fa751ab7e2327da5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F122/review-synthesis.json",
+      "bytes": 4062,
+      "sha256": "f3e999aa641356743cf70aa32ded6c8982c031812b00b798576b5659a4713af6"
+    }
+  ],
+  "preservation": {
+    "full_original_responses": "packet.json terminal_answer strings; exact UTF8 bytes independently compared by immutable builder and final proposal readback",
+    "full_FIRST_one": "blind-one-FIRST.full.md",
+    "full_FIRST_two": "blind-two-FIRST.full.md",
+    "serialization": "Complete FIRST payload preserved plus one terminal serialization LF; wrappers/disclosures retained.",
+    "both_FIRSTs_full_readback_before_mapping_synthesis_ROOTmeaning": true,
+    "source_reviews_two_FIRST_two_SAME_ALIGN": true,
+    "original_helper_BLOCK_preserved": true,
+    "fresh_independent_helper_round2_APPROVE": true,
+    "grader_procedure_disposition_recorded_before_ROOT_outcomes": true
+  },
+  "execution": {
+    "neutral_turns": 2,
+    "original_turns": 3,
+    "original_order": [
+      2,
+      3,
+      1
+    ],
+    "native_retries": 0,
+    "collector_replays": 0,
+    "helper_check_executions": 1,
+    "packet_builds": 1,
+    "new_graders": 2,
+    "regrades": 0,
+    "replacements": 0
+  },
+  "limits": [
+    "Requested gpt-6-sol, actual backend UNVERIFIED/nonblocking; reasoning effort not considered.",
+    "H/K participant-unused; scored treatment 0; no empirical efficacy claim.",
+    "Access scopes are grader self-reports; generic skill omission cannot be declared harmless by assumption.",
+    "Outer timeout is not watchdog proof; descendant cleanup remains unverified beyond recorded runner evidence.",
+    "Source analytical validity and public lineage audit do not prove independent-family distinctness or equal heldout difficulty.",
+    "ROOT FINAL local acceptance and catalog append completed; no remote publication. Original proposal and its complete readback remain preserved."
+  ],
+  "public_no_raw_runtime_ids": true,
+  "root_final_gate": "temp/hard-screen-20261003/f122-final-root-readonly-gate.json",
+  "original_proposal_full_readback": "temp/hard-screen-20261003/worker/F122/evidence/final-proposal-full-readback-actual.json"
+}

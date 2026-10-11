@@ -1,0 +1,122 @@
+{
+  "family": "F49",
+  "packet_sha256": "036eeffb835db11df1ecc08e2fcdf22174536258e4ed8d7e9ecf8e5ba093384d",
+  "original_grade_sha256": {
+    "A": "87d6938bc08f301ec9104e1e945ef79bf57e5dcece6275cfd98b69e20b4b0523",
+    "B": "1da92d48ee6ad534d324f897e6c5aa879ec8e8630ff8550fa270b4f0ff2a8367"
+  },
+  "originals": {
+    "A": {
+      "report_status": "COMPLETE",
+      "responses": [
+        {
+          "id": "R01",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 10,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "assessment": "Correctly rejects the bridge exception and discharged-invoice cash payment while retaining the valid guarantee payment. GD-619 clears from Guarantor's restricted funded account to Supplier at 09:15, discharges INV-619, matures RC-619 and activates IC-619 with Guarantor as creditor. The signed CO-619 then extinguishes the mutually due full-face claims at 09:18. All listed and activated balances, current creditors, funding and final cash are correctly reconciled. No false exclusion or unsupported authorization is stated."
+        },
+        {
+          "id": "R02",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 10,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "assessment": "Correctly rejects D-619 and its borrowing exception and supplies complete registered closing orders under existing authority. The funded accepted demand clears at 09:15, releasing the invoice and establishing the two immediately due opposing claims with their correct creditors. Entering signed CO-619 after that clearance extinguishes both at 09:18 without cash funding or new consent. Final free and restricted cash balances are correct, and every activated account is closed before the deadline. No false exclusion or unsupported authorization is stated."
+        },
+        {
+          "id": "R03",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 10,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "assessment": "Correctly rejects the bridge exception and invalid later invoice payment, executes GD-619 from its funded restricted account to Supplier, and confirms payment and invoice discharge before entering CO-619. RC-619 and IC-619 are correctly identified as immediately due reciprocal claims between Harbor and Guarantor. Their signed closeout completes at 09:18. The final ledger accounts for discharged balances, paid demand, entered closeout and every principal's cash. No false exclusion or unsupported authorization is stated."
+        }
+      ],
+      "overall_qualifyingIDs": [],
+      "full_pass_count": 3,
+      "mean_total_score": 10,
+      "qualifying_root_count": 0
+    },
+    "B": {
+      "reports": [
+        {
+          "id": "R01",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 10,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "assessment": "Correctly rejects the bridge exception and discharged-invoice payment. GD-619 clears from the restricted guarantee account to Supplier at 09:15, discharging INV-619, activating IC-619 payable to Guarantor and maturing RC-619 payable to Harbor. Ledger inspection followed by the existing signed CO-619 extinguishes both mutually due ten-credit claims by 09:18. All account balances and final cash holdings are correctly reconciled."
+        },
+        {
+          "id": "R02",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 10,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "assessment": "Correctly rejects the bridge exception and post-demand invoice payment. The registered demand uses its funded restricted account and correct beneficiary. Its clearance discharges INV-619 and makes the reciprocal IC-619 and RC-619 balances due to their correct creditors. Entering the signed CO-619 after clearance legally extinguishes both by 09:18, without additional cash, borrowing or consent. Final account and cash reconciliation is complete."
+        },
+        {
+          "id": "R03",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 10,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "assessment": "Correctly rejects D-619 and the bridge exception while retaining the valid guarantee demand. GD-619 pays Supplier from the restricted guarantee account at 09:15; confirmed clearance discharges INV-619, matures RC-619 and activates IC-619 with the correct principals. The signed CO-619 then extinguishes both reciprocal due claims by 09:18. The final ledger correctly accounts for every listed and activated balance and all cash."
+        }
+      ],
+      "overall_qualifying_ids": [],
+      "full_pass_count": 3,
+      "mean_total_score": 10
+    }
+  },
+  "selection": {
+    "status": "EXCLUDED",
+    "valid_originals": 3,
+    "joint_qualifying_ids": [],
+    "joint_qualifying_count": 0,
+    "required_joint_ids": 2,
+    "retained_families": 0,
+    "remaining_required": 6,
+    "criteria_changed": false,
+    "extra_postoutput_audit_required": false
+  },
+  "transcription": "Complete first returned JSON bodies transcribed with original field naming/text and LF/finalnewline; raw transport authentication not claimed"
+}

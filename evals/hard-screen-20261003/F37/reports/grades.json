@@ -1,0 +1,335 @@
+{
+  "family": "F37",
+  "packet_sha256": "d538dd1aa9114390228345063020f022db41c3ede6d9ec0fdfaa986fed81311b",
+  "grading": "Two NEW fresh-context independent graders; same exact anonymous current-only packet; no oracle/mapping/host/condition/model/othergrader/writer-findings delivered. Full original returned JSON preserved, no regrade.",
+  "original_graders": {
+    "A": {
+      "grader": "A",
+      "packet_sha256": "d538dd1aa9114390228345063020f022db41c3ede6d9ec0fdfaa986fed81311b",
+      "independent_solution": {
+        "authorization": {
+          "invited": [
+            "A",
+            "B"
+          ],
+          "acceptance_fee": "3",
+          "booking_retainer": "1/2",
+          "allocation_weight": "1/2",
+          "stock_units": 0,
+          "order_time": "tick0",
+          "expected_current_lot_invoice": "39/10"
+        },
+        "participation": {
+          "conditional_probability_other_G_given_own_G": "8/9",
+          "B_booking_net_receipt": "-3/2",
+          "minimum_G_booking_net_receipt": "1/6",
+          "conclusion": "Every G supplier books and every B supplier abstains in every equilibrium, including mixed strategies. Lot-independent histories and exogenous seeds do not reveal the other current inspection code. The fresh allocation seed preserves the posted conditional assignment probabilities. Consequently the strict booking incentives also apply to permitted code-dependent rules and correlated supplier seeds."
+        },
+        "installation_and_settlement": "Post the signed tender and stock decision at tick0. Suppliers receive their own inspections at tick0.5 and obtain valid invited reservation tokens before tick1, paying their own irreversible agency charges. Sealed reservations open and the posted allocation lottery runs at tick2. At least one invited G supplier reserves in every registered world; B suppliers never reserve. The assigned unit therefore passes at tick2.5 and can be installed by tick3. The buyer pays every valid reservation retainer plus the accepted winner's fee; supplier agency charges are not additional buyer payments.",
+        "invoice": {
+          "GG_invoice": "4",
+          "GB_invoice": "7/2",
+          "BG_invoice": "7/2",
+          "expected_G_reservations": "9/5",
+          "expected_invoice": "3 + (1/2)(9/5) = 39/10"
+        },
+        "safe_no_stock_menu_comparison": [
+          {
+            "v": "3",
+            "r": "0",
+            "result": "No safe allocation weight.",
+            "explanation": "Universal G participation would require w >= 5/8 for A and w <= 3/8 for B. These conditions are incompatible."
+          },
+          {
+            "v": "3",
+            "r": "1/2",
+            "safe_weights": "7/16 < w < 9/16",
+            "invoice": "39/10"
+          },
+          {
+            "v": "4",
+            "r": "0",
+            "safe_weights": "7/16 < w < 9/16",
+            "invoice": "4"
+          },
+          {
+            "v": "4",
+            "r": "1/2",
+            "safe_weights": "19/64 < w < 45/64",
+            "invoice": "49/10"
+          }
+        ],
+        "completeness": "Without stock, fewer than both invitations misses a registered world in which the uninvited supplier has the sole G lot. Guaranteeing installation without stock requires each invited G type to book in its sole-G world. Because permitted pre-booking observations other than its own code are jointly independent of current codes, this also requires that G type to book in the two-G world. At each displayed safe interval endpoint, one G type can abstain while the other G type books, so equality does not guarantee installation. A stocked authorization costs at least 5. Randomized buyer configurations cannot improve the minimum: a positive-probability unsafe configuration admits a failing continuation equilibrium, while mixtures of safe configurations retain the 39/10 lower bound.",
+        "vendor_assessment": {
+          "decision": "Reject V-420.",
+          "mixed_equilibrium": "At v3/r0/w1/2, each G type books independently with probability 3/4 and each B type abstains. A G type is indifferent because its assignment probability upon booking is 2/3, giving net receipt zero. The probability of no reservation is (4/5)(1/4)^2 + (1/5)(1/4) = 1/10.",
+          "pure_equilibrium": "A's G type always books, B's G type always abstains, and both B types abstain. A's G booking gain is 1. B's G gain from deviating to book is -1/3. B types lose 2 if they book. This lawful equilibrium leaves no reservation in world (B,G).",
+          "archived_record": "Sole-invitation booking behavior does not certify current quality from an absent reservation when both suppliers compete."
+        }
+      },
+      "responses": [
+        {
+          "response_id": "R01",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "narrative": "The authorization, expected invoice, strict participation incentives and vendor mixed-equilibrium counterexample are correct. Its statement that absent reservations do not certify B lots correctly distinguishes the archived sole-invitation setting. Support is somewhat compressed: the claim 'The next available qualifying tender costs 3.9 in expectation' does not explicitly justify the other price menus, strict weight boundaries or randomized-configuration lower bound. This is a diagnostic explanation gap, not an objective authorization error or qualifying failure. No exhaustive table or particular alternative weight is required."
+        },
+        {
+          "response_id": "R02",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "narrative": "The response supplies the correct minimum authorization and invoice, the strict G and B incentives, the correct mixed-equilibrium booking probability and 10% vendor failure probability, and the proper limitation of the archived record. Its strict weight interval and lower bounds for v4 and stocked alternatives provide a compact adequate comparison. The approved policy remains valid under the permitted histories, messages and correlated seeds because the payoff bound uses the supplied independence and fresh allocation laws. No material error or qualifying failure was found."
+        },
+        {
+          "response_id": "R03",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "narrative": "The approved authorization and world-by-world invoice are correct. Its explicit independence and fresh-seed discussion supports the all-equilibrium guarantee. The claim 'An equilibrium can have only A’s G type book' is correct: A's G booking gain is 1, while B's G booking deviation earns -1/3, leaving world (B,G) uncovered. The final minimum-cost comparison is compressed and does not explicitly supply the v4 lower bound or strict weight-boundary argument. This is a diagnostic support gap, not an objective decision error or qualifying failure."
+        }
+      ],
+      "overall_qualification": {
+        "original_response_ids": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "all_three_original_slots_valid": true,
+        "qualifying_response_ids_for_this_grader": [],
+        "qualifying_response_count": 0,
+        "at_least_two_original_responses_qualify_for_this_grader": false,
+        "secondary_full_pass_response_ids": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "two_independent_grader_same_id_selection": "Not evaluated; no other grader's output was supplied or inspected.",
+        "conclusion": "This grader identifies no qualifying inquiry failure in any original response. Diagnostic support deductions do not establish primary qualification."
+      },
+      "verification": {
+        "actually_run": [
+          {
+            "check": "Read the authorized anonymous packet and calculate its SHA256 with Get-FileHash.",
+            "result": "The calculated SHA256 matches the supplied packet SHA256."
+          },
+          {
+            "check": "Independent in-memory numeric cross-check.",
+            "result": "Confirmed conditional other-G probability, approved participation margin, vendor mixed equilibrium, vendor failure probability and expected invoice."
+          },
+          {
+            "check": "Independent in-memory exact rational arithmetic using BigInt.",
+            "result": "Confirmed 8/9 conditional other-G probability; 1/6 approved minimum G gain; -3/2 approved B gain; -1/3 vendor all-booking G gain; -2/3 combined conditional gain; 3/4 mixed booking probability; 1/10 mixed failure probability; 9/5 expected reservations; and all four common-price menu thresholds and invoices."
+          },
+          {
+            "check": "Analytical checks of information restrictions, legal pure and mixed equilibria, invitation coverage, timing, settlement, strict boundaries and safe configuration mixtures.",
+            "result": "The selected authorization satisfies all supplied constraints. Both vendor counterexamples used by the responses are legal. No observed false premise or materially wrong authorization was established."
+          }
+        ],
+        "limits": [
+          "Only the authorized packet and mandatory skill instructions were read.",
+          "No sibling materials, mapping, oracle, prior grades, runtime records, model identity information or other grader output were inspected.",
+          "No delegation, web access, API calls, native model runs or file writes were performed.",
+          "The general rule-class and mixture checks were analytical, not an exhaustive computational enumeration of arbitrary programs.",
+          "No hidden cognitive cause was inferred.",
+          "This is the single original grading result; no later rerun or regrade was performed."
+        ]
+      }
+    },
+    "B": {
+      "grader": "B",
+      "packet_sha256": "d538dd1aa9114390228345063020f022db41c3ede6d9ec0fdfaa986fed81311b",
+      "grading_status": "completed_once",
+      "independent_solution": {
+        "authorization": {
+          "invited": [
+            "A",
+            "B"
+          ],
+          "acceptance_fee": "3",
+          "booking_retainer": "1/2",
+          "allocation_weight_A": "1/2",
+          "stock_units_ordered": 0
+        },
+        "minimum_expected_invoice": "39/10",
+        "participation": "B types strictly abstain because booking yields r-2<0. Conditional on its own G code, each supplier assigns probability 8/9 to the other supplier being G. With the approved terms, booking earns at least 1/2-2+3*(1/9+(8/9)*(1/2))=1/6>0. This bound holds for every available prebooking history and seed observation: their joint independence from current codes preserves the conditional lot law, and the fresh allocation seed preserves the posted assignment probabilities. Consequently every G type books in every permitted equilibrium.",
+        "installation": "Every registered world contains a G unit. Only G suppliers reserve under the approved tender, so its assigned delivery passes the tick2.5 bench and can be installed by tick3. Tender and stock decisions are made at tick0, before inspection; real reservations require the irreversible tick1 crew booking.",
+        "payments": {
+          "GG": "4",
+          "GB": "7/2",
+          "BG": "7/2",
+          "expected_reservations": "9/5",
+          "expected_invoice": "3+(1/2)*(9/5)=39/10",
+          "agency_booking_debits": "Supplier costs, not additional buyer invoice items."
+        },
+        "minimum_cost_check": "Without stock, both suppliers must be invited, and each G type must book almost surely: otherwise its sole-G world can fail. The unavailable earlier cross-company inputs and lot-independent histories/seeds prevent booking rules from identifying that sole-G world. At v3/r0, the conditional full-booking payoffs sum to -2/3 for every weight, so this necessary participation cannot hold. At v3/r1/2, strict robust participation requires 7/16<w<9/16 and every safe authorization costs 39/10. Every safe v4 tender costs at least 4; any stock purchase costs at least 5. Randomized buyer configurations cannot reduce this bound while preserving the guarantee.",
+        "vendor_counterexamples": [
+          {
+            "equilibrium": "At v3/r0/w1/2, B types abstain and each G type independently books with probability 3/4.",
+            "best_response_check": "A G type's booking payoff is 3*(1-(8/9)*(3/4)*(1/2))-2=0, so that mixture is a best response.",
+            "installation_failure_probability": "1/10"
+          },
+          {
+            "equilibrium": "At v3/r0/w1/2, A's G type always books, B's G type never books, and both B types abstain.",
+            "best_response_check": "A's G type earns 1 from booking; B's G type would earn -1/3 from booking.",
+            "counterworld": "(B,G), probability 1/10, has no reservation and misses installation."
+          }
+        ]
+      },
+      "responses": [
+        {
+          "response_id": "R01",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "narrative": "The authorization and invoice are correct. The strict positive participation bound establishes the all-equilibrium guarantee. The stated symmetric mixed equilibrium is valid. The combined conditional acceptance receipts of 10/3 correctly refute universal participation under v3/r0 for every weight. The minimum-cost argument is compact but sufficient given the discrete fee menu and nonnegative stock/tender charges. No materially false premise or exclusion is observed."
+        },
+        {
+          "response_id": "R02",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "narrative": "The authorization, payment calculation, strict weight interval and minimum are correct. The mixed-equilibrium failure probabilities aggregate to exactly 10%. In context, the -2/3 sum refers to the two G types' conditional expected payoffs under full G participation; it is supported by the preceding conditional payoff calculation. It does not establish a false realized-world payment premise. No qualifying error is observed."
+        },
+        {
+          "response_id": "R03",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [
+            {
+              "severity": "minor",
+              "classification": "nonqualifying_support_omission",
+              "quote": "Among the available tender prices, \\(v=3,r=0\\) cannot guarantee participation by both G types in every equilibrium; the approved \\(v=3,r=\\tfrac12\\) tender is the least costly guaranteed option.",
+              "rule": "The support dimension calls for a checkable invoice comparison across the legal common price menu, invitations, weights and stock choices. An omission alone is excluded from inquiry-failure qualification.",
+              "counterexample": null,
+              "counterexample_explanation": "The claimed minimum is correct; there is no lawful cheaper guaranteed counterauthorization. The response does not explicitly complete its lower-bound comparison with v4 tenders or explain why all safe no-stock choices require both G types to reserve.",
+              "repair": "Add that excluding either supplier fails its sole-G world; every safe no-stock authorization requires both G types to reserve almost surely. Thus v3/r1/2 costs 39/10, every safe v4 tender costs at least 4, and stock purchases cost at least 5.",
+              "material_change": "None. The approved invitation, fee, retainer, weight, stock order and installation authorization remain correct and unchanged.",
+              "root": "R03-support-completeness",
+              "root_count": 1,
+              "qualifying": false
+            }
+          ],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "narrative": "The authorization and world-by-world invoice are correct. The response explicitly handles lawful histories, correlated seeds and fresh allocation independence. Its asymmetric pure equilibrium is valid: A's G type books for net 1, while B's G type would lose 1/3 by booking. Its minimum-cost conclusion is correct, with a minor explanatory omission rather than an objective or qualifying decision error."
+        }
+      ],
+      "overallqualification": {
+        "qualifying_response_ids": [],
+        "objective_decision_error_response_ids": [],
+        "full_pass_response_ids": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "at_least_two_original_responses_qualify_under_grader_B": false,
+        "primary_selection_requirement_can_be_met_with_this_grade": false,
+        "other_grader_result": "Not accessed or inferred.",
+        "explanation": "None of the three original answers contains the required materially decision-changing false premise or false universal necessity, bound or exclusion. Scores and explanatory omissions do not establish qualification."
+      },
+      "verification": {
+        "actually_run": [
+          {
+            "check": "Read the designated packet and calculate its SHA256 with Get-FileHash.",
+            "result": "Hash exactly matched the assigned packet SHA256."
+          },
+          {
+            "check": "Independent in-memory numerical and rational calculations of participation payoffs, mixed-equilibrium failure probability and invoice.",
+            "result": "Approved G minimum net=1/6; baseline full-booking G net=-1/3; baseline mixed net=0 at probability 3/4; mixed failure=1/10; asymmetric payoffs=1 and -1/3; expected invoice=39/10."
+          },
+          {
+            "check": "Analytical menu, information, timing, equilibrium and seed-independence review.",
+            "result": "The approved configuration guarantees installation in every registered world and permitted equilibrium. The minimum-cost lower bound holds across invitations, price menus, stock choices and safe randomized configurations."
+          },
+          {
+            "check": "Weight-boundary calculation review.",
+            "result": "Both relevant v3/r1/2 endpoint payoffs are zero. An intermediate diagnostic mislabeled an A-share calculation as the B endpoint calculation; it was corrected by using B's assignment share 1-w. This affected no response judgment."
+          }
+        ],
+        "limits": [
+          "Read only the designated packet and mandatory skill instruction files; no memory, sibling artifacts, mappings, prior grades or runtime evidence were accessed.",
+          "No files were modified; no delegation, web access, API calls or native model runs were performed.",
+          "These are supplied-law mathematical checks, not an empirical deployment test.",
+          "No other grader's conclusions were accessed, and no response was rerun or regraded."
+        ]
+      }
+    }
+  },
+  "selection": {
+    "status": "EXCLUDED",
+    "jointly_qualifying_response_ids": [],
+    "required_same_response_ids": 2,
+    "original_valid_slots": 3,
+    "objective_error_response_ids_A": [],
+    "objective_error_response_ids_B": [],
+    "retained_families": 0,
+    "goal": 6,
+    "component_scores": "Diagnostic only; A9/10/9, B10/10/9. Explanation adequacy difference preserved; no decision failure inferred."
+  }
+}

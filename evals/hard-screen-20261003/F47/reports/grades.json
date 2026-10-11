@@ -1,0 +1,482 @@
+{
+  "family": "F47",
+  "packet_sha256": "51ece8f59e8b532257855aad01b24fed37d351ec29823b2c6ae07caabf867c1f",
+  "original_grade_sha256": {
+    "A": "84cc48afc433f4a981261425fc25593383e7f680c334111985db6f0f94d94cb8",
+    "B": "06cd68571d775ada7244379df51353464e0e0cff45f3adb4d01289d8df909b63"
+  },
+  "originals": {
+    "A": {
+      "packet_sha256": "51ece8f59e8b532257855aad01b24fed37d351ec29823b2c6ae07caabf867c1f",
+      "grades": [
+        {
+          "response_id": "R01",
+          "scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "objective_decision_error": false,
+          "objective_errors": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_failures": [],
+          "critical_failures": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "public_claims": [
+            "Choose ordinary supplier support, with no EC-47 purchase. The minimum worst invoice is 7.",
+            "From round 4 onward, each supplier receives a referral from the previous round and operates without support.",
+            "Starting from zero requires three additions to that count. The first costs at least 3 in support; each later addition costs at least 2."
+          ],
+          "material_authorization": "Offers (3,0,0), (2,0,0), (2,0,0) in rounds 1–3; zero offers thereafter; no EC-47 purchase.",
+          "assessment": "The complete authorization is lawful, supplies every customer in every required round, and attains the global minimum. The cardinality argument supports arbitrary lawful histories, not just this schedule.",
+          "diagnostic_limitations": [
+            "The explanation does not explicitly discuss the archived empty-ring pilot or explain why its zero-support observations cannot establish VR-47's universal conclusion."
+          ],
+          "gate_applicability": "No public materially false premise, unsafe authorization, or false universal necessity/bound/exclusion is established. The evidentiary omission is nonqualifying."
+        },
+        {
+          "response_id": "R02",
+          "scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 1,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 8,
+          "objective_decision_error": false,
+          "objective_errors": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_failures": [],
+          "critical_failures": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "public_claims": [
+            "Minimum worst new owner invoice: 7.",
+            "Once all three operated in round 3, each receives guaranteed referral revenue of 3 in every following round, exceeding its cost of 1.",
+            "Every realized randomized path faces the same bound."
+          ],
+          "material_authorization": "Offers (3,0,0), (2,0,0), (2,0,0) in rounds 1–3; zero offers thereafter; no EC-47 purchase.",
+          "assessment": "The executable program and minimum are correct. The initial-count discussion and realized-path argument support the minimum; no unsupported restriction on software, randomization, or procurement is imposed.",
+          "diagnostic_limitations": [
+            "The archived pilot is not explicitly discussed.",
+            "The preparation-round explanation does not explicitly unpack the entry cost of 2, retention cost of 1, and strict integer thresholds that produce the payments of 3, 2, and 2."
+          ],
+          "gate_applicability": "The explanatory gaps do not establish a false premise or incorrect authorization. Omission and support inadequacy alone are nonqualifying."
+        },
+        {
+          "response_id": "R03",
+          "scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "objective_decision_error": false,
+          "objective_errors": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_failures": [],
+          "critical_failures": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "public_claims": [
+            "Install the ordinary-supplier program; do not order EC-47.",
+            "Otherwise, activating it costs at least 2 if it operated last round, or 3 if it did not.",
+            "considering respectively 0, 1, 2, or 3 operators in round 1 gives minimum totals of 8, 7, 8, and 9.",
+            "Randomization cannot lower the worst invoice below the cheapest valid realized program."
+          ],
+          "material_authorization": "Offers (3,0,0), (2,0,0), (2,0,0) in rounds 1–3; zero offers thereafter; no EC-47 purchase.",
+          "assessment": "The authorization, actual-payment table, strict-threshold costs, initial-count minima, and worst-invoice reasoning are correct.",
+          "diagnostic_limitations": [
+            "The explanation does not explicitly address the archived pilot's evidentiary limits."
+          ],
+          "gate_applicability": "No objective error or qualifying public false-premise chain is established. The evidentiary omission is nonqualifying."
+        }
+      ],
+      "complete_lawful_certificate": {
+        "purpose": "Verify all three authorizations and provide a complete counterpolicy to VR-47's contract-necessity recommendation. VR-47 is supplied vendor text, not a participant endorsement.",
+        "supplied_premises": {
+          "initial_state": "No supplier operates at round 0.",
+          "connections": "A sends referrals to B, B to C, and C to A; no other connections exist.",
+          "revenue": "Current revenue is 3 exactly when an incoming supplier operated in the preceding round, otherwise 0. Revenue is lagged and is not multiplied by incoming count.",
+          "cost": "Current cost is 1 after own previous-round operation and 2 otherwise.",
+          "decision": "Operation occurs exactly when current revenue plus current offered support strictly exceeds current cost.",
+          "controls": "Nonnegative integer offers; payment only upon operation; simultaneous decisions; no override, cancellation, negative payment, extra revenue, or extra physical service port.",
+          "software_and_seeds": "Fixed, adaptive, precommitted, permanent, and randomized software are allowed. The exhibited fixed program succeeds for every seed.",
+          "timing_and_purchase": "Preparation is rounds 1–3. Ordinary support is zero from round 4 onward. EC-47 costs 10 and may be purchased before round 4, including after round-3 receipts.",
+          "objective": "Minimize worst actual preparation support plus any EC-47 charge, with service to every customer in every round from round 4 onward."
+        },
+        "program": {
+          "round_1_offers": [
+            3,
+            0,
+            0
+          ],
+          "round_2_offers": [
+            2,
+            0,
+            0
+          ],
+          "round_3_offers": [
+            2,
+            0,
+            0
+          ],
+          "round_4_and_later_offers": [
+            0,
+            0,
+            0
+          ],
+          "external_purchase": "Do not order EC-47.",
+          "receipt_handling": "Read authenticated receipts after each preparation round; the fixed schedule requires no contingent branch."
+        },
+        "state_evolution": [
+          {
+            "round": 1,
+            "revenues_A_B_C": [
+              0,
+              0,
+              0
+            ],
+            "costs_A_B_C": [
+              2,
+              2,
+              2
+            ],
+            "offers_A_B_C": [
+              3,
+              0,
+              0
+            ],
+            "operators": [
+              "A"
+            ],
+            "actual_payments_A_B_C": [
+              3,
+              0,
+              0
+            ]
+          },
+          {
+            "round": 2,
+            "revenues_A_B_C": [
+              0,
+              3,
+              0
+            ],
+            "costs_A_B_C": [
+              1,
+              2,
+              2
+            ],
+            "offers_A_B_C": [
+              2,
+              0,
+              0
+            ],
+            "operators": [
+              "A",
+              "B"
+            ],
+            "actual_payments_A_B_C": [
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "round": 3,
+            "revenues_A_B_C": [
+              0,
+              3,
+              3
+            ],
+            "costs_A_B_C": [
+              1,
+              1,
+              2
+            ],
+            "offers_A_B_C": [
+              2,
+              0,
+              0
+            ],
+            "operators": [
+              "A",
+              "B",
+              "C"
+            ],
+            "actual_payments_A_B_C": [
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "round": "Every round from 4 onward",
+            "revenues_A_B_C": [
+              3,
+              3,
+              3
+            ],
+            "costs_A_B_C": [
+              1,
+              1,
+              1
+            ],
+            "offers_A_B_C": [
+              0,
+              0,
+              0
+            ],
+            "operators": [
+              "A",
+              "B",
+              "C"
+            ],
+            "actual_payments_A_B_C": [
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "service": "Each operating supplier serves its assigned customer independently of referral revenue. All three customers receive a unit in every round from 4 onward.",
+        "worst_invoice": 7,
+        "global_lower_bound": "Let n_t be the number operating in round t. The ring gives exactly n_(t-1) suppliers current revenue 3, and every such supplier must operate because its cost is at most 2 and support cannot be negative. Any additional operator has revenue 0 and requires paid integer support of at least 2. Thus preparation payment in round t is at least 2(n_t−n_(t-1)). At the first nonempty round, every entrant instead requires at least 3, giving at least one additional unit above that bound. Without EC-47, service to all customers in round 4 with zero support requires n_3=3. Summing gives at least 2(3−0)+1=7. Any path purchasing EC-47 costs at least 10. The bound applies to every realized adaptive or randomized path, so randomization cannot reduce the worst invoice below 7.",
+        "initial_count_check": {
+          "zero_operators_in_round_1": "At least 8: one entrant in round 2 costs 3; reaching all three in round 3 requires an unreferred retention payment of 2 and an unreferred new-entry payment of 3. Starting two in round 2 costs 6 and needs at least 2 more; starting three costs 9.",
+          "one_operator_in_round_1": "Minimum 7, attained by the exhibited program.",
+          "two_operators_in_round_1": "Initial payment is at least 6; achieving all three requires at least one additional payment of 2, so the minimum is 8.",
+          "three_operators_in_round_1": "Initial payment is at least 9; zero support thereafter attains 9."
+        },
+        "archived_pilot": "With no initial operators and zero support, revenue stays zero and no supplier exceeds its cost. The reported empty pilot is consistent with the signed law, but does not exclude supported bootstrap programs.",
+        "material_change_from_vendor_recommendation": "Replace procurement of EC-47 for 10 and zero preparation support with the lawful ordinary-support program costing 7. Required service remains complete."
+      },
+      "objective_error_ids": [],
+      "qualifying_ids": [],
+      "joint_selection_assessment": "No response qualifies in this independent grading. No prediction or claim about another grader's findings is made."
+    },
+    "B": {
+      "response_grades": [
+        {
+          "response_id": "R01",
+          "scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "critical_failures": [],
+          "full_pass": true,
+          "public_claims_checked": [
+            "Choose ordinary supplier support, with no EC-47 purchase. The minimum worst invoice is 7.",
+            "zero support on this three-supplier ring preserves the number of operators from one round to the next.",
+            "Starting from zero requires three additions to that count. The first costs at least 3 in support; each later addition costs at least 2."
+          ],
+          "assessment": "The executable program and global lower bound are correct. The answer does not explicitly discuss the archived pilot, so its evidentiary explanation is incomplete. That omission is neither an objective decision error nor a qualifying failure.",
+          "material_authorization": "Offer (3,0,0), (2,0,0), and (2,0,0) in rounds 1 through 3; offer zero thereafter; do not purchase EC-47."
+        },
+        {
+          "response_id": "R02",
+          "scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "critical_failures": [],
+          "full_pass": true,
+          "public_claims_checked": [
+            "Minimum worst new owner invoice: 7.",
+            "Once all three operated in round 3, each receives guaranteed referral revenue of 3 in every following round, exceeding its cost of 1.",
+            "Every realized randomized path faces the same bound."
+          ],
+          "assessment": "The program is lawful and optimal. Its discussion of initial supplier counts is consistent with the global bound. It does not explicitly discuss the archived pilot, making its evidentiary explanation incomplete without creating a qualifying failure.",
+          "material_authorization": "Offer (3,0,0), (2,0,0), and (2,0,0) in rounds 1 through 3; offer zero thereafter; do not purchase EC-47."
+        },
+        {
+          "response_id": "R03",
+          "scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "critical_failures": [],
+          "full_pass": true,
+          "public_claims_checked": [
+            "Install the ordinary-supplier program; do not order EC-47.",
+            "Otherwise, activating it costs at least 2 if it operated last round, or 3 if it did not.",
+            "considering respectively 0, 1, 2, or 3 operators in round 1 gives minimum totals of 8, 7, 8, and 9."
+          ],
+          "assessment": "The program, threshold explanation, and conditional minimum totals are correct. With no operators in round 1, starting one in round 2 costs 3 and adding both remaining operators in round 3 costs 5, attaining 8. With two operators in round 1, their initial cost is 6 and retaining the otherwise unreferred operator in round 2 costs 2, attaining 8. The archived pilot is not explicitly discussed; this is an evidentiary omission only.",
+          "material_authorization": "Offer (3,0,0), (2,0,0), and (2,0,0) in rounds 1 through 3; offer zero thereafter; do not purchase EC-47."
+        }
+      ],
+      "shared_verification": {
+        "supplied_premises_and_law": [
+          "Round 0 has no operators; the installed connections are A to B, B to C, and C to A.",
+          "Current revenue is 3 exactly when the incoming supplier operated in the previous round; simultaneous operation creates no current-round referral revenue.",
+          "Current cost is 1 for a previous-round operator and 2 otherwise.",
+          "Operation requires current revenue plus current support to be strictly greater than current cost.",
+          "Support offers are nonnegative integers, paid only upon operation.",
+          "All supported software, adaptive policies, precommitment, notes, and independent randomization remain available; none overrides the signed decision rule.",
+          "Every customer requires service in every round from round 4 onward; ordinary support must then be zero.",
+          "EC-47 costs 10 and may be purchased before round 4, including after round-3 receipts.",
+          "The objective is worst realized total new invoice, not expected invoice."
+        ],
+        "complete_lawful_program": {
+          "randomization": "None; the same program applies to every realization of any unused independent randomization.",
+          "round_1": {
+            "previous_operators": [],
+            "revenues_A_B_C": [
+              0,
+              0,
+              0
+            ],
+            "costs_A_B_C": [
+              2,
+              2,
+              2
+            ],
+            "offers_A_B_C": [
+              3,
+              0,
+              0
+            ],
+            "operators": [
+              "A"
+            ],
+            "actual_payment": 3
+          },
+          "round_2": {
+            "previous_operators": [
+              "A"
+            ],
+            "revenues_A_B_C": [
+              0,
+              3,
+              0
+            ],
+            "costs_A_B_C": [
+              1,
+              2,
+              2
+            ],
+            "offers_A_B_C": [
+              2,
+              0,
+              0
+            ],
+            "operators": [
+              "A",
+              "B"
+            ],
+            "actual_payment": 2
+          },
+          "round_3": {
+            "previous_operators": [
+              "A",
+              "B"
+            ],
+            "revenues_A_B_C": [
+              0,
+              3,
+              3
+            ],
+            "costs_A_B_C": [
+              1,
+              1,
+              2
+            ],
+            "offers_A_B_C": [
+              2,
+              0,
+              0
+            ],
+            "operators": [
+              "A",
+              "B",
+              "C"
+            ],
+            "actual_payment": 2
+          },
+          "round_4_and_every_later_round": {
+            "previous_operators": [
+              "A",
+              "B",
+              "C"
+            ],
+            "revenues_A_B_C": [
+              3,
+              3,
+              3
+            ],
+            "costs_A_B_C": [
+              1,
+              1,
+              1
+            ],
+            "offers_A_B_C": [
+              0,
+              0,
+              0
+            ],
+            "operators": [
+              "A",
+              "B",
+              "C"
+            ],
+            "actual_payment": 0,
+            "service": "Each supplier delivers one unit to its assigned customer."
+          },
+          "procurement": "Do not order EC-47.",
+          "worst_total_new_invoice": 7
+        },
+        "global_optimality": "Let n_t be the number of operators in round t. The ring gives exactly n_(t-1) suppliers revenue 3; all operate regardless of nonnegative offers. Every additional operator has zero referral revenue and requires support of at least 2, or at least 3 when entering from inactivity. Thus cardinality cannot decrease. Without EC-47, all three must operate in round 4, which under zero support requires n_3=3. Starting from n_0=0 requires three additions. The first costs at least 3 and the remaining additions at least 2 each, giving a lower bound of 7 on every successful realized path. Buying EC-47 costs at least 10. The displayed program attains 7.",
+        "counterpolicy_and_material_change": "The complete program above disproves VR-47's universal assertion that temporary support necessarily collapses and EC-47 is necessary. It replaces that vendor recommendation's contract purchase with lawful support costing 7. All three responses already authorize this valid counterpolicy; none endorses the vendor's false assertion.",
+        "gate_applicability": "No response contains an observed material false premise, unsafe authorization, or false universal necessity, bound, or exclusion. The qualifying gate is therefore not met for any response. No local-error exemption is needed.",
+        "root_count": 0
+      },
+      "qualifying_ids": [],
+      "objective_error_ids": []
+    }
+  },
+  "selection": {
+    "status": "EXCLUDED",
+    "valid_originals": 3,
+    "joint_qualifying_ids": [],
+    "joint_qualifying_count": 0,
+    "required_joint_ids": 2,
+    "retained_families": 0,
+    "remaining_required": 6,
+    "criteria_changed": false,
+    "postoutput_extra_audit_required": false
+  },
+  "original_layout": "B initial compact same-data transcription preserved separately; restored received layout before first grade ledger, JSONdeep-equality PASS, no rescoring/substantive replacement."
+}

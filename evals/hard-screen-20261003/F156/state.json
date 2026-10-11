@@ -1,0 +1,91 @@
+{
+  "candidate": "F156",
+  "version": "closure-1",
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "difficulty": "UNKNOWN",
+  "grading": "NOT_RUN",
+  "protocol_validity": "NOT_ESTABLISHED_CAPTURE_FORMAT_REJECTED",
+  "delivery_state": "INCOMPLETE_CLOSURE_AUDITED_PENDING_ROOT_ACCEPTANCE",
+  "independent_delivery_audit": "APPROVE_INCOMPLETE_PROTOCOL_NO_P0_P1",
+  "followup_dispatch_attempts": 0,
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "after": 0,
+    "target": 6
+  },
+  "planned_original_episodes": 3,
+  "planned_problem_turns": 6,
+  "planned_terminal_answers": 3,
+  "original_episodes_launched": 3,
+  "observed_problem_turns": 3,
+  "preliminary_finals_preserved": 3,
+  "terminal_stage2_finals": 0,
+  "stage2_dispatches": 0,
+  "retries": 0,
+  "replacements": 0,
+  "extra_problem_turns": 0,
+  "blind_packet_created": false,
+  "grader_calls": 0,
+  "scores": null,
+  "objective_decision_errors": null,
+  "qualifying_inquiry_failures": null,
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "heldout": {
+    "writer_reviewer_seen": true,
+    "participant_episodes": 0,
+    "used_in_grading": false
+  },
+  "route": {
+    "kind": "native subagent",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "actual_backend": "UNVERIFIED",
+    "host_injected_context": "UNVERIFIED",
+    "shared_filesystem_isolated": false,
+    "complete_tool_conformance": "NOT_ESTABLISHED_BY_REJECTED_CAPTURE",
+    "effort_used_for_admission": false
+  },
+  "capture": {
+    "revision": 3,
+    "stage1_statuses": [
+      "INVALID_OR_INCOMPLETE",
+      "INVALID_OR_INCOMPLETE",
+      "INVALID_OR_INCOMPLETE"
+    ],
+    "first_rejection": {
+      "adapter_line": 197,
+      "record_type": "world_state",
+      "before": "turn_context"
+    },
+    "additional_unrecognized_shapes": [
+      "inter_agent_communication_metadata",
+      "token_usage_record",
+      "event_msg/item_completed"
+    ],
+    "actual_delivery_failure_proven": false,
+    "wrong_answer_proven": false,
+    "stage2": "WITHHELD_UNDER_FROZEN_FAIL_CLOSED_RULE",
+    "aggregate_readback": "INVALID_OR_INCOMPLETE",
+    "synthetic_checks_reported": {
+      "existing": 45,
+      "independent": 10,
+      "runtime_acceptance": false
+    }
+  },
+  "launch_provenance": "Coordinator-preserved requested call arguments; not independent extraction of protected inbound plaintext. followupSucceeded=false records not dispatched, not three failed calls.",
+  "source_validity": {
+    "version": "source-pair-2",
+    "review_a": "APPROVE",
+    "review_b": "APPROVE",
+    "empirical_difficulty_established": false
+  },
+  "pretrial_status_note": "Historical pending-review text preserved unchanged; review C separately approves exact revision 3 and current pretrial hash.",
+  "archive": "temp/hard-screen-20261003/f156-native-unaccepted-finals.json",
+  "historical_recovery_or_reclassification": false,
+  "catalog_application": "PARENT_PENDING_PREFIX_PRESERVING_APPEND"
+}

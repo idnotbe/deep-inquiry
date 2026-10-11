@@ -1,0 +1,135 @@
+{
+  "suite_hashes": {
+    "cases.json": "a9a59baf7aadd1f772ea2e802ae09f15abbb84400a79e99c237025054c619bdf",
+    "rubrics.json": "75b4ad8ac74b0d16f87f204ebd54ef57fa0d348993447158808ea50d0ec322ee",
+    "protocol.json": "d77bbf5bf00bbae0e21c13939423a27e25a981ca5c69f6e75703e4ba4e2f1ed7"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "repository_commit_at_dispatch": "fa5fa85a1a738870891d56187ece5caf3da6d1a6",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F30C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "5576c2a573b744af007480af9e666eae53fbde8e1cdeb464074371a134e58ad1",
+      "turn_id": "local-turn-a665d1428699be1f",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F30C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "d03d453f8dfc59c3470d0e6f954ec8e6933a5e3ca61bec9aaeec7d4afc9a8b0c",
+      "turn_id": "local-turn-46f2598dfb08a09a",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F30C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "09f4b931cb1e2a10bb1b91dbeab8f8aff53525c984eef97f751a73653157cfd0",
+      "turn_id": "local-turn-8b088a7da66d261e",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "5a7dc4f7276b898822bb7eceeadae4f2a86bba687c4cb0afb773930a3df4cbbe",
+  "grading_packet_redaction": "Builtfromblankcurrenttask/rubric/anchor/anonymousanswers and readgenericcriteria. Predispatchmetadata/oldcaseclausecheckclear.",
+  "pretrial_reviews": [
+    "f30_source_a and f30_source_b independentlyreconstructedC/Hfixes and Krestrictedunchanged fromsourceonly.",
+    "Bothindependentlyexecuted15original/partial/fullhelperobservations andactualKsource, matchingcertificate beforefreeze.",
+    "Finalreview approved exactsuite/oracle/helper/certificate/v3 hashes; KsourceCRLF versuscasesLF normalizeequalonly. No actualdifficultyclaim fromoraclechecks."
+  ],
+  "actual_answer_behavior": {
+    "R01": {
+      "code_sha256": "62d9f64e7c73acf771eda79e12bb0bb1a8fa9c2d669f5a786f6f7366e1dc8185",
+      "combined_binding_lifetime_independence_retry": [
+        "A",
+        null,
+        "B",
+        "A"
+      ],
+      "aliases": [
+        "A",
+        null
+      ],
+      "running_survives_config": [
+        "A",
+        null
+      ],
+      "scope": "actual final code executed under product public accept/start/finish/set_default call contract; no hidden tests or guessed implementation"
+    },
+    "R02": {
+      "code_sha256": "f7e74e24fb400cb643891b3c27a36555700792dcc679476a2fe49f66d3b23356",
+      "combined_binding_lifetime_independence_retry": [
+        "A",
+        null,
+        "B",
+        "A"
+      ],
+      "aliases": [
+        "A",
+        null
+      ],
+      "running_survives_config": [
+        "A",
+        null
+      ],
+      "scope": "actual final code executed under product public accept/start/finish/set_default call contract; no hidden tests or guessed implementation"
+    },
+    "R03": {
+      "code_sha256": "f7e74e24fb400cb643891b3c27a36555700792dcc679476a2fe49f66d3b23356",
+      "combined_binding_lifetime_independence_retry": [
+        "A",
+        null,
+        "B",
+        "A"
+      ],
+      "aliases": [
+        "A",
+        null
+      ],
+      "running_survives_config": [
+        "A",
+        null
+      ],
+      "scope": "actual final code executed under product public accept/start/finish/set_default call contract; no hidden tests or guessed implementation"
+    }
+  },
+  "grading_recovery": {
+    "interruption_reassignment": true,
+    "saved_prior_grades_found": false,
+    "packet_unchanged": true,
+    "graders": [
+      "f30_resume_grader_a",
+      "f30_resume_grader_b"
+    ],
+    "method": "Independent manual tracing of exact anonymous packet only; no code execution or model runs by graders.",
+    "outcome_reruns": 0,
+    "output_replacements": 0,
+    "criterion_changes": 0
+  },
+  "recovery_verification": "Frozen suite/packet hashes, anonymous final mapping, safe original manifests and final bytes checked; all three actual final code combined histories reexecuted successfully. Extracted code hash includes final newline."
+}

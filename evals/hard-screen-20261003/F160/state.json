@@ -1,0 +1,248 @@
+{
+  "candidate": "F160",
+  "version": "closure-2",
+  "source_version": "revision-1",
+  "issue": 11,
+  "outcome": "EXCLUDED_NOT_HARD",
+  "difficulty": "NOT_HARD_IN_THIS_THREE_ORIGINAL_SCREEN",
+  "delivery_state": "PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW",
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "increment": 0,
+    "after": 0,
+    "target": 6
+  },
+  "interaction": "SINGLE_TURN",
+  "planned_original_episodes": 3,
+  "planned_problem_turns": 3,
+  "original_episodes_launched": 3,
+  "observed_problem_turns": 3,
+  "original_finals_preserved": 3,
+  "accepted_gradeable_finals": 3,
+  "protocol_acceptance": "THREE_ORIGINALS_VALID_PER_RESUMED_INDEPENDENT_AUDIT_AND_ROOT_ACCEPTANCE",
+  "retries": 0,
+  "replacements": 0,
+  "followups": 0,
+  "extra_problem_turns": 0,
+  "grader_calls": 4,
+  "grade_results": 4,
+  "grading": "TWO_CORRECTED_COMPLETE_PACKET_RESULTS_COMPLETE",
+  "response_ids": [
+    "Answer-B14273",
+    "Answer-E4407E",
+    "Answer-915C0E"
+  ],
+  "response_mapping": [
+    {
+      "slot": "r2",
+      "bytes": 1910,
+      "sha256": "ddcdc129aca2d3cc5b3258c74ce809c2c58f7c351dbfee69b1b91c64536503fe",
+      "original_record_index": 20,
+      "anonymous_response_id": "Answer-B14273"
+    },
+    {
+      "slot": "r3",
+      "bytes": 1835,
+      "sha256": "70ee41a5b2564d598110d62493712367cd458262fba5e4b0fb39080eabc74844",
+      "original_record_index": 18,
+      "anonymous_response_id": "Answer-E4407E"
+    },
+    {
+      "slot": "r1",
+      "bytes": 1889,
+      "sha256": "b9812e9d418c1adff0899429905d2fe1ff174ae9d8b1ad450fd033cc240d1e15",
+      "original_record_index": 18,
+      "anonymous_response_id": "Answer-915C0E"
+    }
+  ],
+  "retention_threshold_same_ids": 2,
+  "correct_schedule": {
+    "A-D": "18:00",
+    "B-E": "18:00",
+    "C-F": "18:00",
+    "G-H": "15:00"
+  },
+  "actual_schedule_cost": [
+    3000,
+    3000,
+    3000
+  ],
+  "material_loss": [
+    0,
+    0,
+    0
+  ],
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "heldout": {
+    "writer_reviewer_seen": true,
+    "participant_episodes": 0,
+    "used_in_grading": false
+  },
+  "route": {
+    "kind": "native subagent",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "observed_configuration": "Matches requested settings per resumed independent semantic audit",
+    "protected_initial_plaintext": "UNVERIFIED_ROOT_NATIVE_API_TRUST_ASSUMPTION",
+    "actual_backend_fallback": "UNVERIFIED",
+    "internal_isolation": "UNVERIFIED",
+    "shared_filesystem_isolated": false,
+    "effort_used_for_admission": false
+  },
+  "semantic_audit": {
+    "path": "temp/hard-screen-20261003/f160-resumed-semantic-audit.md",
+    "root_acceptance": "temp/hard-screen-20261003/f160-validity-acceptance.md",
+    "slots": [
+      {
+        "slot": "r1",
+        "overall": "VALID"
+      },
+      {
+        "slot": "r2",
+        "overall": "VALID"
+      },
+      {
+        "slot": "r3",
+        "overall": "VALID"
+      }
+    ],
+    "wrapper_difference": "FROZEN_WRAPPER_PLUS_ONE_LF_SEMANTICALLY_ACCEPTABLE_NOT_BYTE_IDENTICAL",
+    "command_prefix_raw_strings": "NOT_READ_BASELINE_EQUALITY_UNVERIFIED_CASE_SPECIFIC_RELEVANCE_ACCEPTED_BY_AUDITOR"
+  },
+  "source_validity": {
+    "review_a": "APPROVE",
+    "review_b": "APPROVE",
+    "scope": "Source validity only",
+    "novelty": "Limited comparison only; not exhaustive or empirical hardness"
+  },
+  "grader_provenance": {
+    "kind": "ROOT_PRESERVED_DELIVERED_JSON",
+    "original_rawlogs_independently_audited": false,
+    "additional_public_action_provenance": "UNVERIFIED_BY_CLOSURE"
+  },
+  "blind_packet": {
+    "path": "temp/assessment-0160/packet-v2.json",
+    "bytes": 72947,
+    "sha256": "5bf00a10bc38abb92329ee4cce1d93d310c766d40d95a71a76b374d49f5076bd",
+    "status": "COMPLETE_PACKET_ROOT_ACCEPTED_AND_GRADED",
+    "ordered_read_actions_observations_in_packet": true,
+    "C_only_oracle_in_packet": true,
+    "public_records": 18,
+    "root_acceptance": "temp/hard-screen-20261003/f160-complete-packet-acceptance.json"
+  },
+  "historical_frozen_statuses_edited": false,
+  "historical_recovery_or_reclassification": false,
+  "catalog_application": "PREFIX_PRESERVING_APPEND_BOUND_BY_CLOSURE_VERIFICATION",
+  "diagnostic_first_grading": {
+    "scores": {
+      "a": [
+        10,
+        10,
+        10
+      ],
+      "b": [
+        10,
+        10,
+        10
+      ]
+    },
+    "objective_decision_errors": {
+      "a": [
+        false,
+        false,
+        false
+      ],
+      "b": [
+        false,
+        false,
+        false
+      ]
+    },
+    "qualifying_inquiry_failures": {
+      "a": [
+        false,
+        false,
+        false
+      ],
+      "b": [
+        false,
+        false,
+        false
+      ]
+    },
+    "qualifying_ids": {
+      "a": [],
+      "b": []
+    },
+    "same_id_intersection": [],
+    "would_be_outcome": "EXCLUDED_NOT_HARD",
+    "admissible_for_final_disposition": false
+  },
+  "corrected_grade_results": 2,
+  "closure_frozen": true,
+  "diagnostic_grade_results": 2,
+  "regrading_calls_for_packet_defect": 2,
+  "scores": {
+    "a": [
+      10,
+      10,
+      10
+    ],
+    "b": [
+      10,
+      10,
+      10
+    ]
+  },
+  "objective_decision_errors": {
+    "a": [
+      false,
+      false,
+      false
+    ],
+    "b": [
+      false,
+      false,
+      false
+    ]
+  },
+  "qualifying_inquiry_failures": {
+    "a": [
+      false,
+      false,
+      false
+    ],
+    "b": [
+      false,
+      false,
+      false
+    ]
+  },
+  "qualifying_ids": {
+    "a": [],
+    "b": []
+  },
+  "same_id_intersection": [],
+  "additional_postoutput_validity_review_required": false,
+  "packet_correction": {
+    "defect": "Initial packet omitted C-only oracle and ordered public records",
+    "initial_grades": "DIAGNOSTIC_ONLY_NOT_USED_FOR_FINAL_DISPOSITION",
+    "prior_packet": {
+      "path": "temp/assessment-0160/incomplete-packet/packet-v1.json",
+      "bytes": 17870,
+      "sha256": "6823b5c196628e8bc4d6ed2bf38b086ef83105dab5f873bcce7244e89d4ec9a9"
+    },
+    "prior_map": {
+      "path": "temp/assessment-0160/incomplete-packet/map-v1.json",
+      "bytes": 4503,
+      "sha256": "e3427223924ae7a1d93c0629bb2c3f99d43fa63988eff3d8b3edcfe44f272d1d"
+    },
+    "source_and_original_validity_unchanged": true,
+    "additional_solver_calls": 0
+  }
+}

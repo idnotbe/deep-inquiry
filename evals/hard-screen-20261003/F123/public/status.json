@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "candidate": "F123",
+  "status": "SOURCE_ONLY_DEFERRED_OVERLAP_PRIORITY",
+  "retained": 0,
+  "target": 6,
+  "overall_goal_complete": false,
+  "source_firsts": [
+    "CLEAR",
+    "CLEAR"
+  ],
+  "oracle_alignment": "NOT_RUN",
+  "participant_trials": 0,
+  "neutral_trials": 0,
+  "blind_grading": "NOT_RUN",
+  "empirical_difficulty": "UNKNOWN",
+  "family_independence": "NOT_ESTABLISHED; strong F54 overlap",
+  "heldout_equal_difficulty": "UNKNOWN",
+  "H_K_participant_unused": true,
+  "scored_treatment": 0,
+  "reasoning_effort_considered": false,
+  "full_review_bindings": [
+    {
+      "path": "temp/hard-screen-20261003/f123-root-reviews/source-one-FIRST.full.md",
+      "bytes": 8495,
+      "sha256": "330d073948f888b5cf9e95f6e162b40205e4870b1db76bebd786d9c62b1539c8"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f123-root-reviews/source-two-FIRST.full.md",
+      "bytes": 5885,
+      "sha256": "b95d9444ca2da19398d4b626fddb3e4cda5ad1115605897245294bd91f508da2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f123-lineage-FIRST.full.md",
+      "bytes": 7663,
+      "sha256": "a2cda1867096c2248770962c05981a6df2fa8f23d14631cc37406c7fa754882b"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "candidate": "F91",
+  "stage": "PENDING_ROOTFINAL",
+  "disposition_proposal": "EXCLUDE_NO_REPEATED_QUALIFYING_FAILURE",
+  "retained": false,
+  "retained_total": 0,
+  "required": 6,
+  "native_problem_responses": 3,
+  "independent_blind_FIRSTs": 2,
+  "original_dispatch_order": [
+    2,
+    3,
+    1
+  ],
+  "joint_qualifying_count": 0,
+  "joint_qualifying_IDs": [],
+  "objective_error_counts": [
+    0,
+    0
+  ],
+  "numerical_full_pass_counts": [
+    3,
+    3
+  ],
+  "secondary_means": [
+    10,
+    10
+  ],
+  "H_K_participant_UNUSED": true,
+  "scored_treatment_runs": 0,
+  "backend_identity": "UNKNOWN_NONBLOCKING",
+  "effort_considered": false,
+  "efficacy": "NOT_EVALUATED",
+  "intrinsic_difficulty": "NOT_ESTABLISHED",
+  "native_proof_authorcheck_collector_reexecutions": 0
+}

@@ -1,0 +1,168 @@
+{
+  "suite_hashes": {
+    "cases.json": "489319858fc21c0ef6dd502ee1a698814bf26c6ca2adfb4474851ea765f18efd",
+    "rubrics.json": "b5bebdcdbed575c01a0f7e28730a10dc71733e69eb324d99e392c0fad0363b1e",
+    "protocol.json": "40123fdf75b353c31643ab61c35592fefb698606b773e11d4f91f43a5993450f"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": 3,
+  "grading_packet_sha256": "ef9b398e393256488eb5813cae163d6a6e3ddb1ae68c394991fb3b3f6b3700ad",
+  "grading_packet_redaction": "Genuinely blank current-only task/rubric/anchor/genericrules and anonymous exact finaltext; no condition/model/host/mapping/author findings/oldcases/privateoracle. Two NEW fresh-context graders each packetONLY.",
+  "pretrial_reviews": {
+    "source_only_originals": {
+      "a": {
+        "path": "temp/hard-screen-20261003/worker/F38/source-a-received.md",
+        "sha256": "a49b249cf429f95927b1b999b15802d1d0e1fcad2830f74a934d89b2a7dcf344"
+      },
+      "b": {
+        "path": "temp/hard-screen-20261003/worker/F38/source-b-received.md",
+        "sha256": "2c7bd6d1400b39aee591f8c9a45457169d6e0220f6434a9fcdfc101f1134bf45"
+      }
+    },
+    "exact": {
+      "a": {
+        "path": "temp/hard-screen-20261003/worker/F38/exact-review-a.md",
+        "sha256": "4994f6bd03769c98989ccfbf3ceee0eafb85283af28e82e249d4a75e8cf2beb2",
+        "verdict": "APPROVE_no_required_fix"
+      },
+      "b": {
+        "path": "temp/hard-screen-20261003/worker/F38/exact-review-b.md",
+        "sha256": "025e209a55c51b5add9384f4df0f1e37cec7dd39e013c902cdfc519ed1a53754",
+        "verdict": "APPROVE_no_required_fix"
+      }
+    },
+    "scoped_source_verdicts": "A APPROVE sources/REVISE proposals; B REVISE proposals explicitly sources sufficient/no ambiguity. Original scoped wording preserved, no source revisions.",
+    "manifest_sha256": "9d65c4fdcb0b8bfa3312bb688286eddef63d9ac1f57d14c2aa8abd68e073dda9",
+    "pretrial_final_readback_sha256": "d0d677fad6777ed45d88cc3537a2cf862fd1a2d339184b83bb0019c600621f51"
+  },
+  "source_prompt_relation": "Raw source bytes preserved; cases normalize universal newlines and rstrip. Exact equality supports local binding, not independent transport authentication.",
+  "freeze_sha256": "be836bf7e46ec1e96a2f14960b8b6702ba7ef31e53df97e7ff55613c2f042c4b",
+  "producer_file_sha256": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "plan_sha256": "54bf959b2b6f1cd22c53d3fa570b3456a92c85618ad03f3e9ed4c28d0746a592",
+  "neutral_canary_plan_sha256": "7d5b093598591c0f49ab3cea99e7d1d175a9b22676775aaccf2bd9235f77f68a",
+  "common_context_sha256": "e1455c705fc111e332e83802ba6109b2aa8c384729eeeae3e44b1e10d03146ff",
+  "static_proof_sha256": "f4ad9c3e0fbf648c481faa8fe5d552840345cc958d30f2d8ed052630b59b5684",
+  "certificate_sha256": "b6381b42bae41f49fc8a69f5f4662be8692a8073b4fce51224c370836daa93c1",
+  "oracle_sha256": "9c910c268180cd3e643de4e1cf3c0e1b663c6c5e0fe97d93251deb536ac9b664",
+  "static_coverage": "Reuse unchanged actual exactFraction 8normal/C and4H weakLP bounds, not allPBE enumeration. Independent source-only and exact reviewers derive continuum allbinding upperbound via fee envelope; separate allPBE autonomous/belief/normalbelow2/publicrandom-history proof. K supplied installed bus pointwisebound. Math validity is not model hardness.",
+  "neutral_canary_completed": 2,
+  "neutral_canaries_counted_in_problem_turns": false,
+  "canary_readback_sha256": "c4ac9ae4bf1381f32ad51c0248620462b65e1cd59e759305ed59a6e2027397b4",
+  "canary_reference_semantics": "Reference establishment, not scored invalidity; second arm verifies same captured common context.",
+  "original_slots": [
+    {
+      "response_id": "R01",
+      "slot": "F38C-baseline-r2-attempt1",
+      "status": "completed",
+      "completed_problem_turns": 1,
+      "completed_finals": 1,
+      "manifest_sha256": "5725383d10cf061fac5451c076185c28a98f7b5a46762aca5c2e295e931b8590",
+      "telemetry_sha256": "3b54ac2bd1c925f28bde46223862975af1c95a98b1143ef3899637e180b2f3bc",
+      "delivery_sha256": "c4034d8a5137a4880c7ccd0ec236801a5ebdb4587f97debd0f1ee230ea5454c9",
+      "final_sha256": "11e16a306736cbc0b386220435918ce384c5e98087c259c607ddd91dae5b90f5",
+      "safe_completion_context_input_noexposure_notools_source_cleanup": "PASS"
+    },
+    {
+      "response_id": "R02",
+      "slot": "F38C-baseline-r3-attempt1",
+      "status": "completed",
+      "completed_problem_turns": 1,
+      "completed_finals": 1,
+      "manifest_sha256": "39d5d5c2e84c2e92af49e93749fe1d3b3832640f0ae0c347196b970c25043582",
+      "telemetry_sha256": "2af9fa7cef7064ab3ed54ecd18eeb8cb6aa6e1af9b3ead320003daf9dee905eb",
+      "delivery_sha256": "c4034d8a5137a4880c7ccd0ec236801a5ebdb4587f97debd0f1ee230ea5454c9",
+      "final_sha256": "045d74a1e9358215579d6d17b9c583acdd6a09a065f077c830d3f1be11a9f1f4",
+      "safe_completion_context_input_noexposure_notools_source_cleanup": "PASS"
+    },
+    {
+      "response_id": "R03",
+      "slot": "F38C-baseline-r1-attempt1",
+      "status": "completed",
+      "completed_problem_turns": 1,
+      "completed_finals": 1,
+      "manifest_sha256": "6d16607769c8040e4ce877d35341f00d8b06ca158e758810eecd3b26af4d8987",
+      "telemetry_sha256": "5a7376013764753be91bd1e7ec787de49e57fcae2dacc623eb523717524fb0f0",
+      "delivery_sha256": "c4034d8a5137a4880c7ccd0ec236801a5ebdb4587f97debd0f1ee230ea5454c9",
+      "final_sha256": "344fd342a9cdee32742b89b764bfbb7879d54c7e2c4526b0577e62732a8d6bd0",
+      "safe_completion_context_input_noexposure_notools_source_cleanup": "PASS"
+    }
+  ],
+  "problem_turns_added": 3,
+  "actual_problem_turn_counts": [
+    {
+      "response_id": "R01",
+      "turns": 1,
+      "finals": 1
+    },
+    {
+      "response_id": "R02",
+      "turns": 1,
+      "finals": 1
+    },
+    {
+      "response_id": "R03",
+      "turns": 1,
+      "finals": 1
+    }
+  ],
+  "safe_original_capture": "PASS all3 native attempt1 completion/final/delivery/telemetry/frozeninput/commoncontext/noexposure/notools/source/process/copiedauthcleanup flags and hashes. Read safe metadata/finals only, no raw events/privatecontext/hiddenreasoning/auth/profile content.",
+  "outcome_retries": 0,
+  "transport_expiry": "Git Bash outer tools/call300s expired while original runner continued. r2/r3 safe complete then r1 completed original; no rerun/replacement.",
+  "new_full_tests_run": 0,
+  "reused_full_checks": "Unchanged producer/code prior153tests with6environment skips and0fail (147pass); no uninvalidated full rerun.",
+  "current_totals": {
+    "families": 34,
+    "finals": 102,
+    "problem_turns": 143,
+    "retained": 0,
+    "status": "EXCLUDED_original_dual_grades"
+  },
+  "original_grade_sha256": {
+    "a": "f0147d01d1f715a48414bcf16b26f506c2f8a9131155525576c75cf4942eab37",
+    "b": "331f23797e7d281c86ac4eaf78a73fff1fe511d22a075ad448bcf3464fbcf47c"
+  },
+  "local_authoring_corrections": [
+    "Guessed oracleheader apply_patch failed no write then actual header targeted corrected.",
+    "Initial draftreadback heredoc escaped backslash SyntaxError before execution/write; explicit as_posix corrected.",
+    "Historical draft-bundle-readback old certificate/protocol hashes retained; reviewed exactmanifest authoritative.",
+    "Parent own readback initial SyntaxError before execution/write then NodePASS10; local reporting/tool issue not native/model failure."
+  ],
+  "grader_diagnostic_correction": {
+    "original_grade_error_retained": "A own favorable-outcome paragraph said ADVANCED/BASIC tie2/3 atq1/3, false.",
+    "corrected_values": "Actual BOOST ADVANCED4/3 vsBASIC2, strictly BASIC; fixed capacity debit irrelevant conditionalchoice.",
+    "same_grader_correction_path": "temp/hard-screen-20261003/worker/F38/grade-a-own-calculation-correction.json",
+    "sha256": "a376006d64439875f5ba24687bc6ac36456d67e7d22c4a8983ef2999dcf21092",
+    "response_classifications_changed": false,
+    "regrade": false
+  },
+  "artifact_review_status": "PENDING_DEFERRED_F32_ONWARD_TO_POOL_CLOSURE",
+  "local_archive_status": "NOT_RUN_DEFERRED",
+  "selection": {
+    "result": "EXCLUDED",
+    "three_original_slots_valid": true,
+    "jointly_qualifying_ids": [],
+    "jointly_qualifying_count": 0,
+    "required": 2,
+    "objective_error_counts": {
+      "A": 0,
+      "B": 0
+    },
+    "qualifying_failure_counts": {
+      "A": 0,
+      "B": 0
+    },
+    "retained_family_count": 0,
+    "target": 6,
+    "remaining": 6,
+    "reason": "No same original response qualifies; both independent graders find correct complete optimal authorization and archive/pooling distinction. Scores secondary, no outcome rerun/regrade/replacement.",
+    "extra_3of3_postoutput_validity_audit": "NOT_REQUIRED_zero_qualifying"
+  }
+}

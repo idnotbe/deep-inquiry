@@ -1,0 +1,230 @@
+{
+  "first_grade_objects": [
+    {
+      "grader": "A",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F68/grades-FIRST/grade-a-received.json",
+        "bytes": 3309,
+        "sha256": "0f1587c53abd62f7362530ab113c1d84720c55457268c837a146dfd85dee8114"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F68/reports/grade-a-first.json",
+        "bytes": 3309,
+        "sha256": "0f1587c53abd62f7362530ab113c1d84720c55457268c837a146dfd85dee8114"
+      },
+      "complete_first": {
+        "status": "COMPLETE",
+        "grading": "FIRST",
+        "responses": [
+          {
+            "id": "R01",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "endorsed_public_evidence_quote": "**Authorize GO with free MOD.** The manager’s claimed 5/2-credit lower bound is false.",
+            "assessment": "The complete table supplies a lawful deterministic programme. Intake leaves only empty, A, or AB; finishing uses only the post-intake MOD value. All eight requests complete, with no display fee and expected gross additional cost 18/8 = 9/4 <= 23/10. No current-request side channel, repeat cost omission, or outcome-dependent architecture selection is required.",
+            "insufficiency_or_exclusions": "No qualifying false exclusion or unsafe authorization is present. A global minimum, randomized alternative, or separate EXACT comparison is unnecessary for this complete feasible programme.",
+            "qualifying_failure_chain": null
+          },
+          {
+            "id": "R02",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "endorsed_public_evidence_quote": "**Authorize the free-MOD programme.** The manager’s NO-GO recommendation is incorrect: intake can use the edits it performs to make each displayed value identify the remaining work.",
+            "assessment": "The table covers every original request and correctly prices all intake and finishing calls. Reachable residuals are empty, A, and AB, so the fixed MOD controller completes every job using legitimate information. Free MOD is selected throughout; expected gross additional cost is 18/8 = 9/4 <= 23/10.",
+            "insufficiency_or_exclusions": "No qualifying false exclusion or unsafe authorization is present. Additional controller branches, randomization, or optimality proof are not required.",
+            "qualifying_failure_chain": null
+          },
+          {
+            "id": "R03",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "endorsed_public_evidence_quote": "**Authorize GO.** The manager’s lower bound is false for this order: intake can shape the residual set before MOD samples it.",
+            "assessment": "The conditional intake rule completely specifies all eight cases: remove requested C and remove requested B when A is absent. Residuals are exactly empty, A, or AB; the fixed finishing controller completes each. Intake costs 3/2 in expectation, finishing costs 3/4, and free MOD yields gross additional cost 9/4 <= 23/10. The deterministic controller requires no independent coins, history, or additional channel.",
+            "insufficiency_or_exclusions": "No qualifying false exclusion or unsafe authorization is present. The short conditional specification is complete; a case table, canonical controller name, or global minimum is unnecessary.",
+            "qualifying_failure_chain": null
+          }
+        ]
+      }
+    },
+    {
+      "grader": "B",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F68/grades-FIRST/grade-b-received.json",
+        "bytes": 3102,
+        "sha256": "05adc10c1ef0a2fb18a24d4164bbf0aebfbfeb0f15187a5d754855cd34370833"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F68/reports/grade-b-first.json",
+        "bytes": 3102,
+        "sha256": "05adc10c1ef0a2fb18a24d4164bbf0aebfbfeb0f15187a5d754855cd34370833"
+      },
+      "complete_first": {
+        "status": "COMPLETE",
+        "grading": "FIRST",
+        "results": [
+          {
+            "response_id": "R01",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "endorsed_public_evidence_quote": "**Authorize GO with free MOD.** The manager’s claimed 5/2-credit lower bound is false.",
+            "assessment": "The complete eight-case table verifies lawful intake calls, post-intake residual sampling, display-only finishing, completion and all current charges. Its deterministic controller costs 18/8 = 9/4, below 23/10. Free MOD is fixed before the request; no coins, history or additional channel are needed.",
+            "insufficiency_or_exclusions": "No qualifying false exclusion or unsafe authorization. Separate EXACT, mixture or optimality analysis is unnecessary for this complete feasible programme."
+          },
+          {
+            "response_id": "R02",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "endorsed_public_evidence_quote": "**Authorize the free-MOD programme.** The manager’s NO-GO recommendation is incorrect: intake can use the edits it performs to make each displayed value identify the remaining work.",
+            "assessment": "The eight-case table supplies a complete deterministic controller. Its reachable residuals are empty, A and AB; the fixed finishing calls complete each. All intake and finishing costs sum to 18 over the eight equally likely requests, giving 9/4 with no display fee. Architecture and finishing rules can be fixed before the request.",
+            "insufficiency_or_exclusions": "No qualifying false exclusion or unsafe authorization. No canonical controller, independent randomization or global minimum proof is required."
+          },
+          {
+            "response_id": "R03",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "endorsed_public_evidence_quote": "**Authorize GO.** The manager’s lower bound is false for this order: intake can shape the residual set before MOD samples it.",
+            "assessment": "The conditional intake rule covers all eight requests: clear requested C and clear requested B when A is absent. The only residuals are empty, A and AB, identified by MOD 0, 1 and 2. Fixed display-only finishing completes them. Expected intake cost 3/2 plus finishing cost 3/4 and free display yields 9/4. The deterministic programme satisfies every supported outcome without another channel.",
+            "insufficiency_or_exclusions": "No qualifying false exclusion or unsafe authorization. The short conditional controller is complete; an enumerated table or analysis of other architectures is unnecessary."
+          }
+        ]
+      }
+    }
+  ],
+  "rows": [
+    {
+      "grader": "A",
+      "id": "R01",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "A",
+      "id": "R02",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "A",
+      "id": "R03",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "B",
+      "id": "R01",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "B",
+      "id": "R02",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "B",
+      "id": "R03",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    }
+  ],
+  "joint_qualifying_ids": [],
+  "decision": "EXCLUDED",
+  "transmission_limit": "Raw files preserve complete returned-body local UTF-8 transcriptions, not transport authentication; A responses/B results schemas unchanged."
+}

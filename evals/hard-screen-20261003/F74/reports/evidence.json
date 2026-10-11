@@ -1,0 +1,346 @@
+{
+  "status": "STABLE_EXCLUDED_NOT_HARD",
+  "binding_groups": {
+    "task": [
+      {
+        "path": "evals/hard-screen-20261003/F74/sources/F74C.md",
+        "bytes": 3692,
+        "sha256": "5fed4e83f3da47f934a734e1a9ef845c43242972bbc0f78670156c22ed55d7be"
+      },
+      {
+        "path": "evals/hard-screen-20261003/F74/sources/F74H.md",
+        "bytes": 3753,
+        "sha256": "11168ebbd6409ba49bc2e905ddd741c55f1bd45d4125dc0a06c7ed61e5cb2073"
+      },
+      {
+        "path": "evals/hard-screen-20261003/F74/sources/F74K.md",
+        "bytes": 3464,
+        "sha256": "017d71c93beaed295442288f6c625f315021cf428859fd262588091fb215abff"
+      },
+      {
+        "path": "evals/hard-screen-20261003/F74/cases.json",
+        "bytes": 11313,
+        "sha256": "f4302b077d975b45f63549e2d9727566a1cad71305a706cf844891f36291276f"
+      },
+      {
+        "path": "evals/hard-screen-20261003/F74/rubrics.json",
+        "bytes": 9294,
+        "sha256": "3d0406cef1c51a22d896937f61ab2c6e33c2161ed92339ec8cb63cf619f592a0"
+      },
+      {
+        "path": "evals/hard-screen-20261003/F74/protocol.json",
+        "bytes": 10793,
+        "sha256": "4915b1867548b7f3949142a1f8169d3417a954346f9a07269bbe18325dbf64bf"
+      }
+    ],
+    "classification": [
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/generic-grading-rules.json",
+        "bytes": 3456,
+        "sha256": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d"
+      }
+    ],
+    "source_FIRSTs": [
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/source-a-received.md",
+        "bytes": 3429,
+        "sha256": "8c79e12f0b5bdf8052a2c4bc8d3d5b380a8255c2c98fcb33863dca59b48192e9"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/source-b-received.md",
+        "bytes": 2950,
+        "sha256": "578b8f3dfc14526b2a7ca33a036f10344e642a71415a1d37d4eae932f43da525"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/source-original-hashes.json",
+        "bytes": 710,
+        "sha256": "0a146a083b7288740f3ea460cb5b300a4bbc01d355eb3e887caf0d0535e51144"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/current-source-bindings.json",
+        "bytes": 2451,
+        "sha256": "bd0fe43eec3b36ca139eff9450d7d486e5295f70d758f98d50f34d47d491e089"
+      }
+    ],
+    "private_construction_metadata": [
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/selected-private/kernel.md",
+        "bytes": 6077,
+        "sha256": "775748372c1f16c1823a8be5767c47d30013218979335c92100b5ae505ee34f7"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/selected-private/analytical-proof.md",
+        "bytes": 8079,
+        "sha256": "296f255f24c547a42eaadfb9c0fbf077f104e91e6430807b21a36919a4b08a0a"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/selected-private/finite-check.json",
+        "bytes": 9855,
+        "sha256": "3d7248ceb9730027f32375aff45bbe091f58902df5c1296afb2191e55ed1308e"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/selected-private/readback.json",
+        "bytes": 6008,
+        "sha256": "9543202b14f682235e890193f0bb1adeecae9d9674a464d951dee98e3300c6a2"
+      }
+    ],
+    "author_pretrial": [
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/author-stage-pretrial-manifest.json",
+        "bytes": 6272,
+        "sha256": "edf9bef0690a12cbf7b031c55420094b0b691591b49aaca88ef7a645edb7e25d"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/author-binding-readback.json",
+        "bytes": 2041,
+        "sha256": "adb4d84c859ba39808e7145ab98424cf48ce8b53374d45defcf73b7bca8ceedb"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/static-suite-plan-check.json",
+        "bytes": 659,
+        "sha256": "0cf63adf0c0d10bdc37637698b9568f334b2b6beae06fb1f7731476c1ac3457d"
+      }
+    ],
+    "recovery": [
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/consolidated-pretrial-manifest.json",
+        "bytes": 31163,
+        "sha256": "973e3cbcaf3917881bd899383216bb31bcf9bb2cf368a337e3e493ad09368aee"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/consolidated-pretrial-readback.json",
+        "bytes": 10957,
+        "sha256": "cbac97d3b8e05ee1678f52d02bf8899c9b9a7c401f49e2a502830f54e1c8ac3e"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/consolidated-pretrial-ledger.json",
+        "bytes": 9987,
+        "sha256": "a3eefdf79041d6ebb030aee8c1467b41127e986898155ecf269f8260fc27f0fd"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/replacement-alignment-a-FIRST.md",
+        "bytes": 4461,
+        "sha256": "b296713b3fddc679ebe752f544d0ec4b239495c258fecd6f8841ca3e2e15e99b"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/replacement-alignment-b-FIRST.md",
+        "bytes": 4385,
+        "sha256": "b93a13841d603b649bb64210b3dbe7a73f1996f9a85b8116758a13333dc859fd"
+      }
+    ],
+    "producer_and_runtime": [
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/neutral-incomplete-readback.json",
+        "bytes": 2802,
+        "sha256": "7ce08280d2e0fb85a5a37bebd3993c3efb42dc45a5d477ca94bd5dac4b46c942"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/qualification/freeze.json",
+        "bytes": 12533,
+        "sha256": "1bcfc43ebfd3244eec2e893316f270cb2f67c55ba6399db7ebf431e9c548c24d"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/qualification/neutral-safe-readback.json",
+        "bytes": 10944,
+        "sha256": "b49d9186a7aa7940bff3f7d088bc478a5c4e06977e1c1d284f2b65bed3acb5aa"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/qualification/canary/canary-common-context.json",
+        "bytes": 2455,
+        "sha256": "839acc7226c01cd41dcba8f9e6d796de46e93667a09f1430d614ebba9e80e0ae"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/qualification/screening-plan.json",
+        "bytes": 1165,
+        "sha256": "0c06dc0a3385295c050d93e3285d0d265c75f3f93be77aebeb81e47c456d9297"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/original-operational-freeze.json",
+        "bytes": 3145,
+        "sha256": "43442eafba06c090ed4b39ff99990325154cf99fe6f591dcb36a5febec0bbdb5"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/original-collection-check.json",
+        "bytes": 4926,
+        "sha256": "2b32125cca5c2eba5f953e8683a67252b11fb6d6bcddfbc75a132a6a2ceafc48"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/safe-collection-supplement.json",
+        "bytes": 5607,
+        "sha256": "8bc80ab9a8adfc272584580c055dea24a4f7b9dd32b0ded113474edc245d4391"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/producer-invocation-original.json",
+        "bytes": 1966,
+        "sha256": "b5e1a5da78f996811955ce4fba5f836eb5f61c3da56692ca91d7500c045d69d6"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/producer-terminal-original.json",
+        "bytes": 364,
+        "sha256": "5f424205199473f3b0942075b73d9a88cad5c0fb5cfbc7bb876d36148d33fa2c"
+      }
+    ],
+    "grades": [
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/grades-FIRST/grade-a-received.json",
+        "bytes": 4955,
+        "sha256": "556047ef2bc0eed25e3095976a1a7b61fb063fedb2309b400a67f37ac3f4742e"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/grades-FIRST/grade-b-received.json",
+        "bytes": 4889,
+        "sha256": "18481fb2f80f8b26d88ce58e0b90448b3d2d22c41e47a51d6c0ce63c571eca88"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/grades-FIRST/grading-summary.json",
+        "bytes": 3702,
+        "sha256": "7f7e725e841523b8aae316c19ee77fbc491e59dc06c5e250fd1f3cad8e2d0790"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/grades-FIRST/grading-ledger.json",
+        "bytes": 2716,
+        "sha256": "ef1b7d68fc8ac8a1e381061a6e0422cab558b8c7da23d2dbc7c1e88a6eb98399"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F74/grades-FIRST/grading-readback.json",
+        "bytes": 6039,
+        "sha256": "32850f4c24f5a5823d317ecb4095bc30c8a4054793856a6a8d30bcb7f5c8331f"
+      }
+    ],
+    "ROOT_authority": [
+      {
+        "path": "temp/hard-screen-20261003/f74-author-brief.md",
+        "bytes": 5578,
+        "sha256": "d59210321053e797ec5f1c35eb5da9ec3df110a92187dde841b13048076b8b53"
+      },
+      {
+        "path": "temp/hard-screen-20261003/f74-private-brief.md",
+        "bytes": 6241,
+        "sha256": "be722b173034b38266d06e318451c5d3bf2017816f9288aedd5e926476535b72"
+      },
+      {
+        "path": "temp/hard-screen-20261003/f74-recovery-brief.md",
+        "bytes": 2594,
+        "sha256": "2b7864dbfb8095282fdc55b43d71eb8c9c43c54bce453436b514d691926f18e2"
+      },
+      {
+        "path": "temp/hard-screen-20261003/f74-pretrial-gate-readback.json",
+        "bytes": 1841,
+        "sha256": "58330d3b3c86b72862edf16a08d4db4236a84e22f97c29660d2037c38f837c25"
+      },
+      {
+        "path": "temp/hard-screen-20261003/f74-producer-requalification-release.json",
+        "bytes": 2298,
+        "sha256": "5d8353d4cdee15fc23501d633735f6fb3534f1cdda39307c5a2fa9faa5c50d21"
+      },
+      {
+        "path": "temp/hard-screen-20261003/f74-neutral-gate-readback.json",
+        "bytes": 1441,
+        "sha256": "6017075206db25bb263e7a84d2eff7cf8c4226047ef4b4a2ed4702d54e3d563a"
+      },
+      {
+        "path": "temp/hard-screen-20261003/f74-original-safe-gate-readback.json",
+        "bytes": 1366,
+        "sha256": "0a167ece85f848b4a0005fefdaba98a7e39e33307c881558f172bfac1d646dfe"
+      },
+      {
+        "path": "temp/hard-screen-20261003/f74-grade-gate-readback.json",
+        "bytes": 1358,
+        "sha256": "1627d496ee68c4a1f728bd28b63f5297af584b1de2a3d26317552315be4d1e21"
+      }
+    ]
+  },
+  "review_continuity": "Original writer/source-reader subtree unavailable under ROOT targeted lookup. Preserved source FIRST A/B remain unchanged historical source-first evidence. Exactly two NEW fork-none independent replacement ALIGNMENT reviewers reviewed against both preserved FIRSTs and unchanged representations. These are not renewed source-blind reviews, cannot attest pre-oracle reconstruction, and do not establish or assert original same-reader completion. Original runtime reviewer identities UNKNOWN; preserved A/B artifact labels only.",
+  "historical_metadata": "Historical SAME TWO protocol/author statements superseded by ROOT recovery account; misnamed F73 brief copies inert; actual F74 briefs bound.",
+  "producer": {
+    "version": "0.160.1",
+    "bytes": 326875440,
+    "sha256": "9e7c59c05cc1ce5677b1f94e835b2ac038ca3be14504e78d558eacdb0ea3f55d",
+    "external_change_actor": "UNKNOWN",
+    "agent_install_update": false,
+    "fresh_neutral_qualified": true,
+    "initial_mismatch_before_dispatch": true
+  },
+  "actual_guards": {
+    "order": [
+      2,
+      3,
+      1
+    ],
+    "attempts": [
+      1,
+      1,
+      1
+    ],
+    "completed_turns": [
+      1,
+      1,
+      1
+    ],
+    "terminal_finals": [
+      1,
+      1,
+      1
+    ],
+    "setup_retry_count": 0,
+    "all_input_context_absence_source_noTools_process_authcleanup": "PASS",
+    "durable_PID_before_GO": true,
+    "same_owned_close_exit": 0,
+    "PID_close_alone_is_not_cleanup_proof": true
+  },
+  "original_preparation_errors": [
+    {
+      "kind": "Local preparation source newline escaping SyntaxError",
+      "before_execution": true,
+      "original_dispatches": 0,
+      "retry_consumed": 0,
+      "preserved_script": "temp/hard-screen-20261003/worker/F74/prepare-original-before-newline-fix.cjs",
+      "resolution": "Newline encoding corrected only; no runtime input/source change"
+    }
+  ],
+  "grade_decision": "EXCLUDE_FAMILY_NOT_HARD",
+  "secondary_scores": {
+    "A": [
+      10,
+      10,
+      10
+    ],
+    "B": [
+      10,
+      10,
+      9
+    ]
+  },
+  "objective_errors": {
+    "A": 0,
+    "B": 0
+  },
+  "qualifying_failures": {
+    "A": 0,
+    "B": 0,
+    "joint_ids": []
+  },
+  "source_fixes": 0,
+  "criterion_changes": 0,
+  "counts_lower_bounds": [
+    61,
+    178,
+    234
+  ],
+  "unknown_contributions": [
+    "F46",
+    "F51"
+  ],
+  "retained": 0,
+  "target": 6,
+  "difficulty": "FAILED",
+  "efficacy": "UNKNOWN",
+  "H_K_scored_treatment": "NOT_RUN",
+  "limits": [
+    "Original same-reader continuity unavailable; replacement alignment cannot establish original pre-oracle reconstruction.",
+    "Complete FIRST bodies are local transcriptions, not raw transport authentication.",
+    "Producer identity is not backend-model proof; reasoning effort not considered.",
+    "Initial executable stop and local preparation SyntaxError are not model outcomes or consumed runtime retries.",
+    "No old proof/finite/check/helper/test/review replay; no regrade, averaging or favorable pick."
+  ]
+}

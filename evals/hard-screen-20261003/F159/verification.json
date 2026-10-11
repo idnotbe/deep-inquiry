@@ -1,0 +1,767 @@
+{
+  "candidate": "F159",
+  "version": "closure-1",
+  "status": "PASS_AFFECTED_CHECKS",
+  "check_count": 187,
+  "passed": 187,
+  "failed": [],
+  "command": "node temp/hard-screen-20261003/worker/F159/closure/check.cjs",
+  "expected": "All frozen inputs, exact public copies, grades, quotes and closure accounting agree.",
+  "checks": [
+    {
+      "id": "input:temp/hard-screen-20261003/f159-native-pretrial.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f159-preflight-review.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159-proposal/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/problem-input-0159/input.txt",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159-proposal/C.txt",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159-proposal/H.txt",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159-proposal/oracle.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159-proposal/rubric.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159-proposal/protocol.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159-proposal/design-note.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159-proposal/verify.py",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159-proposal/checks.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159-proposal/README.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f159-source-review-a.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f159-source-review-b.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-semantic-evidence-v4.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-semantic-evidence-v4-checks.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-semantic-evidence-v3.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-native-collection-v1.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/native-evidence-v4-adoption.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-v4-review-rehearsal-a.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-v4-review-rehearsal-b.md",
+      "pass": true
+    },
+    {
+      "id": "input:evals/hard-screen-20261003/prospective-method-v2.md",
+      "pass": true
+    },
+    {
+      "id": "input:evals/hard-screen-20261003/prospective-method-v3.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f159-native-launches.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f159-grading-release.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f159-root-predispatch-checks.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159/blind/checks.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159/blind/grader-packet.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159/blind/manifest.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159/blind/preparation.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159/evidence/collection-manifest.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159/evidence/grade-a.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159/evidence/grade-b.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159/evidence/public-originals.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159/evidence/semantic-audit.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F159/pretrial-preparation.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/assessment-input-0159/packet.json",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/f159-native-pretrial.json",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/f159-preflight-review.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/worker/F159-proposal/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/problem-input-0159/input.txt",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/worker/F159-proposal/C.txt",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/worker/F159-proposal/H.txt",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/worker/F159-proposal/oracle.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/worker/F159-proposal/rubric.json",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/worker/F159-proposal/protocol.json",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/worker/F159-proposal/design-note.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/worker/F159-proposal/verify.py",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/worker/F159-proposal/checks.json",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/worker/F159-proposal/README.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/f159-source-review-a.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/f159-source-review-b.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/prospective-semantic-evidence-v4.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/prospective-semantic-evidence-v4-checks.json",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/prospective-semantic-evidence-v3.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/prospective-native-collection-v1.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/native-evidence-v4-adoption.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/prospective-v4-review-rehearsal-a.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/prospective-v4-review-rehearsal-b.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:evals/hard-screen-20261003/prospective-method-v2.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:evals/hard-screen-20261003/prospective-method-v3.md",
+      "pass": true
+    },
+    {
+      "id": "frozen:temp/hard-screen-20261003/f159-native-launches.json",
+      "pass": true
+    },
+    {
+      "id": "source:C.txt",
+      "pass": true
+    },
+    {
+      "id": "source:H.txt",
+      "pass": true
+    },
+    {
+      "id": "source:oracle.md",
+      "pass": true
+    },
+    {
+      "id": "source:rubric.json",
+      "pass": true
+    },
+    {
+      "id": "source:protocol.json",
+      "pass": true
+    },
+    {
+      "id": "source:design-note.md",
+      "pass": true
+    },
+    {
+      "id": "source:verify.py",
+      "pass": true
+    },
+    {
+      "id": "source:checks.json",
+      "pass": true
+    },
+    {
+      "id": "source:README.md",
+      "pass": true
+    },
+    {
+      "id": "method:evals/hard-screen-20261003/prospective-method-v2.md",
+      "pass": true
+    },
+    {
+      "id": "method:evals/hard-screen-20261003/prospective-method-v3.md",
+      "pass": true
+    },
+    {
+      "id": "packet-binding",
+      "pass": true
+    },
+    {
+      "id": "release-packet-binding",
+      "pass": true
+    },
+    {
+      "id": "release-audit-binding",
+      "pass": true
+    },
+    {
+      "id": "release-three-valid",
+      "pass": true
+    },
+    {
+      "id": "neutral-packet-identical",
+      "pass": true
+    },
+    {
+      "id": "exact-task",
+      "pass": true
+    },
+    {
+      "id": "neutral-task-identical",
+      "pass": true
+    },
+    {
+      "id": "response-ids",
+      "pass": true
+    },
+    {
+      "id": "packet-key-scope",
+      "pass": true
+    },
+    {
+      "id": "packet-condition-metadata-absent",
+      "pass": true
+    },
+    {
+      "id": "original-slot-ids",
+      "pass": true
+    },
+    {
+      "id": "r1:seven-public-records",
+      "pass": true
+    },
+    {
+      "id": "r1:one-original-final",
+      "pass": true
+    },
+    {
+      "id": "r1:four-transcript-records",
+      "pass": true
+    },
+    {
+      "id": "r1:call-exact",
+      "pass": true
+    },
+    {
+      "id": "r1:action-exact",
+      "pass": true
+    },
+    {
+      "id": "r1:observations-exact",
+      "pass": true
+    },
+    {
+      "id": "r1:final-exact",
+      "pass": true
+    },
+    {
+      "id": "r1:final-mirrors-exact",
+      "pass": true
+    },
+    {
+      "id": "r1:received-C-exact",
+      "pass": true
+    },
+    {
+      "id": "r1-public-1:input:hash",
+      "pass": true
+    },
+    {
+      "id": "r1-public-2:result:hash",
+      "pass": true
+    },
+    {
+      "id": "r1-public-2:receivedC:hash",
+      "pass": true
+    },
+    {
+      "id": "r1-public-3:observation:hash",
+      "pass": true
+    },
+    {
+      "id": "r1-public-4:observation:hash",
+      "pass": true
+    },
+    {
+      "id": "r1-public-5:answer:hash",
+      "pass": true
+    },
+    {
+      "id": "r1-public-6:answer:hash",
+      "pass": true
+    },
+    {
+      "id": "r1-public-7:answer:hash",
+      "pass": true
+    },
+    {
+      "id": "r2:seven-public-records",
+      "pass": true
+    },
+    {
+      "id": "r2:one-original-final",
+      "pass": true
+    },
+    {
+      "id": "r2:four-transcript-records",
+      "pass": true
+    },
+    {
+      "id": "r2:call-exact",
+      "pass": true
+    },
+    {
+      "id": "r2:action-exact",
+      "pass": true
+    },
+    {
+      "id": "r2:observations-exact",
+      "pass": true
+    },
+    {
+      "id": "r2:final-exact",
+      "pass": true
+    },
+    {
+      "id": "r2:final-mirrors-exact",
+      "pass": true
+    },
+    {
+      "id": "r2:received-C-exact",
+      "pass": true
+    },
+    {
+      "id": "r2-public-1:input:hash",
+      "pass": true
+    },
+    {
+      "id": "r2-public-2:result:hash",
+      "pass": true
+    },
+    {
+      "id": "r2-public-2:receivedC:hash",
+      "pass": true
+    },
+    {
+      "id": "r2-public-3:observation:hash",
+      "pass": true
+    },
+    {
+      "id": "r2-public-4:observation:hash",
+      "pass": true
+    },
+    {
+      "id": "r2-public-5:answer:hash",
+      "pass": true
+    },
+    {
+      "id": "r2-public-6:answer:hash",
+      "pass": true
+    },
+    {
+      "id": "r2-public-7:answer:hash",
+      "pass": true
+    },
+    {
+      "id": "r3:seven-public-records",
+      "pass": true
+    },
+    {
+      "id": "r3:one-original-final",
+      "pass": true
+    },
+    {
+      "id": "r3:four-transcript-records",
+      "pass": true
+    },
+    {
+      "id": "r3:call-exact",
+      "pass": true
+    },
+    {
+      "id": "r3:action-exact",
+      "pass": true
+    },
+    {
+      "id": "r3:observations-exact",
+      "pass": true
+    },
+    {
+      "id": "r3:final-exact",
+      "pass": true
+    },
+    {
+      "id": "r3:final-mirrors-exact",
+      "pass": true
+    },
+    {
+      "id": "r3:received-C-exact",
+      "pass": true
+    },
+    {
+      "id": "r3-public-1:input:hash",
+      "pass": true
+    },
+    {
+      "id": "r3-public-2:result:hash",
+      "pass": true
+    },
+    {
+      "id": "r3-public-2:receivedC:hash",
+      "pass": true
+    },
+    {
+      "id": "r3-public-3:observation:hash",
+      "pass": true
+    },
+    {
+      "id": "r3-public-4:observation:hash",
+      "pass": true
+    },
+    {
+      "id": "r3-public-5:answer:hash",
+      "pass": true
+    },
+    {
+      "id": "r3-public-6:answer:hash",
+      "pass": true
+    },
+    {
+      "id": "r3-public-7:answer:hash",
+      "pass": true
+    },
+    {
+      "id": "five-components",
+      "pass": true
+    },
+    {
+      "id": "grader-0:same-response-ids",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R1:required-fields",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R1:five-components-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R1:component-ranges",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R1:sum-and-maximum",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R1:quotes-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R1:no-objective-or-qualifying-error",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R1:actual-policy-loss-zero",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R2:required-fields",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R2:five-components-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R2:component-ranges",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R2:sum-and-maximum",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R2:quotes-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R2:no-objective-or-qualifying-error",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R2:actual-policy-loss-zero",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R3:required-fields",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R3:five-components-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R3:component-ranges",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R3:sum-and-maximum",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R3:quotes-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R3:no-objective-or-qualifying-error",
+      "pass": true
+    },
+    {
+      "id": "grader-0:R3:actual-policy-loss-zero",
+      "pass": true
+    },
+    {
+      "id": "grader-1:same-response-ids",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R1:required-fields",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R1:five-components-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R1:component-ranges",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R1:sum-and-maximum",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R1:quotes-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R1:no-objective-or-qualifying-error",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R1:actual-policy-loss-zero",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R2:required-fields",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R2:five-components-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R2:component-ranges",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R2:sum-and-maximum",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R2:quotes-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R2:no-objective-or-qualifying-error",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R2:actual-policy-loss-zero",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R3:required-fields",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R3:five-components-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R3:component-ranges",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R3:sum-and-maximum",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R3:quotes-exact",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R3:no-objective-or-qualifying-error",
+      "pass": true
+    },
+    {
+      "id": "grader-1:R3:actual-policy-loss-zero",
+      "pass": true
+    },
+    {
+      "id": "same-id-intersection-empty",
+      "pass": true
+    },
+    {
+      "id": "excluded-not-hard",
+      "pass": true
+    },
+    {
+      "id": "retained-zero-of-six",
+      "pass": true
+    },
+    {
+      "id": "zero-additional-runs",
+      "pass": true
+    },
+    {
+      "id": "pending-root-acceptance",
+      "pass": true
+    },
+    {
+      "id": "no-effect-claim",
+      "pass": true
+    }
+  ],
+  "same_id_intersection": [],
+  "limits": [
+    "Does not rerun participants or grading.",
+    "Does not independently inspect participant session bodies; uses frozen independent audit.",
+    "Does not establish additional grader public-action provenance.",
+    "Root full check, fresh review and final acceptance remain pending."
+  ]
+}

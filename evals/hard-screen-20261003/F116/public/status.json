@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "candidate": "F116",
+  "state": "VERIFIED_EXCLUDED_NOT_HARD",
+  "proposed_outcome": "EXCLUDED_NOT_HARD",
+  "ROOT_FINAL_accepted": true,
+  "retained_family_added": false,
+  "retained": 0,
+  "target": 6,
+  "overall_task_complete": false,
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "completed_original_turns": 3,
+  "preserved_original_finals": 3,
+  "completed_neutral_turns": 2,
+  "setup_retries": 0,
+  "participant_replays": 0,
+  "grade_replacements": 0,
+  "regrades": 0,
+  "joint_qualifying_response_ids": [],
+  "H_K_participant_unused": true,
+  "scored_treatment": 0,
+  "requested_model": "gpt-6-sol",
+  "actual_backend": "UNVERIFIED_NONBLOCKING_UNDER_ACCEPTED_ROUTE",
+  "reasoning_effort_considered": false,
+  "efficacy": "NOT_EVALUATED",
+  "raw_aggregate_counts": {
+    "candidate_identifiers": 95,
+    "preserved_problem_final_FILES": 274,
+    "known_completed_problem_turns": 342,
+    "older_protected_contribution": "UNKNOWN",
+    "neutral_turns_excluded": true,
+    "valid_trial_count": false,
+    "basis": "ROOT-supplied current raw totals; no protected-history re-audit"
+  },
+  "shared_catalog_changed": true,
+  "public_files_scope": "Verified local screening record; no Git or remote publication",
+  "root_final_verification": {
+    "path": "temp/hard-screen-20261003/f116-final-root-readonly-gate.json",
+    "sha256": "69d5e56c849199517b16a514d8c826d37525be2fa0c55b2f57203ff4bbd6a84a"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "grader_a": [
+    {
+      "response_id": "R01",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_mechanism_failure": false
+    },
+    {
+      "response_id": "R02",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_mechanism_failure": false
+    },
+    {
+      "response_id": "R03",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_mechanism_failure": false
+    }
+  ],
+  "grader_b": [
+    {
+      "response_id": "R01",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_mechanism_failure": false
+    },
+    {
+      "response_id": "R02",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_mechanism_failure": false
+    },
+    {
+      "response_id": "R03",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_mechanism_failure": false
+    }
+  ],
+  "selection": "EXCLUDE_TOO_EASY",
+  "full_passes_each": 3,
+  "mean_each": 10
+}

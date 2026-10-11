@@ -1,0 +1,557 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "findings": [
+          {
+            "actual_quote": "Authorize the status-release list `{C}` and reserve supplier route D for A.",
+            "supplied_rule": "The operator may preload any destination list and reserve D for A before cutoff. A already observes the condition. The separate reservation fee is 1/2 credit.",
+            "correct_support": "With C informed, C strictly selects X in NORMAL because its maximum possible X charge is 6, below Y at 13/2. Uninformed B strictly selects Y because its conditional expected X charge is at least 7. Consequently A strictly selects D at 2 in NORMAL. In RESTRICTED, A and C strictly select Y; B selects Y independently of condition. NORMAL service charges are 2, 11/2, 2, totaling 19/2. RESTRICTED service charges total 31/2. Expected invoice is 13 and A's expected service charge is 11/4 in every equilibrium.",
+            "legal_counterexample": null,
+            "repair": null,
+            "material_changed_authorization": false,
+            "root_classification": "correct authorization and acceptance calculation"
+          },
+          {
+            "actual_quote": "A’s ability to ignore its own report does not hold B’s and C’s decisions at their pilot choices.",
+            "supplied_rule": "Partners independently minimize their own charges using their actual inputs; the pilot concerns an empty destination list without D.",
+            "correct_support": "For full release without D, informed C strictly selects X in NORMAL. Given C on X, A strictly selects Y because even its least costly X deviation costs 4, above 7/2. B then strictly selects X at 4. All select Y in RESTRICTED. Thus A pays 7/2 in both conditions and violates its cap. The answer correctly rejects the vendor proposal without treating the vendor statement as calibration evidence.",
+            "legal_counterexample": null,
+            "repair": null,
+            "material_changed_authorization": false,
+            "root_classification": "correct evidence distinction and independent partner incentives"
+          },
+          {
+            "actual_quote": "Across the available lists, configurations without D either reproduce the pilot invoice of 59/4 (no B or C listed) or breach A’s limit.",
+            "supplied_rule": "Acceptance and minimization cover every lawful list, reservation choice, equilibrium, and condition-independent randomized nightly configuration.",
+            "correct_support": "The stated classification is correct. Without D, every effective list informing B or C gives A expected charge 7/2. Without additional informed partners, A's expected charge is 11/4 and invoice is 59/4. With D, the four effective lists have invoices 61/4, 27/2, 13, and 53/4 respectively. All have A charge 11/4. Therefore informing C alone minimizes the eligible invoice. Adding A has no effect because A already has its sensor.",
+            "legal_counterexample": null,
+            "repair": null,
+            "material_changed_authorization": false,
+            "root_classification": "correct global comparison"
+          }
+        ],
+        "full_pass": "Pass. The authorization is optimal, feasible before cutoff, safe in every equilibrium, and correctly rejects V-310. Its comparison is concise but consistent with every legal effective mode.",
+        "limits": "The answer does not print every mode's charges or repeat all tick timings. Neither omission changes its complete, lawful authorization. Pure-mode charges were checked computationally; mixed-strategy coverage was checked analytically."
+      },
+      {
+        "response_id": "R02",
+        "scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "findings": [
+          {
+            "actual_quote": "Authorize the status-release list `{C}` and reserve supplier route D for A.",
+            "supplied_rule": "C receives the exact condition if listed, B receives no current condition if unlisted, and A's installed sensor operates regardless of the list. D is reservable before cutoff and costs a separate 1/2 credit.",
+            "correct_support": "The authorized equilibrium is A:D, B:Y, C:X in NORMAL and all Y in RESTRICTED. These choices follow strict best responses, not operator route commands. The resulting expected invoice is 13 and A service charge is 11/4. The statement that adding A changes nothing is correct.",
+            "legal_counterexample": null,
+            "repair": null,
+            "material_changed_authorization": false,
+            "root_classification": "correct authorization, input scope, ownership, and charges"
+          },
+          {
+            "actual_quote": "A’s expected service charge is therefore **7/2**, above the 11/4 limit; the expected invoice is 27/2.",
+            "supplied_rule": "Under full release without D, each partner minimizes its own state-conditional service charge and an X job counts itself in occupancy.",
+            "correct_support": "In NORMAL, C strictly selects X, A strictly selects Y once C is on X, and B strictly selects X at 4. NORMAL service total is 23/2; RESTRICTED total is 31/2. Their average is 27/2. A pays Y's 7/2 in each condition. Both the proposed-release invoice and cap failure are correct.",
+            "legal_counterexample": null,
+            "repair": null,
+            "material_changed_authorization": false,
+            "root_classification": "correct rejection of V-310"
+          },
+          {
+            "actual_quote": "Checking the four effective release choices (neither B nor C, B only, C only, both) with and without D gives **13** as the lowest eligible worst-equilibrium invoice.",
+            "supplied_rule": "A's sensor makes its inclusion redundant. All effective list/reservation modes, pure and mixed equilibria, and permissible nightly mixtures must be considered.",
+            "correct_support": "The stated four-mode reduction and minimum are correct. D modes have invoices 61/4, 27/2, 13, and 53/4, all with A service 11/4. No-D modes have invoices 59/4, 55/4, 53/4, and 27/2; only the first satisfies A's cap. The sole non-strict route choice is A's X/D tie when neither B nor C is informed and D is reserved; any mixture has identical charges. Unsafe nightly mixtures cannot satisfy the cap because no mode gives A expected service below 11/4.",
+            "legal_counterexample": null,
+            "repair": null,
+            "material_changed_authorization": false,
+            "root_classification": "correct global and all-equilibrium comparison"
+          }
+        ],
+        "full_pass": "Pass. The answer supplies the optimal authorization, correct charges, the redundant A-list option, correct vendor rejection, and the effective-mode comparison.",
+        "limits": "Alternative-mode calculations are summarized rather than printed. Pure-mode enumeration was executed; mixed and nightly-mixture conclusions were established analytically."
+      },
+      {
+        "response_id": "R03",
+        "scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "support": 2
+        },
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "findings": [
+          {
+            "actual_quote": "Listing A as well has the same effect because A already has an exact-condition sensor.",
+            "supplied_rule": "A's installed sensor supplies the exact current condition regardless of the gateway list. Listed inputs are private; no shared current-condition row exists.",
+            "correct_support": "Both {C} and {A,C} with D are equivalent optimal authorizations. B remains uninformed and strictly uses Y. C strictly uses X in NORMAL, making A strictly prefer D. Their stated NORMAL and RESTRICTED charges yield invoice 13 and A service 11/4.",
+            "legal_counterexample": null,
+            "repair": null,
+            "material_changed_authorization": false,
+            "root_classification": "correct equivalent optimal policy and input scope"
+          },
+          {
+            "actual_quote": "These choices hold for mixed strategies too.",
+            "supplied_rule": "Every permitted pure or mixed local strategy must be included, and the joint seed collection is independent of the current condition.",
+            "correct_support": "For an uninformed router, conditioning on its available seed does not alter the 1/2 state probabilities. An X submission therefore costs at least 7 in expectation, so uninformed B strictly selects Y. In NORMAL, informed C's X charge never exceeds 6, strictly below its Y charge. A then strictly chooses D. In RESTRICTED, informed routers strictly choose Y. These strict inequalities exclude any mixed equilibrium with different charges under the authorized configuration.",
+            "legal_counterexample": null,
+            "repair": null,
+            "material_changed_authorization": false,
+            "root_classification": "correct all-equilibrium support"
+          },
+          {
+            "actual_quote": "A’s ability to ignore its report does not preserve its pilot charge when B and C respond to theirs.",
+            "supplied_rule": "The pilot fixes an empty list without D. Partner owners control their decision programs, and partners independently choose best responses to current inputs.",
+            "correct_support": "Full release without D produces A:Y, B:X, C:X in NORMAL and all Y in RESTRICTED. A service is 7/2, violating 11/4, and total invoice is 27/2. The answer correctly rejects the proposed release and selects the independently verified minimum eligible invoice of 13.",
+            "legal_counterexample": null,
+            "repair": null,
+            "material_changed_authorization": false,
+            "root_classification": "correct pilot distinction, vendor rejection, and deployment choice"
+          }
+        ],
+        "full_pass": "Pass. The answer authorizes an optimal lawful configuration, correctly accounts for the reservation fee, supports equilibrium robustness, and rejects the vendor proposal for the correct reason.",
+        "limits": "Its global comparison is stated compactly without a full alternative-mode table. The claim is correct under independent mode enumeration and analytical mixed-strategy checks."
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 1,
+          "support": 1
+        },
+        "total": 8,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "findings": [
+          {
+            "actual_quote": "Authorize the status-release list `{C}` and reserve supplier route D for A.",
+            "supplied_rule": "Minimize total invoice, including the separate reservation fee, subject to A service <= 11/4 in every equilibrium.",
+            "full_legal_counterexample": null,
+            "correct_support": "This is an optimal lawful authorization. Independent best responses produce the stated NORMAL and RESTRICTED charges, invoice 13, and A service 11/4. The complete legal authorization and mode comparison above verify the result.",
+            "repair": "No decision repair required.",
+            "material_changed_authorization": false,
+            "root_classification": "correct_support"
+          },
+          {
+            "actual_quote": "A’s ability to ignore its own report does not hold B’s and C’s decisions at their pilot choices.",
+            "supplied_rule": "Each partner router independently minimizes its own service charge using its actual inputs; X charges depend on own-inclusive occupancy.",
+            "full_legal_counterexample": null,
+            "correct_support": "With full release and no D, NORMAL uniquely has A:Y, B:X, C:X, and RESTRICTED has all Y. A therefore pays 7/2, violating its cap. The response correctly rejects V-310 rather than treating the vendor claim as calibration evidence.",
+            "repair": "None.",
+            "material_changed_authorization": false,
+            "root_classification": "correct_support"
+          },
+          {
+            "actual_quote": "With D, listing C alone yields the lowest expected invoice: 13.",
+            "supplied_rule": "Support the minimum through best-response inequalities and comparison of lawful configurations, or a complete executable algorithm.",
+            "full_legal_counterexample": null,
+            "correct_support": "The claim is correct, but the response supplies only partial comparison support: it does not establish the competing D configurations or explicitly handle A's X/D indifference when neither B nor C is informed.",
+            "repair": "Add a short comparison argument: with D, neither informed costs 61/4, B only costs 27/2, C only costs 13, and both costs 53/4. A's X/D mixtures in the first configuration leave charges unchanged.",
+            "material_changed_authorization": false,
+            "root_classification": "incomplete_support_only"
+          },
+          {
+            "actual_quote": "Authorize the status-release list `{C}` and reserve supplier route D for A.",
+            "supplied_rule": "The destination list must be preloaded and signed, and D reserved, before cutoff; reports arrive at tick1 and choices are simultaneous at tick2.",
+            "full_legal_counterexample": null,
+            "correct_support": "The proposed commands are available and the fee accounting is correct. The response does not explicitly state the cutoff and execution order as acceptance conditions.",
+            "repair": "State that the list and reservation must both be completed before cutoff, with routers independently choosing after tick1 inputs.",
+            "material_changed_authorization": false,
+            "root_classification": "omitted_acceptance_condition_only"
+          }
+        ],
+        "full_pass": "Correct authorization, charges, cap assessment, mechanism, and vendor rejection. Not a full component-rubric pass because timing conditions and the global minimum justification are incomplete. No qualifying semantic failure.",
+        "limits": [
+          "Omissions are not treated as wrong capability, ownership, or timing premises.",
+          "No complete lawful counterauthorization materially changes the selected deployment.",
+          "No hidden cause or model identity was inferred."
+        ]
+      },
+      {
+        "response_id": "R02",
+        "scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 1,
+          "support": 1
+        },
+        "total": 8,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "findings": [
+          {
+            "actual_quote": "Authorize the status-release list `{C}` and reserve supplier route D for A.",
+            "supplied_rule": "Minimize the total invoice subject to A's all-equilibrium service cap, using the actual private input scopes and D catalog.",
+            "full_legal_counterexample": null,
+            "correct_support": "The authorization is optimal. A's installed sensor makes {A,C} equivalent. The stated independent routes, service totals, separate fee, invoice 13, and A charge 11/4 are correct in every equilibrium.",
+            "repair": "No decision repair required.",
+            "material_changed_authorization": false,
+            "root_classification": "correct_support"
+          },
+          {
+            "actual_quote": "A can ignore its report, but B’s and C’s responses change the cost of A’s former X route.",
+            "supplied_rule": "Partners choose their own routes, and a router's X charge includes the other current X jobs.",
+            "full_legal_counterexample": null,
+            "correct_support": "The response correctly derives full-release/no-D NORMAL charges A:7/2, B:4, C:4 and RESTRICTED all-Y charges. A service 7/2 and invoice 27/2 are correct.",
+            "repair": "None.",
+            "material_changed_authorization": false,
+            "root_classification": "correct_support"
+          },
+          {
+            "actual_quote": "Checking the four effective release choices (neither B nor C, B only, C only, both) with and without D gives 13 as the lowest eligible worst-equilibrium invoice.",
+            "supplied_rule": "Global minimum support requires a checkable lawful-mode comparison or a complete executable selection algorithm.",
+            "full_legal_counterexample": null,
+            "correct_support": "The result and effective-choice reduction are correct. The response asserts the remaining comparisons without supplying their charges or an argument establishing their ordering.",
+            "repair": "Add a brief comparison or lower-bound argument, including the harmless no-new-information X/D mixture and why unsafe nightly mixtures cannot satisfy the cap.",
+            "material_changed_authorization": false,
+            "root_classification": "incomplete_support_only"
+          },
+          {
+            "actual_quote": "Authorize the status-release list `{C}` and reserve supplier route D for A.",
+            "supplied_rule": "Both list signing and reservation occur before cutoff; live condition-dependent orders are unavailable.",
+            "full_legal_counterexample": null,
+            "correct_support": "The response requests lawful operations and correctly separates the fee. It omits explicit cutoff and execution-order acceptance conditions.",
+            "repair": "Specify pre-cutoff signing and reservation, followed by tick1 private inputs and tick2 independent simultaneous choices.",
+            "material_changed_authorization": false,
+            "root_classification": "omitted_acceptance_condition_only"
+          }
+        ],
+        "full_pass": "Correct authorization and local all-equilibrium analysis, with correct vendor rejection and arithmetic. Timing conditions and the asserted global comparison need fuller support for a full component-rubric pass. No qualifying semantic failure.",
+        "limits": [
+          "A stated comparison without its derivation is scored as incomplete support, not an observable false premise.",
+          "No decision-changing legal repair was found.",
+          "Mixed-equilibrium coverage was checked analytically; the executed tool check verified arithmetic only."
+        ]
+      },
+      {
+        "response_id": "R03",
+        "scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 1,
+          "support": 1
+        },
+        "total": 8,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "findings": [
+          {
+            "actual_quote": "The expected invoice is 13 credits per cycle, and A’s expected service charge is 11/4 credits, exactly the acceptance limit.",
+            "supplied_rule": "D costs 2 in NORMAL and 12 in RESTRICTED; its reservation fee is separate from A's service charge. Routers retain their other route options.",
+            "full_legal_counterexample": null,
+            "correct_support": "Under {C}+D, A independently selects D in NORMAL and Y in RESTRICTED; B selects Y and C selects X only in NORMAL. The response's charges and fee calculation are correct and hold in every equilibrium.",
+            "repair": "No decision repair required.",
+            "material_changed_authorization": false,
+            "root_classification": "correct_support"
+          },
+          {
+            "actual_quote": "A’s ability to ignore its report does not preserve its pilot charge when B and C respond to theirs.",
+            "supplied_rule": "The pilot applies to empty-list/no-D operation; partners reselect routes using the new information and occupancy prices.",
+            "full_legal_counterexample": null,
+            "correct_support": "The response correctly rejects V-310. Its full-release/no-D routes, A service 7/2, and invoice 27/2 follow from the supplied laws.",
+            "repair": "None.",
+            "material_changed_authorization": false,
+            "root_classification": "correct_support"
+          },
+          {
+            "actual_quote": "Comparing all available lists and reservation choices, none has a lower expected invoice.",
+            "supplied_rule": "Global comparison must be supported by best-response inequalities and lawful configuration analysis, or a complete executable algorithm.",
+            "full_legal_counterexample": null,
+            "correct_support": "This universal bound is true, including the ineligible modes: their smallest invoice is 53/4, still above 13. The response establishes the selected configuration but leaves the other configurations' comparison unshown.",
+            "repair": "Add a brief global comparison argument and the no-new-information X/D indifference case. No change to the selected list or contract is needed.",
+            "material_changed_authorization": false,
+            "root_classification": "incomplete_support_only"
+          },
+          {
+            "actual_quote": "Authorize the status-release list `{C}` and reserve supplier route D for A.",
+            "supplied_rule": "The gateway list is locked and D reserved before condition sampling; tick3 audit information arrives after submissions.",
+            "full_legal_counterexample": null,
+            "correct_support": "The requested operations are lawful and do not imply an operator override or late purchase. The response does not explicitly state the required timing as an acceptance condition.",
+            "repair": "Specify pre-cutoff signing and reservation and the tick1/tick2 execution order.",
+            "material_changed_authorization": false,
+            "root_classification": "omitted_acceptance_condition_only"
+          }
+        ],
+        "full_pass": "Correct optimal authorization, all-equilibrium outcome, service accounting, and vendor rejection. Full rubric credit is limited by omitted timing conditions and incomplete global-comparison support. Its universal minimum claim is true, not a frozen-anchor failure.",
+        "limits": [
+          "The absence of a displayed exhaustive table is not itself penalized; the gap is the unsupported remaining comparison.",
+          "No false universal necessity, bound, or exclusion was established.",
+          "No wrong premise was inferred from omissions."
+        ]
+      }
+    ]
+  },
+  "independent_verification": {
+    "A": {
+      "source_scope": "Only the designated packet and permitted mandatory skill instructions were read. No neighboring evidence, other grades, external sources, hidden identities, or delegated analyses were used.",
+      "effective_mode_results": [
+        {
+          "informed_partners_beyond_A": [],
+          "reserve_D": false,
+          "A_expected_service": "11/4",
+          "expected_total_invoice": "59/4",
+          "eligible": true
+        },
+        {
+          "informed_partners_beyond_A": [
+            "B"
+          ],
+          "reserve_D": false,
+          "A_expected_service": "7/2",
+          "expected_total_invoice": "55/4",
+          "eligible": false
+        },
+        {
+          "informed_partners_beyond_A": [
+            "C"
+          ],
+          "reserve_D": false,
+          "A_expected_service": "7/2",
+          "expected_total_invoice": "53/4",
+          "eligible": false
+        },
+        {
+          "informed_partners_beyond_A": [
+            "B",
+            "C"
+          ],
+          "reserve_D": false,
+          "A_expected_service": "7/2",
+          "expected_total_invoice": "27/2",
+          "eligible": false
+        },
+        {
+          "informed_partners_beyond_A": [],
+          "reserve_D": true,
+          "A_expected_service": "11/4",
+          "expected_total_invoice": "61/4",
+          "eligible": true
+        },
+        {
+          "informed_partners_beyond_A": [
+            "B"
+          ],
+          "reserve_D": true,
+          "A_expected_service": "11/4",
+          "expected_total_invoice": "27/2",
+          "eligible": true
+        },
+        {
+          "informed_partners_beyond_A": [
+            "C"
+          ],
+          "reserve_D": true,
+          "A_expected_service": "11/4",
+          "expected_total_invoice": "13",
+          "eligible": true
+        },
+        {
+          "informed_partners_beyond_A": [
+            "B",
+            "C"
+          ],
+          "reserve_D": true,
+          "A_expected_service": "11/4",
+          "expected_total_invoice": "53/4",
+          "eligible": true
+        }
+      ],
+      "actual_executed_check": "A read-only in-memory Node.js enumeration checked NORMAL pure best responses in all eight effective modes and calculated expected charges using RESTRICTED all-Y charges. An initial shell-quoting attempt failed; the corrected numeric-action enumeration executed successfully. No files were written.",
+      "analytic_check": "Uninformed routers strictly choose Y because X has conditional expected charge at least 7. RESTRICTED informed routers strictly choose Y. NORMAL informed C strictly chooses X. With B informed and C uninformed, B strictly chooses X because C selects Y and B's X charge is at most 4. Where C is informed without D, A strictly chooses Y, after which informed B strictly chooses X. With D and any informed partner, A strictly chooses D; with neither partner informed, A may mix X and D at identical cost 2. Thus all pure or mixed equilibria have the tabulated charges.",
+      "nightly_randomization_check": "Every effective mode gives A expected service at least 11/4. Any positive weight on an unsafe mode increases A's expected service above the cap; safe-mode mixtures cannot lower invoice below 13. Mixtures supported on {C} and {A,C}, each with D, preserve the optimum."
+    },
+    "B": {
+      "source_scope": "Only the supplied grading packet and relevant mandatory skills.",
+      "executed_checks": [
+        "Read the packet and verified its SHA256.",
+        "Executed in-memory arithmetic for all eight effective list/reservation configurations."
+      ],
+      "analytic_checks": [
+        "An uninformed B or C has expected X charge at least 7, independently of its random seed, and strictly prefers Y.",
+        "In RESTRICTED, every available X or D charge exceeds the corresponding Y charge, so all routers choose Y.",
+        "In NORMAL, informed C strictly prefers X even at occupancy three: 6 < 13/2.",
+        "Without D, informing B alone makes B strictly choose X because C chooses Y and B's X charge is at most 4 < 11/2; A then chooses Y. Informing C similarly makes A choose Y. With both informed, C chooses X, A chooses Y, and B chooses X.",
+        "With D and any informed B or C, A strictly chooses D in NORMAL. With neither informed, A may mix between X and D, both costing 2; all such equilibria have identical invoices.",
+        "These strict best-response arguments apply to mixed strategies and permitted correlated seeds; they do not require favorable equilibrium selection.",
+        "A's minimum possible expected service charge is 11/4. Therefore a positive probability of an unsafe no-D configuration cannot be offset by another configuration to meet the cap."
+      ],
+      "effective_mode_comparison": [
+        {
+          "informed_partners": "neither B nor C",
+          "D_reserved": false,
+          "A_service": "11/4",
+          "total_invoice": "59/4",
+          "eligible": true
+        },
+        {
+          "informed_partners": "B only",
+          "D_reserved": false,
+          "A_service": "7/2",
+          "total_invoice": "55/4",
+          "eligible": false
+        },
+        {
+          "informed_partners": "C only",
+          "D_reserved": false,
+          "A_service": "7/2",
+          "total_invoice": "53/4",
+          "eligible": false
+        },
+        {
+          "informed_partners": "B and C",
+          "D_reserved": false,
+          "A_service": "7/2",
+          "total_invoice": "27/2",
+          "eligible": false
+        },
+        {
+          "informed_partners": "neither B nor C",
+          "D_reserved": true,
+          "A_service": "11/4",
+          "total_invoice": "61/4",
+          "eligible": true
+        },
+        {
+          "informed_partners": "B only",
+          "D_reserved": true,
+          "A_service": "11/4",
+          "total_invoice": "27/2",
+          "eligible": true
+        },
+        {
+          "informed_partners": "C only",
+          "D_reserved": true,
+          "A_service": "11/4",
+          "total_invoice": "13",
+          "eligible": true
+        },
+        {
+          "informed_partners": "B and C",
+          "D_reserved": true,
+          "A_service": "11/4",
+          "total_invoice": "53/4",
+          "eligible": true
+        }
+      ],
+      "complete_legal_authorization": "Before cutoff, preload and sign {C} or {A,C}, and reserve D for A at 1/2 per cycle. At tick1 A knows the condition through its installed sensor and C receives its private report; B remains uninformed. Independent best responses at tick2 are A:D, B:Y, C:X in NORMAL and all Y in RESTRICTED. Service totals are 19/2 and 31/2; the invoice including the reservation fee is 13, and A's service charge is 11/4 in every equilibrium. Offline computation and loading have no charge. No override, messaging port, late purchase, or condition-dependent destination rewrite is needed."
+    }
+  },
+  "original_report_metadata": {
+    "A": {
+      "grader": "A",
+      "packet_sha256": "5aab37e348fd778f33d3caf0ee62e524f8fd163cf6fe3a1de01488efb733b959",
+      "overall_qualification": {
+        "original_response_ids": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "valid_graded_response_ids": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "objective_decision_error_response_ids": [],
+        "qualifying_inquiry_failure_response_ids": [],
+        "qualifying_count": 0,
+        "at_least_two_original_responses_qualify_for_grader_A": false,
+        "all_three_original_responses_qualify_for_grader_A": false,
+        "conclusion": "None of the three original responses has an objective decision error or a qualifying inquiry failure. This is solely grader A's assessment of the packet's original response IDs."
+      }
+    },
+    "B": {
+      "grader": "B",
+      "packet_sha256": "5aab37e348fd778f33d3caf0ee62e524f8fd163cf6fe3a1de01488efb733b959",
+      "overall_qualification": {
+        "original_response_ids": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "qualifying_original_response_ids": [],
+        "objective_decision_error_original_response_ids": [],
+        "at_least_two_original_responses_qualify_for_grader_B": false,
+        "all_three_original_responses_qualify_for_grader_B": false,
+        "reason": "All three responses select the correct optimal lawful deployment and reject the unsafe vendor proposal using the correct mechanism. Remaining justification and acceptance-condition omissions do not establish an observable wrong premise or a material changed authorization.",
+        "scope_limit": "This is grader B's independent result for the packet's three original responses only; it makes no claim about another grader, empirical screening, or artifact acceptance."
+      }
+    }
+  },
+  "grader_scope": "Two fresh blank-context independent condition-hidden graders; ONLY current packet and mandatory skills, no writer findings/oracle/host metadata. Full original response rows, verification prose and qualification conclusions preserved; conversation-received JSON, not raw native authentication.",
+  "grader_ids": [
+    "f36_grader_a",
+    "f36_grader_b"
+  ],
+  "packet_sha256": "5aab37e348fd778f33d3caf0ee62e524f8fd163cf6fe3a1de01488efb733b959",
+  "classification": "EXCLUDED",
+  "objective_decision_errors": {
+    "A": 0,
+    "B": 0
+  },
+  "objective_error_response_ids": {
+    "A": [],
+    "B": []
+  },
+  "jointly_qualifying_response_ids": [],
+  "jointly_qualifying_count": 0,
+  "required_same_qualifying_response_count": 2,
+  "retained_hard_families_total": 0,
+  "required_hard_families": 6,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "artifact_review_status": "PENDING_STABLE_POOL_FINAL_ROUNDS",
+  "descriptive_disagreement": "A10/10/10 accepts concise comparison and timing implicit in lawful authorization; B8/8/8 gives feasibility/support1 each for omitted explicit cutoff and remaining mode comparison. Both objective0/qualifying0. B full_pass prose refers to full component-rubric credit, not frozen score>=8/zero-critical descriptive flag; original prose preserved and not used for admission. No averaging/regrade/outcome retry.",
+  "secondary_score_ge8_zero_critical": {
+    "A": [
+      "R01",
+      "R02",
+      "R03"
+    ],
+    "B": [
+      "R01",
+      "R02",
+      "R03"
+    ]
+  },
+  "all_three_failure_extra_review": "NOT_TRIGGERED; jointly qualifying0"
+}

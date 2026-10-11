@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "candidate": "F136_SOURCE_V1_LOCAL_RESULT_V1",
+  "operation": "Mechanical extraction of unchanged FIRST results; no regrade",
+  "packet_sha256": "06520157f69b88ad6e5dad54b9b47f5b94423c27218c57c03b2e491e98ca799d",
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "mapping": [
+    {
+      "anonymous_id": "R-A",
+      "repetition": 1
+    },
+    {
+      "anonymous_id": "R-B",
+      "repetition": 3
+    },
+    {
+      "anonymous_id": "R-C",
+      "repetition": 2
+    }
+  ],
+  "graders": [
+    {
+      "whole_FIRST": "grader-one-FIRST.full.json",
+      "results": [
+        {
+          "id": "R-A",
+          "rubric_dimension_scores": {
+            "reading the controlled work records": 2,
+            "interpreting duration/renewal": 2,
+            "applying dispatch and update": 2,
+            "executable resource-feasible policy": 2,
+            "supported release decision": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The answer correctly computes savings of 8, 5 and 2 hours; specifies six Alder jobs; derives the loaded Alder/Birch alternation and its 99-hour total; and correctly replaces it with the attainable 90-hour optimum.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Send the crew to **Alder before every one of the six shifts**, while all three machines run their ordinary workloads.",
+            "With one crew window per shift and no lasting effects or interactions, servicing Alder achieves the largest possible saving on every shift.",
+            "The loaded routine would alternate **Alder, Birch, Alder, Birch, Alder, Birch**.",
+            "the routine treats downtime reduced by preventive work as evidence of lower need on the next shift, even though the flush has already removed that benefit."
+          ],
+          "material_decision_consequence": "The recommendation correctly replaces the routine and avoids 9 lost hours. Its discussion of the routine's faulty score interpretation diagnoses that routine rather than adopting its premise.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The packet explicitly specifies reproducible responses, a complete end-of-shift flush and one crew window per shift. Six consecutive Alder jobs satisfy all constraints and establish the optimum without outside evidence."
+          },
+          "assessment": "Full pass. No observable qualifying v2 failure or false v3 exclusion is present."
+        },
+        {
+          "id": "R-B",
+          "rubric_dimension_scores": {
+            "reading the controlled work records": 2,
+            "interpreting duration/renewal": 2,
+            "applying dispatch and update": 2,
+            "executable resource-feasible policy": 2,
+            "supported release decision": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The answer correctly identifies the per-job savings and independent shift choices, specifies Alder before each shift, and computes both the loaded routine's 99 hours and the optimal replacement's 90 hours. Both score-update vectors are correct.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Send the crew to **Alder before each of the six shifts**.",
+            "A top-up prevents 8 lost hours on Alder, 5 on Birch and 2 on Cedar. Its effect disappears after each shift, so each crew window is an independent choice.",
+            "The loaded routine instead dispatches **Alder, Birch, Alder, Birch, Alder, Birch**.",
+            "the routine treats the low downtime **caused by the completed top-up** as a reason to move the crew elsewhere, even though that benefit has already been flushed away."
+          ],
+          "material_decision_consequence": "The executable replacement saves 9 machine-hours. The answer rejects the completed-work score confounding rather than using it to withdraw a needed Alder job.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The supplied physical effects and crew constraints uniquely support selecting Alder on each independent shift. The proposed replacement is feasible and achieves the per-shift maximum saving."
+          },
+          "assessment": "Full pass. No observable qualifying v2 failure or false v3 exclusion is present."
+        },
+        {
+          "id": "R-C",
+          "rubric_dimension_scores": {
+            "reading the controlled work records": 2,
+            "interpreting duration/renewal": 2,
+            "applying dispatch and update": 2,
+            "executable resource-feasible policy": 2,
+            "supported release decision": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The answer supplies a complete feasible six-shift policy, correctly computes all three savings and both policy totals, and correctly explains the loaded routine's alternating dispatch and the expired top-up effect.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "**Replace the loaded routine. Assign the crew to Alder before each of the six shifts.** Birch and Cedar receive no preventive work; all three machines run every shift.",
+            "Because each top-up is completely flushed after its shift, decisions have no effect on later shifts.",
+            "With one crew, the greatest achievable saving on every shift is therefore Alder’s 8 hours.",
+            "Refreshing those scores causes it to divert three crew windows from Alder to Birch, adding **9 avoidable machine-hours**."
+          ],
+          "material_decision_consequence": "The recommendation correctly replaces the 99-hour routine with a 90-hour assignment. The claimed per-shift maximum is supported by the records and constraints; it is not a false universal bound.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The task supplies exact responses and explicitly permits repeated jobs. The proposed six Alder jobs use one crew window each and preserve all production workloads."
+          },
+          "assessment": "Full pass. No observable qualifying v2 failure or false v3 exclusion is present."
+        }
+      ]
+    },
+    {
+      "whole_FIRST": "grader-two-FIRST.full.json",
+      "results": [
+        {
+          "id": "R-A",
+          "rubric_dimension_scores": {
+            "reading the controlled work records": 2,
+            "interpreting duration/renewal": 2,
+            "applying dispatch and update": 2,
+            "executable resource-feasible policy": 2,
+            "supported release decision": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The answer correctly derives one-shift savings of 8, 5 and 2 hours; assigns the single crew to Alder before all six shifts; and calculates the optimal total as 90 hours. It correctly traces the loaded routine's alternating Alder/Birch jobs and its 99-hour total.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Send the crew to **Alder before every one of the six shifts**, while all three machines run their ordinary workloads.",
+            "With one crew window per shift and no lasting effects or interactions, servicing Alder achieves the largest possible saving on every shift.",
+            "The loaded routine would alternate **Alder, Birch, Alder, Birch, Alder, Birch**.",
+            "the routine treats downtime reduced by preventive work as evidence of lower need on the next shift, even though the flush has already removed that benefit."
+          ],
+          "material_decision_consequence": "The replacement achieves 15 lost hours each shift, totaling 90, and avoids the loaded routine's three Birch dispatches, each costing 3 additional hours. Its explanation identifies the routine's faulty use of serviced outcomes without adopting that premise itself.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "source_oracle_inspected": false,
+            "rationale": "The packet specifies exact reproducible responses, complete one-shift expiration and permission to repeat jobs. Six Alder jobs satisfy all resource constraints and establish the optimum directly; no external oracle is needed."
+          },
+          "assessment": "Fully correct executable replacement, optimality argument and consequential explanation. Neither anchored v2 failure nor v3 false exclusion is present."
+        },
+        {
+          "id": "R-B",
+          "rubric_dimension_scores": {
+            "reading the controlled work records": 2,
+            "interpreting duration/renewal": 2,
+            "applying dispatch and update": 2,
+            "executable resource-feasible policy": 2,
+            "supported release decision": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The answer correctly identifies savings of 8, 5 and 2 hours and treats each pre-shift crew window as independent because the benefit expires. Six Alder jobs yield 90 machine-hours. The stated loaded sequence, score updates and 99-machine-hour total are correct.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Send the crew to **Alder before each of the six shifts**.",
+            "Its effect disappears after each shift, so each crew window is an independent choice.",
+            "The loaded routine instead dispatches **Alder, Birch, Alder, Birch, Alder, Birch**.",
+            "the routine treats the low downtime **caused by the completed top-up** as a reason to move the crew elsewhere, even though that benefit has already been flushed away."
+          ],
+          "material_decision_consequence": "Replacing the loaded routine with six Alder jobs reduces total downtime from 99 to 90 machine-hours. The answer correctly attributes the avoidable difference to three diversions to Birch following Alder's serviced outcomes.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "source_oracle_inspected": false,
+            "rationale": "All relevant physical effects and dispatch rules are explicit in the packet. The replacement uses exactly one permitted preventive job per shift, and the independent per-shift savings establish its optimality."
+          },
+          "assessment": "Fully correct. The answer rejects rather than adopts the false interpretation of serviced outcomes, and makes no false necessity or lower-bound claim."
+        },
+        {
+          "id": "R-C",
+          "rubric_dimension_scores": {
+            "reading the controlled work records": 2,
+            "interpreting duration/renewal": 2,
+            "applying dispatch and update": 2,
+            "executable resource-feasible policy": 2,
+            "supported release decision": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The answer accurately reads all three preventive effects and their expiration, prescribes six resource-feasible Alder jobs while all machines run, and calculates the optimal 90-machine-hour total. It also correctly identifies the loaded alternating sequence and its 99-machine-hour total.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "**Replace the loaded routine. Assign the crew to Alder before each of the six shifts.**",
+            "Birch and Cedar receive no preventive work; all three machines run every shift.",
+            "Because each top-up is completely flushed after its shift, decisions have no effect on later shifts.",
+            "Refreshing those scores causes it to divert three crew windows from Alder to Birch, adding **9 avoidable machine-hours**."
+          ],
+          "material_decision_consequence": "The specified replacement preserves every production workload and minimizes each shift's downtime. It saves 9 machine-hours across the six shifts relative to unchanged release.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "source_oracle_inspected": false,
+            "rationale": "The statement about no later-shift effects is supported in context by the physical flush and lack of accumulated benefit; the answer separately recognizes the loaded routine's score-mediated dispatch changes. The task and optimal replacement are feasible and sufficiently specified."
+          },
+          "assessment": "Fully correct release decision, resource-feasible policy and explanation. No qualifying failure is evidenced."
+        }
+      ]
+    }
+  ],
+  "same_joint_qualifying_ids": [],
+  "disposition": "EXCLUDED_NOT_HARD"
+}

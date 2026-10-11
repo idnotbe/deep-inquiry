@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "candidate": "F107",
+  "mechanical_transcription_only": true,
+  "source_revision": 1,
+  "criteria": "unchanged prospective V2/V3 plus frozen generic rules",
+  "reviewer_reports": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F107/reviews/blind-one-FIRST.full.md",
+      "bytes": 8161,
+      "sha256": "16dafad6724c41d22cd756f4f325beec9462f0f175558b2618cb397ec13fe970"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F107/reviews/blind-two-FIRST.full.md",
+      "bytes": 6313,
+      "sha256": "2b8918137233c687fe042cc63ba2731d7c2d945c1ae3d446397e72e113591caa"
+    }
+  ],
+  "reviewers": [
+    {
+      "reviewer": 1,
+      "eligible": true,
+      "eligibility_basis": "ROOT confirmed packet-only substantive access plus six permitted procedural files; second reread packet after truncation and duplicate-only correction added no authority.",
+      "responses": [
+        {
+          "id": "R-A",
+          "dimensions": {
+            "recommendation": 2,
+            "evidence": 2,
+            "alternatives": 2,
+            "behaviour_constraints": 2,
+            "explanation": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "id": "R-B",
+          "dimensions": {
+            "recommendation": 2,
+            "evidence": 2,
+            "alternatives": 2,
+            "behaviour_constraints": 2,
+            "explanation": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "id": "R-C",
+          "dimensions": {
+            "recommendation": 2,
+            "evidence": 2,
+            "alternatives": 2,
+            "behaviour_constraints": 2,
+            "explanation": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ]
+    },
+    {
+      "reviewer": 2,
+      "eligible": true,
+      "eligibility_basis": "ROOT confirmed packet-only substantive access plus six permitted procedural files; second reread packet after truncation and duplicate-only correction added no authority.",
+      "responses": [
+        {
+          "id": "R-A",
+          "dimensions": {
+            "recommendation": 2,
+            "evidence": 2,
+            "alternatives": 2,
+            "behaviour_constraints": 2,
+            "explanation": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "id": "R-B",
+          "dimensions": {
+            "recommendation": 2,
+            "evidence": 2,
+            "alternatives": 2,
+            "behaviour_constraints": 2,
+            "explanation": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "id": "R-C",
+          "dimensions": {
+            "recommendation": 2,
+            "evidence": 2,
+            "alternatives": 2,
+            "behaviour_constraints": 2,
+            "explanation": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ]
+    }
+  ],
+  "mapping": [
+    {
+      "anonymous_id": "R-A",
+      "repetition": 3,
+      "public_response": "evals/hard-screen-20261003/F107/responses/F107_C-baseline-r3.txt",
+      "source_sha256": "cf79a69e06b38bc42c6142c97f7d26e4c0e6d3feca3af0d84535de7b1cec4459"
+    },
+    {
+      "anonymous_id": "R-B",
+      "repetition": 2,
+      "public_response": "evals/hard-screen-20261003/F107/responses/F107_C-baseline-r2.txt",
+      "source_sha256": "131a785a5f879a3cd095378da568f8ac382dab4efae98b0baafc895731037580"
+    },
+    {
+      "anonymous_id": "R-C",
+      "repetition": 1,
+      "public_response": "evals/hard-screen-20261003/F107/responses/F107_C-baseline-r1.txt",
+      "source_sha256": "f18a4be68e82e79469fedd4aa5327b2872347d8c20e263613b354ea9f2cf28a9"
+    }
+  ],
+  "joint_qualifying_response_ids": [],
+  "joint_qualifying_count": 0,
+  "all_three_extra_validity_trigger": false,
+  "proposed_disposition": "EXCLUDED_NOT_HARD",
+  "root_final_acceptance": "ACCEPTED",
+  "numerical_summary": {
+    "full_passes_each": [
+      3,
+      3
+    ],
+    "mean_each": [
+      10,
+      10
+    ]
+  },
+  "one_root_error_deductions": 0,
+  "no_regrade_or_replacement": true
+}

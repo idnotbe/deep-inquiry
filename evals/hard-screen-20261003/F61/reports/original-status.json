@@ -1,0 +1,116 @@
+{
+  "status": "EXCLUDED_AFTER_VALID_THREE_FIRST_ORIGINALS_AND_TWO_FIRST_BLIND_GRADES",
+  "candidate": "F61",
+  "originals": [
+    {
+      "repetition": 2,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "ae57f823db0ce70cc7822a9694c1fa9ca18a988e4a2433e1e990d94027dd8825",
+      "delivery_sha256": "f2e0579ea7c9061e4d0dfbf560527b691f8d1c3937a893762905d96e9d2ed8d7",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "3669e6d7b740a496afc6fd6ec770622f5b9902f29839cc5ee7d948734c7f22c1",
+      "final_bytes": 833,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "8e1cda9e542e069dbb02dcae994f43379cba5ea0a8d3a32676011273c1043f34",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "repetition": 3,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "fac603ab9261d942dcc8a07eada7fe8337ee2cce174501103226d70592b1457e",
+      "delivery_sha256": "f2e0579ea7c9061e4d0dfbf560527b691f8d1c3937a893762905d96e9d2ed8d7",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "46cb156f42ba1779e413e463cda58fbc43d8f217bfb254d9e646001aaea20c23",
+      "final_bytes": 846,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "8e1cda9e542e069dbb02dcae994f43379cba5ea0a8d3a32676011273c1043f34",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "repetition": 1,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "d8d65cd7f41affd50c99dffd6372fe28da1763b3463aeaa9b588e1486cde42c4",
+      "delivery_sha256": "f2e0579ea7c9061e4d0dfbf560527b691f8d1c3937a893762905d96e9d2ed8d7",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "89cbd2a531d8ae7f37dadaa8cde748ba1fd469f49eea1525be6bb64478b40f52",
+      "final_bytes": 945,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "8e1cda9e542e069dbb02dcae994f43379cba5ea0a8d3a32676011273c1043f34",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "counts": {
+    "confirmed_family_lowerbound": 52,
+    "preserved_terminal_finals_lowerbound": 151,
+    "problem_turns_lowerbound": 207,
+    "retained": 0,
+    "F46_contribution": "UNKNOWN originaldispatch/completedturns/exit; protected profile unchanged",
+    "F51_contribution": "Actual model execution/completion UNKNOWN; successful captures0; protected originals unchanged"
+  },
+  "grade_totals": {
+    "A": [
+      10,
+      10,
+      10
+    ],
+    "B": [
+      10,
+      10,
+      10
+    ]
+  },
+  "objective_errors": {
+    "A": 0,
+    "B": 0
+  },
+  "qualifying_counts": {
+    "A": 0,
+    "B": 0
+  },
+  "joint_ids": [],
+  "retained": 0,
+  "goal": "0/6 active unmet",
+  "neutral": {
+    "completed_roots": 2,
+    "completed_turns": 2,
+    "unscored": true,
+    "problem_counts": 0,
+    "preserved_treatment_no_turn_setup_failure": 1,
+    "allowed_setup_retry": 1
+  },
+  "current_source": "Separate single-setting commissioning distributions versus same-fixture retained comparison and programmable current payload.",
+  "H_K": "Author/reviewer seen, model UNUSED/NOT_RUN",
+  "scored_treatment": "NOT_RUN",
+  "skill_efficacy": "UNKNOWN; no scored comparison",
+  "effective_backend_verified": false,
+  "reasoning_effort_considered": false,
+  "no_outcome_retry_replacement_regrade": true,
+  "protected_F41_F46_F51": "Untouched; F46/F51 actual contribution UNKNOWN"
+}

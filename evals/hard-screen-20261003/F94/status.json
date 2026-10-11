@@ -1,0 +1,50 @@
+{
+  "status": "EXCLUDED_NOT_HARD",
+  "retained": 0,
+  "target": 6,
+  "originals": 3,
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "original_attempts": [
+    1,
+    1,
+    1
+  ],
+  "fresh_neutral": 2,
+  "primary_MCP_Node_exit": 0,
+  "SAME_owned_Python_close": 0,
+  "all_actual_guards": true,
+  "retries": 0,
+  "scores": {
+    "A": [
+      10,
+      10,
+      10
+    ],
+    "B": [
+      10,
+      10,
+      10
+    ]
+  },
+  "objective_errors": {
+    "A": 0,
+    "B": 0
+  },
+  "qualifying_failures": {
+    "A": 0,
+    "B": 0
+  },
+  "joint_ids": [],
+  "H_K_participant_UNUSED": true,
+  "scored_treatment": 0,
+  "backend": "UNKNOWN",
+  "effort_considered": false,
+  "skill_efficacy": "NOT_EVALUATED",
+  "ROOT_FINAL_required": false,
+  "ROOT_FINAL_accepted": true,
+  "ROOT_FINAL_record": "temp/hard-screen-20261003/f94-final-root-gate.json"
+}

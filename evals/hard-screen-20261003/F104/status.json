@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "candidate": "F104",
+  "formal_source_revision": 1,
+  "proposal_revision": 2,
+  "classification": "EXCLUDED_NOT_HARD",
+  "root_final": "ACCEPTED",
+  "retained": 0,
+  "target": 6,
+  "overall_goal": "TASK_UNMET_REGISTERED_GOAL_BLOCKED",
+  "original": {
+    "order": [
+      2,
+      3,
+      1
+    ],
+    "setup_launches": 3,
+    "turn_dispatches": 3,
+    "completed_turns": 3,
+    "preserved_terminal_finals": 3,
+    "setup_retry_count": 0
+  },
+  "neutral": {
+    "turns": 2,
+    "unscored": true,
+    "retries": 0
+  },
+  "requested_model": "gpt-6-sol",
+  "backend": "UNKNOWN_NONBLOCKING",
+  "reasoning_effort_considered": false,
+  "same_id_joint_qualifying": [],
+  "both_eligible_graders": true,
+  "H_K_participant_UNUSED": true,
+  "scored_treatment": "NOT_RUN",
+  "efficacy": "NOT_EVALUATED",
+  "model_replays": 0,
+  "fullverification": "NOT_RUN; deferred actualsix",
+  "proposed_raw_accounting": {
+    "candidate_identifiers": 88,
+    "preserved_terminal_problem_files": 255,
+    "completed_problem_turns": 314,
+    "neutral_excluded": true,
+    "not_all_files_valid_trials": true,
+    "older_protected_unknowns": "UNCHANGED"
+  },
+  "next": "F104 closed, stages1-2 unmet 0/6; no replay or regrade."
+}

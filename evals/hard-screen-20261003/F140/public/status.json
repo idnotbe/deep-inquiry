@@ -1,0 +1,77 @@
+{
+  "candidate": "F140_NATIVE_V1",
+  "outcome": "EXCLUDED_NOT_HARD",
+  "delivery_state": "LOCAL_RECORD_FROZEN_AWAITING_ROOT_READBACK",
+  "grades": {
+    "A": {
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "objective_errors": 0,
+      "qualifying_failures": 0
+    },
+    "B": {
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "objective_errors": 0,
+      "qualifying_failures": 0
+    },
+    "joint_qualifying_response_ids": [],
+    "exact_support_quotes": 37
+  },
+  "retained": {
+    "before": 0,
+    "after": 0,
+    "target": 6
+  },
+  "originals": 3,
+  "retries": 0,
+  "replacements": 0,
+  "neutral_calls": 0,
+  "scored_treatment_calls": 0,
+  "neutral_treatment_calls": 0,
+  "route": {
+    "kind": "native",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "actual_backend": "UNVERIFIED",
+    "host_injected_context": "UNVERIFIED",
+    "tool_absence": "UNVERIFIED",
+    "tool_attempts_observed": 0,
+    "old_cli_qualification_claim": false
+  },
+  "heldout": {
+    "used_in_trials": false,
+    "used_in_grading": false
+  },
+  "graders": {
+    "first_judgments_preserved": true,
+    "judgments": "packet-only",
+    "host_injected_context": "UNKNOWN"
+  },
+  "mechanism": {
+    "hypothesis": "Construct a missing alternative by separating documentary signatures from contractual commencement.",
+    "observed": "All three originals used a shared document-receipt trigger for simultaneous commencement, securing both services for zero additional expenditure.",
+    "empirically_hard_here": false,
+    "catalogue_wide_uniqueness": "NOT_ESTABLISHED",
+    "uniqueness_required_for_this_exclusion": false
+  },
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "packet_preparation": {
+    "initial_marker_check": "FAILED_ON_GENERIC_RUBRIC_WORD_TREATMENT",
+    "correction": "wording-only treatment to assessment",
+    "full_narrow_rerun": "PASS",
+    "model_retry": false
+  },
+  "artifacts": {
+    "evidence": "evals/hard-screen-20261003/F140/public/evidence.json",
+    "manifest": "temp/hard-screen-20261003/worker/F140/final/manifest.json",
+    "actual_verification": "temp/hard-screen-20261003/worker/F140/final/verification-actual.json"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "current_source_manifest": "temp/hard-screen-20261003/worker/F121-proposal/source-hashes.sha256",
+  "qualification_freeze": {
+    "path": "temp/hard-screen-20261003/worker/F121/qualification/freeze.json",
+    "sha256": "c494462a060696de6af02a517bb8a1c0ccbd18b190eee2684b35c7e13881b568"
+  },
+  "original_safe": {
+    "path": "temp/hard-screen-20261003/worker/F121/original-safe-readback.json",
+    "sha256": "ec2079d45e91666827d5d4905467db3bac6cada567342f4dcb59ffba43720c5b"
+  },
+  "neutral_safe": {
+    "path": "temp/hard-screen-20261003/worker/F121/qualification/neutral-safe-readback.json",
+    "sha256": "e9cdbcb10b834f97defede2e6418c745afc89de69b3d564c0ccc54f80162ded6"
+  },
+  "full_runtime_readback": {
+    "path": "temp/hard-screen-20261003/worker/F121/safe-full-readback-actual-lossless.json",
+    "sha256": "ca0c62a9ff256ce58ddec6846012720c24819011bd0362861c1dd7c0db99d2ce"
+  },
+  "source_and_administrative_bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F121/blind/packet.json",
+      "bytes": 17408,
+      "sha256": "47dd25f743e025bb105c9bd6375c3dfc4bb7b1cc4c5dbbd9cae18726f395ab5e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F121/blind-private-mapping.json",
+      "bytes": 1179,
+      "sha256": "194f226ed2075e9ca254a51cd08acec73bfe13cfdaae28babe298508de10a5bf"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F121/blind-first-one.full.md",
+      "bytes": 5816,
+      "sha256": "218d2eba497d44d23f32338618a7b2e09a26ed4735333e5456e610d5e6a3e74e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F121/blind-first-two.full.md",
+      "bytes": 6608,
+      "sha256": "d0ba36d8f16ec05e3044435f613dadd44f03064ceed05abcb8dc58a2641106f6"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F121/blind-dispatch-actual.json",
+      "bytes": 9746,
+      "sha256": "755e919fd3f3870735fa6300d3a164c174e0f01d3304718ba027b7e9d2397a13"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F121/blind-two-procedural-correction.json",
+      "bytes": 1194,
+      "sha256": "e5e419f6a2572c73870922e67b0e3d1be6d8b3daa5693fdb1b2c7d94aad735c3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F121/blind-procedure-records-readback.json",
+      "bytes": 36895,
+      "sha256": "b5361e3e5a29f8926cbd73e4bb1a1264a22a1670dc599275b5c4a126b9b78ee8"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F121/both-blind-FIRST-readback-actual.json",
+      "bytes": 14763,
+      "sha256": "c30e947330544090ae7907d1b24ef1d03e63cdca2084a28d746928a6e1a99b9c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f121-grader-procedure-FIRST.full.md",
+      "bytes": 3184,
+      "sha256": "9c7bafab53de553eb783a654eac03b286828263837bcf93fc9edac1b0a028963"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f121-grader-procedure-disposition.md",
+      "bytes": 1822,
+      "sha256": "8c67f90314f4a499a56cf44659cf4a3cf1b6a61a50e66df7c4c371ea3a89d4e1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f121-first-integrity-actual.json",
+      "bytes": 3062,
+      "sha256": "29febd21cfbd1e85c9f067783898c740ae1d39d2c21e9e48f162367b2baa6506"
+    }
+  ],
+  "source_response_bindings": [
+    {
+      "response_id": "R-A",
+      "repetition": 3,
+      "path": "temp/hard-screen-20261003/worker/F121/original/F121_C-baseline-r3-attempt1/final.txt",
+      "bytes": 783,
+      "sha256": "4a090b3efaea5a5395d6077edb1ee23d38d66411b55b64e34e339627b8b19356"
+    },
+    {
+      "response_id": "R-B",
+      "repetition": 2,
+      "path": "temp/hard-screen-20261003/worker/F121/original/F121_C-baseline-r2-attempt1/final.txt",
+      "bytes": 410,
+      "sha256": "5304b76bd768322971af27753094c92cf665196adbdf5b7e95cc4ff11d93d732"
+    },
+    {
+      "response_id": "R-C",
+      "repetition": 1,
+      "path": "temp/hard-screen-20261003/worker/F121/original/F121_C-baseline-r1-attempt1/final.txt",
+      "bytes": 437,
+      "sha256": "8fc4e8060fe43a6840167287183404e7279ebac3a4ba1ece3f344883c7e98c84"
+    }
+  ],
+  "actual_model_calls": 5,
+  "problem_calls": 3,
+  "neutral_calls": 2,
+  "retries": 0,
+  "heldout_calls": 0,
+  "scored_treatment": 0,
+  "missing_original_auxiliary_tool_return": true,
+  "root_final_verified": true
+}

@@ -1,0 +1,117 @@
+{
+  "candidate": "F158",
+  "version": "closure-1",
+  "source_version": "source-pair-2",
+  "issue": 9,
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "difficulty": "UNKNOWN",
+  "grading": "NOT_RUN",
+  "protocol_acceptance": "NOT_ACCEPTED",
+  "delivery_state": "PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW",
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "increment": 0,
+    "after": 0,
+    "target": 6
+  },
+  "interaction": "SINGLE_TURN",
+  "planned_original_episodes": 3,
+  "planned_problem_turns": 3,
+  "original_episodes_launched": 3,
+  "observed_problem_turns": 3,
+  "original_finals_preserved": 3,
+  "accepted_gradeable_finals": 0,
+  "retries": 0,
+  "replacements": 0,
+  "followups": 0,
+  "extra_problem_turns": 0,
+  "blind_packet_created": true,
+  "blind_packet_status": "PREPARED_NOT_RELEASED",
+  "blind_packet_frozen_status": "PREPARED_CONDITIONAL_NOT_DISPATCHED_NOT_GRADED",
+  "grader_calls": 0,
+  "scores": null,
+  "objective_decision_errors": null,
+  "qualifying_inquiry_failures": null,
+  "same_id_intersection": null,
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "heldout": {
+    "writer_reviewer_seen": true,
+    "participant_episodes": 0,
+    "used_in_grading": false
+  },
+  "route": {
+    "kind": "native subagent",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "observed_configuration": "Matches requested settings per independent semantic audit",
+    "actual_submitted_message_equality": "UNVERIFIED",
+    "protected_initial_plaintext": "UNVERIFIED",
+    "actual_backend_fallback": "UNVERIFIED",
+    "internal_isolation": "UNVERIFIED",
+    "shared_filesystem_isolated": false,
+    "effort_used_for_admission": false
+  },
+  "semantic_audit": {
+    "path": "temp/hard-screen-20261003/worker/F158/evidence/semantic-audit.md",
+    "slots": [
+      {
+        "slot": "response-1",
+        "submission": "UNVERIFIED",
+        "receipt": "VALID",
+        "context": "UNVERIFIED",
+        "observable_actions": "VALID",
+        "final_preservation": "VALID",
+        "overall": "UNVERIFIED"
+      },
+      {
+        "slot": "response-2",
+        "submission": "UNVERIFIED",
+        "receipt": "VALID",
+        "context": "UNVERIFIED",
+        "observable_actions": "VALID",
+        "final_preservation": "VALID",
+        "overall": "UNVERIFIED"
+      },
+      {
+        "slot": "response-3",
+        "submission": "UNVERIFIED",
+        "receipt": "VALID",
+        "context": "UNVERIFIED",
+        "observable_actions": "VALID",
+        "final_preservation": "VALID",
+        "overall": "UNVERIFIED"
+      }
+    ],
+    "whole_observable_context_meaning_audit": "INCOMPLETE",
+    "wrapper_difference": "FROZEN_WRAPPER_PLUS_ONE_LF_SEMANTICALLY_ACCEPTABLE_NOT_BYTE_IDENTICAL",
+    "submitted_message_plaintext_mismatch_proven": false,
+    "participant_contamination_proven": false,
+    "wrong_answer_proven": false,
+    "actual_delivery_failure_proven": false
+  },
+  "archive": {
+    "public_path": "temp/hard-screen-20261003/worker/F158/evidence/public-originals.json",
+    "public_records": 21,
+    "status": "UNACCEPTED_NOT_GRADEABLE",
+    "raw_originals": "PRESERVED_UNMODIFIED_AT_EXISTING_RESTRICTED_SOURCE_NO_NEW_COPIES"
+  },
+  "source_validity": {
+    "review_c": "APPROVE",
+    "review_d": "APPROVE",
+    "scope": "source validity only",
+    "empirical_difficulty_established": false
+  },
+  "privacy_deviations": [
+    "COLLECTOR_CONTEXT_EXPORT",
+    "COLLECTOR_OPAQUE_FIELD_FRAGMENT_OUTPUT",
+    "AUDITOR_FULL_PARENT_FILE_BYTES_READ_BEFORE_SLICING_ALLOWED_WINDOW"
+  ],
+  "historical_frozen_statuses_edited": false,
+  "historical_recovery_or_reclassification": false,
+  "catalog_application": "PARENT_PENDING_PREFIX_PRESERVING_APPEND"
+}

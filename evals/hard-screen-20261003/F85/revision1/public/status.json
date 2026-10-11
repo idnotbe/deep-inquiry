@@ -1,0 +1,34 @@
+{
+  "status": "EXCLUDED_NOT_HARD_ROOT_FINAL_PENDING",
+  "author_package_revision": 1,
+  "post_PRETRIAL_source_changes": 0,
+  "retained": false,
+  "joint_qualifying_ids": [],
+  "objective_errors_both_graders": 0,
+  "qualifying_failures_both_graders": 0,
+  "original_terminal_problem_files": 3,
+  "actual_completed_problem_turns": 6,
+  "neutral_turns_excluded": 2,
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "setup_retries": 0,
+  "matched_H_participant": "UNUSED",
+  "K_participant": "UNUSED",
+  "skill_efficacy": "NOT_EVALUATED",
+  "requested_model": "gpt-6-sol",
+  "backend_identity": "UNKNOWN_NONBLOCKING",
+  "reasoning_effort_considered": false,
+  "global_retained_after_this_family": 0,
+  "global_goal": 6,
+  "global_counts_after_ROOT_FINAL_only": {
+    "candidate_ids": 72,
+    "terminal_problem_files": 211,
+    "completed_problem_turns": 270,
+    "F46_F51": "UNKNOWN additional excluded from confirmed counts"
+  },
+  "current_full_verification": "NOT_RUN; only at actual six retained families",
+  "README_application": "ROOT_ONLY_PENDING"
+}

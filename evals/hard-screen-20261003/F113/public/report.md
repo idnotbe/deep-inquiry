@@ -1,0 +1,11 @@
+# F113 screening result — excluded, insufficient difficulty
+
+ROOT FINAL disposition: EXCLUDED_NOT_HARD. Both eligible independent FIRST graders identify zero qualifying inquiry failures among the same three original responses. The frozen requirement of at least two jointly identified qualifying response IDs is not met. Retained families remain 0/6; ROOT verified both complete FIRSTs, exact response histories and final evidence bindings.
+
+Both complete reports award all three responses 10/10 and mark objective decision error, qualifying inquiry failure, and insufficient evidence false. These numbers are supporting descriptions, not the retention rule. Each response received calibration, qualification and one fan-step experiment, used four coupon-units, and correctly chose the heater retrofit at 40. The observed failure at (3,1) distinguishes Q from D; heater production reaches Q=7 within supply 4. Existing and fan production fail, combined retrofits exceed supply, and outsourcing costs 70.
+
+The packet and full reports here are byte-exact copies. Both complete FIRST reports, including wrappers and read inventories, were saved and wholly read back before synthesis or opening the private mapping. Both received the same packet as their sole substantive evidence. The recorded procedural reads are within the prospective allowlist; neither declares forbidden reads, truncation, computational grading, delegation, or scope exceptions. No replacement or regrade occurred.
+
+ROOT PRETRIAL and SAFE gates preceded their respective phases. The original C repetitions ran in order 2,3,1: three final answers, twelve completed turns, nine READ requests, zero outcome retries. The two neutral calls and all original operational guards passed. H/K and scored treatment were not run. Zero joint qualifying IDs do not trigger the all-three additional validity audit.
+
+No empirical hardness, skill effect, backend verification, or heldout matched-difficulty claim is made. The full packet distinguishes available records from observations actually received. The private repetition mapping remains in the worker evidence. Frozen source, rubric, methodology, runtime and helpers remain unchanged. ROOT finalized this report/status and appended the screening catalog, preserving prior bytes and pending snapshots.

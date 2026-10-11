@@ -1,0 +1,126 @@
+{
+  "status": "EXCLUDED_AFTER_THREE_VALID_ORIGINALS_TWO_FIRST_BLIND_GRADES",
+  "candidate": "F65",
+  "originals": [
+    {
+      "repetition": 2,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "23af78c212a6fd620a013efb2953956b2d1ea79770d0772dc5d83b5ee420295a",
+      "delivery_sha256": "555a8d14fdf0269e2d6929ca0f44ecf69bf73c4c9089eb4d86253065d1de255a",
+      "telemetry_sha256": "a7a5ea4ff8f4925ffc94b03139e1a17a2de15fb61ffeebe985f45ccd7217e4c3",
+      "final_sha256": "aa8ab2fbf08e5e9694feabec1cf75dcaf6a80168ffc8a2549efc9fe94c40b315",
+      "final_bytes": 981,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "669c290938f3bd0fc101f864f948d773c80c16fca8bbd87c93811abf4866528e",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "repetition": 3,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "c790116d3b857822c0fc8c2885260f75a285fa513198fd9a086dc0bce495cc32",
+      "delivery_sha256": "555a8d14fdf0269e2d6929ca0f44ecf69bf73c4c9089eb4d86253065d1de255a",
+      "telemetry_sha256": "5a7376013764753be91bd1e7ec787de49e57fcae2dacc623eb523717524fb0f0",
+      "final_sha256": "ce41779f4df4f22ca518e2f2234a50bfaaa6f8224dfaaf12dca23de9169ceb6d",
+      "final_bytes": 1567,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "669c290938f3bd0fc101f864f948d773c80c16fca8bbd87c93811abf4866528e",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "repetition": 1,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "b729ec20f145c8551a5904582f455f2e94deb1aad96313d2fc0829cf63a5791c",
+      "delivery_sha256": "555a8d14fdf0269e2d6929ca0f44ecf69bf73c4c9089eb4d86253065d1de255a",
+      "telemetry_sha256": "adedf2ae0d960050cb59bdcff09091b1b57a317e40b9ceaef8be1999d602111d",
+      "final_sha256": "6ed22d4813b075d79aeaf7dca3a9b268608420ed9bb5283a27fdb8a0c7b3c1a9",
+      "final_bytes": 756,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "669c290938f3bd0fc101f864f948d773c80c16fca8bbd87c93811abf4866528e",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "successful_attempts": [
+    1,
+    1,
+    1
+  ],
+  "original_setup_retry_count": 0,
+  "counts": {
+    "confirmed_family_lowerbound": 55,
+    "preserved_terminal_finals_lowerbound": 160,
+    "problem_turns_lowerbound": 216,
+    "retained": 0,
+    "F46_contribution": "UNKNOWN originaldispatch/completedturns/exit; protected profile unchanged",
+    "F51_contribution": "Actual model execution/completion UNKNOWN; successful captures0; protected originals unchanged"
+  },
+  "grade_totals": {
+    "A": [
+      10,
+      4,
+      10
+    ],
+    "B": [
+      10,
+      5,
+      10
+    ]
+  },
+  "objective_errors": {
+    "A": 1,
+    "B": 1
+  },
+  "qualifying_ids": {
+    "A": [
+      "R02"
+    ],
+    "B": [
+      "R02"
+    ]
+  },
+  "joint_ids": [
+    "R02"
+  ],
+  "retained": 0,
+  "goal": "0/6 ACTIVE/UNMET",
+  "neutral": {
+    "roots": 2,
+    "unscored": true,
+    "problem_count_addition": 0,
+    "setup_retry_count": 0
+  },
+  "H_K": "Author/reviewer seen; participant UNUSED/NOT_RUN",
+  "scored_treatment": "NOT_RUN",
+  "skill_efficacy": "UNKNOWN; exclusion is not efficacy evidence",
+  "requested_model": "gpt-6-sol",
+  "effective_backend_verified": false,
+  "reasoning_effort_considered": false,
+  "no_outcome_retry_replacement_regrade": true,
+  "F46_F51": "Actual contribution UNKNOWN; protected originals unchanged"
+}

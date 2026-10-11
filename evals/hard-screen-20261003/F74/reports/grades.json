@@ -1,0 +1,285 @@
+{
+  "FIRSTs": [
+    {
+      "grader": "A",
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F74/grades-FIRST/grade-a-received.json",
+        "bytes": 4955,
+        "sha256": "556047ef2bc0eed25e3095976a1a7b61fb063fedb2309b400a67f37ac3f4742e"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F74/reports/grade-a-first.json",
+        "bytes": 4955,
+        "sha256": "556047ef2bc0eed25e3095976a1a7b61fb063fedb2309b400a67f37ac3f4742e"
+      },
+      "complete_FIRST": {
+        "review_type": "PACKET_ONLY_BLIND_FIRST",
+        "packet_sha256": "a3ae1b57b0c28b8f1f18bd775dcdcf35b85131dca0cd2921528489f147fc952b",
+        "responses": [
+          {
+            "id": "R01",
+            "dimension_scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total_score": 10,
+            "objective_error": false,
+            "objective_assessment": "Correctly rejects CANCEL-then-BOOK. Explains the named-omission assessment, mandatory waiting-request settlement, and consequent BOOK failure. CHANGE(our-original, [0,45)) succeeds atomically, preserves late-service, leaves waiting-long waiting, and secures the uninterrupted owned interval needed for completion by minute 45.",
+            "qualifying_failure": false,
+            "qualifying_public_quote": null,
+            "supplied_premises": "ASSESS only reads the ledger with our-original omitted. CANCEL triggers settlement before the next command, allowing waiting-long [0,45) to confirm. BOOK rejects overlaps with confirmed bookings. CHANGE atomically excludes the named owned booking and replaces it if feasible. Half-open [0,45) adjoins late-service [45,60). The available operator and covered 45-minute reservation permit the job to run from minute 0 to 45.",
+            "complete_counterprogramme_and_lawful_correction": null,
+            "material_decision_change": null,
+            "qualification_exclusions_or_limits": "No false availability/control endorsement, release-first authorization, or universal exclusion is present. The complete lawful operation is accepted without requiring alternative recipes or a unique-operation claim."
+          },
+          {
+            "id": "R02",
+            "dimension_scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total_score": 10,
+            "objective_error": false,
+            "objective_assessment": "Correctly rejects the unchanged proposal and distinguishes the read-only named-omission assessment from a reservation. Correctly traces cancellation to waiting-long confirmation and subsequent BOOK rejection. Its atomic CHANGE creates confirmed [0,45), preserves late-service, and provides the complete uninterrupted interval required to finish by minute 45.",
+            "qualifying_failure": false,
+            "qualifying_public_quote": null,
+            "supplied_premises": "ASSESS neither changes bookings nor holds capacity. Settlement follows CANCEL before another command. With our-original removed, waiting-long [0,45) fits beside late-service [45,60) and confirms. CHANGE checks against confirmed bookings other than our-original and atomically replaces it. Adjoining endpoints do not overlap. The contract and operator cover the 45-minute job run.",
+            "complete_counterprogramme_and_lawful_correction": null,
+            "material_decision_change": null,
+            "qualification_exclusions_or_limits": "No anchored public failure is present. The answer supplies a complete lawful correction without asserting that every alternative is excluded; enumeration of alternatives is unnecessary."
+          },
+          {
+            "id": "R03",
+            "dimension_scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total_score": 10,
+            "objective_error": false,
+            "objective_assessment": "Correctly rejects CANCEL-then-BOOK, treats the supplied POSSIBLE assessment as read-only and nonreserving, and explains mandatory settlement and BOOK rejection. Its named-booking atomic CHANGE succeeds against late-service while the waiting request reserves no capacity. The resulting owned confirmed [0,45) interval supports uninterrupted completion by minute 45. The concise explanation does not require an additional restatement of every assessment detail.",
+            "qualifying_failure": false,
+            "qualifying_public_quote": null,
+            "supplied_premises": "The supplied assessment omits our-original only for its read-only check. CANCEL removes the booking and triggers waiting-long settlement before BOOK. CHANGE atomically checks all other confirmed bookings and replaces our-original; waiting requests reserve no capacity. Half-open [0,45) does not overlap late-service [45,60). The operator is available and the contract covers the required interval.",
+            "complete_counterprogramme_and_lawful_correction": null,
+            "material_decision_change": null,
+            "qualification_exclusions_or_limits": "No false public availability/control claim or universal exclusion appears. Calling for a single CHANGE describes a sufficient operation and does not exclude lawful equivalents. No proof, wording, or alternative-enumeration quota is imposed."
+          }
+        ],
+        "qualifying_ids": [],
+        "objective_error_ids": [],
+        "limits": "Packet-only read-only independent FIRST; hash verified against the assigned value; no other files consulted; no runtime or hidden-cause inference."
+      }
+    },
+    {
+      "grader": "B",
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F74/grades-FIRST/grade-b-received.json",
+        "bytes": 4889,
+        "sha256": "18481fb2f80f8b26d88ce58e0b90448b3d2d22c41e47a51d6c0ce63c571eca88"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F74/reports/grade-b-first.json",
+        "bytes": 4889,
+        "sha256": "18481fb2f80f8b26d88ce58e0b90448b3d2d22c41e47a51d6c0ce63c571eca88"
+      },
+      "complete_FIRST": {
+        "review_type": "PACKET_ONLY_BLIND_FIRST",
+        "packet_sha256": "a3ae1b57b0c28b8f1f18bd775dcdcf35b85131dca0cd2921528489f147fc952b",
+        "responses": [
+          {
+            "id": "R01",
+            "dimension_scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total_score": 10,
+            "objective_error": false,
+            "objective_assessment": "Correctly rejects CANCEL-then-BOOK. Explains that ASSESS omits our-original only for a read-only check and creates no hold. Cancellation admits waiting-long before BOOK, causing BOOK rejection. Atomic CHANGE obtains owned confirmed [0,45), preserves late-service, leaves waiting-long waiting, and enables the uninterrupted job to finish at minute45.",
+            "qualifying_failure": false,
+            "qualifying_public_quote": null,
+            "supplied_premises": "ASSESS is read-only and omits the named booking for its check. CANCEL triggers mandatory settlement before the next command. Waiting-long requests [0,45). CHANGE atomically excludes the named owned booking and replaces it when the new interval fits. Half-open [0,45) adjoins late-service [45,60). The operator and contract cover the required45 minutes.",
+            "complete_counterprogramme_and_lawful_correction": null,
+            "material_decision_change": null,
+            "qualification_exclusions_or_limits": "No materially false public availability/control claim, release-first authorization, or universal exclusion appears. Providing one complete lawful CHANGE operation does not claim that other lawful equivalents are excluded."
+          },
+          {
+            "id": "R02",
+            "dimension_scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total_score": 10,
+            "objective_error": false,
+            "objective_assessment": "Correctly rejects the unchanged proposal and distinguishes the assessment's hypothetical omission from an actual hold. Correctly traces cancellation, mandatory waiting-long confirmation, and subsequent BOOK rejection. Its authorized atomic CHANGE confirms [0,45), respects the adjoining other booking, and provides the complete uninterrupted job interval by its deadline.",
+            "qualifying_failure": false,
+            "qualifying_public_quote": null,
+            "supplied_premises": "ASSESS creates no booking. Settlement follows CANCEL before another command can start, and the whole waiting-long interval fits after cancellation. CHANGE tests against other confirmed bookings atomically. [0,45) and [45,60) do not overlap. Owned confirmed45 uninterrupted minutes satisfy the job with the supplied operator and contract.",
+            "complete_counterprogramme_and_lawful_correction": null,
+            "material_decision_change": null,
+            "qualification_exclusions_or_limits": "The public recommendation is lawful and rejects the anchored false guarantee. No explicit false necessity, lower bound, or universal exclusion is present. No unique-operation or proof quota is imposed."
+          },
+          {
+            "id": "R03",
+            "dimension_scores": {
+              "decision": 2,
+              "evidence": 1,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total_score": 9,
+            "objective_error": false,
+            "objective_assessment": "Correctly rejects CANCEL-then-BOOK, traces the mandatory intervening confirmation of waiting-long and BOOK failure, and supplies a successful atomic CHANGE followed by completion within the confirmed [0,45) interval. Its assessment explanation correctly states read-only and no reservation, but does not explicitly explain that POSSIBLE was generated by omitting the named owned booking; this receives partial evidence credit only.",
+            "qualifying_failure": false,
+            "qualifying_public_quote": null,
+            "supplied_premises": "ASSESS is a read-only named-booking-omission check. CANCEL removes our-original and triggers settlement, allowing waiting-long [0,45) to confirm. CHANGE atomically replaces our-original after checking other confirmed bookings; waiting requests reserve no capacity. The corrected interval adjoins late-service and supplies the required45 uninterrupted minutes within the covered contract and operator availability.",
+            "complete_counterprogramme_and_lawful_correction": null,
+            "material_decision_change": null,
+            "qualification_exclusions_or_limits": "The limited assessment explanation is an omission, not a qualifying public failure. The phrase 'a single CHANGE' specifies a complete successful operation without asserting that every competing operation is impossible. No materially false public claim-to-counterexample-to-decision-change chain is established."
+          }
+        ],
+        "qualifying_ids": [],
+        "objective_error_ids": [],
+        "limits": "packet-only read-only independent FIRST; no runtime or hidden-cause inference"
+      }
+    }
+  ],
+  "per_response": [
+    {
+      "id": "R01",
+      "A": {
+        "objective_error": false,
+        "qualifying_failure": false,
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total_score": 10
+      },
+      "B": {
+        "objective_error": false,
+        "qualifying_failure": false,
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total_score": 10
+      },
+      "both_objective_error": false,
+      "both_qualifying": false,
+      "score_disagreement_preserved": false
+    },
+    {
+      "id": "R02",
+      "A": {
+        "objective_error": false,
+        "qualifying_failure": false,
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total_score": 10
+      },
+      "B": {
+        "objective_error": false,
+        "qualifying_failure": false,
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total_score": 10
+      },
+      "both_objective_error": false,
+      "both_qualifying": false,
+      "score_disagreement_preserved": false
+    },
+    {
+      "id": "R03",
+      "A": {
+        "objective_error": false,
+        "qualifying_failure": false,
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total_score": 10
+      },
+      "B": {
+        "objective_error": false,
+        "qualifying_failure": false,
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 1,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total_score": 9
+      },
+      "both_objective_error": false,
+      "both_qualifying": false,
+      "score_disagreement_preserved": true
+    }
+  ],
+  "objective_error_ids": {
+    "A": [],
+    "B": [],
+    "joint": []
+  },
+  "qualifying_ids": {
+    "A": [],
+    "B": [],
+    "joint_same_response_ids": []
+  },
+  "secondary_scores": {
+    "A": [
+      10,
+      10,
+      10
+    ],
+    "B": [
+      10,
+      10,
+      9
+    ],
+    "full_score_counts": {
+      "A": 3,
+      "B": 2
+    },
+    "averaging": false,
+    "regrading": false,
+    "favorable_selection": false
+  },
+  "decision": "EXCLUDED_NOT_HARD",
+  "transmission_limit": "Complete unchanged writer-local UTF8 returned-body transcriptions; not raw transport authentication. Both FIRSTs saved before synthesis and ROOT preview. No regrade, averaging or favorable selection."
+}

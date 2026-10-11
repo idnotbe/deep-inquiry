@@ -1,0 +1,97 @@
+{
+  "candidate": "F157",
+  "version": "closure-1",
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "difficulty": "UNKNOWN",
+  "grading": "NOT_RUN",
+  "protocol_acceptance": "NOT_ACCEPTED",
+  "delivery_state": "INCOMPLETE_CLOSURE_PENDING_INDEPENDENT_FINAL_REVIEW_AND_ROOT_ACCEPTANCE",
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "after": 0,
+    "target": 6
+  },
+  "source_version": "source-pair-1",
+  "interaction": "SINGLE_TURN",
+  "planned_original_episodes": 3,
+  "planned_problem_turns": 3,
+  "original_episodes_launched": 3,
+  "observed_problem_turns": 3,
+  "original_finals_preserved": 3,
+  "accepted_gradeable_finals": 0,
+  "retries": 0,
+  "replacements": 0,
+  "followups": 0,
+  "extra_problem_turns": 0,
+  "blind_packet_created": false,
+  "grader_calls": 0,
+  "scores": null,
+  "objective_decision_errors": null,
+  "qualifying_inquiry_failures": null,
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "heldout": {
+    "writer_reviewer_seen": true,
+    "participant_episodes": 0,
+    "used_in_grading": false
+  },
+  "route": {
+    "kind": "native subagent",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "observed_configuration": "Matches requested model and effort according to independent runtime audit",
+    "actual_backend": "UNVERIFIED",
+    "shared_filesystem_isolated": false,
+    "protected_initial_prompt_plaintext": "UNVERIFIED",
+    "effort_used_for_admission": false
+  },
+  "capture": {
+    "adapter_version": 2,
+    "statuses": [
+      "INVALID_OR_INCOMPLETE",
+      "INVALID_OR_INCOMPLETE",
+      "INVALID_OR_INCOMPLETE"
+    ],
+    "first_rejection": {
+      "adapter_line": 148,
+      "record_ordinal": 0,
+      "expected_outer_keys": [
+        "timestamp",
+        "type",
+        "payload"
+      ],
+      "additional_field": "ordinal",
+      "reason": "CONTRACT_MISMATCH"
+    },
+    "additional_outer_field": "metadata",
+    "actual_delivery_failure_proven": false,
+    "wrong_answer_proven": false,
+    "parser_changed_or_outputs_rescued": false
+  },
+  "runtime_audit": {
+    "path": "temp/hard-screen-20261003/f157-runtime-audit.md",
+    "full_input_bytes": 5847,
+    "exact_input_and_sole_call_confirmed_for": 3,
+    "exact_final_mirror_and_completion_confirmed_for": 3,
+    "upgrades_frozen_contract": false,
+    "host_context": "Generic host instructions, roles, AGENTS, skills catalog and memory guidance/summary observed; excluded F157 source, H, oracle, evaluator/rubric, prior F157 answers and inherited progress conversation not identified in observable context.",
+    "protected_or_hidden_context": "NOT_FULLY_VERIFIABLE"
+  },
+  "source_validity": {
+    "review_a": "APPROVE",
+    "review_b": "APPROVE",
+    "empirical_difficulty_established": false
+  },
+  "archive": {
+    "path": "temp/hard-screen-20261003/f157-native-capture.json",
+    "field": "participants[*].unacceptedFinals.finals",
+    "status": "UNACCEPTED_NOT_GRADEABLE"
+  },
+  "historical_recovery_or_reclassification": false,
+  "catalog_application": "PARENT_PENDING_PREFIX_PRESERVING_APPEND"
+}
+

@@ -1,0 +1,283 @@
+{
+  "family": "F40",
+  "suite_hashes": {
+    "cases.json": "e21c1e8c7e69e02e66de06843d76e8cf19156196422272ca0d87a6285781c879",
+    "rubrics.json": "f0163998d46d2ef6ec80f160f92574ab09753e40f1609b9f2af4a8977efefa75",
+    "protocol.json": "cdf4f599ead4409133038385facd39a068e78b36a25c8f42e431bc6770ec6af8"
+  },
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "controls_executed": false,
+  "native_trials": 3,
+  "grading_packet_sha256": "c4751998c2eb9eb25d094fa5e006ae080a8d89cd95f3cf12ce524027a0dde089",
+  "grading_packet_redaction": "Blank current-only task/rubric/frozenanchor/unchanged genericrules/originalfinals; no authorinterpretation/oldanswers/condition/host/model/privatefullprotocol.",
+  "pretrial_review_ledger": {
+    "candidate": "F40",
+    "status": "PRETRIAL_COMPLETE_NOT_FROZEN_NOT_RUN",
+    "manifest_sha256": "e58febc5a9616474430613f02bb68a09ed83717410240ed867b4357ad24c2b64",
+    "reviews": {
+      "source_a": {
+        "path": "temp/hard-screen-20261003/worker/F40/source-a-received.md",
+        "sha256": "d212808165ec676b7124aebe4801af9f321c76316e737e1d3f3f3d98e8e50ba2",
+        "original_terminal_verdict": "APPROVE",
+        "kind": "original_source_only",
+        "read_only": true,
+        "fresh_distinct_context": true,
+        "required_correction": "none at this review; prospective K scope clarification separately preserved after original source approvals"
+      },
+      "source_b": {
+        "path": "temp/hard-screen-20261003/worker/F40/source-b-received.md",
+        "sha256": "e87c1510e1471bc00c7870fc49178aebb049df89e22c0bd4ec8b3996800d2316",
+        "original_terminal_verdict": "APPROVE",
+        "kind": "original_source_only",
+        "read_only": true,
+        "fresh_distinct_context": true,
+        "required_correction": "none at this review; prospective K scope clarification separately preserved after original source approvals"
+      },
+      "targeted_a": {
+        "path": "temp/hard-screen-20261003/worker/F40/source-a-targeted.md",
+        "sha256": "d088ca43277ce7a583788d27ae352c5dd6a67a08835846eb1ee7dc582b8a83f0",
+        "original_terminal_verdict": "APPROVE",
+        "kind": "same_reviewer_K_scope_only",
+        "read_only": true,
+        "fresh_distinct_context": false,
+        "required_correction": "none at this review; prospective K scope clarification separately preserved after original source approvals"
+      },
+      "targeted_b": {
+        "path": "temp/hard-screen-20261003/worker/F40/source-b-targeted.md",
+        "sha256": "a22e18f36ed82f880baa8ecaa9ac996619e6ad3164b551e813e5edd504342629",
+        "original_terminal_verdict": "APPROVE",
+        "kind": "same_reviewer_K_scope_only",
+        "read_only": true,
+        "fresh_distinct_context": false,
+        "required_correction": "none at this review; prospective K scope clarification separately preserved after original source approvals"
+      },
+      "exact_a": {
+        "path": "temp/hard-screen-20261003/worker/F40/exact-review-a.md",
+        "sha256": "34cdc4cfacc6d497c570806342cd3f72438fdc31fe117773458267568c64655e",
+        "original_terminal_verdict": "APPROVE",
+        "kind": "first_complete_bundle_exact",
+        "read_only": true,
+        "fresh_distinct_context": true,
+        "required_correction": "none at this review; prospective K scope clarification separately preserved after original source approvals"
+      },
+      "exact_b": {
+        "path": "temp/hard-screen-20261003/worker/F40/exact-review-b.md",
+        "sha256": "ca7258e2969cc33f059578cf00ccb2f41edcccbe6b40b2d99e8f6a6e0343c1c6",
+        "original_terminal_verdict": "APPROVE",
+        "kind": "distinct_final_complete_bundle_exact",
+        "read_only": true,
+        "fresh_distinct_context": true,
+        "required_correction": "none at this review; prospective K scope clarification separately preserved after original source approvals"
+      }
+    },
+    "sequence": "Two NEW original source reconstructions -> one prospective K archive paragraph clarification -> SAME two targeted acknowledgments -> completed exactA APPROVE no corrections -> distinct NEW finalB APPROVE no corrections.",
+    "reviewed_inputs_unchanged_since_exact_A_manifest": true,
+    "source_proposal_scope": "Both ORIGINALsourceAPPROVE; C/Hvendorreject/revise and Kvendoractualapprove are proposalverdicts, not artifactREVISE. Original archive/no-currentjoin interpretations preserved; targetedprecision warranted before trials.",
+    "snapshot_status_note": "Reviewed oracle/protocol/certificate pendingreview text remains the exact prospective submission snapshot. Completion recorded here without retrospectively modifying reviewedbytes.",
+    "source_clarification_sha256": "bc4779a08e32e6c176a3b3ce15d8702f0079706eeb37b9390578a127ab830fc7",
+    "local_report_copy_note_sha256": "64e5bf69b7f46f798bb7e7c776c603a15316b098cfc6731f7e5d5ae1eb196f34",
+    "math_scope": "Reuse unchanged writer Fraction selected proof/output. SourceA file-freeexactrationalJS after unavailablePython, sourceBfloating LPvertices/JS arithmetic. ExactA independentexactrationalresponse/relaxationvertices; finalB independentBigIntrational elimination rank6/forcedzero rank7/dualcoefficients. Fulladaptivehistory/randomizedscope analytical separately reviewed; no writer unchangedproof/fulltests repeated.",
+    "reviewer_tool_limits": "B initial older .NET/PowerShell API/array behavior corrected read-only; not model/provider failure or grounds for reviewreplacement. Local report preservation hashes do not independently authenticate transport/revieweridentity.",
+    "not_run": [
+      "freeze",
+      "neutral checks",
+      "original participant C",
+      "participant H/K",
+      "scored treatment",
+      "archive/push",
+      "old fulltests"
+    ],
+    "empirical_difficulty": "UNKNOWN",
+    "current_screened_counts_unchanged": {
+      "families": 35,
+      "finals": 105,
+      "problem_solving_turns": 146,
+      "retained": 0,
+      "required": 6
+    },
+    "final_artifact_review": "PENDING_DEFERRED_TO_POOL_CLOSURE",
+    "local_archive": "DEFERRED_NOT_PERFORMED"
+  },
+  "pretrial_receipts_sha256": {
+    "review-ledger.json": "2a1176bc6016d799a024543ef483e28fe704a01bbcd0c4c692cb0e8c0354c172",
+    "pretrial-final-readback.json": "2429d9d87623f19f08fb005f369c794dff013f77483da28f012b7826e6b58d76",
+    "exact-review-a.md": "34cdc4cfacc6d497c570806342cd3f72438fdc31fe117773458267568c64655e",
+    "exact-review-b.md": "ca7258e2969cc33f059578cf00ccb2f41edcccbe6b40b2d99e8f6a6e0343c1c6",
+    "source-a-received.md": "d212808165ec676b7124aebe4801af9f321c76316e737e1d3f3f3d98e8e50ba2",
+    "source-b-received.md": "e87c1510e1471bc00c7870fc49178aebb049df89e22c0bd4ec8b3996800d2316",
+    "source-a-targeted.md": "d088ca43277ce7a583788d27ae352c5dd6a67a08835846eb1ee7dc582b8a83f0",
+    "source-b-targeted.md": "a22e18f36ed82f880baa8ecaa9ac996619e6ad3164b551e813e5edd504342629",
+    "source-clarification.json": "bc4779a08e32e6c176a3b3ce15d8702f0079706eeb37b9390578a127ab830fc7",
+    "original-report-copy-note.json": "64e5bf69b7f46f798bb7e7c776c603a15316b098cfc6731f7e5d5ae1eb196f34"
+  },
+  "exact_frozen_files": {
+    "evals/hard-screen-20261003/F40/sources/F40C.md": "61037e91a323c33fd0afa61feb8038ea572716bc9aea164dfe15d28469aa41ea",
+    "evals/hard-screen-20261003/F40/sources/F40H.md": "ba9bf4a9fec2c86c9ae84e90d1c46554d3b82556135ac9d240e85f2e15fe4ccd",
+    "evals/hard-screen-20261003/F40/sources/F40K.md": "e96fb81a859879a56901d0f4ee2968a9cfb1ac217b91bdce282b6087f97bdd4a",
+    "evals/hard-screen-20261003/F40/cases.json": "e21c1e8c7e69e02e66de06843d76e8cf19156196422272ca0d87a6285781c879",
+    "evals/hard-screen-20261003/F40/rubrics.json": "f0163998d46d2ef6ec80f160f92574ab09753e40f1609b9f2af4a8977efefa75",
+    "evals/hard-screen-20261003/F40/protocol.json": "cdf4f599ead4409133038385facd39a068e78b36a25c8f42e431bc6770ec6af8",
+    "temp/hard-screen-20261003/worker/F40/oracle.md": "ab6ffaa93633c24354b129db7aee56e1104952b8494fdcdfe644d8cd02d5c721",
+    "temp/hard-screen-20261003/worker/F40/core-proof.py": "c661176866d3ac6dbb2d451da9565de365fe12dd625959ad0c4becf2fc5eeb8b",
+    "temp/hard-screen-20261003/worker/F40/certificate.json": "8d5892472109a5ab49dfe34d04ac0ab2469efbb3cc644c70c8109f6cfae77c3d",
+    "evals/hard-screen-20261003/prospective-method-v3.md": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+  },
+  "method_v2_sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e",
+  "source_prompt_relation": "RawMarkdown snapshots/clarifiedK distinct from normalized caseprompt/native task+sharedsuffix; localbinding not independent rawhistoryauthentication.",
+  "freeze_sha256": "9bee534bf20978ae5ec690139539663d038714ba33a24f8221d311dc890be7fe",
+  "review_manifest_sha256": "e58febc5a9616474430613f02bb68a09ed83717410240ed867b4357ad24c2b64",
+  "producer_file_sha256": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "skill_hashes": {
+    "SKILL.md": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871",
+    "references/inquiry-methods.md": "0c7e92d8a2682e9e734fe53b11863fe014aa47a6cd586146195b44b385b779ac",
+    "references/evidence-and-diagnosis.md": "df73a8e947fda4764ceb69617ee88d8a9d95212710f3a889be1b0bfb3a6c45ac",
+    "references/alternatives-and-drafting.md": "0b03e017c97a0a013cd95f22b9e7266c1e7e0cf2a3e9d37063499b35aec9b382"
+  },
+  "plan_sha256": "d4399086d0ae18cd2099fda7a6f5c3dd124ed179c0b3a56765dbb38e5afc5257",
+  "neutral_canary_plan_sha256": "fbe9c9b39938192f9e3d6e725c09cd94ec1a71cf07cc300c507f3b0f70acac39",
+  "common_context_sha256": "a6d5ee798264d7a33ea74c64431558fe1bcb50714268c03ba1f71f9b6f63488f",
+  "certificate_sha256": "8d5892472109a5ab49dfe34d04ac0ab2469efbb3cc644c70c8109f6cfae77c3d",
+  "oracle_sha256": "ab6ffaa93633c24354b129db7aee56e1104952b8494fdcdfe644d8cd02d5c721",
+  "static_proof_sha256": "c661176866d3ac6dbb2d451da9565de365fe12dd625959ad0c4becf2fc5eeb8b",
+  "static_proof_output_sha256": "98c2355196b845531e4b0f1d6603fd827e6130927a822a692496a14c6504716c",
+  "static_coverage": "Unchanged originalFraction3jointlaws/4C6H normalizedmaps/duals/endpoints reused, Konlynew exactarithmetic. ALLcontinuum/IIDhistory/correlatedindependentseed bounds ANALYTICAL, not enumeration everyprogram. SourceAexactrationalJS, BfloatingLPcorroboration; exactA/B independentrationalpolytope/duals. No rerun unchangedmath.",
+  "neutral_canary_completed": 2,
+  "neutral_canaries_counted_in_problem_turns": 0,
+  "canary_readback_sha256": "244b21c06ac814ea059ee251cdb12ee04c6bcb68fb968e49d58c46811bdba715",
+  "canary_reference_semantics": "Reference establishment, not scored invalidity; second neutral verifies captured currentcontext.",
+  "invocation_path_recovery": "Currentnpm nativeexe + opaque local-codex-home/auth.json existence, parentconfirmed authorized; no old pinned invocation pair recovered, nocredentialcontentread.",
+  "original_slots": [
+    {
+      "response_id": "R01",
+      "repetition": 2,
+      "attempt": 1,
+      "status": "completed",
+      "final_sha256": "fac50d5a661d16295d8bde5d9c376ba9d8f9fe81bf57308dee2e026f8c472650",
+      "final_bytes": 1487,
+      "manifest_sha256": "05906bc62e6713ccb6a9d93f71d445010eb913898d51ca36135e3904d807204d",
+      "delivery_sha256": "7a03e5eeec5a52bd1cd8756ef81de855e0cf65a84eaf50c159f1c18efba7d94a",
+      "telemetry_sha256": "a7a5ea4ff8f4925ffc94b03139e1a17a2de15fb61ffeebe985f45ccd7217e4c3",
+      "actual_problem_turns": 1,
+      "actual_finals": 1,
+      "safe_input_context_cleanup_verified": true,
+      "method_exposure": false,
+      "tool_attempted": false
+    },
+    {
+      "response_id": "R02",
+      "repetition": 3,
+      "attempt": 1,
+      "status": "completed",
+      "final_sha256": "4e7727c0b99ed256f5135816567328af50fb3aabf25c60d5b649fb5d09404ca9",
+      "final_bytes": 1578,
+      "manifest_sha256": "d972efa75b66a06408d84ed65f9d4818575794047a0dc9d6fd34a029c3b5bcf5",
+      "delivery_sha256": "7a03e5eeec5a52bd1cd8756ef81de855e0cf65a84eaf50c159f1c18efba7d94a",
+      "telemetry_sha256": "310f342a0c0d590abeaa05f85ffb1f21dca05b465f9faffedc5562d0300dcb69",
+      "actual_problem_turns": 1,
+      "actual_finals": 1,
+      "safe_input_context_cleanup_verified": true,
+      "method_exposure": false,
+      "tool_attempted": false
+    },
+    {
+      "response_id": "R03",
+      "repetition": 1,
+      "attempt": 1,
+      "status": "completed",
+      "final_sha256": "e46894b7711f3861f6b57a7558134de96daf4ecc8ffc4a2df09d6ad8ddf03881",
+      "final_bytes": 1510,
+      "manifest_sha256": "7385db46bc3c9e80d1ea57c7dab43be80fdf177041bb06d099dbd8c64101aac1",
+      "delivery_sha256": "7a03e5eeec5a52bd1cd8756ef81de855e0cf65a84eaf50c159f1c18efba7d94a",
+      "telemetry_sha256": "a7a5ea4ff8f4925ffc94b03139e1a17a2de15fb61ffeebe985f45ccd7217e4c3",
+      "actual_problem_turns": 1,
+      "actual_finals": 1,
+      "safe_input_context_cleanup_verified": true,
+      "method_exposure": false,
+      "tool_attempted": false
+    }
+  ],
+  "original_readback_sha256": "6cab2593581c6eb5fc833b5ebcb14fbd68c90d1234951a0d8f02a0806a7fbb80",
+  "response_map_sha256": "f8cc7c2726f85d18a522016e94b38a7b0f00c64d2ffb3d494ea550e80861eadd",
+  "problem_turns_added": 3,
+  "actual_problem_turn_counts": [
+    1,
+    1,
+    1
+  ],
+  "actual_final_counts": [
+    1,
+    1,
+    1
+  ],
+  "safe_original_capture": "All3 safe flags verified task+sharedsuffix/input/context/noexposure/notools/final/process/source/copiedauthcleanup; no rawevents/hiddenreasoning/auth/profile reads.",
+  "outcome_retries": 0,
+  "replacements": 0,
+  "regrades": 0,
+  "transport_expiry": false,
+  "new_full_tests_run": false,
+  "reused_full_checks": {
+    "total": 153,
+    "passed": 147,
+    "environment_skips": 6,
+    "failed": 0,
+    "scope": "Previously accepted unchanged producer-layer full evidence linked samefilehashes; not new fullrun/modelhardness."
+  },
+  "current_totals": {
+    "families": 36,
+    "finals": 108,
+    "problem_solving_turns": 149,
+    "neutral_runs_separate": 2,
+    "retained": 0,
+    "required": 6,
+    "remaining": 6
+  },
+  "original_grade_sha256": {
+    "A": "57ce0bb7ca094e74c9191594d127916bdf2f562c6fe4a5986cea424c4a6ee0bc",
+    "B": "e09270b8fe25ed301b5aba9ffa0a68bd3fa7fd88b385fc083862b8731f5f9cbe"
+  },
+  "local_authoring_corrections": [
+    "Two author assertions failed BEFOREwriting: incorrectly expected baretask then budgetprefix; runner actually delivers currenttask followed by sharedbudget instruction. Exact source+suffix verified, no native/model/input alteration or rerun.",
+    "Broadauthor rg printedoldF39answer lines; nooldanswers in native inputs/newpacket/graders.",
+    "Pretrial localA reportcopy typo corrected receivedbody; separatebefore/afterhash retained, no reviewverdict/mathchange."
+  ],
+  "descriptive_limits": [
+    "Bothgraders evidence1 because sharpinterval derivation omitted, diagnosticonly nofalsepremise.",
+    "A R02 firstactivation phrase literalactualservice qualification for earlybackedunits; intrinsicT1+separateB interpretation and actualprogram valid, ambiguity/materialchange insufficient."
+  ],
+  "artifact_review_status": "PENDING_DEFERRED_TO_POOL_CLOSURE_F32_ONWARD",
+  "local_archive_status": "PENDING_DEFERRED_NO_COMMIT_PUSH",
+  "selection": {
+    "status": "EXCLUDED",
+    "jointly_qualifying_response_ids": [],
+    "jointly_qualifying_count": 0,
+    "required_same_original_ids": 2,
+    "valid_original_slots": 3,
+    "primary": "Unchangedv2/v3, bothfreshgraders >=2 SAMEoriginalIDs",
+    "scores_secondary": true,
+    "objective_errors_by_grader": [
+      0,
+      0
+    ],
+    "qualifying_errors_by_grader": [
+      0,
+      0
+    ],
+    "hard_families_retained": 0,
+    "required_hard_families": 6,
+    "remaining": 6,
+    "all_three_extra_validity_audit": "NOT_TRIGGERED_NO_QUALIFYING_RESPONSES"
+  },
+  "limits": [
+    "No H/Kparticipants/scoredtreatment",
+    "Backend unproved/nonblocking; effort irrelevant",
+    "Exact/source approvals not finalartifactapproval",
+    "Closedfictionalpopulation law/exactregister evidence, not physicalfielddeployment"
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "family": "F39",
+  "packet_sha256": "9e6b872e4199bee9ba05368a3dc91c22133051df5a5b2c2eccf595a4dfbdaefe",
+  "grading": "TWO NEW fresh-context condition-hidden current-only packet; full original JSONs preserved, no regrade/replacement.",
+  "original_graders": {
+    "A": {
+      "grader": "A",
+      "input_packet_sha256": "9e6b872e4199bee9ba05368a3dc91c22133051df5a5b2c2eccf595a4dfbdaefe",
+      "grades": [
+        {
+          "response_id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "score": 10,
+          "total": 10,
+          "full_pass": true,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "rationale": {
+            "decision": "The authorization is lawful and attains the minimum prior expected current invoice of 27/10 credits.",
+            "evidence": "At L=0 with H forced HIGH and R native, V-11 produces (1,1), while V-18 and V-24 produce (1,0). On the latter branch, L=0 with H native and R forced HIGH produces (1,1) under V-18 and (0,1) under V-24. The release remains fixed between frames, so the response's identifications are valid.",
+            "mechanism": "The diagnostic predictions respect physical force replacement and catalog evaluation order. After acquisition resets and fixture removal, cooling alone gives (0,0) at L=1 under V-11; relay alone gives (0,0) under V-18; both modules give (0,0) under V-24.",
+            "feasibility": "Both configurations are among the supported 18 configurations. The second acquisition is conditional, and stopping after the first identification is allowed. Orders are submitted by tick2, arrive at tick2, and installation completes at tick3 before the L=1 acceptance pulse. The fixture license is charged once.",
+            "support": "The calculation 1/2+(9/20)(2)+(9/20)(2)+(1/10)(4)=27/10 is correct. Per-release minimum module costs are 2, 2 and 4. Native records cannot distinguish releases, and independent seeds provide no release information. A branch without acquisition must buy both modules for 4; a branch using acquisition cannot beat the 11/5 expected module lower bound plus the 1/2 license. The policy attains that bound. The rejection of Q-610 correctly separates native co-occurrence from propagation."
+          },
+          "findings": [],
+          "uncertain_attribution": [],
+          "limits": [
+            "No qualifying error was observed in the public answer.",
+            "Evaluation uses only the supplied packet and does not establish actual execution or hidden reasoning."
+          ]
+        },
+        {
+          "response_id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "score": 10,
+          "total": 10,
+          "full_pass": true,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "rationale": {
+            "decision": "The response gives a complete adaptive authorization with guaranteed acceptance and minimum prior expected current invoice of 27/10 credits.",
+            "evidence": "The first configuration, L=0/HHIGH/RNATIVE, yields (1,1) only under V-11 and (1,0) under V-18 or V-24. Conditional on (1,0), the second configuration, L=0/HNATIVE/RHIGH, yields (1,1) under V-18 and (0,1) under V-24. Both logger fields are available, and fixed release identity makes these histories conclusive.",
+            "mechanism": "The acquisition outcomes follow the supplied intervention equations. The response also correctly explains permanent replacement: cooling makes H=0 and native R=0 in V-11; relay makes R=0 and native H=0 in V-18; V-24 requires both.",
+            "feasibility": "The configurations, adaptive continuation, early stopping and branch-dependent orders are supported. All orders are placed by tick2, and the tick3 L=1 pulse occurs after installation. The invoice correctly includes one fixture license.",
+            "support": "Expected module cost is 11/5 credits and the fixture costs 1/2, giving 27/10. The response supplies the relevant global alternatives: without acquisition, all releases remain compatible and both modules cost 4; with acquisition, no release can use fewer than its necessary modules. Independent seed conditioning cannot improve this lower bound. Q-610 is correctly rejected because all releases produce the native records and cooling alone fails in V-18 and V-24."
+          },
+          "findings": [],
+          "uncertain_attribution": [],
+          "limits": [
+            "No qualifying error was observed in the public answer.",
+            "Evaluation uses only the supplied packet and does not establish actual execution or hidden reasoning."
+          ]
+        },
+        {
+          "response_id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "score": 10,
+          "total": 10,
+          "full_pass": true,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "rationale": {
+            "decision": "The table defines a complete lawful adaptive policy attaining the minimum prior expected current invoice of 27/10 credits.",
+            "evidence": "At L=1 with H forced LOW and R native, V-11 produces (0,0), while V-18 and V-24 produce (0,1). For the continuation branch, L=1 with H native and R forced LOW produces (0,0) under V-18 and (1,0) under V-24. These outcomes correctly identify every compatible release using current H/R measurements.",
+            "mechanism": "The response uses single-node interventions correctly and does not treat a temporary forced state as a permanent repair. Cooling alone under V-11, relay alone under V-18, and both modules under V-24 produce actual (0,0) at the required L=1 service pulse after fixture removal.",
+            "feasibility": "Both configurations are supported. The table's continuation instruction applies to the first-slot (0,1) branch; the identified V-11 branch orders cooling only. Remaining orders are submitted by tick2 and installation completes by tick3. The once-per-cycle license covers either acquisition history.",
+            "support": "The stated expected invoice and per-release hardware lower bound are correct. The statement that the fixture license is necessary to distinguish releases is supported: all free native pulses have identical outcomes across releases, and independent seeds convey no release identity. Without acquisition, guaranteed acceptance requires both modules for 4 credits. With acquisition, the minimum expected hardware cost is 11/5 plus the 1/2 license. The proposed policy reaches this global minimum. The rejection of Q-610 is correct."
+          },
+          "findings": [],
+          "uncertain_attribution": [],
+          "limits": [
+            "No qualifying error was observed in the public answer.",
+            "Evaluation uses only the supplied packet and does not establish actual execution or hidden reasoning."
+          ]
+        }
+      ],
+      "selection_assessment": {
+        "qualifying_response_ids": [],
+        "qualifying_response_count": 0,
+        "this_grader_at_least_two_qualifying": false,
+        "two_grader_joint_selection": "Not assessed; no other grader output was inspected."
+      },
+      "overall_limits": [
+        "The entire supplied packet was read, and its SHA256 matched the assigned value.",
+        "No other workspace files, memories, external sources, model metadata or grader outputs were inspected.",
+        "No hidden reasoning or unstated universal claim was inferred.",
+        "Scores and full_pass are diagnostic and are separate from qualifying_inquiry_failure."
+      ]
+    },
+    "B": {
+      "grader": "B",
+      "input_packet_sha256": "9e6b872e4199bee9ba05368a3dc91c22133051df5a5b2c2eccf595a4dfbdaefe",
+      "grades": [
+        {
+          "response_id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total_score": 10,
+          "full_pass": true,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "rationale": "The HIGH-force policy is lawful and equivalent to the rubric's LOW-force witness. With L=0, H=HIGH and R=NATIVE, V-11 produces (1,1), while V-18 and V-24 produce (1,0). On that latter branch, L=0, H=NATIVE and R=HIGH produces (1,1) in V-18 and (0,1) in V-24. The resulting cooling-only, relay-only and both-module orders respectively guarantee L=1 acceptance after installation. Both acquisition frames arrive before the applicable cutoff; early ordering and stopping are permitted. The expected invoice is 1/2+(9/20)2+(9/20)2+(1/10)4=27/10. The per-release hardware lower bounds are correct, and the no-acquisition alternative requires both modules for 4 credits. Q-610 is correctly rejected because both native records agree with all three releases and cooling-only fails in V-18 and V-24.",
+          "findings": [],
+          "limits": [
+            "The answer does not separately enumerate randomized programs or every supported acquisition configuration. Its complete lawful policy and lower-bound argument suffice; this omission does not establish a false exclusion.",
+            "Fixture reset is not explicitly restated, but the acceptance claim correctly depends on permanent modules after fixture removal, not on retained acquisition forces."
+          ]
+        },
+        {
+          "response_id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total_score": 10,
+          "full_pass": true,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "rationale": "The first HIGH-force acquisition distinguishes V-11 from V-18/V-24; the conditional second HIGH-force acquisition distinguishes V-18 from V-24 using the actual current H/R inputs. All stated frames follow the supplied intervention equations and catalog order. The module choices yield both physical states zero at the required L=1 acceptance pulse in every compatible release. Ordering by tick2 and installation before the tick3 pulse are feasible. The minimum per-release module costs give an expected hardware lower bound of 11/5, attained by this policy; adding the once-per-cycle fixture license gives 27/10. Without acquisition, the indistinguishable releases require both modules for 4 credits. The quoted assertion that no fixture plan can beat this lower bound is true. The response correctly rejects the supplier's causal inference and cooling-only authorization.",
+          "findings": [],
+          "limits": [
+            "The answer discusses the factory's native (1,1) record explicitly and does not separately spell out the native (0,0) record. Both supplied records are consistent with its conclusion.",
+            "The answer does not separately enumerate independent lotteries, early procurement variants or fixture reset. Its authorized policy remains complete and feasible under those supplied capabilities."
+          ]
+        },
+        {
+          "response_id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total_score": 10,
+          "full_pass": true,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "rationale": "The table supplies a complete adaptive authorization. At L=1 with H=LOW and R=NATIVE, V-11 yields (0,0), while V-18 and V-24 yield (0,1). Conditional on the latter frame, H=NATIVE and R=LOW yields (0,0) in V-18 and (1,0) in V-24. Cooling-only, relay-only and both modules then meet acceptance in their respective identified releases. The first branch stops after one acquisition; the remaining branches complete the second acquisition and order by tick2. The invoice calculation is correct. The stated per-release hardware lower bound is 11/5 and is attained. A fixture acquisition is indeed necessary to distinguish releases because all available native observations are identical across the complete catalog. Without acquisition, a guaranteed plan must buy both modules for 4 credits, so the attained 27/10 invoice is globally minimum. The factory evidence and rejection of Q-610 are correct.",
+          "findings": [],
+          "limits": [
+            "The answer does not explicitly calculate the 4-credit no-acquisition alternative or separately discuss randomized mixtures. Its stated indistinguishability and hardware lower bound support the optimum: independent no-acquisition branches require both modules, while acquisition branches cannot improve on the attained hardware minimum plus license.",
+            "The opening phrase 'two-slot diagnostic plan' is followed by an explicit first-slot ordering branch and a conditional continuation branch. It does not establish a requirement to acquire an unnecessary second frame.",
+            "Fixture reset is not explicitly restated. The answer's final service instructions rely on installed modules and do not retain fixture forces."
+          ]
+        }
+      ]
+    }
+  },
+  "original_grade_sha256": {
+    "A": "b4fd7dca68ca56b2cf09b10c92baec95cf2655c9ad3a383d579bc201e445d213",
+    "B": "7728b67c16d8e9e13e845382108c401b9d3b83e8f6f96eeeeb1297c056321ff4"
+  },
+  "selection": {
+    "status": "EXCLUDED",
+    "same_ids_jointly_qualifying": [],
+    "joint_qualifying_count": 0,
+    "required_same_ids": 2,
+    "valid_original_slots": 3,
+    "qualifying_A": [],
+    "qualifying_B": [],
+    "objective_errors_A": 0,
+    "objective_errors_B": 0,
+    "retained_pool": "0/6",
+    "remaining_required": 6,
+    "extra_all3_validity_audit": "NOT_TRIGGERED",
+    "scores": "Secondary descriptive only; not admission."
+  }
+}

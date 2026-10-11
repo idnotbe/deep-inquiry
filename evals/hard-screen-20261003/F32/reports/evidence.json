@@ -1,0 +1,83 @@
+{
+  "suite_hashes": {
+    "cases.json": "f2c9e42659a2262ecb2aab80323e313d0c9dad548fd7b217b09df4d372ccc2a4",
+    "rubrics.json": "b8ede229ff1d94187a9948b31ec75a315060db1c338a7243e576786722ec85c8",
+    "protocol.json": "8839019ffe8738c6b316ba7762ec1ba0f00a4ee5360e9f6df953c68e1c4cc259"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "repository_commit_at_dispatch": "554095ddedf57b8fa26bcde1aacb1b78d96f6345",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F32C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "827e9290721cb4d0d0b769d487c9c3452bf732a53f5a1f1183e1da2175ab7025",
+      "turn_id": "local-turn-8d32adcce453e7f3",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F32C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "0f803ec5e7296fa63ff138ff1cfcd1af2e8097b3f551213ca186cd0569afea12",
+      "turn_id": "local-turn-46c1063039f9299e",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F32C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "2f0bd530ab12400b656e3effd915dd4403330280d79e4b542c122587bf320f9b",
+      "turn_id": "local-turn-98f28551b4073828",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "585bf6d8a8a446e4f1fbfe9d857a036a9689e181d0882ccf685a50cf3767952c",
+  "grading_packet_redaction": "Built from blank current task/rubric/anchor/anonymous answers and manually read generic rules; metadata/stale-case checks and readback before both fresh graders. One unnecessary illustrative-answer sentence removed before dispatch; earlier assembly never delivered. No frozen criterion changed.",
+  "pretrial_reviews": [
+    "f32_source_a/b independently reconstructed C/H/K optimal complete policy and exact backward plus forward lifetime accounting from participant-only sources. Original reports saved unchanged; B displayed q23/75 separately corrected to437/1450, with policy/values unchanged.",
+    "SourceA author-oracle comparison and first exact schema APPROVE; distinct SourceB exact final APPROVE at frozen source/suite/oracle/proof/certificate/method hashes. Both reviewer author-Python execution unavailable; independent exact rational calculations/live JSON/source/hashes succeeded.",
+    "Writer actualuv extended C/H/K proof assertionsPASS, validate3PASS, narrow no-excuse2filesPASS. These are validity evidence, not empirical hardness."
+  ],
+  "freeze_sha256": "5e8f18b687b98946d629044d26b5ab6ce9254127311283dfc1797ebb8e78fbda",
+  "producer_file_sha256": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "plan_sha256": "6f591006f0c4a5632bf0e61659de11a826d13fbf502323d8a8f444ec591e257a",
+  "neutral_canary_plan_sha256": "47fcf55978854c7a0760c87e448267fc1dc9add5ff0ec9acd37bcbba135c8fcf",
+  "common_context_sha256": "ce595eeb9b14bb024b51eb7c1ee5cc3f37ccdcf52379c4399f356d15ebe223ca",
+  "static_proof_sha256": "7691c3a68fbeba075dd11154796713840f004a0c6f1a1e2da792eb59801ef6b1",
+  "certificate_sha256": "0a6386021beba79e4101ba199ac1a3f337e1815c6989fd74f299e01563bf32b4",
+  "oracle_sha256": "dab49df2e44866a81b11d44274c60ce82d3fb62d4e109695898715a89a9b98a8",
+  "neutral_canary_completed": 2,
+  "original_slots": 3,
+  "outcome_retries": 0,
+  "new_full_tests_run": false,
+  "reused_full_checks": "Unchanged153tests6environment skips0fail;147executedpasses. No runner/skill edits.",
+  "artifact_review_status": "PENDING_STABLE_POOL_FINAL_ROUNDS",
+  "local_archive_status": "DEFERRED_NO_PUSH"
+}

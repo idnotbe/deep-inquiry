@@ -1,0 +1,500 @@
+{
+  "candidate": "F166",
+  "version": "closure-1",
+  "status": "PASS",
+  "checks": 117,
+  "passed": 117,
+  "failed": [],
+  "results": [
+    {
+      "id": "manifest-identity",
+      "pass": true
+    },
+    {
+      "id": "input:evals/hard-screen-20261003/batch-02/cases.json",
+      "pass": true
+    },
+    {
+      "id": "input:evals/hard-screen-20261003/prospective-method-v2.md",
+      "pass": true
+    },
+    {
+      "id": "input:evals/hard-screen-20261003/prospective-method-v3.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/assessment-0166/packet.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-blind-grade-a.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-blind-grade-b.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-blind-packet-map.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-independent-packet-review.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-native-launches.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-native-pretrial.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-preflight-review.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-semantic-audit.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-source-review-a.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-source-review-b.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/f166-validity-acceptance.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/native-evidence-adoption.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/native-evidence-v4-adoption.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/post-f165-independent-design-research.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-native-collection-v1.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-semantic-evidence-v3.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-semantic-evidence-v4-checks.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-semantic-evidence-v4.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-v4-review-rehearsal-a.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/prospective-v4-review-rehearsal-b.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/C.txt",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/H.txt",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/README.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/checks.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/design-note.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/oracle-C.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/oracle-H.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/protocol.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/rubric.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166-proposal/verify.mjs",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166/evidence-v2/collection-checks.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166/evidence-v2/collection-manifest.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166/evidence-v2/correction.md",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166/evidence-v2/denied-unexecuted-calls.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166/evidence-v2/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166/evidence-v2/public-originals.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166/evidence/collection-checks.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166/evidence/collection-manifest.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166/evidence/denied-unexecuted-calls.json",
+      "pass": true
+    },
+    {
+      "id": "input:temp/hard-screen-20261003/worker/F166/evidence/public-originals.json",
+      "pass": true
+    },
+    {
+      "id": "source-count",
+      "pass": true
+    },
+    {
+      "id": "launch-count",
+      "pass": true
+    },
+    {
+      "id": "launch-no-extra",
+      "pass": true
+    },
+    {
+      "id": "launch-arguments:0",
+      "pass": true
+    },
+    {
+      "id": "launch-arguments:1",
+      "pass": true
+    },
+    {
+      "id": "launch-arguments:2",
+      "pass": true
+    },
+    {
+      "id": "packet-anchor",
+      "pass": true
+    },
+    {
+      "id": "packet-review",
+      "pass": true
+    },
+    {
+      "id": "originals",
+      "pass": true
+    },
+    {
+      "id": "repair",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-count",
+      "pass": true
+    },
+    {
+      "id": "r1:copy:action-1",
+      "pass": true
+    },
+    {
+      "id": "r1:copy:observation-1-prefix",
+      "pass": true
+    },
+    {
+      "id": "r1:copy:observation-1",
+      "pass": true
+    },
+    {
+      "id": "r1:copy:final-1",
+      "pass": true
+    },
+    {
+      "id": "r1:copy:observation-mirror-1",
+      "pass": true
+    },
+    {
+      "id": "r1:copy:final-mirror-1",
+      "pass": true
+    },
+    {
+      "id": "r1:copy:completion-mirror-1",
+      "pass": true
+    },
+    {
+      "id": "r1:v1-preserved",
+      "pass": true
+    },
+    {
+      "id": "r1:prefix",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-count",
+      "pass": true
+    },
+    {
+      "id": "r2:copy:action-1",
+      "pass": true
+    },
+    {
+      "id": "r2:copy:observation-1-prefix",
+      "pass": true
+    },
+    {
+      "id": "r2:copy:observation-1",
+      "pass": true
+    },
+    {
+      "id": "r2:copy:final-1",
+      "pass": true
+    },
+    {
+      "id": "r2:copy:observation-mirror-1",
+      "pass": true
+    },
+    {
+      "id": "r2:copy:final-mirror-1",
+      "pass": true
+    },
+    {
+      "id": "r2:copy:completion-mirror-1",
+      "pass": true
+    },
+    {
+      "id": "r2:v1-preserved",
+      "pass": true
+    },
+    {
+      "id": "r2:prefix",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-count",
+      "pass": true
+    },
+    {
+      "id": "r3:copy:action-1",
+      "pass": true
+    },
+    {
+      "id": "r3:copy:observation-1-prefix",
+      "pass": true
+    },
+    {
+      "id": "r3:copy:observation-1",
+      "pass": true
+    },
+    {
+      "id": "r3:copy:final-1",
+      "pass": true
+    },
+    {
+      "id": "r3:copy:observation-mirror-1",
+      "pass": true
+    },
+    {
+      "id": "r3:copy:final-mirror-1",
+      "pass": true
+    },
+    {
+      "id": "r3:copy:completion-mirror-1",
+      "pass": true
+    },
+    {
+      "id": "r3:v1-preserved",
+      "pass": true
+    },
+    {
+      "id": "r3:prefix",
+      "pass": true
+    },
+    {
+      "id": "response-ids",
+      "pass": true
+    },
+    {
+      "id": "trace:r2",
+      "pass": true
+    },
+    {
+      "id": "trace:r3",
+      "pass": true
+    },
+    {
+      "id": "trace:r1",
+      "pass": true
+    },
+    {
+      "id": "grade-packet:0",
+      "pass": true
+    },
+    {
+      "id": "grade-ids:0",
+      "pass": true
+    },
+    {
+      "id": "grade-qualification:0",
+      "pass": true
+    },
+    {
+      "id": "grade-scores:0",
+      "pass": true
+    },
+    {
+      "id": "quotes:0:R-1B4159A4410C",
+      "pass": true
+    },
+    {
+      "id": "quotes:0:R-DE0181AD706E",
+      "pass": true
+    },
+    {
+      "id": "quotes:0:R-EFCBFAF2FA44",
+      "pass": true
+    },
+    {
+      "id": "grade-packet:1",
+      "pass": true
+    },
+    {
+      "id": "grade-ids:1",
+      "pass": true
+    },
+    {
+      "id": "grade-qualification:1",
+      "pass": true
+    },
+    {
+      "id": "grade-scores:1",
+      "pass": true
+    },
+    {
+      "id": "quotes:1:R-1B4159A4410C",
+      "pass": true
+    },
+    {
+      "id": "quotes:1:R-DE0181AD706E",
+      "pass": true
+    },
+    {
+      "id": "quotes:1:R-EFCBFAF2FA44",
+      "pass": true
+    },
+    {
+      "id": "disposition",
+      "pass": true
+    },
+    {
+      "id": "validity",
+      "pass": true
+    },
+    {
+      "id": "accounting",
+      "pass": true
+    },
+    {
+      "id": "joint-zero",
+      "pass": true
+    },
+    {
+      "id": "retained",
+      "pass": true
+    },
+    {
+      "id": "scores",
+      "pass": true
+    },
+    {
+      "id": "no-extra",
+      "pass": true
+    },
+    {
+      "id": "incidents",
+      "pass": true
+    },
+    {
+      "id": "limits",
+      "pass": true
+    },
+    {
+      "id": "pending-review",
+      "pass": true
+    },
+    {
+      "id": "catalog-prior",
+      "pass": true
+    },
+    {
+      "id": "catalog-fragment",
+      "pass": true
+    },
+    {
+      "id": "catalog-after",
+      "pass": true
+    }
+  ],
+  "scope": "Local closure consistency and faithful grade readback, not new grading or raw-source semantic audit",
+  "commands": [
+    {
+      "command": "node temp/hard-screen-20261003/worker/F166-proposal/verify.mjs",
+      "exit_code": 0,
+      "status": "PASS",
+      "mode": "read_only_reverification"
+    },
+    {
+      "command": "node temp/hard-screen-20261003/worker/F166/closure/check.mjs",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "command": "node temp/hard-screen-20261003/worker/F166/closure/behavior-tests.mjs",
+      "exit_code": 0,
+      "status": "PASS",
+      "negative_cases": 15,
+      "rejected": 15
+    }
+  ],
+  "lsp": "UNAVAILABLE: TypeScript and Biome missing; install-decision tool not exposed; no global edits"
+}

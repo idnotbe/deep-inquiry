@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/blind/packet.json",
+      "bytes": 19090,
+      "sha256": "b4cbb56d37c01a1282b72aa4e731ba8ca9bd75fdf86dce17480de9e352de3c8b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/blind-private-mapping.json",
+      "bytes": 1182,
+      "sha256": "b85bb19a41820f29bfe69e21be63336ff226e0a6d0bfeef668022319d33c40d3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/blind-display-provenance.json",
+      "bytes": 1775,
+      "sha256": "e6c2b45e8bfb5c3b1fa2400a684e0a26212b009aefd017530b5edac41a530016"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/blind-build-actual-lossless.json",
+      "bytes": 5262,
+      "sha256": "0406af721589b753704618cd5513b5e78998be16785803e7a1badc0bb30f4a0e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/blind/FIRST-readback-actual-lossless.json",
+      "bytes": 5484,
+      "sha256": "ffca9a3983b7379a1a4e09314839e498d243c836baf6790fcec2e1856272891b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/blind/substantive-FIRST-readback-actual-lossless.json",
+      "bytes": 17540,
+      "sha256": "dc6c834ad53abbdb1286eb9d1f7d45f5b16c6a7207b3c83872eccf670c1b5f34"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/grades-synthesis.json",
+      "bytes": 3690,
+      "sha256": "913e18bee0d8ab248a5ba287da8733e4bb40c7a81f8f855f51a28d7aa45a9452"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/PRETRIAL.json",
+      "bytes": 60996,
+      "sha256": "2e8b6822b14d815f5611c635dd837205d4f57aa2cb7a18d2609548fec8f5fa0a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/native-phase-handoff.json",
+      "bytes": 7264,
+      "sha256": "c9d176aeaf1bd09ca3d0a7fe2f2ebf1b2770c748b90220fb04e67d8d6c6d8dc5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/native-phase-handoff-actual-lossless.json",
+      "bytes": 35580,
+      "sha256": "95773078ff97716b18e74c8b68d0f096671f5662b2e83c3b8e09af2a8f8f2e4c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/native-canary-actual-lossless.json",
+      "bytes": 702,
+      "sha256": "1e99c63ffaa2866a51fdeff65ddc71e09b0184d60178e66f3a520d00aca259f1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/collector-canary-actual-lossless.json",
+      "bytes": 1425,
+      "sha256": "28b50562e87d1c89bdb44e08cf8ddf34759b0cbd6b82cee4706861ae8f569146"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/native-original-actual-lossless.json",
+      "bytes": 821,
+      "sha256": "1093987f6fa4d7902ce6a9f2ec725675641414a6e58754a54fcaf096232498e1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/collector-original-actual-lossless.json",
+      "bytes": 1062,
+      "sha256": "4c0de41c64d64e7ce4fb283df9261b6f85df224e592d62b04dbe11e45213d896"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/original-safe-readback.json",
+      "bytes": 12466,
+      "sha256": "0b7b314c291c42098849e810f5d914569cdabd7a374d19310d38419e69ebb23f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/qualification/neutral-safe-readback.json",
+      "bytes": 8938,
+      "sha256": "bfa59924ca721077b7f5ec4ef65ad986d218187b85f91b0cf04cc8b3ee415958"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/qualification/freeze.json",
+      "bytes": 45353,
+      "sha256": "bd3fa5ea89621231b6db5869b1018f134204ece872da92b0894967bd9d4c3b85"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/combined-check-actual-lossless.json",
+      "bytes": 45441,
+      "sha256": "6ee12450b08555bef4e98ee15a9e27f5fe5c09b7b40d85d5f20c07987b0fb9b3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/checked-input-freeze.base.json",
+      "bytes": 40308,
+      "sha256": "984eedc227cbf1fc40ffe9c8bbe79470c8f6c1cb15fa47f57fd2eef1489e33ff"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/checked-input-freeze.current.json",
+      "bytes": 46222,
+      "sha256": "80d5376b88595e233fcd46849cf8867e7f1756bee37257b4682f5f0ce09707e3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/reviews/source-one-FIRST.full.md",
+      "bytes": 9173,
+      "sha256": "e1262ccfcd30460e510b5bb4d71f9758534a10afaa03ac49a42fb906fbf7e3d2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/reviews/source-two-FIRST.full.md",
+      "bytes": 10736,
+      "sha256": "909bcbe4a5fa3f1676f820621c50bf519bcf6aeac77cb3dc272dbb489a2138ba"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/reviews/source-one-provenance-clarification.full.md",
+      "bytes": 1463,
+      "sha256": "f0e5bfbcfab82e30ea687997473742840e281e045e4699688ee17322b23d0528"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/reviews/source-one-ALIGN.full.md",
+      "bytes": 9880,
+      "sha256": "5c00c84c9c6241b87cc21320a0bf902f175a16cb8a84382504807e45b31a9c30"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/reviews/source-two-ALIGN.full.md",
+      "bytes": 9292,
+      "sha256": "55b9fe3fe2ecbbef52d887cf00cec0671497f970492844f55c21cf829ab88926"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/reviews/helper-report.full.md",
+      "bytes": 5910,
+      "sha256": "ea256bcaa20c22196dae7d98d497ecf50f69d063f762630515a56ec298082e3c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/reviews/helper-targeted-report.full.md",
+      "bytes": 1949,
+      "sha256": "d8742041a6ad9d5f092d7d1c6200cbdba58ae5e6188c79ac28eed194896b7bc2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/prospective-anchors.md",
+      "bytes": 3486,
+      "sha256": "375424336c18872584c2fa304f647af6626bb08dbdef145d67913b5150e9949c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/private-proof.md",
+      "bytes": 4192,
+      "sha256": "526901a9836ea7cec244d7eb3dab04f1548e49251c07a3d53f876d037af7f704"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/construction-calculation-provenance.md",
+      "bytes": 2482,
+      "sha256": "0c2e68acec6b940e8dd40ae9a186d46bf230cbfafa64cd497488f77f6f30a556"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f102-pretrial-root-gate.json",
+      "bytes": 1637,
+      "sha256": "d0244b9230e48fae8199b2dc5d305283058414f2e3320ed1cc86947886c71470"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f102-safe-root-gate.json",
+      "bytes": 1128,
+      "sha256": "8f9910e8cd8f3dbfc6a4890b7b02e8f9b42c303b5928280dcce744282423424b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f102-source-first-root-disposition.md",
+      "bytes": 3780,
+      "sha256": "d1b7c5048d7b06aba7d9ad696d1ed4e1dd185820fd9fdda80e000bf53feaa664"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f102-review-role-root-disposition.md",
+      "bytes": 8002,
+      "sha256": "b33535aef0da09829200ae72f1699ab56e36079b7d686d0c766ad034e467c4f4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f102-blind-procedural-continuation.md",
+      "bytes": 3508,
+      "sha256": "de185007f11ec235f62952f77c9634c153c4e539381d74c6a0d3606e3eef8c6e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/blind/one-FIRST.full.md",
+      "bytes": 2045,
+      "sha256": "38ab1b92a90b7f2859921e2caf24113fdf7bfef9ec5e8cf1295a2fb721931b47"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/blind/one-FIRST-substantive.full.md",
+      "bytes": 7197,
+      "sha256": "b537b823d32156c7d3f6a4c17b3eec814d8db254320c0cdd2b6664c0b3974503"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/blind/two-FIRST.full.md",
+      "bytes": 2116,
+      "sha256": "388916194f148c5e6c65609240c57c00b5fe1371b41bbc6416f622339cb0461f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F102/blind/two-FIRST-substantive.full.md",
+      "bytes": 8165,
+      "sha256": "58251c8e7354af0f1bff3592bde92822cd323f2b191692c573551d133c1c31bb"
+    }
+  ],
+  "public_response_bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F102/responses/C-r1.txt",
+      "bytes": 1455,
+      "sha256": "c0199fd7df17709869633fe0e21b57a450ef1131a867bd43279c441f534cd2bd"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F102/responses/C-r2.txt",
+      "bytes": 1239,
+      "sha256": "80a1c7e2d72a6356bf7fa66604158b594115a82aefefb95e81c5d0fdc43c9d49"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F102/responses/C-r3.txt",
+      "bytes": 1333,
+      "sha256": "5d4eb2f83b4552f20a7020351600ba675ed75f120cb42452f234996e2a5b2d6b"
+    }
+  ],
+  "public_FIRST_bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F102/grading/blind-one-FIRST.full.md",
+      "bytes": 7197,
+      "sha256": "b537b823d32156c7d3f6a4c17b3eec814d8db254320c0cdd2b6664c0b3974503"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F102/grading/blind-one-procedural-stop.full.md",
+      "bytes": 2045,
+      "sha256": "38ab1b92a90b7f2859921e2caf24113fdf7bfef9ec5e8cf1295a2fb721931b47"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F102/grading/blind-two-FIRST.full.md",
+      "bytes": 8165,
+      "sha256": "58251c8e7354af0f1bff3592bde92822cd323f2b191692c573551d133c1c31bb"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F102/grading/blind-two-procedural-stop.full.md",
+      "bytes": 2116,
+      "sha256": "388916194f148c5e6c65609240c57c00b5fe1371b41bbc6416f622339cb0461f"
+    }
+  ],
+  "grader_eligibility": {
+    "blind_one": {
+      "status": "ELIGIBLE",
+      "basis": "Packet-only substantive input; six disclosed procedural files inside effective18 allowlist; symbolic reasoning, no forbidden access reported."
+    },
+    "blind_two": {
+      "status": "ELIGIBLE",
+      "basis": "Packet-only substantive input; seven disclosed procedural files inside effective18 allowlist; symbolic reasoning, no forbidden access reported."
+    }
+  },
+  "eligible_independent_FIRST_count": 2,
+  "two_protocol_valid_blind_grades": true,
+  "blind_boundary": "BOTH full FIRST substantive wrappers saved/exactreadback before synthesis/mapping; initial procedural stops immutable; no replacement/regrade.",
+  "frozen_bindings_currently_verified": 235,
+  "native_guards": "Actual setup/dispatch/terminal/input/context/exposure/isolation/source/noTools/process/authcopy guards SAFE; PID-before-GO, SAMEownedPython close0, MCPNode0; native retries0.",
+  "limitations": [
+    "Source-one source-validity FIRST retained with disclosed auxiliary awk calculation provenance limit: source and full primary return were not preserved before execution. That calculation is not an attested check; no reconstruction/rerun/waiver.",
+    "Both blind reviewers first stopped before substantive access because a mandatory compatibility alias was outside the original17 list. ROOT prospectively authorized that exact alias as entry18; SAME reviewers then supplied their FIRST substantive grades. Original stops and frozen17-file protocol remain immutable.",
+    "Blind reviewers report initial procedural-read timeouts followed by identical successful reads. Those are reviewer disclosures, not independently captured primary tool receipts. Writer preserved their complete returns verbatim.",
+    "Reviewer packet hashes were caller-supplied, not independently recomputed by reviewers. Builder verified exact original response bytes and packet binding; each reviewer reported whole packet read without truncation.",
+    "ROOT initial SAFE verification used two wrong neutral receipt locations; the corrected verification changed only those two paths. Failed source and full actual return remain preserved. No native, collector or formal-check replay.",
+    "Historical208-input freeze receipt binds the base manifest; the224-input current manifest is separately reconciled with16 authorized evidence additions and one role-note append. Failed reconciliation source/return remain preserved; no false claim old receipt binds current manifest.",
+    "Backend identity UNKNOWN_NONBLOCKING; package metadata only. Requested gpt-6-sol, reasoning effort not considered.",
+    "Outer requested MCP timeouts are not watchdogs; descendant cleanup unverified and no hard wholecleanup deadline.",
+    "H preserves the unknown coupling and mixture mechanism at family level; equal empirical difficulty is unverified. H/K participant-unused; scored treatment and efficacy evaluation not run.",
+    "An optional metadata sha256sum of procedural-stop files timed out with exitCode null and empty output; no retry and no native effect. Exact content readbacks succeeded."
+  ],
+  "root_final": "ACCEPTED",
+  "classification": "EXCLUDED_NOT_HARD",
+  "root_final_gate": "temp/hard-screen-20261003/f102-final-root-gate.json",
+  "historical_delivery": "Original FINAL binds preserved root-final-prefinals for three changed acceptance records; all other original bindings unchanged."
+}

@@ -1,0 +1,56 @@
+{
+  "candidate_id": "F76-endogenous-readout-feedback",
+  "classification": "EXCLUDED_NOT_HARD",
+  "delivery_status": "AWAITING_ROOT_FINAL",
+  "difficulty_screen": "FAILED_TO_RETAIN",
+  "broader_hardness_generalisation": "UNKNOWN",
+  "retained": 0,
+  "target": 6,
+  "goal_status": "ACTIVE_UNMET",
+  "requested_model": "gpt-6-sol",
+  "backend_identity": "UNVERIFIED/nonblocking",
+  "reasoning_effort_considered": false,
+  "C_originals": 3,
+  "joint_qualifying_ids": [],
+  "objective_errors": {
+    "A": 0,
+    "B": 0
+  },
+  "qualifying_failures": {
+    "A": 0,
+    "B": 0
+  },
+  "secondary_scores": {
+    "A": [
+      10,
+      10,
+      10
+    ],
+    "B": [
+      10,
+      10,
+      10
+    ]
+  },
+  "H_K": "Participant UNUSED; author/reviewer seen",
+  "scored_treatment": 0,
+  "efficacy": "UNKNOWN",
+  "counts_lower_bounds": [
+    63,
+    184,
+    240
+  ],
+  "unknown_contributions": [
+    "F46",
+    "F51"
+  ],
+  "counts_are_not_all_valid_claim": true,
+  "source_definition_representation_fixes": [
+    0,
+    0,
+    0
+  ],
+  "extra_validity_audit": "Not triggered: joint0",
+  "final_six_audit_reviews_fullverification": "Deferred until actual six retained families",
+  "Git": "NOT_RUN"
+}

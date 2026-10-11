@@ -1,0 +1,115 @@
+{
+  "freeze": {
+    "suite_hashes": {
+      "cases.json": "71f7c4d9cf20511632b3221ecb7b7841bf2e12e06a050faeeb84f646a09ac6df",
+      "rubrics.json": "807073dc12558b7b51a53342cc8323a6d5b2f4d332458c9f6cf0d7654d6600e5",
+      "protocol.json": "e07ca390c3db2fdd0f45c87648af7359dc7ac5a66f48610b0df7e1e002e892be"
+    },
+    "skill_hashes": {
+      "SKILL.md": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871",
+      "references/inquiry-methods.md": "0c7e92d8a2682e9e734fe53b11863fe014aa47a6cd586146195b44b385b779ac",
+      "references/evidence-and-diagnosis.md": "df73a8e947fda4764ceb69617ee88d8a9d95212710f3a889be1b0bfb3a6c45ac",
+      "references/alternatives-and-drafting.md": "0b03e017c97a0a013cd95f22b9e7266c1e7e0cf2a3e9d37063499b35aec9b382"
+    },
+    "runner_sha256": "a6c61ed96e7f2734eca6689c5ea7cdcfa82fdc641449aaf8fc8160545f0e9c8f",
+    "approved_reviews": [
+      "f01_correctness",
+      "f01_simplicity",
+      "f01_final_validity"
+    ],
+    "status": "prospective_before_dispatch"
+  },
+  "canary_sha256": "5274cccbbbda5607496740e6ea040f386b378b118bead1e07327877091c973c1",
+  "attempts": [
+    {
+      "case_id": "CANARY",
+      "condition": "baseline",
+      "status": "completed",
+      "model_requested": "gpt-6-sol",
+      "backend_model_verified": false,
+      "turn_dispatched": true,
+      "output_seen": true,
+      "final_sha256": "c2e3ac47f4a325469c1a2d5f117e463ec943c721986d5d9f09ac4540b7d80526",
+      "actual_completed_final_preserved": true,
+      "actual_common_developer_match": false,
+      "actual_common_user_prefix_match": false,
+      "copied_auth_root_removed": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "tool_attempted": false
+    },
+    {
+      "case_id": "CANARY",
+      "condition": "treatment",
+      "status": "completed",
+      "model_requested": "gpt-6-sol",
+      "backend_model_verified": false,
+      "turn_dispatched": true,
+      "output_seen": true,
+      "final_sha256": "c2e3ac47f4a325469c1a2d5f117e463ec943c721986d5d9f09ac4540b7d80526",
+      "actual_completed_final_preserved": true,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "copied_auth_root_removed": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "tool_attempted": false
+    },
+    {
+      "case_id": "F01C",
+      "condition": "baseline",
+      "status": "completed",
+      "model_requested": "gpt-6-sol",
+      "backend_model_verified": false,
+      "turn_dispatched": true,
+      "output_seen": true,
+      "final_sha256": "b0c51c87a67d1454ef74f5363815c4c0ebb7776d9c6dbe73de35b22756377e29",
+      "actual_completed_final_preserved": true,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "copied_auth_root_removed": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "tool_attempted": false
+    },
+    {
+      "case_id": "F01C",
+      "condition": "baseline",
+      "status": "completed",
+      "model_requested": "gpt-6-sol",
+      "backend_model_verified": false,
+      "turn_dispatched": true,
+      "output_seen": true,
+      "final_sha256": "922c9d513aad65df9cc3d7e3f038b03e70940880fe1bd77fa1933f72bce88fa3",
+      "actual_completed_final_preserved": true,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "copied_auth_root_removed": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "tool_attempted": false
+    },
+    {
+      "case_id": "F01C",
+      "condition": "baseline",
+      "status": "completed",
+      "model_requested": "gpt-6-sol",
+      "backend_model_verified": false,
+      "turn_dispatched": true,
+      "output_seen": true,
+      "final_sha256": "aea1a19ee3ff4080206b7d7272e36a06e39ec6e2f0307ad4030c877558dcb4b9",
+      "actual_completed_final_preserved": true,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "copied_auth_root_removed": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "tool_attempted": false
+    }
+  ],
+  "selection": {
+    "retained": false,
+    "reason": "both graders 3/3 full passes and mean10>7",
+    "retained_families_total": 0
+  }
+}

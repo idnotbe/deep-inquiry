@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "status": "LOCAL_EVIDENCE_VERIFIED_ROOT_FINAL",
+  "blind_packet": {
+    "path": "packet.json",
+    "bytes": 16300,
+    "sha256": "e25b8750a9ded02d3ebbe3ac3005f3e11a2e6f863a0c231b9af32c707132d10e"
+  },
+  "full_firsts": [
+    {
+      "path": "blind-one-FIRST.full.md",
+      "bytes": 6489,
+      "sha256": "ecde56cc1798cb153ae752e9014f495cdee8cc3147387b00fd43946aaec1ac7e",
+      "complete_wrapper": true,
+      "byte_exact": true
+    },
+    {
+      "path": "blind-two-FIRST.full.md",
+      "bytes": 6353,
+      "sha256": "1e8d896c06039ea989d4aceab6783504ea40ed070866694fa3da9728c936aad6",
+      "complete_wrapper": true,
+      "byte_exact": true
+    }
+  ],
+  "responses": [
+    {
+      "path": "response-C2.txt",
+      "bytes": 445,
+      "sha256": "890ea946678d0eceefed8316865bf8e35d539306b83d33d843f4ab5c054dd3e3",
+      "byte_exact": true
+    },
+    {
+      "path": "response-C3.txt",
+      "bytes": 458,
+      "sha256": "aaf4a9e734dda5b8dec5e77bcb36c9541a8f04717330d0bc879182e38a7fe360",
+      "byte_exact": true
+    },
+    {
+      "path": "response-C1.txt",
+      "bytes": 445,
+      "sha256": "83d3824c4c317ecb77ac0e6fb2dea34e7d3cd44110e58dedfe637d82d233a6dc",
+      "byte_exact": true
+    }
+  ],
+  "source_freeze_sha256": "9bc9bbc0e39e7e19481679a6c05ab435768374edac922568ec86ae8084c3110c",
+  "pretrial_sha256": "06fdd6c1339db46864547c284f70dd112cda9bd13849ec11055168591f72a108",
+  "neutral_SAFE_sha256": "808fd26723598acca98f8f07cb108092453b25c3925c8f3aa02444af12305040",
+  "original_SAFE_sha256": "9835b01d9cd97fc81df88ae54d9fe79f7f203a0d4b283f2af07a7f02d5937a51",
+  "root_SAFE_gate_sha256": "9a6955528a8943b70e4ac1b2abf95d08e5b3ecb412692070fc7b34cc4378d6a4",
+  "both_FIRSTs_whole_readback": {
+    "path": "temp/hard-screen-20261003/worker/F116/evidence/both-blind-FIRSTs-whole-readback-actual.json",
+    "bytes": 15944,
+    "sha256": "e3b5f35fd16d9112cfd43e3bcbf9c149e110c943a8bcda40b96ac7b7a416884d"
+  },
+  "source_validity": "Two ordinary FIRSTs and SAME ALIGNs; private source and unused H/K not exported here.",
+  "native_counts": {
+    "neutral": 2,
+    "original_completed_turns": 3,
+    "original_finals": 3,
+    "setup_retries": 0,
+    "participant_replays": 0,
+    "scored_treatment": 0,
+    "H_K_participant_runs": 0
+  },
+  "blind_grade_counts": {
+    "fresh_fork_none_explorers": 2,
+    "full_original_returns": 2,
+    "replacements": 0,
+    "regrades": 0,
+    "eligible_graders": 2,
+    "joint_qualifying_ids": []
+  },
+  "guards": "All required actual source/input/context/exposure/noTools/process/authcopy guards, PID-before-GO, SAME-owned close0 and MCP Node0 passed; no timeout and empty primary/collector stderr.",
+  "catalog_proposal": {
+    "target": "evals/hard-screen-20261003/README.md",
+    "before": {
+      "path": "temp/hard-screen-20261003/worker/F116/catalog-proposal/README.before.md",
+      "bytes": 89476,
+      "sha256": "e5598c51fda3f3e4b86437269bf50bfb6eb9c08c240e4b1c8bc9402022bcef81"
+    },
+    "append": {
+      "path": "temp/hard-screen-20261003/worker/F116/catalog-proposal/README.append.md",
+      "bytes": 871,
+      "sha256": "b8f5849597e04065129d4949ebd6d34a4f8ef5bd0f9f49f1de1071be256ef7e0"
+    },
+    "after": {
+      "path": "temp/hard-screen-20261003/worker/F116/catalog-proposal/README.after.md",
+      "bytes": 90347,
+      "sha256": "8f7576bd01d610d664667730f5153db12e64ad13e5fb17652f72e9b2d9788bfe"
+    },
+    "exact_prefix_preserved": true,
+    "inverse_removes_only_append": true,
+    "shared_catalog_unchanged": false,
+    "applied": true
+  },
+  "worker_evidence_index": "temp/hard-screen-20261003/worker/F116/FINAL-PROPOSAL.json",
+  "limits": [
+    "Actual backend identity unverified; outer timeout is not a hard watchdog and descendant cleanup remains unverified.",
+    "Raw aggregate file/turn counts are not valid-trial or admission counts.",
+    "No skill efficacy assessment or protected-history re-audit."
+  ],
+  "root_final_verification": {
+    "path": "temp/hard-screen-20261003/f116-final-root-readonly-gate.json",
+    "sha256": "69d5e56c849199517b16a514d8c826d37525be2fa0c55b2f57203ff4bbd6a84a"
+  }
+}

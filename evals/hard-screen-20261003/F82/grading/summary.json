@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "status": "GRADING_COMPLETE_PENDING_ROOT_FINAL",
+  "proposed_final_verdict": "EXCLUDED_NOT_HARD",
+  "mechanical_admission": {
+    "grader_one_qualifying_IDs": [],
+    "grader_two_qualifying_IDs": [],
+    "SAME_ID_intersection": [],
+    "required_same_ID_count": 2,
+    "all_three_extra_validity_audit_required": false,
+    "retained_change_authorized": false
+  },
+  "FIRSTs": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F82/grading/grader-one-FIRST.md",
+      "bytes": 3337,
+      "sha256": "ce915049ea85541f1226e0a7f23381c7323d4a13327524d358e5105019566b7a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F82/grading/grader-two-FIRST.md",
+      "bytes": 3474,
+      "sha256": "962fcfa951c38b301e0b8e619adb47946244638a7110e2903d26398d60323d7a"
+    }
+  ],
+  "grades": [
+    [
+      {
+        "anonymous_id": "Response-A",
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      },
+      {
+        "anonymous_id": "Response-B",
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      },
+      {
+        "anonymous_id": "Response-C",
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      }
+    ],
+    [
+      {
+        "anonymous_id": "Response-A",
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      },
+      {
+        "anonymous_id": "Response-B",
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      },
+      {
+        "anonymous_id": "Response-C",
+        "dimension_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      }
+    ]
+  ],
+  "mapping": [
+    {
+      "anonymous_id": "Response-A",
+      "case_id": "F82C",
+      "condition": "baseline",
+      "repetition": 1,
+      "attempt": 1,
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F82/original/F82C-baseline-r1-attempt1/final.txt",
+        "bytes": 481,
+        "sha256": "70de7ec304e8624ba93ca973843d6184bccdc54074e67e7c8580bc7bf842d7d0"
+      },
+      "public_response": "responses/F82C-baseline-r1.txt"
+    },
+    {
+      "anonymous_id": "Response-B",
+      "case_id": "F82C",
+      "condition": "baseline",
+      "repetition": 2,
+      "attempt": 2,
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F82/original/F82C-baseline-r2-attempt2/final.txt",
+        "bytes": 539,
+        "sha256": "c6d0fb2f886f64dc768fb76d87d4d31426ca94688ec013bee060192b24c6c502"
+      },
+      "public_response": "responses/F82C-baseline-r2.txt"
+    },
+    {
+      "anonymous_id": "Response-C",
+      "case_id": "F82C",
+      "condition": "baseline",
+      "repetition": 3,
+      "attempt": 1,
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F82/original/F82C-baseline-r3-attempt1/final.txt",
+        "bytes": 423,
+        "sha256": "3fb500364e198db447e6c18edd842c5295dad34299d0e653a7c88cfe9b38bc24"
+      },
+      "public_response": "responses/F82C-baseline-r3.txt"
+    }
+  ],
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "objective_error_counts": [
+    0,
+    0
+  ],
+  "secondary_full_pass_counts": [
+    3,
+    3
+  ],
+  "secondary_means": [
+    10,
+    10
+  ],
+  "disagreement": "None",
+  "rules": "Fixed V2/V3/generic; every lawful alternative; no quotas; objective/qualifying/secondary separate; one public root once",
+  "H_K_participant_use": 0,
+  "scored_treatment": 0,
+  "efficacy": "UNKNOWN",
+  "retained": 0,
+  "target": 6
+}

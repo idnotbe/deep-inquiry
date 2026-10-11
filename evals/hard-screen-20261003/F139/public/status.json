@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "candidate": "F139_NATIVE_V1",
+  "family": "F139",
+  "status": "EXCLUDED_NOT_HARD",
+  "local_record": "READY_FOR_ROOT_FINAL_READBACK",
+  "retained_families": 0,
+  "target_families": 6,
+  "goal_complete": false,
+  "originals_correct": 3,
+  "grades": {
+    "a": [
+      10,
+      10,
+      10
+    ],
+    "b": [
+      10,
+      10,
+      10
+    ]
+  },
+  "objective_errors": {
+    "a": 0,
+    "b": 0
+  },
+  "qualifying_failures": {
+    "a": 0,
+    "b": 0
+  },
+  "joint_qualifying": [],
+  "route": "direct_native_subagents",
+  "fork_turns_requested": "none",
+  "model_requested": "gpt-6.1-sol",
+  "effort_requested": "medium",
+  "actual_backend": "UNVERIFIED",
+  "host_injected_context": "UNAVAILABLE",
+  "tool_telemetry_available": false,
+  "tool_attempts_observed": 0,
+  "tool_absence_verified": false,
+  "sterile_context_verified": false,
+  "old_CLI_qualification_ran": false,
+  "effort_is_admission_evidence": false,
+  "counts": {
+    "originals": 3,
+    "retries": 0,
+    "replacements": 0,
+    "scored_treatment": 0,
+    "neutral_calls": 0
+  },
+  "heldout_used": false,
+  "efficacy": "UNKNOWN",
+  "grader_b_generic_skill_consultation": "REPORTED_ROLE_GUIDANCE_LIMIT",
+  "condition_leakage_evidence": "NONE_OBSERVED",
+  "F138_status_unchanged": "INCONCLUSIVE_RUNTIME",
+  "F127_changed": false
+}

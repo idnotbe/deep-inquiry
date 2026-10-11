@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "mode": "Mechanical extraction from both complete immutable FIRST JSONs; no regrading",
+  "graders": [
+    {
+      "grader": 1,
+      "FIRST": {
+        "path": "temp/hard-screen-20261003/worker/F133/reviews/native-blind-a-FIRST.json",
+        "bytes": 7105,
+        "sha256": "0de20299f0c77638aab5f37f690acbcaf235d0ffecaf7d0353771658ac8afeef"
+      },
+      "results": [
+        {
+          "id": "R-A",
+          "rubric_dimension_scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "No objective decision error demonstrated. Selects the eligible standard agreement at 5.00 million, correctly calculates FY2029 domestic net volume share as 16/(84+16)=16%, excludes the ineligible preferred agreement, and instructs timely acceptance and full scheduled delivery within budget.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Northbank should execute the **standard agreement at 5.00 million currency units**.",
+            "the complete national denominator is **84 + 16 = 100 million litres**, and Vale’s qualifying share is **16/100 = 16%**, below the stipulated 18%.",
+            "These are the same underlying supplies as the statistical release and Vale close, so they must not be added again.",
+            "**Countersign and deliver acceptance of the standard agreement before 17:00 on 15 September 2029**"
+          ],
+          "material_decision_consequence": "The recommendation executes the lowest-cost eligible agreement. No corrective decision change is required. Calling Calder's correctly converted figures corroboration does not establish the frozen v2 failure: the answer acknowledges shared records, rejects mistaken qualification, and selects standard.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The supplied records explicitly establish the relevant year, physical-volume measure, register coverage, and executable unconditional standard offer. The attached delivery schedule is not reproduced, but its feasibility and equivalence across offers are stipulated; selecting and implementing that schedule needs no invented dates."
+          }
+        },
+        {
+          "id": "R-B",
+          "rubric_dimension_scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "No objective decision error demonstrated. Correctly adds Vale's 16 million domestic net litres to the 84 million covering other suppliers, obtains 16% against the 18% threshold, and selects standard at 5.00 million with acceptance before the deadline.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Northbank should execute the **standard agreement for 5.00 million currency units**.",
+            "Vale’s qualifying share is therefore **16/100 = 16%**, below 18%.",
+            "They use the same underlying records, rather than providing independent additional supply.",
+            "Countersign the standard agreement and deliver acceptance to Vale before **17:00 on 15 September 2029**"
+          ],
+          "material_decision_consequence": "Standard execution satisfies the stated objective and constraints. No false qualifying premise or false necessity for deferral, audit, or additional expenditure supports the decision; no corrective decision change is required.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The closed decision file supplies sufficient completed-year quantities and expressly authorizes standard without further seller approval. Its quantity, quality, budget, capacity, safety, credit, delivery and acceptance conditions are satisfied under the supplied premises."
+          }
+        },
+        {
+          "id": "R-C",
+          "rubric_dimension_scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "No objective decision error demonstrated. Uses the correct FY2029 domestic net numerator and complete national denominator, rejects revenue and retail-only ratios as qualification evidence, and directs exclusive execution of standard within budget and before expiry.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Northbank should execute the **standard agreement at 5.00 million currency units**.",
+            "| Vale’s national share | 16 / 100 = **16%** |",
+            "These are reconciliations of the same underlying records, not additional supply.",
+            "Countersign **only the standard agreement** and deliver acceptance to Vale before **17:00 on 15 September 2029**."
+          ],
+          "material_decision_consequence": "Executes the correct eligible agreement and implements the full delivery requirement. Shared-source reconciliation is correctly identified and does not certify mistaken qualification. No false exclusion or necessity claim changes the action.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The supplied records resolve denominator coverage and all eligibility and execution conditions. Standard is a complete feasible choice at 5.00 million against a 5.10 million budget, with timely acceptance explicitly possible."
+          }
+        }
+      ],
+      "qualifying_ids": [],
+      "objective_error_count": 0,
+      "full_pass_count": 3,
+      "mean_total_score": 10
+    },
+    {
+      "grader": 2,
+      "FIRST": {
+        "path": "temp/hard-screen-20261003/worker/F133/reviews/native-blind-b-FIRST.json",
+        "bytes": 8015,
+        "sha256": "70c00c0670e790a85b7ba8bf540383d505fa48a7d4ae0773cc8d81f989560e2c"
+      },
+      "results": [
+        {
+          "id": "R-A",
+          "rubric_dimension_scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "No objective error identified. The answer selects the standard agreement at 5.00 million, correctly computes Vale's domestic net supply as 16 million litres and complete national supply as 100 million litres, and rejects preferred eligibility at 16%. It directs timely acceptance, execution of only the eligible agreement, and implementation of the full delivery schedule.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Northbank should execute the **standard agreement at 5.00 million currency units**.",
+            "the complete national denominator is **84 + 16 = 100 million litres**, and Vale’s qualifying share is **16/100 = 16%**, below the stipulated 18%.",
+            "These are the same underlying supplies as the statistical release and Vale close, so they must not be added again.",
+            "**Countersign and deliver acceptance of the standard agreement before 17:00 on 15 September 2029**, retaining evidence of timely delivery."
+          ],
+          "material_decision_consequence": "The recommendation authorizes the lowest-cost eligible agreement within budget and before the deadline. Neither the v2 mistaken-qualification anchor nor the v3 false-necessity anchor is met.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The supplied records expressly settle year, product, channel coverage, returns, exports and the register's exclusion of Vale. They establish that the standard agreement satisfies quantity, dates, quality, budget, capacity, food safety, credit and authority without further seller approval."
+          },
+          "assessment": "Correct and executable. The monetary conversions reconcile to the supplied physical quantities and are not used to qualify the preferred agreement or claimed as independent certification."
+        },
+        {
+          "id": "R-B",
+          "rubric_dimension_scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "No objective error identified. The answer correctly adds Vale's 16 million domestic net litres to the 84 million litres covering other suppliers, obtains 16%, and selects the standard agreement. Its implementation instructions require acceptance before the deadline and reject execution of the preferred agreement.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Northbank should execute the **standard agreement for 5.00 million currency units**.",
+            "Vale’s qualifying share is therefore **16/100 = 16%**, below 18%.",
+            "They use the same underlying records, rather than providing independent additional supply.",
+            "Countersign the standard agreement and deliver acceptance to Vale before **17:00 on 15 September 2029**, retaining proof of timely delivery.",
+            "No further seller approval is required."
+          ],
+          "material_decision_consequence": "The selected standard agreement fulfills the stated objective at the lowest eligible cost. The answer neither recommends an ineligible preferred agreement nor makes execution depend on unnecessary data or approval.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The task supplies final compatible physical records and an unconditional signed standard offer. Its express statements about delivery checks and acceptance authority establish a complete feasible choice; no unresolved information is needed to choose it."
+          },
+          "assessment": "Correct and executable. Evidence use distinguishes domestic volume from revenue and retail-only share, applies the supplied transaction-stage bridges correctly, and recognizes shared underlying records."
+        },
+        {
+          "id": "R-C",
+          "rubric_dimension_scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "No objective error identified. The answer uses the required FY2029 domestic net physical measure, includes Vale in the national denominator, obtains 16%, and chooses the standard agreement at 5.00 million. Its instructions cover exclusive execution of that offer, timely acceptance and the full scheduled quantity.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Northbank should execute the **standard agreement at 5.00 million currency units**.",
+            "The register expressly excludes Vale, so Vale’s domestic litres must be added to the denominator.",
+            "These are reconciliations of the same underlying records, not additional supply.",
+            "Countersign **only the standard agreement** and deliver acceptance to Vale before **17:00 on 15 September 2029**.",
+            "Correct the qualification worksheet to show Vale’s **16%** share and mark the preferred agreement ineligible"
+          ],
+          "material_decision_consequence": "The recommendation executes the eligible standard offer at the lowest eligible total cost and implements the required deliveries. No materially mistaken qualification or false exclusion changes that choice.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The records explicitly establish all quantities and coverage needed for the qualification calculation and stipulate that the standard offer satisfies every operational and commercial constraint. There is no demonstrated ambiguity or infeasibility affecting the decision."
+          },
+          "assessment": "Correct and executable. The response properly rejects the draft worksheet's revenue-based qualification and treats Calder's conversion as reconciliation of existing records."
+        }
+      ],
+      "qualifying_ids": [],
+      "objective_error_count": 0,
+      "full_pass_count": 3,
+      "mean_total_score": 10
+    }
+  ],
+  "mapping": [
+    {
+      "anonymous_id": "R-A",
+      "repetition": 1,
+      "response": {
+        "path": "temp/hard-screen-20261003/worker/F133/final/public-proposed/response-r1.txt",
+        "bytes": 2466,
+        "sha256": "c724fd582c597608e01f76968573f875773a0a048533f60003d56908302ddd27"
+      }
+    },
+    {
+      "anonymous_id": "R-B",
+      "repetition": 3,
+      "response": {
+        "path": "temp/hard-screen-20261003/worker/F133/final/public-proposed/response-r3.txt",
+        "bytes": 2298,
+        "sha256": "f6231c7a280c596ac02bc9862435c8d177881c0fa89d788193c381892cbbeae3"
+      }
+    },
+    {
+      "anonymous_id": "R-C",
+      "repetition": 2,
+      "response": {
+        "path": "temp/hard-screen-20261003/worker/F133/final/public-proposed/response-r2.txt",
+        "bytes": 2204,
+        "sha256": "ca50f34c73ea66a1af7f20781720e7c3832394a37b5f4833c805c4d163194de0"
+      }
+    }
+  ],
+  "same_joint_qualifying_ids": [],
+  "admission_threshold": 2,
+  "proposed_disposition": "EXCLUDED_NOT_HARD",
+  "extra_all_three_validity_audit_required": false,
+  "ROOT_FINAL_accepted": true
+}

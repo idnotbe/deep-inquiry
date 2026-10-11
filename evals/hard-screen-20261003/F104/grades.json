@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "status": "EXCLUDED_NOT_HARD_ROOT_FINAL_ACCEPTED",
+  "boundary": "Both full original wrappers saved and exact-readback before this synthesis and private mapping read.",
+  "graders": [
+    {
+      "id": "one",
+      "role": "explorer",
+      "fork_turns": "none",
+      "eligible": true,
+      "eligibility_basis": "Only assigned packet substantive evidence; six procedural paths all allowed. Initial wrong-transport read attempt failed before process/content; preserved procedural exception, not forbidden substantive access.",
+      "procedural_reads": [
+        "local-codex-home/skills/communicate-plainly/SKILL.md",
+        "local-codex-home/skills/general-agent-guardrails/SKILL.md",
+        "local-codex-home/skills/top-orchestrator-router/SKILL.md",
+        "local-codex-home/skills/top-orchestrator-router/references/worker.md",
+        "local-codex-home/skills/top-orchestrator-router/references/delegation-review.md",
+        "local-codex-home/skills/deep-delegated-workflow/SKILL.md"
+      ],
+      "full_original": "blind-FIRST-one.md",
+      "grades": [
+        {
+          "anonymous_id": "R-A",
+          "repetition": 3,
+          "dimensions": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "anonymous_id": "R-B",
+          "repetition": 1,
+          "dimensions": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "anonymous_id": "R-C",
+          "repetition": 2,
+          "dimensions": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ],
+      "qualifying_ids": [],
+      "numerical_full_passes": 3,
+      "mean_total": 10,
+      "exceptions": [
+        "Attempted native PowerShell executor rather than specified Git Bash; process creation failed helper_unknown_error/setup refresh, no content returned. Then used authorized Git Bash.",
+        "No truncation reported."
+      ]
+    },
+    {
+      "id": "two",
+      "role": "explorer",
+      "fork_turns": "none",
+      "eligible": true,
+      "eligibility_basis": "Only assigned packet and six allowed procedural paths; initial packet display truncation repaired by same isolated packet reread.",
+      "procedural_reads": [
+        "local-codex-home/skills/communicate-plainly/SKILL.md",
+        "local-codex-home/skills/general-agent-guardrails/SKILL.md",
+        "local-codex-home/skills/top-orchestrator-router/SKILL.md",
+        "local-codex-home/skills/top-orchestrator-router/references/worker.md",
+        "local-codex-home/skills/top-orchestrator-router/references/delegation-review.md",
+        "local-codex-home/skills/deep-delegated-workflow/SKILL.md"
+      ],
+      "full_original": "blind-FIRST-two.md",
+      "grades": [
+        {
+          "anonymous_id": "R-A",
+          "repetition": 3,
+          "dimensions": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "anonymous_id": "R-B",
+          "repetition": 1,
+          "dimensions": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "anonymous_id": "R-C",
+          "repetition": 2,
+          "dimensions": {
+            "decision": 2,
+            "evidence": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ],
+      "qualifying_ids": [],
+      "numerical_full_passes": 3,
+      "mean_total": 10,
+      "exceptions": [
+        "Initial combined output truncated within packet; isolated reread delivered complete packet. Procedural outputs complete."
+      ]
+    }
+  ],
+  "same_id_intersection": [],
+  "same_id_intersection_count": 0,
+  "required_for_retention": 2,
+  "all_three_extra_validity_required": false,
+  "objective_errors_by_grader": [
+    0,
+    0
+  ],
+  "qualifying_failures_by_grader": [
+    0,
+    0
+  ],
+  "selection_rule": "Unchanged prospective V2/V3 and F85/revision1 generic rules; numerical scores diagnostic only.",
+  "replacements": 0,
+  "regrades": 0,
+  "retained_before": 0,
+  "retained_after_proposed": 0,
+  "target": 6
+}

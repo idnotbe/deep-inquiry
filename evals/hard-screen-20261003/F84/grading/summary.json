@@ -1,0 +1,135 @@
+{
+  "created_at": "2026-10-07T14:00:32.521Z",
+  "status": "EXCLUDED_NOT_HARD",
+  "both_FULL_FIRST_saved_before_synthesis_unblinding": true,
+  "firsts": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F84/blind/FIRST1.md",
+      "bytes": 3034,
+      "sha256": "732fa756625f07b7f05b92dc12de9c880624dbb4bf57c322eea0c27c47f621af"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F84/blind/FIRST2.md",
+      "bytes": 2985,
+      "sha256": "487ea77aa8510591c28d430bcef052399e148f4a870abda717999e084f023426"
+    }
+  ],
+  "packet": {
+    "path": "temp/hard-screen-20261003/worker/F84/blind/packet.json",
+    "bytes": 13119,
+    "sha256": "2e6a7f96a3c5a6ab2f258e206e7d12955a703f719ed87da35723f6e2560bf7e2"
+  },
+  "mapping": {
+    "path": "temp/hard-screen-20261003/worker/F84/blind/sealed-mapping.json",
+    "bytes": 1552,
+    "sha256": "366b39585cdfffaf34860a3a15e0a8b57105f5fa0d15e3a7a5cabcf0a177d350"
+  },
+  "anonymous_response_order": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "qualifying_sets": [
+    [],
+    []
+  ],
+  "joint_qualifying_anonymous_ids": [],
+  "joint_qualifying_original_repetitions": [],
+  "objective_error_counts": [
+    0,
+    0
+  ],
+  "qualifying_counts": [
+    0,
+    0
+  ],
+  "secondary_scores": [
+    [
+      {
+        "id": "R1",
+        "total_score": 10,
+        "component_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        }
+      },
+      {
+        "id": "R2",
+        "total_score": 10,
+        "component_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        }
+      },
+      {
+        "id": "R3",
+        "total_score": 10,
+        "component_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        }
+      }
+    ],
+    [
+      {
+        "id": "R1",
+        "total_score": 10,
+        "component_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        }
+      },
+      {
+        "id": "R2",
+        "total_score": 10,
+        "component_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        }
+      },
+      {
+        "id": "R3",
+        "total_score": 10,
+        "component_scores": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        }
+      }
+    ]
+  ],
+  "secondary_full_pass_counts": [
+    3,
+    3
+  ],
+  "secondary_mean_scores": [
+    10,
+    10
+  ],
+  "mechanical_rule": "Both graders must identify at least2 SAME qualifying IDs; all3 joint requires separatelyROOTreleased extra validity audit.",
+  "requires_extra_all3_audit": false,
+  "retained_count_after_ROOT_FINAL": 0,
+  "no_regrading_replacement_averaging": true,
+  "criteria_changed": false,
+  "H_K_participant_unused": true,
+  "scored_treatment": 0,
+  "efficacy": "UNKNOWN",
+  "lineage": "F54-related intervention-sensitive refinement, no global novelty claim/same retained mechanism once"
+}

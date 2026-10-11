@@ -1,0 +1,19 @@
+{
+  "candidate": "F89",
+  "classification": "EXCLUDED_NOT_HARD",
+  "publication_gate": "ROOTFINAL pending",
+  "participant_runs": {
+    "C": 3,
+    "H": 0,
+    "K": 0
+  },
+  "H_K_UNUSED": true,
+  "neutral_unscored_turns": 2,
+  "scored_treatment_runs": 0,
+  "retained_count": "0/6 unchanged",
+  "backend_identity": "UNKNOWN nonblocking",
+  "effort_not_considered": true,
+  "skill_efficacy": "UNKNOWN",
+  "final_full_verification": "NOT_RUN; only authorized at actual six retained families",
+  "protected_F46_F51": "UNKNOWN unchanged; not probed"
+}

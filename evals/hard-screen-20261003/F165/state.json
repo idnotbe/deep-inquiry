@@ -1,0 +1,97 @@
+{
+  "candidate": "F165",
+  "version": "closure-1",
+  "source_version": "F165_SOURCE_V2",
+  "issue": 16,
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "difficulty": "UNDETERMINED",
+  "whole_goal": "INCOMPLETE",
+  "delivery_state": "PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW",
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "increment": 0,
+    "after": 0,
+    "target": 6
+  },
+  "original_episodes_launched": 3,
+  "original_finals_preserved": 3,
+  "accepted_gradeable_finals": 0,
+  "original_record_counts": [
+    24,
+    26,
+    24
+  ],
+  "original_records_total": 74,
+  "public_copy_counts": [
+    7,
+    7,
+    7
+  ],
+  "public_copies_total": 21,
+  "slots": [
+    {
+      "slot": "r1",
+      "validity": "UNVERIFIED",
+      "unscored": true,
+      "final": {
+        "bytes": 1510,
+        "sha256": "747698ec7bc36a1a067cbfbc8d8ae37b064c692d765380eee778666793484f9d"
+      }
+    },
+    {
+      "slot": "r2",
+      "validity": "UNVERIFIED",
+      "unscored": true,
+      "final": {
+        "bytes": 1672,
+        "sha256": "ff6e2d3dfc77246b322409b4e73fadc52fa57a418ec0a7308ea51ed51b4b5284"
+      }
+    },
+    {
+      "slot": "r3",
+      "validity": "UNVERIFIED",
+      "unscored": true,
+      "final": {
+        "bytes": 1822,
+        "sha256": "a96ab94744fd5801d56f234684a18ee77122bfc8eb4228dd799ad6d240e22d29"
+      }
+    }
+  ],
+  "participant_side_checks": "PASS",
+  "participant_misconduct_found": false,
+  "semantic_audit": "INVALID",
+  "audit_failure": {
+    "severity": "P1",
+    "reason": "EXECUTED_RAW_RETAINED_SOURCE_IDENTITY_OUTPUT",
+    "executed_incidents": 1,
+    "raw_value_reproduced": false
+  },
+  "unexecuted_denials": {
+    "collector": 5,
+    "auditor": 8,
+    "total": 13
+  },
+  "grading": "NOT_RUN_ALL_THREE_VALID_REQUIRED",
+  "grader_calls": 0,
+  "grade_results": 0,
+  "anonymous_packet": "NOT_CREATED",
+  "retries": 0,
+  "replacements": 0,
+  "followups": 0,
+  "heldout_participant_uses": 0,
+  "treatment_runs": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "wrapper_semantics": "FROZEN_PLUS_SINGLE_LF_SAME_INNER_ARGUMENTS_AND_OBSERVATION",
+  "source_preflight_passes_preserved": true,
+  "historical_pending_statuses_edited": false,
+  "preparation_pass_replaces_audit_gate": false,
+  "submission_authority": "temp/hard-screen-20261003/f165-validity-disposition.md",
+  "limits": {
+    "protected_initial_plaintext": "ADOPTED_ROOT_NATIVE_API_TRUST_NOT_INDEPENDENT_EQUALITY",
+    "backend_fallback": "UNVERIFIED",
+    "complete_internal_isolation": "UNVERIFIED",
+    "effort": "PROTOCOL_FIDELITY_ONLY"
+  },
+  "closure_frozen": true
+}

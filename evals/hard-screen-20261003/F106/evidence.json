@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "source_contract": {
+    "formal_revision": 1,
+    "proposal_revision": 1,
+    "ordinary_sources_byte_preserved": true,
+    "JSON_prompt_transform": "one terminal LF omitted, explicitly bound",
+    "COMMON": "same source sentence retained and canonical runner sentence appended; two occurrences"
+  },
+  "runtime": {
+    "original_order": [
+      2,
+      3,
+      1
+    ],
+    "original_counts": {
+      "setup_launches": 3,
+      "turn_dispatches": 3,
+      "completed_turns": 3,
+      "preserved_terminal_finals": 3,
+      "setup_retry_count": 0
+    },
+    "neutral_counts": {
+      "setup_launches": 2,
+      "turn_dispatches": 2,
+      "completed_turns": 2,
+      "preserved_terminal_finals": 2,
+      "setup_retry_count": 0
+    },
+    "all_required_actual_guards_pass": true,
+    "PID_before_GO": true,
+    "SAME_owned_close0": true,
+    "original_input_count": 1,
+    "original_completed_turns_per_slot": 1,
+    "neutral_expected_terminal": "ready",
+    "retries": 0,
+    "model_replays": 0,
+    "original_replacements": 0
+  },
+  "grading": {
+    "new_fork_none_explorers": 2,
+    "packet_sha256": "18545f2f2903acf310cbb97e9d32b70932ad07a1306eb26746267bf3a6ac7b2d",
+    "full_FIRSTs": {
+      "A": {
+        "path": "evals/hard-screen-20261003/F106/reviews/blind-A-FIRST.full.md",
+        "bytes": 8775,
+        "sha256": "f98af82a3bbfa364d715049235fcee9e551bd8ddc54f8b614d2d037cea677177"
+      },
+      "B": {
+        "path": "evals/hard-screen-20261003/F106/reviews/blind-B-FIRST.full.md",
+        "bytes": 8071,
+        "sha256": "9bd16be20a988057c1ddf43fa597316f9740807a808c313cbcefd1fe0973fa8e"
+      }
+    },
+    "both_full_FIRSTs_saved_exact_readback_before_synthesis_mapping_meaning": true,
+    "packet_only_substantive_evidence": true,
+    "allowlisted_procedural_files_each": 6,
+    "substantive_contamination_reported": false,
+    "regrading": false,
+    "replacement_graders": false,
+    "A_assignment_deviation": "One duplicate communicate-plainly allowlist entry; 19 unique permitted files unchanged. ROOT accepted this alone does not disqualify.",
+    "tool_metadata_discovery": "Both graders disclosed non-substantive tool discovery; ROOT accepted eligibility from full access disclosures."
+  },
+  "static_check": {
+    "executions": 1,
+    "case_witnesses_and_menus": 24,
+    "synthetic_collector_returns": 12,
+    "positive_phases": 2,
+    "negative_mutations": 10,
+    "native_evidence": false
+  },
+  "limitations": [
+    "Actual backend identity remains unverified. Reasoning effort not considered.",
+    "Descendant cleanup is unverified; requested outer timeout is not a hard watchdog guarantee.",
+    "Source-fix preexecution invocation was corrupted; postexecution reconstruction is not saved-before proof. Corrupt artifacts retained; primary return restored exactly; no execution replay. ROOT accepted the later frozen matching candidate and formal evidence.",
+    "H is participant-unused near-transfer, not an equal-difficulty calibration. K is an unused explanatory control, not empirical skill-effect evidence.",
+    "Full agreed-scope verification and deferred final artifact reviews remain for actual six retained families."
+  ],
+  "counts_added": {
+    "candidate_identifiers": 1,
+    "preserved_terminal_problem_finals": 3,
+    "completed_problem_turns": 3,
+    "neutral_unscored_turns_excluded": 2
+  },
+  "coordinator_confirmed_cumulative_lower_bound": {
+    "prior": [
+      89,
+      256,
+      315
+    ],
+    "after": [
+      90,
+      259,
+      318
+    ],
+    "order": [
+      "candidate_identifiers",
+      "preserved_terminal_problem_finals",
+      "completed_problem_turns"
+    ],
+    "older_unknown_contributions_preserved": true
+  },
+  "retained": 0,
+  "target": 6,
+  "root_final_acceptance": "ACCEPTED",
+  "root_final_gate": "temp/hard-screen-20261003/f106-final-root-gate.json",
+  "historical_prefinals": [
+    {
+      "original_path": "evals/hard-screen-20261003/F106/reports/screening.md",
+      "path": "temp/hard-screen-20261003/worker/F106/root-final-prefinals/reports__screening.md",
+      "bytes": 4033,
+      "sha256": "a895311f5c6035b290225a9aa8e49be397f85f16785094b087aad31b11975b25"
+    },
+    {
+      "original_path": "evals/hard-screen-20261003/F106/status.json",
+      "path": "temp/hard-screen-20261003/worker/F106/root-final-prefinals/status.json",
+      "bytes": 712,
+      "sha256": "3c9101052b078074db1e6ed5a2eb8046c74c373f382e173d0805b4058c2dbab9"
+    },
+    {
+      "original_path": "evals/hard-screen-20261003/F106/grades.json",
+      "path": "temp/hard-screen-20261003/worker/F106/root-final-prefinals/grades.json",
+      "bytes": 4445,
+      "sha256": "9bed0a94889c4788fb92e7bd3b53b9fd1b6ba31b03f6f3cf61e28d0fb7751fa1"
+    },
+    {
+      "original_path": "evals/hard-screen-20261003/F106/evidence.json",
+      "path": "temp/hard-screen-20261003/worker/F106/root-final-prefinals/evidence.json",
+      "bytes": 3744,
+      "sha256": "84405a22b4d346b1a1ea532e20e9aa98a9e730f3b4f275f5e2c485708262a9bf"
+    }
+  ],
+  "raw_accounting_note": "Preserved final-file counts include invalid historical outputs; not the number of valid trials.",
+  "accepted_publication_bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F106/reports/screening.md",
+      "bytes": 4184,
+      "sha256": "b0dd4e851648270a0b2f6485b26dd8840da5076fb54079a2672104128b11e498"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F106/status.json",
+      "bytes": 818,
+      "sha256": "71d662dbe8cdf8d44a5b7217e60fe1024c7dbd5ea2c05d2f162154798cb9daa9"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F106/grades.json",
+      "bytes": 4484,
+      "sha256": "4fbcb1f807c9fd9b5fe7b7fd2e575699079c0165f27fc100624074c7d8bedc71"
+    }
+  ]
+}

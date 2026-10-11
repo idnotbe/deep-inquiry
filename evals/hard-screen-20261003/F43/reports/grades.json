@@ -1,0 +1,147 @@
+{
+  "family": "F43",
+  "packet_sha256": "c474fb486f792219419ac35035d3120a251a568e4bec11a605716bd102ec9abe",
+  "original_grade_sha256": {
+    "A": "988c8d1c92d67e2ca2d81ea209f353a28f518c7a56fcdadd235596edb9587ed5",
+    "B": "cc22842fdb46566e19224148d23e06ab92854b55886bc9ae9308a725ae3d2f6c"
+  },
+  "originals": {
+    "A": {
+      "packet_sha256": "c474fb486f792219419ac35035d3120a251a568e4bec11a605716bd102ec9abe",
+      "grades": [
+        {
+          "response_id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "explanation": "The complete conditional procedure lawfully commissions CURRENT, replaces the default approval program, orders exactly one license at tick2, and approves only issuer-bit-1 items at tick3. Its order condition necessarily holds: the current frame has three six-item handles, none individually resolved as H or J by the unlicensed fields. ISSUER supplies exact bits at tick2.25. The resulting guarantee is 14 eligible items with maximum invoice 1. The answer correctly separates REPORT selection from audited eligibility and physical output, identifies LEGACY's eligible ceiling of 11, and explains the necessary license using the indistinguishable CURRENT H/J frames. For any fixed seed and full unlicensed frame, swapping J with an H at a six-item handle preserves all observations while changing that handle's eligibility; thus arbitrary whole-frame rules cannot safely approve such items without the license. No public materially false premise or false exclusion chain is present.",
+          "uncertainties": []
+        },
+        {
+          "response_id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "explanation": "The procedure publishes a single CURRENT manifest, runs all four capsules once, orders one license after reading the tick2 frame, and commits approvals only for issuer-bit-1 handles at tick3. ISSUER expressly permits this order timing and makes the bits readable at tick2.25. It guarantees 2+6+6=14 eligible approvals for every assignment and seed, with invoice 1 and the original four-application denominator. The dashboard explanation correctly identifies the count-at-most-four selection and excluded eligible H rows, while the approval program independently replaces GATE's default. Its no-order CURRENT ceiling of 2 is valid even for whole-frame or randomized rules: fixing a seed and swapping J among the three six-item handles preserves every unlicensed observation. LEGACY's physical eligible ceiling is 11, so the licensed CURRENT procedure attains the overall ceiling at the minimum maximum invoice. No qualifying false premise is present.",
+          "uncertainties": []
+        },
+        {
+          "response_id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "explanation": "The answer provides a complete lawful operating procedure: read the frozen records before publication, load the replacement approval program, publish CURRENT at tick0, order exactly one license at tick2, obtain its bits at tick2.25, and approve every eligible item and no J item at tick3. The guarantee of 14 and maximum invoice 1 follow directly from PRODUCT and ISSUER. It correctly distinguishes REPORT's historical selection from issuer eligibility and GATE's actual default approval rule. The stated license necessity is sound under the entire exposed frame: any six-item handle can be J in a same-observation allowed assignment, including after fixing any supported seed. LEGACY safely distinguishes the types but emits only 11 eligible items. The physical ceiling and procurement lower bound support the chosen optimum. No objective decision error or qualifying inquiry failure is present.",
+          "uncertainties": []
+        }
+      ],
+      "summary": {
+        "qualifying_response_ids": [],
+        "objective_error_ids": []
+      }
+    },
+    "B": {
+      "packet_sha256": "c474fb486f792219419ac35035d3120a251a568e4bec11a605716bd102ec9abe",
+      "grades": [
+        {
+          "id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "explanation": "The complete conditional procedure lawfully publishes CURRENT, replaces the default approval program, reads the tick2 frame, orders one license and approves only issuer-bit-1 items at tick3. The procurement condition necessarily holds for this batch because the three six-item handles remain unresolved without issuer input. ISSUER permits ordering after the tick2 read and supplies bits at tick2¼. The procedure guarantees 14 eligible approvals with maximum invoice 1. It correctly separates REPORT's count filter from audited eligibility and physical output. Its necessity argument is valid: for any fixed supported seed, swapping J with an H among six-item handles preserves the entire unlicensed observable frame, so approving any item on such a handle would be unsafe in an allowed assignment. Unlicensed CURRENT therefore safely yields at most 2; LEGACY yields at most 11; licensed CURRENT attains the physical ceiling of 14.",
+          "uncertainties": []
+        },
+        {
+          "id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "explanation": "The operating program is complete and lawful: one CURRENT manifest, one tick2 license order, readable issuer bits at tick2¼ and a tick3 approval bitmap containing exactly L/H items. It guarantees 14 eligible approvals in every permitted assignment and supported seed and incurs exactly 1 credit. PRODUCT and REPLAY support the eligible totals of 11 under LEGACY and 14 under CURRENT; REPORT explains the dashboard's exclusion of both eligible CURRENT H rows; GATE permits replacing the count rule. The necessity claim correctly reflects whole-frame indistinguishability under J/H swaps, which prevents safe unlicensed approval of any six-item handle. Neither free report changes nor repeated observations supply the missing eligibility bits.",
+          "uncertainties": []
+        },
+        {
+          "id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "findings": [],
+          "explanation": "The answer supplies a complete executable program using one CURRENT manifest, one license ordered after the tick2 frame read and issuer-bit-based approvals at tick3. The stated tick2¼ availability follows directly from ISSUER and leaves adequate time before irrevocable commitment. The program safely approves all 14 eligible items and rejects J for every allowed assignment and seed, with maximum invoice 1. Its report-selection explanation and replacement of GATE's default count rule are correct. Fourteen is the physical eligible ceiling, LEGACY supplies only 11, and an unlicensed CURRENT frame admits J/H swaps preserving all observations. The resulting inability to approve six-item handles safely establishes the licensed procurement requirement.",
+          "uncertainties": []
+        }
+      ],
+      "summary": {
+        "qualifying_response_ids": [],
+        "objective_error_ids": []
+      }
+    }
+  },
+  "view_normalization": "A response_id and B id matched only for lookup; originals unchanged.",
+  "selection": {
+    "status": "EXCLUDED",
+    "joint_qualifying_ids": [],
+    "joint_qualifying_count": 0,
+    "required_joint_ids": 2,
+    "valid_originals": 3,
+    "retained_families": 0,
+    "remaining_required": 6,
+    "criteria_changed": false
+  }
+}

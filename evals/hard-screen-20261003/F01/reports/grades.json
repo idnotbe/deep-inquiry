@@ -1,0 +1,90 @@
+{
+  "f01_grader_a": [
+    {
+      "id": "R01",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "evidence": "Correct sharp range, endpoint regret, optimal feasible allocation, and relative study value."
+    },
+    {
+      "id": "R02",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "evidence": "Correct sharp range, endpoint regret, optimal feasible allocation, and relative study value."
+    },
+    {
+      "id": "R03",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "evidence": "Correct sharp range, endpoint regret, optimal feasible allocation, and relative study value."
+    }
+  ],
+  "f01_grader_b": [
+    {
+      "id": "R01",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "evidence": "Correct sharp range, endpoint regret, optimal feasible allocation, and relative study value."
+    },
+    {
+      "id": "R02",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "evidence": "Correct sharp range, endpoint regret, optimal feasible allocation, and relative study value."
+    },
+    {
+      "id": "R03",
+      "dimensions": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "evidence": "Correct sharp range, endpoint regret, optimal feasible allocation, and relative study value."
+    }
+  ]
+}

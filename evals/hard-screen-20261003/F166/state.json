@@ -1,0 +1,138 @@
+{
+  "candidate": "F166",
+  "version": "closure-1",
+  "source_version": "F166_SOURCE_V1",
+  "issue": 17,
+  "outcome": "EXCLUDED_NOT_HARD",
+  "difficulty": "NOT_HARD_IN_THIS_THREE_ORIGINAL_SCREEN",
+  "whole_goal": "INCOMPLETE",
+  "delivery_state": "PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW",
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "increment": 0,
+    "after": 0,
+    "target": 6
+  },
+  "validity": [
+    "VALID",
+    "VALID",
+    "VALID"
+  ],
+  "protocol_acceptance": "ADOPTED_V4_AND_V2_INDEPENDENT_AUDIT_ROOT_ACCEPTED",
+  "original_episodes_launched": 3,
+  "original_records_total": 66,
+  "original_record_counts": [
+    22,
+    22,
+    22
+  ],
+  "public_copies_total": 21,
+  "public_copy_counts": [
+    7,
+    7,
+    7
+  ],
+  "accepted_gradeable_finals": 3,
+  "grader_calls": 2,
+  "grade_results": 2,
+  "response_ids": [
+    "R-1B4159A4410C",
+    "R-DE0181AD706E",
+    "R-EFCBFAF2FA44"
+  ],
+  "response_mapping": [
+    {
+      "anonymous_response_id": "R-1B4159A4410C",
+      "slot": "r2"
+    },
+    {
+      "anonymous_response_id": "R-DE0181AD706E",
+      "slot": "r3"
+    },
+    {
+      "anonymous_response_id": "R-EFCBFAF2FA44",
+      "slot": "r1"
+    }
+  ],
+  "scores": {
+    "a": [
+      10,
+      10,
+      10
+    ],
+    "b": [
+      10,
+      10,
+      10
+    ]
+  },
+  "qualifying_ids": {
+    "a": [],
+    "b": []
+  },
+  "same_id_intersection": [],
+  "retention_threshold_same_ids": 2,
+  "additional_postoutput_validity_review_required": false,
+  "retries": 0,
+  "replacements": 0,
+  "followups": 0,
+  "heldout_participant_uses": 0,
+  "treatment_runs": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "correct_decision": {
+    "extra_packs": 1,
+    "total_stock": 3,
+    "cost_usd": 100
+  },
+  "unexecuted_denials": {
+    "collector": 7,
+    "auditor": 6,
+    "total": 13
+  },
+  "incidents": {
+    "v1_omitted_prefixes": 3,
+    "v1_original_copies": 18,
+    "v2_recovered_prefix_bytes_each": 47,
+    "repair_shell_failures": 1,
+    "repair_header_timeouts": 1,
+    "auditor_errors": 2,
+    "packet_review_exec_startup_failures": 2,
+    "executed_privacy_exposure_found_by_auditor": false
+  },
+  "source_review": {
+    "a": "APPROVE",
+    "b": "APPROVE",
+    "design_fit_P2": "Small table and explicit adaptive-policy hint are earlier prospective risk; not a proven cause of observed outcome.",
+    "novel_retained_family": "NOT_ESTABLISHED"
+  },
+  "route": {
+    "kind": "native subagent",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "observed_configuration": "MATCHED_PER_ACCEPTED_INDEPENDENT_AUDIT",
+    "protected_initial_plaintext": "UNVERIFIED_ROOT_NATIVE_API_TRUST",
+    "actual_backend_fallback": "UNVERIFIED",
+    "internal_isolation": "UNVERIFIED",
+    "effort_used_for_admission": false
+  },
+  "blind_packet": {
+    "path": "temp/assessment-0166/packet.json",
+    "bytes": 60439,
+    "sha256": "fc4b91109c6b1c2609215512038d77f4f15735e54a37a949323d9d2913332dae"
+  },
+  "historical_frozen_statuses_edited": false,
+  "v1_reclassified_complete": false,
+  "closure_frozen": true,
+  "limits": [
+    "Protected 661-byte initial plaintext is not independently verified; root/native API submission trust applies.",
+    "Private bootstrap and reasoning were not inspected.",
+    "Actual backend/fallback and complete internal isolation are unverified; shared filesystem is not isolated.",
+    "Visible source truncation and opaque catalog/instruction references do not prove absent extra content.",
+    "General guardrails and ordinary operating instructions may affect performance; no pure unguided model or causal skill-effect claim.",
+    "Uniqueness limited to audited latest 128 mtime headers and bounded parent window, not entire store or lexical set.",
+    "Closure uses accepted audit and public artifacts; no raw retained-source reinspection or new grading.",
+    "Grader reports are root-preserved delivered assessments; grader raw-log provenance not independently audited by closure."
+  ]
+}

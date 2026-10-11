@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "candidate": "F105",
+  "status": "RUNTIME_INCONCLUSIVE",
+  "grading": "NOT_GRADED",
+  "retained": false,
+  "empirical_hardness": "UNKNOWN",
+  "replacement": "NOT_AUTHORIZED",
+  "source_revision": 1,
+  "proposal_revision": 2,
+  "neutral": {
+    "status": "PASS_F105_FRESH_NEUTRAL_ALL_GUARDS_SAFE",
+    "setups": 2,
+    "completed_turns": 4,
+    "terminal_files": 2,
+    "retries": 0
+  },
+  "original": {
+    "order": [
+      2,
+      3,
+      1
+    ],
+    "attempted_repetition": 2,
+    "error_stage": "response_contract",
+    "error_contract_code": "response_tool_attempted",
+    "tool_attempted": true,
+    "turn_dispatched": true,
+    "output_seen": true,
+    "completed_turns": 1,
+    "preserved_final_files": 1,
+    "preserved_final_bytes": 10,
+    "accepted_problem_answers": 0,
+    "valid_trials": 0,
+    "remaining_repetitions_not_run": [
+      3,
+      1
+    ]
+  },
+  "cleanup": {
+    "manifest_process_stopped": true,
+    "manifest_source_preserved": true,
+    "manifest_copied_auth_root_removed": true,
+    "producer_close_exit_code": 1,
+    "producer_profile_cleanup_proved": false,
+    "broader_profile_cleanup": "NOT_PROVED",
+    "descendant_cleanup": "UNVERIFIED",
+    "explanation": "Copied-auth-root removal is recorded true by runner metadata; broader producer profile cleanup remains false. These are different claims."
+  },
+  "raw_accounting": {
+    "prior_root_supplied": {
+      "candidate_identifiers": 88,
+      "problem_final_files": 255,
+      "problem_completed_turns": 314,
+      "older_counts": "UNKNOWN"
+    },
+    "added": {
+      "candidate_identifiers": 1,
+      "problem_final_files": 1,
+      "problem_completed_turns": 1
+    },
+    "updated": {
+      "candidate_identifiers": 89,
+      "problem_final_files": 256,
+      "problem_completed_turns": 315,
+      "older_counts": "UNKNOWN"
+    },
+    "neutral_turns_excluded": 4,
+    "invalid_final_is_not_valid_trial": true
+  },
+  "scope": {
+    "answer_or_transcript_content_preview": false,
+    "semantics_evaluated": false,
+    "packet_mapping_created": false,
+    "graders_started": false,
+    "retry": false,
+    "H_K_scored_treatment_NOT_RUN": true
+  },
+  "retained_total": 0,
+  "target": 6,
+  "next": "CLOSED runtime-inconclusive/ungraded. No replacement, rerun, recovery, preview, packet or graders."
+}

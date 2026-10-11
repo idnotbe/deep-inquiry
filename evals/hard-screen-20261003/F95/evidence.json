@@ -1,0 +1,262 @@
+{
+  "status": "F95_ROOT_FINAL_ACCEPTED_EXCLUDED_NOT_HARD",
+  "public": [
+    {
+      "path": "evals/hard-screen-20261003/F95/cases.json",
+      "bytes": 10578,
+      "sha256": "04c6ae38e14a69752167ac06644a503fc890fab881290710cd86e0397e3e9995"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F95/rubrics.json",
+      "bytes": 9724,
+      "sha256": "59d813904077a706f5f87f33efaa539b12a77f10e4f11bf0294ab5a6589a7f0f"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F95/protocol.json",
+      "bytes": 1497,
+      "sha256": "50fe85a2aa6b3f32edc55575ab9ce174a3008c5daab2751bb846359364e1e5c7"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F95/responses/r1.txt",
+      "bytes": 1393,
+      "sha256": "21d9b2da499d8c1af8e95e6d848344c2f729bb1026cc7aecac0423c35b9ea97f"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F95/responses/r2.txt",
+      "bytes": 1254,
+      "sha256": "61d2a6296cc8ac98a37172e3baaed3ee8f105da1fe1509cf9694862d0ec6cefc"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F95/responses/r3.txt",
+      "bytes": 1307,
+      "sha256": "6b55a211207fe85a8536cd2030cdceb5559b6763b721f9f47d2ba7a54c0456f0"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F95/blind-FIRST-1.md",
+      "bytes": 5335,
+      "sha256": "8c1da3ee1b2766d67c1cf813907dd2442f8b06266cc13ca7f321d4fa26000b89"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F95/blind-FIRST-2.md",
+      "bytes": 4394,
+      "sha256": "8fb58b231f179857cf5a5105a9e8c6c1f236cc092db2dbf6487f874535ea2653"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F95/report.md",
+      "bytes": 5429,
+      "sha256": "12a215bd48c83bf50c71cce4714640eb98ca53c0e755fde4bccade37b14eaf74"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F95/status.json",
+      "bytes": 1252,
+      "sha256": "da75673b43c4523eb5fff536c489832633657ca38890de3b7f21181841286166"
+    }
+  ],
+  "private": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/qualification/freeze.json",
+      "bytes": 12478,
+      "sha256": "e284985563657c1e1e236047399aeeafa5bb7df7ee1f814c2dada9c8819b8b22"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/qualification/neutral-safe-readback.json",
+      "bytes": 8913,
+      "sha256": "1895d3f3cebb817a63d01f000f09417822a36b1ad2cdcb27ff464e838ed293fa"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/original-safe-readback.json",
+      "bytes": 12405,
+      "sha256": "25409f3154d3682fe3da249c0c273aafaacea9f40b96584cca8d6411d78d9928"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/ROOT-SAFE-handoff.json",
+      "bytes": 6026,
+      "sha256": "48d01c31be09a1739cc84e77b7238b4f1b1283cedc66ca4ff6a98f17d85622f0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/blind-packet/packet.json",
+      "bytes": 20669,
+      "sha256": "3bfb00f79f2f8eff4fd5821ab3d6239dddfebed54a5c3e9adca3aad8ccef00ca"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/packet-provenance.json",
+      "bytes": 2587,
+      "sha256": "b922f2823783ac1b79813dc40b03fbfe0a7c4da02320e33326562afba07de753"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/semantic-anchors.json",
+      "bytes": 2659,
+      "sha256": "b29ea1b1ca53cb726834499fa085fdc61a552238c1553003a9e4a000cdf48525"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/generic-grading-rules.json",
+      "bytes": 3456,
+      "sha256": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/blind-FIRST-1.md",
+      "bytes": 5335,
+      "sha256": "8c1da3ee1b2766d67c1cf813907dd2442f8b06266cc13ca7f321d4fa26000b89"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/blind-FIRST-2.md",
+      "bytes": 4394,
+      "sha256": "8fb58b231f179857cf5a5105a9e8c6c1f236cc092db2dbf6487f874535ea2653"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/blind-synthesis.json",
+      "bytes": 2525,
+      "sha256": "0fefb0c95b6ffe8039e5e0cb796ef988b2da7eef75fcb9afc70846b4e84542ce"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/packet-preparation-full-actual-lossless.json",
+      "bytes": 33630,
+      "sha256": "3a4e291c245f68962eb288424c6e73bfb7da2fc1a4b022fbd51a5d4d25b17afd"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/build-blind-packet.cjs",
+      "bytes": 5543,
+      "sha256": "71dad04df15418a1fc780166ad0915a1f849ec32b73c55c2274e43e3b03f7410"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/build-blind-packet.cjs.partial-prefix-preserved",
+      "bytes": 4200,
+      "sha256": "dcfafba63bd2c5e23cd9d473dbc51122f77ffa15779bf94e74fd15aa9504977c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/review-synthesis.md",
+      "bytes": 5371,
+      "sha256": "1b4a575415d4b7d2a41f98cf054ea84fae03c35d5a3a41279bda686c5763a684"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F95/combined-check-result.json",
+      "bytes": 2601,
+      "sha256": "bed2556da5ab3eaeac10ff7af4649a14b3ca76ee5a6fffa94f06db2e8a26825c"
+    }
+  ],
+  "root_SAFE": {
+    "path": "temp/hard-screen-20261003/f95-safe-root-gate.json",
+    "bytes": 1664,
+    "sha256": "5715aa4952da7f7b65944ba7b9e34677d090f86ef08b00a86a306db83dd56d16"
+  },
+  "fixed_methods": [
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v2.md",
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v3.md",
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    }
+  ],
+  "mechanical": {
+    "joint_qualifying_ids": [],
+    "required_same_ids": 2,
+    "result": "EXCLUDED_NOT_HARD",
+    "all3_audit_required": false
+  },
+  "rows": [
+    {
+      "repetition": 1,
+      "anonymous_id": "Q28",
+      "response": {
+        "path": "evals/hard-screen-20261003/F95/responses/r1.txt",
+        "bytes": 1393,
+        "sha256": "21d9b2da499d8c1af8e95e6d848344c2f729bb1026cc7aecac0423c35b9ea97f"
+      },
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F95/original/F95_C-baseline-r1-attempt1/final.txt",
+        "bytes": 1393,
+        "sha256": "21d9b2da499d8c1af8e95e6d848344c2f729bb1026cc7aecac0423c35b9ea97f"
+      },
+      "grade1": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "grade2": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false
+    },
+    {
+      "repetition": 2,
+      "anonymous_id": "Q91",
+      "response": {
+        "path": "evals/hard-screen-20261003/F95/responses/r2.txt",
+        "bytes": 1254,
+        "sha256": "61d2a6296cc8ac98a37172e3baaed3ee8f105da1fe1509cf9694862d0ec6cefc"
+      },
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F95/original/F95_C-baseline-r2-attempt1/final.txt",
+        "bytes": 1254,
+        "sha256": "61d2a6296cc8ac98a37172e3baaed3ee8f105da1fe1509cf9694862d0ec6cefc"
+      },
+      "grade1": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "grade2": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false
+    },
+    {
+      "repetition": 3,
+      "anonymous_id": "Q63",
+      "response": {
+        "path": "evals/hard-screen-20261003/F95/responses/r3.txt",
+        "bytes": 1307,
+        "sha256": "6b55a211207fe85a8536cd2030cdceb5559b6763b721f9f47d2ba7a54c0456f0"
+      },
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F95/original/F95_C-baseline-r3-attempt1/final.txt",
+        "bytes": 1307,
+        "sha256": "6b55a211207fe85a8536cd2030cdceb5559b6763b721f9f47d2ba7a54c0456f0"
+      },
+      "grade1": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "grade2": [
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false
+    }
+  ],
+  "provenance": "Both full independent FIRSTs saved before synthesis/mapping/original preview. Full terminal texts preserved byte-exact. No hidden cognition, automatic arithmetic exclusion or optional-lab charge. Source proofs/anchors frozen before outcomes.",
+  "root_final_record": "temp/hard-screen-20261003/f95-final-root-gate.json",
+  "pre_final_evidence": {
+    "path": "temp/hard-screen-20261003/f95-evidence.json.before-final",
+    "bytes": 8412,
+    "sha256": "e77c0151b33af2cac13a3127c76808eeac60b86ee48eedb3600f2209edb2d759"
+  }
+}

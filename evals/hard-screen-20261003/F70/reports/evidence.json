@@ -1,0 +1,256 @@
+{
+  "status": "STABLE_EXCLUDED",
+  "reused_pretrial": {
+    "manifest_path": "local-retained:temp/hard-screen-20261003/worker/F70/pretrial-manifest.json",
+    "manifest_sha256": "25d9578610de613f69bb900c1235d833d424dbbbb5997a539d6d0b5ab3e455d8",
+    "readback_path": "local-retained:temp/hard-screen-20261003/worker/F70/pretrial-final-readback.json",
+    "readback_sha256": "9fa4291e8d0664c5fa2e7f9c1ee91ff9e0195ca3f39775399cb5d914d152e3c4"
+  },
+  "pretrial_artifact_bindings": {
+    "status": "CONSOLIDATED_PRETRIAL_COMPLETE_NOT_FROZEN_NOT_RUN",
+    "exact_inputs": {
+      "evals/hard-screen-20261003/F70/sources/F70C.md": "68dc7079300909a65dc34ff11773c8ee208800c5674b42dfb3ef598bd60f5676",
+      "evals/hard-screen-20261003/F70/sources/F70H.md": "78e6a3cd86b59e7639b3811041d80bbd8187f88ee178496ea21aa051d3181ccf",
+      "evals/hard-screen-20261003/F70/sources/F70K.md": "fdcd0ccd13ad4137142e6aa5970b601c9af27b3a164db71f6d94a7de590985ba",
+      "evals/hard-screen-20261003/F70/cases.json": "efd638a9642f642114c00b20dce0d2fdb13b27b5cfd5b81b05b95dd07a9274b3",
+      "evals/hard-screen-20261003/F70/rubrics.json": "93e8099b891ece6e2bc67bef7b392348c53cf408bf2c053141cfab4cc7591936",
+      "evals/hard-screen-20261003/F70/protocol.json": "16df83f82036185b492257c5f7fc306141a8e85416d5e004ad4432d0361e8d82",
+      "temp/hard-screen-20261003/worker/F70/oracle.md": "71d2bcf32e9ff2486a2de08c7bb887c5a4751b0bd79deb4e4d13e344c2b2e29c",
+      "temp/hard-screen-20261003/worker/F70/certificate.md": "3298f5a7132fa677102cb2645f37e966ba0cb78bb55870ac42ff80f50ab43887",
+      "temp/hard-screen-20261003/worker/F70/selected-private/analytical-proof.md": "743aa80bba3c5e5d6a0829d078293ef6fec5c260b2c950da93de7af23a5d05d2",
+      "temp/hard-screen-20261003/worker/F70/selected-private/finite-check.json": "a85b36c5c506e6ee15f3333d0d2f286c4b027e7ab076da9ae1350583e4dc9b7f"
+    },
+    "support": {
+      "temp/hard-screen-20261003/worker/F70/source-bindings.json": "668860070b8fda9baf91aba8c42a985648913fe879020d3aa434e3affe92328f",
+      "temp/hard-screen-20261003/worker/F70/current-source-bindings.json": "68a413c32efc4c128dadb3404b1888352fdd405ba7722bf580439b85564fd1dd",
+      "temp/hard-screen-20261003/worker/F70/source-original-hashes.json": "5e64354c9890d6f3033ca4525558c949e493c641e984cc281f5c612aa163e2cd",
+      "temp/hard-screen-20261003/worker/F70/source-a-received.md": "eeeb91f0018fc9ad05bfa247db3bc4830570d9a2d0aa7552e9f392803508a953",
+      "temp/hard-screen-20261003/worker/F70/source-b-received.md": "fb19f8674a1abc46483632ba8f986ef6094665d2d999428fe4bb8019b7972f5d",
+      "temp/hard-screen-20261003/worker/F70/provenance.md": "3f5db2539197ab57f42cbf3f318ba7ff1690b5174bfde3a84d6b90b1dd00d2be",
+      "temp/hard-screen-20261003/worker/F70/producer-reuse-binding.json": "ec96ac0b2d29bcc7131b029135e07ba43bc88f75438842c1d577b7fe67a61011",
+      "temp/hard-screen-20261003/worker/F70/generic-grading-rules.json": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d",
+      "temp/hard-screen-20261003/worker/F70/canary-plan.draft.json": "be579930e3c0fd35fad9dc034d0297e9caa1b0ec7946f23efe44cc799a8d1b40",
+      "temp/hard-screen-20261003/worker/F70/screening-plan.draft.json": "b5f02ce7bb9feb59f2aaf45652eaa7dcbb3661190be6e48248dd14191573a4b5",
+      "temp/hard-screen-20261003/worker/F70/validate-current.cjs": "4d379ae7e9a7cb81b55796331260ccb8c51dbb8b532a4a7d5dd4d38ca87ca359",
+      "temp/hard-screen-20261003/worker/F70/static-suite-plan-check.json": "8c6a4c032438f56bc40866d65aa8167fe10b2de351c1da3541fe8a6714b36821",
+      "temp/hard-screen-20261003/worker/F70/preparation-note.json": "692f3569c414bfa42d209a3b99dbb4129a9471a62237309f08a84ba433074f4c",
+      "temp/hard-screen-20261003/worker/F70/root-author-brief-copy.md": "4c3061252a611c49e4c5093eb4b07fbebf29b1f28b58b363914331438efd36d4",
+      "temp/hard-screen-20261003/worker/F70/root-private-brief-copy.md": "d47b4f2d94b3f953a662ef17345c826c14228eb06e6eb9b65fa6eb95d192a8c1",
+      "temp/hard-screen-20261003/worker/F70/combined-route-copy.md": "1eff8360ec3cc655536e33ccfdea4ed86f3f5490fba2c44ebda84e58aea9c16e",
+      "temp/hard-screen-20261003/worker/F70/author-bundle.cjs": "7720059b8d607a7c7eb2a9c31606331a47eb9cf8b5858b27a93fbcdbbb37cffc",
+      "temp/hard-screen-20261003/worker/F70/author-sources.cjs": "3507b6c31a794b565924019c235ce07e6b68a8d51aa4224834abe0a7a2209189",
+      "temp/hard-screen-20261003/worker/F70/bind-author-stage.cjs": "c4eb2c5fe0f9ea0f771db7e313210bdb495dfe5e8cd7deeb37070fae60d273cb",
+      "temp/hard-screen-20261003/worker/F70/source-only-originals/F70C.md": "68dc7079300909a65dc34ff11773c8ee208800c5674b42dfb3ef598bd60f5676",
+      "temp/hard-screen-20261003/worker/F70/source-only-originals/F70H.md": "78e6a3cd86b59e7639b3811041d80bbd8187f88ee178496ea21aa051d3181ccf",
+      "temp/hard-screen-20261003/worker/F70/source-only-originals/F70K.md": "fdcd0ccd13ad4137142e6aa5970b601c9af27b3a164db71f6d94a7de590985ba",
+      "temp/hard-screen-20261003/worker/F70/selected-private/kernel.md": "6e55d7598feff55794f28c3abe06d7ddb0adc4e38b36848ea6d400657027b0db",
+      "temp/hard-screen-20261003/worker/F70/selected-private/readback.json": "0bd45c093b5bc49b0a788d89dcefbce7af4e3b4522efa0346cdb455db8b909a7",
+      "temp/hard-screen-20261003/worker/F70/preparation-error-original.json": "556426916bc3c7816016d343101c4f38d03a511fa9ee9b497292e1bb42f3ff47",
+      "temp/hard-screen-20261003/worker/F70/validity-completion-a-received.md": "3e162d258ff6f646a04833f96ead8f7f852ff0a0245a699f151ab2be1056feb6",
+      "temp/hard-screen-20261003/worker/F70/validity-completion-b-received.md": "331828261d803493a275df35a8316f57c5dde69c84a212df76cf989e9b30f991",
+      "temp/hard-screen-20261003/worker/F70/validity-review-ledger.json": "4c1730260a98f61cd5c4ef24e7f8658a5e4e95f6f9cecc8e11889ac462fddab0",
+      "temp/hard-screen-20261003/worker/F70/author-stage-pretrial-manifest.json": "115d773b85b6b40654200b7e7faad00ab04e1e4e14c1734ad773ba34c77d10dc",
+      "temp/hard-screen-20261003/worker/F70/author-binding-readback.json": "6f597014c7dca6d98a51ad0b7dfb48f9fe06eeb73ca594ae37fa3e2171d8b55a",
+      "temp/hard-screen-20261003/worker/F70/finalize-consolidated-pretrial.cjs": "6f878fe1ce0d344e609e189a5d6544a961a6d9d78239ba0de42bf2ea043aaf73"
+    },
+    "reused_shared_bindings": {
+      "temp/hard-screen-20261003/worker/F48/run-producer.cjs": "b7bee6550a749e4507a4b46bf2943c216dc0b9fc220efd432dab01c766cfe2a8",
+      "tools/eval_inquiry.py": "722d14ca79d4a98690c7bc828356cb37f8913cada763d972f46823898d681374",
+      "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77",
+      "evals/hard-screen-20261003/prospective-method-v2.md": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e",
+      "evals/hard-screen-20261003/prospective-method-v3.md": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099",
+      ".agents/skills/deep-inquiry/SKILL.md": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871",
+      ".agents/skills/deep-inquiry/references/inquiry-methods.md": "0c7e92d8a2682e9e734fe53b11863fe014aa47a6cd586146195b44b385b779ac",
+      ".agents/skills/deep-inquiry/references/evidence-and-diagnosis.md": "df73a8e947fda4764ceb69617ee88d8a9d95212710f3a889be1b0bfb3a6c45ac",
+      ".agents/skills/deep-inquiry/references/alternatives-and-drafting.md": "0b03e017c97a0a013cd95f22b9e7266c1e7e0cf2a3e9d37063499b35aec9b382"
+    },
+    "coverage": {
+      "new_local_bindings": 41,
+      "shared_reused": 9,
+      "actual_affected_suite_plan_inputs_check": "static-suite-plan-check.json",
+      "private_finite_proof_helper_oldtests_replayed": false
+    },
+    "review": {
+      "source_FIRSTs": "Both source sufficient/no revisions; originals saved before oracle/rubric synthesis",
+      "completion_FIRSTs": "SAME two independent targeted new alignment PASS, originals saved before synthesis; two staged reviewers total, not four",
+      "ledger": {
+        "path": "temp/hard-screen-20261003/worker/F70/validity-review-ledger.json",
+        "bytes": 2188,
+        "sha256": "4c1730260a98f61cd5c4ef24e7f8658a5e4e95f6f9cecc8e11889ac462fddab0"
+      },
+      "native": "NOT_AUTHORIZED"
+    }
+  },
+  "safe_collection": {
+    "status": "PASS_F70_ORIGINAL_SAFE_COLLECTION_STOP_ROOT_BEFORE_GRADERS",
+    "bindings": {
+      "temp/hard-screen-20261003/worker/F70/original-operational-freeze.json": "9d56a764bf808c502bcaf00378277c4189a8f5dd7bbff8853fefa5d658706326",
+      "temp/hard-screen-20261003/worker/F70/original-route-binding.json": "28f7f10d953b1bcacbbcd8fec7700f9893b86e2197e1f466a5454e6b3462d5d1",
+      "temp/hard-screen-20261003/worker/F70/run-original-current.cjs": "246d19340db63935a732d40dd174f4715b55abd2c0300f40870a1ed4886599a6",
+      "temp/hard-screen-20261003/worker/F70/prepare-original.cjs": "2e58adb9054e53a2acf15d6ce82da731e10a16803c54e7f3addbd81a0049de44",
+      "temp/hard-screen-20261003/worker/F70/collect-and-packet.cjs": "7426d60525314e53257f88a4f79a9b14534dd61365c47a8ff9a6c8e3742c1031",
+      "temp/hard-screen-20261003/worker/F70/original-collection-check.json": "d350294913126971ff1ad96bc45345db766026d637a2ec60652df7a26c19bd4f",
+      "temp/hard-screen-20261003/worker/F70/collection-packet-readback.json": "6f4239a6f31a5c9fba6ee1267f3829dcd717ef0f678e024489ba9b0e22e317a2",
+      "temp/hard-screen-20261003/worker/F70/packet-display-binding.json": "7b753c5cbea0f1dbd99f34605718380741f65c51137bbb6c4b49107b0dbe6e1a",
+      "temp/hard-screen-20261003/worker/F70/original-tool-handle.json": "13b5c3de365651ad2e15f12ee8e08f182bfb3bfa16af6d1c5136e9a11ff42377",
+      "temp/hard-screen-20261003/worker/F70/producer-invocation-original.json": "15dd8bece8b4972db988a0e82cd48f93a53ff46bf5bc294a2e724e0ef1e2dd59",
+      "temp/hard-screen-20261003/worker/F70/producer-terminal-original.json": "f5f75803caf583deabc1d6f946c0bf6c054c81cf77a6676d94c048798abd1fbb",
+      "temp/hard-screen-20261003/worker/F70/original/run-slots.json": "9270de1cb96a582e21419f4e4aa1a38cba50997ba5bb72004325327ea1f32af1",
+      "temp/hard-screen-20261003/worker/F70/bind-safe-collection.cjs": "917ff44d45e02c25dffab0ba056691fc64c4e51f392a99dc1cff4eeb031ebfdc",
+      "temp/hard-screen-20261003/worker/F70/qualification/freeze.json": "74104828d6633685f7b06f1d1faa26195cafcb9929f712f5c3ac30af0b7e8e91",
+      "temp/hard-screen-20261003/worker/F70/qualification/canary-check.json": "9150567a7dbb95e565d1f77e347e7cb64e6aac3f098e12c40544137aee854f9f",
+      "temp/hard-screen-20261003/worker/F70/qualification/neutral-safe-readback.json": "f6b80cfb053e942091b3043499691685f5ff92500bce9c7a57a845f4132389c9",
+      "temp/hard-screen-20261003/worker/F70/qualification/neutral-plan-delta-note.json": "f16b249d9e6ed1593ff8f5101e14c46c6b0cae8baa52dfbd8b76e69cdfc4f1da",
+      "temp/hard-screen-20261003/worker/F70/qualification/canary/canary-common-context.json": "63d873765ce236a6a6275b81aa8769870e264b64f97cedcfdbd96b42d3c43310",
+      "temp/hard-screen-20261003/worker/F70/qualification/screening-plan.json": "73ced5496ab7c0f3c41b89473a349bd1e9aa934954fbd67b62bef29e5b34c660",
+      "temp/hard-screen-20261003/worker/F70/qualification/producer-invocation-canary.json": "f0caf451126f9efb867e145790534df809a4f4c04487df922e686123f0bb24be",
+      "temp/hard-screen-20261003/worker/F70/qualification/producer-terminal-canary.json": "330974c8c7cbda90333970bf940ca91b293445f8e202f11d4da816080060dddf"
+    },
+    "packet": {
+      "path": "temp/hard-screen-20261003/worker/F70/grading-packet.json",
+      "sha256": "df570220b06e3a1f5973efdecb8392dc04d36678c54257f33599035c651f6245",
+      "unopened_by_author_root": true
+    },
+    "private_mapping": {
+      "path": "temp/hard-screen-20261003/worker/F70/anonymous-mapping.json",
+      "sha256": "149ad3db646adf1fe1d674cce113aac475a8db0e0879b9b88f6511b4aebcc1e6",
+      "unopened": true,
+      "not_delivered": true
+    },
+    "originals": {
+      "order": [
+        2,
+        3,
+        1
+      ],
+      "actual_attempts": [
+        1,
+        1,
+        1
+      ],
+      "setup_retry_count": 0,
+      "actual_completed_turns": [
+        1,
+        1,
+        1
+      ],
+      "actual_preserved_terminal_finals": [
+        1,
+        1,
+        1
+      ],
+      "all_input_context_absence_source_noTools_process_authcleanup": "PASS on each actual manifest/delivery/compact telemetry",
+      "actual_python_pid": 13008,
+      "actual_node_pid": 13492,
+      "owned_cell_id": "849",
+      "owned_close_exit": 0,
+      "owned_close_signal": null,
+      "actual_PID_durable_before_GO": true,
+      "PIDclose_alone_NOT_guardproof": true
+    },
+    "neutral": {
+      "roots": 2,
+      "excluded_from_problem_counts": true,
+      "setup_launches": 2,
+      "dispatches": 2,
+      "setup_retry_count": 0
+    },
+    "counts": {
+      "confirmed_family_lowerbound": 59,
+      "preserved_terminal_finals_lowerbound": 172,
+      "problem_turns_lowerbound": 228,
+      "retained": 0,
+      "F46_contribution": "UNKNOWN originaldispatch/completedturns/exit; protected profile unchanged",
+      "F51_contribution": "Actual model execution/completion UNKNOWN; successful captures0; protected originals unchanged"
+    },
+    "answer_preview": false,
+    "graders_started": false,
+    "README_changed": false,
+    "H_K_scored_treatment": "NOT_RUN",
+    "old_proof_finite_helper_tests_replayed": false,
+    "source_pretrial_coverage": "Closed reused; sourceFIRST+same targeted alignment, two total not four",
+    "limits": "Requested gpt-6-sol/effective backend UNVERIFIED nonblocking, reasoning effort NOT criterion; F46/F51UNKNOWN preserved; sealed packet not evidence of grade/hardness",
+    "next": "STOP ROOT originalSAFE gate before graders/answer/mapping/README/public/newcandidate"
+  },
+  "grade_checkpoint": {
+    "path": "local-retained:temp/hard-screen-20261003/worker/F70/grades-FIRST/grading-readback.json",
+    "bytes": 2063,
+    "sha256": "b94e490643ca4fc67ba3a6e43aed6e519ccb8372345b6d1f245608b9805d4358"
+  },
+  "grade_check": {
+    "path": "local-retained:temp/hard-screen-20261003/worker/F70/grades-FIRST/grading-check.json",
+    "bytes": 3276,
+    "sha256": "8a4dfcce7aa3345cf1cae202ed0e09f0b7d30a32bfc6552d32111218cdcf7f72"
+  },
+  "first_grade_bindings": [
+    {
+      "grader": "A",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F70/grades-FIRST/grade-a-received.json",
+        "bytes": 5395,
+        "sha256": "f977bb87c284b8e0deebd173e84401fbc7e71504f2ae47dbbcd67df2cb3b52d8"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F70/reports/grade-a-first.json",
+        "bytes": 5395,
+        "sha256": "f977bb87c284b8e0deebd173e84401fbc7e71504f2ae47dbbcd67df2cb3b52d8"
+      }
+    },
+    {
+      "grader": "B",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F70/grades-FIRST/grade-b-received.json",
+        "bytes": 5295,
+        "sha256": "a13d8d3b0361afc89d8a32276ba5229bb0454f48de10cb07ce6f8099df66bcd9"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F70/reports/grade-b-first.json",
+        "bytes": 5295,
+        "sha256": "a13d8d3b0361afc89d8a32276ba5229bb0454f48de10cb07ce6f8099df66bcd9"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "id": "R01",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F70/original/F70C-baseline-r2-attempt1/final.txt",
+        "bytes": 1027,
+        "sha256": "cbfbb2f76475600d3332509bd680047399363638d8f8057650e7be20ce54b4f0"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F70/reports/R01-final.txt",
+        "bytes": 1027,
+        "sha256": "cbfbb2f76475600d3332509bd680047399363638d8f8057650e7be20ce54b4f0"
+      }
+    },
+    {
+      "id": "R02",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F70/original/F70C-baseline-r3-attempt1/final.txt",
+        "bytes": 1193,
+        "sha256": "5d2eb7e37faa9a35184aca2a7103e639752d8767a89b6bc5da40b05ba19011e2"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F70/reports/R02-final.txt",
+        "bytes": 1193,
+        "sha256": "5d2eb7e37faa9a35184aca2a7103e639752d8767a89b6bc5da40b05ba19011e2"
+      }
+    },
+    {
+      "id": "R03",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F70/original/F70C-baseline-r1-attempt1/final.txt",
+        "bytes": 1217,
+        "sha256": "1875ef62209318b1967e1a7a7e13a31329f4187030bb014a701b445c1e62f2b6"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F70/reports/R03-final.txt",
+        "bytes": 1217,
+        "sha256": "1875ef62209318b1967e1a7a7e13a31329f4187030bb014a701b445c1e62f2b6"
+      }
+    }
+  ],
+  "history": "Both source-FIRSTs and SAME two targeted completion FIRSTs preserved before synthesis; no F70 source clarification or required revision. Selected private FIRST4 historical pending flags remain immutable construction provenance, not current stage.",
+  "runtime": "Current runner722; unchanged helper/method/proof/test coverage reused, not replayed."
+}

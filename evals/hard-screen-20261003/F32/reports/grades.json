@@ -1,0 +1,239 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": {
+          "decision": "The complete recursive action comparison produces the supplied optimal contingent policy.",
+          "evidence": "Uses posterior updates with archived measurement counts and reports after unused windows. Its initial expected contribution of -1 corresponds to prior 9/20. Repeated Bayesian updates implement the supplied fixed-type conditional-independence model.",
+          "mechanism": "Explicitly accounts for irreversible lifetime contribution and installation-dependent report accuracy. The recursion selects active waiting after the positive-negative history.",
+          "feasibility": "Uses one module per real window, ends continuation upon lease, excludes committed contributions only from future comparisons, and makes no decision depend on the final report or early settlement.",
+          "support": "Compares all three permitted actions recursively. Claimed initial values 12.81, 8.05 and 6 agree with independent calculation."
+        }
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": {
+          "decision": "The explicit Bellman recursion with V_0=0 is complete and reproduces the optimal contingent policy.",
+          "evidence": "Bayesian updates use the actual measurement count and current posterior after all reports. Unused windows retain their fresh report. Initial action values agree with the supplied prior.",
+          "mechanism": "Values both module contribution and controlled report accuracy, retaining future idle and lease options. Active waiting after positive-negative follows directly from its recursion.",
+          "feasibility": "Correctly decrements the remaining windows, updates the commissioned count only upon installation, and terminates decisions upon lease. Already installed lifetime contributions explicitly remain in the project total.",
+          "support": "Its recurrence compares every permitted action at every state. Rounded initial values 12.8, 8.1 and 6 are correct."
+        }
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": {
+          "decision": "Its final recursive decision rule is complete and optimal. The earlier simple policy is presented as a feasible value bound supporting today's installation.",
+          "evidence": "Uses Bayesian updates, installation-dependent calibration and continuing fresh reports while idle. Initial contribution -1 and the reported action comparisons agree with prior 9/20.",
+          "mechanism": "Explicitly recognizes learning from installation and reporting while idle. Its final recursion selects waiting after positive-negative.",
+          "feasibility": "The final-window rule correctly eliminates future information value. Lease preserves committed owned contributions, and future actions use only available reports.",
+          "support": "The simple policy has expected value exactly 11.93, exceeding the optimal idle-first value 8.04875 and immediate lease value 6. The final recursion then optimizes the remaining windows."
+        }
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "The complete recursive action comparison reproduces the optimal contingent policy. Initial expected values 12.812225, 8.04875 and 6 support the reported approximations. Archived measurement counts, fresh idle-week reports, committed contributions and the final-window threshold are handled correctly."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "The explicit finite recurrence, terminal condition, Bayesian updates and three-action comparison reproduce the optimum. Existing module contributions remain in total returns while cancelling from future action comparisons. Reported values are sufficiently close approximations; exact decimals are not required."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "The stated simple policy has expected return exactly 11.93 and is presented as a sufficient comparison supporting today's installation. The subsequent complete recursive decision rule supplies the final contingent authorization and reproduces the optimum, including waiting after positive-negative reports."
+      }
+    ]
+  },
+  "independent_verification": {
+    "A": {
+      "method": "Finite recursion comparing lease, unused and owned installation, first with numerical Bayesian updates and then independently with exact rational joint site-type masses.",
+      "initial_values": {
+        "install": {
+          "exact": "512489/40000",
+          "decimal": 12.812225
+        },
+        "unused": {
+          "exact": "6439/800",
+          "decimal": 8.04875
+        },
+        "lease": {
+          "exact": "6/1",
+          "decimal": 6
+        }
+      },
+      "optimal_policy": [
+        "Install today.",
+        "First negative: lease the three remaining windows.",
+        "First positive: install in window 2.",
+        "Second positive: install in windows 3 and 4, irrespective of the third reading.",
+        "Second negative: leave window 3 unused and receive its fresh count-2 report.",
+        "After that unused window: positive means install in window 4; negative means lease window 4."
+      ],
+      "positive_negative_state": {
+        "posterior": "81/290",
+        "remaining_windows": 2,
+        "additional_expected_values": {
+          "unused": 3.341034482758622,
+          "lease": 3,
+          "install": -1.0727586206896502
+        }
+      },
+      "R03_simple_policy_expected_value": 11.93
+    },
+    "B": {
+      "method": "Exact rational finite-horizon dynamic programming in memory, comparing lease, unused and installation at every generated state.",
+      "initial_action_values": {
+        "install": "512489/40000 = 12.812225",
+        "unused": "6439/800 = 8.04875",
+        "lease": "6"
+      },
+      "optimal_policy": [
+        "Install today.",
+        "First negative: lease the remaining three windows.",
+        "First positive: install in window 2.",
+        "Second positive: install in windows 3 and 4 regardless of the third report.",
+        "Second negative: leave window 3 unused; fresh positive report authorizes installation in window 4, fresh negative authorizes lease."
+      ],
+      "waiting_branch_comparison": {
+        "history": "First positive, second negative after two installations.",
+        "posterior": "81/290",
+        "unused": "9689/2900",
+        "lease": "3",
+        "install": "-3111/2900"
+      }
+    }
+  },
+  "grader_limits": {
+    "A": {
+      "arithmetic": "Initial optimal action values were verified exactly. Displayed contingent decimal values use floating-point arithmetic; their action ordering is unambiguous.",
+      "semantic": "All three responses supply accepted complete decision algorithms. No observable wrong information, state, action or objective premise with a material authorization change was found.",
+      "ambiguity": "R03's simple policy is a supporting feasible policy, followed by an explicit optimizing rule. Treating it as the final authorization would disregard that rule. The packet supplies no separate numeric-pass threshold; true records the maximum component score, valid decision and absence of critical failures.",
+      "reads": [
+        "local-retained:temp/hard-screen-20261003/worker/F32/grading-packet.json",
+        "local-codex-home/skills/general-agent-guardrails/SKILL.md",
+        "local-codex-home/skills/communicate-plainly/SKILL.md"
+      ],
+      "excluded_context": "No sibling files, prior outcomes, logs, source reviews, private oracle, model/backend context, memory files or internet were read. No files were modified."
+    },
+    "B": {
+      "arithmetic": "All material numerical claims checked. R02's approximately 8.1 is a coarse approximation to 8.04875; it does not alter authorization.",
+      "semantic": "No observable incorrect premise or materially changed authorization found. The algorithms correctly encode the supplied fixed-type report model; explicit restatement of every supplied premise is unnecessary.",
+      "ambiguity": "R03's simple policy is a comparison policy, followed by its complete optimizing rule. There is no sufficient evidence to treat the comparison policy as its final contingent authorization.",
+      "read_scope": "Read only the designated grading packet and mandatory general-agent-guardrails and communicate-plainly skills. No sibling files, external sources, prior outcomes or other graders' results consulted.",
+      "verification_scope": "Packet hash verified. No files modified and no additional agents used."
+    }
+  },
+  "grader_ids": {
+    "A": "f32_grader_a",
+    "B": "f32_grader_b"
+  },
+  "packet_sha256": "585bf6d8a8a446e4f1fbfe9d857a036a9689e181d0882ccf685a50cf3767952c",
+  "classification": "EXCLUDED",
+  "objective_decision_errors": 0,
+  "jointly_qualifying_response_ids": [],
+  "retained_hard_families_total": 0,
+  "required_hard_families": 6,
+  "artifact_review_status": "PENDING_STABLE_POOL_FINAL_ROUNDS",
+  "scored_treatment_runs": 0,
+  "heldout_executed": false
+}

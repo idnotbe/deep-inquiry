@@ -1,0 +1,35 @@
+{
+  "candidate": "F100",
+  "status": "EXCLUDED_NOT_HARD",
+  "root_final": "ACCEPTED",
+  "retained": false,
+  "retained_count_change": 0,
+  "joint_qualifying_count": 0,
+  "objective_errors_each_grader": 0,
+  "full_passes_each_grader": 3,
+  "mean_total_each_grader": 10,
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "original_completed": 3,
+  "neutral_completed": 2,
+  "retry_count": 0,
+  "native_model_replays": 0,
+  "formal_affected_checks": 1,
+  "H_K_participant": "UNUSED",
+  "scored_treatment": "NOT_RUN",
+  "backend": "UNVERIFIED nonblocking",
+  "reasoning_effort_considered": false,
+  "efficacy": "NOT_EVALUATED",
+  "root_owned_cumulative_counts": {
+    "candidate_identifiers": 84,
+    "preserved_terminal_problem_files": 243,
+    "completed_problem_turns": 302,
+    "older_protected": "UNKNOWN",
+    "neutral_excluded": true,
+    "valid_trial_total_claim": false
+  },
+  "next": "F100 closed; stages1-2 ACTIVE_UNMET0/6; no replay or regrade."
+}

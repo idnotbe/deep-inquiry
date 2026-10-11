@@ -1,0 +1,76 @@
+{
+  "candidate": "F156",
+  "version": "closure-1",
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "writer_checks": {
+    "result": "PASS",
+    "checks": [
+      "source_pretrial_parser_review_bindings",
+      "fixed_call_arguments_and_three_initial_successes",
+      "decoded_C_plus_LF_both_stages",
+      "archive_exact_checkpoint_finals_and_hashes",
+      "planned_6_observed_3_terminal_0",
+      "line_197_world_state_before_context_all_3",
+      "aggregate_source_unchanged_flags",
+      "closure_privacy_scan",
+      "utf8_json_and_markdown_readback",
+      "catalog_and_root_readme_unchanged"
+    ],
+    "outputs": {
+      "evals/hard-screen-20261003/F156/report.md": {
+        "bytes": 4385,
+        "sha256": "6285543c5ab8ea9ebd6245f60876a48f685f849f13ef3b54a70617e333ebe711"
+      },
+      "evals/hard-screen-20261003/F156/state.json": {
+        "bytes": 3074,
+        "sha256": "86671eb5a32a2550dc122482faa5929bb85198449365f3b8b6526fa7deb52409"
+      },
+      "temp/hard-screen-20261003/f156-catalog-append.md": {
+        "bytes": 1097,
+        "sha256": "28f874aa13fe2b7b163719635b9d7dde10fd92c2e9d2b6a97a202313444f25e6"
+      }
+    },
+    "audit": {
+      "bytes": 2946,
+      "sha256": "563e194e100ff82163dd7135d80b2f803fb1a56c71a05aad308e2782a3898479"
+    }
+  },
+  "procedure": {
+    "command": "python -B -c <in-memory focused assertion program>",
+    "scope": "Read-only exact byte/hash recomputation and JSON assertions; no participant sessions or raw logs opened.",
+    "assertions": [
+      "source_pretrial_parser_review_bindings",
+      "fixed_call_arguments_and_three_initial_successes",
+      "decoded_C_plus_LF_both_stages",
+      "archive_exact_checkpoint_finals_and_hashes",
+      "planned_6_observed_3_terminal_0",
+      "line_197_world_state_before_context_all_3",
+      "aggregate_source_unchanged_flags",
+      "closure_privacy_scan",
+      "utf8_json_and_markdown_readback",
+      "catalog_and_root_readme_unchanged"
+    ],
+    "initial_check_corrections": [
+      "Initial verification code referenced sourceFreeze rather than actual sourceManifest; corrected check only.",
+      "Initial privacy regex was malformed; corrected check only, then all assertions passed."
+    ],
+    "runtime_trials": "NOT_RUN",
+    "old_full_suite": "NOT_RUN_NOT_CHANGE_AFFECTED",
+    "lsp": "Biome unavailable; no installation requested or performed; JSON parsed directly.",
+    "render_check": "UTF-8 text, Markdown structure and link targets inspected; no browser renderer used."
+  },
+  "independent_audit": {
+    "path": "temp/hard-screen-20261003/f156-incomplete-delivery-audit.md",
+    "bytes": 2946,
+    "sha256": "563e194e100ff82163dd7135d80b2f803fb1a56c71a05aad308e2782a3898479",
+    "verdict": "INCOMPLETE_PROTOCOL_NO_P0_P1",
+    "scope": "Frozen evidence accounting and incomplete closure; not final ROOT acceptance."
+  },
+  "limitations": [
+    "Actual delivery success or failure unproven: frozen parser rejected before delivery checks.",
+    "No terminal answers, grading or hardness conclusion.",
+    "Requested backend and isolation unverified.",
+    "Catalog append not applied by this worker; parent owns prefix-preserving application.",
+    "Manifest and verification final bindings checked separately after creation; self-hashes excluded."
+  ]
+}

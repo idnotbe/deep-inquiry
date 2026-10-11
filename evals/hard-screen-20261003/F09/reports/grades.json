@@ -1,0 +1,100 @@
+{
+  "grader_a": [
+    {
+      "response_id": "Q01",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "reason": "Correct minimum-cost information intervention; Q02/Q03 omit explicit cost3/cost5 comparison, explanation completeness only."
+    },
+    {
+      "response_id": "Q02",
+      "scores": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "reason": "Correct minimum-cost information intervention; Q02/Q03 omit explicit cost3/cost5 comparison, explanation completeness only."
+    },
+    {
+      "response_id": "Q03",
+      "scores": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "reason": "Correct minimum-cost information intervention; Q02/Q03 omit explicit cost3/cost5 comparison, explanation completeness only."
+    }
+  ],
+  "grader_b": [
+    {
+      "response_id": "Q01",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "reason": "Correct minimum-cost information intervention; Q02/Q03 omit explicit cost3/cost5 comparison, explanation completeness only."
+    },
+    {
+      "response_id": "Q02",
+      "scores": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "reason": "Correct minimum-cost information intervention; Q02/Q03 omit explicit cost3/cost5 comparison, explanation completeness only."
+    },
+    {
+      "response_id": "Q03",
+      "scores": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "reason": "Correct minimum-cost information intervention; Q02/Q03 omit explicit cost3/cost5 comparison, explanation completeness only."
+    }
+  ],
+  "decision": "EXCLUDE_TOO_EASY",
+  "full_passes_each": 3,
+  "mean_each": 9.333333333333334,
+  "independence": "Two distinct read-only reviewers graded condition-hidden packet, without access to each other's grades; numerical agreement preserved."
+}

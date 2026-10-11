@@ -1,0 +1,114 @@
+{
+  "candidate": "F157",
+  "version": "closure-1",
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "procedure": {
+    "command": "python -B - <in-memory focused assertion program>",
+    "scope": "Read-only repository artifact checks; no participant sessions, grading or parser reruns.",
+    "checks": [
+      "JSON parsing and UTF-8 readback",
+      "Exact source/freeze/method/pretrial/adapter/helper/contract/review hash bindings",
+      "Three planned launches equal parent-preserved submitted arguments; zero retries/replacements/followups",
+      "Exact C bytes equal pretrial text and neutral input file",
+      "Three invalid original slots, each one unaccepted unscored final; exact UTF-8 final text hashes",
+      "Frozen parser outer-key predicate at line 148; runtime audit explains ordinal rejection without rescue",
+      "Closure counts, no grading or hardness claim, pending root acceptance",
+      "Markdown targets resolved from report directory and actual catalog directory",
+      "No raw session IDs, paths or events exported by closure",
+      "Catalog/root README baseline byte/hash preservation"
+    ],
+    "result": "PASS",
+    "runtime_trials": "NOT_RUN",
+    "grading": "NOT_RUN",
+    "old_full_suite": "NOT_RUN_NOT_CHANGE_AFFECTED",
+    "lsp": "Biome unavailable; no install requested; decision tool unavailable; JSON checked directly.",
+    "initial_check_correction": "Read-only assertion command quoting corrected from backslash replacement to Path.as_posix; no evidence changed."
+  },
+  "runtime_audit": {
+    "path": "temp/hard-screen-20261003/f157-runtime-audit.md",
+    "bytes": 5736,
+    "sha256": "27d16725b034720c7b5fb05f1983da3e8c72d22ae26be490843fa8659172de45",
+    "verdict": "INCOMPLETE_PROTOCOL",
+    "scope": "Independent original input/context/final audit; not closure acceptance or rescue.",
+    "original_sessions_reread_by_closure_writer": false
+  },
+  "preserved_finals": {
+    "path": "temp/hard-screen-20261003/f157-native-capture.json",
+    "field": "participants[*].unacceptedFinals.finals",
+    "order": "Existing participant map insertion order; numbered slots only, no session identifiers exported.",
+    "status": "UNACCEPTED_NOT_GRADEABLE",
+    "bindings": [
+      {
+        "slot": 1,
+        "original_snapshot": {
+          "bytes": 165713,
+          "sha256": "2e5cf4ed7ff0de4272cc7e70d7143be91d91bd621324b1c3786780c29be905f5"
+        },
+        "final_text": {
+          "bytes": 1829,
+          "sha256": "3f471672a08e5673d115bfe2590402a91f0d9298274d20c2fe9095ce584a6edb"
+        },
+        "original_content": {
+          "bytes": 1917,
+          "sha256": "03066c4a0fe9fbb3666fdbbeff23d7e03914d8f63557261aa7eace9541353e64"
+        }
+      },
+      {
+        "slot": 2,
+        "original_snapshot": {
+          "bytes": 164814,
+          "sha256": "1cb1413972bb12752e7a332e7f59d1b2663d49ec8029f5d9e8863775a3c06bf5"
+        },
+        "final_text": {
+          "bytes": 1529,
+          "sha256": "5d1e900e691b8520f33bb2a3dd6df1316d434e9c00c7774830c9c50683c543a7"
+        },
+        "original_content": {
+          "bytes": 1620,
+          "sha256": "b91528531702c7b270d4bebde58d9a995c99a6cbdd38420c1017cc4348bc9730"
+        }
+      },
+      {
+        "slot": 3,
+        "original_snapshot": {
+          "bytes": 165072,
+          "sha256": "da34dc9e1e7078058861d1af6fbe904ae9c57a8e3f8d4b7dee85da4d3c17386c"
+        },
+        "final_text": {
+          "bytes": 1725,
+          "sha256": "4291729d10175bf314f1412364b54039dd5416d1c15ad5b19e69d27272fe1934"
+        },
+        "original_content": {
+          "bytes": 1811,
+          "sha256": "15aa8fd2aadd0954312b0b105172b2718c853e8a8fe5c63c30913b843c04ba5f"
+        }
+      }
+    ]
+  },
+  "review_history": {
+    "source_pair_1": "A and B APPROVE source validity only",
+    "capture_v1": "A REVISE; superseded before dispatch",
+    "capture_v2": "B APPROVE with 11 existing and 11 independent synthetic checks reported; runtime compatibility not established",
+    "historical_statuses": "Pretrial pending-review strings, source construction/pending fields and capture checks old pretrial binding preserved unchanged. Review B explicitly binds current adapter and 16848-byte pretrial; this is not independent proof of every pre-dispatch approval timestamp.",
+    "final_closure_review": "PENDING",
+    "root_acceptance": "PENDING"
+  },
+  "unchanged_baselines": {
+    "README.md": {
+      "bytes": 6288,
+      "sha256": "2b8d4fe99f90806beb8a81c63bbe74747ab941621faa71b9090ebb931dbeb2c8"
+    },
+    "evals/hard-screen-20261003/README.md": {
+      "bytes": 115871,
+      "sha256": "f39b2eecf9f8a2c9eeb883f7b50be81f8adbb014769994375424cdf31b002d19"
+    }
+  },
+  "limitations": [
+    "Protected initial inbound plaintext, actual backend and complete isolation remain unverified.",
+    "Observable generic host memory is distinguished from excluded F157 answer/evaluator context.",
+    "Schema rejection is not delivery failure or wrong-answer evidence; audit does not rescue original protocol status.",
+    "Catalog append is parent-owned and pending.",
+    "Manifest excludes itself; final five output hashes returned separately."
+  ]
+}
+

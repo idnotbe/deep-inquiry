@@ -1,0 +1,75 @@
+{
+  "suite_hashes": {
+    "cases.json": "47d768500e9247abb2f2dcea771971a4f5cfa26988021364ff21f96185bc703c",
+    "rubrics.json": "8d9a6fee7bd1c1d53d18af86e0f027ec3949cea178c97d44288c5bd6a1d791cd",
+    "protocol.json": "bcd0aed7ab9b0cf2d72d732c3a656ad15f540cc51c4ddd3225d9d5677b8ac61a"
+  },
+  "runner_sha256": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+  "dialogue_runner_sha256": "96926390bcf02d48ef9632b757e68ff283baa58d838b9d818b28f6387d11dec5",
+  "native_trials": [
+    {
+      "response_id": "Q01",
+      "status": "completed",
+      "final_sha256": "c02360a2c95bce76d92a7996cae7c107bd169ff79ff49c67abfe42b801aa439c",
+      "turn_id": "local-turn-acca132548cf83db",
+      "dialogue_turns": 4,
+      "dialogue_requests": [
+        "procedure",
+        "journal",
+        "register"
+      ],
+      "dialogue_delivery_verified": true,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "Q02",
+      "status": "completed",
+      "final_sha256": "1173b5190b4954e123e25376f18d67ac027f99ed3494bd55ffe8aec1d77ce6c1",
+      "turn_id": "local-turn-207d68bc7c52a33d",
+      "dialogue_turns": 4,
+      "dialogue_requests": [
+        "procedure",
+        "journal",
+        "register"
+      ],
+      "dialogue_delivery_verified": true,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "Q03",
+      "status": "completed",
+      "final_sha256": "46435a3ed63283baa971a04e58f06560b27821da1a75eb76f9369694eca27fdd",
+      "turn_id": "local-turn-7b185bd81af4d76b",
+      "dialogue_turns": 4,
+      "dialogue_requests": [
+        "procedure",
+        "journal",
+        "register"
+      ],
+      "dialogue_delivery_verified": true,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "backend_model_verified": false,
+  "requested_model": "gpt-6-sol",
+  "effort_is_selection_criterion": false,
+  "heldout_executed": false,
+  "scored_treatment_runs": 0,
+  "canary_turns": 2,
+  "screening_model_turns": 12
+}

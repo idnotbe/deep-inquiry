@@ -1,0 +1,60 @@
+{
+  "suite_hashes": {
+    "cases.json": "9e7bc6a9c3495f9c8acffe958a1bec6100408b2e05ec0a131a10b193424c1df3",
+    "rubrics.json": "5e95229b8304771b7d238cf0108f40ed70f29bc7488baf71afeb2eb290cd0841",
+    "protocol.json": "df491ca99ada3873a96202b5f62484ccd1e234eef344a8765bb6bed7d13d07ae"
+  },
+  "code_commit": "f33931f",
+  "repository_commit_at_dispatch": "20d7f02f73de917bad40b85724da9e2fb19196a7",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F24C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "e59b469b709496fc7b561fbbd7a32f68d2e5993e521792a32ca60c0dd4626724",
+      "turn_id": "local-turn-c927dd7beceda79c",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F24C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "414f48b37f13ddc20fe2394ab20a0aaf5cb5b1d172b16fdfb0543cc05b7a0b7b",
+      "turn_id": "local-turn-57bf0ce28e9a400a",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F24C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "91a12fbabc0ac2b28af22d0f3bc5954cdc3e26ae3641f258faf357ddc5edd6ec",
+      "turn_id": "local-turn-9f8b3542722765f6",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "aa2c9e2e6992426b4ac35fee674113462b9268004b2c5d941620e16da01eb151",
+  "grading_packet_redaction": "Task,rubric,task-specificsemanticanchor,genericcriteria,anonymousanswers; noarm/model/dispatchprotocol/nativepathorIDs. Scanbeforegrading."
+}

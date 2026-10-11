@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "status": "PUBLIC_EVIDENCE_PENDING_ROOT_FINAL",
+  "candidate": "F83",
+  "relationship": "F22-related revision/subfamily, no global novelty claim, same retained family once",
+  "task_sources": [
+    {
+      "path": "evals/hard-screen-20261003/F83/sources/F83C.md",
+      "bytes": 2152,
+      "sha256": "c875caed06ba0f51f12723efc4872c9511720689d956bda12bed54e0a89d4a54"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F83/sources/F83H.md",
+      "bytes": 2227,
+      "sha256": "c41c781b40d7d4e394c2f8021886ffdb45a1ab3b7a0af359e12c9a044d85be4e"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F83/sources/F83K.md",
+      "bytes": 1299,
+      "sha256": "5a0f04a566ce56a17d34cfffa1d8718320b405ce6b080743f89615a46fc2006d"
+    }
+  ],
+  "responses": [
+    {
+      "anonymous_id": "Response-A",
+      "case_id": "F83C",
+      "condition": "baseline",
+      "repetition": 1,
+      "attempt": 1,
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F83/original/F83C-baseline-r1-attempt1/final.txt",
+        "bytes": 465,
+        "sha256": "68a408cdad526559bb802848d130544cdcc5e83683726fc528ba9e2b7164baa4"
+      },
+      "anonymous": {
+        "path": "temp/hard-screen-20261003/worker/F83/blind/Response-A.txt",
+        "bytes": 465,
+        "sha256": "68a408cdad526559bb802848d130544cdcc5e83683726fc528ba9e2b7164baa4"
+      },
+      "public_response": {
+        "path": "evals/hard-screen-20261003/F83/responses/F83C-baseline-r1.txt",
+        "bytes": 465,
+        "sha256": "68a408cdad526559bb802848d130544cdcc5e83683726fc528ba9e2b7164baa4"
+      }
+    },
+    {
+      "anonymous_id": "Response-B",
+      "case_id": "F83C",
+      "condition": "baseline",
+      "repetition": 2,
+      "attempt": 1,
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F83/original/F83C-baseline-r2-attempt1/final.txt",
+        "bytes": 578,
+        "sha256": "bb59c6f7ea53348ad6b2f527c2ac00c56bc3ee552aaeafdb8ce6e4da4eed1345"
+      },
+      "anonymous": {
+        "path": "temp/hard-screen-20261003/worker/F83/blind/Response-B.txt",
+        "bytes": 578,
+        "sha256": "bb59c6f7ea53348ad6b2f527c2ac00c56bc3ee552aaeafdb8ce6e4da4eed1345"
+      },
+      "public_response": {
+        "path": "evals/hard-screen-20261003/F83/responses/F83C-baseline-r2.txt",
+        "bytes": 578,
+        "sha256": "bb59c6f7ea53348ad6b2f527c2ac00c56bc3ee552aaeafdb8ce6e4da4eed1345"
+      }
+    },
+    {
+      "anonymous_id": "Response-C",
+      "case_id": "F83C",
+      "condition": "baseline",
+      "repetition": 3,
+      "attempt": 1,
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F83/original/F83C-baseline-r3-attempt1/final.txt",
+        "bytes": 576,
+        "sha256": "23322c52f935d05e935e7fa3c84aa7f2d992f97f594dfc2a6e6c280808e9f1b0"
+      },
+      "anonymous": {
+        "path": "temp/hard-screen-20261003/worker/F83/blind/Response-C.txt",
+        "bytes": 576,
+        "sha256": "23322c52f935d05e935e7fa3c84aa7f2d992f97f594dfc2a6e6c280808e9f1b0"
+      },
+      "public_response": {
+        "path": "evals/hard-screen-20261003/F83/responses/F83C-baseline-r3.txt",
+        "bytes": 576,
+        "sha256": "23322c52f935d05e935e7fa3c84aa7f2d992f97f594dfc2a6e6c280808e9f1b0"
+      }
+    }
+  ],
+  "blind_FIRSTs": [
+    {
+      "path": "evals/hard-screen-20261003/F83/grading/grader-one-FIRST.md",
+      "bytes": 2242,
+      "sha256": "4faf6febc97ca9df26f3f3b6d499a36629a899f726da1388ec6fcfd851406a7b"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F83/grading/grader-two-FIRST.md",
+      "bytes": 2193,
+      "sha256": "c8a8ac2d9139d6088123a56eae47fcc8ddb772b568a84769813bc9c8d044a1f9"
+    }
+  ],
+  "grading_summary": {
+    "path": "evals/hard-screen-20261003/F83/grading/summary.json",
+    "bytes": 4152,
+    "sha256": "fca0b67acfc0160b64699caf6420c092c8d643848260fee805d2a48fb90542a4"
+  },
+  "public_inverse": {
+    "path": "evals/hard-screen-20261003/F83/grading/inverse-mapping.json",
+    "bytes": 2337,
+    "sha256": "744908fa61fa0036d9fd4afe8dd419288bcc4c9b46020c375c56c38ea925445a"
+  },
+  "root_authorities": [
+    {
+      "path": "temp/hard-screen-20261003/f83-pretrial-gate-readback.json",
+      "bytes": 566,
+      "sha256": "ade05771100396bd8b73e461e11dcbbc18d30e7f006f21641d5c22bde74f11f1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f83-runtime-authorization.md",
+      "bytes": 2305,
+      "sha256": "4f5d80da64bc4fa65b87afc6e220bb5388bbee7a4410b2303509bbeca85ddafc"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f83-safe-gate-readback.json",
+      "bytes": 591,
+      "sha256": "a65b1d175e0384de506ae06944a0741eeea8f18a70e6dc0f156cdca8c6b61c8a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f83-blind-public-authorization.md",
+      "bytes": 2347,
+      "sha256": "c2f8b01940901510d12565219b4ef4af91a1bc40a1ca995a764995450f012e27"
+    }
+  ],
+  "runtime_SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F83/original-safe-readback.json",
+    "bytes": 12292,
+    "sha256": "54bc447bf67ec50ef2b26619e58d327eb27abfea01f2ea3be62d60d0d4a4bd1b"
+  },
+  "runtime_handoff": {
+    "path": "temp/hard-screen-20261003/worker/F83/SAFE-handoff.json",
+    "bytes": 31904,
+    "sha256": "2601ce41c7b1dd99eb2087ca583ece379b86aa87d40bd1f63ea4af4b53db8bb6"
+  },
+  "actual_counts": {
+    "setup_launches": 3,
+    "turn_dispatches": 3,
+    "completed_turns": 3,
+    "preserved_terminal_finals": 3,
+    "setup_retry_count": 0
+  },
+  "neutral_counts": {
+    "setup_launches": 2,
+    "turn_dispatches": 2,
+    "completed_turns": 2,
+    "preserved_terminal_finals": 2,
+    "setup_retry_count": 0
+  },
+  "preserved_preturn_failures": [],
+  "all_actual_guards_PASS_under_ROOT_SAFE": true,
+  "PID_before_GO": true,
+  "SAME_owned_Python_close0": true,
+  "transport_observation": {
+    "MCP_isError": false,
+    "parent_Node_exit": 0,
+    "MCP_timed_out": false,
+    "MCP_tool0_verified": true,
+    "requested_outer_ms": 1200000,
+    "requested_timeout_not_watchdog": true,
+    "original_result_preserved": true
+  },
+  "original_requested_outer_ms": 1200000,
+  "enforced_watchdog_proved": false,
+  "exact_launch_executable_hash": "UNMEASURED; expected invocation identity is not a fresh launch measurement",
+  "pre_freeze_current_executable_identity": "Verified",
+  "source_revision": 0,
+  "H_definition_revision": 0,
+  "empirical_criteria_changes": 0,
+  "participant_H_K_use": 0,
+  "scored_treatment": 0,
+  "backend_identity": "UNVERIFIED/nonblocking",
+  "effort_policy": "Not screening consideration",
+  "provenance_limitation": "After frozen F83 sources/rubrics/criteria/privateproof and ROOTSAFE PASS, but before packet creation, author read evals/hard-screen-20261003/F82/evidence.json and status.json for schema; they exposed historical aggregate objective_errors/qualifying_counts/secondary_scores/proposed verdict, response hashes/mapping metadata and runtime caveats. No participant final text or full old FIRST opened. ROOT notified/acknowledged. No further old result reads; F83 frozen materials unchanged. Exactly two NEW forkNONE graders received ONLY current C anonymous packet, no historical summaries. This limitation does not establish hidden cognitive independence of the author.",
+  "permanent_caveats": [
+    "Both blind FIRSTs report all3 correct. Actual screening excludes this candidate; broader difficulty UNKNOWN, no skill efficacy evidence.",
+    "Full blind FIRST textual payloads saved before synthesis/mappingpreview/unblinding/ROOTpreview. Raw internal transport bytes unavailable; no raw transport equivalence claim.",
+    "Initial filename-only broad search encountered protected F46 access-denied descendant; no contents or follow-up probe; ROOT notified.",
+    "Initial adaptation assertion caught omitted explicit suite token before helper writes/syntax/native; error receipt preserved, corrected exact literal. No completed-check or native replay.",
+    "One TextEncoder pre-author serialization failure and one overlength command blocked before mutation; stored actual receipts saved losslessly without proof replay."
+  ]
+}

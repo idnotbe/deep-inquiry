@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "candidate": "F97",
+  "status": "CLOSED_F97_RUNTIME_INCONCLUSIVE_NO_GRADING",
+  "ROOT_closure": "PASS_VERIFIED_CLOSED",
+  "bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F97/report.md",
+      "bytes": 1849,
+      "sha256": "600fcbb87304d1dca31ace81a506dfde7357c01821a2fdd7659d5455dd371359"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F97/status.json",
+      "bytes": 1890,
+      "sha256": "81ca51dab53a0e3d2327b59fdf1d6a55338533bb9e319dd7ec505c9fb161f78a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f97-runtime-stop-root-gate.json",
+      "bytes": 1483,
+      "sha256": "f84ad99fe3a33dc412ec709ec7fd0a7e60c8fe7c8d379f971d3fb4db63abc53c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f97-runtime-stop-root-gate.actual.json",
+      "bytes": 7829,
+      "sha256": "3e4cd1aa67945b7909e31a6a80fbefefe17a69385b5ac458c6b67eee5961293a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F97/RUNTIME-STOP.json",
+      "bytes": 14699,
+      "sha256": "c10be79943a915511df74e3b94c0383d51a925ab0ad90bffa543d03f0e8a93bc"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F97/qualification/freeze.json",
+      "bytes": 14981,
+      "sha256": "0561ac1d6ce3f414d61446e92e10e54f829c63d29da9fe751cfc8da528fabaa3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F97/neutral-native-primary-actual.json",
+      "bytes": 696,
+      "sha256": "0e92043c766cb7f58ccf2d0b4771749f06896f81b272f8f2a8815500e89a9eb2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F97/original-native-primary-actual.json",
+      "bytes": 581,
+      "sha256": "ef8f3700779e42f1a6a5718c38b7c3b37ca5a30614ddbfefe5ad55ef8206b80c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F97/qualification/neutral-safe-readback.json",
+      "bytes": 12210,
+      "sha256": "77bc1d1120b95a7a9d4dea5fa35ada8baf5446b8c6d9dcac31bcfb4d84d7422d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F97/producer-terminal-original.json",
+      "bytes": 364,
+      "sha256": "77d172e92d56274aa4527b24aa644f875707f4950c649d59c284343e3ed42338"
+    }
+  ],
+  "observations": {
+    "neutral_SAFE": "PASS",
+    "neutral_problem_trials": 0,
+    "neutral_unscored_trials": 2,
+    "neutral_completed_model_turns": 4,
+    "original_MCP_Node_exit": 1,
+    "original_SAME_owned_Python_close": 1,
+    "error_stage": "response_contract",
+    "error_contract_code": "response_tool_attempted",
+    "tool_attempted_flag": true,
+    "actual_tool_execution": "NOT_INFERRED",
+    "source_process_authcleanup": true,
+    "original_completed_model_turns": 1,
+    "preserved_final_phase_files": 1,
+    "preserved_final_phase_file_bytes": 18,
+    "file_observation": "ROOT closure confirms existence/bytes/hash only; valid final recommendation UNVERIFIED",
+    "C3_C1": "NOT_RUN",
+    "original_collector": "NOT_RUN",
+    "prepared_SAFE_gate": "NOT_RUN",
+    "original_SAFE_packet_map_grades": "ABSENT",
+    "model_replays": 0,
+    "human_original_semantic_preview": false,
+    "H_K_participant_UNUSED": true,
+    "scored_treatment": 0
+  },
+  "cumulative": {
+    "candidate_ids": 81,
+    "preserved_final_phase_problem_files": 234,
+    "completed_problem_model_turns": 293,
+    "protected_UNKNOWN_preserved": true,
+    "neutral_excluded": true,
+    "valid_trial_count_claimed": false
+  },
+  "retained": 0,
+  "target": 6,
+  "empirical_hardness": "UNKNOWN",
+  "EXCLUDED_NOT_HARD": false,
+  "limits": [
+    "No actual tool execution or original semantic inference.",
+    "Original final-phase bytes do not certify a Dialogue terminal recommendation.",
+    "No original SAFE, packet/map, grades, replay or recovery.",
+    "Neutral model turns excluded from cumulative problem turns."
+  ]
+}

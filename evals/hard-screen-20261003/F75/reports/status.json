@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "family": "F75",
+  "screening_status": "EXCLUDED_NOT_HARD",
+  "joint_qualifying_ids": [],
+  "qualifying_ids_A": [],
+  "qualifying_ids_B": [],
+  "objective_error_ids_A": [],
+  "objective_error_ids_B": [],
+  "scores_A": [
+    {
+      "id": "R01",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10
+    },
+    {
+      "id": "R02",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10
+    },
+    {
+      "id": "R03",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10
+    }
+  ],
+  "scores_B": [
+    {
+      "id": "R01",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10
+    },
+    {
+      "id": "R02",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10
+    },
+    {
+      "id": "R03",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10
+    }
+  ],
+  "scores_secondary_only": true,
+  "extra_all3_audit_required": false,
+  "retained_count": 0,
+  "target": 6,
+  "target_status": "ACTIVE_UNMET",
+  "difficulty_screen": "Repeated qualifying-failure threshold not met; intrinsic general difficulty not established",
+  "skill_efficacy": "UNKNOWN",
+  "H_K_scored_treatment": "NOT_RUN_PARTICIPANT_UNUSED",
+  "counts_lower_bounds": [
+    62,
+    181,
+    237
+  ],
+  "unknown_contributions": [
+    "F46",
+    "F51"
+  ],
+  "source_task_definition_revisions": 1,
+  "representation_corrections": 1,
+  "postoracle_source_changes": 0,
+  "empirical_criterion_changes": 0,
+  "artifact_preparation_checkpoint": "Prepared after ROOT SAFE; ROOT FINAL pending at write"
+}

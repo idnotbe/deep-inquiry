@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "family": "F77",
+  "classification": "INCOMPLETE; not a difficulty exclusion",
+  "neutral": {
+    "unscored_completed_turns": 2,
+    "actual_guards": "PASS",
+    "setup_retries": 0
+  },
+  "originals": {
+    "order": [
+      2,
+      3,
+      1
+    ],
+    "attempts": [
+      1,
+      1,
+      1
+    ],
+    "dispatches": 3,
+    "completed_turns": 3,
+    "preserved_terminal_output_files": 3,
+    "reported_statuses": [
+      "completed",
+      "completed",
+      "error"
+    ],
+    "source_preserved": [
+      true,
+      true,
+      false
+    ],
+    "process_stopped": [
+      true,
+      true,
+      true
+    ],
+    "copied_auth_root_removed": [
+      true,
+      true,
+      true
+    ],
+    "owned_producer_close": 1,
+    "tool_timeout": false,
+    "error_type_stage_code": "NOT_RECORDED",
+    "collector": "Stopped at producer close1 rejection; independent all-guards collection was not completed for any original slot",
+    "saved_metadata_audit": "ROOT confirmed one protected global configuration changed between saved before/after receipts; actor and cause UNKNOWN. No live inspection or restoration."
+  },
+  "preservation": {
+    "original_response_transcript_bodies": "Private, unread, ungraded; no public copies",
+    "no_retry_replacement_regrade_readmission": true,
+    "H_K_participant_unused": true,
+    "scored_treatment": 0
+  },
+  "methodology": {
+    "V2_V3_generic_unchanged": true,
+    "objective_qualifying_secondary_separate": true,
+    "public_root_charged_once": true,
+    "all_lawful_complete_conditional_policies_accepted": true,
+    "no_READ_proof_recipe_quota": true
+  },
+  "totals_lower_bounds": {
+    "attempted_families": 64,
+    "preserved_terminal_problem_output_files": 187,
+    "completed_problem_turns": 243,
+    "unknown_contributions": [
+      "F46",
+      "F51"
+    ],
+    "output_file_count_is_not_valid_slot_count": true,
+    "retained": 0,
+    "target": 6,
+    "overall": "ACTIVE_UNMET"
+  },
+  "limits": [
+    "No difficulty or skill-efficacy conclusion.",
+    "Two completed-status manifests are not independent all-guard certification.",
+    "No grading, raw-answer publication, native retry, replacement or full verification."
+  ]
+}

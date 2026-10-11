@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "candidate": "F90",
+  "status": "EXCLUDED_NOT_HARD",
+  "grader_firsts": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F90/blind-first-a.md",
+      "bytes": 5558,
+      "sha256": "30752ff1651083ecc20e7d32e592019064bd446e8b8b230f874a80841e5e05d2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F90/blind-first-b.md",
+      "bytes": 5057,
+      "sha256": "740464fef3b2ed82f7eebac3a3531f75c38bf01f8780aa15ec7c85a576e86311"
+    }
+  ],
+  "normalization": "Reviewer B A/B/C -> answer-a/b/c; component scores and booleans unchanged; no regrade/averaging",
+  "reviewer_results": {
+    "a": {
+      "answer-a": {
+        "component_scores": {
+          "operational_model": 2,
+          "implementable_programme": 2,
+          "conditional_acceptance": 2,
+          "expected_points": 2,
+          "cost_and_explanation": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "qualifying_ids": []
+      },
+      "answer-b": {
+        "component_scores": {
+          "operational_model": 2,
+          "implementable_programme": 2,
+          "conditional_acceptance": 2,
+          "expected_points": 2,
+          "cost_and_explanation": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "qualifying_ids": []
+      },
+      "answer-c": {
+        "component_scores": {
+          "operational_model": 2,
+          "implementable_programme": 2,
+          "conditional_acceptance": 2,
+          "expected_points": 2,
+          "cost_and_explanation": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "qualifying_ids": []
+      }
+    },
+    "b": {
+      "answer-a": {
+        "component_scores": {
+          "operational_model": 2,
+          "implementable_programme": 2,
+          "conditional_acceptance": 2,
+          "expected_points": 2,
+          "cost_and_explanation": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "qualifying_ids": []
+      },
+      "answer-b": {
+        "component_scores": {
+          "operational_model": 2,
+          "implementable_programme": 2,
+          "conditional_acceptance": 2,
+          "expected_points": 2,
+          "cost_and_explanation": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "qualifying_ids": []
+      },
+      "answer-c": {
+        "component_scores": {
+          "operational_model": 2,
+          "implementable_programme": 2,
+          "conditional_acceptance": 2,
+          "expected_points": 2,
+          "cost_and_explanation": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "qualifying_ids": []
+      }
+    }
+  },
+  "reviewer_qualifying_ids": {
+    "a": [],
+    "b": []
+  },
+  "joint_qualifying_ids": [],
+  "reviewer_counts": [
+    {
+      "full_pass": 3,
+      "objective_errors": 0,
+      "qualifying": 0,
+      "totals": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "full_pass": 3,
+      "objective_errors": 0,
+      "qualifying": 0,
+      "totals": [
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "mechanical_map": [
+    {
+      "anonymous_id": "answer-a",
+      "original_path": "temp/hard-screen-20261003/worker/F90/original/F90-C-baseline-r3-attempt1/final.txt",
+      "anonymous_path": "temp/hard-screen-20261003/worker/F90/blind-packet/answer-a.txt",
+      "bytes": 1496,
+      "sha256": "cb06954a5d32e425343ba3f5e493632b0d7794c83afb59f5404dd304f874700a"
+    },
+    {
+      "anonymous_id": "answer-b",
+      "original_path": "temp/hard-screen-20261003/worker/F90/original/F90-C-baseline-r1-attempt1/final.txt",
+      "anonymous_path": "temp/hard-screen-20261003/worker/F90/blind-packet/answer-b.txt",
+      "bytes": 1558,
+      "sha256": "455fae413c34bafd77029335b74ecbab29bd440d3d09d22efa56a572ac6ba9f1"
+    },
+    {
+      "anonymous_id": "answer-c",
+      "original_path": "temp/hard-screen-20261003/worker/F90/original/F90-C-baseline-r2-attempt1/final.txt",
+      "anonymous_path": "temp/hard-screen-20261003/worker/F90/blind-packet/answer-c.txt",
+      "bytes": 1252,
+      "sha256": "9cdc6cd0e76030d66875ea1404ea7d882d4a57e31eca4b0196e240bf25124d90"
+    }
+  ],
+  "all3_extra_audit_required": false,
+  "retained_count": "0/6 unchanged"
+}

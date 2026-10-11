@@ -1,0 +1,115 @@
+{
+  "candidate": "F89",
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "neutral_counts": {
+    "setup_launches": 2,
+    "turn_dispatches": 2,
+    "completed_turns": 2,
+    "preserved_terminal_finals": 2,
+    "setup_retry_count": 0
+  },
+  "original_counts": {
+    "setup_launches": 4,
+    "turn_dispatches": 3,
+    "completed_turns": 3,
+    "preserved_terminal_finals": 3,
+    "setup_retry_count": 1
+  },
+  "valid_originals": 3,
+  "original_identity": [
+    {
+      "anonymous_id": "A",
+      "response_id": "F89-C-r2",
+      "successful_attempt": 1,
+      "bytes": 1504,
+      "original_sha256": "dde39b8ce1a11267f72100ee6c67302e8e5a1b0de924698f5a324aca6eefa1fc",
+      "anonymous_sha256": "dde39b8ce1a11267f72100ee6c67302e8e5a1b0de924698f5a324aca6eefa1fc",
+      "public_sha256": "dde39b8ce1a11267f72100ee6c67302e8e5a1b0de924698f5a324aca6eefa1fc",
+      "all_three_byte_identical": true
+    },
+    {
+      "anonymous_id": "B",
+      "response_id": "F89-C-r3",
+      "successful_attempt": 2,
+      "bytes": 1482,
+      "original_sha256": "a53c69ed06091c73943c1278d52bf93a28d42294627d81f59762b0714c78c9d9",
+      "anonymous_sha256": "a53c69ed06091c73943c1278d52bf93a28d42294627d81f59762b0714c78c9d9",
+      "public_sha256": "a53c69ed06091c73943c1278d52bf93a28d42294627d81f59762b0714c78c9d9",
+      "all_three_byte_identical": true
+    },
+    {
+      "anonymous_id": "C",
+      "response_id": "F89-C-r1",
+      "successful_attempt": 1,
+      "bytes": 1550,
+      "original_sha256": "0a373f9eaa1e51481a86788cd6fcb04d75b45da885692314b26c82d1cc46b2fa",
+      "anonymous_sha256": "0a373f9eaa1e51481a86788cd6fcb04d75b45da885692314b26c82d1cc46b2fa",
+      "public_sha256": "0a373f9eaa1e51481a86788cd6fcb04d75b45da885692314b26c82d1cc46b2fa",
+      "all_three_byte_identical": true
+    }
+  ],
+  "task_byte_identical": true,
+  "task_sha256": "273aa3c99358e0382914fc54b008b1bc651b8a0e24bd9add3888dd0ecba6e0f4",
+  "full_FIRST_original_public_byte_identical": [
+    {
+      "grader": "a",
+      "sha256": "64700bf92ae1fd1d1bce8366b8219b6d9c86191f6e7a5be2e92110b57979a051",
+      "public_sha256": "64700bf92ae1fd1d1bce8366b8219b6d9c86191f6e7a5be2e92110b57979a051"
+    },
+    {
+      "grader": "b",
+      "sha256": "d0d391a1c9b128e2c55cc76be6785ecaf8794151f54f11097b643c9e5740d876",
+      "public_sha256": "d0d391a1c9b128e2c55cc76be6785ecaf8794151f54f11097b643c9e5740d876"
+    }
+  ],
+  "both_full_FIRSTs_saved_before_synthesis_map_or_preview": true,
+  "source_proof_executions": 1,
+  "author_check_executions": 1,
+  "source_only_FIRST_reviews": 2,
+  "same_reviewer_ALIGN_reviews": 2,
+  "new_independent_blind_FIRST_graders": 2,
+  "protocol": {
+    "both_MCP_Node_exit0": true,
+    "both_SAME_owned_Python_terminalclose0": true,
+    "all_required_guards_pass": true,
+    "neutral_SAFE_before_original": true,
+    "original_plan_delta_only": "common_context_sha256"
+  },
+  "preturn_failure": {
+    "repetition": 3,
+    "attempt": 1,
+    "error_stage": "host_preflight",
+    "error_contract_code": "contract_rejected",
+    "turn_dispatched": false,
+    "output_seen": false,
+    "source_preserved": true,
+    "process_stopped": true,
+    "copied_auth_root_removed": true,
+    "prescribed_setup_retry": 1,
+    "successful_attempt": 2
+  },
+  "negatives": [
+    "Unavailable initial direct-Bash shell and metadata-suffixed brief path retained privately.",
+    "TypeScript language server unavailable; no install or configuration change; actual helper syntax3 passed.",
+    "Original r3 first setup rejected before any turn/output; preserved and retried once under fixed rule."
+  ],
+  "official_totals": {
+    "candidate_identifiers": 74,
+    "preserved_terminal_problem_files": 217,
+    "completed_problem_turns": 276,
+    "neutral_excluded": true,
+    "all_historical_files_valid_claim": false,
+    "protected_F46_F51": "UNKNOWN unchanged"
+  },
+  "limits": [
+    "Requested model is gpt-6-sol; backend identity remains UNKNOWN.",
+    "Effort is not a difficulty condition.",
+    "No scored skill treatment or efficacy conclusion.",
+    "Private analytic proof and small state space do not establish difficulty.",
+    "Historical protected unknowns unchanged."
+  ]
+}
