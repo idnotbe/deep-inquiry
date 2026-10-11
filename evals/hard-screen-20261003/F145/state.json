@@ -1,0 +1,113 @@
+{
+  "candidate": "F145",
+  "outcome": "EXCLUDED_NOT_HARD",
+  "delivery_state": "WRITER_VERIFIED_PENDING_INDEPENDENT_ROOT_ACCEPTANCE",
+  "root_final_acceptance_claimed": false,
+  "grades": {
+    "a": {
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "full_passes": 3,
+      "objective_errors": 0,
+      "qualifying_failures": 0
+    },
+    "b": {
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "full_passes": 3,
+      "objective_errors": 0,
+      "qualifying_failures": 0
+    },
+    "joint_qualifying_response_ids": [],
+    "exact_support_quotes": 24
+  },
+  "retained": {
+    "before": 0,
+    "after": 0,
+    "target": 6
+  },
+  "originals": 3,
+  "retries": 0,
+  "replacements": 0,
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "route": {
+    "kind": "native subagent",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "actual_backend": "UNVERIFIED",
+    "host_injected_context": "UNVERIFIED",
+    "shared_filesystem_isolated": false,
+    "sterile_host_claimed": false,
+    "complete_tool_absence": "UNVERIFIED",
+    "complete_tool_telemetry": "UNAVAILABLE",
+    "effort_used_for_admission": false
+  },
+  "heldout": {
+    "writer_reviewer_seen": true,
+    "used_in_trials": false,
+    "used_in_grading": false
+  },
+  "graders": {
+    "independent_first_judgments": 2,
+    "first_judgments_preserved": true,
+    "packet_sha256": "7c1971ce7b4cf062da171d2d649fdcd44dcb21b0337f2e55fc4f57aa1bed3daf"
+  },
+  "mechanism": {
+    "purchase_credits": 4000,
+    "installation": "Replace A actuator",
+    "policies": {
+      "R01": {
+        "original_slot": 2,
+        "lattice_side": 1.2,
+        "residual_upper_bound": 0.1,
+        "exact_zero_claimed": false
+      },
+      "R02": {
+        "original_slot": 3,
+        "lattice_side": 1,
+        "residual_upper_bound": 0,
+        "exact_zero_claimed": true
+      },
+      "R03": {
+        "original_slot": 1,
+        "lattice_side": 1,
+        "residual_upper_bound": 0,
+        "exact_zero_claimed": true
+      }
+    },
+    "empirically_hard_here": false,
+    "mechanism_wide_difficulty": "NOT_ESTABLISHED",
+    "catalogue_wide_uniqueness": "NOT_ESTABLISHED"
+  },
+  "source_validity": {
+    "a": "APPROVE_RECORDED_IN_PRETRIAL_COORDINATOR_SUMMARY",
+    "b": "APPROVE_REPORT_READ",
+    "a_standalone_report_available": false,
+    "blocking_findings": [],
+    "advisories": [
+      "Prose pins and fixed arithmetic assertions are artifact checks, not behavioral proof.",
+      "Finite sweeps do not prove continuous coverage; source review supplied analytic proofs."
+    ]
+  },
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "prior_cases": {
+    "F127": "UNCHANGED",
+    "F138": "SEALED_UNCHANGED"
+  },
+  "artifacts": {
+    "packet": "evals/hard-screen-20261003/F145/packet.json",
+    "grades": "evals/hard-screen-20261003/F145/grades.json",
+    "report": "evals/hard-screen-20261003/F145/report.md",
+    "manifest": "temp/hard-screen-20261003/worker/F145/final/manifest.json",
+    "verification": "temp/hard-screen-20261003/worker/F145/final/verification.json"
+  }
+}

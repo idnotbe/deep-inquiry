@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "family": "F75",
+  "responses": [
+    {
+      "id": "R01",
+      "repetition": 2,
+      "attempt": 1,
+      "file": "responses/R01.txt",
+      "bytes": 936,
+      "sha256": "d705f31a7341cf6b9304d96777dd28e12cf6e8f9361941688b274e8306294c02",
+      "exact_original_bytes": true
+    },
+    {
+      "id": "R02",
+      "repetition": 3,
+      "attempt": 2,
+      "file": "responses/R02.txt",
+      "bytes": 1027,
+      "sha256": "4d53f1e7bfc210387931aef53f62de75212569d4aab76cc7f01d50e2f6943d83",
+      "exact_original_bytes": true
+    },
+    {
+      "id": "R03",
+      "repetition": 1,
+      "attempt": 1,
+      "file": "responses/R03.txt",
+      "bytes": 1071,
+      "sha256": "6ebfe3f84d4f32a031076cca7212ad78f6d9fbef72e4377a960a0eb1cea9e321",
+      "exact_original_bytes": true
+    }
+  ],
+  "blind_FIRSTs": [
+    {
+      "file": "grades-FIRST/a-FIRST.md",
+      "sha256": "b307ca42d62ef7dce78961e8af431497c5425eef7ffa5aa1fa60fc59e00b2b7c",
+      "exact_saved_FIRST_copy": true
+    },
+    {
+      "file": "grades-FIRST/b-FIRST.md",
+      "sha256": "95f3fd37b793bd7305f760de8d90b3e56d9796ff9ca249d2be1a95a8b4d07f29",
+      "exact_saved_FIRST_copy": true
+    }
+  ],
+  "source_and_criteria_hashes": {
+    "cases.json": "ac0f8429fcc520cfcc754f09484daf3c1f94add05baaf35a224b9efae1fc359d",
+    "rubrics.json": "57d6311bc4b79f97bf0c930abd7b980660e3f649b9eb3582c6ecf0d192a0f5eb",
+    "protocol.json": "c395d388c49411608ab81c0f96f21383a6e0181e4fb6b1c1d311ec193fb55d87"
+  },
+  "native_evidence": {
+    "fresh_neutral": {
+      "setup_launches": 2,
+      "turn_dispatches": 2,
+      "completed_turns": 2,
+      "preserved_terminal_finals": 2,
+      "setup_retry_count": 0
+    },
+    "original": {
+      "setup_launches": 4,
+      "turn_dispatches": 3,
+      "completed_turns": 3,
+      "preserved_terminal_finals": 3,
+      "setup_retry_count": 1
+    },
+    "original_order": [
+      2,
+      3,
+      1
+    ],
+    "successful_attempts": [
+      1,
+      2,
+      1
+    ],
+    "one_turn_one_final_each": true,
+    "actual_guards_PASS": true,
+    "durable_PID_before_GO_and_SAME_owned_close0": true,
+    "common_reference_only_plan_delta": true,
+    "neutral_excluded_from_problem_count": 2,
+    "preserved_setup_failures": [
+      {
+        "repetition": 3,
+        "error_stage": "host_preflight",
+        "error_contract_code": "contract_rejected",
+        "turn_dispatched": false,
+        "output_seen": false,
+        "source_preserved": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true
+      }
+    ],
+    "outcome_reruns": 0
+  },
+  "authoring": {
+    "same_core": true,
+    "original_EACH_goal_and_shortcut_preserved": true,
+    "explicit_preoracle_task_definition_revision_not_equivalent_fix": true,
+    "current_goal": "At least TWO current reference codes possible consistent with ALL analyst information",
+    "original_source_FIRSTs": 2,
+    "same_source_readers_affected_ACKs": 2,
+    "same_source_readers_targeted_alignment_FIRSTs": 2,
+    "representation_fix1": "Dimension-specific scoring anchors; one public root charged once",
+    "same_affected_reviewer_fix_ACK": 1,
+    "actual_affected_representation_checks": 1,
+    "check_replays": 0,
+    "all_lawful_partial_full_unequal_probability_repairs_accepted": true
+  },
+  "grading": {
+    "NEW_independent_packet_only_blind_FIRSTs": 2,
+    "both_full_FIRSTs_saved_before_synthesis_and_mapping": true,
+    "parsed_representation": "Author table extraction, not new grading",
+    "joint_qualifying_ids": [],
+    "no_regrade_average_or_favorable_pick": true,
+    "packet_caveat": "Both FIRSTs note unrelated H/K anchor references and undefined V3 label; both expressly found no material grading defect or affected finding. Full caveats preserved, frozen criteria unchanged."
+  },
+  "limits": [
+    "Actual backend identity unverified/nonblocking; reasoning effort not considered",
+    "Saved grader FIRST bodies are full local UTF8 transcriptions, not raw transport authentication",
+    "Optional TypeScript/biome diagnostics unavailable; no installation/global change or diagnostics-clean claim",
+    "No H/K/scored-treatment execution, skill-effect claim or full six-family completion",
+    "No Git/publication archive/full verification or F32/final two successive artifact rounds; deferred until actual six"
+  ]
+}

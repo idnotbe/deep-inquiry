@@ -1,0 +1,27 @@
+{
+  "family": "F113",
+  "status": "EXCLUDED_NOT_HARD",
+  "joint_qualifying_response_ids": [],
+  "joint_qualifying_count": 0,
+  "required_same_response_count": 2,
+  "numeric_scores_are_not_retention_criterion": true,
+  "extra_all_three_validity_audit_triggered": false,
+  "retained_family_count": 0,
+  "target_family_count": 6,
+  "native_original_problem_finals": 3,
+  "native_original_turns": 12,
+  "native_original_READ_requests": 9,
+  "outcome_retries": 0,
+  "H_or_K_native_runs": 0,
+  "scored_treatment_runs": 0,
+  "regrades": 0,
+  "replacement_graders": 0,
+  "limits": [
+    "No empirical hardness or skill-effect claim.",
+    "Heldout matched difficulty remains unverified.",
+    "No backend verification claim.",
+    "ROOT final report/status and exact catalog append accepted; pending snapshots preserved."
+  ],
+  "ROOT_FINAL": "ACCEPTED",
+  "root_final_gate": "temp/hard-screen-20261003/f113-final-root-gate.json"
+}

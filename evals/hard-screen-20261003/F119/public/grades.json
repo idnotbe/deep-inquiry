@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "derivation": "Mechanical extraction from both preserved complete FIRST reports after exact whole readback; no regrading",
+  "packet": {
+    "path": "temp/hard-screen-20261003/worker/F119/blind/packet.json",
+    "bytes": 18022,
+    "sha256": "7b3d756641efad39905246181ebd6da02dc209e42f2ec8c39c32cd3d27dbf409"
+  },
+  "graders": [
+    {
+      "grader": 1,
+      "FIRST": {
+        "path": "temp/hard-screen-20261003/worker/F119/blind-grades/grader-one-FIRST.full.md",
+        "bytes": 6289,
+        "sha256": "fd4575f303791c29c7fb5953fd330b71e7ce6edca88c1796af82ee5ebb3757b3"
+      },
+      "grades": [
+        {
+          "response_id": "R-A",
+          "dimensions": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-B",
+          "dimensions": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-C",
+          "dimensions": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ]
+    },
+    {
+      "grader": 2,
+      "FIRST": {
+        "path": "temp/hard-screen-20261003/worker/F119/blind-grades/grader-two-FIRST.full.md",
+        "bytes": 6793,
+        "sha256": "d0360a8cef7aa954cd896fd939a277f9fe5a3ae801474ea4159538b8c5edc890"
+      },
+      "grades": [
+        {
+          "response_id": "R-A",
+          "dimensions": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-B",
+          "dimensions": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-C",
+          "dimensions": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ]
+    }
+  ],
+  "joint_qualifying_response_ids": [],
+  "joint_qualifying_count": 0,
+  "minimum_same_ids_for_retention": 2,
+  "all_three_extra_validity_trigger": false,
+  "root_FINAL_verified": true,
+  "diagnostics": {
+    "grader_one_full_passes": 3,
+    "grader_two_full_passes": 3,
+    "grader_one_mean": 10,
+    "grader_two_mean": 10
+  },
+  "disagreements": [],
+  "no_outcome_retry_or_replacement": true,
+  "disposition": "EXCLUDED_NOT_HARD",
+  "ROOT_FINAL_gate": "temp/hard-screen-20261003/f119-final-root-gate.json"
+}

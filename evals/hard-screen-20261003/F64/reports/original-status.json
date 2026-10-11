@@ -1,0 +1,121 @@
+{
+  "status": "EXCLUDED_AFTER_THREE_VALID_ORIGINALS_TWO_FIRST_BLIND_GRADES",
+  "candidate": "F64",
+  "originals": [
+    {
+      "repetition": 2,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "1f6efc2626a626645e0c5b89baf2b787be225e8a1ab1d73e3d8b6887b74486e8",
+      "delivery_sha256": "53419c3046256ce0b91200e8350f32b66d3bedfd66bcc2508fa51969f5054aed",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "b257a35642806ee0ec06c4cfe7a7f19f7674312b15acad59147a0fd446343fb4",
+      "final_bytes": 879,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "c2a8af01e75dbb12a275852a12d0948adf48eab379a847be5abe6edfd01552e8",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "repetition": 3,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "845871a928f7aad151632f1b8a6b033ec356e5417c4c318ee55c3500bfe7f807",
+      "delivery_sha256": "53419c3046256ce0b91200e8350f32b66d3bedfd66bcc2508fa51969f5054aed",
+      "telemetry_sha256": "adedf2ae0d960050cb59bdcff09091b1b57a317e40b9ceaef8be1999d602111d",
+      "final_sha256": "674d4173dc7be9a0c19f976085c22006edea613a1ad74ad2cda96d4e20d1d3a4",
+      "final_bytes": 841,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "c2a8af01e75dbb12a275852a12d0948adf48eab379a847be5abe6edfd01552e8",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "repetition": 1,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "bf373f12875d2deab6ff77ff02b3e0d73314e61f3fa5a41d31a45f35517b105e",
+      "delivery_sha256": "53419c3046256ce0b91200e8350f32b66d3bedfd66bcc2508fa51969f5054aed",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "e6828abccd644993676c882a1f40e76ffccf6f2355d164a5660dcca63b6070a2",
+      "final_bytes": 915,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "c2a8af01e75dbb12a275852a12d0948adf48eab379a847be5abe6edfd01552e8",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "successful_attempts": [
+    1,
+    1,
+    1
+  ],
+  "original_setup_retry_count": 0,
+  "preserved_preturn_setup_failures": [],
+  "counts": {
+    "confirmed_family_lowerbound": 54,
+    "preserved_terminal_finals_lowerbound": 157,
+    "problem_turns_lowerbound": 213,
+    "retained": 0,
+    "F46_contribution": "UNKNOWN originaldispatch/completedturns/exit; protected profile unchanged",
+    "F51_contribution": "Actual model execution/completion UNKNOWN; successful captures0; protected originals unchanged"
+  },
+  "grade_totals": {
+    "A": [
+      10,
+      10,
+      10
+    ],
+    "B": [
+      10,
+      10,
+      10
+    ]
+  },
+  "objective_errors": {
+    "A": 0,
+    "B": 0
+  },
+  "qualifying_ids": {
+    "A": [],
+    "B": []
+  },
+  "joint_ids": [],
+  "retained": 0,
+  "goal": "0/6 ACTIVE/UNMET",
+  "neutral": {
+    "roots": 2,
+    "unscored": true,
+    "problem_count_addition": 0,
+    "setup_retry_count": 0
+  },
+  "H_K": "Author/reviewer seen; participant UNUSED/NOT_RUN",
+  "scored_treatment": "NOT_RUN",
+  "skill_efficacy": "UNKNOWN; negative screening is not efficacy evidence",
+  "requested_model": "gpt-6-sol",
+  "effective_backend_verified": false,
+  "reasoning_effort_considered": false,
+  "no_outcome_retry_replacement_regrade": true,
+  "F46_F51": "Protected originals unchanged; actual contribution UNKNOWN"
+}

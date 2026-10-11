@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/blind/packet.json",
+      "bytes": 24401,
+      "sha256": "09dff749cc1eeb920750d46dc74557c5764ee4cbbf062adf64af1ccf1edd0141"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/blind-private-mapping.json",
+      "bytes": 1186,
+      "sha256": "5128ae3655f156a4ca6fddaf01873d4a75f76d8ddd588d1e12295ca80e2938f6"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/blind-display-provenance.json",
+      "bytes": 1656,
+      "sha256": "bea668929824f828a1991de03e79ac249fa7b8a3513a79adfa3a05615b447c9b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/blind-phase-provenance.md",
+      "bytes": 2049,
+      "sha256": "acdac60335e12e1674a2bda12280b43a013f11986045be5c896985c43559db08"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/blind-packet-build-actual-lossless.json",
+      "bytes": 4884,
+      "sha256": "7135801221f36d78cad2e49bb6bb60fd74c1ce41a802ffe2f3be61712927b35c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/blind-BOTH-FULL-readback-actual-lossless.json",
+      "bytes": 11161,
+      "sha256": "3ca48ffb00d81d3749820dd39a43f2407f1dd8f4ed7c74c4e354eda024d3989a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/grades-synthesis.json",
+      "bytes": 2509,
+      "sha256": "5c7f7fe04a6142581a505637c6643960117cc1adfb0581962faa61eb62627d55"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/native-phase-handoff.json",
+      "bytes": 18155,
+      "sha256": "8f03db06df52d23b67f0615a5dc6cb7973f2332abc8dd412e794a0358fdf8ab7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/native-original-actual-lossless.json",
+      "bytes": 800,
+      "sha256": "b3e20b1c85b977d62b0835efbee2300e2a15165b6f8a5a35d24c4705ff5193e0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/collector-original-actual-lossless.json",
+      "bytes": 1064,
+      "sha256": "c80c9b2631840e066422fbb4f110540f8bb18710e923628f8563303d0fa01097"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/original-safe-readback.json",
+      "bytes": 12468,
+      "sha256": "e0c1794f562e6cc0510aef732efb9f16b90ee22343e931dbea94eca8aa5ef8af"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/qualification/neutral-safe-readback.json",
+      "bytes": 8938,
+      "sha256": "f2a59af481d38f028b9461e7cff9354c947ae5c1eb894feb9d310be250974ce4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/qualification/freeze.json",
+      "bytes": 40353,
+      "sha256": "6fb6969971c2e87b2589c74847a25a6b8464ccd18847890f78f42f1c4b3031e1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/combined-check-actual-lossless.json",
+      "bytes": 40641,
+      "sha256": "abe787e0f98b770e12ecbc7789e56a6892287b94ec708c83bed3cf98eb3d4a14"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f100-safe-root-gate.json",
+      "bytes": 862,
+      "sha256": "21ce1eb7fe6b639be7f1db2df0d9c10d7579a1515fc38a1d4f60de5af223c918"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/reviews/blind-one-FIRST.full.md",
+      "bytes": 4139,
+      "sha256": "eae87ebfea5cb5d087b345be3dda0598b9d7d9423e6ea2fcb179e06d77c91971"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F100/reviews/blind-two-FIRST.full.md",
+      "bytes": 4352,
+      "sha256": "2f434da9737feddd372d3d77e1d352cb77c297f6e8bb3057d3ecb0d369c544e5"
+    }
+  ],
+  "public_response_bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F100/responses/C-r1.txt",
+      "bytes": 1093,
+      "sha256": "c6a12e0daf9e4a138955af00bfae7bd1cdb372eb85cefe756ef3edb4d9cdc583"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F100/responses/C-r2.txt",
+      "bytes": 1220,
+      "sha256": "5aa216c6308c21a82736f5d8ab45b2594371cb3c1c322723a92caf3969a51ff6"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F100/responses/C-r3.txt",
+      "bytes": 943,
+      "sha256": "60e326d2224ae60c11bbbbd5e203c50592a6cf7e53b966398c3e8b91f8b536e2"
+    }
+  ],
+  "blind_FIRST_boundary": "Both complete FIRSTs saved/exactreadback before synthesis/mapping reveal; no replacements/regrades.",
+  "frozen_bindings_currently_verified": 203,
+  "native_guards": "All actual setup/dispatch/terminal/input/context/exposure/isolation/source/noTools/process/authcopy cleanup guards SAFE; PID before GO, SAME owned Python close0 and MCPNode0.",
+  "limitations": [
+    "Backend unverified; reasoning effort not considered.",
+    "Requested outer timeouts are not proven watchdogs; descendant cleanup beyond observed owned process evidence remains limited.",
+    "Frozen provenance overstates interpreter uniformity: helper auxiliary python - used ambient/unversionattested interpreter; author construction/formal/native approved bindings independently verified.",
+    "ROOT first PRETRIAL schema assertion failure retained/corrected; no formal/native replay.",
+    "Earlier preparatory read/PATH/Git deviations and unavailable raw auxiliary receipts remain disclosed in frozen provenance and ROOT clarification."
+  ],
+  "root_final": "ACCEPTED",
+  "classification": "EXCLUDED_NOT_HARD",
+  "root_final_gate": "temp/hard-screen-20261003/f100-final-root-gate.json",
+  "historical_delivery": "Original FINAL binds root-final-prefinals for changed public acceptance records; all remaining original bindings unchanged."
+}

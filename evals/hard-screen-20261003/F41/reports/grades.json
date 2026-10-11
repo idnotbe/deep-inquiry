@@ -1,0 +1,10 @@
+{
+  "candidate": "F41",
+  "status": "NOT_RUN_INCOMPLETE_INVALID_ORIGINAL",
+  "grader_a": null,
+  "grader_b": null,
+  "objective_decision_errors": null,
+  "qualifying_inquiry_failures": null,
+  "joint_qualifying_ids": null,
+  "reason": "Source preservation failed in dispatched r2; r3/r1 never dispatched. No clean grading packet or graders created; no hardness verdict."
+}

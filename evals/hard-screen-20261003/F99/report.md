@@ -1,0 +1,15 @@
+# F99 — EXCLUDED_NOT_HARD; ROOT FINAL accepted
+
+Both new independent, condition-hidden FIRST graders assess all three preserved original responses as correct: 10/10 each, three numerical full passes, zero objective decision errors and zero qualifying inquiry failures. The SAME-ID joint qualifying set is empty. F99 therefore does not satisfy the prospective repeated-failure screen; EXCLUDED_NOT_HARD is proposed, ROOT FINAL accepted. Retained remains0/6. This result concerns these originals and does not establish universal ease or skill efficacy.
+
+Every answer implements a lawful optimal reporting policy with joint report masses (9,80,1)/160, (23,0,23)/160 and (24,0,0)/160. It obtains purchase probability249/320, correctly models the different verification choices at the two mean-zero reports, and gives a valid global bound. Full disclosure yields13/20. Lawful equivalents, report names and different proof presentations are accepted. No proof quota or hidden cognitive-cause inference was used.
+
+The exact prospective V2/V3/generic rules separate numerical correctness, objective error and qualifying inquiry failure. A qualifying finding requires the observed claim, supplied law, complete feasible correction and material policy/decision change; the frozen threshold is1/50 absolute probability, not2% relative. The threshold alone never qualifies. Both FULL FIRSTs were saved and losslessly read back before synthesis or mapping disclosure; no regrade or reviewer replacement occurred.
+
+The fresh unscored neutral pair and original C slots2,3,1 passed actual structural guards, MCP/Node0 and SAME owned Python close0, with zero setup retries or native replays. Actual MCP timeouts were900000/1200000; those requested limits are not watchdog guarantees. Descendant cleanup remains unverified. H/K participants and scored treatment remain unused. Requested model gpt-6-sol; backend identity remains UNVERIFIED/nonblocking; reasoning effort is not considered.
+
+Raw accounting is83 screened candidate IDs,240 preserved terminal problem files and299 completed problem model turns, plus older protected completion UNKNOWN. Neutral turns are excluded;240 files is not240 valid trials. No full agreed-scope verification has run; the agreed threshold remains six actual retained families.
+
+Construction provenance remains explicit: the original durable raw receipts for two author Fraction/vertex calculations are unavailable. Retrospective context transcriptions are preserved privately and are not actual primary receipts or runtime proof. The separate actual combined affected check ran once and passed; pre-execution LF/inverse and prerequisite-syntax fixes received SAME helper confirmation before that check. Actual native/collector primary receipts are contemporaneous and preserved losslessly.
+
+[Status](status.json) and full evidence (local retained evidence; not published) preserve all three exact original response texts, both FULL independent FIRSTs, their separate assessments, mechanical synthesis and limits. ROOT FINAL accepted the metadata and exact evidence linkage. ROOT appended the matching summary to the shared README.

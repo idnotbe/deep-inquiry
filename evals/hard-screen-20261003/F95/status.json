@@ -1,0 +1,43 @@
+{
+  "status": "EXCLUDED_NOT_HARD",
+  "root_final_pending": false,
+  "criteria": "Fixed prospective V2/V3/generic and frozen anchors unchanged",
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "valid_originals": 3,
+  "neutral_unscored": 2,
+  "numerical_full_pass_each": 3,
+  "scores_each_anonymous_order": [
+    9,
+    10,
+    9
+  ],
+  "mean_each": 9.333333333333334,
+  "objective_decision_errors_each": 0,
+  "joint_qualifying_ids": [],
+  "joint_qualifying_count": 0,
+  "all3qual_extra_audit_required": false,
+  "retained": 0,
+  "target": 6,
+  "cumulative": {
+    "screened_candidate_ids": 79,
+    "preserved_terminal_problem_files": 230,
+    "completed_problem_turns": 289,
+    "retained": 0,
+    "target": 6,
+    "other_unknowns": "F46/F51/F93-r3 preserved separately"
+  },
+  "H_K_participant_unused": true,
+  "H_matching": "Participant-unused family-level deployment-dependent inspection variation; not replication of C displacement mechanism or verified matched difficulty.",
+  "scored_treatment": 0,
+  "native_retries": 0,
+  "native_replays": 0,
+  "reviewer_regrades": 0,
+  "backend": "UNKNOWN_NONBLOCKING",
+  "effort_considered": false,
+  "root_final_accepted": true,
+  "root_final_record": "temp/hard-screen-20261003/f95-final-root-gate.json"
+}

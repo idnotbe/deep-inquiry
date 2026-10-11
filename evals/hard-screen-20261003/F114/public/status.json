@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "status": "EXCLUDED_NOT_HARD",
+  "proposed_classification": "EXCLUDED_NOT_HARD",
+  "candidate": "F114",
+  "same_ID_qualifying": 0,
+  "objective_errors_each": [
+    0,
+    0
+  ],
+  "full_passes_each": [
+    3,
+    3
+  ],
+  "mean_quality_each": [
+    10,
+    10
+  ],
+  "native_originals": 3,
+  "neutral_unscored_turns": 2,
+  "setup_retries": 0,
+  "replacements": 0,
+  "regrading": 0,
+  "trial_replays": 0,
+  "H_K_participant_unused": true,
+  "scored_treatment": 0,
+  "retained_before": 0,
+  "retained_after_proposal": 0,
+  "target": 6,
+  "backend": "UNVERIFIED",
+  "efficacy": "UNKNOWN; no scored treatment",
+  "aggregate_bookkeeping": {
+    "source": "ROOT supplied counters; older history not re-opened",
+    "before": {
+      "candidate_identifiers": 93,
+      "preserved_problem_final_files": 268,
+      "known_completed_problem_turns": 336
+    },
+    "added": {
+      "candidate_identifiers": 1,
+      "preserved_problem_final_files": 3,
+      "known_completed_problem_turns": 3
+    },
+    "after": {
+      "candidate_identifiers": 94,
+      "preserved_problem_final_files": 271,
+      "known_completed_problem_turns": 339
+    },
+    "older_completed_problem_turns": "UNKNOWN",
+    "neutral_turns_excluded": true,
+    "not_valid_trial_or_admission_counts": true
+  },
+  "ROOT_FINAL_required": false,
+  "ROOT_FINAL": "ACCEPTED",
+  "retained_after": 0,
+  "shared_catalog_append_accepted": true
+}

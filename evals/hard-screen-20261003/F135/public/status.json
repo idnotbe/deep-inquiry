@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "candidate": "F135_ORACLE_R2_LOCAL_RESULT_V1",
+  "status": "ROOT_FINAL_ACCEPTED_LOCAL",
+  "ROOT_FINAL_accepted": true,
+  "disposition": "EXCLUDED_NOT_HARD",
+  "retained_count": 0,
+  "retained_target": 6,
+  "same_joint_qualifying_ids": [],
+  "admission_threshold": 2,
+  "objective_error_counts": [
+    0,
+    0
+  ],
+  "qualifying_failure_counts": [
+    0,
+    0
+  ],
+  "full_passes_per_grader": [
+    3,
+    3
+  ],
+  "mean_per_grader": [
+    10,
+    10
+  ],
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "original_completed_turns": 3,
+  "original_preserved_finals": 3,
+  "persisted_thread_uniqueness": "NOT_ESTABLISHED",
+  "neutral_completed_turns": 2,
+  "neutral_scored": false,
+  "setup_retries": 0,
+  "participant_replays": 0,
+  "scored_treatment": 0,
+  "source_problem_count": 2,
+  "schema_entry_count": 3,
+  "H_and_packaging_alias_participant_unused": true,
+  "packaging_alias_validated_negative_control": false,
+  "requested_participant": "gpt-6.1-sol",
+  "requested_effort": "medium",
+  "host_config_verified": true,
+  "actual_backend": "UNKNOWN",
+  "reasoning_effort_used_as_failure_evidence": false,
+  "efficacy": "UNKNOWN",
+  "heldout_difficulty": "UNKNOWN",
+  "source_validity_is_empirical_difficulty": false,
+  "current_grader_route": "two independent fresh native subagents",
+  "historical_F127": "UNCHANGED",
+  "remote_publication": false
+}

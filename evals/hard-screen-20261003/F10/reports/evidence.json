@@ -1,0 +1,55 @@
+{
+  "suite_hashes": {
+    "cases.json": "20c0c808448018633a282feaad7b22ae6ca4de1d30430ef7ce38edef91898474",
+    "rubrics.json": "57a534f3e16cc6cdc5749ee7c55969730495644731a21aa4e2584515a804a9c1",
+    "protocol.json": "b0f35a218269f1ad9d482352db590e464f80ad1f6827743d7bbe9e076479d4af"
+  },
+  "code_commit": "f33931f",
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "status": "completed",
+      "final_sha256": "2025e8120f7133f7d74cb443e1e2093aa05ba593508cd865eaeebd897c4bc662",
+      "turn_id": "local-turn-4e1ae18a87738cd9",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "status": "completed",
+      "final_sha256": "5176ff21e1a894ed45fee29d74b8b31c4be1932af45d3229b6d165ace4d17052",
+      "turn_id": "local-turn-438f8c58dbb777a5",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "status": "completed",
+      "final_sha256": "8b07857f6a7b61f5476eff3aa9707a5ce60c38a6ad6cd6cbd9273fea7b4d277d",
+      "turn_id": "local-turn-d96c15f31b226cb7",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "canary_turns": 4,
+  "canary_note": "First pair used pre-parser-fix code; retained, superseded by current code-bound canary-v2 before any F10 scoring.",
+  "runner_sha256": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+  "dialogue_runner_sha256": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+}

@@ -1,0 +1,32 @@
+{
+  "candidate": "F89",
+  "status": "EXCLUDED_NOT_HARD",
+  "full_pass_counts": [
+    3,
+    3
+  ],
+  "scores": [
+    [
+      10,
+      10,
+      10
+    ],
+    [
+      10,
+      10,
+      10
+    ]
+  ],
+  "objective_error_counts": [
+    0,
+    0
+  ],
+  "qualifying_counts": [
+    0,
+    0
+  ],
+  "joint_qualifying_ids": [],
+  "retained_families": "0/6 unchanged",
+  "conclusion": "All three valid original responses fully pass under both independent graders. This candidate is excluded from retained hard families; passing does not establish skill inefficacy.",
+  "alternative_law": "One original uses the lawful optimum (3/13,5/13,5/13,0), with inspection tying obedience after STEADY; weak optimality permits it. Other originals use (1/5,2/5,2/5,0)."
+}

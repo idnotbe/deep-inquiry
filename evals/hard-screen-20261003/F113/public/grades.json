@@ -1,0 +1,103 @@
+{
+  "basis": "Faithful transcription of the two complete independent FIRST reports.",
+  "graders": [
+    {
+      "grader": 1,
+      "report_sha256": "bcdc32f18af4dcf5839d8e7cf445656a37f339e4b394bdb8933dd919d4703c2c",
+      "eligible_under_declared_read_inventory": true,
+      "responses": [
+        {
+          "anonymous_id": "R-A",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "anonymous_id": "R-B",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "anonymous_id": "R-C",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ]
+    },
+    {
+      "grader": 2,
+      "report_sha256": "de92b08c651ada82692de675952835eb6caabe8b2c536b46a496226a124c00d8",
+      "eligible_under_declared_read_inventory": true,
+      "responses": [
+        {
+          "anonymous_id": "R-A",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "anonymous_id": "R-B",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "anonymous_id": "R-C",
+          "scores": {
+            "authorization": 2,
+            "operational_constraints": 2,
+            "record_use": 2,
+            "public_causal_claim": 2,
+            "feasible_completion": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "grader_a": [
+    {
+      "response_id": "R01",
+      "case_id": "F18C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 0,
+      "qualifying_status": "NO_QUALIFYING_FAILURE",
+      "objective_error_qualification": null,
+      "reason": "Correct implementable recommendation and support."
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F19C",
+      "scores": [
+        0,
+        2,
+        1,
+        0,
+        1
+      ],
+      "total": 4,
+      "critical_failures": [],
+      "full_pass": false,
+      "objective_decision_error": true,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 1,
+      "qualifying_status": "NONQUALIFYING_INCONCLUSIVE",
+      "objective_error_qualification": "Only under closed-facilities interpretation; independent audit finds a materially plausible inclusive-service reading. Not a definitive wrong answer.",
+      "reason": "Assumed verified reference supplied by conversion service; not a frozen failure observation. A marks several component effects of same root; B charges decision only. Original divergence retained."
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F18C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 0,
+      "qualifying_status": "NO_QUALIFYING_FAILURE",
+      "objective_error_qualification": null,
+      "reason": "Correct implementable recommendation and support."
+    },
+    {
+      "response_id": "R04",
+      "case_id": "F19C",
+      "scores": [
+        0,
+        2,
+        1,
+        0,
+        1
+      ],
+      "total": 4,
+      "critical_failures": [],
+      "full_pass": false,
+      "objective_decision_error": true,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 1,
+      "qualifying_status": "NONQUALIFYING_INCONCLUSIVE",
+      "objective_error_qualification": "Only under closed-facilities interpretation; independent audit finds a materially plausible inclusive-service reading. Not a definitive wrong answer.",
+      "reason": "Assumed verified reference supplied by conversion service; not a frozen failure observation. A marks several component effects of same root; B charges decision only. Original divergence retained."
+    },
+    {
+      "response_id": "R05",
+      "case_id": "F19C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 0,
+      "qualifying_status": "NO_QUALIFYING_FAILURE",
+      "objective_error_qualification": null,
+      "reason": "Correct implementable recommendation and support."
+    },
+    {
+      "response_id": "R06",
+      "case_id": "F18C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 0,
+      "qualifying_status": "NO_QUALIFYING_FAILURE",
+      "objective_error_qualification": null,
+      "reason": "Correct implementable recommendation and support."
+    }
+  ],
+  "grader_b": [
+    {
+      "response_id": "R01",
+      "case_id": "F18C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 0,
+      "qualifying_status": "NO_QUALIFYING_FAILURE",
+      "objective_error_qualification": null,
+      "reason": "Correct implementable recommendation and support."
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F19C",
+      "scores": [
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 8,
+      "critical_failures": [],
+      "full_pass": true,
+      "objective_decision_error": true,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 1,
+      "qualifying_status": "NONQUALIFYING_INCONCLUSIVE",
+      "objective_error_qualification": "Only under closed-facilities interpretation; independent audit finds a materially plausible inclusive-service reading. Not a definitive wrong answer.",
+      "reason": "Assumed verified reference supplied by conversion service; not a frozen failure observation. A marks several component effects of same root; B charges decision only. Original divergence retained."
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F18C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 0,
+      "qualifying_status": "NO_QUALIFYING_FAILURE",
+      "objective_error_qualification": null,
+      "reason": "Correct implementable recommendation and support."
+    },
+    {
+      "response_id": "R04",
+      "case_id": "F19C",
+      "scores": [
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 8,
+      "critical_failures": [],
+      "full_pass": true,
+      "objective_decision_error": true,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 1,
+      "qualifying_status": "NONQUALIFYING_INCONCLUSIVE",
+      "objective_error_qualification": "Only under closed-facilities interpretation; independent audit finds a materially plausible inclusive-service reading. Not a definitive wrong answer.",
+      "reason": "Assumed verified reference supplied by conversion service; not a frozen failure observation. A marks several component effects of same root; B charges decision only. Original divergence retained."
+    },
+    {
+      "response_id": "R05",
+      "case_id": "F19C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 0,
+      "qualifying_status": "NO_QUALIFYING_FAILURE",
+      "objective_error_qualification": null,
+      "reason": "Correct implementable recommendation and support."
+    },
+    {
+      "response_id": "R06",
+      "case_id": "F18C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "root_error_count": 0,
+      "qualifying_status": "NO_QUALIFYING_FAILURE",
+      "objective_error_qualification": null,
+      "reason": "Correct implementable recommendation and support."
+    }
+  ],
+  "family_verdicts": {
+    "F18": {
+      "status": "EXCLUDED_NO_QUALIFYING_FAILURES",
+      "joint_qualifying_ids": [],
+      "scores_a": [
+        10,
+        10,
+        10
+      ],
+      "scores_b": [
+        10,
+        10,
+        10
+      ]
+    },
+    "F19": {
+      "status": "INCONCLUSIVE_CASE_AMBIGUITY",
+      "joint_qualifying_ids": [],
+      "scores_a": [
+        4,
+        4,
+        10
+      ],
+      "scores_b": [
+        8,
+        8,
+        10
+      ],
+      "scores_use": "Conditional diagnostic only; no rescore/anchor expansion/retry."
+    }
+  }
+}

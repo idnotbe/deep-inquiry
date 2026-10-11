@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "status": "GRADING_COMPLETE_PENDING_ROOT_FINAL",
+  "proposed_final_verdict": "EXCLUDED_NOT_HARD",
+  "mechanical_admission": {
+    "grader_one_qualifying_IDs": [],
+    "grader_two_qualifying_IDs": [],
+    "SAME_ID_intersection": [],
+    "required_same_ID_count": 2,
+    "all_three_extra_validity_audit_required": false,
+    "retained_change_authorized": false
+  },
+  "FIRSTs": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F78/grading/grader-one-FIRST.md",
+      "bytes": 3105,
+      "sha256": "dc9ff5d2ebbfe076515aa6db4162e79cc5e1c63af80cd25c216f34f83596e87c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F78/grading/grader-two-FIRST.md",
+      "bytes": 4161,
+      "sha256": "ce3a5a9ba8cb87c4d2c3cc7069702bc0cd339e983014bedc29402f6ddec9af63"
+    }
+  ],
+  "grades": [
+    [
+      {
+        "anonymous_id": "Response-A",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      },
+      {
+        "anonymous_id": "Response-B",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      },
+      {
+        "anonymous_id": "Response-C",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      }
+    ],
+    [
+      {
+        "anonymous_id": "Response-A",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      },
+      {
+        "anonymous_id": "Response-B",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      },
+      {
+        "anonymous_id": "Response-C",
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10
+      }
+    ]
+  ],
+  "mapping": [
+    {
+      "anonymous_id": "Response-A",
+      "case_id": "F78C",
+      "condition": "baseline",
+      "repetition": 3,
+      "attempt": 1,
+      "final_sha256": "7623146c28dc39c0457539eca8af095482988fcdebda44af22e000de0d3d0526",
+      "public_response": "responses/F78C-baseline-r3.txt"
+    },
+    {
+      "anonymous_id": "Response-B",
+      "case_id": "F78C",
+      "condition": "baseline",
+      "repetition": 2,
+      "attempt": 1,
+      "final_sha256": "397795e3a7b96cb8bdf8feb09ce0d08f9cf2c9c0375d14f0ed53495dd33f0e5f",
+      "public_response": "responses/F78C-baseline-r2.txt"
+    },
+    {
+      "anonymous_id": "Response-C",
+      "case_id": "F78C",
+      "condition": "baseline",
+      "repetition": 1,
+      "attempt": 1,
+      "final_sha256": "da8d08cb09970053eecef722da5d6e1932477fc8eabd948b37796a51ba446099",
+      "public_response": "responses/F78C-baseline-r1.txt"
+    }
+  ],
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "objective_error_counts": [
+    0,
+    0
+  ],
+  "secondary_full_pass_counts": [
+    3,
+    3
+  ],
+  "secondary_means": [
+    10,
+    10
+  ],
+  "disagreement": "None: each corresponding decision/failure/secondary score agrees. No pick/regrade/averaging.",
+  "rules": "Fixed V2/V3/generic unchanged; every complete lawful alternative accepted; objective/qualifying/secondary separate; one root once; no quotas.",
+  "H_K_participant_use": 0,
+  "scored_treatment": 0,
+  "efficacy": "UNKNOWN",
+  "retained": 0,
+  "target": 6,
+  "next": "STOPROOT FINAL after public/README bindings; no retention until ROOT FINAL."
+}

@@ -1,0 +1,210 @@
+{
+  "candidate": "F161",
+  "version": "closure-1",
+  "source_version": "F161_SOURCE_V2",
+  "issue": 12,
+  "outcome": "EXCLUDED_NOT_HARD",
+  "difficulty": "NOT_HARD_IN_THIS_THREE_ORIGINAL_SCREEN",
+  "delivery_state": "PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW",
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "increment": 0,
+    "after": 0,
+    "target": 6
+  },
+  "interaction": "SINGLE_TURN",
+  "planned_original_episodes": 3,
+  "planned_problem_turns": 3,
+  "original_episodes_launched": 3,
+  "observed_problem_turns": 3,
+  "original_finals_preserved": 3,
+  "accepted_gradeable_finals": 3,
+  "protocol_acceptance": "THREE_ORIGINALS_VALID_PER_FRESH_CLEAN_INDEPENDENT_AUDIT_AND_ROOT_ACCEPTANCE",
+  "retries": 0,
+  "replacements": 0,
+  "followups": 0,
+  "extra_problem_turns": 0,
+  "grader_calls": 2,
+  "grade_results": 2,
+  "grading": "TWO_FRESH_COMPLETE_PACKET_RESULTS_COMPLETE",
+  "response_ids": [
+    "R-186301BF19",
+    "R-59DA2C8FDC",
+    "R-2905E4761F"
+  ],
+  "response_mapping": [
+    {
+      "anonymous_response_id": "R-186301BF19",
+      "slot": "r3",
+      "bytes": 862,
+      "sha256": "46d3c8827860104c314a5f046cb82a03c05f9c9891926c2940b7ae6518f3dee8",
+      "original_record_index": 16
+    },
+    {
+      "anonymous_response_id": "R-59DA2C8FDC",
+      "slot": "r2",
+      "bytes": 842,
+      "sha256": "eaf1b7e29bd6c779e7fe0d818bfd8199ea91e7eb437b3b71304c971d7d5aac66",
+      "original_record_index": 18
+    },
+    {
+      "anonymous_response_id": "R-2905E4761F",
+      "slot": "r1",
+      "bytes": 738,
+      "sha256": "a94794dc476a1e4b50de4a0072c5ae7113282c67e7f98de76906a13b055e369a",
+      "original_record_index": 18
+    }
+  ],
+  "retention_threshold_same_ids": 2,
+  "correct_decision": "Monday acceptance using existing authorized staffed route; all twelve actual generated rounds and linked reconciliation",
+  "additional_charge_gbp": [
+    0,
+    0,
+    0
+  ],
+  "material_loss_gbp": [
+    0,
+    0,
+    0
+  ],
+  "scores": {
+    "a": [
+      10,
+      10,
+      10
+    ],
+    "b": [
+      10,
+      10,
+      10
+    ]
+  },
+  "objective_decision_errors": {
+    "a": [
+      false,
+      false,
+      false
+    ],
+    "b": [
+      false,
+      false,
+      false
+    ]
+  },
+  "qualifying_inquiry_failures": {
+    "a": [
+      false,
+      false,
+      false
+    ],
+    "b": [
+      false,
+      false,
+      false
+    ]
+  },
+  "qualifying_ids": {
+    "a": [],
+    "b": []
+  },
+  "same_id_intersection": [],
+  "additional_postoutput_validity_review_required": false,
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "heldout": {
+    "writer_reviewer_seen": true,
+    "participant_episodes": 0,
+    "used_in_grading": false
+  },
+  "route": {
+    "kind": "native subagent",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "observed_configuration": "Matches requested settings per fresh independent semantic audit",
+    "protected_initial_plaintext": "UNVERIFIED_ROOT_NATIVE_API_TRUST_ASSUMPTION",
+    "actual_backend_fallback": "UNVERIFIED",
+    "internal_isolation": "UNVERIFIED",
+    "shared_filesystem_isolated": false,
+    "effort_used_for_admission": false
+  },
+  "semantic_audit": {
+    "path": "temp/hard-screen-20261003/f161-clean-semantic-audit.md",
+    "root_acceptance": "temp/hard-screen-20261003/f161-validity-acceptance.md",
+    "slots": [
+      {
+        "slot": "r1",
+        "overall": "VALID"
+      },
+      {
+        "slot": "r2",
+        "overall": "VALID"
+      },
+      {
+        "slot": "r3",
+        "overall": "VALID"
+      }
+    ],
+    "wrapper_difference": "FROZEN_WRAPPER_PLUS_ONE_LF_SEMANTICALLY_ACCEPTABLE_NOT_BYTE_IDENTICAL",
+    "command_prefix_raw_strings": "NOT_READ_BASELINE_EQUALITY_UNVERIFIED_CASE_SPECIFIC_RELEVANCE_ACCEPTED_BY_AUDITOR"
+  },
+  "source_validity": {
+    "review_a": "APPROVE",
+    "review_b": "APPROVE",
+    "scope": "Source V2 validity only",
+    "novelty": "Bounded comparisons only; not whole-catalog independence or empirical hardness"
+  },
+  "grader_provenance": {
+    "kind": "ROOT_PRESERVED_DELIVERED_JSON",
+    "original_rawlogs_independently_audited": false,
+    "additional_public_action_provenance": "UNVERIFIED_BY_CLOSURE"
+  },
+  "blind_packet": {
+    "path": "temp/assessment-0161/packet.json",
+    "bytes": 77927,
+    "sha256": "bbf1e7ee6aefd9eb7a8670f25feef1acd9906fa322a4cfabb3ee034a21db76e2",
+    "status": "COMPLETE_PACKET_ROOT_ACCEPTED_AND_GRADED",
+    "ordered_read_actions_observations_in_packet": true,
+    "C_only_oracle_in_packet": true,
+    "public_records": 18,
+    "root_acceptance": "temp/hard-screen-20261003/f161-validity-acceptance.md"
+  },
+  "historical_frozen_statuses_edited": false,
+  "historical_recovery_or_reclassification": false,
+  "catalog_application": "PREFIX_PRESERVING_APPEND_BOUND_BY_CLOSURE_VERIFICATION",
+  "closure_frozen": true,
+  "deviations": [
+    {
+      "id": "source-v1-P1",
+      "severity": "P1",
+      "status": "CORRECTED_BEFORE_TRIAL_IN_SOURCE_V2",
+      "description": "Unconditional dispatcher publication contradicted H; common conditional and brevity scoring clarified; eleven v1 files archived.",
+      "evidence": "temp/hard-screen-20261003/worker/F161-proposal/source-v2-change-record.md"
+    },
+    {
+      "id": "first-audit-P1",
+      "severity": "P1",
+      "status": "HISTORICAL_NOT_FINAL_AUTHORITY",
+      "final_authority": false,
+      "description": "Unnecessary memory-registry output exposed historical original-session locators and identifiers; no historical session body read or strings copied to artifacts. Fresh independent clean audit supplies final authority.",
+      "evidence": "temp/hard-screen-20261003/f161-semantic-audit-with-privacy-deviation.md"
+    },
+    {
+      "id": "baseline-B-P2",
+      "severity": "P2",
+      "status": "RETAINED",
+      "description": "Initial regex-error output exposed a Python installation path containing a local account directory name. No session-log path, raw UUID, secret or protected plaintext; subsequent errors masked.",
+      "evidence": "temp/hard-screen-20261003/prospective-v4-review-rehearsal-b.md"
+    },
+    {
+      "id": "clean-audit-P2",
+      "severity": "P2",
+      "status": "RETAINED",
+      "description": "Overbroad filename-only discovery exposed an unrelated historical project-artifact directory locator through EPERM; no session-log path, raw UUID, file content, historical artifact or prior technical audit read. Perfect incidental output minimization unclaimed.",
+      "evidence": "temp/hard-screen-20261003/f161-clean-semantic-audit.md"
+    }
+  ]
+}

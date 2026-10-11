@@ -1,0 +1,169 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "quoted_evidence": [
+          "Do not authorize the 200-credit overflow purchase.",
+          "Amend J1, J2, J3, J5, J6, and J8 to the assignments shown. Leave J4 and J7 unchanged.",
+          "J1 and J3 both have Ben, as their signed condition requires."
+        ]
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "quoted_evidence": [
+          "Do not authorize the 200-credit overflow purchase.",
+          "Six existing bookings change, costing exactly 60 credits.",
+          "J1 and J3 both receive Ben, satisfying their comparison-pair condition."
+        ]
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "quoted_evidence": [
+          "Do not authorize the 200-credit overflow purchase.",
+          "Amend J1, J2, J3, J5, J6 and J8; leave J4 and J7 as booked.",
+          "Every assignment is approved, and comparison pair J1 and J3 both have Ben."
+        ]
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "quoted_evidence": [
+          "Do not authorize the 200-credit overflow purchase.",
+          "Amend J1, J2, J3, J5, J6, and J8 to the assignments shown. Leave J4 and J7 unchanged.",
+          "J1 and J3 both have Ben, as their signed condition requires."
+        ]
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "quoted_evidence": [
+          "Do not authorize the 200-credit overflow purchase.",
+          "Six existing bookings change, costing exactly 60 credits.",
+          "J1 and J3 both receive Ben, satisfying their comparison-pair condition."
+        ]
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "quoted_evidence": [
+          "Do not authorize the 200-credit overflow purchase.",
+          "Amend J1, J2, J3, J5, J6 and J8; leave J4 and J7 as booked.",
+          "Every assignment is approved, and comparison pair J1 and J3 both have Ben."
+        ]
+      }
+    ]
+  },
+  "independent_verification_both": {
+    "existing_final": [
+      "J1 Ben11",
+      "J2 Ada11",
+      "J3 Ben13",
+      "J4 Ben10",
+      "J5 Ben14",
+      "J6 Ada10",
+      "J7 Ada13",
+      "J8 Ada14"
+    ],
+    "new": [
+      "NX Ada09",
+      "NY Ben09"
+    ],
+    "changed": [
+      "J1",
+      "J2",
+      "J3",
+      "J5",
+      "J6",
+      "J8"
+    ],
+    "fees": 60,
+    "all_10_present_once": true,
+    "all_signed_permissions": true,
+    "qualifications": true,
+    "pair_J1_J3_Ben": true,
+    "no_assessor_station_overlap": true
+  },
+  "family_status": "EXCLUDED_NO_QUALIFYING_FAILURES",
+  "joint_qualifying_response_ids": [],
+  "retained": false,
+  "criterion": "Frozen prospectivev3; anylegalinternalplan<=60 accepted."
+}

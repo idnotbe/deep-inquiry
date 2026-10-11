@@ -1,0 +1,163 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Draw 40 credits"
+        ],
+        "explanation": "Complete legal40-claim transfers, own-invoice cancellation at Cedar, draw40 and sequential cash60/40/20; finalcash0/20/20/20. Harbor netliability60 versus initial20 proves minimum40."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Draw 40 credits"
+        ],
+        "explanation": "Complete legal40-claim transfers, own-invoice cancellation at Cedar, draw40 and sequential cash60/40/20; finalcash0/20/20/20. Harbor netliability60 versus initial20 proves minimum40."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ],
+        "total": 8,
+        "critical_failures": [],
+        "objective_decision_error": true,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 1,
+        "decision_valid": false,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Cedar transfers its 40-credit C-H invoice to Birch, discharging 40 of B-C.",
+          "Harbor now holds its own C-H invoice, so cancel it."
+        ],
+        "explanation": "C-H is owed by Cedar and held by Harbor; Cedar cannot transfer it, and B-C is Birch debt to Cedar. Harbor cannot cancel it as own payable. Reverse ownership/direction is one root error, deducted only under mechanism. Legal correction circulates C-H Harbor->Alder->Birch->Cedar, then cancels at Cedar and pays60/40/20 after draw40. Instructions materially change, draw40 remains correct. Neither excessive minimum nor unfunded netting is asserted, so frozen semantic anchor does not qualify this objective error."
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Draw 40 credits"
+        ],
+        "explanation": "Complete legal40-claim transfers, own-invoice cancellation at Cedar, draw40 and sequential cash60/40/20; finalcash0/20/20/20. Harbor netliability60 versus initial20 proves minimum40."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Draw 40 credits"
+        ],
+        "explanation": "Complete legal40-claim transfers, own-invoice cancellation at Cedar, draw40 and sequential cash60/40/20; finalcash0/20/20/20. Harbor netliability60 versus initial20 proves minimum40."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          0,
+          2,
+          2
+        ],
+        "total": 8,
+        "critical_failures": [],
+        "objective_decision_error": true,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 1,
+        "decision_valid": false,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Cedar transfers its 40-credit C-H invoice to Birch, discharging 40 of B-C.",
+          "Harbor now holds its own C-H invoice, so cancel it."
+        ],
+        "explanation": "C-H is owed by Cedar and held by Harbor; Cedar cannot transfer it, and B-C is Birch debt to Cedar. Harbor cannot cancel it as own payable. Reverse ownership/direction is one root error, deducted only under mechanism. Legal correction circulates C-H Harbor->Alder->Birch->Cedar, then cancels at Cedar and pays60/40/20 after draw40. Instructions materially change, draw40 remains correct. Neither excessive minimum nor unfunded netting is asserted, so frozen semantic anchor does not qualify this objective error."
+      }
+    ]
+  },
+  "reviewers": {
+    "A": "logical-agent/hard_family_screening/f25_grader_a",
+    "B": "logical-agent/hard_family_screening/f25_grader_b"
+  },
+  "decision_valid_counts": {
+    "A": 2,
+    "B": 2
+  },
+  "secondary_numeric_pass_counts": {
+    "A": 3,
+    "B": 3
+  },
+  "numeric_pass_note": "Protocol descriptive formula score>=8 andzero critical is3, while bothgraderscalledonly2 objectivelyvalid settlements fullpasses. Preserve distinction; 8points do not mean executable instructions. No grade altered.",
+  "joint_qualifying_ids": [],
+  "decision": "EXCLUDE_NO_REPEATED_QUALIFYING_FAILURE",
+  "packet_limitation": "Original minimalpacket selection_rules mistakenly retained F24 sentence anywithin60legalinternalplanacceptable. F25 task/rubric/semantic anchor correctly specify minimum40, and both original grades apply40. Preserve packet andgrades, no regrade/retry; disclose defective generic-rule tail.",
+  "postgrade_clarifications": {
+    "A": "Stale within60 clause did not influence optimum40, R03 objective execution error, or nonqualifying classification. Originalscoresunchanged; valid2, numeric3.",
+    "B": "Stale within60 clause did not influence optimum40, R03 objective execution error, or nonqualifying classification. Originalscoresunchanged; valid2, numeric3."
+  }
+}

@@ -1,0 +1,809 @@
+{
+  "candidate": "F161",
+  "version": "closure-1",
+  "status": "PASS_AFFECTED_CHECKS",
+  "check_count": 198,
+  "passed": 198,
+  "failed": [],
+  "catalog_applied": true,
+  "checks": [
+    {
+      "id": "bound:evals/hard-screen-20261003/prospective-method-v2.md",
+      "pass": true
+    },
+    {
+      "id": "bound:evals/hard-screen-20261003/prospective-method-v3.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/assessment-0161/packet.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/assessment-0161/private/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/assessment-0161/private/projection-checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-blind-grade-a.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-blind-grade-b.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-blind-packet-map.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-clean-semantic-audit.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-dispatch-acceptance.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-independent-packet-review.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-native-launches.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-native-pretrial.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-preflight-review.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-root-predispatch-checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-semantic-audit-with-privacy-deviation.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-source-review-v1-a.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-source-review-v1-b.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-source-review-v2-a.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-source-review-v2-b.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f161-validity-acceptance.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/native-evidence-v4-adoption.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-native-collection-v1.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-semantic-evidence-v3.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-semantic-evidence-v4-checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-semantic-evidence-v4.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-v4-review-rehearsal-a.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-v4-review-rehearsal-b.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/C.txt",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/H.txt",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/README.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/C.txt",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/H.txt",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/README.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/design-note.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/oracle-C.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/oracle-H.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/protocol.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/rubric.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/archive/v1/verify.mjs",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/design-note.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/oracle-C.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/oracle-H.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/protocol.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/rubric.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/source-v2-change-record.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161-proposal/verify.mjs",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161/evidence/collection-checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161/evidence/collection-manifest.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161/evidence/public-originals.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F161/pretrial-preparation.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/problem-input-0161/input.txt",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:C.txt",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:H.txt",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:oracle-C.md",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:oracle-H.md",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:rubric.json",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:protocol.json",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:design-note.md",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:README.md",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:verify.mjs",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:source-v2-change-record.md",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/C.txt",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/H.txt",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/README.md",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/checks.json",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/design-note.md",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/oracle-C.md",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/oracle-H.md",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/protocol.json",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/rubric.json",
+      "pass": true
+    },
+    {
+      "id": "source-freeze:archive/v1/verify.mjs",
+      "pass": true
+    },
+    {
+      "id": "method-freeze:temp/hard-screen-20261003/prospective-semantic-evidence-v4.md",
+      "pass": true
+    },
+    {
+      "id": "method-freeze:temp/hard-screen-20261003/prospective-semantic-evidence-v4-checks.json",
+      "pass": true
+    },
+    {
+      "id": "method-freeze:temp/hard-screen-20261003/prospective-semantic-evidence-v3.md",
+      "pass": true
+    },
+    {
+      "id": "method-freeze:temp/hard-screen-20261003/prospective-native-collection-v1.md",
+      "pass": true
+    },
+    {
+      "id": "method-freeze:temp/hard-screen-20261003/native-evidence-v4-adoption.md",
+      "pass": true
+    },
+    {
+      "id": "method-freeze:temp/hard-screen-20261003/prospective-v4-review-rehearsal-a.md",
+      "pass": true
+    },
+    {
+      "id": "method-freeze:temp/hard-screen-20261003/prospective-v4-review-rehearsal-b.md",
+      "pass": true
+    },
+    {
+      "id": "method-freeze:evals/hard-screen-20261003/prospective-method-v2.md",
+      "pass": true
+    },
+    {
+      "id": "method-freeze:evals/hard-screen-20261003/prospective-method-v3.md",
+      "pass": true
+    },
+    {
+      "id": "three-launches",
+      "pass": true
+    },
+    {
+      "id": "r1:frozen-launch",
+      "pass": true
+    },
+    {
+      "id": "r1:requested-settings",
+      "pass": true
+    },
+    {
+      "id": "r2:frozen-launch",
+      "pass": true
+    },
+    {
+      "id": "r2:requested-settings",
+      "pass": true
+    },
+    {
+      "id": "r3:frozen-launch",
+      "pass": true
+    },
+    {
+      "id": "r3:requested-settings",
+      "pass": true
+    },
+    {
+      "id": "no-extra-launches",
+      "pass": true
+    },
+    {
+      "id": "packet-binding",
+      "pass": true
+    },
+    {
+      "id": "exact-C",
+      "pass": true
+    },
+    {
+      "id": "neutral-C",
+      "pass": true
+    },
+    {
+      "id": "C-only-rubric",
+      "pass": true
+    },
+    {
+      "id": "C-only-oracle",
+      "pass": true
+    },
+    {
+      "id": "v2-excerpts",
+      "pass": true
+    },
+    {
+      "id": "v3-excerpt",
+      "pass": true
+    },
+    {
+      "id": "same-ID-rule",
+      "pass": true
+    },
+    {
+      "id": "secondary-score-rule",
+      "pass": true
+    },
+    {
+      "id": "no-condition-disclosures",
+      "pass": true
+    },
+    {
+      "id": "R-186301BF19:six-records",
+      "pass": true
+    },
+    {
+      "id": "R-186301BF19:exact-final",
+      "pass": true
+    },
+    {
+      "id": "R-186301BF19:trace0:exact",
+      "pass": true
+    },
+    {
+      "id": "R-186301BF19:trace1:exact",
+      "pass": true
+    },
+    {
+      "id": "R-186301BF19:trace2:exact",
+      "pass": true
+    },
+    {
+      "id": "R-186301BF19:trace3:exact",
+      "pass": true
+    },
+    {
+      "id": "R-186301BF19:trace4:exact",
+      "pass": true
+    },
+    {
+      "id": "R-186301BF19:trace5:exact",
+      "pass": true
+    },
+    {
+      "id": "r3:wrapper-plus-LF",
+      "pass": true
+    },
+    {
+      "id": "r3:read-success",
+      "pass": true
+    },
+    {
+      "id": "r3:C-receipt",
+      "pass": true
+    },
+    {
+      "id": "r3:observation-mirror",
+      "pass": true
+    },
+    {
+      "id": "r3:final-mirrors",
+      "pass": true
+    },
+    {
+      "id": "R-59DA2C8FDC:six-records",
+      "pass": true
+    },
+    {
+      "id": "R-59DA2C8FDC:exact-final",
+      "pass": true
+    },
+    {
+      "id": "R-59DA2C8FDC:trace0:exact",
+      "pass": true
+    },
+    {
+      "id": "R-59DA2C8FDC:trace1:exact",
+      "pass": true
+    },
+    {
+      "id": "R-59DA2C8FDC:trace2:exact",
+      "pass": true
+    },
+    {
+      "id": "R-59DA2C8FDC:trace3:exact",
+      "pass": true
+    },
+    {
+      "id": "R-59DA2C8FDC:trace4:exact",
+      "pass": true
+    },
+    {
+      "id": "R-59DA2C8FDC:trace5:exact",
+      "pass": true
+    },
+    {
+      "id": "r2:wrapper-plus-LF",
+      "pass": true
+    },
+    {
+      "id": "r2:read-success",
+      "pass": true
+    },
+    {
+      "id": "r2:C-receipt",
+      "pass": true
+    },
+    {
+      "id": "r2:observation-mirror",
+      "pass": true
+    },
+    {
+      "id": "r2:final-mirrors",
+      "pass": true
+    },
+    {
+      "id": "R-2905E4761F:six-records",
+      "pass": true
+    },
+    {
+      "id": "R-2905E4761F:exact-final",
+      "pass": true
+    },
+    {
+      "id": "R-2905E4761F:trace0:exact",
+      "pass": true
+    },
+    {
+      "id": "R-2905E4761F:trace1:exact",
+      "pass": true
+    },
+    {
+      "id": "R-2905E4761F:trace2:exact",
+      "pass": true
+    },
+    {
+      "id": "R-2905E4761F:trace3:exact",
+      "pass": true
+    },
+    {
+      "id": "R-2905E4761F:trace4:exact",
+      "pass": true
+    },
+    {
+      "id": "R-2905E4761F:trace5:exact",
+      "pass": true
+    },
+    {
+      "id": "r1:wrapper-plus-LF",
+      "pass": true
+    },
+    {
+      "id": "r1:read-success",
+      "pass": true
+    },
+    {
+      "id": "r1:C-receipt",
+      "pass": true
+    },
+    {
+      "id": "r1:observation-mirror",
+      "pass": true
+    },
+    {
+      "id": "r1:final-mirrors",
+      "pass": true
+    },
+    {
+      "id": "three-unique-ids",
+      "pass": true
+    },
+    {
+      "id": "a:packet-binding",
+      "pass": true
+    },
+    {
+      "id": "a:ids",
+      "pass": true
+    },
+    {
+      "id": "a:R-186301BF19:required-fields",
+      "pass": true
+    },
+    {
+      "id": "a:R-186301BF19:scores",
+      "pass": true
+    },
+    {
+      "id": "a:R-186301BF19:no-errors",
+      "pass": true
+    },
+    {
+      "id": "a:R-186301BF19:null-nonfailure-evidence",
+      "pass": true
+    },
+    {
+      "id": "a:R-186301BF19:deductions",
+      "pass": true
+    },
+    {
+      "id": "a:R-59DA2C8FDC:required-fields",
+      "pass": true
+    },
+    {
+      "id": "a:R-59DA2C8FDC:scores",
+      "pass": true
+    },
+    {
+      "id": "a:R-59DA2C8FDC:no-errors",
+      "pass": true
+    },
+    {
+      "id": "a:R-59DA2C8FDC:null-nonfailure-evidence",
+      "pass": true
+    },
+    {
+      "id": "a:R-59DA2C8FDC:deductions",
+      "pass": true
+    },
+    {
+      "id": "a:R-2905E4761F:required-fields",
+      "pass": true
+    },
+    {
+      "id": "a:R-2905E4761F:scores",
+      "pass": true
+    },
+    {
+      "id": "a:R-2905E4761F:no-errors",
+      "pass": true
+    },
+    {
+      "id": "a:R-2905E4761F:null-nonfailure-evidence",
+      "pass": true
+    },
+    {
+      "id": "a:R-2905E4761F:deductions",
+      "pass": true
+    },
+    {
+      "id": "a:state-scores",
+      "pass": true
+    },
+    {
+      "id": "a:state-errors",
+      "pass": true
+    },
+    {
+      "id": "a:state-failures",
+      "pass": true
+    },
+    {
+      "id": "b:packet-binding",
+      "pass": true
+    },
+    {
+      "id": "b:ids",
+      "pass": true
+    },
+    {
+      "id": "b:R-186301BF19:required-fields",
+      "pass": true
+    },
+    {
+      "id": "b:R-186301BF19:scores",
+      "pass": true
+    },
+    {
+      "id": "b:R-186301BF19:no-errors",
+      "pass": true
+    },
+    {
+      "id": "b:R-186301BF19:null-nonfailure-evidence",
+      "pass": true
+    },
+    {
+      "id": "b:R-186301BF19:deductions",
+      "pass": true
+    },
+    {
+      "id": "b:R-59DA2C8FDC:required-fields",
+      "pass": true
+    },
+    {
+      "id": "b:R-59DA2C8FDC:scores",
+      "pass": true
+    },
+    {
+      "id": "b:R-59DA2C8FDC:no-errors",
+      "pass": true
+    },
+    {
+      "id": "b:R-59DA2C8FDC:null-nonfailure-evidence",
+      "pass": true
+    },
+    {
+      "id": "b:R-59DA2C8FDC:deductions",
+      "pass": true
+    },
+    {
+      "id": "b:R-2905E4761F:required-fields",
+      "pass": true
+    },
+    {
+      "id": "b:R-2905E4761F:scores",
+      "pass": true
+    },
+    {
+      "id": "b:R-2905E4761F:no-errors",
+      "pass": true
+    },
+    {
+      "id": "b:R-2905E4761F:null-nonfailure-evidence",
+      "pass": true
+    },
+    {
+      "id": "b:R-2905E4761F:deductions",
+      "pass": true
+    },
+    {
+      "id": "b:state-scores",
+      "pass": true
+    },
+    {
+      "id": "b:state-errors",
+      "pass": true
+    },
+    {
+      "id": "b:state-failures",
+      "pass": true
+    },
+    {
+      "id": "same-ID-empty",
+      "pass": true
+    },
+    {
+      "id": "excluded",
+      "pass": true
+    },
+    {
+      "id": "retained-accounting",
+      "pass": true
+    },
+    {
+      "id": "grading-accounting",
+      "pass": true
+    },
+    {
+      "id": "solver-accounting",
+      "pass": true
+    },
+    {
+      "id": "acceptance-pending",
+      "pass": true
+    },
+    {
+      "id": "skill-effect-unknown",
+      "pass": true
+    },
+    {
+      "id": "validity-authority",
+      "pass": true
+    },
+    {
+      "id": "backend-unknown",
+      "pass": true
+    },
+    {
+      "id": "incident-history",
+      "pass": true
+    },
+    {
+      "id": "fragment-freeze",
+      "pass": true
+    },
+    {
+      "id": "catalog-prior-prefix",
+      "pass": true
+    },
+    {
+      "id": "catalog-exact-suffix",
+      "pass": true
+    },
+    {
+      "id": "catalog-single-entry",
+      "pass": true
+    }
+  ],
+  "same_id_intersection": [],
+  "limits": [
+    "No original-session or grader rawlog audit by closure.",
+    "Runtime validity relies on fresh clean independent audit and root validity acceptance.",
+    "Root full checks and independent closure review remain pending."
+  ]
+}

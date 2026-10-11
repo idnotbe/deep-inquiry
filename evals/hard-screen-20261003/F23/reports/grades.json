@@ -1,0 +1,184 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "exact_quotes": [
+          "READ delivery",
+          "READ A_ranking",
+          "READ C_ranking",
+          "READ close_selection",
+          "After either notice alone, Dev would still choose C under the charter\u2019s tie priority."
+        ],
+        "assessment": "Actual six-request sequence privately reads all three records, publishes the two required facts, then first-closes jointA at minimum2credits. Correct recipient-specific scores and feasible request count."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "exact_quotes": [
+          "READ delivery",
+          "READ A_ranking",
+          "READ C_ranking",
+          "READ close_selection",
+          "No single notice could have secured both endorsements, so this used the fewest paid notices."
+        ],
+        "assessment": "Actual six-request sequence privately reads all three records, publishes the two required facts, then first-closes jointA at minimum2credits. Correct recipient-specific scores and feasible request count."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "exact_quotes": [
+          "READ delivery",
+          "READ A_ranking",
+          "READ C_ranking",
+          "READ close_selection",
+          "Dev needed the first to raise A\u2019s score and the second to lower C\u2019s score below A."
+        ],
+        "assessment": "Actual six-request sequence privately reads all three records, publishes the two required facts, then first-closes jointA at minimum2credits. Correct recipient-specific scores and feasible request count."
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "exact_quotes": [
+          "READ delivery",
+          "READ A_ranking",
+          "READ C_ranking",
+          "READ close_selection",
+          "After either notice alone, Dev would still choose C under the charter\u2019s tie priority."
+        ],
+        "assessment": "Actual six-request sequence privately reads all three records, publishes the two required facts, then first-closes jointA at minimum2credits. Correct recipient-specific scores and feasible request count."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "exact_quotes": [
+          "READ delivery",
+          "READ A_ranking",
+          "READ C_ranking",
+          "READ close_selection",
+          "At closing, Lin\u2019s scores were A 2, B 0, C 0; Dev\u2019s were A 0, B \u22122, C \u22121."
+        ],
+        "assessment": "Actual six-request sequence privately reads all three records, publishes the two required facts, then first-closes jointA at minimum2credits. Correct recipient-specific scores and feasible request count."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "exact_quotes": [
+          "READ delivery",
+          "READ A_ranking",
+          "READ C_ranking",
+          "READ close_selection",
+          "Dev needed the first to raise A\u2019s score and the second to lower C\u2019s score below A."
+        ],
+        "assessment": "Actual six-request sequence privately reads all three records, publishes the two required facts, then first-closes jointA at minimum2credits. Correct recipient-specific scores and feasible request count."
+      }
+    ]
+  },
+  "independent_score_witness_both": {
+    "initial": {
+      "Lin": [
+        1,
+        0,
+        1
+      ],
+      "Dev": [
+        -1,
+        -2,
+        0
+      ]
+    },
+    "at_first_close": {
+      "Lin": [
+        2,
+        0,
+        0
+      ],
+      "Dev": [
+        0,
+        -2,
+        -1
+      ]
+    },
+    "minimality": "Either necessary notice alone leaves Dev tied withC, whichwins. Other single notices cannotsecureboth. Two necessaryandsufficient."
+  },
+  "family_status": "EXCLUDED_NO_QUALIFYING_FAILURES",
+  "joint_qualifying_response_ids": [],
+  "retained": false,
+  "criterion": "Frozen prospectivev2; no v3reclassification."
+}

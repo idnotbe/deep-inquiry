@@ -1,0 +1,95 @@
+{
+  "candidate": "F167",
+  "version": "closure-1",
+  "source_version": "F167_SOURCE_V1",
+  "issue": 18,
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "difficulty": "UNDETERMINED",
+  "whole_goal": "INCOMPLETE",
+  "delivery_state": "PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW",
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "increment": 0,
+    "after": 0,
+    "target": 6
+  },
+  "original_episodes_launched": 3,
+  "original_finals_preserved": 3,
+  "accepted_gradeable_finals": 0,
+  "original_record_counts": [
+    22,
+    24,
+    22
+  ],
+  "original_records_total": 68,
+  "public_text_parts_total": 30,
+  "slots": [
+    {
+      "slot": "r1",
+      "validity": "UNVERIFIED",
+      "unscored": true,
+      "final": {
+        "bytes": 1613,
+        "sha256": "d4823a2591917b14c3801404dbe22e32f345488f3d994ab7d681073a79efd575"
+      }
+    },
+    {
+      "slot": "r2",
+      "validity": "UNVERIFIED",
+      "unscored": true,
+      "final": {
+        "bytes": 1403,
+        "sha256": "bb8185c1af5a2103962c5e4a51f25a8c5cb35924c6c202e5b75ac29884f20aa5"
+      }
+    },
+    {
+      "slot": "r3",
+      "validity": "UNVERIFIED",
+      "unscored": true,
+      "final": {
+        "bytes": 1315,
+        "sha256": "35ea1c37574d06a0b208f2a5a73085c905a065178abd317117cf54726af1ec97"
+      }
+    }
+  ],
+  "audit_privacy": "FAIL/INVALID",
+  "semantic_audit": "INVALID",
+  "audit_executed_incidents": 1,
+  "participant_invalidity_proven": false,
+  "semantic_labels": {
+    "total": 33,
+    "resolved": 27,
+    "unresolved": 6
+  },
+  "unexecuted_denials": {
+    "auditor": 4,
+    "collector": 1,
+    "total": 5
+  },
+  "collector_initialization_errors": 2,
+  "grading": "NOT_RUN_ALL_THREE_VALID_REQUIRED",
+  "grader_calls": 0,
+  "grade_results": 0,
+  "anonymous_packet": "NOT_CREATED",
+  "retries": 0,
+  "replacements": 0,
+  "followups": 0,
+  "heldout_participant_uses": 0,
+  "treatment_runs": 0,
+  "new_trials": 0,
+  "clean_reaudits": 0,
+  "historical_pending_statuses_edited": false,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "limits": {
+    "protected_initial_plaintext": "ADOPTED_ROOT_NATIVE_API_TRUST_NOT_INDEPENDENT_EQUALITY",
+    "backend_fallback": "UNVERIFIED",
+    "complete_internal_isolation": "UNVERIFIED",
+    "effort": "PROTOCOL_FIDELITY_ONLY",
+    "public_source": "UNPINNED_MAIN_NOT_RUNTIME_VERSION_PROOF",
+    "parent": "FROZEN_POSITIONED_RANGE_ONLY_NO_WHOLE_PARENT_READ",
+    "private_reasoning": "EXCLUDED",
+    "claim": "Reviewed shared operating environment; no pure unguided-model or causal skill-effect claim."
+  },
+  "closure_frozen": true
+}

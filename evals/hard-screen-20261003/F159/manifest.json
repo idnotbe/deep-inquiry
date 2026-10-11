@@ -1,0 +1,161 @@
+{
+  "candidate": "F159",
+  "version": "closure-1",
+  "outcome": "EXCLUDED_NOT_HARD",
+  "inputs": {
+    "temp/hard-screen-20261003/f159-native-pretrial.json": {
+      "bytes": 28218,
+      "sha256": "078d79dfbc63caacfa21697942f072116b14cc46c96c58026732bdf263ff74da"
+    },
+    "temp/hard-screen-20261003/f159-preflight-review.md": {
+      "bytes": 3689,
+      "sha256": "d46c997747c32656ed4400db0f70f9bc1004fde7141a33dc00ccdb9dd8e46359"
+    },
+    "temp/hard-screen-20261003/worker/F159-proposal/freeze.json": {
+      "bytes": 1649,
+      "sha256": "382f17b7bb0c84e4457f2e08c94b3891e9e7382c93eb0acd9031dc2723429ec8"
+    },
+    "temp/problem-input-0159/input.txt": {
+      "bytes": 4406,
+      "sha256": "889e85ad8247b93ef2be7e913b158b21fe8c734fa049d8cacd84658cb0785b19"
+    },
+    "temp/hard-screen-20261003/worker/F159-proposal/C.txt": {
+      "bytes": 4406,
+      "sha256": "889e85ad8247b93ef2be7e913b158b21fe8c734fa049d8cacd84658cb0785b19"
+    },
+    "temp/hard-screen-20261003/worker/F159-proposal/H.txt": {
+      "bytes": 4399,
+      "sha256": "bf21328c5024db78500968db708be725ed8a24c7949f5f23c06833fe06299aab"
+    },
+    "temp/hard-screen-20261003/worker/F159-proposal/oracle.md": {
+      "bytes": 6944,
+      "sha256": "37a3f6f948f5e4427edb636613dd2df1e4de4e9ee095530179253932344e1d28"
+    },
+    "temp/hard-screen-20261003/worker/F159-proposal/rubric.json": {
+      "bytes": 3021,
+      "sha256": "da35691034aa3d74fdb35c68dd66c286383dfb1820b292b2668da7f3b1df42a0"
+    },
+    "temp/hard-screen-20261003/worker/F159-proposal/protocol.json": {
+      "bytes": 3265,
+      "sha256": "b72fe6cd5e62d4cbac5ce5618f77d2320c071b251302829f3e7b499acab6e207"
+    },
+    "temp/hard-screen-20261003/worker/F159-proposal/design-note.md": {
+      "bytes": 4532,
+      "sha256": "2f7196fefd96b030b20f2d1af04c890205c591a641b3c06fe8b577a5629ec2a7"
+    },
+    "temp/hard-screen-20261003/worker/F159-proposal/verify.py": {
+      "bytes": 4452,
+      "sha256": "ed8a324beaacb4949ce3db176ce4241d8e6406c98d853ad01b140ecf5e8d9361"
+    },
+    "temp/hard-screen-20261003/worker/F159-proposal/checks.json": {
+      "bytes": 1736,
+      "sha256": "5460ff802a0ce9a5e31ea589011ff180f5543d269ea6fc1e3cdb64abb0360401"
+    },
+    "temp/hard-screen-20261003/worker/F159-proposal/README.md": {
+      "bytes": 2979,
+      "sha256": "af25da4f34aedcf42a11e97323300420e924e8fb95b0db550abbec4324af865d"
+    },
+    "temp/hard-screen-20261003/f159-source-review-a.md": {
+      "bytes": 4261,
+      "sha256": "f7980df7d31b3c2819138707382b695aab77863d5f42f7015297aa3febfba335"
+    },
+    "temp/hard-screen-20261003/f159-source-review-b.md": {
+      "bytes": 4131,
+      "sha256": "8a3e03aeabb0de1653c24b7abf9c6ab024a3e66b722998645626a0f0b57f7173"
+    },
+    "temp/hard-screen-20261003/prospective-semantic-evidence-v4.md": {
+      "bytes": 9571,
+      "sha256": "db7a049fb9a95843459bb884032a1750202af5d25c7075f1843c8f77ddd3ebcc"
+    },
+    "temp/hard-screen-20261003/prospective-semantic-evidence-v4-checks.json": {
+      "bytes": 4356,
+      "sha256": "1480aec769a047c537d703d5b1e13e8a72baec6299378302a2a538e6e26a1baf"
+    },
+    "temp/hard-screen-20261003/prospective-semantic-evidence-v3.md": {
+      "bytes": 9329,
+      "sha256": "9e7bf446a62b9896ee3756f52782dc4b208a057cf1622558b51dee2b8e43753a"
+    },
+    "temp/hard-screen-20261003/prospective-native-collection-v1.md": {
+      "bytes": 9372,
+      "sha256": "33a456118f011b35745b6d4731a1637d6054383b13b18c69180ce5dba33900e5"
+    },
+    "temp/hard-screen-20261003/native-evidence-v4-adoption.md": {
+      "bytes": 3729,
+      "sha256": "475a0e569ad9e6c206b693d069bc71ee844c4809c2c96bd4450aeea2a1bc74c4"
+    },
+    "temp/hard-screen-20261003/prospective-v4-review-rehearsal-a.md": {
+      "bytes": 9973,
+      "sha256": "14c20cac353b08046a2cc3b5e436634df190eb40cddb31c9e62f91e3aa50de28"
+    },
+    "temp/hard-screen-20261003/prospective-v4-review-rehearsal-b.md": {
+      "bytes": 11376,
+      "sha256": "a8415466de836a4b2bf4dd42fb0e5beae06469d2bf3ca085dc6df922924a46eb"
+    },
+    "evals/hard-screen-20261003/prospective-method-v2.md": {
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    "evals/hard-screen-20261003/prospective-method-v3.md": {
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    },
+    "temp/hard-screen-20261003/f159-native-launches.json": {
+      "bytes": 5744,
+      "sha256": "514ea6db00febe6dd4be8e006e6ffead59bb10bbc20c693024f147b2f4426a9d"
+    },
+    "temp/hard-screen-20261003/f159-grading-release.json": {
+      "bytes": 1073,
+      "sha256": "16563f0a02856a05b03cdbac803512bf194f4d023cb64163a289b73db787554e"
+    },
+    "temp/hard-screen-20261003/f159-root-predispatch-checks.json": {
+      "bytes": 2734,
+      "sha256": "2518c9084e52ad45b4dbc838d3e4aa1f03b551c024749d2e96df50983a17fc8f"
+    },
+    "temp/hard-screen-20261003/worker/F159/blind/checks.json": {
+      "bytes": 3801,
+      "sha256": "57f99fb033323e4f7c655baadd3181e000e0276cb9a056120933c55f5b624103"
+    },
+    "temp/hard-screen-20261003/worker/F159/blind/grader-packet.json": {
+      "bytes": 60128,
+      "sha256": "92f628b2d89273c1a54bc415b6b83cca8afd312759f1c2eeedd4bdbacb188e82"
+    },
+    "temp/hard-screen-20261003/worker/F159/blind/manifest.json": {
+      "bytes": 13757,
+      "sha256": "a6936695e5ee3160a67cae28f76b30374e9b0d1a38ded065a6d56ab7f9db4901"
+    },
+    "temp/hard-screen-20261003/worker/F159/blind/preparation.json": {
+      "bytes": 2638,
+      "sha256": "32dd59d8389cc9fdaed6b083c717829b08e8f611d7f40e7dd505796328c6dacc"
+    },
+    "temp/hard-screen-20261003/worker/F159/evidence/collection-manifest.json": {
+      "bytes": 69379,
+      "sha256": "0487571163f583d08d319a4629409bc5cc2566444ad9073f74011d7c7f60648b"
+    },
+    "temp/hard-screen-20261003/worker/F159/evidence/grade-a.json": {
+      "bytes": 7073,
+      "sha256": "1d85fea7e1372a182e675ec57df4be9d56c19626d9c5827e1986026dbc6200fe"
+    },
+    "temp/hard-screen-20261003/worker/F159/evidence/grade-b.json": {
+      "bytes": 5651,
+      "sha256": "42290eb5f512ac22c6406ae0dab54a3991e8e6997c315be3114124054fa73072"
+    },
+    "temp/hard-screen-20261003/worker/F159/evidence/public-originals.json": {
+      "bytes": 85558,
+      "sha256": "eaff7ad6eef192d00ef42f3960948262773e320a38f13d7a8fa13d00fb660cf9"
+    },
+    "temp/hard-screen-20261003/worker/F159/evidence/semantic-audit.md": {
+      "bytes": 9559,
+      "sha256": "418ca25118548f83ba5f938f7d6ac06a6e935827925f4573829bec10f0a8ccbe"
+    },
+    "temp/hard-screen-20261003/worker/F159/pretrial-preparation.json": {
+      "bytes": 4405,
+      "sha256": "ce14ca3bf50d63bc6805e7256067d8190784ef434b025338b99fe03aa0e815f2"
+    },
+    "temp/assessment-input-0159/packet.json": {
+      "bytes": 60128,
+      "sha256": "92f628b2d89273c1a54bc415b6b83cca8afd312759f1c2eeedd4bdbacb188e82"
+    }
+  },
+  "outputs": "Exact output bytes are bound in closure/candidate.json; verification and manifest do not recursively hash themselves.",
+  "binding_meaning": "Byte equality only; participant runtime acceptance relies on separately bound independent semantic audit. Additional grader action provenance remains unverified by closure."
+}

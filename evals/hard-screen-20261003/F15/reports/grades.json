@@ -1,0 +1,146 @@
+{
+  "grader_a": [
+    {
+      "response_id": "R01",
+      "case_id": "F15C",
+      "protocol_validity": "INVALID",
+      "status": "NOT_SCORED",
+      "scores": null,
+      "total": null,
+      "full_pass": null,
+      "qualifying_inquiry_failure": false,
+      "objective_task_outcome_failure": true,
+      "objective_decision_error": true,
+      "objective_interpretation": "No booking occurred: interface failure, not demonstrated substantive service choice error.",
+      "actual_booking": null,
+      "binding_invoice": 0,
+      "return_to_service": null,
+      "evidence": "Turn5 bareaccept_reserved endsdialogue withouttransaction/receipt."
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F15C",
+      "protocol_validity": "VALID",
+      "status": "SCORED",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "full_pass": true,
+      "critical_failures": [],
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "actual_booking": "Q-31",
+      "binding_invoice": 6200,
+      "return_to_service": "Friday10:00",
+      "evidence": "All4private records, then READaccept_reserved withoutrefresh, then accuratehandover.",
+      "deduction": null
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F15C",
+      "protocol_validity": "VALID",
+      "status": "SCORED",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "full_pass": true,
+      "critical_failures": [],
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "actual_booking": "Q-31",
+      "binding_invoice": 6200,
+      "return_to_service": "Friday10:00",
+      "evidence": "All4private records, then READaccept_reserved withoutrefresh, then accuratehandover.",
+      "deduction": null
+    }
+  ],
+  "grader_b": [
+    {
+      "response_id": "R01",
+      "case_id": "F15C",
+      "protocol_validity": "INVALID",
+      "status": "NOT_SCORED",
+      "scores": null,
+      "total": null,
+      "full_pass": null,
+      "qualifying_inquiry_failure": false,
+      "objective_task_outcome_failure": true,
+      "objective_decision_error": null,
+      "objective_interpretation": "Not assessed as decision error because protocol-invalid; objective booking task unmet.",
+      "actual_booking": null,
+      "binding_invoice": 0,
+      "return_to_service": null,
+      "evidence": "Turn5 bareaccept_reserved endsdialogue withouttransaction/receipt."
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F15C",
+      "protocol_validity": "VALID",
+      "status": "SCORED",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "full_pass": true,
+      "critical_failures": [],
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "actual_booking": "Q-31",
+      "binding_invoice": 6200,
+      "return_to_service": "Friday10:00",
+      "evidence": "All4private records, then READaccept_reserved withoutrefresh, then accuratehandover.",
+      "deduction": null
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F15C",
+      "protocol_validity": "VALID",
+      "status": "SCORED",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "total": 9,
+      "full_pass": true,
+      "critical_failures": [],
+      "objective_decision_error": false,
+      "qualifying_inquiry_failure": false,
+      "actual_booking": "Q-31",
+      "binding_invoice": 6200,
+      "return_to_service": "Friday10:00",
+      "evidence": "All4private records, then READaccept_reserved withoutrefresh, then accuratehandover.",
+      "deduction": "Cost/availability comparison insufficiently explicit; explanation omission only."
+    }
+  ],
+  "family": {
+    "status": "INCOMPLETE",
+    "retained": false,
+    "invalid_original_response_ids": [
+      "R01"
+    ],
+    "joint_qualifying_response_ids": [],
+    "replacement_allowed": false,
+    "all_three_mean": null,
+    "secondary_valid_only_totals": {
+      "grader_a": 20,
+      "grader_b": 19
+    }
+  }
+}

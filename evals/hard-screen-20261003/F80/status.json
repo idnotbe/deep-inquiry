@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "family": "F80",
+  "status": "PENDING_ROOT_FINAL",
+  "proposed_final_verdict": "EXCLUDED_NOT_HARD",
+  "qualifying_IDs": [],
+  "secondary_scores": [
+    [
+      10,
+      10,
+      10
+    ],
+    [
+      10,
+      10,
+      10
+    ]
+  ],
+  "objective_errors": [
+    0,
+    0
+  ],
+  "qualifying_counts": [
+    0,
+    0
+  ],
+  "general_difficulty": "UNKNOWN; screening exclusion is not universal intrinsic-difficulty proof",
+  "efficacy": "UNKNOWN",
+  "retained": 0,
+  "target": 6,
+  "goal_status": "ACTIVE_UNMET",
+  "H_K_participant_use": 0,
+  "source_revision": 0,
+  "H_private_definition_revision": 0,
+  "counts_lower_bounds": [
+    67,
+    196,
+    252
+  ],
+  "unknown_contributions": [
+    "F46",
+    "F51"
+  ],
+  "counts_note": "196 preserved terminal problem output files are not196 valid trials; neutral2 excluded."
+}

@@ -1,0 +1,315 @@
+{
+  "family": "F44",
+  "packet_sha256": "02e618fa48e49a2693cd8a7dc2bcd3ba02cf0990e79ffb0f77c6f25663946e2c",
+  "original_grade_sha256": {
+    "A": "ed636a771d14730c7702998e087906c25cf986d4e4d74780f1fa388dc67ed758",
+    "B": "a08ba0e304c5ef66b1c6924157a8107333dfdfc59e508dcd03adc99e7831e657"
+  },
+  "originals": {
+    "A": {
+      "packet_verification": {
+        "expected_sha256": "02e618fa48e49a2693cd8a7dc2bcd3ba02cf0990e79ffb0f77c6f25663946e2c",
+        "observed_sha256": "02e618fa48e49a2693cd8a7dc2bcd3ba02cf0990e79ffb0f77c6f25663946e2c",
+        "hash_matches": true,
+        "sources_used": [
+          "local-retained:temp/hard-screen-20261003/worker/F44/grading-packet.json"
+        ],
+        "files_modified": false
+      },
+      "shared_verification": {
+        "completion_payoff_proof": "Under COMPLETION, inspecting once at tick 2 and reporting the exact returned theta guarantees 1 minus 3/10 = 7/10, irrespective of the other company's behavior. Without an eligible own invocation, net payoff is at most 2/3, including when free messages reveal theta. With at least one own invocation, net payoff is at most 7/10; repeated invocations lower that upper bound. Thus every equilibrium company attains 7/10, which requires one eligible invocation and a correct final bit almost surely. Acquiring a receipt need not itself occur before final reports: a company already informed through free sharing can invoke later. However, when a final bit would otherwise be wrong, advancing an intended invocation to the synchronous tick-2 read permits correction at the same cost.",
+        "early_receipt_proof": "At least one company must inspect by the final-report cutoff almost surely. Otherwise all information supporting the final bits would derive from theta-independent inputs, seeds and uninformed messages, which cannot produce correct final bits almost surely under the signed independent binary theta law. An inspection at tick 2 returns synchronously before the cutoff and produces its completion receipt in time for the owner's tick-2.5 evidence window. Consequently the R02 no-receipt branch has zero equilibrium probability.",
+        "peer_pooling_witness": {
+          "configuration": "PEER for both companies; no owner inspection.",
+          "on_path": "Neither company invokes its module. Both report L at the tick-2 cutoff and send no informative notes. Each receives expected reward (2/3)(1/2) + 1/3 = 2/3.",
+          "off_path": "An uninformed company continues to report L and treats unauthenticated off-path notes as uninformative; beliefs retain the signed conditional theta distribution. A company with actually known theta reports theta. With the peer reporting L, when theta differs from L, truthful reporting earns 2/3 whereas matching L earns 1/3; when theta equals L, truthful reporting earns 1. The witness assigns no information to unsupported cheap-talk claims or completion-only receipts. No externally theta-informed device is used.",
+          "deviation_check": "A unilateral inspection in time for reporting yields at most 5/6 expected gross reward and therefore at most 5/6 minus 3/10 = 8/15 net, below 2/3. Inspections after the report cutoff cannot improve the fixed report's CHECK reward and have no PEER receipt reward. Repetition adds costs. Uninformed alternative reports cannot improve on L, and NONE loses payments. Uninformative notes do not change the peer's report under the specified continuation.",
+          "service_result": "The dispatch of the agreeing L bit succeeds with probability 1/2 because L is independent of theta.",
+          "lawful_full_repair": "At tick 0 select COMPLETION for both companies. Order no owner inspection. By tick 2.5 read the final bits; at tick 3 execute A's binary final bit, otherwise B's binary final bit, otherwise HOLD. Every permitted equilibrium supplies truthful binary final bits. Success is 1 and the new invoice is 0 on every execution."
+        },
+        "invoice_optimum": "Every new invoice is nonnegative. The lawful zero-inspection COMPLETION programs attain zero worst-equilibrium expected invoice and respect the one-credit execution cap."
+      },
+      "responses": [
+        {
+          "id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "assessment": "The complete fallback program is lawful, meets service with probability 1 in every permitted equilibrium, and attains the minimum invoice of zero. Its individual payoff upper-bound argument handles free sharing and late receipt acquisition without requiring each company to inspect early.",
+          "diagnostic_findings": [
+            {
+              "type": "incomplete_proposal_support",
+              "quotation": "Proposal Q-84 is insufficient: under PEER, both companies can decline inspection and report the common public L in equilibrium.",
+              "supplied_law_basis": "PEER pays for actual-theta correctness on CHECK and report agreement on UNCHECKED; an inspection costs 3/10; informed off-path actions must remain best responses.",
+              "analysis": "The claim is correct, but the answer does not supply the deviation calculation or informed off-path continuation establishing that its stated pooling behavior is an equilibrium.",
+              "all_constraint_lawful_counterexample_or_equilibrium": "The full PEER pooling witness in shared_verification supplies the omitted justification, including truthful known-theta reports and the inspection deviation bound of 8/15 versus 2/3.",
+              "full_feasible_repair": "Add that equilibrium justification. Retain COMPLETION for both at tick 0, no owner order, observation through tick 2.5 and the stated complete tick-3 fallback program.",
+              "material_changed_authorization": false,
+              "qualification": "Nonqualifying explanation omission; no observed false premise or false universal exclusion.",
+              "root_count": 0
+            }
+          ]
+        },
+        {
+          "id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "assessment": "The receipt-conditioned dispatch program is lawful and optimal. The receipt is used to select an available report, not interpreted as an authenticated theta field. COMPLETION incentives establish report truthfulness, and at least one synchronous inspection must occur by the report cutoff; therefore an observable early receipt exists almost surely.",
+          "diagnostic_findings": [
+            {
+              "type": "incomplete_proposal_support",
+              "quotation": "PEER also permits both companies to skip inspection and report the common manifest bit \\(L\\).",
+              "supplied_law_basis": "Permitted behavior must be a mutual best-response equilibrium under the actual CHECK and PEER payments, inspection costs, free messages and acquired information.",
+              "analysis": "The lawful pooling claim lacks a stated inspection-deviation calculation and a complete informed off-path continuation.",
+              "all_constraint_lawful_counterexample_or_equilibrium": "The full PEER pooling witness in shared_verification establishes the claim: uninformed reports are L, actually informed reports are theta, and unilateral inspection nets at most 8/15 against an uninformed peer, below the pooling payoff of 2/3.",
+              "full_feasible_repair": "Add those equilibrium details. Retain COMPLETION for both at tick 0, no owner inspection, receipt and final-bit observation through tick 2.5, A priority when both receipts are available, and HOLD when neither is available.",
+              "material_changed_authorization": false,
+              "qualification": "Nonqualifying explanation omission; the early-receipt conclusion is supported by the installed synchronous read and all-equilibrium payoff argument.",
+              "root_count": 0
+            }
+          ]
+        },
+        {
+          "id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 1,
+            "support": 2
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "assessment": "The authorized supplier configuration produces A's truthful binary final bit in every permitted equilibrium and attains zero invoice. The payoff bounds correctly accommodate free sharing. The PEER deviation calculation is correct: 5/6 minus 3/10 is below 2/3. An explicit operational contingency for absent A reports remains unstated.",
+          "diagnostic_findings": [
+            {
+              "type": "unspecified_off_equilibrium_dispatch_contingency",
+              "quotation": "The controller should accept A’s final bit through tick 2 and dispatch that bit at tick 3.",
+              "supplied_law_basis": "An absent final bit enters NONE; the fixture executes only mode 0, mode 1 or HOLD, and the controller supports complete conditional operating programs.",
+              "analysis": "A's report is binary and truthful almost surely in every permitted equilibrium, so this omission supplies no unsafe equilibrium or objective error. The answer does not explicitly define dispatch when A's report is absent outside those equilibrium paths.",
+              "all_constraint_lawful_counterexample_or_equilibrium": "In every permitted COMPLETION equilibrium, the guarantee and upper-bound argument forces A to attain 7/10 and therefore submit theta almost surely. No lawful permitted-equilibrium counterexample to the service authorization is established.",
+              "full_feasible_repair": "At tick 0 select COMPLETION for both; order no owner inspection; read A's final report through tick 2.5; at tick 3 execute A's report when it is 0 or 1, otherwise HOLD. This defines every branch and preserves success 1 in every equilibrium and invoice 0 on every execution.",
+              "material_changed_authorization": false,
+              "qualification": "Nonqualifying operational omission or ambiguity; no public false capability premise is established.",
+              "root_count": 0
+            }
+          ]
+        }
+      ],
+      "selection_result": {
+        "original_response_count": 3,
+        "all_original_slots_graded": true,
+        "qualifying_original_response_ids": [],
+        "qualifying_original_response_count": 0,
+        "this_grader_at_least_two_qualifying": false,
+        "joint_two_grader_selection": "Not determined by this independent grade."
+      },
+      "limits": [
+        "Only the verified grading packet was read.",
+        "No other grader result, mapping, task history, source file or host metadata was consulted.",
+        "Scores are diagnostic; omissions and ambiguity were not converted into qualifying inquiry failures.",
+        "No hidden cognitive premise was inferred, and no grades were averaged, replaced or retried."
+      ]
+    },
+    "B": {
+      "packet_verification": {
+        "expected_sha256": "02e618fa48e49a2693cd8a7dc2bcd3ba02cf0990e79ffb0f77c6f25663946e2c",
+        "observed_sha256": "02e618fa48e49a2693cd8a7dc2bcd3ba02cf0990e79ffb0f77c6f25663946e2c",
+        "match": true,
+        "source_scope": "Only the designated grading packet was read.",
+        "files_modified": false
+      },
+      "grading_status": "First original independent grading; no replacement, averaging or regrading.",
+      "shared_legal_analysis": {
+        "completion_program": {
+          "rules": "Choose COMPLETION for both companies at tick0.",
+          "supplier_payoff_bound": "Each company can unilaterally inspect at tick2 and truthfully report, guaranteeing 7/10 regardless of the other company's strategy. Without its own invocation its payoff is at most 2/3. With at least one invocation its payoff is at most 1 minus 3/10, namely 7/10. Additional invocations reduce this upper bound.",
+          "equilibrium_implication": "Every best response attains 7/10. Equality requires exactly one payable invocation and a correct final bit almost surely. Free sharing does not eliminate the incentive for an own invocation: the unchecked completion payment 1/3 exceeds its 3/10 cost by 1/30.",
+          "early_receipt_implication": "At least one company must inspect by the tick2 final-report cutoff almost surely. Otherwise neither company nor the owner has any theta-informed input before final reports, making almost-sure correct reporting impossible under the independent uniform theta law. A synchronous early invocation yields its observable receipt before tick2.5. Other companies may obtain their receipts later while reporting correctly using shared information.",
+          "complete_controller": "By tick2.5 read the final bits. At tick3 execute A's bit when it is 0 or 1, otherwise B's bit when valid, otherwise L. Order no owner inspection. Every equilibrium executes theta with probability1. The new invoice is0 on every execution, meeting the cap and attaining the nonnegative global lower bound."
+        },
+        "peer_counterexample": {
+          "on_path": "Both companies perform no inspection, ignore cheap-talk messages and historical claims, and report L by tick2.",
+          "off_path": "A company that actually acquires theta before the reporting cutoff reports theta. An uninformed company continues reporting L and ignores unauthenticated messages, including messages accompanied by completion-only receipts. No further inspection is performed after final reports.",
+          "beliefs_and_information": "On path, theta remains uniform conditional on L. Off-path unauthenticated claims and completion-only receipts need not establish theta; pooling beliefs and message-ignoring continuation strategies are permitted. Actual module observations reveal theta exactly.",
+          "best_responses": "An uninformed report L earns (2/3)(1/2) plus 1/3, totaling2/3. Reporting the opposite bit earns1/3. A unilateral early inspection followed by optimal truthful reporting earns2/3 plus (1/3)(1/2), totaling5/6 before its3/10 cost and8/15 net, below2/3. Ignored messages cannot improve that deviation. Randomization cannot exceed these available maxima; repeated or post-report inspections only add cost. With known theta, truthful reporting gains2/3 in expected CHECK reward over a wrong bit, while the largest possible loss in PEER reward is1/3, so truthful reporting is strictly optimal.",
+          "service_result": "The two reports agree but dispatching L succeeds with probability1/2. Audit independence does not make the reports independent quality observations.",
+          "full_repair": "Switch at least one company to COMPLETION at tick0 and use its actual final bit at tick3, with explicit valid-bit fallback branches. Order no new product. The COMPLETION payoff bound guarantees its true final bit in every equilibrium and achieves invoice0."
+        }
+      },
+      "grades": [
+        {
+          "response_id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "score_rationale": {
+            "decision": "Both-COMPLETION with no purchase and a complete fallback controller is lawful, universally safe and globally minimal at invoice0.",
+            "evidence": "Correctly uses actual module information and CHECK validation, distinguishes supplier costs from new invoices, and rejects the pilot as a current guarantee.",
+            "mechanism": "The unilateral guarantee and matching upper bound prove correct final reports for every equilibrium, including late own completion after learning theta through sharing.",
+            "feasibility": "Specifies tick0 contracts, tick3 dispatch and complete valid-bit fallback branches, with no owner product charge.",
+            "support": "Correctly states the PEER pooling counterexample and zero-invoice optimum, but does not supply its inspection-deviation calculation or informed off-path continuation."
+          },
+          "diagnostic_notes": [
+            {
+              "exact_public_quotation": "under PEER, both companies can decline inspection and report the common public L in equilibrium.",
+              "assessment": "True, with incomplete equilibrium support in the response.",
+              "supplied_law_basis": "CHECK pays against actual theta with probability2/3; PEER matching pays with probability1/3; inspection costs3/10; L is independent of theta; free messages and complete contingent strategies are allowed.",
+              "all_constraint_legal_counterexample": "The complete lawful pooling equilibrium is specified in shared_legal_analysis.peer_counterexample.",
+              "feasible_full_repair": "Append the pooling equilibrium's uninformed payoffs, inspection-deviation calculation and truthful informed continuation. Retain the response's complete both-COMPLETION controller.",
+              "material_changed_authorization": "None. The authorized controller and invoice are already correct.",
+              "root_count": 0,
+              "qualifying": false
+            }
+          ],
+          "substantive_false_premise_findings": []
+        },
+        {
+          "response_id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 1,
+            "feasibility": 2,
+            "support": 1
+          },
+          "total": 8,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "score_rationale": {
+            "decision": "A receipted company's true final bit supplies universally correct processing at invoice0. At least one early receipt exists in every equilibrium.",
+            "evidence": "Uses completion receipts to identify an inspected company and uses payoff incentives to establish report truth; it does not treat the receipt itself as a theta certificate.",
+            "mechanism": "The same-cost advance-to-report-cutoff argument is correct, but the explanation omits the explicit strictly positive net completion incentive and the complete unilateral-guarantee/upper-bound proof.",
+            "feasibility": "Provides timely receipt selection and a HOLD contingency; the contracts, no-purchase order and tick3 dispatch are supported.",
+            "support": "The zero lower bound and PEER pooling claim are correct, but the pooling best-response and informed off-path arguments are omitted."
+          },
+          "diagnostic_notes": [
+            {
+              "exact_public_quotation": "A COMPLETION company gains the unchecked receipt payment by invoking its module, even if it already knows the mode.",
+              "assessment": "Correct, but the net incentive and full best-response bound are not explicitly established.",
+              "supplied_law_basis": "Unchecked completion reward is1 with probability1/3, own inspection costs3/10, and actual-theta CHECK has weight2/3. Completion reward is independent of reports and other-company behavior.",
+              "all_constraint_legal_counterexample": "A company already informed through a free note can inspect once by tick4 and improve its net payoff by1/30 without changing its correct final report. A company lacking timely theta can inspect synchronously at tick2 and guarantee7/10. These lawful deviations exclude the proposed absence of all early receipts in equilibrium.",
+              "feasible_full_repair": "Add the explicit1/30 net completion incentive and the7/10 guarantee and upper bound. Keep both COMPLETION contracts, receipt-based report selection, HOLD fallback, no purchase and tick3 dispatch.",
+              "material_changed_authorization": "None. The original authorized program already meets the service requirement at minimum invoice.",
+              "root_count": 0,
+              "qualifying": false
+            },
+            {
+              "exact_public_quotation": "PEER also permits both companies to skip inspection and report the common manifest bit \\(L\\).",
+              "assessment": "True, with incomplete equilibrium support.",
+              "supplied_law_basis": "Actual-theta CHECK, PEER matching,3/10 inspection cost, independent manifest law and permitted cheap talk.",
+              "all_constraint_legal_counterexample": "The complete lawful pooling equilibrium is specified in shared_legal_analysis.peer_counterexample.",
+              "feasible_full_repair": "Append the full pooling best-response calculation and truthful informed off-path behavior; retain the existing zero-invoice controller.",
+              "material_changed_authorization": "None.",
+              "root_count": 0,
+              "qualifying": false
+            }
+          ],
+          "substantive_false_premise_findings": []
+        },
+        {
+          "response_id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 1,
+            "support": 2
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "score_rationale": {
+            "decision": "The authorized both-COMPLETION/no-purchase program attains correct processing almost surely in every permitted equilibrium and the minimum invoice0.",
+            "evidence": "Correctly separates current exact information from prior serials and delayed audits, and distinguishes escrow rewards from owner invoice.",
+            "mechanism": "The tick2 unilateral guarantee and global7/10 upper bound establish own completion and truthful final bits despite free sharing.",
+            "feasibility": "All equilibrium executions are supported, but the controller lacks an explicit branch for an absent final bit, which the installed interfaces represent as NONE.",
+            "support": "Provides the nonnegative lower bound and the correct PEER inspection-deviation calculation; its optimal inspected reporting is consistent with truthful informed continuation."
+          },
+          "diagnostic_notes": [
+            {
+              "exact_public_quotation": "The controller should accept A’s final bit through tick 2 and dispatch that bit at tick 3.",
+              "assessment": "Correct on every permitted equilibrium path. A total controller branch for NONE is unspecified; this is an operational omission, not evidence of an unsafe equilibrium or a false capability premise.",
+              "supplied_law_basis": "An absent report enters NONE, while the fixture accepts only mode0, mode1 or HOLD. The COMPLETION payoff bounds force A's final bit to equal theta almost surely in every equilibrium.",
+              "all_constraint_legal_counterexample": "A syntactically supported off-equilibrium history may contain NONE. It is not a permitted equilibrium under the response's contract choice because A can guarantee7/10 by inspecting at tick2 and reporting theta. Consequently it cannot demonstrate an all-equilibrium service violation.",
+              "feasible_full_repair": "At tick3 execute A's final bit if0 or1; otherwise execute B's valid final bit; otherwise execute L or HOLD. Read available final reports by tick2.5. Keep both COMPLETION choices at tick0 and no owner purchase.",
+              "material_changed_authorization": "Only previously unspecified off-equilibrium fallback behavior becomes explicit. Equilibrium processing, invoice and product authorization do not change.",
+              "root_count": 0,
+              "qualifying": false
+            }
+          ],
+          "substantive_false_premise_findings": []
+        }
+      ],
+      "selection_assessment": {
+        "valid_original_response_ids": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "qualifying_original_response_ids": [],
+        "qualifying_original_response_count": 0,
+        "this_grader_supports_required_two_response_failure_condition": false,
+        "independent_grader_agreement": "Not assessed; no other grader's result was sought or read."
+      },
+      "limits": [
+        "Scores are diagnostic and do not substitute for the immutable qualification test.",
+        "Explanation omissions and the unspecified off-equilibrium fallback are nonqualifying.",
+        "No hidden cognitive premise, condition identity, model identity or host metadata was inferred.",
+        "Only this independent original grade is reported."
+      ]
+    }
+  },
+  "view_normalization": "response_id or id used only for lookup; original grades unchanged",
+  "selection": {
+    "status": "EXCLUDED",
+    "joint_qualifying_ids": [],
+    "joint_qualifying_count": 0,
+    "required_joint_ids": 2,
+    "valid_originals": 3,
+    "retained_families": 0,
+    "remaining_required": 6,
+    "criteria_changed": false
+  }
+}

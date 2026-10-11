@@ -22,6 +22,11 @@ import threading
 import time
 from typing import Final, TextIO, TypeAlias
 
+if __package__:
+    from .inquiry_dialogue import Dialogue, DialogueError
+else:
+    from inquiry_dialogue import Dialogue, DialogueError
+
 Json: TypeAlias = None | bool | int | float | str | list["Json"] | dict[str, "Json"]
 ROOT: Final = Path(__file__).resolve().parents[1]
 REFS: Final = ('inquiry-methods.md', 'evidence-and-diagnosis.md', 'alternatives-and-drafting.md')
@@ -91,6 +96,10 @@ def validate_suite(suite: Path):
         raise RunnerError('protocol does not match fixed runner contract')
     if protocol['runtime']['treatment']['references'] != ['.agents/skills/deep-inquiry/references/' + n for n in REFS]:
         raise RunnerError('protocol reference order mismatch')
+    for case_id, spec in protocol.get('dialogues', {}).items():
+        if case_id not in ids:
+            raise RunnerError('dialogue case coverage mismatch')
+        Dialogue.parse(spec)
     return cases
 
 
@@ -100,6 +109,21 @@ def verify_hashes(base: Path, expected: dict) -> None:
         path = (base / relative).resolve()
         if not path.is_relative_to(base.resolve()) or not path.is_file() or digest(path) != value:
             raise RunnerError('frozen input mismatch: ' + relative)
+
+
+def _safe_error_info(error: Json) -> dict[str, Json]:
+    """Keep only pinned Codex error categories and validated HTTP status metadata."""
+    info = error.get('codexErrorInfo') if isinstance(error, dict) else None
+    units = {'contextWindowExceeded', 'sessionBudgetExceeded', 'usageLimitExceeded', 'rateLimitExceeded', 'flexUnavailable', 'serverOverloaded', 'cyberPolicy', 'misalignmentPolicyViolation', 'tooManyDenials', 'internalServerError', 'unauthorized', 'badRequest', 'threadRollbackFailed', 'sandboxError', 'other'}
+    if isinstance(info, str) and info in units:
+        return {'error_info': info}
+    if isinstance(info, dict) and len(info) == 1:
+        tag, payload = next(iter(info.items()))
+        if tag in {'httpConnectionFailed', 'responseStreamConnectionFailed', 'responseStreamDisconnected', 'responseTooManyFailedAttempts'} and isinstance(payload, dict) and set(payload) == {'httpStatusCode'}:
+            status = payload['httpStatusCode']
+            if status is None or type(status) is int and 100 <= status <= 599:
+                return {'error_info': tag, 'http_status_code': status}
+    return {'error_info': 'unknown'}
 
 
 @dataclass(slots=True)
@@ -117,7 +141,8 @@ class Capture:
     def observe(self, event: dict) -> None:
         method = event.get('method')
         if method == 'model/rerouted':
-            raise RunnerError('model rerouted')
+            self.telemetry.append({'method': 'model/rerouted'})
+            raise RunnerError('model rerouted', 'model_rerouted')
         params = event.get('params') or {}
         if method == 'rawResponseItem/completed':
             raw = params['item']
@@ -144,9 +169,16 @@ class Capture:
             self.output_seen = True
         if method == 'turn/completed':
             self.completion = params['turn']['status']
-            self.telemetry.append({'method': method, 'status': self.completion})
+            metadata = {'method': method, 'status': self.completion}
+            if self.completion in {'failed', 'interrupted'}:
+                metadata.update(_safe_error_info(params['turn'].get('error')))
+            self.telemetry.append(metadata)
         if method in {'error', 'turn/failed'}:
-            raise RunnerError('host reported turn error')
+            retry = params.get('willRetry') if isinstance(params, dict) else None
+            self.telemetry.append({'method': method, 'will_retry': retry if type(retry) is bool else None, **_safe_error_info(params.get('error') if isinstance(params, dict) else None)})
+            if method == 'error' and retry is True:
+                return
+            raise RunnerError('host reported turn error', 'host_error_notification' if method == 'error' else 'host_turn_failed')
 
     def final_bytes(self) -> bytes:
         if self.completion != 'completed' or len(self.messages) != 1:
@@ -175,13 +207,20 @@ class Host:
         self.dispatched = False
 
     def receive(self, deadline: float):
+        remaining = deadline - time.monotonic()
+        if remaining <= 0:
+            raise TimeoutError('app-server deadline')
         try:
-            event = json.loads(self.lines.get(timeout=max(.001, deadline - time.monotonic())))
+            line = self.lines.get(timeout=remaining)
         except queue.Empty as error:
             raise TimeoutError('app-server deadline') from error
-        self.capture.observe(event)
+        if time.monotonic() >= deadline:
+            raise TimeoutError('app-server deadline')
+        event = json.loads(line)
         if 'id' in event and 'method' in event:
-            raise RunnerError('unexpected server request')
+            self.capture.telemetry.append({'method': 'unexpected_server_request'})
+            raise RunnerError('unexpected server request', 'unexpected_server_request')
+        self.capture.observe(event)
         return event
 
     def notify(self, method: str, params: dict) -> None:
@@ -189,12 +228,14 @@ class Host:
         self.stdin.flush()
 
     def call(self, method: str, params: dict, deadline: float | None = None):
+        deadline = deadline if deadline is not None else time.monotonic() + 40
+        if time.monotonic() >= deadline:
+            raise TimeoutError('app-server deadline')
         self.number += 1
         if method == 'turn/start':
             self.dispatched = True
         self.stdin.write(json.dumps({'id': self.number, 'method': method, 'params': params}) + '\n')
         self.stdin.flush()
-        deadline = deadline if deadline is not None else time.monotonic() + 40
         while True:
             event = self.receive(deadline)
             if event.get('id') == self.number:
@@ -209,21 +250,31 @@ class Host:
 
     def stop(self) -> bool:
         """Terminate only the child this host created; close owned pipes."""
-        if self.proc.poll() is None:
-            if os.name == 'nt':
-                result = subprocess.run(['taskkill', '/PID', str(self.proc.pid), '/T', '/F'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=10, check=False)
-                if result.returncode and self.proc.poll() is None:
-                    self.proc.terminate()
-            else:
-                self.proc.terminate()
         try:
-            self.proc.wait(timeout=10)
-        except subprocess.TimeoutExpired:
-            self.proc.kill()
-            self.proc.wait(timeout=10)
-        for stream in (self.proc.stdin, self.proc.stdout):
-            if stream:
-                stream.close()
+            if self.proc.poll() is None:
+                if os.name == 'nt':
+                    try:
+                        result = subprocess.run(['taskkill', '/PID', str(self.proc.pid), '/T', '/F'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=10, check=False)
+                    except subprocess.TimeoutExpired:
+                        if self.proc.poll() is None:
+                            self.proc.terminate()
+                    else:
+                        if result.returncode and self.proc.poll() is None:
+                            self.proc.terminate()
+                else:
+                    self.proc.terminate()
+            try:
+                self.proc.wait(timeout=10)
+            except subprocess.TimeoutExpired:
+                self.proc.kill()
+                self.proc.wait(timeout=10)
+        finally:
+            try:
+                if self.proc.stdin:
+                    self.proc.stdin.close()
+            finally:
+                if self.proc.stdout:
+                    self.proc.stdout.close()
         return self.proc.poll() is not None
 
 
@@ -344,7 +395,7 @@ def read_common_context(path: Path | None, plan: dict, frozen: dict):
     reference = load(path)
     if reference.get('schema_version') != 1 or reference.get('canary_cross_arm_verified') is not True:
         raise RunnerError('cross-arm canary context proof absent')
-    if reference.get('runner_sha256') != digest(Path(__file__)):
+    if reference.get('runner_sha256') != digest(Path(__file__)) or reference.get('dialogue_runner_sha256') != digest(Path(__file__).with_name('inquiry_dialogue.py')):
         raise RunnerError('canary context runner hash mismatch', 'context_runner_mismatch')
     for key in ('suite_hashes', 'skill_hashes'):
         if reference.get(key) != frozen[key]:
@@ -401,10 +452,11 @@ def validate_plan(plan: dict, cases: dict):
     return lookup
 
 
-def run_trial(exe: Path, auth: Path, source: Path, case: dict, condition: str, folder: Path, frozen: dict, common: dict, probe_only: bool = False):
+def run_trial(exe: Path, auth: Path, source: Path, case: dict, condition: str, folder: Path, frozen: dict, common: dict, probe_only: bool = False, dialogue: Dialogue | None = None):
     """One fresh trial, cleanup on every exit; retries belong to the run plan."""
     folder.mkdir(parents=True, exist_ok=False)
     capture = Capture()
+    captures = [capture]
     report: dict = {'case_id': case['id'], 'condition': condition, 'status': 'not_run', 'backend_model_verified': False, 'model_requested': 'gpt-6-sol', 'effort_requested': 'medium', 'reference_delivery': 'explicit_preloaded', 'comparison_eligible': False, 'allow_provider_model_fallback_requested': False, 'timeout_seconds': 300}
     protected = [auth, *[source / rel for rel in frozen]]
     if (auth.parent / 'config.toml').exists():
@@ -525,6 +577,43 @@ def run_trial(exe: Path, auth: Path, source: Path, case: dict, condition: str, f
                     report['actual_common_user_prefix_match'] = matched_user_prefix
                     report['actual_context_observed'] = True
                     report.update(native_root_expansion_verified=target is not None, preloaded_references_verified=target is not None, task_input_readback_verified=True)
+                    if dialogue is not None:
+                        history = list(capture.delivered_user_text)
+                        transcript = []
+                        while True:
+                            turn_number = len(captures)
+                            (folder / f'turn-{turn_number:02}-final.txt').write_bytes(final)
+                            transcript.append({'turn': turn_number, 'turn_id': report['turn_id'], 'response': final.decode('utf-8')})
+                            save(folder / 'dialogue-transcript.json', transcript)
+                            stage = 'dialogue_response'
+                            observation = dialogue.reply(final.decode('utf-8'))
+                            if observation is None:
+                                break
+                            transcript[-1]['observation'] = observation
+                            save(folder / 'dialogue-transcript.json', transcript)
+                            capture = Capture()
+                            captures.append(capture)
+                            host.capture = capture
+                            stage = 'dialogue_turn'
+                            continuation = [{'type': 'text', 'text': observation}]
+                            result = host.call('turn/start', {'threadId': thread['thread']['id'], 'model': 'gpt-6-sol', 'effort': 'medium', 'input': continuation}, deadline)
+                            while capture.completion is None:
+                                host.receive(deadline)
+                            final = capture.final_bytes()
+                            report['turn_id'] = result['turn']['id']
+                            (folder / f'turn-{len(captures):02}-final.txt').write_bytes(final)
+                            (folder / 'final.txt').write_bytes(final)
+                            report.update(final_sha256=digest(folder / 'final.txt'), final_bytes=len(final))
+                            history.append(observation)
+                            stage = 'dialogue_readback'
+                            if capture.tool_attempted or capture.delivered_user_text not in ([observation], history):
+                                raise RunnerError('dialogue input or tool contract mismatch', 'dialogue_readback')
+                            if capture.delivered_developer_text and capture.delivered_developer_text != captures[0].delivered_developer_text:
+                                raise RunnerError('dialogue developer context changed', 'dialogue_context')
+                        report.update(dialogue_delivery_verified=True, dialogue_turns=len(captures), dialogue_requests=list(dialogue.requests))
+
+            except DialogueError:
+                report.update(status='error', error_type='DialogueError', error_stage=stage, error_contract_code='dialogue_invalid')
             except RunnerError as error:
                 report.update(status='error', error_type='RunnerError', error_stage=stage, error_contract_code=error.code)
             except UnicodeError as error:
@@ -533,7 +622,7 @@ def run_trial(exe: Path, auth: Path, source: Path, case: dict, condition: str, f
                 report.update(status='error', error_type=type(error).__name__, error_stage=stage, error_contract_code='transport_or_setup_error')
             finally:
                 report['turn_dispatched'] = host.dispatched if host else False
-                report['output_seen'] = capture.output_seen
+                report['output_seen'] = any(item.output_seen for item in captures)
                 try:
                     report['process_stopped'] = host.stop() if host else True
                 except (OSError, subprocess.TimeoutExpired) as error:
@@ -547,11 +636,13 @@ def run_trial(exe: Path, auth: Path, source: Path, case: dict, condition: str, f
                     receipts.append({'path': path, 'before_sha256': expected, 'after_sha256': observed, 'unchanged': observed == expected})
                 save(folder / 'source-receipts-private.json', {'publication': 'private_only', 'sources': receipts})
                 report['source_preserved'] = all(x['unchanged'] for x in receipts)
-                report['tool_attempted'] = capture.tool_attempted
+                report['tool_attempted'] = any(item.tool_attempted for item in captures)
                 report['completion_status'] = capture.completion
                 save(folder / 'delivered-context-private.json', {'user': capture.delivered_user_text, 'developer': capture.delivered_developer_text})
-                save(folder / 'unknown-phase-messages-private.json', capture.unknown_messages)
-                save(folder / 'telemetry.json', capture.telemetry)
+                save(folder / 'unknown-phase-messages-private.json', [{'turn': index + 1, 'messages': item.unknown_messages} for index, item in enumerate(captures)] if dialogue is not None else capture.unknown_messages)
+                save(folder / 'telemetry.json', [event for item in captures for event in item.telemetry])
+                if dialogue is not None:
+                    save(folder / 'dialogue-delivery-private.json', [{'user': item.delivered_user_text, 'developer': item.delivered_developer_text} for item in captures])
     except OSError as error:
         report.update(status='error', cleanup_error_type=type(error).__name__, error_stage=stage, error_contract_code='setup_or_cleanup_error')
     report['copied_auth_root_removed'] = root is None or not root.exists()
@@ -581,6 +672,7 @@ def main() -> int:
     if not (args.execute or args.probe) or not all((args.plan, args.exe, args.auth, args.out)):
         raise RunnerError('run requires --execute --plan --exe --auth --out')
     plan = load(args.plan)
+    dialogues = load(args.suite / 'protocol.json').get('dialogues', {})
     verify_hashes(args.suite, plan['suite_hashes'])
     verify_hashes(args.skill, plan['skill_hashes'])
     required = {'SKILL.md', *['references/' + n for n in REFS]}
@@ -601,9 +693,10 @@ def main() -> int:
         verify_hashes(args.skill, plan['skill_hashes'])
         name = f"{trial['case_id']}-{trial['condition']}-r{trial['repetition']}"
         for attempt in (1, 2):
-            report = run_trial(args.exe, args.auth, args.skill, lookup[trial['case_id']][1], trial['condition'], args.out / (name + f'-attempt{attempt}'), plan['skill_hashes'], common, args.probe)
+            report = run_trial(args.exe, args.auth, args.skill, lookup[trial['case_id']][1], trial['condition'], args.out / (name + f'-attempt{attempt}'), plan['skill_hashes'], common, args.probe, Dialogue.parse(dialogues[trial['case_id']]) if trial['case_id'] in dialogues else None)
             print(json.dumps({k: report[k] for k in ('case_id', 'condition', 'status')}), flush=True)
-            if report['status'] in {'completed', 'ready'} or report['turn_dispatched'] or report['output_seen']:
+            if (report['status'] in {'completed', 'ready'} or report['turn_dispatched'] or report['output_seen']
+                    or not all(report.get(key) is True for key in ('source_preserved', 'process_stopped', 'copied_auth_root_removed'))):
                 break
         slots[slot_index].update(status=report['status'], attempt=attempt, final_sha256=report.get('final_sha256'), actual_completed_final_preserved=report.get('actual_completed_final_preserved', False))
         save(args.out / 'run-slots.json', slots)
@@ -612,7 +705,7 @@ def main() -> int:
     if plan['purpose'] == 'canary' and not args.probe:
         if not report.get('actual_common_developer_match') or not report.get('actual_common_user_prefix_match') or not common.get('actual_developer_sha256'):
             raise RunnerError('canary cross-arm actual context equality is unverified')
-        reference = {'schema_version': 1, 'canary_cross_arm_verified': True, 'context': common, 'suite_hashes': plan['suite_hashes'], 'skill_hashes': plan['skill_hashes'], 'runner_sha256': digest(Path(__file__)), 'canary_final_sha256': {slot['condition']: slot['final_sha256'] for slot in slots}}
+        reference = {'schema_version': 1, 'canary_cross_arm_verified': True, 'context': common, 'suite_hashes': plan['suite_hashes'], 'skill_hashes': plan['skill_hashes'], 'runner_sha256': digest(Path(__file__)), 'dialogue_runner_sha256': digest(Path(__file__).with_name('inquiry_dialogue.py')), 'canary_final_sha256': {slot['condition']: slot['final_sha256'] for slot in slots}}
         with (args.out / 'canary-common-context.json').open('x', encoding='utf-8') as stream:
             stream.write(json.dumps(reference, ensure_ascii=False, indent=2) + '\n')
     return 0

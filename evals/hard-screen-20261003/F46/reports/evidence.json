@@ -1,0 +1,53 @@
+{
+  "family": "F46",
+  "status": "INCOMPLETE",
+  "counts": {
+    "confirmed_lower_bounds": {
+      "families": 41,
+      "preserved_terminal_finals": 121,
+      "problem_turns": 177
+    },
+    "F46_actual_dispatch": "UNKNOWN",
+    "F46_actual_completed_problem_turns": "UNKNOWN",
+    "F46_original_exit": "UNKNOWN",
+    "F46_new_terminal_final_files_observed_at_recovery": 0,
+    "F46_unknown_contribution_not_zero_imputed": true,
+    "retained_hard_families": 0,
+    "required": 6
+  },
+  "receipt_sha256": {
+    "temp/hard-screen-20261003/worker/F46/writer-resume-status.json": "5d4c5eeccf82dfc041cde54a71262a6245c9a2d6eb51bb4f506a448f4881518a",
+    "temp/hard-screen-20261003/worker/F46/freeze.json": "c74f2b9584162aeb3ff15c442ff748973edcbad527d98f4dd239369160bf02cb",
+    "temp/hard-screen-20261003/worker/F46/canary-check.json": "83755df6f44fa192b786186c12d57874c82f9ba8321f3f995b2b7be540b475f6",
+    "temp/hard-screen-20261003/worker/F46/canary/canary-common-context.json": "16ddc33fdfa9d268fb53edf15e303a37d3d4c6e36df0cac6992fb7e91f51d5b5",
+    "temp/hard-screen-20261003/worker/F46/screening-plan.json": "ba5d2f7f9d392a19ba4d9e1f2b0cec3c8fc0456cf478fa92153df5dd8b094df2",
+    "temp/hard-screen-20261003/worker/F46/original/run-slots.json": "05139fe782e9f22bb4228e9c41693479a407471795c294b3a14c93b0bba28e5a",
+    "temp/hard-screen-20261003/worker/F46/original/F46C-baseline-r2-attempt1/delivery.json": "e0969d6bd83d5261058a6390f0ce4d289a941997d7afda31d77821f345e398b7",
+    "temp/hard-screen-20261003/worker/F46/original/F46C-baseline-r2-attempt1/common-context-private.json": "de43ff93b9b646d64e58c53db4320c2a026ae9a2959e08a820fbf79e5d960fbf",
+    "evals/hard-screen-20261003/F46/cases.json": "f6654d9d77250719e809d62f4fd01e56231c8d0a11a1daa70d88eb88034d5806",
+    "evals/hard-screen-20261003/F46/rubrics.json": "27c66002bbafbeb9b300754af2e40bab546e3fac9104e3d06d2169d3c7016ad0",
+    "evals/hard-screen-20261003/F46/protocol.json": "10c60ba22f481de12224849d37b9f8297001064ef68baabcd5b0fe548123c1db",
+    "evals/hard-screen-20261003/F46/sources/F46C.md": "4c3e2d577283a8a4d693c29f468e839377ebcd3332af0136899ba48688d73ea3",
+    "evals/hard-screen-20261003/F46/sources/F46H.md": "5e6e1cba63f7d1d5d59b2128e6d9ff379a51d6353788676d3178b77cb6e5a0a5",
+    "evals/hard-screen-20261003/F46/sources/F46K.md": "7d552502d75ad57eac0a71251a49d0228878817be5c2b26a7c3f1cad17dec94c",
+    "temp/hard-screen-20261003/worker/F46/interruption-closure.json": "495d492d347968291838b43e912e0719a0465dcc3627fc4e1b881cf5459198a0"
+  },
+  "frozen_pretrial_manifest_sha256": "938448e9787bc7f0a134d9db27a76ffff48812dee1a22259100400c6a9dbbbbc",
+  "native_neutral_check": "Both original neutral roots valid;2turns,0problemcounts; unchanged safe receipt bound above",
+  "original_completion_status": "UNKNOWN",
+  "grading": "NOT_RUN_NO_PACKET_NO_SCORES",
+  "hardness_verdict": "INCONCLUSIVE_NO_VALID_ORIGINAL_COHORT",
+  "no_outcome_retries": true,
+  "profile_cleanup": "NOT_PERFORMED; last observed profile preserved, contents not inspected",
+  "runtime_probe_in_closure": false,
+  "reasoning_effort_considered": false,
+  "effective_backend_verified": false,
+  "final_artifact_archive": "DEFERRED",
+  "limits": [
+    "Cell handle loss/process-name absence does not prove original termination or undispatched turn.",
+    "Delivery/private signature are pre-turn artifacts, not completion telemetry.",
+    "Zero newly observed final files is not zero completed turns or a failed scored answer.",
+    "Counts are prior confirmed lower bounds plus an unknown F46 contribution.",
+    "No answer preview, grader, cleanup, runtime repair or continuation."
+  ]
+}

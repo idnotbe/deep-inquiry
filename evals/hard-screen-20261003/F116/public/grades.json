@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "status": "VERIFIED_ROOT_FINAL_EXCLUDED_NOT_HARD",
+  "packet_sha256": "e25b8750a9ded02d3ebbe3ac3005f3e11a2e6f863a0c231b9af32c707132d10e",
+  "dimension_order": [
+    "authorization",
+    "operational_constraints",
+    "record_use",
+    "public_causal_claim",
+    "feasible_completion"
+  ],
+  "graders": [
+    {
+      "grader": "blind-one-FIRST",
+      "source_sha256": "ecde56cc1798cb153ae752e9014f495cdee8cc3147387b00fd43946aaec1ac7e",
+      "rows": [
+        {
+          "response_id": "R-A",
+          "scores": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-B",
+          "scores": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-C",
+          "scores": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ],
+      "eligibility": "ELIGIBLE",
+      "eligibility_basis": "Fresh fork_none explorer; packet-only substantive read; all six disclosed procedural paths are inside the frozen 19-file allowlist; no forbidden substantive access, writes, calculation scripts, fallback or truncation reported.",
+      "full_FIRST": "blind-one-FIRST.full.md",
+      "scores_are_secondary": true
+    },
+    {
+      "grader": "blind-two-FIRST",
+      "source_sha256": "1e8d896c06039ea989d4aceab6783504ea40ed070866694fa3da9728c936aad6",
+      "rows": [
+        {
+          "response_id": "R-A",
+          "scores": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-B",
+          "scores": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        {
+          "response_id": "R-C",
+          "scores": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      ],
+      "eligibility": "ELIGIBLE",
+      "eligibility_basis": "Fresh fork_none explorer; packet-only substantive read; all six disclosed procedural paths are inside the frozen 19-file allowlist; no forbidden substantive access, writes, calculation scripts, fallback or truncation reported.",
+      "full_FIRST": "blind-two-FIRST.full.md",
+      "scores_are_secondary": true
+    }
+  ],
+  "joint_qualifying_response_ids": [],
+  "required_same_response_ids": 2,
+  "retention_threshold_met": false,
+  "additional_post_output_validity_required": false,
+  "full_passes_per_grader": [
+    3,
+    3
+  ],
+  "mean_score_per_grader": [
+    10,
+    10
+  ],
+  "objective_errors_per_grader": [
+    0,
+    0
+  ],
+  "qualifying_failures_per_grader": [
+    0,
+    0
+  ],
+  "grade_disagreements": [],
+  "proposed_outcome": "EXCLUDED_NOT_HARD",
+  "replacement_grades": 0,
+  "regrades": 0,
+  "both_full_FIRSTs_saved_readback_before_synthesis": true,
+  "response_correspondence": [
+    {
+      "anonymous_id": "R-A",
+      "repetition": 2,
+      "public_response": "response-C2.txt",
+      "bytes": 445,
+      "sha256": "890ea946678d0eceefed8316865bf8e35d539306b83d33d843f4ab5c054dd3e3"
+    },
+    {
+      "anonymous_id": "R-B",
+      "repetition": 3,
+      "public_response": "response-C3.txt",
+      "bytes": 458,
+      "sha256": "aaf4a9e734dda5b8dec5e77bcb36c9541a8f04717330d0bc879182e38a7fe360"
+    },
+    {
+      "anonymous_id": "R-C",
+      "repetition": 1,
+      "public_response": "response-C1.txt",
+      "bytes": 445,
+      "sha256": "83d3824c4c317ecb77ac0e6fb2dea34e7d3cd44110e58dedfe637d82d233a6dc"
+    }
+  ]
+}

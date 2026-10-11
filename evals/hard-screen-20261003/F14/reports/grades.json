@@ -1,0 +1,107 @@
+{
+  "grader_a": [
+    {
+      "response_id": "R01",
+      "case_id": "F14C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Feasible alternate optimum21, correct purchase/workflow/commitments."
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F14C",
+      "scores": [
+        2,
+        2,
+        0,
+        2,
+        2
+      ],
+      "total": 8,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Wrong overtime purchase27 from false regular lowerbound27; feasible actual calendar/arithmetic. Independent reviewers classify incomplete schedule search, not misunderstood mechanism."
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F14C",
+      "scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Correct decline, feasible24 but misses optimum21; search/optimality error."
+    }
+  ],
+  "grader_b": [
+    {
+      "response_id": "R01",
+      "case_id": "F14C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Feasible alternate optimum21, correct purchase/workflow/commitments."
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F14C",
+      "scores": [
+        2,
+        2,
+        0,
+        1,
+        2
+      ],
+      "total": 7,
+      "critical_failures": [],
+      "full_pass": false,
+      "substantive_decision_error": false,
+      "deduction": "Wrong overtime purchase27 from false regular lowerbound27; feasible actual calendar/arithmetic. Independent reviewers classify incomplete schedule search, not misunderstood mechanism."
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F14C",
+      "scores": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ],
+      "total": 8,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Correct decline, feasible24 but misses optimum21; search/optimality error."
+    }
+  ],
+  "interpretation": {
+    "grader_a": "10/8/9; accounting credits accurate cost of actual submitted schedule; charge optimization error once in purchase.",
+    "grader_b": "10/7/8; accounting partially credited because frozen anchor asks optimum21, while acknowledging same shared optimization root.",
+    "selection": "Both exclude under unchanged thresholds; no favorable-grade selection or averaging. Neither finds qualifying inquiry failure; preserve wrong purchase and suboptimal plan."
+  }
+}

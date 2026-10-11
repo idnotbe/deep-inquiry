@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "status": "ACTUAL_ORIGINALS_AND_FULL_FIRSTS_BOUND",
+  "candidate": "F108",
+  "decision": "EXCLUDED_NOT_HARD",
+  "ROOT_FINAL": "ACCEPTED",
+  "public_artifacts": [
+    {
+      "path": "evals/hard-screen-20261003/F108/cases.json",
+      "bytes": 16948,
+      "sha256": "41c78fa958b5be4f9fccfb7639bccfedea3876212584135c5f641cbff7a215a0"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F108/rubrics.json",
+      "bytes": 14713,
+      "sha256": "0497e2d1c552be52ba182d2aec1effeb72321d5c559150f7b114066cb21c3593"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F108/protocol.json",
+      "bytes": 2214,
+      "sha256": "b753145b1c1c4d5f34a8e5e35446f61485d15b4febc1c71078a33832b6ab8ea0"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F108/grades.json",
+      "bytes": 8305,
+      "sha256": "95166da02bbedd74ea41420a98dfb8bccb9842279280558f97a392105df7ce87"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F108/status.json",
+      "bytes": 6285,
+      "sha256": "6158f68a1e50097f78cd843cb017907c9e0ce840df4ee1cea56f6be8ab6b72c9"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F108/report.md",
+      "bytes": 5119,
+      "sha256": "3b51de0decb52eec4f36c9209144a6c7bf038ff07af82f70a9b11450ba45d2d7"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F108/answers/F108_C-baseline-r1.txt",
+      "bytes": 1349,
+      "sha256": "deddd251195ef77090c23dc571b537bbf09102170749b0b1d54d91f62eb893bd"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F108/answers/F108_C-baseline-r2.txt",
+      "bytes": 1393,
+      "sha256": "b90bd46e1be03d0c44f6117d678ecb6778b017ae5f1fce33d6c8df6800ce8ea4"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F108/answers/F108_C-baseline-r3.txt",
+      "bytes": 1468,
+      "sha256": "f208e11bd4b92cee8f34768103c947d403bd5c42c65bcdd5e5ca54bd6f4007f1"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F108/reviews/blind-one-FIRST.full.md",
+      "bytes": 6894,
+      "sha256": "065c85630e049c64ec9052b8856b68ec2de9ce167a6596c32c1d871bca507a8d"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F108/reviews/blind-two-FIRST.full.md",
+      "bytes": 7604,
+      "sha256": "944d3a7de239c6c5c8b6a04ce548fa0648de6823503a1a7ecfed6a81ba56baf1"
+    }
+  ],
+  "private_evidence": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/PRETRIAL.json",
+      "bytes": 50652,
+      "sha256": "8c0348d181efd22aa409a73cfcc408c23efb9d5f9f3405ea8a78f571e9da2dc7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/qualification/freeze.json",
+      "bytes": 38661,
+      "sha256": "ead1d013c97cf2621edf024002433a9e45c438f70225d0724484547a7a015771"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/combined-check-result.json",
+      "bytes": 35681,
+      "sha256": "7816be5cfdc20d43f7419fdda30873e20cf6fd199e723b5001bf9aab7b1c789f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/combined-check-actual-lossless.json",
+      "bytes": 37892,
+      "sha256": "e76f5659aa6f3755a717ff36ed652c8a10b92671d2ab83497a8af99eb8d60ed7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/prepare-runtime-actual-lossless.json",
+      "bytes": 1239,
+      "sha256": "e6cc845bdce1d4388a16214aec9538ff7d9d5cc7ec51f1f7db8ad6f97a0b8d72"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/native-execution-invocations.json",
+      "bytes": 1718,
+      "sha256": "027c30f9c0aeb528f451241a183b9916b107c6b53a8332735f9279dcbb022f3a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/qualification/canary-tool-handle.json",
+      "bytes": 554,
+      "sha256": "d4dc6d7251823f591f09efd6e810863fb4630623facad9d4186548892264d832"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/qualification/canary-collector-actual-lossless.json",
+      "bytes": 1374,
+      "sha256": "7d1f076adc8b87acd65742c72e6ef8560c5e0587196ea18932ef82af8b21f510"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/qualification/neutral-safe-readback.json",
+      "bytes": 8938,
+      "sha256": "b9390c60688de9c26db9a977f8c428fa30f9c90b199b1a314db26cc8deab5dde"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/original-operational-freeze.json",
+      "bytes": 1232,
+      "sha256": "f9246c2b053b97780a9759cdab4c598ed1f59d3f9d2c2656f8d948fc8f0ef6b1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/original-tool-handle.json",
+      "bytes": 667,
+      "sha256": "ca2f2d78f4bde4032e09b4fa3ce05799ce086d745f58c58c60f2f80de8d64448"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/original-collector-actual-lossless.json",
+      "bytes": 1028,
+      "sha256": "a1bc8af8752641145eaff62cdc04a3924b9e687abd39784354aaf82cd0b741ae"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/original-safe-readback.json",
+      "bytes": 12469,
+      "sha256": "3f7d907c5b26008160ec2e11f90bc339174bf1a8d693d05e1db18c65b56a368c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/ROOT-SAFE.json",
+      "bytes": 3897,
+      "sha256": "90fcd81a8fac916640de58808a9f5a006f440c80a3eac0e6d4b46acffa719d9e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/blind-builder-invocation.json",
+      "bytes": 466,
+      "sha256": "8c2e2f2718c089afbd1d163a9a08e2d94326f655d447712a0921a8dad1a80e98"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/blind-builder-actual-lossless.json",
+      "bytes": 996,
+      "sha256": "f7de1d2ec384687be412864127946a2958d48cdb0274f28d4c0f50312aa294ec"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/blind/packet.json",
+      "bytes": 25090,
+      "sha256": "b2fc82d8f92424b50cd6972a1275dd04e5a3ab8a70ca0ae02f61d06e501315dc"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/blind-private-mapping.json",
+      "bytes": 1182,
+      "sha256": "ef1cc4169b86768e09c80857741fd5066bf0a8b1cd41b1e2bd12aee581629e8f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/blind-display-provenance.json",
+      "bytes": 1803,
+      "sha256": "d1e51281c1d916fe03803618159bc7693ab767f50dfd2f03da51868fe6592e87"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/reviews/both-FIRST-boundary.json",
+      "bytes": 745,
+      "sha256": "a186da243d4488ff0cd3197f783fc0da0942cc015a1a7e4b39fdfd756f2c1760"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/reviews/blind-one-assignment.actual.json",
+      "bytes": 3873,
+      "sha256": "c44eb3e03e6a54ba51bf5b4ad30fe252b0ad49e9b35dd27ccc19030181a7a0fb"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/reviews/blind-two-assignment.prelaunch-planned.json",
+      "bytes": 3873,
+      "sha256": "c44eb3e03e6a54ba51bf5b4ad30fe252b0ad49e9b35dd27ccc19030181a7a0fb"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/reviews/blind-two-assignment.actual.json",
+      "bytes": 3835,
+      "sha256": "f95862a1fd3b0579a871480cff637588b27dd71e5e74eada857994ab06997c40"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/reviews/blind-two-assignment.correction.actual.json",
+      "bytes": 651,
+      "sha256": "e293a09bf840d8413bf0356971f76303a074e6821a349472ebd758c291f5a125"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/reviews/blind-one-FIRST.full.md",
+      "bytes": 6894,
+      "sha256": "065c85630e049c64ec9052b8856b68ec2de9ce167a6596c32c1d871bca507a8d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/reviews/blind-two-FIRST.full.md",
+      "bytes": 7604,
+      "sha256": "944d3a7de239c6c5c8b6a04ce548fa0648de6823503a1a7ecfed6a81ba56baf1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/root-grader-eligibility-acceptance.txt",
+      "bytes": 560,
+      "sha256": "e02c3ef37fd5f26bc27eabce0141bce47c2ea66d3702c34407e9b71907de95ae"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/final-summary-source.json",
+      "bytes": 5538,
+      "sha256": "ff336cee9ee5e7510e182f0e293e26b0f7750313976f6adc479234f0afe6db21"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/final-report-source.md",
+      "bytes": 5099,
+      "sha256": "41eedc721f847492b2e1a5049a3a240daa16443f69310e4d4f2addeba74a007f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/finalize.cjs",
+      "bytes": 8494,
+      "sha256": "9d4be933d70fed1da3d785b5a54e0e2f484a5fc903a3cbaea56b8853925f032b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/final-readback.cjs",
+      "bytes": 2316,
+      "sha256": "bdcb4cb1e276699880dabddf11fcb7b211f900c5518aefb0d5ca5cde28b96391"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/final-execution-invocations.json",
+      "bytes": 814,
+      "sha256": "7e28a77170f97cae2eb8273a8d325e45917e1fc773b6ac097dcd0376c3a19efc"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/README.before.md",
+      "bytes": 86867,
+      "sha256": "223c548563d00e42d99857d25b65159eb3f7ac12a6b806b663268f1ce5eaee57"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/README.append.txt",
+      "bytes": 357,
+      "sha256": "2aed1422f2609b1241dc5b35b9310957eb8330fac56ce9e8f499d28e58f7b5d3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/README.proposed.md",
+      "bytes": 87224,
+      "sha256": "8ef66e6f97dd4ec2c7caf16ebaff236ce8408a20bb01458eb50165ea1afe194e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F108/README-proposal-bindings.json",
+      "bytes": 877,
+      "sha256": "616fd38dc1867ab7f40447258560a699b5ee62c07eb381a5e6498e0454ccbc17"
+    }
+  ],
+  "root_authorities": [
+    {
+      "path": "temp/hard-screen-20261003/f108-pretrial-root-gate.json",
+      "bytes": 2633,
+      "sha256": "7067757de590bb9fcee98c2397cf17257bb8dc4bee297b77fbf00b985a770b89"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f108-safe-root-gate.json",
+      "bytes": 1605,
+      "sha256": "19f218991edea0fd73d1fc2860d7c15eafc31415195a363b520b1ca8ac6f37a4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f108-prospective-review-contract.md",
+      "bytes": 4441,
+      "sha256": "3865d675fe67cbc6c57f1d63907cc63621fbee5b4b3e57ef7549d54f2fb7330f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f108-blind-assignment.txt",
+      "bytes": 3777,
+      "sha256": "6cd766ec01376b4759543e542c14574d40f8de6a1a6a0dc71f5e429cc00855a4"
+    }
+  ],
+  "actual_counts": {
+    "neutral": 2,
+    "original": 3,
+    "retries": 0
+  },
+  "raw_aggregate": {
+    "candidate_identifiers": 92,
+    "preserved_terminal_problem_final_files": 265,
+    "completed_problem_turns_known_subtotal": 324,
+    "older_unknown_turns": "UNKNOWN",
+    "neutral_turns_excluded": true,
+    "not_valid_trial_count": true,
+    "independently_recounted_here": false
+  },
+  "answer_copies_byte_exact": true,
+  "complete_FIRST_copies_byte_exact": true,
+  "ordinary_at_ceiling_shorthand_accepted": true,
+  "assignment_deviation": "The actual initial assignment mistyped the remove-ai-slops generic path as local-codex-home/skills/remove-ai-slops/SKILL.md. SAME-agent correction restored only the already-authorized plugin path before FIRST. Planned canonical assignment, actual initial assignment and exact correction are preserved separately. No additional substantive guidance, regrade or replacement.",
+  "grader_two_wrong_or_corrected_path_attempted": false,
+  "ROOT_accepted_grader_eligibility": true,
+  "shared_README_proposal_only": false,
+  "no_empirical_hardness_or_efficacy_claim": true,
+  "root_final_gate": "temp/hard-screen-20261003/f108-final-root-gate.json",
+  "historical_prefinals": [
+    {
+      "original_path": "evals/hard-screen-20261003/F108/report.md",
+      "path": "temp/hard-screen-20261003/worker/F108/root-final-prefinals/report.md",
+      "bytes": 5099,
+      "sha256": "41eedc721f847492b2e1a5049a3a240daa16443f69310e4d4f2addeba74a007f"
+    },
+    {
+      "original_path": "evals/hard-screen-20261003/F108/status.json",
+      "path": "temp/hard-screen-20261003/worker/F108/root-final-prefinals/status.json",
+      "bytes": 6223,
+      "sha256": "f24078545edabf23fa3a14641110ffddcfa0e09563227be2bf9ab878476bec7a"
+    },
+    {
+      "original_path": "evals/hard-screen-20261003/F108/grades.json",
+      "path": "temp/hard-screen-20261003/worker/F108/root-final-prefinals/grades.json",
+      "bytes": 8277,
+      "sha256": "d32c966bd9ed4e0136a9564d2f43a289dec267c541e4e95c721dd45d772eb2eb"
+    },
+    {
+      "original_path": "evals/hard-screen-20261003/F108/evidence.json",
+      "path": "temp/hard-screen-20261003/worker/F108/root-final-prefinals/evidence.json",
+      "bytes": 11501,
+      "sha256": "cea32662d9c425312d7c9d508821c72a26931916a4b5ab0efdc47a9de5c6a13c"
+    }
+  ]
+}

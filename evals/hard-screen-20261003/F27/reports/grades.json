@@ -1,0 +1,145 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "verification": "Projection2.70, rise2.381176180, axisbottom.060; bodyfloorclearance.010 andceilingclearance.008823820. Turnexcursion<=.954594155<.970; wallclearance.015. Startpitch/translations andendflattenconnect; finalcapcentres y1.20/4.80. Fullcontinuousroute valid; separatefieldreviewpreserved."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "verification": "Projection2.70, rise2.381176180, axisbottom.055; bodyfloorclearance.005 andceilingclearance.013823820. Turnexcursion<=.954594155<.990; wallclearance.005. Startpitch/translations andendflattenconnect; finalcapcentres y1.20/4.80. Fullcontinuousroute valid; separatefieldreviewpreserved."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          1,
+          2
+        ],
+        "total": 9,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 1,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "The capsule then spans",
+          "including its radius"
+        ],
+        "verification": "Projection2.72,rise2.358304476,midpointz1.25. Stated.0708..2.4292 are cap-centreextents, not fullbody. Correctbodyextents.020847762..2.479152238 leave.020847762 floor/ceilingclearance, stillvalid. Onlynumericbodyextentcorrected; publishedroute/premises/decisionunchanged. Turn s=max(0,2.72-.99/cos(theta)) continuous, stripbound2.800142853>2.72. Endflattenatmidpointy2.405 givescentres.605/4.205 withinverticalstripincludingcorner;translate1north to1.605/5.205. One feasibility deduction, no qualifyingfailure."
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "verification": "Projection2.70, rise2.381176180, axisbottom.060; bodyfloorclearance.010 andceilingclearance.008823820. Turnexcursion<=.954594155<.970; wallclearance.015. Startpitch/translations andendflattenconnect; finalcapcentres y1.20/4.80. Fullcontinuousroute valid; separatefieldreviewpreserved."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "verification": "Projection2.70, rise2.381176180, axisbottom.055; bodyfloorclearance.005 andceilingclearance.013823820. Turnexcursion<=.954594155<.990; wallclearance.005. Startpitch/translations andendflattenconnect; finalcapcentres y1.20/4.80. Fullcontinuousroute valid; separatefieldreviewpreserved."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          1,
+          2
+        ],
+        "total": 9,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 1,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "The capsule then spans",
+          "including its radius"
+        ],
+        "verification": "Projection2.72,rise2.358304476,midpointz1.25. Stated.0708..2.4292 are cap-centreextents, not fullbody. Correctbodyextents.020847762..2.479152238 leave.020847762 floor/ceilingclearance, stillvalid. Onlynumericbodyextentcorrected; publishedroute/premises/decisionunchanged. Turn s=max(0,2.72-.99/cos(theta)) continuous, stripbound2.800142853>2.72. Endflattenatmidpointy2.405 givescentres.605/4.205 withinverticalstripincludingcorner;translate1north to1.605/5.205. One feasibility deduction, no qualifyingfailure."
+      }
+    ]
+  },
+  "reviewers": {
+    "A": "logical-agent/hard_family_screening/f27_grader_a",
+    "B": "logical-agent/hard_family_screening/f27_grader_b"
+  },
+  "decision_valid_counts": {
+    "A": 3,
+    "B": 3
+  },
+  "secondary_numeric_pass_counts": {
+    "A": 3,
+    "B": 3
+  },
+  "joint_qualifying_ids": [],
+  "decision": "EXCLUDE_NO_QUALIFYING_FAILURE"
+}

@@ -6,3 +6,8 @@ Thumbs.db
 local-runs/
 temp/
 *.zip
+.omo/
+.codex-router/
+# This historical archive tracks only explicitly reviewed public files.
+# Keep private responses and unaudited source artifacts locally preserved.
+/evals/hard-screen-20261003/

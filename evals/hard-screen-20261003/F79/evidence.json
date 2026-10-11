@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "status": "PUBLIC_EVIDENCE_PENDING_ROOT_FINAL",
+  "task_sources": [
+    {
+      "path": "evals/hard-screen-20261003/F79/sources/F79C.md",
+      "bytes": 3203,
+      "sha256": "899a94ae55ff932d6b410943260732f6f409d5fb65c0b59a273421be1b23cda4"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F79/sources/F79H.md",
+      "bytes": 3198,
+      "sha256": "864753166bfed73900c6ca33bebf4ef2f844a0b6796b443b4316f0269e9b1ca7"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F79/sources/F79K.md",
+      "bytes": 944,
+      "sha256": "518293b1ccd5b6d322af664a98b9ad33ecdce899c9d61b5077640de5f87fa250"
+    }
+  ],
+  "responses": [
+    {
+      "anonymous_id": "Response-A",
+      "case_id": "F79C",
+      "condition": "baseline",
+      "repetition": 1,
+      "attempt": 1,
+      "final_sha256": "9d79427a18a5768f9bc04c021a29a6273ff53ff3b95824b4313ed06b0a37c80f",
+      "public_response": "responses/F79C-baseline-r1.txt",
+      "path": "evals/hard-screen-20261003/F79/responses/F79C-baseline-r1.txt",
+      "bytes": 842,
+      "sha256": "9d79427a18a5768f9bc04c021a29a6273ff53ff3b95824b4313ed06b0a37c80f"
+    },
+    {
+      "anonymous_id": "Response-B",
+      "case_id": "F79C",
+      "condition": "baseline",
+      "repetition": 2,
+      "attempt": 1,
+      "final_sha256": "d626f744b6c0381b139f07829f97363a888968a515db7467624f1a7ed4ea9eb4",
+      "public_response": "responses/F79C-baseline-r2.txt",
+      "path": "evals/hard-screen-20261003/F79/responses/F79C-baseline-r2.txt",
+      "bytes": 802,
+      "sha256": "d626f744b6c0381b139f07829f97363a888968a515db7467624f1a7ed4ea9eb4"
+    },
+    {
+      "anonymous_id": "Response-C",
+      "case_id": "F79C",
+      "condition": "baseline",
+      "repetition": 3,
+      "attempt": 1,
+      "final_sha256": "3a852bf784bb17dee39ee3e337649559964c0a7d865a02bb5069647bc5f51a7d",
+      "public_response": "responses/F79C-baseline-r3.txt",
+      "path": "evals/hard-screen-20261003/F79/responses/F79C-baseline-r3.txt",
+      "bytes": 843,
+      "sha256": "3a852bf784bb17dee39ee3e337649559964c0a7d865a02bb5069647bc5f51a7d"
+    }
+  ],
+  "blind_FIRSTs": [
+    {
+      "path": "evals/hard-screen-20261003/F79/grading/grader-one-FIRST.md",
+      "bytes": 4929,
+      "sha256": "564a6c04b47fba7f39107e403709749f4d45f7f4e84d0cdfae928459ff03559f"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F79/grading/grader-two-FIRST.md",
+      "bytes": 4609,
+      "sha256": "f8e341a2882ebe55097443c4d925ebf2a30c822359c40bcee40f0943e85d81a8"
+    }
+  ],
+  "grading_summary": {
+    "path": "evals/hard-screen-20261003/F79/grading/summary.json",
+    "bytes": 3891,
+    "sha256": "a460f1d0798246921f7216037132017d845d5c657d377df46853d13810126bb0"
+  },
+  "public_inverse": {
+    "path": "evals/hard-screen-20261003/F79/grading/inverse-mapping.json",
+    "bytes": 947,
+    "sha256": "b510d98efb26ba200cd9c07b4a7918b9e15a1ab113520ef3fbd24e3e6df2701e"
+  },
+  "root_PRETRIAL_release": {
+    "path": "temp/hard-screen-20261003/f79-pretrial-gate-readback.json",
+    "bytes": 2111,
+    "sha256": "05c8e2e14a4e2c7d96527480dfa3e0194f7db6f4c0c43c85d577d680adf81f29"
+  },
+  "root_SAFE_release": {
+    "path": "temp/hard-screen-20261003/f79-safe-gate-readback.json",
+    "bytes": 1818,
+    "sha256": "8b579ee42f4f6402626808317922e3f085c1423f6d76edfe8d7e35626c9e775b"
+  },
+  "runtime_SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F79/root-safe-readback.json",
+    "bytes": 13775,
+    "sha256": "3bcdeb867abad3ae3dc1eb2d4c3d41671373329a10a91810db925d39aea76a2b"
+  },
+  "actual_counts": {
+    "setup_launches": 3,
+    "turn_dispatches": 3,
+    "completed_turns": 3,
+    "preserved_terminal_finals": 3,
+    "setup_retry_count": 0
+  },
+  "all_actual_guards_pass": true,
+  "PID_before_GO": true,
+  "SAME_primary_and_owned_close0": true,
+  "setup_retries": 0,
+  "source_revision": 0,
+  "H_private_definition_revision": 1,
+  "empirical_criteria_changes": 0,
+  "participant_H_K_use": 0,
+  "scored_treatment": 0,
+  "backend_identity": "UNVERIFIED/nonblocking",
+  "effort_policy": "Not a screening consideration",
+  "permanent_caveats": "Author unexecuted builder truncation repaired before execution; original prefix snapshot/hash unavailable, exact command/result transport-only. Packet preparation first release-path assertion failed before packet/response decode/readers; original script/failure receipt preserved, ROOT authorized lowercase gate-path-only revision. No native/authorcheck/source/reviewer reruns."
+}

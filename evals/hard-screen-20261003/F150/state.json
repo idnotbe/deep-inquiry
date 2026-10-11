@@ -1,0 +1,100 @@
+{
+  "candidate": "F150",
+  "outcome": "EXCLUDED_NOT_HARD",
+  "disposition": "EXCLUDE_NO_QUALIFYING_FAILURE",
+  "difficulty": "NOT_ESTABLISHED_IN_THIS_SCREEN",
+  "grading": "TWO_INDEPENDENT_FIRST_COMPLETED",
+  "protocol_valid": true,
+  "valid_originals": 3,
+  "originals": 3,
+  "scores": {
+    "a": [
+      10,
+      10,
+      10
+    ],
+    "b": [
+      10,
+      10,
+      10
+    ]
+  },
+  "full_pass_originals": 3,
+  "objective_decision_errors": {
+    "a": 0,
+    "b": 0
+  },
+  "qualifying_inquiry_failures": {
+    "a": 0,
+    "b": 0
+  },
+  "joint_qualifying_ids": [],
+  "retained": {
+    "before": 0,
+    "after": 0,
+    "target": 6
+  },
+  "delivery_state": "WRITER_VERIFIED_PENDING_INDEPENDENT_ROOT_ACCEPTANCE",
+  "root_final_acceptance_claimed": false,
+  "input_delivery_acceptance": "ACCEPTED_THREE_ORIGINAL_DELIVERIES",
+  "retries": 0,
+  "replacements": 0,
+  "participant_followups": 0,
+  "grader_calls": 2,
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "heldout": {
+    "writer_reviewer_seen": true,
+    "used_in_trials": false,
+    "used_in_grading": false
+  },
+  "source_validity": {
+    "a": "APPROVE",
+    "b": "APPROVE",
+    "empirical_difficulty_established": false
+  },
+  "route": {
+    "kind": "native subagent",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "observed_input_reads": 3,
+    "complete_input_matches": 3,
+    "extra_observed_tools": 0,
+    "actual_backend": "UNVERIFIED",
+    "host_injected_context": "UNVERIFIED",
+    "shared_filesystem_isolated": false,
+    "unexposed_operations": "UNVERIFIED",
+    "sterile_host_claimed": false,
+    "effort_used_for_admission": false,
+    "separate_cli_qualification_claimed": false
+  },
+  "launch_argument_provenance": "Coordinator-preserved direct arguments; not independently decrypted host plaintext",
+  "response_storage": "Exact canonical answer strings in native response readback and canonicalFinal JSON in grading readback; no duplicate answer text files",
+  "capture_dependency": {
+    "source": "temp/hard-screen-20261003/worker/F149/capture/capture.py",
+    "bytes": 11300,
+    "sha256": "df85e5939415d47e0f5c807a8e53400c8710c0f848a231b56cb57c65b0036887",
+    "runtimeLiteralSubstitutions": {
+      "F149": "F150",
+      "f149": "f150",
+      "0149": "0150"
+    },
+    "historicalSourceUnchanged": true
+  },
+  "checkpoint_fields_preserved": true,
+  "historical_recovery_or_reclassification": false,
+  "real_repair_or_payment_apis_used": false,
+  "artifacts": {
+    "report": "report.md",
+    "pretrial": "../../../temp/hard-screen-20261003/f150-native-pretrial.json",
+    "delivery_acceptance": "../../../temp/hard-screen-20261003/f150-delivery-acceptance.md",
+    "response_readback": "../../../temp/hard-screen-20261003/f150-native-response-readback.json",
+    "grading_readback": "../../../temp/hard-screen-20261003/f150-grading-readback.json",
+    "packet": "../../../temp/grading-case-0150/packet.json",
+    "manifest": "../../../temp/hard-screen-20261003/worker/F150/final/manifest.json",
+    "verification": "../../../temp/hard-screen-20261003/worker/F150/final/verification.json"
+  }
+}

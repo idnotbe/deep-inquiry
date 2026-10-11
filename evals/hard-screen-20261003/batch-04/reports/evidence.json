@@ -1,0 +1,102 @@
+{
+  "suite_hashes": {
+    "cases.json": "2f3a91825fcbae6e6e2ca51c51541c4f608120b249aad0b2d1bcefc403f74bc6",
+    "rubrics.json": "49debf761231a6e8bab7b7d44864d28ec2feb5ac58bfdb980049e291be804887",
+    "protocol.json": "e452ac2f35a54bb40a621f39da7821308eab438208d98329e750ed799be0e943"
+  },
+  "code_commit": "f33931f",
+  "repository_commit_at_dispatch": "8673d2eebe60827dec57f1bc5b5204b8c1087f51",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F18C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "81a5cd6691117e859dc4ff2aae1d84ba119935824c1313cb3a0c51a0e849e1f7",
+      "turn_id": "local-turn-fd4c0f1453bf2508",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F19C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "3a16b40043d8acaaaf8dafcf40b129cd7e7c1975a1a36cddec77952b5c534efe",
+      "turn_id": "local-turn-53aacbd88244675d",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F18C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "c87397e90fe2a76fee3e877da004c4c89012f0605dfc47979b299be30ed57234",
+      "turn_id": "local-turn-f42fd35cf33cc9ec",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R04",
+      "case_id": "F19C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "b492d0a3bb88f83b406157194ceb62d827fd554ef9e4bb11e7a3d261f7a5d953",
+      "turn_id": "local-turn-660d82cb9f412865",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R05",
+      "case_id": "F19C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "6dcbeb96bcab5f756980dcd106045e637c2cfc69462eec59aa03fec72e3ef87d",
+      "turn_id": "local-turn-29a28dc249fc5ebe",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R06",
+      "case_id": "F18C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "451c063c440355f4a1650334a579878eddec0fc1c013558388b2ca321ddfb1c3",
+      "turn_id": "local-turn-2ebf33187a64f625",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "neutral_canary_trials": 2,
+  "transport": "All6originalslotscompletedattempt1 inoriginaltoolcall. Initial1900000msparameterrejectedbeforecommandexecution; launchedoncewithmaximum1800000. Nooutcomeretry."
+}

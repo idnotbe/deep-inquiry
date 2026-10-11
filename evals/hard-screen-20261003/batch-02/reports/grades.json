@@ -1,0 +1,698 @@
+{
+  "a": {
+    "grader": "batch02_grader_a",
+    "grades": [
+      {
+        "id": "R01",
+        "case_id": "F06C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Valid staggered restart, timely approvals, ten sealed units, and correct lower bound requiring two stored units."
+      },
+      {
+        "id": "R02",
+        "case_id": "F02C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct displacement interpretation, employer response, feasible home/workshop partition, alternative totals, and analysis choice."
+      },
+      {
+        "id": "R03",
+        "case_id": "F07C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correctly changes diagnostic incentives with board authorization, handles both results, and proves three-credit necessity."
+      },
+      {
+        "id": "R04",
+        "case_id": "F05C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct financing and abandonment analysis; supplied part plus three-dollar success payment induces completion and is minimal."
+      },
+      {
+        "id": "R05",
+        "case_id": "F03C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Optimal reporting probabilities, correct posterior actions and benefit, and sufficient resource-allocation proof."
+      },
+      {
+        "id": "R06",
+        "case_id": "F03C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct incentive constraint, optimal probabilities, expected benefit, and comparisons against exact or constant reporting."
+      },
+      {
+        "id": "R07",
+        "case_id": "F04C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "total": 9,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct complete operational policy and both costs; does not explain why no cheaper robust policy exists. This is an optimality-support omission, not a mechanism failure."
+      },
+      {
+        "id": "R08",
+        "case_id": "F08C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Enforceable optimal menu, correct access transfer and type choices, and valid bounds for both spending objectives."
+      },
+      {
+        "id": "R09",
+        "case_id": "F06C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Executable staggered checks deliver eight live units plus two stored; correctly rejects simultaneous restart and proves minimal inventory."
+      },
+      {
+        "id": "R10",
+        "case_id": "F06C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct coupled-capacity diagnosis, schedule, production accounting, and impossibility of meeting demand with less stock."
+      },
+      {
+        "id": "R11",
+        "case_id": "F04C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct reservation, distinguishing trial, conditional replacements, shipment and costs; rejection of the cheaper immediate guess supplies concise support for the required reservation."
+      },
+      {
+        "id": "R12",
+        "case_id": "F05C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct ex ante and subsequent choices, failed cash proposals, constructive six-dollar contract, and minimum-payment argument."
+      },
+      {
+        "id": "R13",
+        "case_id": "F02C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correctly distinguishes priority effects from aggregate repairs and applies funding, eligibility, assignment, and distinct-household constraints."
+      },
+      {
+        "id": "R14",
+        "case_id": "F04C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "total": 9,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct diagnosis, contingent ordering, shipment and spending; lacks an argument excluding cheaper robust policies. No substantive mechanism error."
+      },
+      {
+        "id": "R15",
+        "case_id": "F07C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct historical incentive analysis, authorized informative test, contingent hardening and minimal three-credit guarantee."
+      },
+      {
+        "id": "R16",
+        "case_id": "F07C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correctly distinguishes ordinary and exempt diagnostics, respects board authority, and establishes future safety and minimal cost."
+      },
+      {
+        "id": "R17",
+        "case_id": "F03C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct implementable policy and carrier responses; algebraic bound proves optimal benefit of ten-thirds and alternatives are correctly evaluated."
+      },
+      {
+        "id": "R18",
+        "case_id": "F05C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct financing and strategic responses, including sunk-part distinction; supplied input and strict success incentive achieve the minimum committed cost."
+      },
+      {
+        "id": "R19",
+        "case_id": "F08C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct signed access mechanism, self-selection, six/eight spending, and lower bounds for primary and secondary objectives."
+      },
+      {
+        "id": "R20",
+        "case_id": "F08C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct enforceable menu and fallback, supplier choices, expenditures, and strict-incentive optimality proof."
+      },
+      {
+        "id": "R21",
+        "case_id": "F02C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct feasible all-household solution, employer withdrawal accounting, trial interpretation, and decision-relevant reconciliation."
+      }
+    ],
+    "overall": {
+      "answers": 21,
+      "total_score": 208,
+      "maximum_score": 210,
+      "full_passes": 21,
+      "substantive_mechanism_failures": 0
+    }
+  },
+  "b": {
+    "grader": "batch02_grader_b",
+    "grades": [
+      {
+        "id": "R01",
+        "case_id": "F06C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Executable staggered schedule meets both approval deadlines; correct production, inventory and minimum-stock proof."
+      },
+      {
+        "id": "R02",
+        "case_id": "F02C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correctly distinguishes priority redistribution from additional capacity, applies employer withdrawal and gives a feasible optimal household partition."
+      },
+      {
+        "id": "R03",
+        "case_id": "F07C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct historical incentives, authorized exempt diagnostic, contingent hardening and minimum guaranteed spending."
+      },
+      {
+        "id": "R04",
+        "case_id": "F05C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct financing and abandonment analysis; supplied part plus success payment induces acceptance and real effort at minimum committed cost."
+      },
+      {
+        "id": "R05",
+        "case_id": "F03C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Optimal implementable probabilities, correct conditional responses and benefit, with a valid incentive-budget optimality argument and alternative comparisons."
+      },
+      {
+        "id": "R06",
+        "case_id": "F03C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct signaling policy and binding receiver constraint; allocation argument establishes optimality and rejects both proposed alternatives."
+      },
+      {
+        "id": "R07",
+        "case_id": "F04C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "total": 9,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Minimum-cost justification is incomplete: it does not explain why a cheaper commitment cannot guarantee both-state success. Diagnostic, reservation, shipment and branch costs are correct."
+      },
+      {
+        "id": "R08",
+        "case_id": "F08C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Enforceable access menu, strict type incentives, correct expenditures and both primary and secondary optimality bounds."
+      },
+      {
+        "id": "R09",
+        "case_id": "F06C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct staggered restarts, timely approvals, ten-unit delivery and proof that fewer than two stored units cannot work."
+      },
+      {
+        "id": "R10",
+        "case_id": "F06C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correctly identifies shared-technician failure, supplies a feasible schedule and proves inventory minimality."
+      },
+      {
+        "id": "R11",
+        "case_id": "F04C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct reservation and discriminating trial, reliable bench shipment and branch costs; rejection of immediate cheaper guessing provides adequate concise support."
+      },
+      {
+        "id": "R12",
+        "case_id": "F05C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct ex ante and post-input incentives for the proposals and optimal supplied-part contract, including integer-payment minimality."
+      },
+      {
+        "id": "R13",
+        "case_id": "F02C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct trial interpretation, funding response, all alternative totals and feasible assignment serving all 200 households."
+      },
+      {
+        "id": "R14",
+        "case_id": "F04C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "total": 9,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct complete operational policy and costs. It establishes feasibility but leaves the requested smallest-cost justification incomplete."
+      },
+      {
+        "id": "R15",
+        "case_id": "F07C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correctly changes diagnostic incentives with board authority, handles both observations and demonstrates safe future operation at minimum spending."
+      },
+      {
+        "id": "R16",
+        "case_id": "F07C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct historical and diagnostic behavior, binding exemption, conditional hardening and three-credit guarantee."
+      },
+      {
+        "id": "R17",
+        "case_id": "F03C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct optimal device and participant responses; concise algebraic upper bound proves optimality and alternatives are correctly valued."
+      },
+      {
+        "id": "R18",
+        "case_id": "F05C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correctly separates the advance-stage abandonment choice from incentives after a sunk part purchase; optimal supplied-input policy and minimum cost are sound."
+      },
+      {
+        "id": "R19",
+        "case_id": "F08C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct access-secured menu, participant choices, fallback, expenditures and lexicographic optimality proof."
+      },
+      {
+        "id": "R20",
+        "case_id": "F08C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct enforceable menu with immediate transfer or contingent access release; both cost bounds and type responses are established."
+      },
+      {
+        "id": "R21",
+        "case_id": "F02C",
+        "dimensions": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "full_pass": true,
+        "substantive_mechanism_failure": false,
+        "reason": "Correct capacity reconciliation, employer response and distinct-household allocation; rejects unsupported trial extrapolation."
+      }
+    ],
+    "overall": {
+      "answers": 21,
+      "total_score": 208,
+      "maximum_score": 210,
+      "full_passes": 21,
+      "substantive_mechanism_failures": 0
+    }
+  }
+}

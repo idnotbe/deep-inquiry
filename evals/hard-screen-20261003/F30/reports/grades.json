@@ -1,0 +1,145 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "Correctly rejects unchanged release. All three original-defect histories are legal. Final code captures device at acceptance, shares persistent A/B lanes across aliases and settings changes, refuses occupied-device starts without mutation, and releases the same lane at finish. Explicitly supports retry and independent B operation."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "Correctly rejects unchanged release and identifies late binding, request aliases and clearing occupancy. Final code fixes all three. Manual trace: start explicit A job; change default to B; accept another explicit A job and a default job; respective starts return None and B; finish first A job; retry returns A. Acceptance commitment, capacity, independence and release all hold."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "Correctly rejects unchanged release. Its three histories expose late commitment, alias occupancy splitting and settings-induced occupancy loss. Final code binds at acceptance and retains one lane per physical device. Refusal leaves job and lane unchanged; finish releases its recorded lane; B remains eligible while A is busy."
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "Correctly rejects unchanged release. Acceptance stores the resolved device; persistent A/B lanes share occupancy across aliases and settings changes. Refusal leaves state unchanged, finish releases the started lane, and independent B remains eligible while A is busy. Three legal histories expose the original defects; corrected behavior is also described."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "Correctly rejects unchanged release and identifies late binding, request-key aliases, and settings-driven state loss. Final code stores device at acceptance and never replaces physical-device lanes. The supplied histories establish binding and alias defects; persistent-lane code establishes occupancy preservation through settings changes. Retry, finish, and independent-device behavior are correct."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "failure_evidence": [],
+        "verification": "Correctly rejects unchanged release. Final code binds at acceptance and uses permanent physical-device lanes, preserving shared occupancy and releasing the correct lane on finish. Three checkable histories cover committed-device changes, alias overlap, and occupancy loss after settings changes. B can start while A is occupied."
+      }
+    ]
+  },
+  "reviewers": {
+    "A": "f30_resume_grader_a, fresh-context packet only, independent manual tracing",
+    "B": "f30_resume_grader_b, fresh-context packet only, independent manual tracing"
+  },
+  "grading_packet_sha256": "5a7dc4f7276b898822bb7eceeadae4f2a86bba687c4cb0afb773930a3df4cbbe",
+  "recovery": "Previous session interrupted; no saved original grade was found. Two new fresh-context graders independently graded the same unchanged original anonymous packet. No model reruns, replacements, outcome rescores or criterion changes.",
+  "decision_valid_counts": {
+    "A": 3,
+    "B": 3
+  },
+  "secondary_numeric_pass_counts": {
+    "A": 3,
+    "B": 3
+  },
+  "joint_qualifying_ids": [],
+  "decision": "EXCLUDED: zero jointly qualifying failures in three valid original trials; all three final implementations satisfy supplied contract."
+}

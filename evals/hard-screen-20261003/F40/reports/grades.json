@@ -1,0 +1,313 @@
+{
+  "family": "F40",
+  "packet_sha256": "c4751998c2eb9eb25d094fa5e006ae080a8d89cd95f3cf12ce524027a0dde089",
+  "grading": "TWO NEW freshcontext independent graders ONLYcurrentanonymouspacket; originalJSONfullobjects preserved/no correction/regrade.",
+  "original_graders": {
+    "A": {
+      "packet_verification": {
+        "sha256": "c4751998c2eb9eb25d094fa5e006ae080a8d89cd95f3cf12ce524027a0dde089",
+        "matches_supplied_hash": true,
+        "original_response_ids": [
+          "R01",
+          "R02",
+          "R03"
+        ],
+        "all_three_slots_valid": true
+      },
+      "independent_verification": {
+        "compatible_population_class": {
+          "triple_order": [
+            "000",
+            "001",
+            "010",
+            "011",
+            "100",
+            "101",
+            "110",
+            "111"
+          ],
+          "masses": [
+            "a",
+            "2/5-a",
+            "1/5-a",
+            "a",
+            "0",
+            "0",
+            "1/10",
+            "3/10"
+          ],
+          "parameter_range": "0 <= a <= 1/5",
+          "derivation": "The natural register gives masses 000+001=2/5, 010+011=1/5, 100+110=1/10 and 101+111=3/10. The randomized margins additionally give 110+111=2/5 and 001+011=2/5. Nonnegativity then forces masses 100=101=0, 110=1/10 and 111=3/10, leaving exactly the displayed one-parameter class.",
+          "admitted_response_probability": "p=(2/5-a)/(2/5), hence the sharp range is [1/2,1].",
+          "lower_endpoint_world": [
+            "1/5",
+            "1/5",
+            "0",
+            "1/5",
+            "0",
+            "0",
+            "1/10",
+            "3/10"
+          ]
+        },
+        "quotation": {
+          "legal_counterexample": "At the displayed lower-endpoint world, admitted units have T1=1 with probability 1/2. Random activation of 6/7 without backups yields expected service 3/7 and expected invoice 3/7. This fails the required expected service 3/5.",
+          "assessment": "All three responses correctly reject Q-710."
+        },
+        "authorized_program": {
+          "instructions": "Activate every admitted unit at tick0. Read its frame at tick1. Independently purchase one backup with probability 1/5 for each frame0 unit. Install by tick2 and retain mode1 through tick4.",
+          "expected_service": "p+(1-p)/5 >= 3/5",
+          "expected_current_invoice": "1/2+2(1-p)/5 <= 7/10",
+          "timing_and_inputs": "The first reading follows completed activation without a backup, so it measures T1 exactly. One-tick backup installation completes by tick2. Unlimited stock and parallel execution support the entire program.",
+          "criterion": "These are expectations over admitted-unit draws and program seeds for each compatible fixed population law. They do not assert realized-queue, every-unit or every-seed acceptance."
+        },
+        "global_lower_bound": {
+          "definitions": "At the compatible p=1/2 law, let A be the expected original-denominator fraction first activated by acceptance and B the expected fraction with an installed backup by acceptance.",
+          "inequalities": "Expected service R <= A/2+B; expected invoice K >= A/2+2B; A <= 1. Thus R >= 3/5 implies K >= 6/5-A/2 >= 7/10.",
+          "scope": "Before a unit's first activation, its available own readings reveal only known T0=0 or installed-backup service1. They reveal no T1. Conditional IID profiles and profile-independent exogenous seeds preserve this independence even with earlier other-unit histories and correlated seeds. Repeated mode commands cannot change stable T1; RESTORE selects known-failed T0. Early backups and backup-masked readings are covered by B; repeats and repeated purchases only add nonnegative charges. Later completions cannot increase tick4 service. Therefore the bound covers every supplied legal program capability."
+        }
+      },
+      "grades": [
+        {
+          "response_id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "qualifying_findings": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "detailed_evidence_and_rationale": {
+            "decision": {
+              "quote": "**Load this program today:**",
+              "rationale": "The following numbered instructions specify activation of every serial, a post-completion reading, and independent backup purchases with probability 1/5 on observed failures. This is a complete feasible optimal authorization."
+            },
+            "evidence": {
+              "quote": "The certified registers permit the mode1 success probability among admitted units, \\(p\\), to range from 1/2 to 1.",
+              "rationale": "The range is sharp and correct. The population-to-admitted-group distinction and quotation counterexample are also correct. Partial credit reflects the absence of a derivation connecting the certified natural cells and randomized margins to that range or the complete compatible class. This is an explanatory omission, not a qualifying failure; no exhaustive table is required."
+            },
+            "mechanism": {
+              "quote": "At completion, READ its installed frame.",
+              "rationale": "Reading after activation and before any backup acquires the actual T1 response. Backup selection uses observed failures. The program correctly uses paid activation as both a mode change and an acquisition step."
+            },
+            "feasibility": {
+              "quote": "Make those orders at tick1; they complete before tick4.",
+              "rationale": "Orders complete at tick2 under the one-tick installation law. Parallel execution and unlimited stock make the instructions feasible. Calculations use the original denominator and the signed mean criterion."
+            },
+            "support": {
+              "quote": "Repeats and adaptive decisions cannot improve this bound.",
+              "rationale": "The stated service and cost inequalities are valid for the full legal program class for the reasons independently established above. They prove the minimum worst expected invoice. The witness attains both relevant bounds at p=1/2."
+            }
+          }
+        },
+        {
+          "response_id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "qualifying_findings": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "detailed_evidence_and_rationale": {
+            "decision": {
+              "quote": "**Authorize this program for S-710:**",
+              "rationale": "The response gives the complete optimal activation/read/selective-backup program and correctly rejects the quotation. Its worst expected invoice is 7/10."
+            },
+            "evidence": {
+              "quote": "The admitted units all have \\(X=0,T_0=0\\).",
+              "rationale": "The admission description, sharp p range, population-versus-selected-group distinction and lower-end quotation counterexample are correct. The register-to-range derivation and compatible population class are not explained, giving partial evidence credit. This omission does not qualify as an inquiry failure."
+            },
+            "mechanism": {
+              "quote": "When it completes at tick1, READ each installed frame.",
+              "rationale": "The authorized sequence reads unbacked units after activation, so frame0 identifies T1=0 exactly. The backup contingency is based on acquired actual status and respects permanent backup service."
+            },
+            "feasibility": {
+              "quote": "The backups complete by tick2. Leave all other serials in mode1 through tick4.",
+              "rationale": "The timeline satisfies command and installation durations. Expectations correctly include independent backup draws and admitted-unit profiles. No stronger individual or seed criterion is imposed."
+            },
+            "support": {
+              "quote": "each first activation has a \\(1/2\\) chance of supplying service, even when decisions use other units’ records.",
+              "rationale": "In context this supports the intrinsic T1 contribution represented by A/2, with backup service separately covered by B. Taken literally as total actual service, it would need a qualification for units already backed up, whose actual service is 1. That wording does not invalidate the displayed universal bound or change this authorization: early backups are covered by B, and the authorized program has none before activation. Ambiguous attribution and an immaterial wording qualification are nonqualifying. The valid lower bound and attaining witness establish optimality."
+            }
+          }
+        },
+        {
+          "response_id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "qualifying_findings": [],
+          "qualifying_root_count": 0,
+          "full_pass": true,
+          "detailed_evidence_and_rationale": {
+            "decision": {
+              "quote": "**Authorize a worst expected invoice of \\(7/10\\) credit per original admitted unit.**",
+              "rationale": "The response authorizes the complete feasible optimal program and correctly rejects Q-710. Its service and invoice formulas are correct."
+            },
+            "evidence": {
+              "quote": "The registers imply \\(1/2\\leq p\\leq1\\).",
+              "rationale": "This sharp range and the resulting 3/7 quotation counterexample are correct. The answer does not derive the range from the natural-cell and randomized-margin constraints or explain the complete compatible class. That explanatory gap warrants partial evidence credit, without any qualifying failure."
+            },
+            "mechanism": {
+              "quote": "For each unit reading 0, independently buy a BACKUP with probability \\(1/5\\)",
+              "rationale": "The reading follows completed activation and precedes backup installation. It therefore measures the stable T1 response exactly, and the response correctly directs rescue purchases to observed failures."
+            },
+            "feasibility": {
+              "quote": "submit those orders at tick1 so installation completes by tick2.",
+              "rationale": "The program completes comfortably before tick4. Every original unit remains in the denominator. The guarantee is explicitly an expected fraction, and the invoice is an expectation maximized across compatible laws."
+            },
+            "support": {
+              "quote": "Service can be at most \\(A/2+B\\), and the invoice is at least \\(A/2+2B\\).",
+              "rationale": "Both inequalities hold across the complete supported program class, including early backup purchases, restores, repeats, adaptive histories and correlated independent seeds. The resulting lower bound is 7/10, attained by the authorized program."
+            }
+          }
+        }
+      ],
+      "cohort_result": {
+        "qualifying_original_response_ids": [],
+        "qualifying_original_response_count": 0,
+        "this_grader_finds_at_least_two_qualifying": false,
+        "two_independent_grader_agreement": "Not assessed; no other grader results were accessed."
+      },
+      "limits": [
+        "Read only the designated packet and verified its SHA256.",
+        "No other repository files, external sources, participant calls or other grader results were accessed.",
+        "No files were modified.",
+        "Scores are diagnostic; explanatory omissions and ambiguous immaterial wording were not promoted to qualifying failures.",
+        "No hidden cause or model identity was inferred."
+      ]
+    },
+    "B": {
+      "packet_sha256": "c4751998c2eb9eb25d094fa5e006ae080a8d89cd95f3cf12ce524027a0dde089",
+      "hash_verified": true,
+      "responses": [
+        {
+          "response_id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "rationale_evidence": {
+            "decision": "The instructions authorize ACTIVE on every admitted serial, then an independent probability-1/5 backup purchase on observed failures. The displayed recovery and invoice expressions correctly attain robust mean recovery 3/5 and minimum worst expected invoice 7/10.",
+            "evidence": "The claim that the selected probability can 'range from 1/2 to 1' is correct, and the quotation is correctly rejected using recovery 3/7 at the lower endpoint. The response states, but does not derive, the sharp compatible-law range from the natural cells and randomized margins. This is an explanation gap, not a false premise or qualifying failure.",
+            "mechanism": "The instructions 'At completion, READ its installed frame' and purchase only when 'frame is 0' use actual post-ACTIVE service information. The recovery calculation correctly treats backups as supplying service permanently.",
+            "feasibility": "ACTIVE completes at tick1; backup orders submitted then complete at tick2. Parallel execution and unlimited stock make the program lawful. The response evaluates expected recovery and current invoice per original admitted unit, without imposing a per-unit or every-seed guarantee.",
+            "support": "The inequalities 'expected service is at most A/2+B' and invoice 'at least A/2+2B' are valid at the compatible lower-end law. Before a serial's first ACTIVE, its available information cannot reveal T1. Conditional IID profiles and profile-independent seeds preserve the first-activation success probability despite adaptive histories. Repeats, restores and early backups cannot defeat these inequalities."
+          }
+        },
+        {
+          "response_id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "rationale_evidence": {
+            "decision": "The authorized program correctly activates all admitted units and rescues an independent probability-1/5 of observed failures. Its expected recovery is at least 3/5 under every compatible law, and its worst expected invoice is the optimal 7/10.",
+            "evidence": "The response correctly identifies admission as X=0,T0=0 and distinguishes the population rate from the selected-group rate. It correctly calculates the quotation's invoice and its inadequate recovery at p=1/2. However, 'The registers imply' the interval is asserted without deriving the compatible-law constraints. This affects explanatory completeness only.",
+            "mechanism": "Reading each installed frame after ACTIVE identifies actual mode1 failures before purchasing backups. Leaving other serials in mode1 and permanently backing up selected failures produces exactly the stated recovery formula.",
+            "feasibility": "The response explicitly schedules command completion at tick1 and backup completion by tick2, preserving service through tick4. It uses independent random draws and correctly evaluates the original-denominator mean and worst expected invoice.",
+            "support": "The response explicitly states that each first activation succeeds with probability 1/2 'even when decisions use other units’ records.' This follows from conditional IID profiles, independent exogenous seeds and the absence of informative own-unit measurements before first activation. The A/B inequalities cover all lawful programs, including repeats, restores and early purchases, and establish the 7/10 lower bound."
+          }
+        },
+        {
+          "response_id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 9,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "rationale_evidence": {
+            "decision": "The load instructions and authorization are correct. Activating all units and purchasing backups with probability 1/5 on observed failures attains the signed mean criterion at minimum worst expected invoice 7/10.",
+            "evidence": "The response correctly states the selected group and explains why the quotation's population rate cannot justify its activation policy. Its lower-end recovery calculation is correct. The statement 'The registers imply 1/2≤p≤1' lacks a derivation from the certified cells and margins, so evidence explanation is partial. No observable false premise follows.",
+            "mechanism": "The program reads actual service after ACTIVE and conditionally purchases backups on service0 readings. Its formulas correctly distinguish existing mode1 successes from rescued failures.",
+            "feasibility": "Commands complete at tick1 and backups at tick2, before the tick4 acceptance pulse. The program is lawful under the parallel execution and unlimited-stock provisions. The formulas concern expected fractions over the original admitted denominator, including program randomization.",
+            "support": "The lower-bound inequalities 'Service can be at most A/2+B' and invoice 'at least A/2+2B' are valid for all supported programs at the compatible p=1/2 law. First-activation membership cannot depend on an unrevealed own T1; other-unit histories and correlated profile-independent seeds do not change that fact. The algebra correctly yields 7/10, attained by the authorized program."
+          }
+        }
+      ],
+      "independent_mathematical_verification": {
+        "compatible_population_class": "In triple order (000,001,010,011,100,101,110,111), every compatible population has masses (2/5-a,a,a-1/5,2/5-a,0,0,1/10,3/10), with 1/5≤a≤2/5. These masses satisfy every certified natural cell and both randomized margins. The admitted group's mode1 success probability is p=a/(2/5), giving the sharp interval [1/2,1].",
+        "lower_endpoint": "At a=1/5 the masses are (1/5,1/5,0,1/5,0,0,1/10,3/10). This is a lawful compatible population with admitted-group p=1/2. The quotation achieves expected recovery 3/7 and fails acceptance.",
+        "authorized_program": "For every compatible p, recovery is p+(1-p)/5≥3/5 and expected invoice is 1/2+2(1-p)/5≤7/10. All work completes by tick2.",
+        "optimality": "At the lower-end population, any lawful program has R≤A/2+B and K≥A/2+2B, where A is the expected fraction activated at least once and B is the expected fraction backed up at least once. Thus R≥3/5 requires K≥6/5-A/2≥7/10. Repeated purchases or commands only increase the cost lower bound."
+      },
+      "verification_limits": [
+        "Read only the designated grading packet and verified its SHA256.",
+        "Used no other workspace files, external sources, other grader communications, or additional participant/model runs.",
+        "Checked the responses mathematically against the supplied case; did not execute a queue simulation.",
+        "The missing interval derivations are diagnostic explanation gaps. None supplies the required false-premise or false-universal chain for a qualifying inquiry failure."
+      ]
+    }
+  },
+  "original_grade_sha256": {
+    "A": "57ce0bb7ca094e74c9191594d127916bdf2f562c6fe4a5986cea424c4a6ee0bc",
+    "B": "e09270b8fe25ed301b5aba9ffa0a68bd3fa7fd88b385fc083862b8731f5f9cbe"
+  },
+  "selection": {
+    "status": "EXCLUDED",
+    "jointly_qualifying_response_ids": [],
+    "jointly_qualifying_count": 0,
+    "required_same_original_ids": 2,
+    "valid_original_slots": 3,
+    "primary": "Unchangedv2/v3, bothfreshgraders >=2 SAMEoriginalIDs",
+    "scores_secondary": true,
+    "objective_errors_by_grader": [
+      0,
+      0
+    ],
+    "qualifying_errors_by_grader": [
+      0,
+      0
+    ],
+    "hard_families_retained": 0,
+    "required_hard_families": 6,
+    "remaining": 6,
+    "all_three_extra_validity_audit": "NOT_TRIGGERED_NO_QUALIFYING_RESPONSES"
+  }
+}

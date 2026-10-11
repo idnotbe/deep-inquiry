@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "candidate": "F137_SOURCE_V1_LOCAL_RESULT_V1",
+  "operation": "Mechanical extraction of unchanged FIRST results; no regrade",
+  "packet_sha256": "b0299b6747f9f503521a02b0c7319f61411b3fcbedd9bdf30f7c5c4f4c4d80c3",
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "mapping": [
+    {
+      "anonymous_id": "R-A",
+      "repetition": 1
+    },
+    {
+      "anonymous_id": "R-B",
+      "repetition": 3
+    },
+    {
+      "anonymous_id": "R-C",
+      "repetition": 2
+    }
+  ],
+  "graders": [
+    {
+      "whole_FIRST": "grader-one-FIRST.full.json",
+      "results": [
+        {
+          "id": "R-A",
+          "rubric_dimension_scores": {
+            "Commercial decision": 2,
+            "Contract-to-record interpretation": 2,
+            "Quantitative justification": 2,
+            "Evidence use": 2,
+            "Executable arrangement": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_decision_error": false,
+          "objective_error_evidence": "Selects released Store under unchanged EW-07, correctly computes all relevant responses and contributions, and rejects Transfer using the signed aggregate boundary.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Authorize the **Store arrangement**, replacing Commercial’s Transfer plan.",
+            "Sign the award for the existing nomination EW-07 and hire the charged steam store for the full 17:00–18:00 event.",
+            "EW-07 includes both DP-184 at East Works and DP-725 at Riverside, regardless of their separate feeders, retail accounts or billing labels.",
+            "**(2,400 − 1,200) / 1,000 / 1 hour = 1.2 MW.**",
+            "The field certificate, accountant’s letter and broker workbook do not provide three independent confirmations of award performance.",
+            "The £100,000 receipt less its total incremental cost of £32,000 yields £68,000."
+          ],
+          "material_decision_consequence": "Authorizes the compliant maximum-contribution arrangement: £68,000, exceeding Reschedule by £33,000 and decline by £68,000. No correction is needed.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The supplied facts determine a feasible optimum. No source-oracle file was accessed; assessment is confined to packet facts."
+          },
+          "root_cause_grouping": [],
+          "assessment": "Fully correct. Rejects the anchored v2 scope/report-chain errors and makes no false v3 exclusion."
+        },
+        {
+          "id": "R-B",
+          "rubric_dimension_scores": {
+            "Commercial decision": 2,
+            "Contract-to-record interpretation": 2,
+            "Quantitative justification": 2,
+            "Evidence use": 2,
+            "Executable arrangement": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_decision_error": false,
+          "objective_error_evidence": "Correctly selects Store, retains both nomination points, includes Riverside's negative difference, and compares the compliant alternatives using total incremental costs.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Replace Commercial’s Transfer plan with **Store**.",
+            "Sign the award against the unchanged EW-07 nomination and commit the £32,000 steam-store arrangement for the full event hour.",
+            "Riverside’s separate feeder and retail account do not exclude it from EW-07.",
+            "These documents do not establish aggregate contractual performance; none incorporates DP-725’s increase.",
+            "Riverside performs only its ordinary work; use no Transfer service.",
+            "Its £65,000 cost leaves £35,000, which is £33,000 less than Store."
+          ],
+          "material_decision_consequence": "Commits the complete released Store arrangement, earning £68,000 with a full-hour 2.1 MW response. No correction is needed.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The supplied facts determine a feasible optimum. No source-oracle file was accessed; assessment is confined to packet facts."
+          },
+          "root_cause_grouping": [],
+          "assessment": "Fully correct. Appropriate contractual and evidence boundaries support an executable optimal recommendation."
+        },
+        {
+          "id": "R-C",
+          "rubric_dimension_scores": {
+            "Commercial decision": 2,
+            "Contract-to-record interpretation": 2,
+            "Quantitative justification": 2,
+            "Evidence use": 2,
+            "Executable arrangement": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_decision_error": false,
+          "objective_error_evidence": "Correctly authorizes Store at £68,000, computes 1.2/2.1/3.2 MW for Transfer/Store/Reschedule, and rejects the workbook's scope inference. Describing prohibited Transfer as ineligible rather than calculating its negative contribution is sufficient.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Approve the award under nomination EW-07 using **Store**, replacing Commercial’s Transfer plan.",
+            "Commit the £32,000 steam-store arrangement and operate it for the full event hour.",
+            "BAL-9 measures the aggregate import reduction across both registered points, DP-184 and DP-725.",
+            "The signed aggregate reduction is therefore only 1,200 kWh, or 1.2 MW.",
+            "The workbook’s 120% coverage claim consequently uses the wrong measurement scope.",
+            "Store supplies K-17’s steam at East Works while Riverside retains its reference import.",
+            "Use the quoted total incremental costs without adding further energy or handling charges."
+          ],
+          "material_decision_consequence": "Selects the compliant £68,000 optimum and avoids both breaching Transfer and lower-contribution alternatives. No correction is needed.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The supplied facts determine a feasible optimum. No source-oracle file was accessed; assessment is confined to packet facts."
+          },
+          "root_cause_grouping": [],
+          "assessment": "Fully correct. No observable anchored v2 failure or false v3 necessity/exclusion claim."
+        }
+      ]
+    },
+    {
+      "whole_FIRST": "grader-two-FIRST.full.json",
+      "results": [
+        {
+          "id": "R-A",
+          "dimension_scores": {
+            "Commercial decision": 2,
+            "Contract-to-record interpretation": 2,
+            "Quantitative justification": 2,
+            "Evidence use": 2,
+            "Executable arrangement": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_decision_error": false,
+          "objective_error_evidence": "Selects the released Store plan for unchanged EW-07 throughout 17:00–18:00. Correctly calculates Transfer 1.2 MW, Store 2.1 MW/£68000 and Reschedule 3.2 MW/£35000, and correctly limits the report chain to DP-184.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Authorize the **Store arrangement**, replacing Commercial’s Transfer plan.",
+            "EW-07 includes both DP-184 at East Works and DP-725 at Riverside, regardless of their separate feeders, retail accounts or billing labels.",
+            "The field certificate, accountant’s letter and broker workbook do not provide three independent confirmations of award performance.",
+            "The £100,000 receipt less its total incremental cost of £32,000 yields £68,000."
+          ],
+          "material_decision_consequence": "Correct authorization yields £68000, £33000 above Reschedule; no corrective decision change is needed.",
+          "root_cause_grouping": [],
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The supplied rules and released arrangements determine a feasible optimum. No separate oracle was accessed."
+          }
+        },
+        {
+          "id": "R-B",
+          "dimension_scores": {
+            "Commercial decision": 2,
+            "Contract-to-record interpretation": 2,
+            "Quantitative justification": 2,
+            "Evidence use": 2,
+            "Executable arrangement": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_decision_error": false,
+          "objective_error_evidence": "Chooses Store for unchanged EW-07 at £32000 cost and £68000 contribution. Correctly includes Riverside's negative difference, rejects Transfer at 1.2 MW and compares Reschedule at £35000. Operational instructions implement the released full-hour arrangement without Transfer.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Replace Commercial’s Transfer plan with **Store**.",
+            "BAL-9 measures the combined signed reduction at **DP-184 and DP-725**.",
+            "These documents do not establish aggregate contractual performance; none incorporates DP-725’s increase.",
+            "Under Store, operate the charged steam store at East Works throughout 17:00–18:00 to supply K-17’s steam stage.",
+            "Riverside performs only its ordinary work; use no Transfer service."
+          ],
+          "material_decision_consequence": "Correct authorization secures 2.1 MW compliance and £68000 contribution, exceeding the other lawful choices; no correction is required.",
+          "root_cause_grouping": [],
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The supplied rules and released arrangements determine a feasible optimum. No separate oracle was accessed."
+          }
+        },
+        {
+          "id": "R-C",
+          "dimension_scores": {
+            "Commercial decision": 2,
+            "Contract-to-record interpretation": 2,
+            "Quantitative justification": 2,
+            "Evidence use": 2,
+            "Executable arrangement": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_decision_error": false,
+          "objective_error_evidence": "Approves the full-hour Store arrangement for £68000 contribution with correct aggregate measurement. Transfer's 1.2 MW and ineligibility, Store's 2.1 MW, and Reschedule's £35000 are correct. Omitting Transfer's hypothetical negative contribution does not impair the lawful comparison or execution.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Approve the award under nomination EW-07 using **Store**, replacing Commercial’s Transfer plan.",
+            "This delivers a compliant 2.1 MW response and the greatest eligible incremental cash contribution: **£68,000**.",
+            "Riverside’s separate feeder, supplier account and legacy billing name do not remove it from the signed nomination.",
+            "They establish that the 2.4 MW calculation was correctly read, transcribed and repeated; they do not establish nomination-wide performance.",
+            "Store supplies K-17’s steam at East Works while Riverside retains its reference import."
+          ],
+          "material_decision_consequence": "Correctly chooses £68000 over Reschedule's £35000 and declining's £0, while rejecting the breaching plan; no correction is required.",
+          "root_cause_grouping": [],
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The supplied rules and released arrangements determine a feasible optimum. No separate oracle was accessed."
+          }
+        }
+      ]
+    }
+  ],
+  "same_joint_qualifying_ids": [],
+  "disposition": "EXCLUDED_NOT_HARD"
+}

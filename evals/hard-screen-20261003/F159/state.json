@@ -1,0 +1,150 @@
+{
+  "candidate": "F159",
+  "version": "closure-1",
+  "source_version": "revision-1",
+  "issue": 10,
+  "outcome": "EXCLUDED_NOT_HARD",
+  "difficulty": "NOT_HARD_IN_THIS_THREE_ORIGINAL_SCREEN",
+  "grading": "TWO_FIRST_GRADE_RESULTS_COMPLETE",
+  "protocol_acceptance": "THREE_ORIGINALS_VALID_PER_INDEPENDENT_SEMANTIC_AUDIT",
+  "delivery_state": "PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW",
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "increment": 0,
+    "after": 0,
+    "target": 6
+  },
+  "interaction": "SINGLE_TURN",
+  "planned_original_episodes": 3,
+  "planned_problem_turns": 3,
+  "original_episodes_launched": 3,
+  "observed_problem_turns": 3,
+  "original_finals_preserved": 3,
+  "accepted_gradeable_finals": 3,
+  "retries": 0,
+  "replacements": 0,
+  "followups": 0,
+  "extra_problem_turns": 0,
+  "blind_packet_created": true,
+  "blind_packet_status": "RELEASED_FOR_TWO_FRESH_BLIND_GRADERS",
+  "grader_calls": 2,
+  "grade_results": 2,
+  "response_ids": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "scores": {
+    "a": [
+      10,
+      10,
+      10
+    ],
+    "b": [
+      10,
+      10,
+      10
+    ]
+  },
+  "objective_decision_errors": {
+    "a": [
+      false,
+      false,
+      false
+    ],
+    "b": [
+      false,
+      false,
+      false
+    ]
+  },
+  "qualifying_inquiry_failures": {
+    "a": [
+      false,
+      false,
+      false
+    ],
+    "b": [
+      false,
+      false,
+      false
+    ]
+  },
+  "qualifying_ids": {
+    "a": [],
+    "b": []
+  },
+  "same_id_intersection": [],
+  "retention_threshold_same_ids": 2,
+  "actual_policy_net": [
+    245,
+    245,
+    245
+  ],
+  "material_loss": [
+    0,
+    0,
+    0
+  ],
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "heldout": {
+    "writer_reviewer_seen": true,
+    "participant_episodes": 0,
+    "used_in_grading": false
+  },
+  "route": {
+    "kind": "native subagent",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "observed_configuration": "Matches requested settings per independent semantic audit",
+    "protected_initial_plaintext": "UNVERIFIED_ROOT_NATIVE_API_TRUST_ASSUMPTION",
+    "actual_backend_fallback": "UNVERIFIED",
+    "internal_isolation": "UNVERIFIED",
+    "shared_filesystem_isolated": false,
+    "effort_used_for_admission": false
+  },
+  "semantic_audit": {
+    "path": "temp/hard-screen-20261003/worker/F159/evidence/semantic-audit.md",
+    "slots": [
+      {
+        "slot": "r1",
+        "overall": "VALID"
+      },
+      {
+        "slot": "r2",
+        "overall": "VALID"
+      },
+      {
+        "slot": "r3",
+        "overall": "VALID"
+      }
+    ],
+    "wrapper_difference": "FROZEN_WRAPPER_PLUS_ONE_LF_SEMANTICALLY_ACCEPTABLE_NOT_BYTE_IDENTICAL",
+    "participant_contamination_proven": false
+  },
+  "source_validity": {
+    "review_a": "APPROVE",
+    "review_b": "APPROVE",
+    "scope": "Source validity only",
+    "p2": "Contract attainable maxima are not automatically submitted-policy performance; compute actual best responses."
+  },
+  "privacy_deviations": [
+    "REHEARSAL_A_SOURCE_LOCATION_OUTPUT_FAIL_PRESERVED",
+    "REHEARSAL_B_PREPARATION_ERROR_LOCAL_PATH_OUTPUT_P2",
+    "SEMANTIC_AUDIT_MEMORY_LOOKUP_LOCATION_IDENTIFIER_OUTPUT_P2"
+  ],
+  "collector_preparation_deviations": "Preserved in collection manifest; no new trial or participant change established.",
+  "grader_provenance": {
+    "path": "temp/hard-screen-20261003/worker/F159/closure/grader-provenance.json",
+    "root_final_capture": "ATTESTED",
+    "additional_public_action_provenance": "UNVERIFIED_BY_CLOSURE"
+  },
+  "historical_frozen_statuses_edited": false,
+  "historical_recovery_or_reclassification": false,
+  "catalog_application": "PARENT_PENDING_PREFIX_PRESERVING_APPEND"
+}

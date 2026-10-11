@@ -1,0 +1,146 @@
+{
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "evidence_summary": "Authenticated sealed imager identifies assignment before conditional L4; correct destinations, intact seals, worst50/7min. Export cannot recover past loading and opening defeats acceptance.",
+        "quoted_evidence": [
+          "Use its authenticated assignment to route them",
+          "A to South, B to North",
+          "50 credits",
+          "7 minutes",
+          "The records and live export cannot distinguish T7 from T8; opening the crates would make them unacceptable"
+        ]
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "evidence_summary": "Authenticated sealed imager identifies assignment before conditional L4; correct destinations, intact seals, worst50/7min. Export cannot recover past loading and opening defeats acceptance.",
+        "quoted_evidence": [
+          "Authorize the sealed-crate imager now",
+          "If A is vibration, use L4 to change both labels and the booking: A to South, B to North",
+          "Keep both factory seals intact",
+          "35 for imaging, plus 15 if L4 is needed"
+        ]
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "evidence_summary": "Authenticated sealed imager identifies assignment before conditional L4; correct destinations, intact seals, worst50/7min. Export cannot recover past loading and opening defeats acceptance.",
+        "quoted_evidence": [
+          "Use its authenticated assignment to dispatch",
+          "If A is optical, keep the existing booking and labels",
+          "If A is vibration, use L4",
+          "The factory seals stay intact in either case",
+          "The live export cannot establish what was loaded, and opening the crates would make them unacceptable"
+        ]
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "evidence_summary": "Authenticated sealed imager identifies assignment before conditional L4; correct destinations, intact seals, worst50/7min. Export cannot recover past loading and opening defeats acceptance.",
+        "quoted_evidence": [
+          "Send both factory-sealed crates through the independent sealed-crate imager now.",
+          "If A contains vibration and B contains optical, use L4 to change both labels and the booking: A to South, B to North.",
+          "The records and live export cannot distinguish T7 from T8; opening the crates would make them unacceptable.",
+          "The imager is the available way to identify the contents while preserving acceptance, and L4 is necessary if T7 was applied."
+        ]
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "evidence_summary": "Authenticated sealed imager identifies assignment before conditional L4; correct destinations, intact seals, worst50/7min. Export cannot recover past loading and opening defeats acceptance.",
+        "quoted_evidence": [
+          "Authorize the sealed-crate imager now.",
+          "If A is vibration, use L4 to change both labels and the booking: A to South, B to North.",
+          "Keep both factory seals intact.",
+          "The procedure takes at most 7 minutes and costs at most 50 credits (35 for imaging, plus 15 if L4 is needed).",
+          "The live export cannot establish which table was applied during loading, and opening the crates would make them unacceptable."
+        ]
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "evidence_summary": "Authenticated sealed imager identifies assignment before conditional L4; correct destinations, intact seals, worst50/7min. Export cannot recover past loading and opening defeats acceptance.",
+        "quoted_evidence": [
+          "Send both sealed crates to the independent imager now.",
+          "If A is vibration, use L4 to change the booking and labels: A to South, B to North.",
+          "The factory seals stay intact in either case.",
+          "The worst case adds 50 credits and takes 7 minutes, within the 90 credit limit and 12 minute cutoff.",
+          "The live export cannot establish what was loaded, and opening the crates would make them unacceptable."
+        ]
+      }
+    ]
+  },
+  "grade_evidence_note": "Both independently returned identical per-response fields; concise evidence summaries preserved here, original full reports retained in collaboration review history.",
+  "family_status": "EXCLUDED_NO_QUALIFYING_FAILURES",
+  "joint_qualifying_response_ids": [],
+  "retained": false,
+  "grader_conclusions": {
+    "A": "All three responses give the optimal guaranteed-delivery policy with correct destinations, intact seals and feasible cost/time bounds. No response qualifies as an inquiry failure; the requirement for at least two qualifying answer IDs is not met.",
+    "B": "All three responses implement the minimax-optimal accepted-delivery policy. Imaging is necessary to distinguish the compatible loading states without breaking factory seals; T7 additionally requires L4, establishing the 50-credit worst-case minimum. R02 and R03 express this justification concisely through their policy and rejection of the other identifying candidates. No objective decision errors or qualifying inquiry failures were observed; the requirement for at least two qualifying answer IDs is not met."
+  }
+}

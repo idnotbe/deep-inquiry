@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "candidate_id": "F84-probe-regime-F54-related",
+  "created_at": "2026-10-07T14:01:48.264Z",
+  "scope": "Current F84 only; no old finals/fullgrades/evidence/status/results used as schema.",
+  "classification": "EXCLUDED_NOT_HARD under fixed same-ID qualifying gate",
+  "basis": "Both independent packet-only blind FIRSTs identify zero qualifying failures and zero objective errors; every secondary total10. Three actual responses correctly deny present-wiring opening and install bridge immediately, fee6/time2.",
+  "counts": {
+    "screened_candidate_identifiers": 71,
+    "terminal_problem_files_lower_bound": 208,
+    "completed_problem_turns_lower_bound": 264,
+    "unknown_additional_contributions": [
+      "F46",
+      "F51"
+    ],
+    "neutral_excluded": true,
+    "terminal_files_are_not_valid_trials": true,
+    "retained_distinct_families": 0,
+    "target": 6
+  },
+  "source_bindings": [
+    {
+      "path": "evals/hard-screen-20261003/F84/source-C.md",
+      "bytes": 2964,
+      "sha256": "6d04e9c2ae9cfef83bc929ae094db04cf87fad1ad96b11cb68b7175ab08f75f4"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F84/source-H.md",
+      "bytes": 2964,
+      "sha256": "c5bc5dde6fb47060b3dd8d7b931912138c239b0031a08bf3e6d6c2e63010fd63"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F84/source-K.md",
+      "bytes": 1923,
+      "sha256": "7773dfbe338111371a8e1671977ec92e84d6e658a650533b7fa4aa6ffa3a537e"
+    }
+  ],
+  "fixed_suite": [
+    {
+      "path": "evals/hard-screen-20261003/F84/cases.json",
+      "bytes": 8249,
+      "sha256": "4722db227ab5955514a759ec9a17458671c55eda7fa332e0fbbd5a1e40ed0a2f"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F84/rubrics.json",
+      "bytes": 8099,
+      "sha256": "9a68e5537ae0145ba3d65ac20bfe63ce01260f4e0084429be9b298dccae51267"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F84/protocol.json",
+      "bytes": 7274,
+      "sha256": "0f831cf29299deb5b2dca3710e3c1189665c586153c44f9f810734e73a2a77b0"
+    }
+  ],
+  "private_correctness": {
+    "one_exact_check": {
+      "path": "temp/hard-screen-20261003/worker/F84/private-construction-result.json",
+      "bytes": 43555,
+      "sha256": "e519f94806d8f400813b255c0be9f5abe701404a01af0a64a9bb626b9cfe1dbe"
+    },
+    "full_actual_receipt": {
+      "path": "temp/hard-screen-20261003/worker/F84/private-check-tool-receipt.json",
+      "bytes": 56658,
+      "sha256": "958c260d9f35bcbc92e371553757dea7990a083269063e5cbad405ae3658af93"
+    },
+    "C": "20trees/1guaranteed, immediate bridge6/2",
+    "H": "20trees/20guaranteed, unique lex direct0/0",
+    "replays": 0
+  },
+  "validity_reviews": {
+    "ordinary_FIRST": [
+      {
+        "path": "temp/hard-screen-20261003/worker/F84/source-FIRST1.md",
+        "bytes": 4287,
+        "sha256": "ce8a3844cae7919c9ba133556a197224edcb136dfde8a69f4d80a49d660e3c2c"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F84/source-FIRST2.md",
+        "bytes": 5175,
+        "sha256": "de4c87ad9e32d0cb16297d610a9d4c1924c72e99490dc2c8627487db5717e129"
+      }
+    ],
+    "SAME_ALIGN": [
+      {
+        "path": "temp/hard-screen-20261003/worker/F84/source-ALIGN1.md",
+        "bytes": 2911,
+        "sha256": "6c69e7fadd58fa0d83b37533e2a390fc113b318264ce883dd425d4f73a0ab51f"
+      },
+      {
+        "path": "temp/hard-screen-20261003/worker/F84/source-ALIGN2.md",
+        "bytes": 3914,
+        "sha256": "1eb656952a2919014132c81675ecbdedb8ae0fd4e2b29d13aab509d6351311c4"
+      }
+    ],
+    "all": "APPROVE",
+    "replacements": 0
+  },
+  "ROOT_PRETRIAL": {
+    "path": "temp/hard-screen-20261003/f84-pretrial-gate-readback.json",
+    "bytes": 1805,
+    "sha256": "ec8262e263021880bb9344ff4327653c00cc7b15e4afb07c476dc447830f1897"
+  },
+  "ROOT_SAFE": {
+    "path": "temp/hard-screen-20261003/f84-safe-gate-readback.json",
+    "bytes": 591,
+    "sha256": "938d1ba6c9f5575d09645d12bbddc15a3f1001f0215f3c2460ceb0b64848f211"
+  },
+  "runtime": {
+    "handoff": {
+      "path": "temp/hard-screen-20261003/worker/F84/SAFE-handoff.json",
+      "bytes": 51068,
+      "sha256": "77abdcf64049d4a86d2b5266fdfbf5302b6f2dcb842972927b67fcababb4e508"
+    },
+    "freeze": {
+      "path": "temp/hard-screen-20261003/worker/F84/qualification/freeze.json",
+      "bytes": 10474,
+      "sha256": "30b9e935f2338984b4a542bee16c7d688b16e9e81d55425da3b4ddba076a9e50"
+    },
+    "neutral_SAFE": {
+      "path": "temp/hard-screen-20261003/worker/F84/qualification/neutral-safe-readback.json",
+      "bytes": 8367,
+      "sha256": "9d078dceceb188f5afb457fb41ec2023c8d1156b6061185729fbc4b4ac41b9cf"
+    },
+    "original_SAFE": {
+      "path": "temp/hard-screen-20261003/worker/F84/original-safe-readback.json",
+      "bytes": 12295,
+      "sha256": "5c5fb8e5fc06518ef1860c0a02c50a43029c12b5c41638072947c1304c125a79"
+    },
+    "all_actual_guards_pass": true,
+    "actual_same_Python_close0": true,
+    "actual_MCP_Node_exit_codes": [
+      0,
+      0
+    ],
+    "original_order": [
+      2,
+      3,
+      1
+    ],
+    "original_completed": 3,
+    "neutral_completed": 2,
+    "retries": 0,
+    "requested_outer_not_watchdog": true
+  },
+  "blind": {
+    "packet": {
+      "path": "temp/hard-screen-20261003/worker/F84/blind/packet.json",
+      "bytes": 13119,
+      "sha256": "2e6a7f96a3c5a6ab2f258e206e7d12955a703f719ed87da35723f6e2560bf7e2"
+    },
+    "sealed_mapping": {
+      "path": "temp/hard-screen-20261003/worker/F84/blind/sealed-mapping.json",
+      "bytes": 1552,
+      "sha256": "366b39585cdfffaf34860a3a15e0a8b57105f5fa0d15e3a7a5cabcf0a177d350"
+    },
+    "full_FIRST": [
+      {
+        "path": "evals/hard-screen-20261003/F84/grading/FIRST1.md",
+        "bytes": 3034,
+        "sha256": "732fa756625f07b7f05b92dc12de9c880624dbb4bf57c322eea0c27c47f621af"
+      },
+      {
+        "path": "evals/hard-screen-20261003/F84/grading/FIRST2.md",
+        "bytes": 2985,
+        "sha256": "487ea77aa8510591c28d430bcef052399e148f4a870abda717999e084f023426"
+      }
+    ],
+    "summary": {
+      "path": "evals/hard-screen-20261003/F84/grading/summary.json",
+      "bytes": 3265,
+      "sha256": "7ab57f92cdd823b87839e54709bf45384958b45d96535d2fa3b33a4aea36d4b8"
+    },
+    "both_full_saved_before_synthesis_unblinding_root_preview": true,
+    "exactly2NEW_forkNONE_packet_only": true,
+    "regrading_replacement": 0,
+    "all3_extra_audit_required": false
+  },
+  "preservation": {
+    "created_at": "2026-10-07T14:01:14.570Z",
+    "packet": {
+      "path": "temp/hard-screen-20261003/worker/F84/blind/packet.json",
+      "bytes": 13119,
+      "sha256": "2e6a7f96a3c5a6ab2f258e206e7d12955a703f719ed87da35723f6e2560bf7e2"
+    },
+    "mapping": {
+      "path": "temp/hard-screen-20261003/worker/F84/blind/sealed-mapping.json",
+      "bytes": 1552,
+      "sha256": "366b39585cdfffaf34860a3a15e0a8b57105f5fa0d15e3a7a5cabcf0a177d350"
+    },
+    "responses": [
+      {
+        "anonymous_id": "R1",
+        "repetition": 3,
+        "original": {
+          "path": "temp/hard-screen-20261003/worker/F84/original/F84C-baseline-r3-attempt1/final.txt",
+          "bytes": 686,
+          "sha256": "3a61ab8386f4b71501650bd987a75fcd29540086cdde290c504403c3d420e523"
+        },
+        "public": {
+          "path": "evals/hard-screen-20261003/F84/responses/F84C-baseline-r3.txt",
+          "bytes": 686,
+          "sha256": "3a61ab8386f4b71501650bd987a75fcd29540086cdde290c504403c3d420e523"
+        },
+        "original_anonymous_public_byteequal": true
+      },
+      {
+        "anonymous_id": "R2",
+        "repetition": 1,
+        "original": {
+          "path": "temp/hard-screen-20261003/worker/F84/original/F84C-baseline-r1-attempt1/final.txt",
+          "bytes": 827,
+          "sha256": "11209fd90d498048ad189bfad65d2628d11a8f61825d9378fda7949cccbbb360"
+        },
+        "public": {
+          "path": "evals/hard-screen-20261003/F84/responses/F84C-baseline-r1.txt",
+          "bytes": 827,
+          "sha256": "11209fd90d498048ad189bfad65d2628d11a8f61825d9378fda7949cccbbb360"
+        },
+        "original_anonymous_public_byteequal": true
+      },
+      {
+        "anonymous_id": "R3",
+        "repetition": 2,
+        "original": {
+          "path": "temp/hard-screen-20261003/worker/F84/original/F84C-baseline-r2-attempt1/final.txt",
+          "bytes": 795,
+          "sha256": "5adc4f673c9b70b064126715214d92193395c1d9c4e4f8a0673085aa70d33304"
+        },
+        "public": {
+          "path": "evals/hard-screen-20261003/F84/responses/F84C-baseline-r2.txt",
+          "bytes": 795,
+          "sha256": "5adc4f673c9b70b064126715214d92193395c1d9c4e4f8a0673085aa70d33304"
+        },
+        "original_anonymous_public_byteequal": true
+      }
+    ],
+    "grading_FIRST_byteequal": [
+      {
+        "full_original": {
+          "path": "temp/hard-screen-20261003/worker/F84/blind/FIRST1.md",
+          "bytes": 3034,
+          "sha256": "732fa756625f07b7f05b92dc12de9c880624dbb4bf57c322eea0c27c47f621af"
+        },
+        "public": {
+          "path": "evals/hard-screen-20261003/F84/grading/FIRST1.md",
+          "bytes": 3034,
+          "sha256": "732fa756625f07b7f05b92dc12de9c880624dbb4bf57c322eea0c27c47f621af"
+        },
+        "byteequal": true
+      },
+      {
+        "full_original": {
+          "path": "temp/hard-screen-20261003/worker/F84/blind/FIRST2.md",
+          "bytes": 2985,
+          "sha256": "487ea77aa8510591c28d430bcef052399e148f4a870abda717999e084f023426"
+        },
+        "public": {
+          "path": "evals/hard-screen-20261003/F84/grading/FIRST2.md",
+          "bytes": 2985,
+          "sha256": "487ea77aa8510591c28d430bcef052399e148f4a870abda717999e084f023426"
+        },
+        "byteequal": true
+      }
+    ],
+    "public_summary": {
+      "path": "evals/hard-screen-20261003/F84/grading/summary.json",
+      "bytes": 3265,
+      "sha256": "7ab57f92cdd823b87839e54709bf45384958b45d96535d2fa3b33a4aea36d4b8"
+    }
+  },
+  "methodology": {
+    "v2": {
+      "path": "evals/hard-screen-20261003/prospective-method-v2.md",
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    "v3": {
+      "path": "evals/hard-screen-20261003/prospective-method-v3.md",
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    },
+    "generic": {
+      "path": "temp/hard-screen-20261003/worker/F84/generic-grading-rules.json",
+      "bytes": 3456,
+      "sha256": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d"
+    },
+    "criteria_changed": false,
+    "all_lawful_equivalents": true,
+    "no_explanation_quota": true,
+    "one_public_root_once": true
+  },
+  "H_K_participant_unused": true,
+  "scored_treatment": 0,
+  "efficacy": "UNKNOWN",
+  "lineage": "Conservative F54-related intervention-sensitive evidence refinement; no global novelty claim; same retained mechanism counts once.",
+  "limitations": [
+    "Current3correct is screening exclusion evidence, not proof of general family ease or cause of performance.",
+    "Historical aggregates present in mandatory governingSSOT; no old participant finals/fullgrades/evidence/status/results files read.",
+    "Initial author filename traversal encountered deniedF46 directory without reading protected contents; exact paths thereafter.",
+    "Private receipt serialization toolerror recovered from original actual response only, no proof replay. Full saved reviewtext is not internal transportbyteidentity.",
+    "ROOTFINAL closure and sharedREADME publication remain pending; own append bytes only."
+  ]
+}

@@ -1,0 +1,25 @@
+# F131 screening result — ROOT FINAL accepted
+
+Disposition: **EXCLUDED_NOT_HARD**. Both eligible independent blind FIRST graders gave all three original responses 10/10, with all objective-decision-error, qualifying-inquiry-failure and insufficient-evidence flags false. The shared qualifying response-ID set is empty; the unchanged requirement of at least two SAME jointly qualifying IDs is not met. Scores remain descriptive. Retained families remain **0/6**. ROOT_FINAL_accepted is true. ROOT FINAL verified the exact proposal and evidence; F131 is locally accepted as excluded, with no hard-family admission.
+
+Each original supplies the complete policy **cost2 → Shared6; cost4 → Individual** without requesting READ. All three one-turn transcripts are valid. Shared6 and Shared10 increase a depot's own payment by3 and5; Individual increases it by6. At cost2, Shared6 induces both returns for total service expenditure12, below Individual16 and Shared10 at20. At cost4, Shared6 induces neither; Individual induces both for16, below Shared10 at20. Handling costs are not extra service payments. Each selected successful branch returns both crates by09:20 after09:00 dispatch and remains within20; payment is due09:30. The actual signed cost4 record selects Individual. No inference from last week's pilot is needed or accepted.
+
+R-A calls the3-credit payment increment a “gain.” Both graders note that the surrounding payment explanation and authorization are correct; interpreting that phrase alone as a net-utility error would not establish a material decision failure. No forced READ, explanation quota, unique-policy requirement or hidden reasoning inference was added.
+
+| Anonymous ID | Original repetition | Grader one | Grader two | Joint qualifying failure |
+|---|---:|---:|---:|---|
+| R-A | 2 | 10/10 | 10/10 | No |
+| R-B | 1 | 10/10 | 10/10 | No |
+| R-C | 3 | 10/10 | 10/10 | No |
+
+Exact original terminal files, full original transcripts and both whole FIRST wrappers accompany this report. Copies preserve every byte, including absence of terminal LF in responses and existing LF in grader files. Mapping was used only after both complete FIRSTs had been saved and read back. Access eligibility rests on the graders' complete disclosures of assigned-packet and permitted procedural reads; it is not independent omniscient access auditing.
+
+Source revision1 ordinary FIRSTs and SAME-reviewer ALIGNs passed before runtime. Source validity is distinct from empirical difficulty. The five frozen grading dimensions, V2/V3 qualification rules and C-only accepted policies remain unchanged, including both full contingent branches. H/K remain participant-unused. Original helper FIRSTs in rounds1,2,3 remain REQUIRED_FIXES. Fresh R2 repaired the malformed bytes literal; fresh R3 repaired stale adaptation hashes and all-entry validation. R3 SAME-reviewer clarification plus ROOT scope disposition accepted zero in-scope required fixes while requiring external byte-bound PRETRIAL, SAFE, prepacket and FINAL checks. R3 FIRST was not relabeled CLEAR. See deviations.md and evidence.json for the preserved originals and clarification.
+
+The one combined affected verification passed before runtime. Its synthetic collector and blind-boundary scenarios are not model evidence. ROOT PRETRIAL preceded the fresh unscored neutral pair; saved actual neutral SAFE preceded originals C2,3,1. All five native turns completed; setup/outcome retries and native replays were zero. Actual input/context/exposure/source/noTools/process/auth-copy guards, PID-before-GO, SAME owned close0 and MCP Node0 passed. Each trial's whole300-second budget includes optional continuation turns; outer900000/1200000ms requests are not a hard-watchdog or descendant-cleanup proof.
+
+ROOT SAFE bound the exact collector and original bytes before the one blind packet build. The preparer rechecked the gate-bound collector and33 original bindings immediately before construction. ROOT subsequently matched packet terminal answers and full public transcripts to the SAME SAFE originals. Exactly two original fresh blind FIRSTs were preserved; no regrade, replacement or extra all-three-qualifying audit occurred. ROOT FINAL independently verified the same original/packet bytes and accepted the closure.
+
+Raw cumulative inventory is101 candidate identifiers,292 preserved problem-final FILES and360 known completed problem turns plus older UNKNOWN, excluding neutral turns. These inherited ROOT counts are not valid-trial, independent-family or retained counts. Protected historical cases were not recounted.
+
+Actual backend identity is UNKNOWN; reasoning effort was not considered. Treatment efficacy, general family hardness, equal heldout difficulty and full-catalog mechanism distinctness remain unverified. Scored treatment is0. Full agreed-scope verification remains deferred until six retained families. The F131-only catalog entry records this accepted exclusion. F127 remains separately blocked; no F127 metadata/entry, Git or remote publication is changed.

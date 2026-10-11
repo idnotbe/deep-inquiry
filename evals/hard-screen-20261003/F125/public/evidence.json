@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "status": "ROOT_FINAL_ACCEPTED_EXCLUSION",
+  "ROOT_FINAL_accepted": true,
+  "ROOT_FINAL_gate": "temp/hard-screen-20261003/f125-final-root-gate.json",
+  "binding_scope": "public_artifacts and verification preserve the preacceptance snapshot verified by ROOT FINAL; current accepted metadata and catalog are bound in temp/hard-screen-20261003/f125-local-acceptance-readback.json",
+  "proposed_disposition": "EXCLUDED_NOT_HARD",
+  "packet": {
+    "path": "temp/hard-screen-20261003/worker/F125/blind/packet.json",
+    "bytes": 23586,
+    "sha256": "1f2a55f8f9c84c4a134a4a4c0e85767c8b0707dac3b1e93ff51507b21462d104"
+  },
+  "dispatch_args": {
+    "path": "temp/hard-screen-20261003/worker/F125/blind/grader-dispatch-args.json",
+    "bytes": 9306,
+    "sha256": "2a7a89019e1b7fcf81a1eac01a0e07c89f481290e09d9c2444ded970646ce596"
+  },
+  "both_FIRST_full_readback": {
+    "path": "temp/hard-screen-20261003/worker/F125/blind/FIRSTs-full-readback-actual.json",
+    "bytes": 17063,
+    "sha256": "6b11a14e1a27d9c7baaa488a0651b2716e00d0299a4829fe49f102ecec67bf20"
+  },
+  "public_artifacts": [
+    {
+      "path": "evals/hard-screen-20261003/F125/public/report.md",
+      "bytes": 4814,
+      "sha256": "a02558e2367727adfbf8c84ef584305ff8fb8cab7e3858731cbac251867c4d30"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F125/public/status.json",
+      "bytes": 1403,
+      "sha256": "1258e50266b6d1a2bf80ebcff5f7488c9821726da5e0a91ecc50e96bc183abc0"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F125/public/grades.json",
+      "bytes": 3656,
+      "sha256": "5350a65f2ae5f9bf2f7bd1055d6279c3b9bfa2d55558a42c945fdbfa8d2603f1"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F125/public/deviations.md",
+      "bytes": 2850,
+      "sha256": "261a3bde9dda0afd18efb49af7405cfbd1e1cef020b1f4b9b7dfe0e0f1d79d79"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F125/public/response-r1.txt",
+      "bytes": 1088,
+      "sha256": "c1268ba5f2b4c016aed39e9d03c0438c17e5b8c23abfc7d8a45a8e7e30b22aa9"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F125/public/response-r2.txt",
+      "bytes": 860,
+      "sha256": "0a78fd7f91812c48b32232b80672fed148ba590578428a50878290cf6458345a"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F125/public/response-r3.txt",
+      "bytes": 1058,
+      "sha256": "f6919ea48b9dd631373aef33bedec21e42d9c169fdba4aed052deaacdfdc3a9e"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F125/public/grader-one-FIRST.full.md",
+      "bytes": 8106,
+      "sha256": "45a55fd28f0b85741dda0e77b1dfb348e107a800869dd3190e8e6a88d74b5ad3"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F125/public/grader-two-FIRST.full.md",
+      "bytes": 7155,
+      "sha256": "fb6058b515e41aaa34774fc9c4542edad68e479388688d5a46c874d85ed152e9"
+    }
+  ],
+  "private_evidence": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/PRETRIAL.json",
+      "bytes": 63259,
+      "sha256": "1e4460fd3980025032091e76baf38734d851c2562d91a4cce4e2450bea5cb9dd"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/qualification/freeze.json",
+      "bytes": 45382,
+      "sha256": "62cdaaf36cb96b81e05d6e5b0c85f07546875fa54a5eee29fdebb756e4b84b8a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/reviewed-helper-bindings.json",
+      "bytes": 2266,
+      "sha256": "23897fa5c55427c7f19ca9819d111bd8f66b4770e9bbd65c858027899a96ba61"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/review-synthesis.json",
+      "bytes": 6679,
+      "sha256": "617b03fdefa7c9916d97c6c3242a61b10d00e48879bcdfc96e4159f097005192"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/reviews/helper-FIRST.full.md",
+      "bytes": 8326,
+      "sha256": "d257cc71df77281700f9316b508ff046a2f0477ce6a0f8206099dabbe0c5a7c1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/reviews/helper-round2-FIRST.full.md",
+      "bytes": 1053,
+      "sha256": "1f06125b5c224112c8b890ebb8b16e60cbc3c05bc1fb524c97a353ec6be3fcea"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/reviews/helper-round2-independent-report.full.md",
+      "bytes": 7836,
+      "sha256": "7eae78e7f85643130cf1a0497bd508795e4358e01a976571f46f552d3f22e4fe"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/reviews/helper-disposition.json",
+      "bytes": 3563,
+      "sha256": "4789f5ec5e65559fe32eaeb722c0b801f8fcb135ec7410f7fc38959fc6bdd3fd"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/qualification/neutral-safe-readback.json",
+      "bytes": 8938,
+      "sha256": "636307d69c9d373a64827ca6c702d6ac80b64612d6f752caac13bc63f62e1e97"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/original-safe-readback.json",
+      "bytes": 12468,
+      "sha256": "2ab30e2e2f5f74f151519e4bf14d009d02120fd075e9b1f92c93d9d31d1f30f6"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/qualification/screening-plan.json",
+      "bytes": 1171,
+      "sha256": "1a4bff987932ee56a98e80b6fcce6f7f10989aaafcc89203315a71c9f5156215"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/original-operational-freeze.json",
+      "bytes": 1232,
+      "sha256": "25113c26b26ae534bf167bdca6378765402248af57428f7ee678b7c133b4d381"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/qualification/canary-outer-invocation.json",
+      "bytes": 768,
+      "sha256": "3e5998c2ee1b5c25edda5f0193a0c837a23a6059175ca2eaee3617670ab501e0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/qualification/canary-outer-actual-lossless.json",
+      "bytes": 1059,
+      "sha256": "f6c1cb395549f2423144787bc47148feee258fadccab8f9fb0b1c0dc017fbaae"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/qualification/canary-collector-invocation.json",
+      "bytes": 260,
+      "sha256": "5f101aec1847cb967e178194a4c31c44a0df299bacb2608ae7ff14049a9b0099"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/qualification/canary-collector-actual-lossless.json",
+      "bytes": 1408,
+      "sha256": "1be12038ab76d8457d1945c8c1b67b9f0575a2b9ab291be0afe78eb535a7b8c0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/original-outer-invocation.json",
+      "bytes": 605,
+      "sha256": "424b28f8a83e916c4438585bfa9dcca55d91eaf72f85856fadbfde1b26cd231b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/original-outer-actual-lossless.json",
+      "bytes": 805,
+      "sha256": "f2a31e8586be1f5aba3e74551e6bc83b47409eab9a3d7fff136fe9841a202810"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/original-collector-invocation.json",
+      "bytes": 260,
+      "sha256": "92d61619e9e0b9d5798993e63396ff3c022d9c1eb95deddf1aa0065aec36fdff"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/original-collector-actual-lossless.json",
+      "bytes": 1058,
+      "sha256": "83e00c6843dc1c4f4072317fc1a5f04880f6d597b0d4a9450a45edc53a69066f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind-build-invocation.json",
+      "bytes": 302,
+      "sha256": "49c05bde0b7ab704312737565440a7f1fa298ed97930c0b29d2da83c699714cc"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind-build-actual-lossless.json",
+      "bytes": 790,
+      "sha256": "a4446a5aaa4517eab77ffc2e2003bb88e08d08db0c22997435a0848d7ccb6efd"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind/packet.json",
+      "bytes": 23586,
+      "sha256": "1f2a55f8f9c84c4a134a4a4c0e85767c8b0707dac3b1e93ff51507b21462d104"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind-private-mapping.json",
+      "bytes": 1181,
+      "sha256": "1b58ec5a9b78f98271612fd6bfa6239b78a4b61825b907355b1c5b618b2237e5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind-display-provenance.json",
+      "bytes": 2411,
+      "sha256": "ad9d1648a3556d62d06f67d03999b1e7ae9e4b21f557cf12cf933a88be792e54"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind/grader-dispatch-args.json",
+      "bytes": 9306,
+      "sha256": "2a7a89019e1b7fcf81a1eac01a0e07c89f481290e09d9c2444ded970646ce596"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind/grader-dispatch-results.json",
+      "bytes": 427,
+      "sha256": "fdfed974aad61041d44c24f68798db94fb1cf69bbd4282d07341a995cbc5d5bc"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind/grader-dispatch-readback-actual.json",
+      "bytes": 699,
+      "sha256": "6a46c1bec92d4743323a6ba1614edeb8e5bd0b78a1b29380f82889387754443a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind/grader-one-FIRST.full.md",
+      "bytes": 8106,
+      "sha256": "45a55fd28f0b85741dda0e77b1dfb348e107a800869dd3190e8e6a88d74b5ad3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind/grader-two-FIRST.full.md",
+      "bytes": 7155,
+      "sha256": "fb6058b515e41aaa34774fc9c4542edad68e479388688d5a46c874d85ed152e9"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind/FIRSTs-readback-invocation.json",
+      "bytes": 544,
+      "sha256": "29d645a422d21e9233c36dd865c774d4aa347e6c854fe548c0a1e425d7dbab70"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/blind/FIRSTs-full-readback-actual.json",
+      "bytes": 17063,
+      "sha256": "6b11a14e1a27d9c7baaa488a0651b2716e00d0299a4829fe49f102ecec67bf20"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/final/README-append.proposed.md",
+      "bytes": 759,
+      "sha256": "db203aa3a3a54b12b8c1d3bf41ae5b69221f2d9b156299641b98b16b8aca723d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/final/public-copy-actual-lossless.json",
+      "bytes": 1899,
+      "sha256": "22e41627aefc5ffb4dd1c82c7df7357f2d18b790e796a851fe5dc80f6cc236b8"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/final/public-copy-failure-target-readback.json",
+      "bytes": 700,
+      "sha256": "bb240bf1adafc1a26584ef401afebdabd828d2e257cc2231fbca38c31e5785d6"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125/final/public-copy-gitbash-actual-lossless.json",
+      "bytes": 3056,
+      "sha256": "4f9ac4b2bbe99e9df2af1382538efb123a4cc7b2af7aa805b03b50d80331c8e4"
+    }
+  ],
+  "root_authorities": [
+    {
+      "path": "temp/hard-screen-20261003/f125-pretrial-root-gate.json",
+      "bytes": 2398,
+      "sha256": "09dd81c6e012137ce2d9e65867bf91a99b135a1b3dfd7f21c5f991a5c42021f0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f125-safe-root-gate.json",
+      "bytes": 1724,
+      "sha256": "a559a01cdceb106af3b002f27e6fd1c9082e060916e13621e84ea35e9357ddfe"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f125-blind-assignment.txt",
+      "bytes": 4277,
+      "sha256": "48a7711fb75e8e7fe6bfa781f770a08daee30e7103ac82b06890aa49df34586c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F125-proposal/source-manifest.json",
+      "bytes": 2355,
+      "sha256": "914a8913d8451b5ac1c3129b3befe6f149930c9a651569f97335416e362736a7"
+    }
+  ],
+  "mapping": [
+    {
+      "anonymous_id": "R-A",
+      "repetition": 3,
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F125/original/F125_C-baseline-r3-attempt1/final.txt",
+        "bytes": 1058,
+        "sha256": "f6919ea48b9dd631373aef33bedec21e42d9c169fdba4aed052deaacdfdc3a9e"
+      }
+    },
+    {
+      "anonymous_id": "R-B",
+      "repetition": 2,
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F125/original/F125_C-baseline-r2-attempt1/final.txt",
+        "bytes": 860,
+        "sha256": "0a78fd7f91812c48b32232b80672fed148ba590578428a50878290cf6458345a"
+      }
+    },
+    {
+      "anonymous_id": "R-C",
+      "repetition": 1,
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F125/original/F125_C-baseline-r1-attempt1/final.txt",
+        "bytes": 1088,
+        "sha256": "c1268ba5f2b4c016aed39e9d03c0438c17e5b8c23abfc7d8a45a8e7e30b22aa9"
+      }
+    }
+  ],
+  "verification": {
+    "exact_original_and_FIRST_copies": true,
+    "all234_PRETRIAL_bindings_unchanged": true,
+    "shared_catalog_unchanged": true,
+    "root_README_unchanged": true,
+    "grader_scope_access": "self-reported; both report only permitted substantive/procedural access",
+    "jointly_qualifying": 0,
+    "grade_synthesis": "Both independent FIRSTs all five dimensions2, totals10; every error/failure/insufficient flagfalse",
+    "native_replays": 0,
+    "regrades": 0,
+    "grader_replacements": 0
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "status": "PUBLIC_EVIDENCE_PENDING_ROOT_FINAL",
+  "task_sources": [
+    {
+      "path": "evals/hard-screen-20261003/F81/sources/F81C.md",
+      "bytes": 1565,
+      "sha256": "29f6cf37cd6338acc884e68e472fd741bc508be474b057d4754dd3c00078e5f5"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F81/sources/F81H.md",
+      "bytes": 1610,
+      "sha256": "6bed2b8f14d3571f6a8733c918bb72622f674f1481206d050eae97ae1d419e37"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F81/sources/F81K.md",
+      "bytes": 1008,
+      "sha256": "9f7ebdebd19c8a8e595f48ee59f4298942a22c6368fb5efc2e44ddf9c0f91599"
+    }
+  ],
+  "responses": [
+    {
+      "anonymous_id": "Response-A",
+      "case_id": "F81C",
+      "condition": "baseline",
+      "repetition": 3,
+      "attempt": 1,
+      "final_sha256": "3d584d9774bea8f539a4f79e97ec9a5f50bbcfc6744a91a00d55d64a9115b5e8",
+      "public_response": "responses/F81C-baseline-r3.txt",
+      "path": "evals/hard-screen-20261003/F81/responses/F81C-baseline-r3.txt",
+      "bytes": 1401,
+      "sha256": "3d584d9774bea8f539a4f79e97ec9a5f50bbcfc6744a91a00d55d64a9115b5e8"
+    },
+    {
+      "anonymous_id": "Response-B",
+      "case_id": "F81C",
+      "condition": "baseline",
+      "repetition": 1,
+      "attempt": 1,
+      "final_sha256": "bfaec42997b6c1dd09abcfceead1e7c32b0234901a5dd8b57d73e4f995c66fdc",
+      "public_response": "responses/F81C-baseline-r1.txt",
+      "path": "evals/hard-screen-20261003/F81/responses/F81C-baseline-r1.txt",
+      "bytes": 1369,
+      "sha256": "bfaec42997b6c1dd09abcfceead1e7c32b0234901a5dd8b57d73e4f995c66fdc"
+    },
+    {
+      "anonymous_id": "Response-C",
+      "case_id": "F81C",
+      "condition": "baseline",
+      "repetition": 2,
+      "attempt": 1,
+      "final_sha256": "0d1bf2711449006bc211152ce18d71da9329fa2c1747fe1763970027f9bcf84d",
+      "public_response": "responses/F81C-baseline-r2.txt",
+      "path": "evals/hard-screen-20261003/F81/responses/F81C-baseline-r2.txt",
+      "bytes": 1102,
+      "sha256": "0d1bf2711449006bc211152ce18d71da9329fa2c1747fe1763970027f9bcf84d"
+    }
+  ],
+  "blind_FIRSTs": [
+    {
+      "path": "evals/hard-screen-20261003/F81/grading/grader-one-FIRST.md",
+      "bytes": 1231,
+      "sha256": "a44edd3a12ebb9b927462cd4bbc858d25671ee9a47fb771e1a4c981b6398d18b"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F81/grading/grader-two-FIRST.md",
+      "bytes": 1231,
+      "sha256": "1a1d843ee78b243800b4dc0cee752ad6d94426f338982c1c49058ba7c50dff4c"
+    }
+  ],
+  "grading_summary": {
+    "path": "evals/hard-screen-20261003/F81/grading/summary.json",
+    "bytes": 3876,
+    "sha256": "c90874b5518ea8946e72a78f31599579544e71df2a6fd7d83998dd02baa45b4d"
+  },
+  "public_inverse": {
+    "path": "evals/hard-screen-20261003/F81/grading/inverse-mapping.json",
+    "bytes": 952,
+    "sha256": "511996bbd201a81b1839179709b4c7ed5fa85c3d8ca1be9894837790d85596ca"
+  },
+  "root_PRETRIAL_release": {
+    "path": "temp/hard-screen-20261003/f81-pretrial-gate-readback.json",
+    "bytes": 1369,
+    "sha256": "570ca6db1b45f2dd5e41641e5b402c69f688b865f79007180f98c1c54c13ac0a"
+  },
+  "root_SAFE_release": {
+    "path": "temp/hard-screen-20261003/f81-safe-gate-readback.json",
+    "bytes": 1979,
+    "sha256": "0c07cd078260e1113f952dab9070f44d823cabd6f6909dbf2c8061bce454ccb7"
+  },
+  "operational_amendment_authorization": {
+    "path": "temp/hard-screen-20261003/f81-operational-amendment1-authorization.json",
+    "bytes": 3426,
+    "sha256": "d1731585810d9613b6e4c651e953e563c5d6eda31bb5903c17a40460bedd94c6"
+  },
+  "runtime_SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F81/original-safe-readback.json",
+    "bytes": 13855,
+    "sha256": "f6b6e456fbfdcffbe8cfefbf8dd03ce1cfb3a579324b44c83bf543e759beb5df"
+  },
+  "actual_counts": {
+    "setup_launches": 3,
+    "turn_dispatches": 3,
+    "completed_turns": 3,
+    "preserved_terminal_finals": 3,
+    "setup_retry_count": 0
+  },
+  "all_actual_guards_PASS_under_ROOT_SAFE": true,
+  "PID_before_GO": true,
+  "SAME_owned_Python_close0": true,
+  "original_MCP_tool_exit0_verified": false,
+  "original_wrapper_parent_Node_exit": "UNKNOWN",
+  "original_requested_outer_ms": 1200000,
+  "actual_owned_child_lifetime_seconds": 375.237,
+  "enforced1200_or_uninterrupted_observation_proved": false,
+  "exact_launch_executable_hash": "UNMEASURED/UNKNOWN",
+  "pre_freeze_current_executable_identity": "Verified",
+  "setup_retries": 0,
+  "source_revision": 0,
+  "H_definition_revision": 0,
+  "policy_revision": 1,
+  "operational_amendment": 1,
+  "empirical_criteria_changes": 0,
+  "participant_H_K_use": 0,
+  "scored_treatment": 0,
+  "backend_identity": "UNVERIFIED/nonblocking",
+  "effort_policy": "Not a screening consideration",
+  "permanent_caveats": [
+    "Initial exact reads used PowerShell before GitBash discovery; recorded",
+    "apply_patch returned empty object; actual seed/ledger size confirmed before sources; no reconstructed pre-source timestamp",
+    "6069-character builder append and6300-character PRETRIAL proposal prevented BEFORE tool/mutation; split/shortened",
+    "Builder compile failed before artifact writes; receipt saved; repaired path conversion; no completed check replay",
+    "FIRSTone C-unresolved was in-progress MESSAGE, not terminal FINAL; send_message asked completion without guidance; original turn completed",
+    "FIRSTtwo original retains TWO linked signs; SAME2 ALIGN corrects g=f+d, shift=-d, recurrence=-d; anchor uses correct +k proof",
+    "ALIGN readers assessed source substance, not byte identity/generic content; ONE author check verified bytes/fixed hashes",
+    "Shared author-only protocol/representation contain H/K answers: MUST stay outside future C blind packet; only C ordinary/local rubric/C-onlyanchor/generic/actual originals permitted later",
+    "K generic any-lawful-program phrase bounded by explicit fixed-zero program/no modification",
+    "Builder is creation revision0 record: do not rerun over current local policy revision1",
+    "No current strong-model difficulty or runtime acceptance claim. H/K participant-unused, not author/reviewer-unseen",
+    "Original MCP primary42 errored after300s despite requested1200000; wrapper/parent Node exit remains UNKNOWN. SAME owned Python child close0 and all other actual guards verified under explicit operational amendment1 before answer preview/grading; old STOP/INCOMPLETE records immutable.",
+    "Requested outer1200000; child lifetime375.237sec does not prove enforced1200 watchdog or uninterrupted observation.",
+    "Executable identity verified before freeze/currently; exact launch-time hash unmeasured/UNKNOWN. Expected invocation SHA is not a fresh measurement.",
+    "Full blind FIRST payloads saved before synthesis/mapping; raw transport byte equality not claimed.",
+    "A7163-character public-materializer append proposal was prevented BEFORE tool/mutation by length guard, then split.",
+    "A6133-character report-plus-append proposal was prevented BEFORE tool/mutation, then split; one successful materialization, no regrade/check/native replay."
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "family": "F44",
+  "selection": {
+    "status": "EXCLUDED",
+    "joint_qualifying_ids": [],
+    "joint_qualifying_count": 0,
+    "required_joint_ids": 2,
+    "valid_originals": 3,
+    "retained_families": 0,
+    "remaining_required": 6,
+    "criteria_changed": false
+  },
+  "current_totals": {
+    "families": 40,
+    "preserved_terminal_finals": 118,
+    "problem_turns": 174,
+    "retained": 0
+  },
+  "counts_added": {
+    "families": 1,
+    "preserved_terminal_finals": 3,
+    "problem_turns": 3
+  },
+  "receipt_sha256": {
+    "temp/hard-screen-20261003/worker/F44/freeze.json": "88f57eed8a3c98a9db50ffcf54619e17026dc5b1d0957ea8525781bb26b5fa6b",
+    "temp/hard-screen-20261003/worker/F44/screening-plan.json": "09b63f979f761a6a2a07d9c5abebdf53f20d79063f4504610ef09bf002f80b6a",
+    "temp/hard-screen-20261003/worker/F44/canary-plan.json": "51cd5ca5edfce56d27be156d44e0dcbe73a5e2ad873951ff5ebbd449a3dfd396",
+    "temp/hard-screen-20261003/worker/F44/canary-check.json": "8696955a3b64826960d8b55ce5abeb184ed50814e6ebe48f3f3c1cfd2bbd13d9",
+    "temp/hard-screen-20261003/worker/F44/producer-invocation-note.json": "f73d93352fee3987a9c26ebfc9a3ef61b3e8411f5c341f282583342014cb9998",
+    "temp/hard-screen-20261003/worker/F44/original-collection-check.json": "16e464db0b66ae56a93d67b0d1d0d75fa120fe979ffc404056532e5fd292706a",
+    "temp/hard-screen-20261003/worker/F44/collection-packet-readback.json": "f998ed88e96d1b5229756e91c5e05b8494fe42401e47344785eb5aeaa10d2b91",
+    "temp/hard-screen-20261003/worker/F44/grading-packet.json": "02e618fa48e49a2693cd8a7dc2bcd3ba02cf0990e79ffb0f77c6f25663946e2c",
+    "temp/hard-screen-20261003/worker/F44/anonymous-mapping.json": "a5499efa64c6351e5ebbe61a228f3aa518645eeb7363c668b98dbcae472460f9",
+    "temp/hard-screen-20261003/worker/F44/review-ledger.json": "efca1ec742bcf48d3ecf8e119b6c911b8a1f6b82693ad1ee6ba886ef9f80bdb4",
+    "temp/hard-screen-20261003/worker/F44/pretrial-final-readback.json": "9b657d6a90ded66d5c69f24230267533643505828043cc5aabf7eab350233c74",
+    "temp/hard-screen-20261003/worker/F44/pretrial-manifest.json": "03767e478bb6c7280fb6b62d96a1df76e7b302fda274a6414c8a1743463fab94",
+    "temp/hard-screen-20261003/worker/F44/grader-a-original.json": "ed636a771d14730c7702998e087906c25cf986d4e4d74780f1fa388dc67ed758",
+    "temp/hard-screen-20261003/worker/F44/grader-b-original.json": "a08ba0e304c5ef66b1c6924157a8107333dfdfc59e508dcd03adc99e7831e657"
+  },
+  "common_reference_sha256": "1325fafd8ccd13279293cbaacf3f1c3cde1b6027cbc3a348d9e77f40fa20ae96",
+  "exact_frozen_files": {
+    "evals/hard-screen-20261003/F44/sources/F44C.md": "9caeded2d8679424efa5ff073b70561bea56299a4225cdd08a004c5e78355e44",
+    "evals/hard-screen-20261003/F44/sources/F44H.md": "c0112a35beaafeaf68cdf429a46c78a2fad43a44b223a9267b00c0bddf8b2927",
+    "evals/hard-screen-20261003/F44/sources/F44K.md": "0eba7bd8a87ac8a22f6e8c939c5f9a7587aeaf32cd0dd40477cc71cacb8923e9",
+    "evals/hard-screen-20261003/F44/cases.json": "b7ea9c7f8a673a3ef77213f300c88a4983fa171ed303d336da5fbb933fdcbe62",
+    "evals/hard-screen-20261003/F44/rubrics.json": "33bfd6e94855710b17ca13819daad922de8ffb5ee367017dfade3077ef545ed6",
+    "evals/hard-screen-20261003/F44/protocol.json": "d1c335affaaba3917c9037b00293bd3e5744ea8fda9cc2ff6f1b7de44d3c2296",
+    "temp/hard-screen-20261003/worker/F44/oracle.md": "642e74471500101c510a7dd02c77a6496deae357dc0bb7ecfe065a2ca694bd6a",
+    "temp/hard-screen-20261003/worker/F44/certificate.json": "197fe10139c36d3b6e4e4022841a9cf951457d3bedabd2bf14290f91fd048d8a",
+    "temp/hard-screen-20261003/worker/F44/proof.cjs": "62fbdd7d00a902da583aa723525d65eb045c16db0fda36b6fb7987acb95a2cb8",
+    "temp/hard-screen-20261003/worker/F44/check.json": "5f6b13dcecca03479fd34e1eb719cbc7b224505fb71ab58723204a6ed311854d"
+  },
+  "runner_hashes": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "method_hashes": {
+    "evals/hard-screen-20261003/prospective-method-v2.md": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e",
+    "evals/hard-screen-20261003/prospective-method-v3.md": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+  },
+  "skill_hashes": {
+    "SKILL.md": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871",
+    "references/inquiry-methods.md": "0c7e92d8a2682e9e734fe53b11863fe014aa47a6cd586146195b44b385b779ac",
+    "references/evidence-and-diagnosis.md": "df73a8e947fda4764ceb69617ee88d8a9d95212710f3a889be1b0bfb3a6c45ac",
+    "references/alternatives-and-drafting.md": "0b03e017c97a0a013cd95f22b9e7266c1e7e0cf2a3e9d37063499b35aec9b382"
+  },
+  "requested_model": "gpt-6-sol",
+  "effective_backend_verified": false,
+  "reasoning_effort_considered": false,
+  "canary_check": {
+    "status": "PASS_ACTUAL_NEUTRAL_READY_PAIR",
+    "checks": [
+      {
+        "arm": "baseline",
+        "attempt": 1,
+        "manifest_sha256": "2e321304b5f7cc1acb082b1ac402827bdc66da8528cd3749c3a978bb4dc97dbb",
+        "delivery_sha256": "00651514aa248dc49aa36ca9354342e4109263e9d919b2a3c62fa383dd68e61b",
+        "telemetry_sha256": "ac6f4b64795f84a2457d2f3605b49e89bd005e3fc5967b48be4b91cf517e0777",
+        "final_sha256": "c2e3ac47f4a325469c1a2d5f117e463ec943c721986d5d9f09ac4540b7d80526",
+        "first_input_sha256": "1727ae28b8ff544c61f31f3d79b5cb3e5ac48d63abe3a961fc6b1213101a04ed",
+        "completed_turns": 1,
+        "final_phase_messages": 1,
+        "actual_common_developer_match": false,
+        "actual_common_user_prefix_match": false,
+        "source_preserved": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true,
+        "tool_attempted": false
+      },
+      {
+        "arm": "treatment",
+        "attempt": 1,
+        "manifest_sha256": "54ea03ac5ce67a089eaebace27286a52cbce117d26e9fb94630b92b36709d2fa",
+        "delivery_sha256": "be4e5d1f4ca50c3e295190cdeb47b82af4fc7ac2d3ba0aba26a574c0add69b19",
+        "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+        "final_sha256": "c2e3ac47f4a325469c1a2d5f117e463ec943c721986d5d9f09ac4540b7d80526",
+        "first_input_sha256": "1727ae28b8ff544c61f31f3d79b5cb3e5ac48d63abe3a961fc6b1213101a04ed",
+        "completed_turns": 1,
+        "final_phase_messages": 1,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "source_preserved": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true,
+        "tool_attempted": false
+      }
+    ],
+    "preserved_preturn_setup_failures": [],
+    "common_reference_sha256": "1325fafd8ccd13279293cbaacf3f1c3cde1b6027cbc3a348d9e77f40fa20ae96",
+    "first_baseline_false_match": "Reference establishment, not failed shared-context comparison; actual second arm matches.",
+    "unscored": true,
+    "problem_counts": 0,
+    "actual_neutral_turns": 2,
+    "future_runtime_guarantee": false,
+    "prelaunch_tool_failure": "Separate UV cache initialization failure before producer invocation; not a native slot/attempt."
+  },
+  "original_collection": {
+    "status": "PASS_ALL_THREE_ORIGINALS_SAFE_COMPLETED",
+    "checks": [
+      {
+        "repetition": 2,
+        "status": "VALID_ORIGINAL_COMPLETED",
+        "attempt": 1,
+        "manifest_sha256": "6b10ff41062a4810c0b7dadbf9507c56e5ab428cefcf831d18bcbc1bf6caed18",
+        "delivery_sha256": "8c1c109ad968fc88dcc1bd6cf8c7c820013aa20ff24be1741d817e3e9dba818c",
+        "telemetry_sha256": "310f342a0c0d590abeaa05f85ffb1f21dca05b465f9faffedc5562d0300dcb69",
+        "final_sha256": "70ac43c7527147d8ffc139a4e1f1c85e46140738179559a6e444c53900c9d1d9",
+        "final_bytes": 1675,
+        "completed_problem_turns": 1,
+        "actual_completed_final_phase_messages": 1,
+        "preserved_terminal_problem_finals": 1,
+        "first_input_sha256": "714835c0e11efa18e1614654698054b066050b85d3eff26e965b26f8464110ec",
+        "task_input_readback_verified": true,
+        "source_preserved": true,
+        "tool_attempted": false,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true
+      },
+      {
+        "repetition": 3,
+        "status": "VALID_ORIGINAL_COMPLETED",
+        "attempt": 1,
+        "manifest_sha256": "0454f4348ee9f50bc5bcdfa8b2ded6158c6045eb318db5a4fa0bbe66b20ad0fb",
+        "delivery_sha256": "8c1c109ad968fc88dcc1bd6cf8c7c820013aa20ff24be1741d817e3e9dba818c",
+        "telemetry_sha256": "8a58e0cfb31e153847c2c409a973264012883517ec5a7a88510754d8e2c9cde0",
+        "final_sha256": "d0c32a0399edf6021cc530cfdf8421f5828c9634c6f058e5b06543dab12b3350",
+        "final_bytes": 1721,
+        "completed_problem_turns": 1,
+        "actual_completed_final_phase_messages": 1,
+        "preserved_terminal_problem_finals": 1,
+        "first_input_sha256": "714835c0e11efa18e1614654698054b066050b85d3eff26e965b26f8464110ec",
+        "task_input_readback_verified": true,
+        "source_preserved": true,
+        "tool_attempted": false,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true
+      },
+      {
+        "repetition": 1,
+        "status": "VALID_ORIGINAL_COMPLETED",
+        "attempt": 1,
+        "manifest_sha256": "de1115cb31d62ded5433e7acbc3b6ffc092f759411909b86e1d49c1ddf246dd8",
+        "delivery_sha256": "8c1c109ad968fc88dcc1bd6cf8c7c820013aa20ff24be1741d817e3e9dba818c",
+        "telemetry_sha256": "f0ca9eb52f0ed026ba1ba394d25f7b54e4d1b95dfd62496d3b9d3ee1917569fc",
+        "final_sha256": "eb537d706904e6c6deabe36106a0d28b707c73d0b51c0f36af113df2fb68c290",
+        "final_bytes": 1799,
+        "completed_problem_turns": 1,
+        "actual_completed_final_phase_messages": 1,
+        "preserved_terminal_problem_finals": 1,
+        "first_input_sha256": "714835c0e11efa18e1614654698054b066050b85d3eff26e965b26f8464110ec",
+        "task_input_readback_verified": true,
+        "source_preserved": true,
+        "tool_attempted": false,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true
+      }
+    ],
+    "current_counts": {
+      "families": 40,
+      "preserved_terminal_finals": 118,
+      "problem_turns": 174,
+      "retained": 0
+    },
+    "counts_added": {
+      "families": 1,
+      "preserved_terminal_finals": 3,
+      "problem_turns": 3
+    },
+    "neutral_turns_not_counted": 2,
+    "packet_sha256": "02e618fa48e49a2693cd8a7dc2bcd3ba02cf0990e79ffb0f77c6f25663946e2c",
+    "mapping_sha256": "a5499efa64c6351e5ebbe61a228f3aa518645eeb7363c668b98dbcae472460f9",
+    "packet_redaction": "Blank current-only complete C task, local rubric/frozen anchor/immutable generic rules, actual terminal finals only; one-turn task has no READ transcript. No condition/model/host/turnIDs/sibling/private-oracle/author interpretation fields. Native answer bodies processed only by helper, never displayed or interpreted by author before grading.",
+    "generic_rules_source": "ONLY immutable selection_rules field parsed from previous template; previous task/responses/anchors not copied or previewed.",
+    "grading_status": "NOT_STARTED; separate parent release required",
+    "hardness_status": "PENDING_ORIGINAL_BLIND_GRADING",
+    "freeze_sha256": "88f57eed8a3c98a9db50ffcf54619e17026dc5b1d0957ea8525781bb26b5fa6b",
+    "screening_plan_sha256": "09b63f979f761a6a2a07d9c5abebdf53f20d79063f4504610ef09bf002f80b6a",
+    "common_reference_sha256": "1325fafd8ccd13279293cbaacf3f1c3cde1b6027cbc3a348d9e77f40fa20ae96"
+  },
+  "pretrial_review_ledger": {
+    "candidate": "F44",
+    "status": "PRETRIAL_REVIEWS_COMPLETE_PARENT_READ_REQUIRED_NO_NATIVE_AUTHORITY",
+    "manifest_path": "temp/hard-screen-20261003/worker/F44/pretrial-manifest.json",
+    "manifest_sha256": "03767e478bb6c7280fb6b62d96a1df76e7b302fda274a6414c8a1743463fab94",
+    "author_readback_sha256": "e43b83c4825a86e188bdf4c242b4eaa9bdf6e99bb6c8d4b153ece0e41d52cac8",
+    "source_first": "Two independent fork-none source-only originals preserved before oracle exposure. BOTH C-source REVISE; one prospective timing-order correction; both SAME reviewers targeted APPROVE identical current sources. Full original source reports not relabeled.",
+    "full_reviews": "SAME independent source A/B reviewed full exact stable bundle in PARALLEL, no cross-full-report exposure. Reuse disclosed; not four distinct fresh reviewers.",
+    "reports": {
+      "exact-review-a.md": {
+        "path": "temp/hard-screen-20261003/worker/F44/exact-review-a.md",
+        "sha256": "3d7e8cdecb25671627cd18917f374c4bb475fb98f7d19bf5f0a31c200ebbdb13",
+        "verdict": "APPROVE",
+        "bytes": 12354,
+        "provenance": "Full original conversation-returned report body copied by writer; not raw transport/session authentication."
+      },
+      "exact-review-b.md": {
+        "path": "temp/hard-screen-20261003/worker/F44/exact-review-b.md",
+        "sha256": "16fe250fa81d3a49783c1b1a69df94701c687a1926bdcbe0e8e576959716c0fc",
+        "verdict": "APPROVE",
+        "bytes": 15130,
+        "provenance": "Full original conversation-returned report body copied by writer; not raw transport/session authentication."
+      }
+    },
+    "numerical_scope": "Selected exact payoff/four-physical-cell proof reused byte-identically, not rerun. Whole strategy/history/current timing reductions analytical and independently reviewed; no exhaustive all-strategy enumeration asserted.",
+    "no_outputs": "No freeze/neutral/native/HK/scored treatment/grading/README/runtime/settings/method/skill/push/archive or next candidate; counts39/115/171/hard0 unchanged.",
+    "finalartifact": "F32+ final pool successive two artifact rounds/archive DEFERRED; source/full validity is not finalartifact acceptance."
+  },
+  "neutral_roots": 2,
+  "neutral_turns": 2,
+  "neutral_problem_count": 0,
+  "original_attempts": [
+    1,
+    1,
+    1
+  ],
+  "actual_problem_turn_counts": [
+    1,
+    1,
+    1
+  ],
+  "preserved_terminal_final_counts": [
+    1,
+    1,
+    1
+  ],
+  "problem_outcome_retries": 0,
+  "replacements": 0,
+  "regrades": 0,
+  "transport_expiry": true,
+  "scored_treatment_runs": 0,
+  "H_K_participant_runs": 0,
+  "proof_rerun": false,
+  "full_tests_rerun": false,
+  "reused_full_tests": "Historic153total/147pass/6environment-skips/0fail unchanged evidence reused, not freshfulltestclaim",
+  "limits": [
+    "Both original source reports identified tick4 audit-before-last-module ordering ambiguity; all3 sources prospectively narrowed eligible invocation cutoff before coin draw. Original sources/reports/private4 immutable; current acknowledgments separate.",
+    "Same two source-first reconstructors reused for independent parallel full reviews; not4freshreviewers; no cross-full-report exposure.",
+    "Initial local freeze helper variable-name guard and built-in UV cache failure preceded native dispatch; safe invocation note preserved. No runtime/settings/cache alteration.",
+    "Outer MCP300s expired; SAME original completed all3 and cleanup, no retry/replacement. Protected temporary root recursive inventory denied access; no protected contents read; later exact-slot checks only.",
+    "Editor TypeScript service unavailable; actual Node helpers and byte bindings PASS without dependency/settings change.",
+    "No raw native events/hidden reasoning/credentials/config contents inspected. Sourceguard interval is not future runtimeproof.",
+    "F41 INCOMPLETE untouched/unpreviewed/ungraded/unreplaced. H/K unused; no scored skill comparison or skill edits.",
+    "F32 onward finalartifact two independent rounds/archive DEFERRED. Exclusion is not skill-effect evidence."
+  ]
+}

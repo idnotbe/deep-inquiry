@@ -1,0 +1,110 @@
+{
+  "family": "F50",
+  "packet_sha256": "cb4951e6a6486ce27a7d00651eeb2172237b2d83f0064c88c5671922125bcdbe",
+  "original_grade_sha256": {
+    "A": "e98e696998b51e0c764fdc0b49a43feaa0b1cb361482f5d04e44234eba9e1121",
+    "B": "049214139b33e1c305feab045ee93d3b03562033eb8f1ddebd29b018c440258f"
+  },
+  "originals": {
+    "A": {
+      "reports": [
+        {
+          "id": "R01",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 9,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "explanation": "The rejection counterexample is a valid fastest-choice settled outcome: QUAY load 1 and CHANNEL load 9/8 give Gate times 85, 85 and 90, and North times 45 and 45. The replacement catalogue serves every original-origin booking lawfully. Its unique settled Gate split is 3/5 and 2/5, giving QUAY and CHANNEL loads 3/5, Gate time 69 and North time 24. Evidence explanation correctly distinguishes the fixed-customer zero-load probe from deployment, but does not explicitly account for the historical 65/45 journey times. That omission is nonqualifying."
+        },
+        {
+          "id": "R02",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 9,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "explanation": "The full-publication counterexample is valid. At QUAY load 1 and CHANNEL load 9/8, the chosen Gate route and QUAY/RIDGE both take 85, while SPUR/CHANNEL takes 90. Both North routes take 45. The replacement origin-indexed catalogue has the unique settled Gate split 3/5 and 2/5, producing Gate time 69 and North time 24 for all bookings. No forced split is required: fastest-route behavior determines the settled loads. The response correctly limits the probe's evidentiary reach, but omits explicit treatment of the historical 65/45 times. That omission is nonqualifying."
+        },
+        {
+          "id": "R03",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 9,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "explanation": "The replacement catalogue and its all-response proof are correct: Gate times 45+40x and 93-40x equalize only at x=3/5, yielding Gate time 69 and North time 24. The alternative full-publication counterexample is also valid: Gate's 37/40 connector flow plus North's 1/5 gives CHANNEL load 9/8; QUAY load is 1. Used Gate routes take 85, the remaining Gate route takes 90, and both North alternatives take 45. The response correctly distinguishes the zero-load probe from endogenous settled loads, but omits explicit treatment of the historical 65/45 times. That omission is nonqualifying."
+        }
+      ],
+      "overall_qualifying_ids": [],
+      "full_pass_count": 0,
+      "mean_total": 9,
+      "qualification_summary": "All three responses provide complete lawful corrective catalogues and valid unsafe settled outcomes for D-50. None endorses a materially false authorization premise or explicit false universal exclusion."
+    },
+    "B": {
+      "reports": [
+        {
+          "id": "R01",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 9,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "grading_notes": "The unsafe full-publication equilibrium and lawful replacement catalogue are correct. The replacement uniquely determines settled aggregate loads and meets both original-origin promises. Evidence explanation is partial: historical journey times 65/45 and the numerical probe result 40 are not explicitly reconstructed. These omissions do not constitute a qualifying failure."
+        },
+        {
+          "id": "R02",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 9,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "grading_notes": "The full-publication counterexample correctly incorporates both origins' physical traffic. The replacement catalogue serves every booking and gives uniquely settled loads 3/5 on QUAY and CHANNEL, with Gate journeys 69 and North journeys 24. The fixed-load probe limitation is correctly identified. Historical journey times 65/45 are omitted, leaving the evidence dimension partially supported without a qualifying failure."
+        },
+        {
+          "id": "R03",
+          "dimension_scores": {
+            "decision": 2,
+            "evidence": 1,
+            "mechanism": 2,
+            "feasibility": 2,
+            "robustness": 2
+          },
+          "total": 9,
+          "objective_errors": [],
+          "qualifying_failures": [],
+          "grading_notes": "The alternative full-publication equilibrium is valid: Gate route volumes 3/40 and 37/40, plus North volume 1/5 on CHANNEL, produce QUAY load 1 and CHANNEL load 9/8. All used routes are fastest, while both promises fail. The replacement catalogue and its all-settled-response proof are correct and lawful. Historical journey times 65/45 are omitted, which reduces only the secondary evidence score."
+        }
+      ],
+      "overall_qualifying_ids": []
+    }
+  },
+  "capture": "Complete returned first JSON bodies, LF transcription; not raw transport authentication.",
+  "decision": "EXCLUDED",
+  "joint_qualifying_ids": []
+}

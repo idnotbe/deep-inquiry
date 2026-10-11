@@ -1,0 +1,187 @@
+{
+  "family": "F39",
+  "suite_hashes": {
+    "cases.json": "8f3adf2e09553800c611315a2e26332349002b623eb1c5199e720826f63c84fb",
+    "rubrics.json": "003223ab4982565cf4dea250df8b7c7048209438db6bc091ff10cb2eddd1a9e1",
+    "protocol.json": "9c8b02620881614bad473fdc283d9c5212c4794036fc68a0b9541e6ab5696ffd"
+  },
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "controls_executed": false,
+  "native_trials": 3,
+  "grading_packet_sha256": "9e6b872e4199bee9ba05368a3dc91c22133051df5a5b2c2eccf595a4dfbdaefe",
+  "grading_packet_redaction": "Blank current-only structure: ONLY task/currentC rubric/frozenanchor/unchangedgenericselectionrules/threeanonymousoriginal finals. No host/model/condition/privatefullprotocol/author interpretation/old answers.",
+  "pretrial_reviews": {
+    "source_a": {
+      "path": "temp/hard-screen-20261003/worker/F39/source-a-received.md",
+      "sha256": "a8441b06539da0f4d716c84e7144b7a7ceefe5e9f89453c2556b156e50595c9f",
+      "original_terminal_verdict": "APPROVE",
+      "required_correction": "none",
+      "read_only": true,
+      "fresh_distinct_context": true
+    },
+    "source_b": {
+      "path": "temp/hard-screen-20261003/worker/F39/source-b-received.md",
+      "sha256": "70f6dde8da80765e52708fff79c5a57a4445c3bd7ff8de0afcd65c3013487c5f",
+      "original_terminal_verdict": "APPROVE",
+      "required_correction": "none",
+      "read_only": true,
+      "fresh_distinct_context": true
+    },
+    "exact_a": {
+      "path": "temp/hard-screen-20261003/worker/F39/exact-review-a.md",
+      "sha256": "62ffd8855c2d46b8c4316fe2ddf5a19f7df7a94cdd7fb1e55604cccf9e21420d",
+      "original_terminal_verdict": "APPROVE",
+      "required_correction": "none",
+      "read_only": true,
+      "fresh_distinct_context": true
+    },
+    "exact_b": {
+      "path": "temp/hard-screen-20261003/worker/F39/exact-review-b.md",
+      "sha256": "a64a8fdb806fdde4b58a5c16b6a12faefdacf41b21ffcc67dfccf175d93c2f42",
+      "original_terminal_verdict": "APPROVE",
+      "required_correction": "none",
+      "read_only": true,
+      "fresh_distinct_context": true
+    }
+  },
+  "source_prompt_relation": "Original raw Markdown snapshots equal current sources; cases use universal-newline/rstrip normalization. Local equality/hash binding is not independent history authentication.",
+  "freeze_sha256": "e8c1786aaa9a9c92dc6c57c5320f55585fb06fbfeb1aabce9cf33010b3243ced",
+  "review_manifest_sha256": "e7e62f7cc2af3debd06192477dfbaa2ed40823aa9ce8eebdd6b43641ef7f7d6a",
+  "pretrial_readback_sha256": "ea05cce1751e53dd095e4cb573c1091f01de088e74ca821137c74ad55f1148e4",
+  "producer_file_sha256": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "plan_sha256": "af173536e9305969a942c39361238ec0a00f9ff62700cf46737c94f2ff1d15b2",
+  "neutral_canary_plan_sha256": "3dc4e27a4bc4a70d42382c1f817f884fdca6ecca6b9057c8af0f12a65929a13e",
+  "common_context_sha256": "24bb4c744034ceaa9d37b179efd42d57aa44d626db73a7b7973ed09934c98e84",
+  "static_proof_sha256": "b39495ae150ee937b68349f3ad67839c407508023ca5bd7332d42a87d6be5b94",
+  "static_proof_output_sha256": "33ec4fd0d0e7ea47ac0275743fa0fda2c67e093375f08f3acd439ce497fc9cd9",
+  "certificate_sha256": "913c77cb9ae46b4a7d462379873a747e6618a0b800797c10bf4b62120a5831b9",
+  "oracle_sha256": "70a3789139a5f607ba4914387b6c10c2e3a674325780131bb58cdce0a4f74aa7",
+  "static_coverage": "Unchanged exact Fraction deterministic all18 controls/all4 module sets/adaptive DP19states actual check reused; independent source A Fraction/sourceB JS and exactA/B JS physical/witness arithmetic. Analytic allorders/independentrandomization bounds separate. Not empirical model evidence.",
+  "neutral_canary_completed": 2,
+  "neutral_canaries_counted_in_problem_turns": 0,
+  "canary_readback_sha256": "4548082d2cc9b5cdbe5f6ead4aa2a09821d3ae9ec422c298ea2c64bde94f34b8",
+  "canary_reference_semantics": "Reference establishment, not scored invalidity; second neutral verifies same captured context.",
+  "original_slots": [
+    {
+      "response_id": "R01",
+      "repetition": 2,
+      "attempt": 1,
+      "status": "completed",
+      "final_sha256": "28fb4ee13c2398e69c215c6c9f87342b6074ad34ee87d1ee83a73cc7a864add0",
+      "final_bytes": 1349,
+      "manifest_sha256": "13eb71cca2e548bc8c9349d745eb0ab6bc19aad2169ffe5df3f25899ceea1245",
+      "delivery_sha256": "3243911e5dfd6f1d8d12673ed41ca9c7d68aa7ed6ca0a45f2078bd4d83d28b7a",
+      "telemetry_sha256": "adedf2ae0d960050cb59bdcff09091b1b57a317e40b9ceaef8be1999d602111d",
+      "all_required_safe_flags": true,
+      "method_exposed": false,
+      "tool_attempted": false,
+      "root_expansion": false,
+      "completed_problem_turns": 1,
+      "completed_finals": 1
+    },
+    {
+      "response_id": "R02",
+      "repetition": 3,
+      "attempt": 1,
+      "status": "completed",
+      "final_sha256": "355580a193cce0ce3c04b1332ce112c52422309aa692396b41b709e6a3d50472",
+      "final_bytes": 1357,
+      "manifest_sha256": "80543ce3477b4ea111b85fd8887673488c1e4afb6b4afd86c4706535b5a9ad2f",
+      "delivery_sha256": "3243911e5dfd6f1d8d12673ed41ca9c7d68aa7ed6ca0a45f2078bd4d83d28b7a",
+      "telemetry_sha256": "adedf2ae0d960050cb59bdcff09091b1b57a317e40b9ceaef8be1999d602111d",
+      "all_required_safe_flags": true,
+      "method_exposed": false,
+      "tool_attempted": false,
+      "root_expansion": false,
+      "completed_problem_turns": 1,
+      "completed_finals": 1
+    },
+    {
+      "response_id": "R03",
+      "repetition": 1,
+      "attempt": 1,
+      "status": "completed",
+      "final_sha256": "89d4c694a8e6e1218b0b6525da0cee6a14ee0fda49d071f70c0822bcc07cfd3c",
+      "final_bytes": 1358,
+      "manifest_sha256": "564c9147bdfad287500239e8efbca4a5e14f544580bfc00a96b81b5e2edcec77",
+      "delivery_sha256": "3243911e5dfd6f1d8d12673ed41ca9c7d68aa7ed6ca0a45f2078bd4d83d28b7a",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "all_required_safe_flags": true,
+      "method_exposed": false,
+      "tool_attempted": false,
+      "root_expansion": false,
+      "completed_problem_turns": 1,
+      "completed_finals": 1
+    }
+  ],
+  "problem_turns_added": 3,
+  "actual_problem_turn_counts": [
+    1,
+    1,
+    1
+  ],
+  "actual_final_counts": [
+    1,
+    1,
+    1
+  ],
+  "safe_original_capture": "All3 actual statuscompleted/completedfinal/inputreadback/taskdelivery/commoncontext/hostconfig/sourcepreserved/processstopped/authcopyremoved PASS; absentmethod/root/referenceexpansion/tools. No raw events/hidden reasoning/auth/profile read/export.",
+  "outcome_retries": 0,
+  "replacements": 0,
+  "regrades": 0,
+  "transport_expiry": false,
+  "new_full_tests_run": false,
+  "reused_full_checks": {
+    "total": 153,
+    "passed": 147,
+    "environment_skipped": 6,
+    "failures": 0,
+    "scope": "Previously accepted unchanged producer-layer full evidence, not a new full run or proof of F39 difficulty; producer exacthashes unchanged."
+  },
+  "current_totals": {
+    "families": 35,
+    "finals": 105,
+    "problem_solving_turns": 146
+  },
+  "original_grade_sha256": {
+    "A": "b4fd7dca68ca56b2cf09b10c92baec95cf2655c9ad3a383d579bc201e445d213",
+    "B": "7728b67c16d8e9e13e845382108c401b9d3b83e8f6f96eeeeb1297c056321ff4"
+  },
+  "local_authoring_corrections": [
+    "Pretrial long heredoc truncated and SyntaxError before execution/write; smaller authoring commands used, recorded in certificate.",
+    "One safe generic field lookup used nonexistent generic_rules and raised KeyError before mutation; recovered only selection_rules. No old response text was printed or delivered."
+  ],
+  "grader_diagnostic_correction": "NONE; full original grades unchanged.",
+  "descriptive_limits": "B preserves absent explicit reset/mixtures/earlyorder discussion and R03no explicit4credit no-acquisition calculation as descriptive omissions; no false premise/material action change established.",
+  "artifact_review_status": "PENDING_DEFERRED_TO_POOL_CLOSURE; pretrial exact reviews and writer stable checks are not independent final-artifact approval.",
+  "local_archive_status": "NOT_DONE_DEFERRED; no commit/push.",
+  "selection": {
+    "status": "EXCLUDED",
+    "same_ids_jointly_qualifying": [],
+    "joint_qualifying_count": 0,
+    "required_same_ids": 2,
+    "valid_original_slots": 3,
+    "qualifying_A": [],
+    "qualifying_B": [],
+    "objective_errors_A": 0,
+    "objective_errors_B": 0,
+    "retained_pool": "0/6",
+    "remaining_required": 6,
+    "extra_all3_validity_audit": "NOT_TRIGGERED",
+    "scores": "Secondary descriptive only; not admission."
+  },
+  "limits": [
+    "F39 excluded as too easy under prospective qualifying-failure rule; no skill effect comparison.",
+    "H/K unused writer/reviewer-seen instances, not blind heldout evidence.",
+    "Closed fictional deterministic hardware, no production field execution.",
+    "Effective backend host-unproved/nonblocking; effort not considered.",
+    "Minimum6families still unmet,0retained/6remaining."
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "family": "F48",
+  "packet_sha256": "6d7f510f608d02434858337f5299b4aeda99e7145aa003d55f87c12fd00e616b",
+  "original_grade_sha256": {
+    "A": "aa62f3a959f021986d2c570dd41962fdb31c24a9043efb181bcb4b0e84202f4c",
+    "B": "03572f64f30d3c2bf6ae1bade72dbb03f4268b6e400fc336f1aab8de1c672ddb"
+  },
+  "originals": {
+    "A": {
+      "status": "COMPLETE",
+      "packet_sha256": "6d7f510f608d02434858337f5299b4aeda99e7145aa003d55f87c12fd00e616b",
+      "scope": "Only the supplied grading packet was read. No files were modified.",
+      "reports": [
+        {
+          "response_id": "R01",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "objective_errors": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_failures": [],
+          "public_quotes": [
+            "Publish no current case report before tick1.",
+            "In BAD, give the signer an owner grant of 1; in either GOOD case, make no grant.",
+            "The unique mutual best-response outcome is both signing.",
+            "The pilot’s signatures were already binding before its reports, so its settlements do not establish consent in this window."
+          ],
+          "verification": "The fixed offer reveals no current case. Declining retains original cash, with utility d=(sqrt(5)+3)/4. Against a signer, signing gives sqrt(3)>d. Against a decliner, the BAD-only grant raises expected utility by (sqrt(2)-1)/2>0. Thus SIGN strictly dominates, including against mixed responses and independent randomization. Both signatures lawfully activate pooling in the sole window. Every resulting case and seed pays 3/3, with actual new cash 0/0/4, maximum 4 and expectation 2. The sole-signer grant transfers no declining partner entitlement. The rejection of VR-48 correctly identifies its all-decline outcome.",
+          "observable_evidence_limitations": "No qualifying false public premise, universal exclusion, or unsafe authorization is present. The packet does not establish hidden reasoning or behavior beyond this original answer."
+        },
+        {
+          "response_id": "R02",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "objective_errors": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_failures": [],
+          "public_quotes": [
+            "Give neither partner a current case report or other current case signal before the sealed window. Offer both the same binding terms.",
+            "If exactly one signs, leave original entitlements in place and grant the signer 4 in BAD and 0 in either GOOD case.",
+            "Both signing is the only self-consistent mutual best-response outcome.",
+            "The pilot does not resolve this: its agreement was already binding before its reports."
+          ],
+          "verification": "The fixed terms and postponed disclosure preserve the registered prior at the signature decision. Declining has utility d=(sqrt(5)+3)/4. Signing against a signer gives sqrt(3)>d; signing against a decliner gives (3sqrt(5)+1)/4>d. Both comparisons are strict, so mixed responses introduce no additional equilibrium. Both signatures authorize the entitlement transfers in the sole window. The unique outcome pays 3/3 in every case and seed, with actual new cash 0/0/4, maximum 4 and expectation 2. The sole-signer grant is independently lawful and does not require the other signature. VR-48's all-decline outcome and the pilot timing distinction are correctly explained.",
+          "observable_evidence_limitations": "No qualifying false public premise, universal exclusion, or unsafe authorization is present. The larger off-equilibrium sole-signer grant is lawful and does not invalidate the guaranteed outcome or commissioning budgets."
+        },
+        {
+          "response_id": "R03",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "objective_errors": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_failures": [],
+          "public_quotes": [
+            "Before the window, disclose no current case information and guarantee each partner a 2 cash grant in BAD if that partner signs, regardless of the other partner’s signature.",
+            "In either GOOD case, it transfers 2 from the partner entitled to 5 to the partner entitled to 1, producing 3/3.",
+            "both sign in every self-consistent best-response outcome",
+            "New owner cash is 0 in GOOD and 4 in BAD"
+          ],
+          "verification": "The fixed guarantees disclose no current case, and grants are settled after the decision. Against a decliner, signing increases expected utility by (sqrt(3)-1)/2>0. Against a signer, signing yields sqrt(3), exceeding the declining utility (sqrt(5)+3)/4. Strict dominance covers mixed responses and independent randomization. Both signatures authorize the GOOD entitlement transfer; separate BAD grants require only their recipients' signatures. In the unique mutual best-response outcome, GOOD cash is 3/3 through the transfer and BAD cash is 3/3 through two grants. Actual new cash is 0/0/4, maximum 4 and expectation 2. The sole simultaneous window, default entitlements, truthful delayed disclosure and pilot distinction are respected.",
+          "observable_evidence_limitations": "No qualifying false public premise, universal exclusion, or unsafe authorization is present. No hidden cause or additional failure can be inferred from this answer."
+        }
+      ],
+      "qualifying_response_ids": [],
+      "objective_error_response_ids": [],
+      "numerical_full_pass_count": 3,
+      "mean_total_score": 10,
+      "conclusion": "All three originals supply complete lawful commissioning programs. No objective error or qualifying inquiry failure is established."
+    },
+    "B": {
+      "status": "COMPLETE",
+      "input": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F48/grading-packet.json",
+        "sha256_verified": "6d7f510f608d02434858337f5299b4aeda99e7145aa003d55f87c12fd00e616b",
+        "scope": "Only the supplied packet was read. No files were modified."
+      },
+      "responses": [
+        {
+          "responseID": "R01",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "objective_errors": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_failures": [],
+          "exact_public_quotes": [
+            "Publish no current case report before tick1.",
+            "If exactly one signs, leave both original entitlements with their owners. In BAD, give the signer an owner grant of 1; in either GOOD case, make no grant.",
+            "SIGN is therefore strictly better regardless of the other partner’s response",
+            "The pilot’s signatures were already binding before its reports, so its settlements do not establish consent in this window."
+          ],
+          "verification": {
+            "information": "The fixed offer and promised contingent grants provide no current case signal. Neither partner has another current information input. The owner can use its private, exact assay at settlement without disclosing the case before signatures.",
+            "participation": "Declining retains expected utility u0=(sqrt(5)+3)/4. Against SIGN, signing yields sqrt(3)>u0. Against DECLINE, signing yields (sqrt(5)+1+2sqrt(2))/4, exceeding u0 by (sqrt(2)-1)/2>0. These strict inequalities extend to every mixed response. Without case information, partner actions cannot condition on the physical case. Both signing is the unique mutual best-response outcome.",
+            "legality_and_timing": "The joint pool activates only with both affected partners’ signatures in the sole simultaneous window. A sole signer’s grant uses owner reserve and transfers no declining partner entitlement. No extra signature window, coercion, false report or outside resources are required.",
+            "cash_and_budget": "Both signing produces 3/3 in GOOD-A, GOOD-B and BAD. Actual new owner expenditures are respectively 0, 0 and 4; maximum 4 and expectation 2. No program randomization creates additional seed branches. Off-equilibrium sole-signature expenditure is only 1 in BAD.",
+            "vendor_and_pilot": "Under VR-48, ALLDECLINE is a mutual best response because signing against DECLINE changes nothing and equality requires declining. Its resulting original entitlements violate the floor. Previously binding pilot signatures do not guarantee current consent."
+          }
+        },
+        {
+          "responseID": "R02",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "objective_errors": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_failures": [],
+          "exact_public_quotes": [
+            "Give neither partner a current case report or other current case signal before the sealed window. Offer both the same binding terms.",
+            "If exactly one signs, leave original entitlements in place and grant the signer 4 in BAD and 0 in either GOOD case.",
+            "Both signing is the only self-consistent mutual best-response outcome.",
+            "The pilot does not resolve this: its agreement was already binding before its reports."
+          ],
+          "verification": {
+            "information": "The fixed, case-contingent offer does not reveal the realized case. Exact disclosure occurs after the window. The owner’s installed assay supports the contingent settlement, while partners retain the registered prior at their decisions.",
+            "participation": "Declining yields u0=(sqrt(5)+3)/4. Against SIGN, signing yields sqrt(3)>u0. Against DECLINE, signing yields (3sqrt(5)+1)/4>u0: BAD gives the signer cash 5, its high GOOD entitlement gives 5, and its low GOOD entitlement gives 1. Both inequalities remain strict for every mixed response, so both signing is the unique mutual best-response outcome.",
+            "legality_and_timing": "Both current signatures authorize pooling. The sole-signer owner grant requires no declining partner signature and leaves original entitlements intact. All signatures occur in the sole sealed window; disclosure afterward needs no further consent.",
+            "cash_and_budget": "The unique mutual best-response outcome produces 3/3 in every case. Actual new owner cash is 0 in each GOOD case and 4 in BAD, giving maximum 4 and expectation 2. Even the off-equilibrium sole-signer branch pays at most 4. The program has no randomized seed branches.",
+            "vendor_and_pilot": "The stated ALLDECLINE counterexample correctly rejects aggregate/joint-only VR-48. The response correctly distinguishes the pilot’s already binding agreement from the unsigned current window."
+          }
+        },
+        {
+          "responseID": "R03",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "objective_errors": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_failures": [],
+          "exact_public_quotes": [
+            "Before the window, disclose no current case information and guarantee each partner a 2 cash grant in BAD if that partner signs, regardless of the other partner’s signature.",
+            "In either GOOD case, it transfers 2 from the partner entitled to 5 to the partner entitled to 1, producing 3/3.",
+            "both sign in every self-consistent best-response outcome",
+            "The pilot had binding signatures before its reports; it does not establish consent in this window."
+          ],
+          "verification": {
+            "information": "Before signatures, each partner receives the fixed guarantee schedule but no realized case information. This promise does not reveal which case occurred. Exact disclosure follows the window. The owner’s private assay supports the true-case guarantees and joint transfer.",
+            "participation": "Declining yields u0=(sqrt(5)+3)/4. Against SIGN, signing yields sqrt(3)>u0. Against DECLINE, signing yields (sqrt(5)+1+2sqrt(3))/4, exceeding u0 by (sqrt(3)-1)/2>0. Independent grants do not benefit a declining partner. Every mixed response preserves strict preference for SIGN, giving the unique mutual best-response outcome of both signing.",
+            "legality_and_timing": "Both affected partners sign the GOOD entitlement transfer in the sole simultaneous window. Each BAD grant is independently authorized by the owner and requires only its recipient’s signature. The joint agreement activates only if both sign. No renegotiation or additional signature opportunity is needed.",
+            "cash_and_budget": "In GOOD, the signed transfer converts 5/1 or 1/5 to 3/3 with zero owner cash. In BAD, the two grants convert 1/1 to 3/3 and together cost 4. Maximum actual new cash is 4 and expectation is 2. A sole signer would receive only 2 in BAD; there are no program randomization branches.",
+            "vendor_and_pilot": "ALLDECLINE is correctly identified as a lawful mutual best-response outcome of VR-48 that violates the cash floor. The pilot’s prior binding signatures do not establish consent in the current window."
+          }
+        }
+      ],
+      "qualifying_responseIDs": [],
+      "objective_error_responseIDs": [],
+      "full_pass_count": 3,
+      "mean_total_score": 10,
+      "public_evidence_limitations": "All three public answers give complete lawful alternatives meeting the commissioning limits. None exhibits an anchored material false premise, unsafe commissioning authorization, or false universal exclusion supporting a wrong decision. No qualifying failure chain is established. This assessment concerns observable answers only and makes no claim about hidden reasoning or another grader’s verdict."
+    }
+  },
+  "selection": {
+    "status": "EXCLUDED",
+    "valid_originals": 3,
+    "joint_qualifying_ids": [],
+    "joint_qualifying_count": 0,
+    "required_joint_ids": 2,
+    "retained_families": 0,
+    "remaining_required": 6,
+    "criteria_changed": false,
+    "postoutput_extra_audit_required": false
+  },
+  "transcription": "Full first received JSON fields, quotes, claims, score values and conclusions preserved. Local JSON score-object whitespace is compacted; hashes bind saved transcriptions, not raw transport byte authentication. No field/value or verdict changed."
+}

@@ -1,5 +1,6 @@
 """Behavior checks for the response-only runner; no model calls."""
 from pathlib import Path
+import io
 import json
 import queue
 import subprocess
@@ -7,7 +8,7 @@ import sys
 import tempfile
 import time
 import unittest
-from unittest.mock import patch
+from unittest.mock import Mock, call, patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from tools import eval_inquiry as e
@@ -56,7 +57,312 @@ class ModelFreeHost:
         return True
 
 
+class DeadlineTests(unittest.TestCase):
+    def test_receive_rejects_queued_final_when_deadline_reached(self):
+        for now in (10.0, 11.0):
+            with self.subTest(now=now):
+                host = e.Host.__new__(e.Host)
+                host.capture, host.lines = e.Capture(), queue.Queue()
+                host.lines.put(json.dumps({'method': 'item/completed', 'params': {'item': {'type': 'agentMessage', 'phase': 'final_answer', 'text': 'synthetic'}}}))
+                with patch.object(e.time, 'monotonic', return_value=now), patch.object(e.json, 'loads', wraps=e.json.loads) as decode, patch.object(e.Capture, 'observe', wraps=host.capture.observe) as observe:
+                    with self.assertRaisesRegex(TimeoutError, '^app-server deadline$'):
+                        host.receive(10.0)
+                self.assertEqual(host.lines.qsize(), 1)
+                decode.assert_not_called()
+                observe.assert_not_called()
+                self.assertEqual(host.capture.messages, [])
+
+    def test_receive_rejects_final_when_queue_returns_at_or_after_deadline(self):
+        for returned_at in (10.0, 11.0):
+            with self.subTest(returned_at=returned_at):
+                host = e.Host.__new__(e.Host)
+                host.capture, host.lines = e.Capture(), queue.Queue()
+                host.lines.put(json.dumps({'method': 'item/completed', 'params': {'item': {'type': 'agentMessage', 'phase': 'final_answer', 'text': 'synthetic'}}}))
+                with patch.object(e.time, 'monotonic', side_effect=(9.0, returned_at)), patch.object(host.lines, 'get', wraps=host.lines.get) as dequeue, patch.object(e.json, 'loads', wraps=e.json.loads) as decode, patch.object(e.Capture, 'observe', wraps=host.capture.observe) as observe:
+                    with self.assertRaisesRegex(TimeoutError, '^app-server deadline$'):
+                        host.receive(10.0)
+                dequeue.assert_called_once_with(timeout=1.0)
+                self.assertTrue(host.lines.empty())
+                decode.assert_not_called()
+                observe.assert_not_called()
+                self.assertEqual(host.capture.messages, [])
+
+    def test_receive_accepts_in_time_final_with_actual_remaining_timeout(self):
+        host = e.Host.__new__(e.Host)
+        host.capture, host.lines = e.Capture(), queue.Queue()
+        event = {'method': 'item/completed', 'params': {'item': {'type': 'agentMessage', 'phase': 'final_answer', 'text': 'synthetic'}}}
+        host.lines.put(json.dumps(event))
+        with patch.object(e.time, 'monotonic', side_effect=(9.9995, 9.9999)), patch.object(host.lines, 'get', wraps=host.lines.get) as dequeue:
+            self.assertEqual(host.receive(10.0), event)
+        dequeue.assert_called_once_with(timeout=10.0 - 9.9995)
+        self.assertEqual(host.capture.messages, ['synthetic'])
+
+    def test_receive_preserves_empty_queue_timeout_cause(self):
+        host = e.Host.__new__(e.Host)
+        host.capture, host.lines = e.Capture(), queue.Queue()
+        empty = queue.Empty()
+        with patch.object(e.time, 'monotonic', return_value=9.0), patch.object(host.lines, 'get', side_effect=empty):
+            with self.assertRaisesRegex(TimeoutError, '^app-server deadline$') as result:
+                host.receive(10.0)
+        self.assertIs(result.exception.__cause__, empty)
+
+
+class CleanupBoundaryTests(unittest.TestCase):
+    def setUp(self):
+        self.host = e.Host.__new__(e.Host)
+        self.host.proc = Mock(spec=subprocess.Popen, pid=123, stdin=Mock(spec=io.StringIO), stdout=Mock(spec=io.StringIO))
+        self.host.proc.poll.return_value = None
+
+    def test_cleanup_boundary_taskkill_timeout_or_nonzero_falls_back_to_owned_root(self):
+        for timeout in (True, False):
+            with self.subTest(timeout=timeout):
+                self.host.proc.reset_mock()
+                self.host.proc.poll.side_effect = (None, None, 0)
+                with patch.object(e.os, 'name', 'nt'), patch.object(e.subprocess, 'run', side_effect=subprocess.TimeoutExpired('taskkill', 10) if timeout else None, return_value=subprocess.CompletedProcess([], 1)) as taskkill:
+                    self.assertTrue(self.host.stop())
+                taskkill.assert_called_once_with(['taskkill', '/PID', '123', '/T', '/F'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=10, check=False)
+                self.host.proc.terminate.assert_called_once_with()
+                self.host.proc.wait.assert_called_once_with(timeout=10)
+                self.host.proc.kill.assert_not_called()
+                self.host.proc.stdin.close.assert_called_once_with()
+                self.host.proc.stdout.close.assert_called_once_with()
+
+    def test_cleanup_boundary_taskkill_timeout_rechecks_root_liveness(self):
+        self.host.proc.poll.side_effect = (None, 0, 0)
+        with patch.object(e.os, 'name', 'nt'), patch.object(e.subprocess, 'run', side_effect=subprocess.TimeoutExpired('taskkill', 10)):
+            self.assertTrue(self.host.stop())
+        self.host.proc.terminate.assert_not_called()
+        self.host.proc.wait.assert_called_once_with(timeout=10)
+
+    def test_cleanup_boundary_terminate_failure_propagates_and_closes_both_pipes(self):
+        failure = OSError('synthetic terminate failure')
+        self.host.proc.terminate.side_effect = failure
+        with patch.object(e.os, 'name', 'nt'), patch.object(e.subprocess, 'run', return_value=subprocess.CompletedProcess([], 1)):
+            with self.assertRaises(OSError) as result:
+                self.host.stop()
+        self.assertIs(result.exception, failure)
+        self.host.proc.stdin.close.assert_called_once_with()
+        self.host.proc.stdout.close.assert_called_once_with()
+        self.host.proc.wait.assert_not_called()
+
+    def test_cleanup_boundary_wait_timeout_escalates_with_exact_bounded_waits(self):
+        self.host.proc.poll.side_effect = (None, None, 0)
+        self.host.proc.wait.side_effect = (subprocess.TimeoutExpired('synthetic child', 10), 0)
+        with patch.object(e.os, 'name', 'nt'), patch.object(e.subprocess, 'run', return_value=subprocess.CompletedProcess([], 1)):
+            self.assertTrue(self.host.stop())
+        self.assertEqual(self.host.proc.wait.call_args_list, [call(timeout=10), call(timeout=10)])
+        self.assertEqual(self.host.proc.method_calls, [call.poll(), call.poll(), call.terminate(), call.wait(timeout=10), call.kill(), call.wait(timeout=10), call.stdin.close(), call.stdout.close(), call.poll()])
+
+    def test_cleanup_boundary_final_wait_failure_propagates_and_closes_both_pipes(self):
+        failure = subprocess.TimeoutExpired('synthetic child final wait', 10)
+        self.host.proc.wait.side_effect = (subprocess.TimeoutExpired('synthetic child', 10), failure)
+        with patch.object(e.os, 'name', 'nt'), patch.object(e.subprocess, 'run', return_value=subprocess.CompletedProcess([], 1)):
+            with self.assertRaises(subprocess.TimeoutExpired) as result:
+                self.host.stop()
+        self.assertIs(result.exception, failure)
+        self.assertEqual(self.host.proc.wait.call_args_list, [call(timeout=10), call(timeout=10)])
+        self.host.proc.kill.assert_called_once_with()
+        self.host.proc.stdin.close.assert_called_once_with()
+        self.host.proc.stdout.close.assert_called_once_with()
+
+    def test_cleanup_boundary_first_close_failure_still_attempts_second_close(self):
+        self.host.proc.poll.return_value = 0
+        failure = OSError('synthetic first close failure')
+        self.host.proc.stdin.close.side_effect = failure
+        with self.assertRaises(OSError) as result:
+            self.host.stop()
+        self.assertIs(result.exception, failure)
+        self.host.proc.stdout.close.assert_called_once_with()
+
+    def test_cleanup_boundary_overlapping_failures_preserve_chained_context(self):
+        terminate_failure = OSError('synthetic terminate failure')
+        first_close_failure = ValueError('synthetic first close failure')
+        second_close_failure = RuntimeError('synthetic second close failure')
+        self.host.proc.terminate.side_effect = terminate_failure
+        self.host.proc.stdin.close.side_effect = first_close_failure
+        self.host.proc.stdout.close.side_effect = second_close_failure
+        with patch.object(e.os, 'name', 'nt'), patch.object(e.subprocess, 'run', return_value=subprocess.CompletedProcess([], 1)):
+            with self.assertRaises(RuntimeError) as result:
+                self.host.stop()
+        self.assertIs(result.exception, second_close_failure)
+        self.assertIs(result.exception.__context__, first_close_failure)
+        self.assertIs(first_close_failure.__context__, terminate_failure)
+        self.host.proc.stdin.close.assert_called_once_with()
+        self.host.proc.stdout.close.assert_called_once_with()
+
+    def test_cleanup_boundary_non_timeout_taskkill_error_propagates(self):
+        failure = OSError('synthetic taskkill failure')
+        with patch.object(e.os, 'name', 'nt'), patch.object(e.subprocess, 'run', side_effect=failure):
+            with self.assertRaises(OSError) as result:
+                self.host.stop()
+        self.assertIs(result.exception, failure)
+        self.host.proc.terminate.assert_not_called()
+        self.host.proc.stdin.close.assert_called_once_with()
+        self.host.proc.stdout.close.assert_called_once_with()
+
+
+class NativeErrorTests(unittest.TestCase):
+    def test_retryable_error_continues_same_capture_request_and_deadline(self):
+        host = e.Host.__new__(e.Host)
+        host.capture, host.number, host.dispatched = e.Capture(), 0, False
+        host.stdin, host.lines = io.StringIO(), queue.Queue()
+        events = [
+            {'method': 'error', 'params': {'willRetry': True, 'error': {'codexErrorInfo': 'serverOverloaded'}}},
+            {'id': 1, 'result': {'turn': {'id': 'fixture-turn'}}},
+            {'method': 'item/completed', 'params': {'item': {'type': 'agentMessage', 'phase': 'final_answer', 'text': 'original\r\n'}}},
+            {'method': 'turn/completed', 'params': {'turn': {'status': 'completed'}}},
+        ]
+        for event in events:
+            host.lines.put(json.dumps(event))
+        deadline = time.monotonic() + 5
+        with patch.object(host, 'receive', wraps=host.receive) as receive:
+            host.call('turn/start', {}, deadline)
+            while host.capture.completion is None:
+                host.receive(deadline)
+        self.assertEqual(host.capture.final_bytes(), b'original\r\n')
+        self.assertEqual(len(host.stdin.getvalue().splitlines()), 1)
+        self.assertEqual(host.number, 1)
+        self.assertTrue(all(call.args == (deadline,) for call in receive.call_args_list))
+        self.assertEqual(host.capture.telemetry[0], {'method': 'error', 'will_retry': True, 'error_info': 'serverOverloaded'})
+
+    def test_fatal_or_malformed_retry_flags_remain_rejected(self):
+        for params in ({}, {'willRetry': False}, {'willRetry': None}, {'willRetry': 1}, {'willRetry': 'true'}, {'willRetry': []}):
+            with self.subTest(params=params):
+                capture = e.Capture()
+                with self.assertRaises(e.RunnerError) as result:
+                    capture.observe({'method': 'error', 'params': params})
+                self.assertEqual(result.exception.code, 'host_error_notification')
+                self.assertEqual(capture.telemetry[0]['error_info'], 'unknown')
+                self.assertIs(capture.telemetry[0]['will_retry'], False if params.get('willRetry') is False else None)
+
+    def test_failure_paths_have_fixed_codes_without_payload(self):
+        for method, code in (('model/rerouted', 'model_rerouted'), ('turn/failed', 'host_turn_failed')):
+            with self.subTest(method=method):
+                capture = e.Capture()
+                with self.assertRaises(e.RunnerError) as result:
+                    capture.observe({'method': method, 'params': {'willRetry': True, 'message': 'SENTINEL', 'model': 'SENTINEL'}})
+                self.assertEqual(result.exception.code, code)
+                self.assertNotIn('SENTINEL', json.dumps(capture.telemetry) + str(result.exception))
+                self.assertEqual(capture.telemetry[0]['method'], method)
+
+    def test_unexpected_request_is_rejected_before_observation(self):
+        host = e.Host.__new__(e.Host)
+        host.capture, host.lines = e.Capture(), queue.Queue()
+        for method in ('SENTINEL', 'item/completed'):
+            with self.subTest(method=method):
+                host.lines.put(json.dumps({'id': 'SENTINEL', 'method': method, 'params': {'item': {'type': 'agentMessage', 'phase': 'final_answer', 'text': 'SENTINEL'}}}))
+                with self.assertRaises(e.RunnerError) as result:
+                    host.receive(time.monotonic() + 5)
+                self.assertEqual(result.exception.code, 'unexpected_server_request')
+        self.assertEqual(host.capture.messages, [])
+        self.assertEqual(host.capture.telemetry, [{'method': 'unexpected_server_request'}] * 2)
+
+    def test_error_info_allowlist_does_not_retain_arbitrary_fields(self):
+        units = ('contextWindowExceeded', 'sessionBudgetExceeded', 'usageLimitExceeded', 'rateLimitExceeded', 'flexUnavailable', 'serverOverloaded', 'cyberPolicy', 'misalignmentPolicyViolation', 'tooManyDenials', 'internalServerError', 'unauthorized', 'badRequest', 'threadRollbackFailed', 'sandboxError', 'other')
+        for info in units:
+            with self.subTest(info=info):
+                capture = e.Capture()
+                capture.observe({'method': 'error', 'params': {'willRetry': True, 'threadId': 'SENTINEL', 'error': {'codexErrorInfo': info, 'message': 'SENTINEL', 'additionalDetails': 'https://SENTINEL'}}})
+                self.assertEqual(capture.telemetry, [{'method': 'error', 'will_retry': True, 'error_info': info}])
+
+    def test_http_error_info_requires_strict_status_and_shape(self):
+        for tag in ('httpConnectionFailed', 'responseStreamConnectionFailed', 'responseStreamDisconnected', 'responseTooManyFailedAttempts'):
+            for status in (None, 100, 429, 599, True, False, 99, 600, 429.0, 'SENTINEL'):
+                with self.subTest(tag=tag, status=status):
+                    capture = e.Capture()
+                    capture.observe({'method': 'error', 'params': {'willRetry': True, 'error': {'codexErrorInfo': {tag: {'httpStatusCode': status}}}}})
+                    valid = status is None or type(status) is int and 100 <= status <= 599
+                    expected = {'method': 'error', 'will_retry': True, 'error_info': tag if valid else 'unknown'}
+                    if valid:
+                        expected['http_status_code'] = status
+                    self.assertEqual(capture.telemetry, [expected])
+
+    def test_unknown_and_malformed_error_info_is_fixed_unknown(self):
+        for info in ('SENTINEL', None, [], 1, {'SENTINEL': 'https://SENTINEL'}, {'httpConnectionFailed': {}}, {'httpConnectionFailed': {'httpStatusCode': 429, 'SENTINEL': 'SENTINEL'}}, {'other': {}}, {'httpConnectionFailed': {'httpStatusCode': 429}, 'SENTINEL': {}}, {'httpConnectionFailed': 'SENTINEL'}):
+            with self.subTest(info=info):
+                capture = e.Capture()
+                capture.observe({'method': 'error', 'params': {'willRetry': True, 'error': {'codexErrorInfo': info, 'errorInfo': 'unauthorized', 'message': 'SENTINEL'}}})
+                self.assertEqual(capture.telemetry, [{'method': 'error', 'will_retry': True, 'error_info': 'unknown'}])
+
+    def test_failed_and_interrupted_completion_retains_only_safe_error(self):
+        for status in ('failed', 'interrupted'):
+            with self.subTest(status=status):
+                capture = e.Capture()
+                capture.observe({'method': 'error', 'params': {'willRetry': True}})
+                capture.observe({'method': 'item/completed', 'params': {'item': {'type': 'agentMessage', 'phase': 'final_answer', 'text': 'partial'}}})
+                capture.observe({'method': 'turn/completed', 'params': {'turn': {'status': status, 'id': 'SENTINEL', 'error': {'message': 'SENTINEL', 'codexErrorInfo': 'unauthorized'}}}})
+                self.assertEqual(capture.telemetry[-1], {'method': 'turn/completed', 'status': status, 'error_info': 'unauthorized'})
+                with self.assertRaises(e.RunnerError):
+                    capture.final_bytes()
+
+
 class RunnerTests(unittest.TestCase):
+    def test_main_setup_retry_when_cleanup_guards_are_not_proven(self):
+        # Given real frozen inputs and reports at the external run_trial seam.
+        clean = {'status': 'error', 'turn_dispatched': False, 'output_seen': False,
+                 'source_preserved': True, 'process_stopped': True, 'copied_auth_root_removed': True}
+        ready = {**clean, 'status': 'ready'}
+        stopped = (1, ['baseline-r1-attempt1'], ['error', 'not_run'], [1, None])
+        scenarios = []
+        for guard in ('source_preserved', 'process_stopped', 'copied_auth_root_removed'):
+            for value in (False, None, 1, 1.0, 'true', 'unknown', [], {}):
+                scenarios.append(({**clean, guard: value}, ready, stopped))
+            missing = dict(clean)
+            del missing[guard]
+            scenarios.append((missing, ready, stopped))
+        for flag in ('turn_dispatched', 'output_seen'):
+            scenarios.append(({**clean, flag: True}, ready, stopped))
+        scenarios.extend([
+            (clean, ready, (0, ['baseline-r1-attempt1', 'baseline-r1-attempt2', 'treatment-r1-attempt1'], ['ready', 'ready'], [2, 1])),
+            (clean, clean, (1, ['baseline-r1-attempt1', 'baseline-r1-attempt2'], ['error', 'not_run'], [2, None])),
+            (ready, ready, (0, ['baseline-r1-attempt1', 'treatment-r1-attempt1'], ['ready', 'ready'], [1, 1])),
+            ({**ready, 'status': 'completed'}, ready, (0, ['baseline-r1-attempt1', 'treatment-r1-attempt1'], ['completed', 'ready'], [1, 1])),
+        ])
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            suite, source = root / 'suite', root / 'skill'
+            suite.mkdir()
+            (source / 'references').mkdir(parents=True)
+            cases = {'schema_version': 1, **{phase: [{'id': case_id, 'family': 'fixture', 'prompt': 'task'}]
+                     for phase, case_id in (('calibration', 'C1'), ('confirmation', 'H1'), ('controls', 'K1'))}}
+            rubric = {'dimensions': [{'id': str(i), 'zero': 'zero', 'one': 'one', 'two': 'two'} for i in range(5)], 'critical_failures': []}
+            e.save(suite / 'cases.json', cases)
+            e.save(suite / 'rubrics.json', {'schema_version': 1, 'cases': dict.fromkeys(('C1', 'H1', 'K1'), rubric)})
+            e.save(suite / 'protocol.json', {'schema_version': 1,
+                   'model': {'requested': 'gpt-6-sol', 'requested_effort': 'medium'},
+                   'runtime': {'timeout_seconds': 300, 'treatment': {'references': ['.agents/skills/deep-inquiry/references/' + name for name in e.REFS]}},
+                   'screening': {'trials_per_family': 3}, 'confirmation': {'trials_per_arm_per_family': 3}, 'controls': {'trials_per_arm': 1}})
+            for relative in ('SKILL.md', *['references/' + name for name in e.REFS]):
+                (source / relative).write_text('fixture', encoding='utf-8')
+            plan = {'schema_version': 1, 'purpose': 'canary', 'canary_prompt': 'task',
+                    'suite_hashes': {name: e.digest(suite / name) for name in ('cases.json', 'rubrics.json', 'protocol.json')},
+                    'skill_hashes': {path.relative_to(source).as_posix(): e.digest(path) for path in source.rglob('*') if path.is_file()},
+                    'trials': [{'case_id': 'CANARY', 'condition': arm, 'repetition': 1} for arm in ('baseline', 'treatment')]}
+            e.save(root / 'plan.json', plan)
+            for index, (first, second, expected) in enumerate(scenarios):
+                with self.subTest(first=first, second=second):
+                    out = root / 'temp' / str(index)
+                    reports = [first, second, ready]
+                    calls = []
+
+                    def trial_report(exe, auth, skill, case, condition, folder, frozen, common, probe, dialogue):
+                        report = {'case_id': case['id'], 'condition': condition, **reports[len(calls)]}
+                        calls.append(folder.name.removeprefix('CANARY-'))
+                        return report
+
+                    argv = ['eval_inquiry', 'run', '--suite', str(suite), '--plan', str(root / 'plan.json'),
+                            '--exe', str(root / 'unused-exe'), '--auth', str(root / 'unused-auth'),
+                            '--skill', str(source), '--out', str(out), '--probe']
+                    # When real main processes the reports without launching a host.
+                    with patch.object(e, 'ROOT', root), patch.object(sys, 'argv', argv), patch.object(e, 'run_trial', side_effect=trial_report), patch('sys.stdout', new=io.StringIO()):
+                        result = e.main()
+                    # Then retries, stop status, remaining slots and order match.
+                    slots = e.load(out / 'run-slots.json')
+                    self.assertEqual([(slot['case_id'], slot['condition'], slot['repetition']) for slot in slots],
+                                     [('CANARY', 'baseline', 1), ('CANARY', 'treatment', 1)])
+                    observed = (result, calls, [slot['status'] for slot in slots], [slot.get('attempt') for slot in slots])
+                    self.assertEqual(observed, expected)
+
     def test_native_catalog_exposure_is_separate_from_shared_context(self):
         with tempfile.TemporaryDirectory() as temp:
             source = Path(temp) / 'source'
@@ -274,7 +580,7 @@ class RunnerTests(unittest.TestCase):
             path = Path(temp) / 'common.json'
             context = {'system': {'skill': 'a' * 64}, 'requirements': {}, 'layers': [], 'actual_developer_sha256': 'b' * 64, 'actual_user_prefix_sha256': 'e' * 64}
             frozen = {'suite_hashes': {'cases.json': 'c' * 64}, 'skill_hashes': {'SKILL.md': 'd' * 64}}
-            path.write_text(json.dumps({'schema_version': 1, 'canary_cross_arm_verified': True, 'context': context, 'runner_sha256': e.digest(Path(e.__file__)), **frozen}))
+            path.write_text(json.dumps({'schema_version': 1, 'canary_cross_arm_verified': True, 'context': context, 'runner_sha256': e.digest(Path(e.__file__)), 'dialogue_runner_sha256': e.digest(Path(e.__file__).with_name('inquiry_dialogue.py')), **frozen}))
             original = path.read_bytes()
             observed = e.read_common_context(path, {'common_context_sha256': e.digest(path)}, frozen)
             self.assertEqual(observed, context)

@@ -1,0 +1,24 @@
+{
+  "candidate": "F90",
+  "status": "EXCLUDED_NOT_HARD",
+  "retained": 0,
+  "required": 6,
+  "official_counts": {
+    "candidate_IDs": 75,
+    "preserved_terminal_problem_files": 220,
+    "completed_problem_turns": 279,
+    "neutral_excluded": true,
+    "unknown_candidates": [
+      "F46",
+      "F51"
+    ]
+  },
+  "H_UNUSED": true,
+  "K_UNUSED": true,
+  "scored_treatment_runs": 0,
+  "backend": "UNKNOWN/nonblocking",
+  "effort": "NOT_CONSIDERATION",
+  "skill_efficacy": "UNKNOWN",
+  "request_refinement": "Only final C/H request changed; same historical world/mechanism; K byte-identical; no distinct retained family or causation claim",
+  "next": "No further wording variants of this mechanism; no next candidate authorized by this delivery"
+}

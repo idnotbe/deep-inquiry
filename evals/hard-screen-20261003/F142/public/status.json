@@ -1,0 +1,99 @@
+{
+  "candidate": "F142_NATIVE_V1",
+  "outcome": "EXCLUDED_NOT_HARD",
+  "delivery_state": "LOCAL_RECORD_FROZEN_AWAITING_ROOT_READBACK_AND_INDEPENDENT_DELIVERY_REVIEW",
+  "grades": {
+    "A": {
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "objective_errors": 0,
+      "qualifying_failures": 0
+    },
+    "B": {
+      "scores": [
+        10,
+        10,
+        10
+      ],
+      "objective_errors": 0,
+      "qualifying_failures": 0
+    },
+    "joint_qualifying_response_ids": [],
+    "exact_support_quotes": 20
+  },
+  "retained": {
+    "before": 0,
+    "after": 0,
+    "target": 6
+  },
+  "originals": 3,
+  "retries": 0,
+  "replacements": 0,
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "neutral_treatment_calls": 0,
+  "route": {
+    "kind": "native",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "actual_backend": "UNVERIFIED",
+    "host_injected_context": "UNVERIFIED",
+    "complete_tool_absence": "UNVERIFIED",
+    "complete_tool_telemetry": "UNAVAILABLE",
+    "old_cli_qualification_claim": false,
+    "effort_used_for_admission": false
+  },
+  "heldout": {
+    "writer_reviewer_seen": true,
+    "used_in_trials": false,
+    "used_in_grading": false
+  },
+  "graders": {
+    "independent_first_judgments": 2,
+    "first_judgments_preserved": true,
+    "packet_sha256": "ec593b03b830f79afe958cfd136619e7fdd3dd8b5729d99ee0fab82e2da9301e",
+    "host_injected_context": "UNVERIFIED"
+  },
+  "mechanism": {
+    "observed": "All three originals constructed actuator-only physical signaling policies achieving zero residual and excluded existing equipment with a universal two-input argument.",
+    "integer_center_originals": [
+      2,
+      3
+    ],
+    "four_center_original": 1,
+    "historical_false_comparison_repeated": false,
+    "empirically_hard_here": false,
+    "mechanism_wide_difficulty": "NOT_ESTABLISHED",
+    "catalogue_wide_uniqueness": "NOT_ESTABLISHED",
+    "uniqueness_required_for_this_exclusion": false
+  },
+  "source_validity": {
+    "A": "APPROVE",
+    "B": "APPROVE",
+    "blocking_findings": [],
+    "advisories": [
+      "MEDIUM: auxiliary literal prose assertion in certificate.py:96-99",
+      "LOW: q/clamp type annotations and PEP 723 usage metadata missing"
+    ],
+    "frozen_sources_changed": false
+  },
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "packet_preparation": {
+    "failed_observations": 5,
+    "validation_rerun": "PASS",
+    "packet_changed_after_initial_creation": false,
+    "packet_changed_after_final_validation": false,
+    "oversized_rejection_receipt": "LIMITED_ERROR_AND_EFFECT_ONLY_NO_COMPLETE_REJECTED_INVOCATION",
+    "model_retry": false
+  },
+  "artifacts": {
+    "evidence": "evals/hard-screen-20261003/F142/public/evidence.json",
+    "manifest": "temp/hard-screen-20261003/worker/F142/final/manifest.json",
+    "actual_verification": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json"
+  }
+}

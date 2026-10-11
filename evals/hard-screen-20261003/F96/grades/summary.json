@@ -1,0 +1,213 @@
+{
+  "status": "MECHANICAL_SYNTHESIS_ROOT_FINAL_ACCEPTED",
+  "proposed_classification": "EXCLUDED_NOT_HARD",
+  "joint_qualifying_ids": [],
+  "required_same_joint_ids": 2,
+  "extra_all_three_validity_audit_required": false,
+  "grades": [
+    {
+      "reviewer": 1,
+      "source": "blind-FIRST-1.md",
+      "rows": [
+        {
+          "anonymous_id": "S17",
+          "scores": {
+            "decision": 2,
+            "response": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "numerical_full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "surplus_presentation_cells": []
+        },
+        {
+          "anonymous_id": "S52",
+          "scores": {
+            "decision": 2,
+            "response": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "numerical_full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "surplus_presentation_cells": []
+        },
+        {
+          "anonymous_id": "S86",
+          "scores": {
+            "decision": 2,
+            "response": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "numerical_full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "surplus_presentation_cells": []
+        }
+      ],
+      "qualifying_ids": [],
+      "numerical_full_pass_ids": [
+        "S17",
+        "S52",
+        "S86"
+      ],
+      "numerical_full_pass_count": 3,
+      "mean_total": 10,
+      "objective_decision_error_ids": []
+    },
+    {
+      "reviewer": 2,
+      "source": "blind-FIRST-2.md",
+      "rows": [
+        {
+          "anonymous_id": "S17",
+          "scores": {
+            "decision": 2,
+            "response": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "numerical_full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "surplus_presentation_cells": [
+            2
+          ]
+        },
+        {
+          "anonymous_id": "S52",
+          "scores": {
+            "decision": 2,
+            "response": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "numerical_full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "surplus_presentation_cells": [
+            2
+          ]
+        },
+        {
+          "anonymous_id": "S86",
+          "scores": {
+            "decision": 2,
+            "response": 2,
+            "programme": 2,
+            "constraints": 2,
+            "support": 2
+          },
+          "total": 10,
+          "numerical_full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "surplus_presentation_cells": [
+            2
+          ]
+        }
+      ],
+      "qualifying_ids": [],
+      "numerical_full_pass_ids": [
+        "S17",
+        "S52",
+        "S86"
+      ],
+      "numerical_full_pass_count": 3,
+      "mean_total": 10,
+      "objective_decision_error_ids": []
+    }
+  ],
+  "first2_presentation_note": "Each FIRST2 table row contains one surplus literal2 column. Full FIRST remains byte-exact. Explicit total10, full-pass IDs, mean10 and false error/failure fields are unequivocal; no regrade or score adjustment.",
+  "no_regrade": true,
+  "no_reviewer_replacement": true,
+  "criterion_changes": 0,
+  "full_FIRSTs": [
+    {
+      "path": "evals/hard-screen-20261003/F96/grades/FIRST-1.md",
+      "bytes": 5952,
+      "sha256": "865467f1c64f2124210eba4450c19ac5fc9cf92d34f1f111fdbfbb3e8388d116"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F96/grades/FIRST-2.md",
+      "bytes": 4717,
+      "sha256": "25142f14944f00d2bc839d2fb1f8c82945416ba2324151edf8e6660d14e16eea"
+    }
+  ],
+  "mapping_after_both_full_FIRSTs_saved": [
+    {
+      "repetition": 1,
+      "anonymous_id": "S17",
+      "public": {
+        "path": "evals/hard-screen-20261003/F96/responses/r1.txt",
+        "bytes": 1203,
+        "sha256": "fd38f2ac286619b7c15d49f66c5580f0a586c5267d19849174153dd5ee99f425"
+      },
+      "private_original": {
+        "path": "temp/hard-screen-20261003/worker/F96/original/F96_C-baseline-r1-attempt1/final.txt",
+        "bytes": 1203,
+        "sha256": "fd38f2ac286619b7c15d49f66c5580f0a586c5267d19849174153dd5ee99f425"
+      },
+      "packet_original_bytes_identical": true
+    },
+    {
+      "repetition": 2,
+      "anonymous_id": "S86",
+      "public": {
+        "path": "evals/hard-screen-20261003/F96/responses/r2.txt",
+        "bytes": 1284,
+        "sha256": "ad5484eb8f54093f6ff94a0fc0d637a6d0c839392b0e6c40cb09ad5b5aa770dd"
+      },
+      "private_original": {
+        "path": "temp/hard-screen-20261003/worker/F96/original/F96_C-baseline-r2-attempt1/final.txt",
+        "bytes": 1284,
+        "sha256": "ad5484eb8f54093f6ff94a0fc0d637a6d0c839392b0e6c40cb09ad5b5aa770dd"
+      },
+      "packet_original_bytes_identical": true
+    },
+    {
+      "repetition": 3,
+      "anonymous_id": "S52",
+      "public": {
+        "path": "evals/hard-screen-20261003/F96/responses/r3.txt",
+        "bytes": 1191,
+        "sha256": "a1b7e2b585304a358ba263092933c31206213748710988fbe297bc2c911631ad"
+      },
+      "private_original": {
+        "path": "temp/hard-screen-20261003/worker/F96/original/F96_C-baseline-r3-attempt1/final.txt",
+        "bytes": 1191,
+        "sha256": "a1b7e2b585304a358ba263092933c31206213748710988fbe297bc2c911631ad"
+      },
+      "packet_original_bytes_identical": true
+    }
+  ],
+  "grade_provenance": {
+    "exact_new_reviewers": 2,
+    "role": "independent-reviewer",
+    "fork_turns": "none",
+    "model_or_effort_override": false,
+    "sole_input": {
+      "path": "temp/hard-screen-20261003/worker/F96/blind-packet/packet.json",
+      "bytes": 21449,
+      "sha256": "4bf560a2b61a02aded16bfae063d5b36e7589617a592193225b256c5bf91036e"
+    },
+    "other_reviewer_or_metadata_exposure": false,
+    "no_regrade": true,
+    "no_replacement": true
+  },
+  "ROOT_FINAL": "temp/hard-screen-20261003/f96-final-root-gate.json"
+}

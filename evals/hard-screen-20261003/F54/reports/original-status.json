@@ -1,0 +1,114 @@
+{
+  "status": "EXCLUDED_AFTER_VALID_THREE_FIRST_ORIGINALS_AND_TWO_FIRST_BLIND_GRADES",
+  "candidate": "F54",
+  "originals": [
+    {
+      "repetition": 2,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "335b6ef69efdbe020510c9ccb026dcd30686fd8ac9d2ecb78282109649951831",
+      "delivery_sha256": "86d1e066b390031566836f438e926e2dcc70ffdcd4eebe1c8ae306f704c92ce5",
+      "telemetry_sha256": "adedf2ae0d960050cb59bdcff09091b1b57a317e40b9ceaef8be1999d602111d",
+      "final_sha256": "5c3b3370739a5f91bfffa8e3e713ac47fbdd0d3ea7b497e948e472a928819510",
+      "final_bytes": 1734,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "c8fda4c880091fb396a8616d7a0e87722f6fa433cc8ae5ff70f0165a09b0b31d",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "repetition": 3,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "1bcd5a82982d1c552b4d35ae9b2a51eafdf16f60030cf2b62036bbf891cf528d",
+      "delivery_sha256": "86d1e066b390031566836f438e926e2dcc70ffdcd4eebe1c8ae306f704c92ce5",
+      "telemetry_sha256": "adedf2ae0d960050cb59bdcff09091b1b57a317e40b9ceaef8be1999d602111d",
+      "final_sha256": "80510ec27777afad38ef42304cbfa33897f68470b5289784b226d0c6923619dc",
+      "final_bytes": 1441,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "c8fda4c880091fb396a8616d7a0e87722f6fa433cc8ae5ff70f0165a09b0b31d",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "repetition": 1,
+      "status": "VALID_ORIGINAL_COMPLETED",
+      "attempt": 1,
+      "manifest_sha256": "211207896aa73cb852ea8ed341069bbcfab6c34335c9a2c5164a8af3705b22a0",
+      "delivery_sha256": "86d1e066b390031566836f438e926e2dcc70ffdcd4eebe1c8ae306f704c92ce5",
+      "telemetry_sha256": "adedf2ae0d960050cb59bdcff09091b1b57a317e40b9ceaef8be1999d602111d",
+      "final_sha256": "7fc934d4edd36d2c46ee834820ed9c8d2306b8debd4e0a65a457a38b2b44ce2d",
+      "final_bytes": 1955,
+      "completed_problem_turns": 1,
+      "actual_completed_final_phase_messages": 1,
+      "preserved_terminal_problem_finals": 1,
+      "first_input_sha256": "c8fda4c880091fb396a8616d7a0e87722f6fa433cc8ae5ff70f0165a09b0b31d",
+      "task_input_readback_verified": true,
+      "source_preserved": true,
+      "tool_attempted": false,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "counts": {
+    "confirmed_family_lowerbound": 49,
+    "preserved_terminal_finals_lowerbound": 142,
+    "problem_turns_lowerbound": 198,
+    "retained": 0,
+    "F46_contribution": "UNKNOWN originaldispatch/completedturns/exit; protected profile unchanged",
+    "F51_contribution": "Actual model execution/completion UNKNOWN; successful captures0; protected originals unchanged"
+  },
+  "grade_totals": {
+    "A": [
+      10,
+      10,
+      10
+    ],
+    "B": [
+      10,
+      10,
+      10
+    ]
+  },
+  "objective_errors": {
+    "A": 0,
+    "B": 0
+  },
+  "qualifying_failures": {
+    "A": 0,
+    "B": 0
+  },
+  "joint_ids": [],
+  "retained": 0,
+  "goal": "0/6 active unmet",
+  "neutral": {
+    "roots": 2,
+    "completed_turns": 2,
+    "unscored": true,
+    "problem_counts": 0
+  },
+  "current_source": "C separate workshop fixed custody fee; H powered override and supported sealed cold-start facility; K already executed contingent rider. Original sources/private copies preserved.",
+  "H_K": "Author/reviewer seen, model UNUSED/NOT_RUN",
+  "scored_treatment": "NOT_RUN",
+  "skill_efficacy": "UNKNOWN; no scored comparison",
+  "effective_backend_verified": false,
+  "reasoning_effort_considered": false,
+  "no_retry_replacement_regrade": true,
+  "protected_F41_F46_F51": "Untouched; F46/F51 actual execution/completion UNKNOWN"
+}

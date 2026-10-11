@@ -1,0 +1,302 @@
+{
+  "grader_a": [
+    {
+      "response_id": "R01",
+      "case_id": "F12C",
+      "scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Implicit explanation of branch-specific adverse worlds."
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F13C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F12C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    },
+    {
+      "response_id": "R04",
+      "case_id": "F13C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    },
+    {
+      "response_id": "R05",
+      "case_id": "F12C",
+      "scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Implicit explanation of branch-specific adverse worlds."
+    },
+    {
+      "response_id": "R06",
+      "case_id": "F11C",
+      "scores": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Auditor before10 deadline not explicitly stated, no evidence of a late reservation."
+    },
+    {
+      "response_id": "R07",
+      "case_id": "F11C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    },
+    {
+      "response_id": "R08",
+      "case_id": "F13C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    },
+    {
+      "response_id": "R09",
+      "case_id": "F11C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    }
+  ],
+  "grader_b": [
+    {
+      "response_id": "R01",
+      "case_id": "F12C",
+      "scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Implicit explanation of branch-specific adverse worlds."
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F13C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F12C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    },
+    {
+      "response_id": "R04",
+      "case_id": "F13C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    },
+    {
+      "response_id": "R05",
+      "case_id": "F12C",
+      "scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Implicit explanation of branch-specific adverse worlds."
+    },
+    {
+      "response_id": "R06",
+      "case_id": "F11C",
+      "scores": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "total": 9,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": "Auditor before10 deadline not explicitly stated, no evidence of a late reservation."
+    },
+    {
+      "response_id": "R07",
+      "case_id": "F11C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    },
+    {
+      "response_id": "R08",
+      "case_id": "F13C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    },
+    {
+      "response_id": "R09",
+      "case_id": "F11C",
+      "scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "total": 10,
+      "critical_failures": [],
+      "full_pass": true,
+      "substantive_decision_error": false,
+      "deduction": null
+    }
+  ],
+  "grader_context": "Distinct fresh-context subagents, only condition-label-omitted gradingpacket; no cross-arm comparison.",
+  "selection": {
+    "F11": "EXCLUDE_TOO_EASY",
+    "F12": "EXCLUDE_TOO_EASY",
+    "F13": "EXCLUDE_TOO_EASY"
+  },
+  "full_passes_each": 9,
+  "total_each": 87
+}

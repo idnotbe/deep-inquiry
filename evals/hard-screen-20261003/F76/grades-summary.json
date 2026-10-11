@@ -1,0 +1,137 @@
+{
+  "candidate_id": "F76-endogenous-readout-feedback",
+  "classification": "EXCLUDED_NOT_HARD",
+  "grades": {
+    "A": {
+      "R01": {
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      },
+      "R02": {
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      },
+      "R03": {
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      }
+    },
+    "B": {
+      "R01": {
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      },
+      "R02": {
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      },
+      "R03": {
+        "dimensions": {
+          "decision": 2,
+          "evidence": 2,
+          "mechanism": 2,
+          "feasibility": 2,
+          "robustness": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false
+      }
+    }
+  },
+  "objective_ids": {
+    "A": [],
+    "B": []
+  },
+  "qualifying_ids": {
+    "A": [],
+    "B": []
+  },
+  "joint_qualifying_ids": [],
+  "full_pass_ids": {
+    "A": [
+      "R01",
+      "R02",
+      "R03"
+    ],
+    "B": [
+      "R01",
+      "R02",
+      "R03"
+    ]
+  },
+  "mean_secondary_score": {
+    "A": 10,
+    "B": 10
+  },
+  "admission": {
+    "required_same_IDs": 2,
+    "retained": false,
+    "extra_all3_validity_audit_required": false
+  },
+  "policy": "Unchanged V2/V3/generic; objective/qualifying/secondary separate, one root once, all lawful short equivalents accepted. No averaging/regrade/favorable selection.",
+  "FIRSTs": [
+    {
+      "path": "evals/hard-screen-20261003/F76/grades/blind-a-FIRST.md",
+      "bytes": 5336,
+      "sha256": "b293f8efa0902996e05556d3cdcd22d38462c4ec348ad190b4e9ac73745b7f70"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F76/grades/blind-b-FIRST.md",
+      "bytes": 5136,
+      "sha256": "bf39959ac3d8b40c21e25b3cbfd2e639533a49dace549b0447736e481a6942ba"
+    }
+  ]
+}

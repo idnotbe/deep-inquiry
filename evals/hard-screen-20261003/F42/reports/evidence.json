@@ -1,0 +1,232 @@
+{
+  "family": "F42",
+  "suite_hashes": {
+    "cases.json": "483d1db88741ec7af4d4f52330b2afc2bb0b698b6ad988eee124c3682d010184",
+    "rubrics.json": "ef4a2bfbea6f18210505121d071d725ff0cbf7f66f52b1f22eb91808582256a2",
+    "protocol.json": "af0dba556a7209d82fb47691da237c674fecb21b7f15072c6668ae088e866c63"
+  },
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "controls_executed": false,
+  "native_trials": 3,
+  "grading_packet_sha256": "476420ea277258e9e81f36e96c4fe8d7e6273942bffe238a4492656de92ab68b",
+  "grading_packet_redaction": "Blank current-only task/rubric/frozenanchor/originalfinals. Only immutable generic selection_rules field copied from prior template; no prior task/anchors/responses/conditions/model/host/full private protocol or author interpretation.",
+  "pretrial_review_ledger": {
+    "candidate": "F42",
+    "status": "PRETRIAL_COMPLETE_NOT_FROZEN_NOT_RUN",
+    "manifest_sha256": "4efee709c6746230a668f737834af859b04f6af6ad15ab19618d50fd7b1afa36",
+    "reviews": {
+      "source_a": {
+        "agent": "logical-agent/screening_writer_resume/f42_source_a",
+        "path": "temp/hard-screen-20261003/worker/F42/source-a-received.md",
+        "sha256": "5ae1bc1d92440f6b94a64f04b7f8b38eff0ae2277667f8b182677655b888f093",
+        "original_terminal_verdict": "APPROVE source sufficiency; C/H proposals REVISE; K actual program APPROVE with ACK rationale revision",
+        "kind": "original_source_only",
+        "read_only": true,
+        "fresh_distinct_context": true,
+        "required_source_correction": "none"
+      },
+      "source_b": {
+        "agent": "logical-agent/screening_writer_resume/f42_source_b",
+        "path": "temp/hard-screen-20261003/worker/F42/source-b-received.md",
+        "sha256": "d4679f51ed36524de8aaf5b52b3a0250426cdb9f99222091e95cf5751dc3544c",
+        "original_terminal_verdict": "APPROVE source sufficiency; C/H proposals REJECT; K actual program AUTHORIZE with ACK rationale correction",
+        "kind": "original_source_only",
+        "read_only": true,
+        "fresh_distinct_context": true,
+        "required_source_correction": "none"
+      },
+      "exact_a": {
+        "agent": "logical-agent/screening_writer_resume/f42_source_a",
+        "path": "temp/hard-screen-20261003/worker/F42/exact-review-a.md",
+        "sha256": "14c897d55f1814876c98d2dbdebac67afcff19c1cf25b3d2e4d8323226e1ea16",
+        "original_terminal_verdict": "APPROVE",
+        "kind": "first_complete_bundle_exact_same_source_A",
+        "read_only": true,
+        "fresh_distinct_context": false,
+        "required_correction": "none"
+      },
+      "exact_b": {
+        "agent": "logical-agent/screening_writer_resume/f42_source_b",
+        "path": "temp/hard-screen-20261003/worker/F42/exact-review-b.md",
+        "sha256": "321c54b18a8692162edf9aeadbcd1ddca080d9454d9a9ddb26c43f33310cd646",
+        "original_terminal_verdict": "APPROVE",
+        "kind": "distinct_final_complete_bundle_exact_same_source_B",
+        "read_only": true,
+        "fresh_distinct_context": false,
+        "required_correction": "none"
+      }
+    },
+    "independent_between_A_B": true,
+    "sequence": "Two NEW source-only originals preserved before oracle exposure -> same A full exact APPROVE -> distinct same B final full exact APPROVE. Prospectively authorized reuse; full stages are not fresh contexts relative to each reviewer's original source reconstruction.",
+    "reviewed_inputs_unchanged_since_exact_A_manifest": true,
+    "source_proposal_scope": "Proposal revision/rejection is distinct from source sufficiency. K no-change authorization is optimal; ACK-only compatibility justification requires correction.",
+    "source_findings": "Initial destination entries are unprinted. C9/H5 ledgers are illustrative distinct-ID-per-worker legal countertraces, not uniquely determined vendor outcomes; all-routing failure has an independent productive-slot proof. Scoped in author artifacts only; no source change or unchanged proof rerun.",
+    "snapshot_status_note": "Pending strings in reviewed oracle/certificate/protocol/entry manifest are preserved prospective snapshots; review completion is external here.",
+    "full_reports_provenance": "Full returned final bodies copied from collaboration messages; saved hashes bind local bytes, not raw transport authentication, hidden reasoning or backend identity.",
+    "math_scope": "Selected proof/output copied byte exactly; original bounded 2744 check and new K check retained. Source A actual JS package/timing checks and source B actual export/paid-multiset checks precede oracle exposure. Full arbitrary lawful timing/routing/history/private/shared seeds are covered analytically per seed, not enumerated by the finite script. Full A/B reused independent source computations and separately checked all-scope arguments, manifest24/schema/15 dimensions/bindings without rerunning unchanged writer proof.",
+    "qualifying_gate": "Unchanged v2/v3: both fresh graders qualify at least two SAME IDs; arithmetic/search/feasible higher invoice alone nonqualifying; all3 qualifying requires additional independent post-output validity audit. Accept equivalent complete programs; K weak reason without material changed action is not automatic qualifying failure.",
+    "not_run": [
+      "freeze",
+      "neutral checks",
+      "original participant C",
+      "participant H/K",
+      "scored treatment",
+      "archive/push",
+      "old fulltests"
+    ],
+    "empirical_difficulty": "UNKNOWN",
+    "current_counts": {
+      "attempted_families": 37,
+      "preserved_actual_finals": 109,
+      "problem_solving_turns": 150,
+      "retained": 0,
+      "required": 6
+    },
+    "final_artifact_review": "PENDING_DEFERRED_TO_POOL_CLOSURE",
+    "local_archive": "DEFERRED_NOT_PERFORMED"
+  },
+  "pretrial_receipts_sha256": {
+    "A": "14c897d55f1814876c98d2dbdebac67afcff19c1cf25b3d2e4d8323226e1ea16",
+    "B": "321c54b18a8692162edf9aeadbcd1ddca080d9454d9a9ddb26c43f33310cd646",
+    "ledger": "608463d6694a899fdd0221d4180efcd816c6e9ff1e707c64d00a60efb343fe61",
+    "readback": "4134950c350c3ddf45686ffe98fed2857094d1a92fece8ed6899adb183415bfe"
+  },
+  "exact_frozen_files": {
+    "evals/hard-screen-20261003/F42/sources/F42C.md": "08008522d5c38ee81f9e91b1ad1117f3e9f7faebcedbf62ee51628dddad59cf5",
+    "evals/hard-screen-20261003/F42/sources/F42H.md": "ff5f5cd056943c0c545d55ba4df7a24b8bb83d50ad281993d0f595254a95b4e0",
+    "evals/hard-screen-20261003/F42/sources/F42K.md": "643039767306cfc712542ae6658e3203e2e3cb6ac50f263d2fdc4cd33fecc0df",
+    "evals/hard-screen-20261003/F42/cases.json": "483d1db88741ec7af4d4f52330b2afc2bb0b698b6ad988eee124c3682d010184",
+    "evals/hard-screen-20261003/F42/rubrics.json": "ef4a2bfbea6f18210505121d071d725ff0cbf7f66f52b1f22eb91808582256a2",
+    "evals/hard-screen-20261003/F42/protocol.json": "af0dba556a7209d82fb47691da237c674fecb21b7f15072c6668ae088e866c63",
+    "temp/hard-screen-20261003/worker/F42/oracle.md": "9d6bfb1db35c247be104cc3aa639e10b3782a510c5e5aa23fcb2cc169816bdb7",
+    "temp/hard-screen-20261003/worker/F42/core-proof.cjs": "1284c5ecee397f8d82b7deb2b14ce2031014887235df33066eeb6ac267725a83",
+    "temp/hard-screen-20261003/worker/F42/certificate.json": "989cd6f6c1874fcada44b9cbfd8094871a5702e3b719add47845c2570c0cd6db",
+    "evals/hard-screen-20261003/prospective-method-v3.md": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+  },
+  "method_v2_sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e",
+  "source_prompt_relation": "Cases are newline-normalized current sources with outer trim; independently validated before trials",
+  "freeze_sha256": "2f6452db785447e570b23d4e801f056180d87893665b2ccf288fbd8b3e387887",
+  "review_manifest_sha256": "4efee709c6746230a668f737834af859b04f6af6ad15ab19618d50fd7b1afa36",
+  "producer_file_sha256": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77",
+    "exe": "fdda5fa3cf3fb3d000b876720742857676293e4315e4b045fae6f8bd7e866d1d"
+  },
+  "skill_hashes": {
+    "SKILL.md": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871",
+    "references/inquiry-methods.md": "0c7e92d8a2682e9e734fe53b11863fe014aa47a6cd586146195b44b385b779ac",
+    "references/evidence-and-diagnosis.md": "df73a8e947fda4764ceb69617ee88d8a9d95212710f3a889be1b0bfb3a6c45ac",
+    "references/alternatives-and-drafting.md": "0b03e017c97a0a013cd95f22b9e7266c1e7e0cf2a3e9d37063499b35aec9b382"
+  },
+  "plan_sha256": "53e63d7c06c2eff491008269b204b0e0041782572bf575c232f29a3c2e40365b",
+  "neutral_canary_plan_sha256": "064c1fb6a5a0b9cf7003837d36b9a05cd710d2499a5e8a96f19840d299459395",
+  "common_context_sha256": "a628491041836a3e27673013c002ea933acd41155b5126db657f6c0b4bec4c60",
+  "certificate_sha256": "989cd6f6c1874fcada44b9cbfd8094871a5702e3b719add47845c2570c0cd6db",
+  "oracle_sha256": "9d6bfb1db35c247be104cc3aa639e10b3782a510c5e5aa23fcb2cc169816bdb7",
+  "static_proof_sha256": "1284c5ecee397f8d82b7deb2b14ce2031014887235df33066eeb6ac267725a83",
+  "static_proof_output_sha256": "c4a3f320407f41ff2600d74fe14db1bca42d5fab703ff39d1153f56186154ae4",
+  "static_coverage": "Original relaxed2744 package/flag/slot assignments plus separate all-legal arbitrary timing/routing/history/per-seed analytic bounds; selected C/H proof/output byte copies reused without rerun, new K check.",
+  "neutral_canary_completed": 2,
+  "neutral_canaries_counted_in_problem_turns": 0,
+  "canary_readback_sha256": "136d86e89fecd4f39692afae1de7d2f3796d14044ecc376eac13fc526b1cf31b",
+  "canary_reference_semantics": "Firstbaseline false matches establishes reference; second verifies actual common equality. Both original READY/source preserved/cleanup verified; this interval is not a future runtime guarantee.",
+  "original_slots": [
+    {
+      "repetition": 2,
+      "manifest_sha256": "3d608de531fd75028076cbdc3d3f71a17680ee2c0dccc5a015920c55a3e776c9",
+      "delivery_sha256": "7965b1e43423f5f4dd96f23f2bcd3bcb61abfff6c8251c1113a82dd2b4f0935a",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "f4683b8bfa0ad5265efb96d8857bf44048d0e2ff87d1812e0edb584c39988e7d",
+      "final_bytes": 1478,
+      "completed_problem_turns": 1,
+      "completed_final_messages": 1,
+      "status": "completed",
+      "safe_checks": "PASS exact task plus COMMON suffix; actual common/context/noexposure/notools/source/process/authcopycleanup"
+    },
+    {
+      "repetition": 3,
+      "manifest_sha256": "504de76fb9a9acb1ee461dfd72e1d6652178d9ede74a7aa070a75b308119ff02",
+      "delivery_sha256": "7965b1e43423f5f4dd96f23f2bcd3bcb61abfff6c8251c1113a82dd2b4f0935a",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "22b7a192edbaffb03128d632580f6b44f040c4c2facd8efab39210b9b66c6b66",
+      "final_bytes": 1470,
+      "completed_problem_turns": 1,
+      "completed_final_messages": 1,
+      "status": "completed",
+      "safe_checks": "PASS exact task plus COMMON suffix; actual common/context/noexposure/notools/source/process/authcopycleanup"
+    },
+    {
+      "repetition": 1,
+      "manifest_sha256": "7dbda1217fc1b382a7991d5fdd42bad2dc185681c9de8e043b00e7f66d820a23",
+      "delivery_sha256": "7965b1e43423f5f4dd96f23f2bcd3bcb61abfff6c8251c1113a82dd2b4f0935a",
+      "telemetry_sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6",
+      "final_sha256": "9125016e0e62e66bf6c21a9595f3b970938ed8598e4db83a2ccf7aaac3faa454",
+      "final_bytes": 1446,
+      "completed_problem_turns": 1,
+      "completed_final_messages": 1,
+      "status": "completed",
+      "safe_checks": "PASS exact task plus COMMON suffix; actual common/context/noexposure/notools/source/process/authcopycleanup"
+    }
+  ],
+  "original_readback_sha256": "a44598aeda72e0ac7dd18e9e34915daff3ceae28bf21c16bc983d3cdf0b3bee4",
+  "response_map_sha256": "b04b8680a1efeda0e3bdb8c5dbf3c4721a90856d943da3a4650efd6b63306273",
+  "problem_turns_added": 3,
+  "actual_problem_turn_counts": [
+    1,
+    1,
+    1
+  ],
+  "actual_final_counts": [
+    1,
+    1,
+    1
+  ],
+  "safe_original_capture": "PASS exact task+literal COMMON suffix delivery hash, captured common/context, no exposure/no tools, original finals and telemetry, source preservation/process stopped/copied-auth removal. Safe metadata only; no protected config contents/credentials/raw native events/hidden reasoning read.",
+  "outcome_retries": 0,
+  "replacements": 0,
+  "regrades": 0,
+  "transport_expiry": false,
+  "new_full_tests_run": false,
+  "reused_full_checks": "Unchanged runner full153 total,147passed,6environment skips,0failed historical evidence reused; no old fullcheck rerun",
+  "current_totals": {
+    "attempted_families": 38,
+    "preserved_actual_finals": 112,
+    "problem_solving_turns": 153,
+    "retained": 0,
+    "required": 6
+  },
+  "original_grade_sha256": {
+    "A": "e7129d9aad4f9824cad3e7e6d07fab89089a5400c19f322538391d94b13d5c75",
+    "B": "56a40df2952281974538a5da3627dd2a5649f06ec8dc4d4f2543c6b7c415bafe"
+  },
+  "local_authoring_corrections": [
+    "Oversized shell heredoc was truncated and Node parse failed BEFORE execution/write. Split local artifact authoring used instead; no input/output/grade/native change."
+  ],
+  "descriptive_limits": "B scoped R01 each-worker to actual recipients, not unique vendor aggregate. Post2 READ is commitment not already3 delivery. R02 zero-invoice restart phrase orders none. Both no material failure.",
+  "artifact_review_status": "PENDING_DEFERRED_TO_POOL_CLOSURE",
+  "local_archive_status": "DEFERRED_NOT_PERFORMED",
+  "selection": {
+    "decision": "EXCLUDED",
+    "objective_error_ids": {
+      "A": [],
+      "B": []
+    },
+    "qualifying_ids": {
+      "A": [],
+      "B": [],
+      "joint": []
+    },
+    "joint_qualifying_count": 0,
+    "retained_families": 0,
+    "required_families": 6,
+    "remaining_families": 6,
+    "criterion": "Immutable v2/v3 requires at least2 SAME IDs jointly qualifying with3valid original slots",
+    "extra_postoutput_audit": "NOT_TRIGGERED",
+    "scores_secondary": true
+  },
+  "limits": "One-turn original screening only; H/K author/reviewer-seen unused; zero scored treatment; effective backend unverified/nonblocking. Exclusion is not skill effect evidence. F41 remains incomplete/ungraded/unpreviewed/unreplaced. Saved conversation grade hashes bind local bytes, not raw transport authentication."
+}

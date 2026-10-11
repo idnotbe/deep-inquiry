@@ -1,0 +1,99 @@
+{
+  "candidate": "F158",
+  "version": "closure-1",
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "procedure": {
+    "command": "python -B temp/hard-screen-20261003/worker/F158/closure/check_closure.py",
+    "scope": "Read-only affected artifact checks; no raw originals, trials, grading, or full semantic re-audit.",
+    "result": "SEE_SELF_CHECK_JSON",
+    "self_check": "temp/hard-screen-20261003/worker/F158/closure/selfcheck.json",
+    "runtime_trials": "NOT_RUN_BY_CLOSURE_WRITER",
+    "grading": "NOT_RUN",
+    "old_full_suite": "NOT_RUN_NOT_CHANGE_AFFECTED",
+    "initial_check_correction": "Read-only inline binding command had a shell backslash quoting error; corrected to Path.as_posix before any file mutation."
+  },
+  "semantic_audit": {
+    "bytes": 10902,
+    "sha256": "2f81bd7657ff55e9bd520f8278d356cdff92bcf9417dd546d93755c49db6eabc",
+    "path": "temp/hard-screen-20261003/worker/F158/evidence/semantic-audit.md",
+    "overall": "ALL_THREE_UNVERIFIED",
+    "original_sessions_reread_by_closure_writer": false
+  },
+  "preserved_finals": {
+    "path": "temp/hard-screen-20261003/worker/F158/evidence/public-originals.json",
+    "field": "slots[*].records[kind=original_final]",
+    "status": "UNACCEPTED_NOT_GRADEABLE",
+    "source_hash_evidence": "Collection and independent audit; closure writer does not reopen raw sources.",
+    "public_final_hash_evidence": "Recomputed from exact UTF-8 public text.",
+    "bindings": [
+      {
+        "slot": "response-1",
+        "source_snapshot": {
+          "bytes": 163382,
+          "sha256": "821e14b991e224cc578aadef1770194c6fa85fc2a00113d12ed711eb09cf5935"
+        },
+        "public_final": {
+          "ordinal": 20,
+          "bytes": 1424,
+          "sha256": "1eaaadc7d3b1c0fa375c69445c9d957df2fdc0fa6191da094134e7efa1f65dac"
+        }
+      },
+      {
+        "slot": "response-2",
+        "source_snapshot": {
+          "bytes": 163737,
+          "sha256": "19bc6cb54a54bc591795eb7c173ea8f7d5ac6b355ec69288a9a44b6a9eccd0fe"
+        },
+        "public_final": {
+          "ordinal": 20,
+          "bytes": 1310,
+          "sha256": "de72d214f81db86a548141cfe62ce484d4ddc447a68c56379629ce4103fdae91"
+        }
+      },
+      {
+        "slot": "response-3",
+        "source_snapshot": {
+          "bytes": 164061,
+          "sha256": "c340f2cfa7d63334df86d73876f5b74b13ab75872c91f2868f47821c14296577"
+        },
+        "public_final": {
+          "ordinal": 20,
+          "bytes": 1395,
+          "sha256": "78e077b89e13bbc5371c408eab8d17c5df63b421a0acda4c2ec2488e864d2fb3"
+        }
+      }
+    ]
+  },
+  "review_history": {
+    "source_pair_2": "C and D APPROVE source validity only",
+    "preflight": "APPROVE exact frozen pretrial and sole-file command semantics; not runtime acceptance",
+    "semantic_audit": "ALL_THREE_UNVERIFIED; grading blocked",
+    "historical_statuses": "Frozen pretrial/source/collection/blind pending statuses retained; current disposition recorded separately.",
+    "final_closure_review": "PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW",
+    "root_acceptance": "PENDING"
+  },
+  "privacy": {
+    "collector_deviations": "Generic instructions and short protected opaque fragment were output; actual scope not independently checked by auditor; omitting fragments from durable evidence does not undo prior output.",
+    "auditor_deviation": "Once read full parent file bytes into memory before slicing authorized final window; outside-window content not parsed, inspected or printed; subsequently used positioned reads.",
+    "participant_contamination": "NOT_PROVEN_BY_THESE_DEVIATIONS",
+    "complete_privacy_compliance_claimed": false,
+    "new_raw_copies_or_ids_or_source_log_paths": false
+  },
+  "unchanged_baselines": {
+    "README.md": {
+      "bytes": 6288,
+      "sha256": "2b8d4fe99f90806beb8a81c63bbe74747ab941621faa71b9090ebb931dbeb2c8"
+    },
+    "evals/hard-screen-20261003/README.md": {
+      "bytes": 116797,
+      "sha256": "ce82d2fb59814dbd547f58cb27a0efd4725d7cda1160cdb98767ad6ce1048dcf"
+    }
+  },
+  "limitations": [
+    "Actual submitted initial message equality and complete observable context meaning remain unverified and block grading.",
+    "Protected initial plaintext, backend/fallback and internal isolation remain unverified.",
+    "LF representation difference is independently explained, not byte equality and not a waiver of missing evidence.",
+    "Catalog append and final acceptance are parent-owned and pending.",
+    "Source stability after audit is not re-proven by reading public artifacts."
+  ]
+}

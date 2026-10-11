@@ -1,0 +1,145 @@
+{
+  "candidate_id": "F76-endogenous-readout-feedback",
+  "classification": "EXCLUDED_NOT_HARD",
+  "delivery_status": "AWAITING_ROOT_FINAL",
+  "source_bindings": {
+    "F76C": {
+      "path": "sources/F76C.md",
+      "bytes": 3675,
+      "sha256": "a46fb7866a1427f2b1e12672902a36a8f5a65d06b373ea09a1a9072a07861552"
+    },
+    "F76H": {
+      "path": "sources/F76H.md",
+      "bytes": 3674,
+      "sha256": "699a6cb025547ad3d27eb4081e7d590374d0790891b46e8c488d56acdca429e7"
+    },
+    "F76K": {
+      "path": "sources/F76K.md",
+      "bytes": 3339,
+      "sha256": "880d7b91107ca045d491e46b2c5830126840ed56bf509c3d1f42f63431f93363"
+    }
+  },
+  "representation_hashes": {
+    "cases.json": "b5d2b12aac46abba5388c562b848fc8003996128fbefc5d6eadeccf55f9a7064",
+    "rubrics.json": "44c87feaa1eca6c5e0becc49794b9e5411881c4db5934af2c529c5adf2de7b30",
+    "protocol.json": "8abf58f9ecd0975e5009994eb93a4f136ee5b235bf6a8606fbce46b77a6a56a9"
+  },
+  "methodology": {
+    "v2_sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e",
+    "v3_sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099",
+    "generic_sha256": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d",
+    "criteria_changed": false
+  },
+  "review_order": "TWO source-only FIRSTs saved before oracle; SAME TWO alignment FIRSTs saved before ONE author check; ROOTPRETRIAL; neutral then originals; ROOTSAFE; exactly TWO NEW packet-only blind FIRSTs BOTH saved before synthesis/mapping",
+  "source_definition_representation_fixes": [
+    0,
+    0,
+    0
+  ],
+  "native": {
+    "neutral_unscored": {
+      "setup_launches": 2,
+      "turn_dispatches": 2,
+      "completed_turns": 2,
+      "preserved_terminal_finals": 2,
+      "setup_retry_count": 0
+    },
+    "original_C": {
+      "setup_launches": 3,
+      "turn_dispatches": 3,
+      "completed_turns": 3,
+      "preserved_terminal_finals": 3,
+      "setup_retry_count": 0
+    },
+    "original_order": [
+      2,
+      3,
+      1
+    ],
+    "original_attempts": [
+      1,
+      1,
+      1
+    ],
+    "original_completed_turns_each": [
+      1,
+      1,
+      1
+    ],
+    "PID_before_GO": true,
+    "SAME_owned_primary_close0": true,
+    "primary_all_required_actual_guards_pass": true,
+    "guards_scope": "Actual setup/dispatch/terminal/input/context/exposure/isolation/source/noTools/process/authcopy; actual source preservation and cleanup PASS. Baseline neutral seeds fresh context; treatment and originals match actual reference.",
+    "tool_attempted": false,
+    "outcome_reruns": 0,
+    "replacement_trials": 0,
+    "setup_retries": 0,
+    "timeout_seconds": 300,
+    "neutral_outer_ms": 900000,
+    "original_outer_ms": 1200000
+  },
+  "producer": {
+    "version": "0.160.1",
+    "exe_bytes": 326875440,
+    "exe_sha256": "9e7c59c05cc1ce5677b1f94e835b2ac038ca3be14504e78d558eacdb0ea3f55d",
+    "requested_model": "gpt-6-sol",
+    "actual_backend": "UNVERIFIED/nonblocking",
+    "reasoning_effort_considered": false
+  },
+  "bindings": {
+    "qualification_freeze_sha256": "b58cc0f6bd6ecd42a64dd99d75d436605b71c1ac3f0fa112959295363c34d402",
+    "neutral_SAFE_sha256": "c639b3d0eada3d19e0cbfc93bad0719841705afeda08d6a062631c4fcbacef94",
+    "original_freeze_sha256": "63a961d979f2cf362959cf16fea929c60488b113e25bfcb98b4722d9c218a45f",
+    "original_SAFE_sha256": "53868dd12f73ab3c0979f39e12c43141a1c83da29906b1c380856a16b3dee6fa",
+    "fresh_common_reference_sha256": "ae437bf2c4aaad0bf7ca11428727f06636033c135de2222bdda162ac97b0b1c8",
+    "ROOT_pretrial_gate_sha256": "847aa59955c030ab142b2769fc69f1d7fe572143092a1a2e5e3a017ba0c39759",
+    "ROOT_original_SAFE_gate_sha256": "400680092326be89fddaff88578b84262578a6c7894a3c5c04ceb2d2b8117e69",
+    "blind_packet_sha256": "3a1802ae80e326cbc01ddeac27a219f62a7fdd9341f9c431693bb5729ddb7918",
+    "blind_A_FIRST_sha256": "b293f8efa0902996e05556d3cdcd22d38462c4ec348ad190b4e9ac73745b7f70",
+    "blind_B_FIRST_sha256": "bf39959ac3d8b40c21e25b3cbfd2e639533a49dace549b0447736e481a6942ba"
+  },
+  "plan_delta": "ONLY common_context_sha256 changed from frozen screening draft; actual order2,3,1",
+  "blind_result": {
+    "A_scores": [
+      10,
+      10,
+      10
+    ],
+    "B_scores": [
+      10,
+      10,
+      10
+    ],
+    "A_objective_ids": [],
+    "B_objective_ids": [],
+    "A_qualifying_ids": [],
+    "B_qualifying_ids": [],
+    "joint_qualifying_ids": [],
+    "fullpass_each": 3,
+    "regrades": 0,
+    "extra_all3_audit": "NOT_TRIGGERED"
+  },
+  "limits": {
+    "ONE_author_check": "Original aggregate FAIL preserved: final mixed-path hash lookup KeyError after suite1/plans2/inputs4/sourceprompt3 completed. ROOT-released final bookkeeping reconciliation only, accepted at PRETRIAL; no author-check replay or rewritten PASS.",
+    "ancillary_evidence_writer": "Metadata-only handle writer returned exitCode:null/timedOut:true. Ancillary process close UNKNOWN, no retry/probe. Complete file is not close proof; primary actual producer/model cleanup independently PASS and accepted at ROOTSAFE.",
+    "skill_effect": "UNKNOWN; scored treatment0. Neutral READY treatment is setup evidence only.",
+    "generalisation": "Three correct responses do not establish general family hardness or universal ease.",
+    "private_raw_host_records": "Retained privately; no credentials, session/process IDs, raw contexts or profile/log paths in this public artifact."
+  },
+  "H_K": "Participant UNUSED, author/reviewer seen",
+  "scored_treatment": 0,
+  "retained": 0,
+  "target": 6,
+  "goal_status": "ACTIVE_UNMET",
+  "counts_lower_bounds": {
+    "attempted_families": 63,
+    "terminal_problem_finals": 184,
+    "completed_problem_turns": 240
+  },
+  "unknown_contributions": [
+    "F46",
+    "F51"
+  ],
+  "counts_not_all_valid_claim": true,
+  "final_six_audit_reviews_fullverification_Git": "DEFERRED; not run"
+}

@@ -1,0 +1,49 @@
+{
+  "candidate": "F167",
+  "version": "closure-1",
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "inputs": {
+    "temp/hard-screen-20261003/f167-semantic-audit-initial.md": {
+      "bytes": 5426,
+      "sha256": "448bd94f5197f6a19a47aca2bf1d5466940affaf8b5a1a157958b283ad837b2e"
+    },
+    "temp/hard-screen-20261003/f167-semantic-audit-supplement.md": {
+      "bytes": 1407,
+      "sha256": "5e8a01659c38d493e9e15f863a2d72a735093cfe4348849fc7943eaa51950f04"
+    },
+    "temp/hard-screen-20261003/f167-contract-disposition.md": {
+      "bytes": 2331,
+      "sha256": "147d2361a8832fb8cbad6db351f8c10d1ebe5c7ea75794be46343fa4a9e77efb"
+    },
+    "temp/hard-screen-20261003/f167-native-pretrial.json": {
+      "bytes": 62893,
+      "sha256": "27654c12d58d686c02181ee077037be4e1192b1894914d89871cfc5b6407882b"
+    },
+    "temp/hard-screen-20261003/f167-native-launches.json": {
+      "bytes": 4046,
+      "sha256": "da92675bcaf57a0cef47ef6593987b32693ebd3cf7f117b660704d4c9f0aa265"
+    },
+    "temp/hard-screen-20261003/worker/F167/evidence/collection-manifest.json": {
+      "bytes": 109387,
+      "sha256": "744a662484f7d2b449b8aa0f0d09b45b34ee69a9aeac57bb15c1bb9911aab9b4"
+    },
+    "temp/hard-screen-20261003/worker/F167/evidence/public-originals.json": {
+      "bytes": 42419,
+      "sha256": "39b0c83b6506227824baf29d01023d6c5606a31d7180e7bdb8a6b25da9ce8d7f"
+    },
+    "temp/hard-screen-20261003/worker/F167/evidence/collection-checks.json": {
+      "bytes": 53536,
+      "sha256": "b998cb1d7ce6aa6790dbec1cd0ed697fe70044b7776634c6fc3d1ea8718992b5"
+    },
+    "temp/hard-screen-20261003/worker/F167/evidence/denied-unexecuted-calls.json": {
+      "bytes": 674,
+      "sha256": "92fcbbc5777610ee57c3e530e4c2109513fe68830ab7cc9d66327f91d0c6eab5"
+    }
+  },
+  "input_scope": "Nine supplied repository artifacts only. No recursive transitive source reads, raw sessions, memory registry or H/oracle/rubric inspection. Public text processed only for integrity hashes, never evaluated.",
+  "catalog_path": "evals/hard-screen-20261003/README.md",
+  "catalog_baseline": {
+    "bytes": 126841,
+    "sha256": "d09d8dc665a84cafce44a61532aa4f11eb5a4a05dbd5c24762c5fa7e2f9c6c5e"
+  }
+}

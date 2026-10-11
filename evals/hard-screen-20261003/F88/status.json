@@ -1,0 +1,28 @@
+{
+  "family": "shared-control-feed-topology",
+  "candidate_id": "F88",
+  "proposed_status": "EXCLUDED_NOT_HARD",
+  "ROOTFINAL_pending": true,
+  "retained_families_official": 0,
+  "required_retained_families": 6,
+  "original_trials": 3,
+  "same_joint_qualifying_ids": [],
+  "H_UNUSED": true,
+  "K_UNUSED": true,
+  "scored_treatment_runs": 0,
+  "backend_model_verified": false,
+  "backend_qualification": "UNKNOWN_nonblocking",
+  "reasoning_effort_considered": false,
+  "skill_efficacy": "UNKNOWN",
+  "raw_counts": {
+    "candidate_identifiers": 73,
+    "preserved_terminal_problem_FILES": 214,
+    "completed_problem_turns": 273,
+    "additional_UNKNOWN": [
+      "F46",
+      "F51"
+    ],
+    "neutral_excluded": true,
+    "all_preserved_files_protocol_valid": false
+  }
+}

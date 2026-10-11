@@ -1,0 +1,181 @@
+{
+  "status": "STABLE_EXCLUDED_NOT_HARD",
+  "difficulty": "FAILED",
+  "efficacy": "UNKNOWN",
+  "public_artifacts": [
+    {
+      "path": "evals/hard-screen-20261003/F74/reports/screening.md",
+      "bytes": 4050,
+      "sha256": "9bbf113827083d645c78b5627be5bf5289d7363987dda89313f3d516322a9bab"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/reports/original-status.json",
+      "bytes": 3933,
+      "sha256": "6ef2a863342de2341de447c0b578444cb773d8cb86e828501bf72d2ddf50f80a"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/reports/evidence.json",
+      "bytes": 12912,
+      "sha256": "d9286510b1e4dd0d0199b6dd5f7e4228dbf871117cc87e3b82e1e0362ff81589"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/reports/responses.json",
+      "bytes": 3387,
+      "sha256": "2a2db0eadcdf3823623ccda4d6d8abb5e517235e5745938a0799bf5822fd1f0a"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/reports/grades.json",
+      "bytes": 14537,
+      "sha256": "293f7b6c5af0d07892d9f06b885552b2c6940234b80d3f403260acb2b11437be"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/reports/grade-a-first.json",
+      "bytes": 4955,
+      "sha256": "556047ef2bc0eed25e3095976a1a7b61fb063fedb2309b400a67f37ac3f4742e"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/reports/grade-b-first.json",
+      "bytes": 4889,
+      "sha256": "18481fb2f80f8b26d88ce58e0b90448b3d2d22c41e47a51d6c0ce63c571eca88"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/reports/R01-final.txt",
+      "bytes": 542,
+      "sha256": "44354b784801bd685aee680377275f02914adc7bd32c4fee421b72f2a8515e11"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/reports/R02-final.txt",
+      "bytes": 650,
+      "sha256": "c1aa11a3ebd5b1355dd10c255334efc88d87ce8cb4919f3a65540cf6cd6ea60d"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/reports/R03-final.txt",
+      "bytes": 599,
+      "sha256": "705e9bde553cf58f053de8e31c9af9bdc107a459262888496b1e522ec8c7c2c1"
+    }
+  ],
+  "source_artifacts": [
+    {
+      "path": "evals/hard-screen-20261003/F74/sources/F74C.md",
+      "bytes": 3692,
+      "sha256": "5fed4e83f3da47f934a734e1a9ef845c43242972bbc0f78670156c22ed55d7be"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/sources/F74H.md",
+      "bytes": 3753,
+      "sha256": "11168ebbd6409ba49bc2e905ddd741c55f1bd45d4125dc0a06c7ed61e5cb2073"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/sources/F74K.md",
+      "bytes": 3464,
+      "sha256": "017d71c93beaed295442288f6c625f315021cf428859fd262588091fb215abff"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/cases.json",
+      "bytes": 11313,
+      "sha256": "f4302b077d975b45f63549e2d9727566a1cad71305a706cf844891f36291276f"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/rubrics.json",
+      "bytes": 9294,
+      "sha256": "3d0406cef1c51a22d896937f61ab2c6e33c2161ed92339ec8cb63cf619f592a0"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F74/protocol.json",
+      "bytes": 10793,
+      "sha256": "4915b1867548b7f3949142a1f8169d3417a954346f9a07269bbe18325dbf64bf"
+    }
+  ],
+  "classification": {
+    "path": "temp/hard-screen-20261003/worker/F74/generic-grading-rules.json",
+    "bytes": 3456,
+    "sha256": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d"
+  },
+  "pretrial_recovery": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F74/consolidated-pretrial-manifest.json",
+      "bytes": 31163,
+      "sha256": "973e3cbcaf3917881bd899383216bb31bcf9bb2cf368a337e3e493ad09368aee"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F74/consolidated-pretrial-readback.json",
+      "bytes": 10957,
+      "sha256": "cbac97d3b8e05ee1678f52d02bf8899c9b9a7c401f49e2a502830f54e1c8ac3e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F74/consolidated-pretrial-ledger.json",
+      "bytes": 9987,
+      "sha256": "a3eefdf79041d6ebb030aee8c1467b41127e986898155ecf269f8260fc27f0fd"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F74/replacement-alignment-a-FIRST.md",
+      "bytes": 4461,
+      "sha256": "b296713b3fddc679ebe752f544d0ec4b239495c258fecd6f8841ca3e2e15e99b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F74/replacement-alignment-b-FIRST.md",
+      "bytes": 4385,
+      "sha256": "b93a13841d603b649bb64210b3dbe7a73f1996f9a85b8116758a13333dc859fd"
+    }
+  ],
+  "producer_requalification_release": {
+    "path": "temp/hard-screen-20261003/f74-producer-requalification-release.json",
+    "bytes": 2298,
+    "sha256": "5d8353d4cdee15fc23501d633735f6fb3534f1cdda39307c5a2fa9faa5c50d21"
+  },
+  "originalSAFE": {
+    "path": "temp/hard-screen-20261003/worker/F74/safe-collection-supplement.json",
+    "bytes": 5607,
+    "sha256": "8bc80ab9a8adfc272584580c055dea24a4f7b9dd32b0ded113474edc245d4391"
+  },
+  "grades": {
+    "path": "temp/hard-screen-20261003/worker/F74/grades-FIRST/grading-readback.json",
+    "bytes": 6039,
+    "sha256": "32850f4c24f5a5823d317ecb4095bc30c8a4054793856a6a8d30bcb7f5c8331f"
+  },
+  "ROOT_grade_gate": {
+    "path": "temp/hard-screen-20261003/f74-grade-gate-readback.json",
+    "bytes": 1358,
+    "sha256": "1627d496ee68c4a1f728bd28b63f5297af584b1de2a3d26317552315be4d1e21"
+  },
+  "readme": {
+    "path": "evals/hard-screen-20261003/README.md",
+    "bytes": 56060,
+    "sha256": "b6352783db621099598f2bac10fdd2ca92117253d70d01df93f70d0992821929"
+  },
+  "readme_before": {
+    "path": "temp/hard-screen-20261003/worker/F74/README-before-F74.md",
+    "bytes": 55048,
+    "sha256": "c9cce3e44c111ec857944620b2c81ee935b08db4b31e2db36829b5b26e1b6a94"
+  },
+  "readme_delta": {
+    "path": "temp/hard-screen-20261003/worker/F74/README-F74-delta.json",
+    "bytes": 5168,
+    "sha256": "752199a0646204fb6120e2f5253da948c876ae810d3aff85ea35c475501ba288"
+  },
+  "counts": {
+    "lower_bounds": [
+      61,
+      178,
+      234
+    ],
+    "unknown_contributions": [
+      "F46",
+      "F51"
+    ],
+    "retained": 0,
+    "target": 6,
+    "status": "ACTIVE_UNMET"
+  },
+  "review_continuity": "Original writer/source-reader subtree unavailable under ROOT targeted lookup. Preserved source FIRST A/B remain unchanged historical source-first evidence. Exactly two NEW fork-none independent replacement ALIGNMENT reviewers reviewed against both preserved FIRSTs and unchanged representations. These are not renewed source-blind reviews, cannot attest pre-oracle reconstruction, and do not establish or assert original same-reader completion. Original runtime reviewer identities UNKNOWN; preserved A/B artifact labels only.",
+  "source_fixes": 0,
+  "criterion_changes": 0,
+  "limits": [
+    "Complete local FIRST transcriptions, not raw transport authentication.",
+    "Original same-reader continuity unavailable; replacement alignment explicitly disclosed.",
+    "External Codex0.160.1 change actor UNKNOWN; fresh neutral qualified; backend unverified/nonblocking.",
+    "Native3 originals all actual guards PASS/retry0; neutral2 excluded from problem counts.",
+    "Secondary A10/10/10 B10/10/9 preserved; objective0/qualifying0/joint[]. No regrade.",
+    "H/K and scored treatment NOT_RUN; efficacy UNKNOWN. F46/F51 UNKNOWN; retained0/6."
+  ]
+}

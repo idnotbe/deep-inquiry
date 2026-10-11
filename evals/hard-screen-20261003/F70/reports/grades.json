@@ -1,0 +1,267 @@
+{
+  "first_grade_objects": [
+    {
+      "grader": "A",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F70/grades-FIRST/grade-a-received.json",
+        "bytes": 5395,
+        "sha256": "f977bb87c284b8e0deebd173e84401fbc7e71504f2ae47dbbcd67df2cb3b52d8"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F70/reports/grade-a-first.json",
+        "bytes": 5395,
+        "sha256": "f977bb87c284b8e0deebd173e84401fbc7e71504f2ae47dbbcd67df2cb3b52d8"
+      },
+      "complete_first": {
+        "report": "FIRST",
+        "status": "COMPLETE",
+        "grades": [
+          {
+            "response_id": "R01",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "supporting_public_evidence": {
+              "decision": "Rejects unchanged deployment and supplies unconditional trusted reconstruction with zero payments and no stake.",
+              "ready_counterexample": "At Pr(L)=1/100, Bayes gives Pr(L|B)=1/2 and Pr(L|N)=1/9802. Verifying B has expected monitor payoff zero; verifying N has negative expected payoff. The stated B verification probability 2000/9999 makes L's detection probability 20/101. L consequently earns 21/20 − (101/20)(20/101)=1/20, matching G and exceeding O's zero. Truthful publication after verification is rational. Undetected L has positive probability and is delivered on NONE.",
+              "lawful_correction": "“Whatever the exporter and monitor do, invoke trusted reconstruction exactly once and deliver the reconstructed archive.” This guarantees fidelity for every supported rational outcome. Payments and stake satisfy the limits, and gross invoice is exactly 3.",
+              "nonvacuity_and_robustness": "With zero payments, declining monitoring is rational; exporter O or L is rational while G incurs unrewarded effort. Thus rational outcomes exist. Universal reconstruction also covers absence, ties, mixtures, withholding, coins and independent histories without requiring a particular equilibrium."
+            }
+          },
+          {
+            "response_id": "R02",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "supporting_public_evidence": {
+              "decision": "“Do not authorize the ready programme unchanged.” Supplies a PASS-only payment and delivery replacement with reconstruction on every other outcome.",
+              "ready_counterexample": "The stated exporter mix and B audit probability are Bayes-consistent and rational: the monitor is indifferent after B and strictly declines after N; exporter G and L each earn 1/20 and beat O. Undetected L is delivered on NONE with positive probability.",
+              "lawful_correction": "A present truthful PASS certifies G. Every other public outcome invokes reconstruction once. Each actor's payment is within 2, the stake is 4, and all controls use permitted public observables. Gross invoice is 61/20 on present PASS and 3 otherwise, so every rational distribution satisfies 31/10.",
+              "nonvacuity_and_robustness": "The supplied G equilibrium is valid: under actual pure G, both signals imply G, making verification and PASS publication strictly profitable. A unilateral L deviation encounters that continuation and loses the stake. Absence receives reconstruction. Pointwise fidelity and affordability cover other equilibria, ties, mixtures, withholding, coins and independent histories."
+            }
+          },
+          {
+            "response_id": "R03",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "supporting_public_evidence": {
+              "decision": "Rejects unchanged deployment and supplies payment for either truthful certificate, PASS delivery and reconstruction otherwise.",
+              "ready_counterexample": "The stated Pr(L)=1/100, B posterior 1/2 and B audit probability 2000/9999 constitute a consistent rational continuation. N verification is unprofitable. G and L each earn 1/20, exceeding O, while unaudited L reaches delivery on NONE.",
+              "lawful_correction": "“Verification and publication give the monitor payoff 2−1=1, regardless of its signal or the archive’s quality.” Truthful publication follows every rational verification; declining yields zero and withholding after verification yields −1. The exporter then strictly prefers G at 1/20 to L at −4 and O at zero.",
+              "nonvacuity_and_robustness": "Strict incentives admit rational G outcomes and remove monitor ties, signal dependence and withholding. Every admitted rational distribution delivers faithful G with gross invoice 61/20, below 31/10. Payments, stake and public conditions are lawful. The fallback covers absence and other non-PASS outcomes; independent coins or histories do not alter the strict payoff comparisons."
+            }
+          }
+        ],
+        "joint_eligible_individual_ids": [],
+        "overall": {
+          "responses_graded": 3,
+          "numerical_full_pass_count": 3,
+          "mean_total_score": 10,
+          "objective_error_count": 0,
+          "qualifying_failure_count": 0,
+          "score_role": "Secondary descriptive evidence; scores do not independently establish qualifying failures.",
+          "qualification_basis": "No response endorses unchanged deployment or makes a materially false exclusion supporting its recommendation. Each supplies a complete permitted ready-programme counterexample and a lawful affordable correction.",
+          "limits": "Judgment uses only the supplied packet and public response text. No hidden reasoning, external evidence or other grader judgment is inferred."
+        }
+      }
+    },
+    {
+      "grader": "B",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F70/grades-FIRST/grade-b-received.json",
+        "bytes": 5295,
+        "sha256": "a13d8d3b0361afc89d8a32276ba5229bb0454f48de10cb07ce6f8099df66bcd9"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F70/reports/grade-b-first.json",
+        "bytes": 5295,
+        "sha256": "a13d8d3b0361afc89d8a32276ba5229bb0454f48de10cb07ce6f8099df66bcd9"
+      },
+      "complete_first": {
+        "report": "FIRST",
+        "status": "COMPLETE",
+        "results": [
+          {
+            "response_id": "R01",
+            "dimension_scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "supporting_public_evidence": {
+              "decision": "Rejects unchanged deployment and supplies unconditional reconstruction with zero payments and no stake.",
+              "ready_counterexample": "With Pr(L)=1/100, Pr(L|B)=1/2 and Pr(L|N)=1/9802. B verification therefore ties declining; N verification is strictly worse. Auditing B with probability 2000/9999 gives L a FAIL probability of 20/101. Its payoff is 21/20-(101/20)(20/101)=1/20, equal to G and above O. Undetected L has positive probability and is delivered corrupt.",
+              "lawful_correction": "Reconstruction exactly once on every outcome guarantees faithful delivery. Zero transfers give gross invoice 3, below 31/10. With zero monitor payments, declining is rational; L or O can be rational exporter choices. Thus the programme is nonvacuous and tolerates all rational ties and mixtures.",
+              "failure_assessment": "No materially false authorization or public exclusion is established."
+            }
+          },
+          {
+            "response_id": "R02",
+            "dimension_scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "supporting_public_evidence": {
+              "decision": "Rejects unchanged deployment and replaces release on NONE with reconstruction on every outcome other than a present PASS.",
+              "ready_counterexample": "The proposed exporter mixture and B audit probability are Bayes-consistent and sequentially rational: B posterior corruption is 1/2, N posterior corruption is 1/9802, and G and L each earn 1/20. Positive-probability unaudited L violates ready-programme fidelity.",
+              "lawful_correction": "A truthful PASS certifies G. Every other outcome triggers exactly one reconstruction. PASS payments total 61/20; all reconstruction outcomes cost 3. These pointwise bounds imply the required expected invoice bound for every rational distribution, including ties, mixtures, withholding and absence. Each actor's payment is at most 2 and the stake is 4.",
+              "nonvacuity": "A rational outcome has G and verification followed by PASS after either signal. G earns 1/20. Following an L deviation, verification is prescribed by the monitor's equilibrium beliefs; truthful FAIL publication is an admissible tied continuation and yields exporter payoff -4. Withholding would instead give the exporter 0, also below G. Visible O permits monitor decline and gives exporter utility 0.",
+              "failure_assessment": "The stated detection and forfeiture continuation is available in the exhibited rational outcome. FAIL publication need not be uniquely optimal, but withholding also preserves fidelity and affordability. No material objective error or qualifying failure follows."
+            }
+          },
+          {
+            "response_id": "R03",
+            "dimension_scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "supporting_public_evidence": {
+              "decision": "Rejects unchanged deployment and supplies payments for either truthful certificate, with reconstruction on every outcome other than a present PASS.",
+              "ready_counterexample": "The stated mixture produces B posterior corruption 1/2, permits B auditing with probability 2000/9999, and makes G and L payoffs equal to 1/20. Positive-probability L receives NONE and is delivered corrupt.",
+              "lawful_correction": "Paying 2 for either truthful certificate makes verification and publication strictly preferable to declining or withholding for every signal, quality and presence observation. L therefore receives FAIL and loses 4; G earns 1/20 and strictly beats both L and O. Every rational distribution consequently delivers a faithful G archive on PASS.",
+              "invoice_and_constraints": "On every admitted rational distribution, transfers total 61/20 and reconstruction is unnecessary. This is below 31/10. Payments respect the separate caps of 2 and the stake cap of 4. FAIL or absence could cost 5 if reached, but these outcomes are excluded by the strict rational exporter response; the supplied invoice constraint is an expectation bound over rational distributions, not a cap on every hypothetical outcome.",
+              "failure_assessment": "No materially false authorization or public exclusion is established."
+            }
+          }
+        ],
+        "joint_eligible_individual_ids": [],
+        "overall": {
+          "responses_graded": 3,
+          "numerical_full_pass_count": 3,
+          "mean_total_score": 10,
+          "objective_error_count": 0,
+          "qualifying_failure_count": 0,
+          "limits": "These are individual FIRST judgments using only the supplied packet. Component scores are secondary descriptive evidence. No cross-grader agreement or joint qualification is asserted."
+        }
+      }
+    }
+  ],
+  "rows": [
+    {
+      "grader": "A",
+      "id": "R01",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "A",
+      "id": "R02",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "A",
+      "id": "R03",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "B",
+      "id": "R01",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "B",
+      "id": "R02",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "B",
+      "id": "R03",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    }
+  ],
+  "joint_qualifying_ids": [],
+  "decision": "EXCLUDED",
+  "transmission_limit": "Raw files preserve complete returned-body local UTF-8 transcriptions, not transport authentication; A report/grades/scores and B report/results/dimension_scores schemas unchanged."
+}

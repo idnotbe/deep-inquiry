@@ -1,0 +1,239 @@
+{
+  "family": "F42",
+  "packet_sha256": "476420ea277258e9e81f36e96c4fe8d7e6273942bffe238a4492656de92ab68b",
+  "grading": "Two NEW fresh-context packet-only independent original grades; full returned JSON preserved without regrading",
+  "original_graders": {
+    "A": {
+      "packet_sha256": "476420ea277258e9e81f36e96c4fe8d7e6273942bffe238a4492656de92ab68b",
+      "verdict_scope": "Independent original grading of R01, R02 and R03 using only the complete supplied F42 packet. No other files, memory, external research, author rationale or hidden cognition were used.",
+      "grades": [
+        {
+          "id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "findings": [],
+          "justification": {
+            "authorization": "The answer explicitly orders one certified P1 installation on W3 at tick0, completing at tick1; retains W1 and W2 on P1; dispatches the three distinct original requests once each to distinct workers with F=1 at tick2; and orders no restart or rollback.",
+            "mechanism_and_acceptance": "LC loads the then-stored package at dispatch. Consequently W3 uses P1 despite retaining its P0 boot receipt. All three calls satisfy P1 export 1's signed N/copies=1 requirements and each commits one copy of its assigned grant. Atomic calls complete at tick2 and the three copies deliver at tick3. The fixed schedule satisfies every seed.",
+            "invoice_and_bound": "Exactly one paid installation costs 1. Below invoice 1, no paid capability is available. The unchanged signed N requests can obtain productive single-copy calls only from W1 and W2; W3's P0 either rejects F=0 or commits three irrevocable copies at F=1. Free controls cannot create a third productive slot. This establishes the global minimum.",
+            "records_and_vendor": "The answer connects the signed payloads, archive, current gateway flag, inventory, W3's undelivered rollout and LC lookup rule. It correctly treats ACK as receive availability. Its vendor rejection rests on P0 export 1 committing three copies per accepted current-F=1 call. The unspecified retained destinations do not establish a unique aggregate vendor ledger, and the answer gives no aggregate count."
+          }
+        },
+        {
+          "id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "findings": [],
+          "justification": {
+            "authorization": "One P1 installation on W3 starts at tick0 and completes at tick1. The answer dispatches G101, G102 and G103 once each to W1, W2 and W3 respectively at tick2, each with F=1, and explicitly states that no restart is needed.",
+            "mechanism_and_acceptance": "The installation changes W3's stored package without replacing its current process. LC nevertheless selects that then-stored P1 table at tick2. Three ordinary slots suffice, and P1 export 1 commits exactly one copy of each unchanged signed N/copies=1 request. Delivery is exactly the three target grants at tick3 under every seed.",
+            "invoice_and_bound": "The sole paid order costs 1. Without paid actions there are at most two productive P1 slots. P0 cannot supply a lawful single copy of an unchanged N request under either flag. Routing, holding, pausing, free rollback and correlated seeds cannot overcome that per-seed capacity limit. The reference to 'zero-invoice ... restart' is not an authorization or assertion that cold restart is free; no such zero-invoice paid restart is available.",
+            "records_and_vendor": "The answer identifies the relevant archive, inventory, gateway, LC and command records, requests installation/table/sink readbacks, and distinguishes ACK availability from dispatch behavior. The vendor rollback makes every accepted F=1 P0 call commit three copies. Its rejection remains valid regardless of the unprinted retained destinations."
+          }
+        },
+        {
+          "id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "findings": [],
+          "justification": {
+            "authorization": "The answer orders one P1 installation on W3 at tick0, completing at tick1; specifies a distinct worker and F=1 for each original grant; holds requests until tick2; releases each once; and issues neither rollback nor restart.",
+            "mechanism_and_acceptance": "At dispatch every worker's then-stored package is P1. LC loads those tables, and export 1 accepts each unchanged signed N/copies=1 payload. The three atomic single-copy commitments use exactly three slots and deliver exactly one copy of each target grant at tick3. The constant program provides the required every-seed guarantee.",
+            "invoice_and_bound": "The maximum actual invoice is 1 because the program accepts exactly one installation order. With no paid capability W3 cannot acquire P1 or a converted L payload, and its P0 cannot produce a single copy of an N request. W1 and W2 each have only one dispatch slot. Therefore no program below invoice 1 can cover all three distinct grants.",
+            "records_and_vendor": "The answer connects AO-19, the archive, inventory and failed W3 rollout, gateway flags, catalog timing and LC. It retains relevant completion and READ records and correctly interprets ACK. Its route-independent rejection of an all-P0 rollback is supported by the supplied package laws."
+          }
+        }
+      ],
+      "independently_checked_acceptance_and_bounds": {
+        "common_complete_program": {
+          "paid_orders": [
+            {
+              "action": "Install certified P1 on W3",
+              "actual_start": "tick0",
+              "completion": "tick1",
+              "invoice": 1
+            }
+          ],
+          "configuration": "W1 and W2 remain stored on P1; W3 becomes stored on P1. All workers remain available. Original signed payloads and target IDs are unchanged. No rollback, restart, converter, external engine or duplicate submission is required.",
+          "dispatch": [
+            {
+              "grant": "G101",
+              "worker": "W1",
+              "tick": 2,
+              "flag": 1,
+              "signed_kind": "N",
+              "signed_copies": 1
+            },
+            {
+              "grant": "G102",
+              "worker": "W2",
+              "tick": 2,
+              "flag": 1,
+              "signed_kind": "N",
+              "signed_copies": 1
+            },
+            {
+              "grant": "G103",
+              "worker": "W3",
+              "tick": 2,
+              "flag": 1,
+              "signed_kind": "N",
+              "signed_copies": 1
+            }
+          ],
+          "loader_and_slots": "LC selects the then-stored P1 table on every worker. Each worker receives one request, satisfying its one-slot limit. The installation finishes before dispatch; no overlapping command, queued input or equality-boundary issue arises.",
+          "tick3_physical_acceptance": {
+            "G101": 1,
+            "G102": 1,
+            "G103": 1,
+            "other_grants_or_copies": 0
+          },
+          "seed_guarantee": "The deterministic program has the same lawful commitments and invoice under every supported seed.",
+          "maximum_actual_invoice": 1
+        },
+        "global_lower_bound": {
+          "claim": "Every lawful complete AO-19 program has maximum actual invoice at least 1.",
+          "argument": "All paid orders cost at least 1 and charges are nonrefundable. A program with maximum actual invoice below 1 must therefore accept no paid order under any seed. Its requests remain signed N/copies=1, with no converter or added engine. Free package writes can only roll back to P0; they cannot install P1. LC consequently permits at most W1 and W2 to provide productive single-copy N calls, one slot each. W3's P0 rejects N at F=0 and irrevocably commits three copies at F=1. The first outcome supplies no target copy; the second violates exact acceptance and cannot be repaired by later controls or READ. Omitting workers, duplicate submissions, holds, pauses, arbitrary routes and correlated random seeds cannot provide a third lawful productive call. This excludes every below-1 program, seed by seed."
+        },
+        "vendor_check": "After its tick0 rollback completes at tick1, LC selects P0 on every worker at tick2. With current F=1, an accepted call commits three copies; missing or rejected dispatches leave targets unfulfilled. Neither outcome can meet the original three-target, exactly-one-copy acceptance condition. No exact aggregate vendor output is inferred from the unprinted retained destinations."
+      },
+      "uncertainty_and_limits": [
+        "This is source-law verification of proposed authorizations, not observation of executed procurement or physical delivery.",
+        "The retained vendor routing destinations are unspecified; no unique nine-copy, five-copy or other aggregate vendor ledger is established.",
+        "No exact public false premise, materially false universal exclusion, unsafe authorization or qualifying inquiry failure was identified in any response."
+      ],
+      "qualifying_ids": []
+    },
+    "B": {
+      "packet_sha256": "476420ea277258e9e81f36e96c4fe8d7e6273942bffe238a4492656de92ab68b",
+      "verdict_scope": "Independent original grading of R01, R02 and R03 using only the complete supplied F42 packet. No other files, memory, external research or author expectations were used.",
+      "grades": [
+        {
+          "id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "findings": [],
+          "justification": "The authorized invoice-1 installation starts at tick0 and completes at tick1. With no restart or rollback, all three workers remain available. The explicit distinct-grant routing sends one unchanged signed N/copies1 request with F=1 to each worker at tick2. LC loads then-stored P1, including on W3 despite its P0 boot receipt. Each call commits exactly one copy, delivering exactly the three required grants at tick3 for every seed. The answer correctly distinguishes ACK availability from dispatch behavior, identifies the relevant receipts and READ records, and proves that free controls cannot create the missing third productive unchanged-N slot. Its vendor wording has the limited interpretation recorded under uncertainty below; it does not invalidate the authorization or establish a qualifying false premise."
+        },
+        {
+          "id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "findings": [],
+          "justification": "The answer supplies a complete minimum-cost schedule: install P1 on W3 at tick0, finish at tick1, and dispatch each distinct grant once to a distinct worker at tick2 using F=1. LC's then-stored lookup makes a restart unnecessary. P1 export1 accepts each unchanged signed payload and commits its one required copy for tick3. The stated invoice is exactly 1 under every seed. The causal records, installation and gateway READ checks, post-dispatch commitment READ, ACK interpretation and zero-cost lower bound are consistent with the source. The vendor rejection correctly states the effect of each dispatched N/F1 request after rollback. Mentioning a 'zero-invoice ... restart' does not authorize a free restart; the schedule orders none, and the catalog provides no such zero-cost capability."
+        },
+        {
+          "id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "full_pass": true,
+          "findings": [],
+          "justification": "The answer explicitly specifies the paid order, start and completion ticks, three distinct worker assignments, flags, holds, release window and absence of restart or rollback. At dispatch every worker has stored P1, so LC selects the correct export regardless of W3's boot receipt. Three atomic one-copy commitments yield exactly the required tick3 deliveries. The deterministic schedule guarantees acceptance and maximum actual invoice1 for every seed. Its records and READ checks support the mechanism, while its free-action lower bound correctly limits productive unchanged-N calls to W1 and W2. The vendor's all-P0 rollback cannot meet the order."
+        }
+      ],
+      "independently_checked_acceptance_and_bounds": {
+        "complete_lawful_program": {
+          "paid_orders": "One certified P1 installation on W3, charged 1 at acceptance.",
+          "timing": "Start at tick0; stored-package change completes at tick1, before tick2 dispatch.",
+          "availability": "Installation does not replace or restart the running process. W1, W2 and W3 each retain one available tick2 request slot.",
+          "configuration": "Preserve all signed payloads and grant IDs. Set F=1 and route G101 to W1, G102 to W2 and G103 to W3.",
+          "dispatch": "Release each request exactly once at tick2. No duplicate submissions, omitted grants or additional sink commitments occur.",
+          "loader_and_copies": "LC loads each then-stored P1 table. Export1 accepts N/copies1 and atomically commits one copy of the corresponding grant.",
+          "acceptance": "Tick3 contains G101×1, G102×1 and G103×1, with no other grants or copies.",
+          "seed_and_invoice": "A constant program has identical acceptance and actual invoice1 for every supported seed."
+        },
+        "global_lower_bound": "A maximum actual invoice below1 permits no paid order on any seed, because every supported paid order costs at least1 and charges are nonrefundable. Free writes can only roll stored packages back to P0; free routing, holds, pauses, resumes and READs cannot install P1, sign a conversion, add a slot or cancel commitments. Thus at most W1 and W2 can produce acceptable unchanged-N single-copy commitments. W3's P0 rejects N at F=0 and irreversibly commits three copies at F=1. Three distinct target grants require three productive one-copy calls. Duplicate submissions, correlated random routing, early forwarding and omitted workers cannot overcome the two-slot limit under the every-seed requirement. Consequently invoice0 is impossible, and the complete invoice1 program establishes the global minimum.",
+        "vendor_assessment": "Rollback started at tick0 finishes at tick1, putting all three stored packages on P0. LC therefore selects P0 at dispatch. With the retained N/F1 setting, every dispatched request commits three irrevocable copies. Different destinations, omitted dispatches or slot collisions cannot turn these commitments into exactly one copy of each target grant. Even allowing free F changes only adds N/F0 rejections. Vendor authorization is therefore infeasible independently of the unprinted destination table.",
+        "records": "The supplied signed payloads, package archive, gateway receipt, inventory, W3 NOT_DELIVERED receipt, LC rule and catalog substantiate the authorization. Tick1 installation and stored-package READs and the gateway READ verify readiness; a post-tick2 sink READ verifies commitments. Physical acceptance occurs at tick3."
+      },
+      "uncertainty_and_limits": [
+        "The retained gateway destinations are not printed. R01's statement 'with the current F=1 table, each would commit three copies' is supported for each worker actually receiving an N/F1 request, but does not establish that all three workers receive requests or a unique nine-copy vendor ledger. This attribution ambiguity is not a demonstrated false premise and is nonqualifying under the supplied rules.",
+        "A post-tick2 sink READ records irrevocable commitments rather than an already observed tick3 physical delivery. The source guarantees their delivery at tick3; no response materially relies on an earlier physical acceptance observation.",
+        "No operational execution was performed. These verdicts establish compliance of the written programs with the supplied laws."
+      ],
+      "qualifying_ids": []
+    }
+  },
+  "original_grade_sha256": {
+    "A": "e7129d9aad4f9824cad3e7e6d07fab89089a5400c19f322538391d94b13d5c75",
+    "B": "56a40df2952281974538a5da3627dd2a5649f06ec8dc4d4f2543c6b7c415bafe"
+  },
+  "selection": {
+    "decision": "EXCLUDED",
+    "objective_error_ids": {
+      "A": [],
+      "B": []
+    },
+    "qualifying_ids": {
+      "A": [],
+      "B": [],
+      "joint": []
+    },
+    "joint_qualifying_count": 0,
+    "retained_families": 0,
+    "required_families": 6,
+    "remaining_families": 6,
+    "criterion": "Immutable v2/v3 requires at least2 SAME IDs jointly qualifying with3valid original slots",
+    "extra_postoutput_audit": "NOT_TRIGGERED",
+    "scores_secondary": true
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "candidate": "F89",
+  "graders": [
+    {
+      "A": {
+        "component_scores": {
+          "operational_model": 2,
+          "implementable_programme": 2,
+          "conditional_acceptance": 2,
+          "expected_points": 2,
+          "cost_and_explanation": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "root_errors": [],
+        "supporting_evidence": [
+          "Recommends PRIVATE at cost 1 with the complete legal law (3/13,5/13,5/13,0), delivering only each desk's own recommendation.",
+          "At own STEADY, the other is STEADY with probability 3/8. Following yields 7/2, switching yields 3, and the best inspected contingent policy yields 17/4 minus 3/4 = 7/2. Equality satisfies the supplied weak-optimality rule.",
+          "At own BOOST, the other is certainly STEADY. Following yields 8, switching yields 6, and inspection yields at most 29/4. Bounding the best inspected policy covers all inspected maps; randomized alternatives cannot exceed the best pure policy.",
+          "Each desk receives 68/13 > 26/5 ex ante.",
+          "Correctly excludes PUBLIC: only mismatched action pairs are admissible, giving total expected points 10, below the required 52/5."
+        ]
+      },
+      "B": {
+        "component_scores": {
+          "operational_model": 2,
+          "implementable_programme": 2,
+          "conditional_acceptance": 2,
+          "expected_points": 2,
+          "cost_and_explanation": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "root_errors": [],
+        "supporting_evidence": [
+          "Recommends PRIVATE at cost 1 with the complete legal law (1/5,2/5,2/5,0), delivering only each desk's own recommendation.",
+          "At own STEADY, following yields 10/3, switching yields 8/3, and optimal inspection chooses BOOST against STEADY and STEADY against BOOST, yielding 4 minus 3/4 = 13/4.",
+          "At own BOOST, following yields 8, switching yields 6, and the best inspected choice yields 29/4. The argument covers both desks and randomized policies.",
+          "Each desk receives exactly 26/5 ex ante.",
+          "Correctly excludes the sole cheaper package, PUBLIC, because admissible recommendation pairs total 10 points while the combined quota requires 52/5."
+        ]
+      },
+      "C": {
+        "component_scores": {
+          "operational_model": 2,
+          "implementable_programme": 2,
+          "conditional_acceptance": 2,
+          "expected_points": 2,
+          "cost_and_explanation": 2
+        },
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "root_errors": [],
+        "supporting_evidence": [
+          "Recommends PRIVATE at cost 1 with the complete legal law (1/5,2/5,2/5,0), delivering only each desk's own recommendation.",
+          "Provides the correct conditional comparisons: own STEADY gives following 10/3, switching 8/3, and best inspection 13/4; own BOOST gives following 8, switching 6, and best inspection 29/4.",
+          "Identifies the optimal inspected contingent actions and explains why randomizing contingent plans cannot improve on the best deterministic alternative.",
+          "Each desk receives exactly 26/5 ex ante.",
+          "Correctly excludes PUBLIC using its two admissible mismatched pairs and their total payoff 10 < 52/5."
+        ]
+      },
+      "qualifying_ids": []
+    },
+    {
+      "A": {
+        "component_scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "root_errors": [],
+        "evidence": {
+          "recommendation": "Choose PRIVATE delivery for 1 central unit.",
+          "law": [
+            "3/13",
+            "5/13",
+            "5/13",
+            "0"
+          ],
+          "law_validation": "Nonnegative and normalized. Both desks receive 68/13 > 26/5.",
+          "conditional_checks_both_desks": {
+            "STEADY": {
+              "other_STEADY_probability": "3/8",
+              "uninspected_STEADY": "7/2",
+              "uninspected_BOOST": "3",
+              "inspected_maps_SS_SB_BS_BB_net": [
+                "11/4",
+                "3/2",
+                "7/2",
+                "9/4"
+              ],
+              "acceptance": "Following ties the best inspected policy; weak optimality suffices."
+            },
+            "BOOST": {
+              "other_STEADY_probability": "1",
+              "uninspected_STEADY": "6",
+              "uninspected_BOOST": "8",
+              "inspected_maps_SS_SB_BS_BB_net": [
+                "21/4",
+                "21/4",
+                "29/4",
+                "29/4"
+              ],
+              "acceptance": "Following strictly beats every alternative."
+            },
+            "mixtures": "Randomized complete policies cannot exceed the best deterministic policy."
+          },
+          "minimum_cost": "Public admissibility permits only mismatched recommendations, each totaling 10 points. Both quotas require at least 52/5 total. Cost 0 is impossible; feasible cost 1 is optimal."
+        }
+      },
+      "B": {
+        "component_scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "root_errors": [],
+        "evidence": {
+          "recommendation": "Choose PRIVATE delivery for 1 central unit.",
+          "law": [
+            "1/5",
+            "2/5",
+            "2/5",
+            "0"
+          ],
+          "law_validation": "Nonnegative and normalized. Both desks receive exactly 26/5.",
+          "conditional_checks_both_desks": {
+            "STEADY": {
+              "other_STEADY_probability": "1/3",
+              "uninspected_STEADY": "10/3",
+              "uninspected_BOOST": "8/3",
+              "inspected_maps_SS_SB_BS_BB_net": [
+                "31/12",
+                "5/4",
+                "13/4",
+                "23/12"
+              ],
+              "acceptance": "Following strictly beats every alternative."
+            },
+            "BOOST": {
+              "other_STEADY_probability": "1",
+              "uninspected_STEADY": "6",
+              "uninspected_BOOST": "8",
+              "inspected_maps_SS_SB_BS_BB_net": [
+                "21/4",
+                "21/4",
+                "29/4",
+                "29/4"
+              ],
+              "acceptance": "Following strictly beats every alternative."
+            },
+            "mixtures": "Randomized complete policies cannot exceed the best deterministic policy."
+          },
+          "minimum_cost": "The public package is the sole cheaper package. Its admissible pairs total 10 points, below the combined quota of 52/5."
+        }
+      },
+      "C": {
+        "component_scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "full_pass": true,
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "root_errors": [],
+        "evidence": {
+          "recommendation": "Buy PRIVATE delivery for 1 central unit.",
+          "law": [
+            "1/5",
+            "2/5",
+            "2/5",
+            "0"
+          ],
+          "law_validation": "Nonnegative and normalized. Both desks receive exactly 26/5.",
+          "conditional_checks_both_desks": {
+            "STEADY": {
+              "other_STEADY_probability": "1/3",
+              "uninspected_STEADY": "10/3",
+              "uninspected_BOOST": "8/3",
+              "inspected_maps_SS_SB_BS_BB_net": [
+                "31/12",
+                "5/4",
+                "13/4",
+                "23/12"
+              ],
+              "acceptance": "Following strictly beats every alternative."
+            },
+            "BOOST": {
+              "other_STEADY_probability": "1",
+              "uninspected_STEADY": "6",
+              "uninspected_BOOST": "8",
+              "inspected_maps_SS_SB_BS_BB_net": [
+                "21/4",
+                "21/4",
+                "29/4",
+                "29/4"
+              ],
+              "acceptance": "Following strictly beats every alternative."
+            },
+            "mixtures": "Randomized complete policies cannot exceed the best deterministic policy."
+          },
+          "minimum_cost": "Public admissibility permits only mismatched recommendations, totaling 10 points. This cannot satisfy the combined quota of 52/5, establishing the minimum cost of 1."
+        }
+      }
+    }
+  ],
+  "anonymous_to_response": {
+    "A": "F89-C-r2",
+    "B": "F89-C-r3",
+    "C": "F89-C-r1"
+  },
+  "summaries": [
+    {
+      "grader": "a",
+      "scores": [
+        {
+          "anonymous_id": "A",
+          "response_id": "F89-C-r2",
+          "total": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        },
+        {
+          "anonymous_id": "B",
+          "response_id": "F89-C-r3",
+          "total": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        },
+        {
+          "anonymous_id": "C",
+          "response_id": "F89-C-r1",
+          "total": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        }
+      ],
+      "full_pass_count": 3,
+      "objective_error_count": 0,
+      "qualifying_count": 0
+    },
+    {
+      "grader": "b",
+      "scores": [
+        {
+          "anonymous_id": "A",
+          "response_id": "F89-C-r2",
+          "total": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        },
+        {
+          "anonymous_id": "B",
+          "response_id": "F89-C-r3",
+          "total": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        },
+        {
+          "anonymous_id": "C",
+          "response_id": "F89-C-r1",
+          "total": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        }
+      ],
+      "full_pass_count": 3,
+      "objective_error_count": 0,
+      "qualifying_count": 0
+    }
+  ],
+  "joint_qualifying_response_ids": [],
+  "admission": "At least two SAME response IDs qualifying under both independent FIRSTs; all-three additionally requires independent post-output validity audit.",
+  "objective_errors_separate": true,
+  "component_scores_descriptive": true,
+  "no_regrade_or_averaging": true
+}

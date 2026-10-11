@@ -1,0 +1,112 @@
+{
+  "task": {
+    "path": "evals/hard-screen-20261003/F85/revision1/public/task.txt",
+    "bytes": 3885,
+    "sha256": "510a233cda2d06872112533d47554b9807f8e10a3ab31ebb0a5783c1963319bb"
+  },
+  "ordinary_source": {
+    "path": "evals/hard-screen-20261003/F85/revision1/public/source-C.md",
+    "bytes": 3797,
+    "sha256": "ce77a081d23084a5e457608979533c37ea400599ea84133169a453f5cc52baa4"
+  },
+  "complete_accessible_records": {
+    "path": "evals/hard-screen-20261003/F85/revision1/public/records.json",
+    "bytes": 617,
+    "sha256": "46256529fbaaaccca8ea03643ad589e8e1f4bb831cb99dd2de304a937f94b183"
+  },
+  "case_rubric": {
+    "path": "evals/hard-screen-20261003/F85/revision1/public/rubric.json",
+    "bytes": 2219,
+    "sha256": "95c9cbd6774fdbcb7e5f6d3e1fe35731694454a850d795d296b9324aa9a744b2"
+  },
+  "unchanged_generic": {
+    "path": "evals/hard-screen-20261003/F85/revision1/public/generic-grading-rules.json",
+    "bytes": 3456,
+    "sha256": "ef91f1524578792f884c139633df9ca5dbec0de608b0b144c4707d009790b76d"
+  },
+  "fixed_rules": "V2/V3 unchanged; exact public action/claim, supplied law, complete feasible legitimate correction satisfying every constraint and material decision change; uncertain chain NONQUAL; one root once",
+  "source_correspondence": {
+    "task_equals_actual_input": true,
+    "source_plus_two_LF_COMMON_equals_input": true,
+    "records_byte_equal": true,
+    "rubric_equals_F85C": true,
+    "generic_byte_equal": true
+  },
+  "actual_runtime": {
+    "ROOT_SAFE_FIRST": "PASS",
+    "all_actual_guards": true,
+    "same_owned_Python_close": 0,
+    "MCP_Node_close": 0,
+    "continued_developer_NOT_REOBSERVED": 3,
+    "same_thread_basis": "unchanged frozen runner contract, ordered turns and exact continued deliveries; no separate persisted thread-ID readback",
+    "initial_actual_COMMON_context": "verified",
+    "terminal_and_perturn_files": "verified",
+    "unknown_phase": "preserved privately and kept distinct; no hidden-cause claim",
+    "source_revision_0_meaning": "zero POST-PRETRIAL source changes; author package revision1",
+    "original_answer_bytes_hashed_only_meaning": "original strings unexposed before ROOT SAFE; authorized machine guards parsed private transcript/observations, not hash-only processing"
+  },
+  "guard_check_coverage": {
+    "syntax_sources": 6,
+    "synthetic_cases": 6,
+    "includes_valid_zero_READ_one_turn": true,
+    "scope": "guard behavior only; not task difficulty or full repository verification"
+  },
+  "blind_review": {
+    "exact_two_new_forkNONE": true,
+    "same_frozen_packet": true,
+    "both_full_saved_before_synthesis_mapping_preview_unblinding_ROOT_preview": true,
+    "replacement_regrade_retry": false,
+    "residual_content_label": "Exact supplied qualification record and delivered observation contain today's C orders. Intrinsic record text was retained byte-exact; external condition/model/host/runtime labels were removed. This is a disclosed blinding limitation, not a decision error."
+  },
+  "review_provenance": {
+    "private_finite_proof": "original v0 executed once; not replayed against revision1 bytes; reuse limited to unchanged domain/record/action invariance",
+    "original_source_FIRSTs": "two original v0 FIRSTs; unchanged-domain coverage only",
+    "revision1_grammar": "reserved READ-prefix declaration only; no causal-world/record/action/criterion change",
+    "reviewer1": "targeted ALIGN APPROVE under explicit historical-v0 interpretation; did not see corrected final oracle bytes",
+    "reviewer2": "original targeted REVISE preserved, then same reviewer narrow provenance-resolution APPROVE; no new ordinary FIRST",
+    "provenance_correction": "one exact historical source-binding sentence; old oracle archived; no proof replay",
+    "authorcheck": "one actual authorcheck PASS25 with validate_suite1 and validate_plan2"
+  },
+  "source_scaffolding_limitation": "Source identifies qualification as exact matching complete retained-failure evidence and explicitly sufficient, substantially supplying evidence-selection judgment. Structural interpretation only; not a causal explanation of observed participant performance.",
+  "original_to_anonymous_to_public": [
+    {
+      "anonymous_id": "X",
+      "public_trial": "r2",
+      "original_terminal_sha256": "22c13f2fc866e9f3e52e948feb2192d3387c0d815f71df17089c0ec43a417bb1",
+      "original_terminal_bytes": 254,
+      "anonymous_terminal_sha256": "22c13f2fc866e9f3e52e948feb2192d3387c0d815f71df17089c0ec43a417bb1",
+      "public_terminal_sha256": "22c13f2fc866e9f3e52e948feb2192d3387c0d815f71df17089c0ec43a417bb1",
+      "terminal_original_anonymous_public_byte_equal": true,
+      "original_transcript_sha256": "b72941a38d82d73470151526991779c3112f1f2a9bd6cfbdbc4501534179e668",
+      "anonymous_public_transcript_sha256": "01f7666f5da1a16ab2957d13ac00c68b9f11a85b644cb0ed654e932f39fedcab",
+      "response_observation_content_and_order_preserved": true,
+      "only_transcript_envelope_identifiers_removed": true
+    },
+    {
+      "anonymous_id": "Y",
+      "public_trial": "r1",
+      "original_terminal_sha256": "1581e6e3b2df130db4a6dd6652344490b970205b017cd2344a760bf1cfd45827",
+      "original_terminal_bytes": 191,
+      "anonymous_terminal_sha256": "1581e6e3b2df130db4a6dd6652344490b970205b017cd2344a760bf1cfd45827",
+      "public_terminal_sha256": "1581e6e3b2df130db4a6dd6652344490b970205b017cd2344a760bf1cfd45827",
+      "terminal_original_anonymous_public_byte_equal": true,
+      "original_transcript_sha256": "cf28794a6d0d44f4caa96c996b7f21008260cd82281d762a0230d7ad9a408e61",
+      "anonymous_public_transcript_sha256": "9c46c3288d97b92ea7db16e211460d2972740fbc117840267a175c805c176a84",
+      "response_observation_content_and_order_preserved": true,
+      "only_transcript_envelope_identifiers_removed": true
+    },
+    {
+      "anonymous_id": "Z",
+      "public_trial": "r3",
+      "original_terminal_sha256": "5edd6d1a65fcd93e5e34d680cefa7f641c33895cfa1043c43bb9dd2485300a9d",
+      "original_terminal_bytes": 217,
+      "anonymous_terminal_sha256": "5edd6d1a65fcd93e5e34d680cefa7f641c33895cfa1043c43bb9dd2485300a9d",
+      "public_terminal_sha256": "5edd6d1a65fcd93e5e34d680cefa7f641c33895cfa1043c43bb9dd2485300a9d",
+      "terminal_original_anonymous_public_byte_equal": true,
+      "original_transcript_sha256": "76776f502766d455ab261109322a1d2fe9433a74c98423dca327a1907cb30904",
+      "anonymous_public_transcript_sha256": "4ae2b21d3161c667da7d3e982952d12482dcc69d73b79b78c5a70d7db3b01b30",
+      "response_observation_content_and_order_preserved": true,
+      "only_transcript_envelope_identifiers_removed": true
+    }
+  ]
+}

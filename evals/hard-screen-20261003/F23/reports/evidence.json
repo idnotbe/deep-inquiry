@@ -1,0 +1,67 @@
+{
+  "suite_hashes": {
+    "cases.json": "0336f4e4c64374e0720612842b7947740321d4029d736273c41f9ec3e578c649",
+    "rubrics.json": "3e65c558f9f0048007cac690321cf589de7e87b9eac0d84e6b717757e6f10440",
+    "protocol.json": "cead103c9c2a3ff34ce1cd5648b4ab0d2fdc576a71b764103ab7ce56d60a11e3"
+  },
+  "code_commit": "f33931f",
+  "repository_commit_at_dispatch": "f62fb3a26c7456728cd652c78be1a064819280b9",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F23C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "2012c85ae305125d386b1b4df952e3ed140dc1aa78b44d5528c130252287781a",
+      "turn_id": "local-turn-70e29214ca42cd05",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true,
+      "dialogue_delivery_verified": true,
+      "dialogue_turns": 7
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F23C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "021926d36434732560aa2f038b27d4e5dc52e06e4251c3cb8a8fff703395dc42",
+      "turn_id": "local-turn-21e97572dfd1179a",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true,
+      "dialogue_delivery_verified": true,
+      "dialogue_turns": 7
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F23C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "50835e2e28cd6a9e808ecf79c166a753a83933bfbd56cb110f19c876b8b8b038",
+      "turn_id": "local-turn-d8402470582399c4",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true,
+      "dialogue_delivery_verified": true,
+      "dialogue_turns": 7
+    }
+  ],
+  "actual_model_turns": 21,
+  "grading_packet_sha256": "eb9119c1da8f4dfdaeaca9b7e133e06e04f9e48740523be09d7102f525cda0ca",
+  "grading_packet_redaction": "Minimal task,records/rules,rubric,anonymous ordered action/observation/final; no dispatchprotocol/arm/model/hostIDs/path. Scan before graders."
+}

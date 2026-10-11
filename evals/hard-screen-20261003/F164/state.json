@@ -1,0 +1,127 @@
+{
+  "candidate": "F164",
+  "version": "closure-1",
+  "source_version": "F164_SOURCE_V2",
+  "issue": 15,
+  "outcome": "INCOMPLETE_PROTOCOL",
+  "difficulty": "UNDETERMINED",
+  "whole_goal": "INCOMPLETE",
+  "delivery_state": "PENDING_ROOT_FULLCHECK_AND_FRESH_REVIEW",
+  "root_final_acceptance_claimed": false,
+  "retained": {
+    "before": 0,
+    "increment": 0,
+    "after": 0,
+    "target": 6
+  },
+  "original_episodes_launched": 3,
+  "observed_problem_turns": 3,
+  "original_finals_preserved": 3,
+  "accepted_gradeable_finals": 0,
+  "original_record_counts": [
+    23,
+    22,
+    22
+  ],
+  "original_records_total": 67,
+  "public_copy_counts": [
+    8,
+    8,
+    8
+  ],
+  "public_copies_total": 24,
+  "distinct_child_public_record_counts": [
+    6,
+    6,
+    6
+  ],
+  "parent_public_payload_counts": [
+    1,
+    1,
+    1
+  ],
+  "distinct_public_record_occurrences_total": 21,
+  "slots": [
+    {
+      "slot": "r1",
+      "validity": "UNVERIFIED",
+      "unscored": true,
+      "final": {
+        "bytes": 2615,
+        "sha256": "f97f20aebd478d57f61a94e324f76f9c6a0585b7f922578715142584ecfae762"
+      }
+    },
+    {
+      "slot": "r2",
+      "validity": "UNVERIFIED",
+      "unscored": true,
+      "final": {
+        "bytes": 2604,
+        "sha256": "a387e232866782290307c1fb9b8dc53414e4d0dfb2bee16b646b9a4bfc8d67d1"
+      }
+    },
+    {
+      "slot": "r3",
+      "validity": "INVALID",
+      "unscored": true,
+      "final": {
+        "bytes": 2690,
+        "sha256": "258bfde3c25a4bc2b37238c4863ac8222a720af74dd94894142a123e6f320cd7"
+      }
+    }
+  ],
+  "grading": "NOT_RUN_ALL_THREE_VALID_REQUIRED",
+  "grader_calls": 0,
+  "grade_results": 0,
+  "anonymous_packet": "NOT_CREATED",
+  "retries": 0,
+  "replacements": 0,
+  "followups": 0,
+  "extra_problem_turns": 0,
+  "heldout_participant_uses": 0,
+  "neutral_calls": 0,
+  "skill_comparison_calls": 0,
+  "scored_treatment_calls": 0,
+  "skill_efficacy": "UNKNOWN_NO_COMPARISON",
+  "semantic_audit": "DELIBERATELY_NOT_RUN_KNOWN_R3_VIOLATION_DISPOSITIVE",
+  "wrapper_semantics": "UNADJUDICATED_FROZEN_PLUS_ONE_LF",
+  "nested_read_arguments": "EXACT",
+  "C_receipts": "EXACT_ALL_THREE",
+  "submission_authority": "temp/hard-screen-20261003/f164-validity-disposition.md",
+  "contract_review": "temp/hard-screen-20261003/f164-submission-contract-review.md",
+  "source_reviews": {
+    "v1": [
+      "APPROVE_WITH_P2",
+      "APPROVE"
+    ],
+    "v2": [
+      "APPROVE",
+      "APPROVE"
+    ],
+    "scope": "SOURCE_VALIDITY_ONLY"
+  },
+  "source_preflight_passes_preserved": true,
+  "historical_pending_statuses_edited": false,
+  "history": {
+    "r3_initial_request_space_deletion": true,
+    "collector_unnecessary_filename_output": true,
+    "reviewer_embedded_oracle_paragraph_exposure": true,
+    "all_wrappers_plus_LF_unadjudicated": true,
+    "failed_rehearsal_A_preserved": true,
+    "baseline_B_P2_preserved": true,
+    "collector_setup_and_syntax_errors_preserved": true
+  },
+  "route": {
+    "kind": "native subagent",
+    "role": "implementation-worker",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "protected_initial_plaintext": "UNVERIFIED_ROOT_NATIVE_API_TRUST_ASSUMPTION",
+    "actual_backend_fallback": "UNVERIFIED",
+    "internal_isolation": "UNVERIFIED",
+    "shared_filesystem_isolated": false,
+    "effort_used_for_admission": false
+  },
+  "closure_frozen": true
+}

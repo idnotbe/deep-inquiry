@@ -1,0 +1,50 @@
+{
+  "family": "F51",
+  "status": "SAFE_INCOMPLETE_BINDINGS",
+  "bindings": {
+    "temp/hard-screen-20261003/worker/F51/freeze.json": "36e6f3f206ddf775247882d293c9c458d638cfc5cffd03e00ba2d0f883d222ad",
+    "temp/hard-screen-20261003/worker/F51/canary-check.json": "ef10d26d8a1ce7c8afe7b20b977a8207bd70a7612707607341d790abe0a61d10",
+    "temp/hard-screen-20261003/worker/F51/canary/canary-common-context.json": "07c2fe0ca9cde796f628c99a4ad5751da3732d198aac39d533d88a9fe83372bb",
+    "temp/hard-screen-20261003/worker/F51/screening-plan.json": "1b741e50c281fa32ae1fe677c393a74adf7f2996cd520854c6b46e3acdf0f6f2",
+    "temp/hard-screen-20261003/worker/F51/native-route-binding.json": "2f8d80f69c940079d6870928f305d02fe8de66d9f30626e9c4623139984dd0a7",
+    "temp/hard-screen-20261003/worker/F51/run-native.cjs": "0104cba9805e118d7c385fc09267ad567793d160b169ddcbf4e08725efc1f93f",
+    "temp/hard-screen-20261003/worker/F51/collect-and-packet.cjs": "8aa2b658fda7dcb5b2540bc9b5d97207f2df32eb32a9fbf1869ac1244d0e193c",
+    "temp/hard-screen-20261003/worker/F51/producer-invocation-canary.json": "7e57591831532371ad781d6438932413ca6aee9fbf977acd7c9e81a3c19718f7",
+    "temp/hard-screen-20261003/worker/F51/producer-terminal-canary.json": "30a7f2ec9b35c7a7fe53ae0d15ae65ff0463c160721234680999e72b0502255d",
+    "temp/hard-screen-20261003/worker/F51/producer-invocation-original.json": "aa26c38d1a67f16cd3531735db78ad713367e2db294a5f9dd66566e6b384f635",
+    "temp/hard-screen-20261003/worker/F51/producer-terminal-original.json": "9a366b0fbc2443d350fb19bef78d5f125ec9a111f6f019cedee4c3a7a1bef2f5",
+    "temp/hard-screen-20261003/worker/F51/original/run-slots.json": "4aab7a6f2d455c5df6fa5e603a713c807eac428cd27102d49f88142df2b56b0c",
+    "temp/hard-screen-20261003/worker/F51/original/F51C-baseline-r2-attempt1/manifest.json": "1812f72c2427c35072ce1e04bf539ecf6597347ae1deb27839f5bd1288fbf150",
+    "temp/hard-screen-20261003/worker/F51/original/F51C-baseline-r2-attempt1/delivery.json": "90377b7068b4ae06d998a53dc858641a935ef7175fd6a912cd3212d1884a5a41",
+    "temp/hard-screen-20261003/worker/F51/original/F51C-baseline-r2-attempt1/telemetry.json": "817b68b712cfb2465fe1057fa05245c0997d160857804badc1e0c50d33a52f91",
+    "temp/hard-screen-20261003/worker/F51/original-incomplete-check.json": "2dd8ce7c0020a16be42ac33e956b1860a275b8511157ef628d0b71b393d22aee",
+    "temp/hard-screen-20261003/worker/F51/collection-incomplete-readback.json": "5ed2829b50fa244401da6c775b4015d83c4feb45d45f69ee4980084969e90769",
+    "temp/hard-screen-20261003/worker/F51/submission-capture-clarification.json": "dcaf584a7a8baf44d877beedd247f8e5b95d319b6005a0a61f8433e27de8ccd3",
+    "temp/hard-screen-20261003/worker/F51/pretrial-manifest.json": "da9edd982c56d457ca6205dafffec19714987065572b247515a18db7623a6d85",
+    "temp/hard-screen-20261003/worker/F51/author-binding-readback.json": "78b480a327197cafba59efa211c27386ade76c675596183cc6a88b59cd6d9cfb",
+    "temp/hard-screen-20261003/worker/F51/source-a-received.md": "f520b4288c76bc24e33e93cb073b66a065163755f68de546391c8bdec44023ee",
+    "temp/hard-screen-20261003/worker/F51/source-b-received.md": "2bbddd1c3f01f7d18d45e91d47281a6894b0c196ac0254f232e52b32e032b8f3",
+    "temp/hard-screen-20261003/worker/F51/exact-review-a-original.md": "3f376de48655fa9d2fb444535786e6f18d05d6068ee281116c3782d7dd30ab79",
+    "temp/hard-screen-20261003/worker/F51/exact-review-b-original.md": "325e4c62f688402dbf0820fc916e72ace5a0557d0ac1badaad45c1c5466e3bae",
+    "temp/hard-screen-20261003/worker/F51/exact-review-ledger.json": "c38cc63822d06fb5179ea87b89733c3742a08fec323d1092bea6befd833e7431",
+    "temp/hard-screen-20261003/worker/F51/pretrial-final-readback.json": "5bbdaa26c3136f0f1295397a6ea200f0c85233798a9e914a6029ef6c19efa980"
+  },
+  "scope": "Safe evidence/hash bindings only; no raw native events/hidden reasoning/answer transcript/profile/auth/config contents.",
+  "interpretation": "Submission-capture clarification supersedes any zero-execution reading of original capture-count fields. Exact thrown message not preserved in safe artifacts; no inferred cause.",
+  "current_counts": {
+    "attempted_families_lowerbound": 46,
+    "preserved_terminal_finals_lowerbound": 133,
+    "completed_problem_turn_captures_lowerbound": 189,
+    "retained": 0,
+    "F46_contribution": "UNKNOWN",
+    "F51_actual_model_execution_completion_contribution": "UNKNOWN; host acceptance and zero successful captures do not prove zero actual execution"
+  },
+  "limits": [
+    "One accepted host submission/user ingestion, model execution or finish UNKNOWN.",
+    "No successful turn completion or final capture; no model hardness evidence.",
+    "Actual task/context native readback NOTREACHED, no completed no-tools contract; no_tools_attempted only.",
+    "Actual source/process/copiedauth cleanup confirmed, distinct from PID/close alone.",
+    "F46 protected profile/status and F41 originals unchanged.",
+    "H/K/scored treatment/grades/packet unrun; final two successive artifact rounds/archive deferred."
+  ]
+}

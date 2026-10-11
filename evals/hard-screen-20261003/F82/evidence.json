@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "status": "PUBLIC_EVIDENCE_PENDING_ROOT_FINAL",
+  "task_sources": [
+    {
+      "path": "evals/hard-screen-20261003/F82/sources/F82C.md",
+      "bytes": 2128,
+      "sha256": "308e66d8f10b19f785fb163c99ac12d1e077c7a71d15fe48ee3b332f9b1f87eb"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F82/sources/F82H.md",
+      "bytes": 2220,
+      "sha256": "468f15975858bf1be530eed03872ad67651915682b4f80428fbd8db1db7a2b0c"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F82/sources/F82K.md",
+      "bytes": 1022,
+      "sha256": "63df7d614367fef9419fee3f8d1b1373bfbdc4c95d5f1bf8265b9a969f6ae307"
+    }
+  ],
+  "responses": [
+    {
+      "anonymous_id": "Response-A",
+      "case_id": "F82C",
+      "condition": "baseline",
+      "repetition": 1,
+      "attempt": 1,
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F82/original/F82C-baseline-r1-attempt1/final.txt",
+        "bytes": 481,
+        "sha256": "70de7ec304e8624ba93ca973843d6184bccdc54074e67e7c8580bc7bf842d7d0"
+      },
+      "public_response": "responses/F82C-baseline-r1.txt",
+      "path": "evals/hard-screen-20261003/F82/responses/F82C-baseline-r1.txt",
+      "bytes": 481,
+      "sha256": "70de7ec304e8624ba93ca973843d6184bccdc54074e67e7c8580bc7bf842d7d0"
+    },
+    {
+      "anonymous_id": "Response-B",
+      "case_id": "F82C",
+      "condition": "baseline",
+      "repetition": 2,
+      "attempt": 2,
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F82/original/F82C-baseline-r2-attempt2/final.txt",
+        "bytes": 539,
+        "sha256": "c6d0fb2f886f64dc768fb76d87d4d31426ca94688ec013bee060192b24c6c502"
+      },
+      "public_response": "responses/F82C-baseline-r2.txt",
+      "path": "evals/hard-screen-20261003/F82/responses/F82C-baseline-r2.txt",
+      "bytes": 539,
+      "sha256": "c6d0fb2f886f64dc768fb76d87d4d31426ca94688ec013bee060192b24c6c502"
+    },
+    {
+      "anonymous_id": "Response-C",
+      "case_id": "F82C",
+      "condition": "baseline",
+      "repetition": 3,
+      "attempt": 1,
+      "original": {
+        "path": "temp/hard-screen-20261003/worker/F82/original/F82C-baseline-r3-attempt1/final.txt",
+        "bytes": 423,
+        "sha256": "3fb500364e198db447e6c18edd842c5295dad34299d0e653a7c88cfe9b38bc24"
+      },
+      "public_response": "responses/F82C-baseline-r3.txt",
+      "path": "evals/hard-screen-20261003/F82/responses/F82C-baseline-r3.txt",
+      "bytes": 423,
+      "sha256": "3fb500364e198db447e6c18edd842c5295dad34299d0e653a7c88cfe9b38bc24"
+    }
+  ],
+  "blind_FIRSTs": [
+    {
+      "path": "evals/hard-screen-20261003/F82/grading/grader-one-FIRST.md",
+      "bytes": 3337,
+      "sha256": "ce915049ea85541f1226e0a7f23381c7323d4a13327524d358e5105019566b7a"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F82/grading/grader-two-FIRST.md",
+      "bytes": 3474,
+      "sha256": "962fcfa951c38b301e0b8e619adb47946244638a7110e2903d26398d60323d7a"
+    }
+  ],
+  "grading_summary": {
+    "path": "evals/hard-screen-20261003/F82/grading/summary.json",
+    "bytes": 4662,
+    "sha256": "689c402a1191792d7b6e7dd8af0ad007cc1194b227da8788155729129486edec"
+  },
+  "public_inverse": {
+    "path": "evals/hard-screen-20261003/F82/grading/inverse-mapping.json",
+    "bytes": 1393,
+    "sha256": "d063d5e1c12cd386ca9a10537248c0243b73af74514e26d7cb350779fed9a289"
+  },
+  "root_authorities": [
+    {
+      "path": "temp/hard-screen-20261003/f82-pretrial-gate-readback.json",
+      "bytes": 1744,
+      "sha256": "2ec7d5fe257586b947e87996926398434a151ce05c3056c051e45ca94d7a394e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f82-runtime-integration-amendment1.md",
+      "bytes": 1735,
+      "sha256": "71562e91bf0d94eb2bc63d01f0d279688b7831b137d6226f639b94b64060489f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f82-amendment1-gate-readback.json",
+      "bytes": 864,
+      "sha256": "c9031eb11b63263c6cecd28be1cfddbd9ef0c9e822b9ea1ba154b96e7fd05db7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f82-safe-gate-readback.json",
+      "bytes": 815,
+      "sha256": "4eca3cc53867bec8d417743076c9e3e74d05de3792e9ff8f8a6ddd28489ba2b8"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f82-safe-support-readback.json",
+      "bytes": 848,
+      "sha256": "a820431f7bca15a560daa10c8affacb6334a01935d16f5007639bcf10dd6ff57"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f82-blind-public-authorization.md",
+      "bytes": 2243,
+      "sha256": "080871af061cce3e089e1207776d1b04aac00bd33cc8f60d66b1cc3a6f2d91a2"
+    }
+  ],
+  "runtime_SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F82/original-safe-readback.json",
+    "bytes": 12898,
+    "sha256": "7aaf908b3ffaa8dbc4ab7c22bd39174863eeae918740e13619c8a8ffa71f0200"
+  },
+  "runtime_handoff": {
+    "path": "temp/hard-screen-20261003/worker/F82/SAFE-handoff.json",
+    "bytes": 81017,
+    "sha256": "052d0aea37bbb759eb466138c747453f3f358fa73beb07e48cb25d28feb4c936"
+  },
+  "actual_counts": {
+    "setup_launches": 4,
+    "turn_dispatches": 3,
+    "completed_turns": 3,
+    "preserved_terminal_finals": 3,
+    "setup_retry_count": 1
+  },
+  "preserved_preturn_failures": [
+    {
+      "case_id": "F82C",
+      "condition": "baseline",
+      "repetition": 2,
+      "attempt": 1,
+      "manifest": {
+        "path": "temp/hard-screen-20261003/worker/F82/original/F82C-baseline-r2-attempt1/manifest.json",
+        "bytes": 662,
+        "sha256": "92d420cfc90c6801d2c10d6947d60145ffac8dc5f830727a4d11869816c51b10"
+      },
+      "error_stage": "host_preflight",
+      "error_contract_code": "contract_rejected",
+      "turn_dispatched": false,
+      "output_seen": false,
+      "source_preserved": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "all_actual_guards_PASS_under_ROOT_SAFE": true,
+  "PID_before_GO": true,
+  "SAME_owned_Python_close0": true,
+  "transport_observation": {
+    "MCP_isError": false,
+    "parent_Node_exit": 0,
+    "MCP_timed_out": false,
+    "MCP_tool0_verified": true,
+    "requested_outer_ms": 1200000,
+    "requested_timeout_not_watchdog": true,
+    "original_result_preserved": true
+  },
+  "original_requested_outer_ms": 1200000,
+  "enforced_watchdog_proved": false,
+  "exact_launch_executable_hash": "UNMEASURED; expected invocation identity is not fresh measurement",
+  "pre_freeze_current_executable_identity": "Verified",
+  "source_revision": 0,
+  "H_definition_revision": 0,
+  "loader_integration_amendment": 1,
+  "empirical_criteria_changes": 0,
+  "participant_H_K_use": 0,
+  "scored_treatment": 0,
+  "backend_identity": "UNVERIFIED/nonblocking",
+  "effort_policy": "Not screening consideration",
+  "permanent_caveats": [
+    "Construction consistency and bounded novelty support do not prove empirical difficulty. Both blind FIRSTs report all originals correct; broader difficulty remains UNKNOWN.",
+    "Author metadata omitted required runtime.treatment.references. Before any freeze/syntax/native ROOT authorized references-only loader amendment1; exact before snapshots/inverse and sole FIRST loader exit0 valid3 retained. Sources/rubrics/inputs/criteria/results/reviews/static identities unchanged. Old88/private checks not replayed.",
+    "Initial chunked printf escaping damaged author receipt JSON. Malformed original preserved; corrected serialization recovered losslessly from ACTUAL original tool result in functions store, not reconstructed from result file. ROOT verified corrected capture; no check replay.",
+    "One r2 preturn host_preflight contract_rejected attempt preserved with NOturn/NOoutput/source/process/authcleanup TRUE. Fixed permitted setup retry1; outcome retries0.",
+    "Complete blind FIRST textual payloads saved before synthesis/mapping preview. Raw internal transport bytes unavailable; no raw transport-equivalence claim.",
+    "Actual original MCP/parent Node exit0, no timeout. Requested outer1200000 is not an enforced watchdog or proof of uninterrupted observation. Exact launch-time executable SHA unmeasured; pre-freeze/current identity verified.",
+    "Initial exact reads used PowerShell before GitBash discovery. Source-FIRST save delimiter collision exit2 then save-only repair; no source/review/check replay.",
+    "Public materializer SOURCE template included old F81 aggregate outcome literals. No old actual participant finals or grading files opened; both new blind graders forkNONE packet-only.",
+    "One7671-character report/evidence command proposal blocked by strict length guard BEFORE tool/mutation; split into separate allowed commands."
+  ]
+}

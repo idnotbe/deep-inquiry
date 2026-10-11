@@ -1,0 +1,223 @@
+{
+  "suite_hashes": {
+    "cases.json": "aa05b4f9025e03aefe6bddb748ae9ed745e22cd9901c1da009c70912bb3d3288",
+    "rubrics.json": "9b8150f720518e850770a1a7281095313d79fb4591a1c6ac0d853488aeed2f27",
+    "protocol.json": "b7902eb492a67bfb03a3c1a79e0e6bb2988429e0951c1e92e9fb8220d250ed26",
+    "F36C.md": "f28373caff791947f594aff079f90907c7b18a26fbd16b7476d79310babe4ecf",
+    "F36H.md": "2d38caf3a559ef4c67b1d96b5505b23a80b3eb76af5d06183d0b77851e9ba920",
+    "F36K.md": "a09a8aebe020b7238b5d72c4e29539239db2c63353f6a20937654cb09c68b906"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": 3,
+  "grading_packet_sha256": "5aab37e348fd778f33d3caf0ee62e524f8fd163cf6fe3a1de01488efb733b959",
+  "grading_packet_redaction": "Empty structure assembled currentC/task/rubric/frozenanchor/rules/exactanonymousfinals; actual equality+no prior IDs/model/condition/host metadata checkPASS before dispatch.",
+  "pretrial_reviews": {
+    "source_only": [
+      "f36_source_a",
+      "f36_source_b"
+    ],
+    "first_exact": "APPROVE",
+    "distinct_final": "APPROVE",
+    "original_full_reports_preserved": true,
+    "single_sentence_scope_precision": "Originalraw sources and fullreports preserved; both targeted acknowledgments currenthash, unchanged law/no math rerun."
+  },
+  "source_prompt_relation": "Raw3sources CRLF; actualcaseprompt universalnewlinesLF with finalLF omitted; nativeinput exactcaseprompt+same700word/no-tool instruction. Not rawbyte source-to-prompt equality.",
+  "freeze_sha256": "b0a53c31ff9ab8c997db6e86d9a8e7add36803eaea6c2e6bd92981fda4e2339e",
+  "producer_file_sha256": {
+    "eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "plan_sha256": "31d1d65444b41690e870ac0befa8427f42683126418bfcc9cf3b9f47df7415df",
+  "neutral_canary_plan_sha256": "7c4c75a1baccfc231502e61a6b420ca136fce174f2ad94159896febf80507828",
+  "common_context_sha256": "aa37911121437dc1f53b00a8cfa93abae1d7e38a46288f2b9de7e324ad687b3d",
+  "static_proof_sha256": "3abb1142156a78af79f8bc81e1b448536fb3399bda107c18a7ba414fbea8aae7",
+  "certificate_sha256": "dcc340167bc7b5ae379cde198ff439587ea23bafbabbb75a6709e5e568b88488",
+  "oracle_sha256": "5e9af6063ee795f1fcf916a397d40d9785fb67c08faf57cb6017d8af978bc074",
+  "static_coverage": "Writer actual48literal modes/3740pureprofiles PASS and narrowcheckerPASS. Freshsource-only and exactreviewNode checks independent. FinalB56636unilateral deviations. Continuous mixed/history proof ANALYTIC not enumeration. Not model difficulty substitute.",
+  "neutral_canary_completed": 2,
+  "neutral_canaries_counted_in_problem_turns": false,
+  "canary_readback_sha256": "a74662e799425d5810afa8e03853e70422264d2f9c772d212f9560de70796049",
+  "canary_local_assertion_correction": "NONE; firstbaselinefalse reference establishment/secondtrue verified.",
+  "original_slots": [
+    {
+      "response_id": "R01",
+      "repetition": 2,
+      "final_sha256": "1409bb9363ebb7970874998e785412e6487f3cd20330fb31eebcebda24d47f21"
+    },
+    {
+      "response_id": "R02",
+      "repetition": 3,
+      "final_sha256": "586cf9965e80ffaf4402647f50c83e18a31eb4e3022ba03a9c125390e672eee9"
+    },
+    {
+      "response_id": "R03",
+      "repetition": 1,
+      "final_sha256": "8d446d06cb615429256ab075a6ae6b973927e8479b6ae57df9a0ebbd40626a57"
+    }
+  ],
+  "problem_turns_added": 3,
+  "actual_problem_turn_counts": [
+    {
+      "response_id": "R01",
+      "repetition": 2,
+      "actual_completed_turns": 1,
+      "actual_final_messages": 1,
+      "turn_id": "local-turn-e4e2a1f7f5e2beb8"
+    },
+    {
+      "response_id": "R02",
+      "repetition": 3,
+      "actual_completed_turns": 1,
+      "actual_final_messages": 1,
+      "turn_id": "local-turn-b314a327fdba082e"
+    },
+    {
+      "response_id": "R03",
+      "repetition": 1,
+      "actual_completed_turns": 1,
+      "actual_final_messages": 1,
+      "turn_id": "local-turn-8c8aa03d66a7d606"
+    }
+  ],
+  "safe_original_capture": [
+    {
+      "case_id": "F36C",
+      "condition": "baseline",
+      "status": "completed",
+      "backend_model_verified": false,
+      "model_requested": "gpt-6-sol",
+      "effort_requested": "medium",
+      "reference_delivery": "explicit_preloaded",
+      "comparison_eligible": false,
+      "allow_provider_model_fallback_requested": false,
+      "timeout_seconds": 300,
+      "turn_dispatched": true,
+      "output_seen": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "delivery_sha256": "76a9685f2078e4a160dcea7d30615fa973e838094a0533603dad773fa5dd093b",
+      "turn_id": "local-turn-e4e2a1f7f5e2beb8",
+      "actual_completed_final_preserved": true,
+      "final_sha256": "1409bb9363ebb7970874998e785412e6487f3cd20330fb31eebcebda24d47f21",
+      "final_bytes": 1630,
+      "host_config_verified": true,
+      "native_root_input_delivered": false,
+      "preloaded_references_verified": false,
+      "method_exposure": {
+        "format_version": 1,
+        "present": false,
+        "advertisement_sha256": "6c442d247e6cc75e619ace7426aeb349f37a5f88b633dd514527f272b395cd02",
+        "source_root_sha256": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871"
+      },
+      "actual_developer_context_format": "shared_after_verified_method_advertisement_v1",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "actual_context_observed": true,
+      "native_root_expansion_verified": false,
+      "task_input_readback_verified": true,
+      "tool_attempted": false,
+      "completion_status": "completed",
+      "copied_auth_root_removed": true
+    },
+    {
+      "case_id": "F36C",
+      "condition": "baseline",
+      "status": "completed",
+      "backend_model_verified": false,
+      "model_requested": "gpt-6-sol",
+      "effort_requested": "medium",
+      "reference_delivery": "explicit_preloaded",
+      "comparison_eligible": false,
+      "allow_provider_model_fallback_requested": false,
+      "timeout_seconds": 300,
+      "turn_dispatched": true,
+      "output_seen": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "delivery_sha256": "76a9685f2078e4a160dcea7d30615fa973e838094a0533603dad773fa5dd093b",
+      "turn_id": "local-turn-b314a327fdba082e",
+      "actual_completed_final_preserved": true,
+      "final_sha256": "586cf9965e80ffaf4402647f50c83e18a31eb4e3022ba03a9c125390e672eee9",
+      "final_bytes": 1519,
+      "host_config_verified": true,
+      "native_root_input_delivered": false,
+      "preloaded_references_verified": false,
+      "method_exposure": {
+        "format_version": 1,
+        "present": false,
+        "advertisement_sha256": "6c442d247e6cc75e619ace7426aeb349f37a5f88b633dd514527f272b395cd02",
+        "source_root_sha256": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871"
+      },
+      "actual_developer_context_format": "shared_after_verified_method_advertisement_v1",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "actual_context_observed": true,
+      "native_root_expansion_verified": false,
+      "task_input_readback_verified": true,
+      "tool_attempted": false,
+      "completion_status": "completed",
+      "copied_auth_root_removed": true
+    },
+    {
+      "case_id": "F36C",
+      "condition": "baseline",
+      "status": "completed",
+      "backend_model_verified": false,
+      "model_requested": "gpt-6-sol",
+      "effort_requested": "medium",
+      "reference_delivery": "explicit_preloaded",
+      "comparison_eligible": false,
+      "allow_provider_model_fallback_requested": false,
+      "timeout_seconds": 300,
+      "turn_dispatched": true,
+      "output_seen": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "delivery_sha256": "76a9685f2078e4a160dcea7d30615fa973e838094a0533603dad773fa5dd093b",
+      "turn_id": "local-turn-8c8aa03d66a7d606",
+      "actual_completed_final_preserved": true,
+      "final_sha256": "8d446d06cb615429256ab075a6ae6b973927e8479b6ae57df9a0ebbd40626a57",
+      "final_bytes": 1529,
+      "host_config_verified": true,
+      "native_root_input_delivered": false,
+      "preloaded_references_verified": false,
+      "method_exposure": {
+        "format_version": 1,
+        "present": false,
+        "advertisement_sha256": "6c442d247e6cc75e619ace7426aeb349f37a5f88b633dd514527f272b395cd02",
+        "source_root_sha256": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871"
+      },
+      "actual_developer_context_format": "shared_after_verified_method_advertisement_v1",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "actual_context_observed": true,
+      "native_root_expansion_verified": false,
+      "task_input_readback_verified": true,
+      "tool_attempted": false,
+      "completion_status": "completed",
+      "copied_auth_root_removed": true
+    }
+  ],
+  "outcome_retries": 0,
+  "transport_expiry": false,
+  "new_full_tests_run": false,
+  "reused_full_checks": "153total/6environment-skips/0fail;147executedpasses unchangedcode",
+  "current_totals": {
+    "families": 32,
+    "finals": 96,
+    "problem_solving_turns": 137,
+    "retained": 0
+  },
+  "original_grade_sha256": {
+    "A": "4d882918df2bdad083b6d4d8b917003fd37b80c6857fb27852de8f33f61e7b5b",
+    "B": "abd8e5ff05475c5b640c2b9bfadc043ab5a8ed9b954f0773b63a13aeb29f0d0d"
+  },
+  "authoring_transport_limit": "Oversized inline heredoc truncated locally; parseSyntaxError before any write, then shorter commands currentvalidate3PASS. Not participant failure/retry. GraderA initial shell-quoting calculation attempt failed, corrected numeric in-memory Node calculation passed; not participant retry.",
+  "artifact_review_status": "PENDING_STABLE_POOL_FINAL_ROUNDS",
+  "local_archive_status": "DEFERRED_NO_PUSH"
+}

@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "candidate": "F138_SOURCE_V1_LOCAL_INCONCLUSIVE_V1",
+  "status": "INCONCLUSIVE_RUNTIME",
+  "root_disposition": {
+    "path": "temp/hard-screen-20261003/f138-source-drift-disposition.md",
+    "bytes": 4210,
+    "sha256": "db8c7a5e677d83613774c4d781fed09a9f9cdd6d35f80b539d70a2fbdc6277b3"
+  },
+  "source_and_review_bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F138-proposal/C.md",
+      "bytes": 3389,
+      "sha256": "ab65f35142c5509f9b0b09e99260d69aadbe9711b486fc236c61f9700209c723"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138-proposal/H.md",
+      "bytes": 3480,
+      "sha256": "ea7a15b86fbcf1f053d47ef73d1f89666f396888dc63b0d52588ccad4e9e7c4a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138-proposal/oracle.md",
+      "bytes": 8495,
+      "sha256": "46a625d763fa8d9c9f0eba445dd5799f8cd41aae993e677ace1108bbe76490ba"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138-proposal/reviews/source-a-FIRST.md",
+      "bytes": 6848,
+      "sha256": "0f51bc35e08f227c16602f3cbac8261daec07d50b47fc39c23a6cc4f52e5e1b4"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138-proposal/reviews/source-b-FIRST.md",
+      "bytes": 6181,
+      "sha256": "20795cc52b64dfd0ebcabfe6bad65987989ad9c64d67583e1ae0d42818ef24c6"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138-proposal/reviews/source-a-ALIGN.json",
+      "bytes": 3422,
+      "sha256": "2efb86753e77e3b81fe5f12965c9525015608ffa749d4f62294517de78695708"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138-proposal/reviews/source-b-ALIGN.json",
+      "bytes": 2860,
+      "sha256": "e366037ce37c69095289d2c002dec466c6bc72271a22c9ccfb6a5620c3b55948"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f138-source-release-and-preparation.md",
+      "bytes": 3510,
+      "sha256": "b2e173ba20a8eb7f1836311e9420de719fb0b2a418f08875e5dfbfaa2fb66dff"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138-proposal/check-receipt.json",
+      "bytes": 1578,
+      "sha256": "b5d671060d32640197c4272a63d797368edaa59a752162f648c3080462ece65f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/reviews/runtime-review-FIRST.md",
+      "bytes": 4116,
+      "sha256": "c58d481776a3f9e3dc5579e7a6c77056ca0187d10443b4da4f56f5d51fda1e47",
+      "P0_P1": "CLEAR",
+      "blockers": [],
+      "minor": [
+        "H shared policy mentions three improvements; defer C-only wording cleanup until future H use. H remains unused.",
+        "Inherited broad guard statuses include reused checks, not new executions."
+      ]
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/checked-input-freeze.json",
+      "bytes": 24805,
+      "sha256": "669b7916882d861b142b30555339946c568ee04e2c21ab2018fd9001c3a54216"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f138-preparation-root-actual.json",
+      "bytes": 1145,
+      "sha256": "1dea0f762c3c82c5066b8a8a9841904a23a2b36cab50797fca4c4293176838a5"
+    }
+  ],
+  "source_review_scope": "Two full source FIRST reviews, two ALIGN records, one current preparation FIRST. Source validity and preparation coverage; no empirical hardness claim.",
+  "metadata_bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/source-manifest.json",
+      "bytes": 2407,
+      "sha256": "5091ad449ae7a496fae54ef5ab0aa5db746d30b45d65408103dbafce0923ce3f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/current-review-disposition.json",
+      "bytes": 1675,
+      "sha256": "9bea80b5ede54800dafd2b3700927afcfccb3c2f336d18330ff6b3d2b8171c82"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/review-synthesis.json",
+      "bytes": 1626,
+      "sha256": "16d41a34e70891d84894a9abb229e4311c36e06251cfb366216e24364c97f193"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/original-collection-failure.json",
+      "bytes": 270,
+      "sha256": "3f8f9330d01b574b4e4018518c99c58d6144eec3cb4a77b95da681cae8742c2a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/original/run-slots.json",
+      "bytes": 814,
+      "sha256": "e0f8fd845ada750a3159f4643f5e3b56623c1f5d38118af97e92f6a4cad42c81"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/original-operational-freeze.json",
+      "bytes": 1287,
+      "sha256": "68920563fb2a0ecad8da38a3383b8ab7aa8b3554ec9a79cb44fcb16f29e795b8"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/original-plan.json",
+      "bytes": 1076,
+      "sha256": "f3f01180ce2c522e10c52c1bca103bfc289e9389998075d531591f710cdbd47d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/qualification/neutral-safe-readback.json",
+      "bytes": 8864,
+      "sha256": "a661022d7b72d43c6898c61c28897cead54b98b67cf23af9c2134e44ae48b5d3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/qualification/freeze.json",
+      "bytes": 12294,
+      "sha256": "bbd3adbc369c4c861c7281da1b7e7a7d7c7d2d9e081fb0058ba5b9a9547a5dd0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/checked-input-freeze.json",
+      "bytes": 24805,
+      "sha256": "669b7916882d861b142b30555339946c568ee04e2c21ab2018fd9001c3a54216"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/combined-check-result.json",
+      "bytes": 2432,
+      "sha256": "09209a57af4ae1cfd7dab1af50889c9723648223bcf01b7c9b34266e31318640"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/reused-guard-evidence.json",
+      "bytes": 10996,
+      "sha256": "47cbeb0201f0310311030c233a2ac1dd8ac6cc17a4c7bab9033caaa0addf3fb8"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/evidence/runtime-original-tool-actual.json",
+      "bytes": 512,
+      "sha256": "a4e6063aced45282c3c6326535d5b9a4f192b6d5ab6e30b34a01d429605da970"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/evidence/runtime-original-collector-actual.json",
+      "bytes": 492,
+      "sha256": "b49daccbbc80a5d487c8474f9a2c36996ab356d971cb1717fed0fdbaa0752fcb"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/evidence/runtime-original-failure-readback-actual.json",
+      "bytes": 3095,
+      "sha256": "c25de8bf4552b77e94e94095ab036d433e196f1c8c47161cf96482be8bb728c5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/evidence/runtime-canary-tool-actual.json",
+      "bytes": 406,
+      "sha256": "ae1507213cd5d015d1da69d281a7095f092cb5cfb4c7a5637dc1a459531bbc5c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F138/evidence/runtime-canary-collector-actual.json",
+      "bytes": 1109,
+      "sha256": "274b4f2db165848a177ade489148760892138d227c0e53fed71ee307d1941d45"
+    }
+  ],
+  "originals": [
+    {
+      "repetition": 2,
+      "attempt": 1,
+      "status": "completed",
+      "completion_status": "completed",
+      "turn_dispatched": true,
+      "host_config_verified": true,
+      "task_input_readback_verified": true,
+      "actual_context_observed": true,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "source_preserved": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true,
+      "tool_attempted": false,
+      "backend_model_verified": false,
+      "final": {
+        "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r2-attempt1/final.txt",
+        "bytes": 1761,
+        "sha256": "3d3bf5092b444639b7f08a4d2253cf31b107f33518ecb92db12a37e3167518e9"
+      },
+      "metadata": [
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r2-attempt1/manifest.json",
+          "bytes": 1541,
+          "sha256": "3d859929f5251287e2a7fe868d8941c4eb6925f78e54ec2769dffa7a43733eb8"
+        },
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r2-attempt1/delivery.json",
+          "bytes": 3634,
+          "sha256": "986945e901476de9ed080992d402d1c56ab39e28c99d3e4f4004d3f0f6305152"
+        },
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r2-attempt1/telemetry.json",
+          "bytes": 664,
+          "sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6"
+        },
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r2-attempt1/source-receipts-private.json",
+          "bytes": 4385,
+          "sha256": "d13bf9be07a0132b8e97eb22f3a1a33034e8f5543ac08e0a4a310bedf1866cf8"
+        }
+      ]
+    },
+    {
+      "repetition": 3,
+      "attempt": 1,
+      "status": "completed",
+      "completion_status": "completed",
+      "turn_dispatched": true,
+      "host_config_verified": true,
+      "task_input_readback_verified": true,
+      "actual_context_observed": true,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "source_preserved": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true,
+      "tool_attempted": false,
+      "backend_model_verified": false,
+      "final": {
+        "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r3-attempt1/final.txt",
+        "bytes": 1892,
+        "sha256": "7a7c63d96d5c42c7606cc63ef1d65c480896e23648ca3d37dd73791e0677cd28"
+      },
+      "metadata": [
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r3-attempt1/manifest.json",
+          "bytes": 1541,
+          "sha256": "48eb529e6239531888187057b0e8106d75dff3b1a469cf64a2f0fa1ca27a64d1"
+        },
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r3-attempt1/delivery.json",
+          "bytes": 3634,
+          "sha256": "986945e901476de9ed080992d402d1c56ab39e28c99d3e4f4004d3f0f6305152"
+        },
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r3-attempt1/telemetry.json",
+          "bytes": 664,
+          "sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6"
+        },
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r3-attempt1/source-receipts-private.json",
+          "bytes": 4385,
+          "sha256": "8acdbafc260cd0e2477f74fbea7a919ffe5019255a27f87dabeed89d7ad961f3"
+        }
+      ]
+    },
+    {
+      "repetition": 1,
+      "attempt": 1,
+      "status": "error",
+      "completion_status": "completed",
+      "turn_dispatched": true,
+      "host_config_verified": true,
+      "task_input_readback_verified": true,
+      "actual_context_observed": true,
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "source_preserved": false,
+      "process_stopped": true,
+      "copied_auth_root_removed": true,
+      "tool_attempted": false,
+      "backend_model_verified": false,
+      "final": {
+        "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r1-attempt1/final.txt",
+        "bytes": 1864,
+        "sha256": "fe6b039e33669dcb6e432254bc8e99ca73a74a8100e4bcd3b81bce9ceb94da49"
+      },
+      "metadata": [
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r1-attempt1/manifest.json",
+          "bytes": 1538,
+          "sha256": "06f351934e81606f98bb9675d353b8b6d015e11faab63538fdb6d70d5cc131c1"
+        },
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r1-attempt1/delivery.json",
+          "bytes": 3634,
+          "sha256": "986945e901476de9ed080992d402d1c56ab39e28c99d3e4f4004d3f0f6305152"
+        },
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r1-attempt1/telemetry.json",
+          "bytes": 664,
+          "sha256": "0572f388f51e945e6d6db04ac825f01cd2a8b01b28ffcacfc16aa8abb82957d6"
+        },
+        {
+          "path": "temp/hard-screen-20261003/worker/F138/original/F138_C-baseline-r1-attempt1/source-receipts-private.json",
+          "bytes": 4386,
+          "sha256": "cbfbada7c4f00e820c0e966179b775d0d648983f07ec1256187e794d5594b665"
+        }
+      ]
+    }
+  ],
+  "final_verification": "Exactly three original final files stream-hashed as bytes and compared to saved failure-readback and manifest metadata; no answer decoding or copies.",
+  "diagnosis": {
+    "basis": "ROOT disposition reports fresh independent metadata-only diagnosis; local worker does not attribute actor or infer changed content.",
+    "global_config_before_sha256": "54878f659516b6d68e7947c7661fad0262ce8710517d0c9fbc04ef3c24c6b013",
+    "global_config_after_sha256": "1f178649ce1fd2d11bef122e91bffbb617db7fe5ab2d28ae94b92356236550a9",
+    "protected_sources": 13,
+    "r1_changed": 1,
+    "other_r1_unchanged": 12,
+    "r2_r3_unchanged": 13,
+    "participant_profile_distinct": true,
+    "actor": "UNKNOWN",
+    "changed_content": "UNKNOWN",
+    "exact_time": "UNKNOWN",
+    "historical_failure_not_reset": true
+  },
+  "runtime": {
+    "launcher_exit": 1,
+    "collector_exit": 1,
+    "observation_timeout": false,
+    "original_SAFE": false,
+    "retrospective_release": false
+  },
+  "neutral": {
+    "dispatches": 2,
+    "unscored_treatment": 1,
+    "qualification_safe": true,
+    "scope": "Neutral qualification only; does not release originals"
+  },
+  "reuse": "Historical freeze and prior actual receipts remain leaf bindings; no recursive current reinterpretation or synthetic rerun.",
+  "limitations": [
+    "Runtime cohort not admitted",
+    "Difficulty UNKNOWN",
+    "Actual backend UNKNOWN",
+    "No grades, anonymous packet, scored treatment or effect estimate",
+    "H/packaging alias unused; alias is not a validated negative control"
+  ],
+  "nonblocking_minors": [
+    "Before future H use, scope shared three-improvements acceptance phrase to C.",
+    "Broad inherited guard labels include reused checks; retain actual execution counts."
+  ],
+  "local_verification_receipt": "temp/hard-screen-20261003/worker/F138/final/verification-actual.json"
+}

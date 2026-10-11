@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "candidate": "F139_NATIVE_V1",
+  "status": "EXCLUDED_NOT_HARD",
+  "source_and_review_bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F139-proposal/C.md",
+      "bytes": 2440,
+      "sha256": "9b3cca08c9c6f6382422a0d80395665c16f4fadce6d674ca4ef7dabb524d6c0c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139-proposal/H.md",
+      "bytes": 2439,
+      "sha256": "eca7750bf36288e4c0d1fe7307d9dbdcf925b72be3b80c5b310632f91e9cab60"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139-proposal/oracle.md",
+      "bytes": 7784,
+      "sha256": "35205c60becfcf42c5f2726e86cb392e45473ec528f21f00e88104bc6e8392af"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139-proposal/design-note.md",
+      "bytes": 5327,
+      "sha256": "dddcc02c7ebabbb346789ef0a754716c78719d2ed9ba2cd522568a080ceec9d1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/native-pretrial.json",
+      "bytes": 10288,
+      "sha256": "5aa6f5b7baa7b16a1b40dc86f761a85ecd45b27609d966d4348507eb6193fe83"
+    },
+    {
+      "path": ".omo/evidence/F139-validity-b-code-review.md",
+      "bytes": 7211,
+      "sha256": "93349f66bcec0652c135e62984370e847df7b4689b20d9e13f162c2cd7fea59a"
+    },
+    {
+      "path": ".omo/evidence/native-participant-contract-code-review.md",
+      "bytes": 3224,
+      "sha256": "077f2c3cd8cb671f3dd0245c99d224fbbf6f1eed91d91bd97ffadb2608772f9b"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v2.md",
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v3.md",
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    }
+  ],
+  "metadata_bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/native-readback-actual.json",
+      "bytes": 2514,
+      "sha256": "28da13a354ec9bd97bb21f6762fb4b1ae1b786ee886727cae95fadcbcfe16e94"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/response-1.json",
+      "bytes": 4378,
+      "sha256": "ab6efee88d2f436e08aecb74fa4f8e51c8cae28aa6e9917dd8c056b9b765ff7f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/response-2.json",
+      "bytes": 4645,
+      "sha256": "d197d9c163b638407ad11c0dbb67021a52076773676f92cb12cc9ca0a76feba0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/response-3.json",
+      "bytes": 4196,
+      "sha256": "9da6578acdfa6ecf421db76aeed7d576fb90d1d7ed6d9e71f0a461ef42fab54a"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/blind/packet.json",
+      "bytes": 15720,
+      "sha256": "7557253d1911768d01ab379d4339a57e074aa22b53b57156be1bbb8500faf0ef"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/blind/private-mapping.json",
+      "bytes": 425,
+      "sha256": "d42a9d684dc31028fb6caab6e9454917eb7ba37b61d577ff8f8ce32e49b092da"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/blind/validation-actual.json",
+      "bytes": 6808,
+      "sha256": "44e799f03cdcc623456bf7319c5738e27d6d29767d3d5c72c82af0d19b42ed8f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/grade-a-FIRST.json",
+      "bytes": 6215,
+      "sha256": "34155edf4094c0d57ef9ee0fe744b5bfd922f948169103aed8a14e593d42823f"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/grade-b-FIRST.json",
+      "bytes": 5896,
+      "sha256": "17d51df5c2dc8110a10315a6e005fb7f2b5582932ea91bfedb20e949795e4849"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F139/grades-readback-actual.json",
+      "bytes": 15652,
+      "sha256": "2d46428b093f5ba2cb327586c42902001dbf40ee52f1f44b72fdad04e9242e33"
+    },
+    {
+      "path": "temp/hard-screen-20261003/native-participant-prospective-contract.md",
+      "bytes": 4676,
+      "sha256": "5dfafffb42236980364f4312b86c785f72c6b2e0541773a5016c4d6f227e1d75"
+    },
+    {
+      "path": "temp/hard-screen-20261003/native-participant-route-adoption.md",
+      "bytes": 2283,
+      "sha256": "b700e3be4c21ba6bdfd8d71ea2d20b297a41089aa6a2681627db37ad3c5f43a5"
+    }
+  ],
+  "source_review_scope": {
+    "validity_a": "VALID; ROOT pretrial summary of complete report received, not raw independent report copy",
+    "validity_b": "APPROVE; report hash matches native-pretrial.json",
+    "route_reviews": "Two independent route-review summaries in adoption; second review artifact bound separately. No fresh re-extraction of historical review claims."
+  },
+  "originals": [
+    {
+      "slot": 1,
+      "answer_sha256": "dadcc68d64f1465b326fad2f39bd6e1c5182e1fd975a8de279386af8c316cf3d",
+      "answer_bytes": 1189
+    },
+    {
+      "slot": 2,
+      "answer_sha256": "ef8839f0547ff3377ae4fbb1a25f74f1b75bc452fa9e3e46cfe667a7185b0ee3",
+      "answer_bytes": 1452
+    },
+    {
+      "slot": 3,
+      "answer_sha256": "2e9ac0f2ba42147e77bdd838e2d8de1f48f4c011be4ab20dd161fdc7abdf4d7f",
+      "answer_bytes": 1005
+    }
+  ],
+  "final_verification": {
+    "input_receipt": "temp/hard-screen-20261003/worker/F139/final/input-validation-actual.json",
+    "assertions": {
+      "verdict": "PASS_REPORT_INPUT_BINDINGS",
+      "first_grade_whole_text_equal": true,
+      "quotes_verified": 30,
+      "native_exact_common_prompt": true,
+      "three_original_terminal_answers": true,
+      "source_hashes_match": true,
+      "grades": [
+        {
+          "grader": "a",
+          "scores": [
+            10,
+            10,
+            10
+          ],
+          "objective_errors": 0,
+          "qualifying_failures": 0
+        },
+        {
+          "grader": "b",
+          "scores": [
+            10,
+            10,
+            10
+          ],
+          "objective_errors": 0,
+          "qualifying_failures": 0
+        }
+      ],
+      "joint_qualifying": []
+    },
+    "packet_sha256": "7557253d1911768d01ab379d4339a57e074aa22b53b57156be1bbb8500faf0ef"
+  },
+  "runtime": {
+    "route": "direct_native_subagents",
+    "model_requested": "gpt-6.1-sol",
+    "effort_requested": "medium",
+    "fork_turns_requested": "none",
+    "backend_verified": false,
+    "host_injected_context_available": false,
+    "tool_telemetry_available": false,
+    "tool_attempts_observed": 0,
+    "verified_no_tool_use": false,
+    "old_CLI_qualification_claimed": false
+  },
+  "limitations": [
+    "Fresh fork:none is a request for no inherited conversation, not proof of sterile host instructions or isolated filesystem/home.",
+    "Actual backend, host-injected context and complete tool telemetry are unavailable; zero observed tool attempts does not verify absence.",
+    "Grader B reports consulting generic remove-ai-slops/programming role guidance; preserved as a limitation, with no observed condition leakage and no sterile-context claim.",
+    "Model effort is not admission evidence. This record does not establish skill efficacy or six distinct retained mechanisms."
+  ],
+  "catalog_append": {
+    "before_bytes": 101327,
+    "before_sha256": "be2cec1184b799413be0ad4d39dee85c307e30b7f36be009917d7816a31a0f79",
+    "prefix_must_remain_exact": true,
+    "suffix_rendering": "CRLF"
+  },
+  "local_verification_receipt": "temp/hard-screen-20261003/worker/F139/final/delivery-validation-actual.json"
+}

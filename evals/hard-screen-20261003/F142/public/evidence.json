@@ -1,0 +1,307 @@
+{
+  "candidate": "F142_NATIVE_V1",
+  "immutable_bindings": [
+    {
+      "path": ".omo/evidence/F142-source-a-code-review.md",
+      "bytes": 9666,
+      "sha256": "1c1bb83975c91b1b79f34c6b0bc50bf0365d988b06c8b61426ad61c9488ea887"
+    },
+    {
+      "path": ".omo/evidence/F142-source-b-code-review.md",
+      "bytes": 7966,
+      "sha256": "4fb3e1b3a8e6d06c2e3187ee39128267c820d9276b88bcd77a9f7ddceff05328"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v2.md",
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v3.md",
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    },
+    {
+      "path": "temp/hard-screen-20261003/native-participant-prospective-contract.md",
+      "bytes": 4676,
+      "sha256": "5dfafffb42236980364f4312b86c785f72c6b2e0541773a5016c4d6f227e1d75"
+    },
+    {
+      "path": "temp/hard-screen-20261003/native-participant-route-adoption.md",
+      "bytes": 2283,
+      "sha256": "b700e3be4c21ba6bdfd8d71ea2d20b297a41089aa6a2681627db37ad3c5f43a5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142-proposal/C.md",
+      "bytes": 3091,
+      "sha256": "8dfa56b06b05f7508380d6613e62adfce59b482f69dcede8eda55986ab95ce11"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142-proposal/H.md",
+      "bytes": 3091,
+      "sha256": "b3ecb396fc1919ec577382bc274622ea65ff5895d62c762df840a5ad221b7372"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142-proposal/certificate-run.txt",
+      "bytes": 2336,
+      "sha256": "fd3f0eac41719f9deb2d73ba18062b161206b74a93a0bdfc96098e2549168d4b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142-proposal/certificate.json",
+      "bytes": 2336,
+      "sha256": "fd3f0eac41719f9deb2d73ba18062b161206b74a93a0bdfc96098e2549168d4b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142-proposal/certificate.py",
+      "bytes": 5151,
+      "sha256": "2b507b45796aa06b56c96f069fe198eceef268fad9d32fb3f6f15e2b1112542b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142-proposal/design-note.md",
+      "bytes": 5461,
+      "sha256": "f7fe49f9ee6fa29de88822c791ca187bb311c14cc158952a6cb59da8a7741267"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142-proposal/evidence.md",
+      "bytes": 4779,
+      "sha256": "6ab6038b28721debc5156d7b887450cdb92460103287748380237db514f4392b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142-proposal/oracle.md",
+      "bytes": 10525,
+      "sha256": "227db29521b6403d6d104295c73a79e781421b3be0c9e9d57525aa0f38158639"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142-proposal/readback.json",
+      "bytes": 2283,
+      "sha256": "0a45b14c1da43b2d6d586832a72bf79d5c760b4065399d4ee56b162cd19f787d"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142-proposal/source-hashes.json",
+      "bytes": 1284,
+      "sha256": "0486db7e1d2922db4ce66a4c9eca84355dde1a098b33952272034d7370d9fbd0"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/build.cjs",
+      "bytes": 7037,
+      "sha256": "6d4f575de078c92100a085b2bea1ad467f14947b6a6f61fff068a8cce85db6d3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/packet.json",
+      "bytes": 21090,
+      "sha256": "ec593b03b830f79afe958cfd136619e7fdd3dd8b5729d99ee0fab82e2da9301e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/private-mapping.json",
+      "bytes": 4443,
+      "sha256": "574473875e1b8dfe2c2925dd5e9daf7e4ef3eec69f340e8e67d757226a0515d3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/build-actual.json",
+      "bytes": 728,
+      "sha256": "88c67ca6c8f5e67d87b596481d831e56bad36c48d3594f4a286efc570d94e7f1"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/failed-tools.json",
+      "bytes": 852,
+      "sha256": "d60905b6b0e6f72722de0eaef8476b9c455faeed7d471832e4f8177a6cf12932"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/final-readback-actual.json",
+      "bytes": 2812,
+      "sha256": "9c1921e0699267cf71c5a238cff70551543bf47961638886fd33e63e8f40947c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/initial-read.json",
+      "bytes": 26934,
+      "sha256": "b684eb70902f536b2990af7bb5e1276efbebd77afd51ed550a35a46ca11abc63"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/source-read.json",
+      "bytes": 61733,
+      "sha256": "bf0a52499add2dbb430ffc5fef68ee74e748d8c1fd81e2cbcb011082b76afdee"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/source-snapshot.json",
+      "bytes": 96526,
+      "sha256": "d0c4cfaddfc98d5921a3db6597ac06fabee384fc390c6d971b26c833a216b677"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/task-shape-corrected.json",
+      "bytes": 1188,
+      "sha256": "b4a3b6823a1fc6f539a7e7d2ae71016c881f57e1196ddca3eaa2f093ebd28deb"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/task-shape.json",
+      "bytes": 2962,
+      "sha256": "0045a26555d50353576f1d675230c5ec91b94146aaf16cc97d4951dc593ec0ac"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/validation-failed-01.json",
+      "bytes": 1724,
+      "sha256": "8e44977f5d37564d8575920832f2d7ebffbda2f518343e0ada676b0e80e3c702"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/validate.cjs",
+      "bytes": 10507,
+      "sha256": "4f0aef7328da4a067de47bc1b714848040d3cfc6e065d06046991f5e0e97bd19"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/validation-actual.json",
+      "bytes": 8758,
+      "sha256": "9c3dab602c6179bac2e9828011a2794a2dea73a36862ff68bda6da363b277473"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/grade-a-FIRST.json",
+      "bytes": 3734,
+      "sha256": "5102e1d92b634576511e17f5c5187c565fcb21290f66a986a059433772957319"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/grade-b-FIRST.json",
+      "bytes": 4366,
+      "sha256": "5c38ca54c520f3f4777d091c00341e572b75bde342dba4d90c978ff04e560242"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/grades-readback-actual.json",
+      "bytes": 11892,
+      "sha256": "321f560205ae70ac48a5e712a2f3606186cc02d3e805563941143f52c2c7a7c7"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/native-pretrial.json",
+      "bytes": 13832,
+      "sha256": "9733484e5152966b954bc1932d9e99988daec835e1822020746c4d9778ef6912"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/native-readback-actual.json",
+      "bytes": 10521,
+      "sha256": "1d81835cb673881baa251514ec7a3f0c95fb2f562bc25c18370c26839a0eaf03"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/response-1.json",
+      "bytes": 6019,
+      "sha256": "2670c8f1de7b2bc186375f57283cacc897388628de0c172a3f11a686cc1f69da"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/response-2.json",
+      "bytes": 5691,
+      "sha256": "a8d9bf36109a0326ce57cda92e248b6819447cc6fc89b4c78224f513fc16ab00"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/response-3.json",
+      "bytes": 5730,
+      "sha256": "f5fe1dd086c44e9497f912e31ef2747a091b5eb4c8d6e193fd5dea376897c451"
+    }
+  ],
+  "source_validity": [
+    {
+      "verdict": "APPROVE",
+      "report": {
+        "path": ".omo/evidence/F142-source-a-code-review.md",
+        "bytes": 9666,
+        "sha256": "1c1bb83975c91b1b79f34c6b0bc50bf0365d988b06c8b61426ad61c9488ea887"
+      },
+      "blocking_findings": [],
+      "advisory_disposition": "Retain frozen reviewed artifact. MEDIUM literal prose assertion and LOW helper typing/metadata findings do not invalidate the independently established proofs."
+    },
+    {
+      "verdict": "APPROVE",
+      "report": {
+        "path": ".omo/evidence/F142-source-b-code-review.md",
+        "bytes": 7966,
+        "sha256": "4fb3e1b3a8e6d06c2e3187ee39128267c820d9276b88bcd77a9f7ddceff05328"
+      },
+      "blocking_findings": [],
+      "advisory_disposition": "Retain frozen reviewed artifact. MEDIUM literal prose assertion and LOW helper typing/metadata findings do not invalidate the independently established proofs."
+    }
+  ],
+  "mapping": [
+    {
+      "response_id": "R01",
+      "original_slot": 2,
+      "source": "temp/hard-screen-20261003/worker/F142/response-2.json"
+    },
+    {
+      "response_id": "R02",
+      "original_slot": 3,
+      "source": "temp/hard-screen-20261003/worker/F142/response-3.json"
+    },
+    {
+      "response_id": "R03",
+      "original_slot": 1,
+      "source": "temp/hard-screen-20261003/worker/F142/response-1.json"
+    }
+  ],
+  "actual_receipts": {
+    "native": "temp/hard-screen-20261003/worker/F142/native-readback-actual.json",
+    "packet_failed": "temp/hard-screen-20261003/worker/F142/blind/receipts/validation-failed-01.json",
+    "packet_passed": "temp/hard-screen-20261003/worker/F142/blind/validation-actual.json",
+    "packet_final_readback": "temp/hard-screen-20261003/worker/F142/blind/receipts/final-readback-actual.json",
+    "first_grades": "temp/hard-screen-20261003/worker/F142/grades-readback-actual.json",
+    "inputs": "temp/hard-screen-20261003/worker/F142/final/inputs-actual.json",
+    "readme": "temp/hard-screen-20261003/worker/F142/final/readme-actual.json",
+    "local_result": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json"
+  },
+  "failure_receipts": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/failed-tools.json",
+      "failure": "Process setup failed before command execution; oversized Node write rejected before execution.",
+      "completeness": "Process failure has invocation/error. Oversized rejection has error/effect only; complete rejected invocation not preserved."
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/source-read.json",
+      "failure": "Status CLI unavailable, exit 127",
+      "completeness": "Complete invocation/result"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/task-shape.json",
+      "failure": "Extra closing parenthesis, syntax error",
+      "completeness": "Complete invocation/result",
+      "successful_rerun": "temp/hard-screen-20261003/worker/F142/blind/receipts/task-shape-corrected.json"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F142/blind/receipts/validation-failed-01.json",
+      "failure": "Metadata regex matched native inside alternative",
+      "completeness": "Complete invocation/result",
+      "successful_rerun": "temp/hard-screen-20261003/worker/F142/blind/validation-actual.json"
+    }
+  ],
+  "checks": [
+    {
+      "scenario": "Immutable sources, source reviews, route contracts, originals, packet and first-grade bindings",
+      "invocation": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json#/invocation",
+      "binary_observable": "Every frozen byte count and SHA256 matches; complete verifier exits 0",
+      "artifact": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json"
+    },
+    {
+      "scenario": "Exact original task, requests and anonymous answers",
+      "invocation": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json#/invocation",
+      "binary_observable": "C.md exact including final LF; all three frozen requests and answers match; permutation 2/3/1",
+      "artifact": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json"
+    },
+    {
+      "scenario": "Independent complete FIRST judgments and exact supporting quotations",
+      "invocation": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json#/invocation",
+      "binary_observable": "Both full raw judgments match actual grade receipt; six rows total 10; both error flags false; 20 exact quotes; joint IDs []",
+      "artifact": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json"
+    },
+    {
+      "scenario": "Outcome and limits reflected across four public files",
+      "invocation": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json#/invocation",
+      "binary_observable": "EXCLUDED_NOT_HARD; retained 0/6; H unused; no skill comparison; requested route and unverified backend/context/tool absence; source advisories and all five preparation failures disclosed",
+      "artifact": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json"
+    },
+    {
+      "scenario": "Original README prefix, exact appended suffix, four outputs and final manifest",
+      "invocation": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json#/invocation",
+      "binary_observable": "103272-byte prefix hash unchanged; exact suffix and complete README hashes match; all four public output hashes match manifest",
+      "artifact": "temp/hard-screen-20261003/worker/F142/final/verification-actual.json"
+    }
+  ],
+  "limitations": [
+    "Actual backend, host-injected context and complete tool absence are unverified.",
+    "No old CLI qualification, heldout administration, skill comparison, whole-mechanism conclusion or catalogue-wide uniqueness is claimed.",
+    "The oversized preparation rejection has a limited error/effect receipt, not the complete rejected request.",
+    "ROOT final acceptance and independent delivery review remain outside this writer's completion."
+  ],
+  "retention_basis": "Both independent FIRST graders identify zero qualifying failures on all three same IDs; EXCLUDED_NOT_HARD; retained 0/6."
+}

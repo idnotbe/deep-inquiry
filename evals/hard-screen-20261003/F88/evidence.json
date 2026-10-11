@@ -1,0 +1,100 @@
+{
+  "original_anonymous_public_identity": [
+    {
+      "anonymous_id": "R7",
+      "original_case_id": "F88C",
+      "repetition": 2,
+      "original_path": "temp/hard-screen-20261003/worker/F88/original/F88C-baseline-r2-attempt1/final.txt",
+      "bytes": 1289,
+      "sha256": "50784b4be0067f7b8ecf07b5e5d33155d258284bf50a4d80089cef41e4bb3b87",
+      "public_path": "evals/hard-screen-20261003/F88/responses/F88C-r2.txt",
+      "original_anonymous_public_byte_equal": true
+    },
+    {
+      "anonymous_id": "T4",
+      "original_case_id": "F88C",
+      "repetition": 3,
+      "original_path": "temp/hard-screen-20261003/worker/F88/original/F88C-baseline-r3-attempt1/final.txt",
+      "bytes": 1252,
+      "sha256": "473940331ab2c53f496c6b7b05a59e5e7feed09d8621b2b74407ba9401f126f6",
+      "public_path": "evals/hard-screen-20261003/F88/responses/F88C-r3.txt",
+      "original_anonymous_public_byte_equal": true
+    },
+    {
+      "anonymous_id": "W9",
+      "original_case_id": "F88C",
+      "repetition": 1,
+      "original_path": "temp/hard-screen-20261003/worker/F88/original/F88C-baseline-r1-attempt1/final.txt",
+      "bytes": 1259,
+      "sha256": "89c858d9d0e25aca9e40beda110d64673934ab10582de676629458779f4bca15",
+      "public_path": "evals/hard-screen-20261003/F88/responses/F88C-r1.txt",
+      "original_anonymous_public_byte_equal": true
+    }
+  ],
+  "runtime": {
+    "neutral_turns": 2,
+    "problem_turns": 3,
+    "order": [
+      2,
+      3,
+      1
+    ],
+    "setup_retry_count": 0,
+    "both_actual_tool_exit_codes": [
+      0,
+      0
+    ],
+    "SAME_owned_Python_terminal_close0": true,
+    "all_actual_guards_pass": true,
+    "frozen_bindings_checked": 105,
+    "ROOTSAFE_PASS_before_packet": true
+  },
+  "grading": {
+    "NEW_fork_NONE_packet_only_FIRSTs": 2,
+    "both_full_FIRSTs_saved_before_synthesis_map_preview": true,
+    "same_joint_ids": [],
+    "full_pass_counts": [
+      3,
+      3
+    ],
+    "total_scores_each": [
+      [
+        10,
+        10,
+        10
+      ],
+      [
+        10,
+        10,
+        10
+      ]
+    ],
+    "objective_error_counts": [
+      0,
+      0
+    ],
+    "qualifying_failure_counts": [
+      0,
+      0
+    ]
+  },
+  "preserved_repairs": {
+    "private_proof_executions": 1,
+    "author_check_executions": {
+      "failed": 1,
+      "corrected_pass": 2
+    },
+    "composition_repair_before_ANY_native": true,
+    "failed_attempts_and_originals_retained": true,
+    "source_criteria_unchanged": true,
+    "full_verification_run": false
+  },
+  "limits": [
+    "Backend identity remains unverified/nonblocking.",
+    "Reasoning effort not considered.",
+    "H/K participant unused; no scored skill comparison or efficacy conclusion.",
+    "214 counts preserved terminal problem FILES, not 214 protocol-valid trials.",
+    "Blind FIRSTs are full delivered texts, not authenticated transport bytes.",
+    "Biome LSP unavailable on FIRST1 save; file saved and both full JSON originals parsed, no install/global write or regrade."
+  ]
+}

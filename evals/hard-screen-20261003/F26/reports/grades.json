@@ -1,0 +1,155 @@
+{
+  "rubric_order": [
+    "decision",
+    "evidence",
+    "mechanism",
+    "feasibility",
+    "support"
+  ],
+  "graders": {
+    "A": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Do not authorize the second vehicle."
+        ],
+        "verification": "All five placements normalize to A1[0,1200]x[0,1000], A2[1200,2200]x[0,1200], A3[1000,2200]x[1200,2200], A4[0,1000]x[1000,2200], Z1[1010,1190]x[1010,1190]. Ten pairs have disjoint interiors, legal quarterturns, deck support and no overhang. Cargo620<=700. Vertical crane access makes central placement executable. Feasible zero extra spend is optimal."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Do not authorize the second vehicle."
+        ],
+        "verification": "All five placements normalize to A1[0,1200]x[0,1000], A2[1200,2200]x[0,1200], A3[1000,2200]x[1200,2200], A4[0,1000]x[1000,2200], Z1[1010,1190]x[1010,1190]. Ten pairs have disjoint interiors, legal quarterturns, deck support and no overhang. Cargo620<=700. Vertical crane access makes central placement executable. Feasible zero extra spend is optimal."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Do not authorize the second vehicle."
+        ],
+        "verification": "All five placements normalize to A1[0,1200]x[0,1000], A2[1200,2200]x[0,1200], A3[1000,2200]x[1200,2200], A4[0,1000]x[1000,2200], Z1[1010,1190]x[1010,1190]. Ten pairs have disjoint interiors, legal quarterturns, deck support and no overhang. Cargo620<=700. Vertical crane access makes central placement executable. Feasible zero extra spend is optimal."
+      }
+    ],
+    "B": [
+      {
+        "response_id": "R01",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Do not authorize the second vehicle."
+        ],
+        "verification": "All five placements normalize to A1[0,1200]x[0,1000], A2[1200,2200]x[0,1200], A3[1000,2200]x[1200,2200], A4[0,1000]x[1000,2200], Z1[1010,1190]x[1010,1190]. Ten pairs have disjoint interiors, legal quarterturns, deck support and no overhang. Cargo620<=700. Vertical crane access makes central placement executable. Feasible zero extra spend is optimal."
+      },
+      {
+        "response_id": "R02",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Do not authorize the second vehicle."
+        ],
+        "verification": "All five placements normalize to A1[0,1200]x[0,1000], A2[1200,2200]x[0,1200], A3[1000,2200]x[1200,2200], A4[0,1000]x[1000,2200], Z1[1010,1190]x[1010,1190]. Ten pairs have disjoint interiors, legal quarterturns, deck support and no overhang. Cargo620<=700. Vertical crane access makes central placement executable. Feasible zero extra spend is optimal."
+      },
+      {
+        "response_id": "R03",
+        "scores": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "total": 10,
+        "critical_failures": [],
+        "objective_decision_error": false,
+        "qualifying_inquiry_failure": false,
+        "rooterrorcount": 0,
+        "decision_valid": true,
+        "descriptive_numeric_pass": true,
+        "quoted_evidence": [
+          "Do not authorize the second vehicle."
+        ],
+        "verification": "All five placements normalize to A1[0,1200]x[0,1000], A2[1200,2200]x[0,1200], A3[1000,2200]x[1200,2200], A4[0,1000]x[1000,2200], Z1[1010,1190]x[1010,1190]. Ten pairs have disjoint interiors, legal quarterturns, deck support and no overhang. Cargo620<=700. Vertical crane access makes central placement executable. Feasible zero extra spend is optimal."
+      }
+    ]
+  },
+  "reviewers": {
+    "A": "logical-agent/hard_family_screening/f26_grader_a",
+    "B": "logical-agent/hard_family_screening/f26_grader_b"
+  },
+  "decision_valid_counts": {
+    "A": 3,
+    "B": 3
+  },
+  "secondary_numeric_pass_counts": {
+    "A": 3,
+    "B": 3
+  },
+  "joint_qualifying_ids": [],
+  "decision": "EXCLUDE_NO_QUALIFYING_FAILURE"
+}

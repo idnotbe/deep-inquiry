@@ -1,0 +1,109 @@
+{
+  "status": "F105_RUNTIME_CLOSURE_EVIDENCE",
+  "bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/qualification/freeze.json",
+      "bytes": 52129,
+      "sha256": "7991d6b795079c8d1e7eb4bbe84bdce4ff2e8d4a0265ab796da1c3013d927f3e"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/PRETRIAL.json",
+      "bytes": 67597,
+      "sha256": "365e7921d81722b3059b2b9606f95ea8c7efdbe5e7fcdbf8b59a02bd62ce6d48"
+    },
+    {
+      "path": "temp/hard-screen-20261003/f105-pretrial-root-gate.json",
+      "bytes": 2350,
+      "sha256": "3ab374725527329484dcc2d021c704df6fab83119a7129ca7a921b23953bf06c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/qualification/canary-tool-handle.json",
+      "bytes": 784,
+      "sha256": "4cce6f3ef33949960b6ee50a713eb036394742c6ab73b06d1fde27b73e86e3b2"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/qualification/neutral-safe-readback.json",
+      "bytes": 11542,
+      "sha256": "52613731589f2609eaba496e388f7500db14398e8947a5d7067c776ee2ed8713"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/collect-canary-actual-lossless.json",
+      "bytes": 1388,
+      "sha256": "857d133f5c2782aa7720f122b3ad5af28872e98014ede1014467095ed5e40868"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/original-operational-freeze.json",
+      "bytes": 1236,
+      "sha256": "45e3fe2bcee0fed3eb612a84c0ed24ad3b8927ae4e2988a0e00cd1b56bdc4098"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/original-tool-handle.json",
+      "bytes": 684,
+      "sha256": "13e5d0cc7dcd0ea1ce4a7f29a2b15f55c32f7683f9a7d1dbe19da565eca801ab"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/collect-original-actual-lossless.json",
+      "bytes": 787,
+      "sha256": "12750a89b78819cbea17b9c3b20d984c743996c84369bd385484193cdbb5eca3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/producer-invocation-original.json",
+      "bytes": 2456,
+      "sha256": "a5eea47108540e830096b13a741e507c04958a2444401ace0043e06802cd352c"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/producer-terminal-original.json",
+      "bytes": 364,
+      "sha256": "e76d35e14f8cd67fc6566d3de9b23493dffe43352c8e9e8fc6ac49ec9ab46422"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/original/run-slots.json",
+      "bytes": 500,
+      "sha256": "3e106b52003aa016838ee8ad887649a9a21e19619086e5c6f3a6264612646777"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/original/F105_C-baseline-r2-attempt1/manifest.json",
+      "bytes": 1092,
+      "sha256": "f66b3e348fef4e6b5a5db0e62b541050c1c585cca75f886e4c001b79bb717e5b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/original/F105_C-baseline-r2-attempt1/telemetry.json",
+      "bytes": 1333,
+      "sha256": "7e1138fc0587b3404ece59001180e923c5f2b42cd33a8d6ea5bdd32721325013"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F105/runtime-STOP.json",
+      "bytes": 1431,
+      "sha256": "8f00ebf7a233f99204827f423ba93153830769bb29b2d3643e9a61318de96180"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F105/status.json",
+      "bytes": 2318,
+      "sha256": "4ba01d8ff56c23d246d1291987f628512692abbf24438adc0c001f9c1f2b96ef"
+    },
+    {
+      "path": "evals/hard-screen-20261003/F105/report.md",
+      "bytes": 1244,
+      "sha256": "3b634738a706508a75df2b50c827fed84298c80043462af508780fddd5659f34"
+    }
+  ],
+  "telemetry_method_counts": {
+    "item/started": 6,
+    "item/completed": 6,
+    "rawResponseItem/completed": 1,
+    "turn/completed": 1
+  },
+  "final_file_metadata_only": {
+    "bytes": 10,
+    "sha256": "418711c5ee892d8faeaa71dee7cdeb069db5edab54e08a8edd1fa7d969297d44",
+    "accepted_answer": false
+  },
+  "source_freeze_unchanged": true,
+  "no_payloads_or_transcript_read": true,
+  "limits": [
+    "Actual backend unknown",
+    "Descendant cleanup unverified",
+    "Outer timeout is not a watchdog",
+    "Historical construction receipt repairs remain author-attested only"
+  ]
+}

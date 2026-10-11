@@ -1,0 +1,66 @@
+{
+  "family": "F51",
+  "status": "INCOMPLETE",
+  "originals": [
+    {
+      "repetition": 2,
+      "attempt": 1,
+      "status": "INVALID_NO_COMPLETED_CAPTURE",
+      "host_submission_attempts": 1,
+      "host_start_RPC_returned": true,
+      "user_message_started_captures": 1,
+      "user_message_completed_captures": 1,
+      "successful_turn_completion_captures": 0,
+      "preserved_terminal_final_files": 0,
+      "actual_model_execution_completion": "UNKNOWN",
+      "error": {
+        "type": "RunnerError",
+        "stage": "turn_completion",
+        "contract_code": "contract_rejected",
+        "message": "NOT_PRESERVED in safe manifest or compact telemetry; cannot identify exact thrown message without prohibited raw-event diagnosis",
+        "message_is_unknown": true
+      },
+      "guards": {
+        "no_tools_attempted": true,
+        "valid_completed_no_tools_contract": false,
+        "actual_task_context_readback_verified": false,
+        "source_preserved": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true,
+        "owned_producer_close_exit": 1,
+        "guards_not_inferred_from_PID": true
+      }
+    },
+    {
+      "repetition": 3,
+      "status": "NOT_RUN",
+      "directory_observed": false
+    },
+    {
+      "repetition": 1,
+      "status": "NOT_RUN",
+      "directory_observed": false
+    }
+  ],
+  "neutral": {
+    "roots": 2,
+    "turns": 2,
+    "problem_counts": 0,
+    "status": "PASS",
+    "setup_retries": 0
+  },
+  "current_counts": {
+    "attempted_families_lowerbound": 46,
+    "preserved_terminal_finals_lowerbound": 133,
+    "completed_problem_turn_captures_lowerbound": 189,
+    "retained": 0,
+    "F46_contribution": "UNKNOWN",
+    "F51_actual_model_execution_completion_contribution": "UNKNOWN; host acceptance and zero successful captures do not prove zero actual execution"
+  },
+  "hardness": "INCONCLUSIVE",
+  "responses_archive": "NONE no terminal text",
+  "grades": "NOT_RUN no zero-score substitution",
+  "packet_created": false,
+  "outcome_retry": 0,
+  "remaining_dispatch": 0
+}

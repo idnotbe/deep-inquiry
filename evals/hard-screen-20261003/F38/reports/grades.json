@@ -1,0 +1,309 @@
+{
+  "family": "F38",
+  "packet_sha256": "ef9b398e393256488eb5813cae163d6a6e3ddb1ae68c394991fb3b3f6b3700ad",
+  "grading": "Two NEW fresh-context graders each received ONLY exact blank current-only packet. FULL original returned JSON objects preserved all fields/prose/limits; no grading replacement or rescore.",
+  "original_graders": {
+    "A": {
+      "packet_sha256": "ef9b398e393256488eb5813cae163d6a6e3dDB1AE68C394991FB3B3F6B3700AD",
+      "assessment_scope": "Original terminal independent assessment of R01, R02, and R03, using only the supplied grading packet as task evidence.",
+      "grades": [
+        {
+          "response_id": "R01",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "explanations": {
+            "decision": "Approves BOOST and specifies actions for all nine supported records through an attachment rule applying to every flag. The resulting guaranteed receipt is correctly calculated as 31/4.",
+            "evidence": "Correctly distinguishes the archive's reporting pattern from current endogenous reporting and rejects the proposal's guarantee while recognizing its forecast as a possible outcome.",
+            "mechanism": "Correctly compares certified-G supplier payoff 9 with uncertified BASIC payoff 2 and certified-B payoff -1 with uncertified payoff 2. Correctly identifies a pooled BOOST/AUTONOMOUS equilibrium.",
+            "feasibility": "The reservation and complete binding table are supported time0 choices. Accounting deducts the current reservation charge once, uses owner receipts that already include license fees, and treats the certificate charge as a supplier cost. The table handles every free flag and removes flag-dependent processing incentives.",
+            "support": "Provides binding incentives, exact accounting, a pooling counterequilibrium, and a compact upper-bound argument. Under the supplied rubric's sufficient-proof allowance, this supports full credit without requiring an exhaustive enumeration."
+          },
+          "substantive_findings": [],
+          "uncertainties": [
+            "The phrase 'yield lower bounds on what can be guaranteed' is imprecise in an upper-bound discussion. It does not establish a materially false universal premise or alter the correct authorization."
+          ]
+        },
+        {
+          "response_id": "R02",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "explanations": {
+            "decision": "Explicitly orders one BOOST reservation for 3/4 and selects BINDING with a complete attachment rule for every claim flag. The guaranteed current receipt is correctly stated as 31/4.",
+            "evidence": "Correctly states that the archived reporting frequencies cannot be imposed after the autonomous processing incentives change. Recognizes that 31/4 remains possible but is not guaranteed under the proposal.",
+            "mechanism": "Correctly derives certification incentives under the binding table and explains why an available G certificate is withheld when pooled autonomous ADVANCED already pays 10.",
+            "feasibility": "The specified order and enforceable table use supported controls and cover all nine records. Current costs and the supplier-paid certificate charge are correctly accounted for. No unsupported withdrawal, quality observation, or release control is introduced.",
+            "support": "Supplies a compact maximum-guarantee argument, binding best responses, exact receipt accounting, and an autonomous pooling counterequilibrium. These meet the supplied sufficient-proof standard."
+          },
+          "substantive_findings": [],
+          "uncertainties": [
+            "The upper-bound explanation is compressed and does not enumerate every reporting pattern or lottery. The rubric explicitly accepts compact equivalent reasoning and does not require that enumeration."
+          ]
+        },
+        {
+          "response_id": "R03",
+          "scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "explanations": {
+            "decision": "Approves one BOOST reservation and BINDING, explicitly covering READY, HOLD, and NONE for every attachment category. Correctly states the maximum guaranteed receipt as 31/4.",
+            "evidence": "Correctly rejects persistence of the archived reporting pattern as a guarantee and distinguishes the proposal's possible forecast from its worst permitted outcome.",
+            "mechanism": "Correctly derives available-G certification and B withholding under the binding table. Correctly identifies the supplier's preference for silent ADVANCED paying 10 over certified-G ADVANCED netting 9 in the pooled autonomous equilibrium.",
+            "feasibility": "The equipment order and complete table are supported controls. The arithmetic correctly uses the four equally likely pairs and subtracts the 3/4 reservation charge. The rule covers all free claim flags and all supplier best-response flag ties.",
+            "support": "Provides a complete binding repair, correct best responses, exact accounting, and a pooling counterequilibrium. Although its optimality statement is brief, the supplied rubric expressly treats this combination as sufficient; no exhaustive global proof is required."
+          },
+          "substantive_findings": [],
+          "uncertainties": [
+            "Does not separately develop a general upper-bound proof. This is not a score deduction under the packet's explicit sufficient-proof allowance."
+          ]
+        }
+      ],
+      "shared_lawful_checks": {
+        "binding_authorization": {
+          "time0": "Reserve one BOOST unit, pay 3/4, and publicly sign BINDING: every unauthenticated record executes BASIC; every authentic-G record executes ADVANCED; every authentic-B record executes REJECT.",
+          "time1_time2": "Each supplier observes its independently drawn quality/link pair. G,c1 releases its truthful certificate because 10-1=9 exceeds 2. G,c0 and B,c0 cannot obtain a current certificate and use an unauthenticated record. B,c1 withholds because 0-1=-1 is below 2. All claim flags within an attachment category are interchangeable.",
+          "time3": "The enforceable table physically executes the specified actions without discretionary override. Owner custody prevents withdrawal, and the reservation arrives within the processing window.",
+          "receipt": "(28+10-2-2)/4-3/4=31/4.",
+          "best_response_coverage": "Certificate choices are strict. Every supplier flag tie or mixture yields the same processing action and receipt."
+        },
+        "pooled_autonomous_equilibrium": {
+          "time0": "Reserve BOOST for 3/4 and use AUTONOMOUS.",
+          "supplier_strategy": "Every quality/link type sends NONE without a certificate.",
+          "receiver_beliefs": "The reached NONE/no-certificate record retains quality probability 1/2 by Bayes. At unused READY/HOLD records without certificates, assign the lawful same prior. Authentic certificates establish their true quality and c1.",
+          "receiver_strategy": "Execute ADVANCED at every unauthenticated record: expected owner receipt before reservation is 8 for ADVANCED, 4 for BASIC, and 0 for REJECT. Execute ADVANCED for authentic G and REJECT for authentic B.",
+          "deviation_check": "Every supplier receives 10 by withholding. Other free flags also receive 10. G,c1 would receive 9 by certifying; B,c1 would receive -1 by certifying. Types with c0 cannot obtain authentic certificates. Opposite-quality certificates cannot be produced; invalid frames remain unauthenticated.",
+          "receipt": "(28-12)/2-3/4=29/4.",
+          "scope": "This is a complete permitted weak perfect Bayesian equilibrium and establishes that V-430 does not guarantee its forecast."
+        },
+        "favorable_autonomous_outcome": {
+          "supplier_strategy": "G,c1 certifies; all other types use an unauthenticated record.",
+          "receiver_strategy": "Use ADVANCED for authentic G and BASIC without a certificate. The latter quality posterior is 1/3, where BOOST ADVANCED and BASIC both yield expected receipt 2/3, so BASIC is lawful. Authentic B receives REJECT.",
+          "supplier_incentives": "Available G earns 9 by certifying versus 2 by withholding; available B earns -1 by certifying versus 2 by withholding.",
+          "receipt": "31/4 after reservation.",
+          "scope": "Supports all three answers' statement that the vendor forecast is possible, while the pooled equilibrium defeats its guarantee."
+        }
+      },
+      "qualifying_response_ids_for_this_assessment_only": [],
+      "jointly_qualifying_ids": [],
+      "joint_qualification_limitation": "No response qualifies in this assessment. No other grader's judgment was read or inferred, and two-grader joint qualification was not evaluated.",
+      "limitations": [
+        "No neighboring task files, original mappings, prior grades, oracle materials, model metadata, host metadata, or external sources were used.",
+        "This assessment concerns observable correctness and the packet's qualification rules; it makes no inference about hidden reasoning or cognitive causes.",
+        "The packet was read and hashed without modifying files. No outcome retry or regrade was performed."
+      ]
+    },
+    "B": {
+      "packetSHA": "ef9b398e393256488eb5813cae163d6a6e3ddb1ae68c394991fb3b3f6b3700ad",
+      "qualifying_response_ids": [],
+      "qualifying_root_count": 0,
+      "responses": [
+        {
+          "response_id": "R01",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "reasoning": {
+            "decision": "The answer approves BOOST and specifies all nine BINDING records: all unauthenticated flags execute BASIC, all authentic-G flags execute ADVANCED, and all authentic-B flags execute REJECT. This is a complete optimal authorization.",
+            "evidence": "The statement that 'the archive does not fix today’s reporting behavior' correctly separates the archived NORMAL/AUTONOMOUS outcome from supplier reporting after the equipment and receiver incentives change. The answer does not treat proposal V-430’s quotation as established evidence.",
+            "mechanism": "Available G strictly prefers certification because 10−1=9 exceeds the unauthenticated BASIC payment of 2. Available B strictly prefers withholding because certification produces 0−1=−1 instead of 2. Certificate-unavailable types use unauthenticated records. All flag choices are payoff equivalent under the signed table.",
+            "feasibility": "The prescribed BOOST reservation and signed BINDING table use the installed time0 interfaces and cover every supported record. The receipt calculation includes the current reservation charge, uses owner receipts already net of license fees, and correctly leaves issuer charges with the supplier. No withdrawal, additional input endpoint, or later discretionary override is assumed.",
+            "support": "The calculation 28/4+10/4−2/2−3/4=31/4 is correct. The response supplies a complete binding repair and the relevant pooling counterequilibrium, together with a compact explanation of the binding upper bound. These satisfy the supplied rubric’s accepted compact-support standard."
+          },
+          "findings": [],
+          "uncertainties": [
+            {
+              "quote": "The cases where G does not certify yield lower bounds on what can be guaranteed.",
+              "assessment": "The phrase 'lower bounds' is imprecise in an upper-bound argument. The answer’s authorization and claimed maximum are nevertheless correct under the supplied laws; this wording does not establish a false premise or qualifying failure."
+            }
+          ],
+          "limitations": [
+            "The response does not explicitly enumerate off-path beliefs or every lottery case. The supplied acceptance policy does not require exhaustive equilibrium enumeration, and its stated counterequilibrium has a lawful complete extension."
+          ],
+          "qualifying_root_count": 0
+        },
+        {
+          "response_id": "R02",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "reasoning": {
+            "decision": "The answer explicitly orders one BOOST unit for 3/4 credit and signs a complete BINDING table for every flag. The authorization achieves the maximum guaranteed receipt of 31/4.",
+            "evidence": "The answer correctly states that archived reporting frequencies cannot be treated as fixed under BOOST/AUTONOMOUS. Its distinction between a possible 31/4 outcome and a guaranteed outcome is correct.",
+            "mechanism": "The certification incentive for available G is correctly calculated as 9 versus 2. The prescribed authentic-B REJECT action gives available B a certification payoff of −1 versus 2 without certification, supporting the answer’s statement that every other type withholds.",
+            "feasibility": "The equipment order and signed table are executable through the supplied reservation and BINDING interfaces. All flag records are assigned. The calculation correctly includes the BOOST charge without charging the owner for certificate release or counting sunk payments.",
+            "support": "The answer gives correct binding accounting, a compact incentive-based upper-bound explanation, and a permitted pooled AUTONOMOUS counterequilibrium yielding 29/4. Its complete binding repair and counterequilibrium meet the supplied compact-support acceptance rule."
+          },
+          "findings": [],
+          "uncertainties": [
+            {
+              "quote": "For either equipment choice, the types without a usable G certificate can all select the same best no-certificate record.",
+              "assessment": "This correctly identifies a shared available unauthenticated option. It should not be interpreted as requiring available B to withhold under every conceivable table; the following sentence separately addresses certification as a best response. The wording does not demonstrate a false exclusion or qualifying failure."
+            }
+          ],
+          "limitations": [
+            "The upper-bound explanation is compressed and does not show the inequalities for arbitrary tied record lotteries. Independent verification below confirms the stated ceilings without adding any task facts."
+          ],
+          "qualifying_root_count": 0
+        },
+        {
+          "response_id": "R03",
+          "component_scores": {
+            "decision": 2,
+            "evidence": 2,
+            "mechanism": 2,
+            "feasibility": 2,
+            "support": 2
+          },
+          "total": 10,
+          "critical_failures": [],
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "reasoning": {
+            "decision": "The answer approves one BOOST reservation and explicitly assigns READY, HOLD, and NONE for every attachment category. This is the complete optimal BINDING authorization.",
+            "evidence": "The answer correctly rejects the proposal as written because the archived reporting pattern is not guaranteed to persist. It correctly allows the proposed receipt as a possible AUTONOMOUS outcome.",
+            "mechanism": "The answer correctly compares available G’s certification payoff of 9 with the unauthenticated payoff of 2, identifies available B’s incentive to withhold, and recognizes that flag selection cannot change the signed table’s processing action.",
+            "feasibility": "Every record has a physically supported binding action. The answer uses the four equally likely intake pairs and correctly subtracts the 3/4 reservation charge from gross current owner operating receipt of 17/2. No unsupported current observation, withdrawal right, or discretionary override is introduced.",
+            "support": "The response provides the complete binding repair, correct accounting, and a permitted pooling counterequilibrium with the correct 29/4 receipt. Although its maximality explanation is brief, these are explicitly sufficient under the supplied support rubric."
+          },
+          "findings": [],
+          "uncertainties": [],
+          "limitations": [
+            "The response asserts global maximality without presenting a separate lottery upper-bound derivation. This is an explanation limitation rather than an objective decision error or qualifying failure under the packet’s compact-support rule."
+          ],
+          "qualifying_root_count": 0
+        }
+      ],
+      "independent_verification": {
+        "binding_policy": {
+          "configuration": "Reserve one BOOST unit and sign the nine-record BINDING table at time0, before the current pair is drawn. At time1 the supplier receives its pair; at time2 it chooses a flag and optional available truthful certificate; at time3 the table executes.",
+          "supplier_best_responses": "G,c1 certifies because 9>2. B,c1 withholds because 2>−1. Certificate-unavailable types cannot authenticate and receive BASIC. All unauthenticated flags execute BASIC, all authentic-G flags ADVANCED, and all authentic-B flags REJECT, so every flag tie preserves the receipt.",
+          "owner_receipt": "The four pair contributions are 28, 10, −2, and −2. Their average is 17/2, and subtracting the unconditional BOOST reservation charge of 3/4 gives 31/4.",
+          "constraints": "Custody precedes time0 and the supplier has no withdrawal control. License fees are already included in owner receipts; certificate release costs belong to the supplier. The deterministic table is an allowed special case of the installed record-specific lottery interface."
+        },
+        "complete_pooling_counterequilibrium": {
+          "supplier_strategy": "Every type sends NONE without a certificate.",
+          "receiver_strategy": "Under BOOST/AUTONOMOUS, execute ADVANCED at every unauthenticated flag record, ADVANCED at every authentic-G record, and REJECT at every authentic-B record.",
+          "beliefs": "At the positive-probability NONE/no-certificate record, Bayes gives quality G probability 1/2. At unused unauthenticated flag records, use the same distribution over capable types. Authentic records establish their signed quality and c1.",
+          "receiver_optimality": "At quality probability 1/2, BOOST ADVANCED yields 8 before the sunk reservation charge, BASIC yields 4, and REJECT yields 0. At authenticated G, ADVANCED yields 28 and is optimal. At authenticated B, REJECT yields 0 and is optimal.",
+          "supplier_optimality": "Every unauthenticated flag pays 10. Available G would receive only 9 after certification. Available B would receive −1 after certification. Certificate-unavailable types cannot obtain authentic records. No deviation improves supplier payoff.",
+          "owner_receipt": "8−3/4=29/4.",
+          "randomization_and_history": "This deterministic equilibrium is lawful under the permitted strategy space. It requires no correlation between exogenous seeds and current quality, no extra input endpoint, and no withdrawal or refusal action."
+        },
+        "possible_informative_equilibrium": {
+          "supplier_strategy": "G,c1 sends an authentic G certificate; every other type sends NONE without a certificate.",
+          "receiver_strategy_and_beliefs": "Execute ADVANCED after authentic G and REJECT after authentic B. At the positive-probability unauthenticated record, the posterior G probability is 1/3, where BASIC yields 2 and ADVANCED yields 4/3. Assign that capable-type posterior to unused unauthenticated flags.",
+          "supplier_optimality": "Available G receives 9 by certifying rather than 2 by withholding. Available B receives 2 by withholding rather than −1 by certifying. Unavailable types cannot authenticate.",
+          "owner_receipt": "The same intake contributions as the binding policy give 31/4 after the reservation charge. Thus every response correctly calls the proposed forecast possible but not guaranteed."
+        },
+        "global_upper_bound": {
+          "method": "For any fixed binding table and pre-intake history, let v be the maximum supplier license payoff at an unauthenticated record, and select a record r attaining v. For a record lottery with ADVANCED probability a and BASIC probability b, v=10a+2b, with a,b≥0 and a+b≤1. Certificate-unavailable types may both choose r; adversarial tie selection is included in the guarantee.",
+          "available_G_certifies_available_B_withholds": "Available G contributes at most 28 under BOOST or 24 under NORMAL. The other three type receipts summed before their probability weights are g(r)+2b_owner(r), equal to 4a+6b under BOOST and −16a+6b under NORMAL, hence at most 6. The resulting ceilings are 17/2 gross under BOOST and 15/2 under NORMAL.",
+          "available_G_certifies_available_B_certifies": "Available B certification requires certificate-record license payoff at least v+1. Under BOOST, the minimum owner loss at license payoff t is t for 0≤t≤2 and (5t−2)/4 for 2≤t≤10. Also g(r)+b_owner(r)≤4v for v≤2 and ≤v+6 for v≥2. Subtracting the minimum loss at t=v+1 bounds the three-type sum by 19/4, below 6. NORMAL has no larger G-plus-B sum and no smaller B loss, so its bound is also valid.",
+          "available_G_withholds_available_B_withholds": "Selecting r for every type yields gross receipt at most 8 under BOOST and at most 4 under NORMAL, both below their respective binding ceilings.",
+          "available_G_withholds_available_B_certifies": "The BOOST three-unauthenticated-type sum 2g(r)+b_owner(r) is at most 9v for v≤2 and (13v+46)/4 for v≥2. Subtracting the minimum certified-B loss at v+1, with v≤9, gives a four-type receipt sum at most 115/4, hence gross expected receipt at most 115/16. NORMAL’s corresponding sum is no larger and its B loss no smaller. This is below both relevant gross ceilings.",
+          "ties_histories_and_public_randomization": "These cases include certification ties and arbitrary record lotteries. The current pair remains independent of displayed configurations and prior history, so conditioning on those variables preserves the four equally likely types. Averaging pointwise upper bounds cannot exceed them.",
+          "autonomous_and_final_ceiling": "Each AUTONOMOUS equilibrium’s record action distributions can be installed as a BINDING table, with its supplier strategy still a best response; the same upper bounds therefore apply. Subtracting the BOOST charge gives 31/4, exceeding NORMAL’s 15/2. The complete binding policy attains 31/4 across every best response."
+        }
+      },
+      "qualification_assessment": {
+        "result": "No original response qualifies.",
+        "basis": "All three approve the correct complete time0 equipment/controller setting, use correct payment and information premises, and correctly distinguish possible AUTONOMOUS receipt from the all-equilibrium guarantee. No quoted observable false premise or explicit false universal exclusion supports a materially changed authorization.",
+        "root_counting": "Zero qualifying roots; no response or finding was counted more than once."
+      },
+      "scope_and_limitations": [
+        "Task evidence was restricted to the supplied grading-packet.json. Only mandatory general skill instructions were read separately.",
+        "No other evaluation, oracle, history, metadata, neighboring packet, or grader output was accessed.",
+        "No memory-derived task facts, external research, model execution, delegation, file modification, or regrading was used.",
+        "Scores measure the supplied rubric’s accepted compact answers; omitted exhaustive derivations were not converted into qualifying failures.",
+        "No admission outcome, condition, model identity, or host identity is inferred."
+      ]
+    }
+  },
+  "reviewer_own_diagnostic_correction": {
+    "original_remains_unchanged": true,
+    "path": "temp/hard-screen-20261003/worker/F38/grade-a-own-calculation-correction.json",
+    "sha256": "a376006d64439875f5ba24687bc6ac36456d67e7d22c4a8983ef2999dcf21092",
+    "original_correction": {
+      "clarification_type": "Reviewer-owned arithmetic correction only; no regrade",
+      "corrected_calculation": {
+        "posterior_G": "1/3",
+        "posterior_B": "2/3",
+        "BOOST_ADVANCED": "(1/3)*28+(2/3)*(-12)=4/3",
+        "BASIC": "(1/3)*10+(2/3)*(-2)=2",
+        "REJECT": "0",
+        "receiver_optimal_action": "BASIC strictly maximizes the conditional expected owner receipt."
+      },
+      "correction": "My original shared check incorrectly stated that ADVANCED and BASIC tie at 2/3. Their correct receipts are 4/3 and 2, respectively. The reservation charge is already incurred and does not affect this conditional action comparison.",
+      "original_response_classifications_change": false,
+      "reason": "The correction supports the same favorable autonomous outcome: uncertified records receive BASIC. It changes only my supporting calculation, not any original response classification.",
+      "original_judgment_replaced_or_rescored": false
+    }
+  },
+  "selection": {
+    "result": "EXCLUDED",
+    "three_original_slots_valid": true,
+    "jointly_qualifying_ids": [],
+    "jointly_qualifying_count": 0,
+    "required": 2,
+    "objective_error_counts": {
+      "A": 0,
+      "B": 0
+    },
+    "qualifying_failure_counts": {
+      "A": 0,
+      "B": 0
+    },
+    "retained_family_count": 0,
+    "target": 6,
+    "remaining": 6,
+    "reason": "No same original response qualifies; both independent graders find correct complete optimal authorization and archive/pooling distinction. Scores secondary, no outcome rerun/regrade/replacement.",
+    "extra_3of3_postoutput_validity_audit": "NOT_REQUIRED_zero_qualifying"
+  }
+}

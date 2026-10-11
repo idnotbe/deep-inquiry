@@ -1,0 +1,282 @@
+{
+  "family": "F47",
+  "selection": {
+    "status": "EXCLUDED",
+    "valid_originals": 3,
+    "joint_qualifying_ids": [],
+    "joint_qualifying_count": 0,
+    "required_joint_ids": 2,
+    "retained_families": 0,
+    "remaining_required": 6,
+    "criteria_changed": false,
+    "postoutput_extra_audit_required": false
+  },
+  "current_confirmed_lowerbounds": {
+    "confirmed_family_lowerbound": 42,
+    "preserved_terminal_finals_lowerbound": 124,
+    "problem_turns_lowerbound": 180,
+    "retained": 0,
+    "F46_contribution": "UNKNOWN originaldispatch/completedturns/exit; preservedprofile unchanged"
+  },
+  "counts_added": {
+    "families": 1,
+    "preserved_terminal_finals": 3,
+    "problem_turns": 3
+  },
+  "receipt_sha256": {
+    "temp/hard-screen-20261003/worker/F47/freeze.json": "578fa4095eb71f5a4f67c15cd3d93a429fe2356a90563f7385736bba28e7cf62",
+    "temp/hard-screen-20261003/worker/F47/canary-check.json": "b7e38afd89808a05ff20aab09b6e4247ee3419f0301cc08f20c37b8810c09632",
+    "temp/hard-screen-20261003/worker/F47/canary/canary-common-context.json": "2d612be35a0fb6206825c7f1760cf52d070da6329e5945c696ecbfc796bdc9cd",
+    "temp/hard-screen-20261003/worker/F47/screening-plan.json": "26975029aed6aed4ca1c9138923aa6cd3887b52af9710084e38376b99a051ced",
+    "temp/hard-screen-20261003/worker/F47/producer-invocation-canary.json": "4999f0c4625d848ec4c8df5d8d3df1f879d2bed4d41965d7b8d0df713a9c8e3e",
+    "temp/hard-screen-20261003/worker/F47/producer-invocation-original.json": "3a8b64cb2ae3080a119944658f686fa360ee7d9894f9b557d9ae3c8d8d06e9e8",
+    "temp/hard-screen-20261003/worker/F47/original-collection-check.json": "a0d7a1b9bf97685fe1a15ffb1a91ad985bb8e6a8ec2de04e2c7eaf13ad7b08e2",
+    "temp/hard-screen-20261003/worker/F47/collection-packet-readback.json": "4359259e47a9ef8e8379609a19626d7cd65d28d0bbdafaaca8dd28cfd9edcb8b",
+    "temp/hard-screen-20261003/worker/F47/grading-packet.json": "51ece8f59e8b532257855aad01b24fed37d351ec29823b2c6ae07caabf867c1f",
+    "temp/hard-screen-20261003/worker/F47/anonymous-mapping.json": "1cb6501f19378bd48c36f0fa3d4c844fed36a375c29586c54490759bb6893170",
+    "temp/hard-screen-20261003/worker/F47/pretrial-manifest.json": "202aa6ae345ccc53df55eeffab1438728c5a3d066fa8c5bf0b9086338e0219f1",
+    "temp/hard-screen-20261003/worker/F47/exact-review-ledger.json": "c42998b3ee708f9d3e699fff86e79ea723111a1571992e32cb1baf1a88322684",
+    "temp/hard-screen-20261003/worker/F47/pretrial-final-readback.json": "1ac987f7acf63c3eb6fdba073d689e1d2544ef127146f7b622ac4541f9636536",
+    "temp/hard-screen-20261003/worker/F47/grade-a-original.json": "84cc48afc433f4a981261425fc25593383e7f680c334111985db6f0f94d94cb8",
+    "temp/hard-screen-20261003/worker/F47/grade-b-original.json": "06cd68571d775ada7244379df51353464e0e0cff45f3adb4d01289d8df909b63",
+    "temp/hard-screen-20261003/worker/F47/grade-b-initial-transcription.json": "c3ac239318b4c6c980321c937b9fc52f191abbb55a2dfe6fce1339864b7ad0a0",
+    "temp/hard-screen-20261003/worker/F47/grade-ledger.json": "11e954a47a755671a29ea9d25f351eb0da4f5525de7ed99c99b5341e715d9cea",
+    "temp/hard-screen-20261003/worker/F47/grade-readback.json": "198153f6787632a8e260c5bd3887505c1fd055515fab40831a26b17d502d25da"
+  },
+  "exact_frozen_files": {
+    "evals/hard-screen-20261003/F47/sources/F47C.md": "aa9f064083ae98388e9295ce44bb491e68b48315bda8c953d6f92be2db9b6bb8",
+    "evals/hard-screen-20261003/F47/sources/F47H.md": "8852106153ffe4d1be8c02635c8f00549b6c8190cb9f1cbeaa28095105f50cf0",
+    "evals/hard-screen-20261003/F47/sources/F47K.md": "8b031d8c2012d00bc43171f6396d48297a9fba33bac7e385f436cbf432ffc0fb",
+    "evals/hard-screen-20261003/F47/cases.json": "54989a9b9c1b8a98564dce861a623ea72263b8ad904c5ce33092960bba53af0a",
+    "evals/hard-screen-20261003/F47/rubrics.json": "d8f6971f0d18625408dce1597e7dfe010ccd584fc473f84fec9194e1fd3abeac",
+    "evals/hard-screen-20261003/F47/protocol.json": "31782afaf63453f10f14b05b9afaaf4f7b344879d70417ea316caeac9d06af8b",
+    "temp/hard-screen-20261003/worker/F47/oracle.md": "57c36c406346f69e20098ddb4aceaaa02dbc228992e1fa2ea30ff4ce699fcaac",
+    "temp/hard-screen-20261003/worker/F47/certificate.json": "70d7d3935f9dc0bfe24d2f1bf1d851dd883e06412548aced556d8bbaa9801bba",
+    "temp/hard-screen-20261003/worker/F47/proof.cjs": "4d68d26f42940496a57a65284bc35d25bcc16a988899798fa5526bc9c3c8d05f",
+    "temp/hard-screen-20261003/worker/F47/check.json": "8c9df293b1a10e2a95db80cdefaa313c3c1ec95be5abf0f609ec53c9ae7b92af"
+  },
+  "runner_hashes": {
+    "tools/eval_inquiry.py": "82263a9c5fdd7d15be7cdb9dbf01593723c5a873d6b2537037be1897e3056d5a",
+    "tools/inquiry_dialogue.py": "fca9d0af999503abe71cf6fc768e5c7c649f3a8ff801007f05736aab0ba70e77"
+  },
+  "method_hashes": {
+    "evals/hard-screen-20261003/prospective-method-v2.md": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e",
+    "evals/hard-screen-20261003/prospective-method-v3.md": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+  },
+  "skill_hashes": {
+    "SKILL.md": "da29e64f80c22b4ba92b7b6fe290d78a9b9adf0f3c8a2ad0b9aa1a60931b2871",
+    "references/inquiry-methods.md": "0c7e92d8a2682e9e734fe53b11863fe014aa47a6cd586146195b44b385b779ac",
+    "references/evidence-and-diagnosis.md": "df73a8e947fda4764ceb69617ee88d8a9d95212710f3a889be1b0bfb3a6c45ac",
+    "references/alternatives-and-drafting.md": "0b03e017c97a0a013cd95f22b9e7266c1e7e0cf2a3e9d37063499b35aec9b382"
+  },
+  "canary_check": {
+    "status": "PASS_ACTUAL_NEUTRAL_READY_PAIR",
+    "checks": [
+      {
+        "arm": "baseline",
+        "attempt": 1,
+        "manifest_sha256": "e250c657a335fda9af6a435fc6953a690d271e887a02735adedcba45ca696fea",
+        "delivery_sha256": "00651514aa248dc49aa36ca9354342e4109263e9d919b2a3c62fa383dd68e61b",
+        "telemetry_sha256": "ac6f4b64795f84a2457d2f3605b49e89bd005e3fc5967b48be4b91cf517e0777",
+        "final_sha256": "c2e3ac47f4a325469c1a2d5f117e463ec943c721986d5d9f09ac4540b7d80526",
+        "first_input_sha256": "1727ae28b8ff544c61f31f3d79b5cb3e5ac48d63abe3a961fc6b1213101a04ed",
+        "completed_turns": 1,
+        "final_phase_messages": 1,
+        "actual_common_developer_match": false,
+        "actual_common_user_prefix_match": false,
+        "source_preserved": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true,
+        "tool_attempted": false
+      },
+      {
+        "arm": "treatment",
+        "attempt": 1,
+        "manifest_sha256": "9aa0005853d1e045648808111b7e01a016dd130f093e311d34c3b3d2575fef30",
+        "delivery_sha256": "015621b8b73c28780e34c2017cfce49f4e6773bfcceff17dbcd2444c033ce62b",
+        "telemetry_sha256": "ac6f4b64795f84a2457d2f3605b49e89bd005e3fc5967b48be4b91cf517e0777",
+        "final_sha256": "c2e3ac47f4a325469c1a2d5f117e463ec943c721986d5d9f09ac4540b7d80526",
+        "first_input_sha256": "1727ae28b8ff544c61f31f3d79b5cb3e5ac48d63abe3a961fc6b1213101a04ed",
+        "completed_turns": 1,
+        "final_phase_messages": 1,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "source_preserved": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true,
+        "tool_attempted": false
+      }
+    ],
+    "preserved_preturn_setup_failures": [],
+    "common_reference_sha256": "2d612be35a0fb6206825c7f1760cf52d070da6329e5945c696ecbfc796bdc9cd",
+    "first_baseline_false_match": "Reference establishment, not failed shared-context comparison; actual second arm matches.",
+    "unscored": true,
+    "problem_counts": 0,
+    "actual_neutral_turns": 2,
+    "future_runtime_guarantee": false
+  },
+  "original_collection": {
+    "status": "PASS_ALL_THREE_ORIGINALS_SAFE_COMPLETED",
+    "checks": [
+      {
+        "repetition": 2,
+        "status": "VALID_ORIGINAL_COMPLETED",
+        "attempt": 1,
+        "manifest_sha256": "ba3900c22ef629b287610739d8367c2b5f04087660a8de44fadcf800bc42f63c",
+        "delivery_sha256": "6db740c430fef60a522a81697421695ff6f7922f212b5684c05e24fa1d5b4439",
+        "telemetry_sha256": "a7a5ea4ff8f4925ffc94b03139e1a17a2de15fb61ffeebe985f45ccd7217e4c3",
+        "final_sha256": "c2416941cef40a469171b93628cb4eab19abd59b6b0cd8c99bfbe168cc3c811f",
+        "final_bytes": 1197,
+        "completed_problem_turns": 1,
+        "actual_completed_final_phase_messages": 1,
+        "preserved_terminal_problem_finals": 1,
+        "first_input_sha256": "5cc5791c646c7f0588c804e137749a1825d93af7f6a88391141da04d1dcc66b4",
+        "task_input_readback_verified": true,
+        "source_preserved": true,
+        "tool_attempted": false,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true
+      },
+      {
+        "repetition": 3,
+        "status": "VALID_ORIGINAL_COMPLETED",
+        "attempt": 1,
+        "manifest_sha256": "71bb5fe8906190d87b68edfdb21c184ac1430797d66d030a39534f93c5c9d019",
+        "delivery_sha256": "6db740c430fef60a522a81697421695ff6f7922f212b5684c05e24fa1d5b4439",
+        "telemetry_sha256": "a7a5ea4ff8f4925ffc94b03139e1a17a2de15fb61ffeebe985f45ccd7217e4c3",
+        "final_sha256": "3d544b8be2d93ae382940d06e33e989477d9f8010b7333ca549fd926baf69ecd",
+        "final_bytes": 1009,
+        "completed_problem_turns": 1,
+        "actual_completed_final_phase_messages": 1,
+        "preserved_terminal_problem_finals": 1,
+        "first_input_sha256": "5cc5791c646c7f0588c804e137749a1825d93af7f6a88391141da04d1dcc66b4",
+        "task_input_readback_verified": true,
+        "source_preserved": true,
+        "tool_attempted": false,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true
+      },
+      {
+        "repetition": 1,
+        "status": "VALID_ORIGINAL_COMPLETED",
+        "attempt": 1,
+        "manifest_sha256": "f2f40c9775dfeb2af6d9b5005311bea653f7a17cf44f0473732ff9669d42e21d",
+        "delivery_sha256": "6db740c430fef60a522a81697421695ff6f7922f212b5684c05e24fa1d5b4439",
+        "telemetry_sha256": "a7a5ea4ff8f4925ffc94b03139e1a17a2de15fb61ffeebe985f45ccd7217e4c3",
+        "final_sha256": "028b4f519d3a3fc2a8273979ddb34704780175e0d5398641d34e2f716709e633",
+        "final_bytes": 1239,
+        "completed_problem_turns": 1,
+        "actual_completed_final_phase_messages": 1,
+        "preserved_terminal_problem_finals": 1,
+        "first_input_sha256": "5cc5791c646c7f0588c804e137749a1825d93af7f6a88391141da04d1dcc66b4",
+        "task_input_readback_verified": true,
+        "source_preserved": true,
+        "tool_attempted": false,
+        "actual_common_developer_match": true,
+        "actual_common_user_prefix_match": true,
+        "process_stopped": true,
+        "copied_auth_root_removed": true
+      }
+    ],
+    "current_counts": {
+      "confirmed_family_lowerbound": 42,
+      "preserved_terminal_finals_lowerbound": 124,
+      "problem_turns_lowerbound": 180,
+      "retained": 0,
+      "F46_contribution": "UNKNOWN originaldispatch/completedturns/exit; preservedprofile unchanged"
+    },
+    "counts_added": {
+      "families": 1,
+      "preserved_terminal_finals": 3,
+      "problem_turns": 3
+    },
+    "neutral_turns_not_counted": 2,
+    "packet_sha256": "51ece8f59e8b532257855aad01b24fed37d351ec29823b2c6ae07caabf867c1f",
+    "mapping_sha256": "1cb6501f19378bd48c36f0fa3d4c844fed36a375c29586c54490759bb6893170",
+    "packet_redaction": "Blank current-only complete C task, local rubric/frozen anchor/immutable generic rules, actual terminal finals only; one-turn task has no READ transcript. No condition/model/host/turnIDs/sibling/private-oracle/author interpretation fields. Native answer bodies processed only by helper, never displayed or interpreted by author before grading.",
+    "generic_rules_source": "ONLY immutable selection_rules field parsed from previous template; previous task/responses/anchors not copied or previewed.",
+    "grading_status": "NOT_STARTED; separate parent release required",
+    "hardness_status": "PENDING_ORIGINAL_BLIND_GRADING",
+    "freeze_sha256": "578fa4095eb71f5a4f67c15cd3d93a429fe2356a90563f7385736bba28e7cf62",
+    "screening_plan_sha256": "26975029aed6aed4ca1c9138923aa6cd3887b52af9710084e38376b99a051ced",
+    "common_reference_sha256": "2d612be35a0fb6206825c7f1760cf52d070da6329e5945c696ecbfc796bdc9cd"
+  },
+  "pretrial_ledger": {
+    "status": "BOTH_FULL_FIRST_ORIGINALS_APPROVE_NO_REVISION",
+    "review_order": "PARALLEL_INDEPENDENT_NO_CROSS_FULL_REPORT_EXPOSURE",
+    "reviewed_manifest_sha256": "202aa6ae345ccc53df55eeffab1438728c5a3d066fa8c5bf0b9086338e0219f1",
+    "reviewed_author_readback_sha256": "b4b4f81a2124f5c8d82913dd587a7dc53596313139d0d320adc8ca4b57c27ea5",
+    "supplementary_preparation_note_sha256": "affbe4130ca49a3120afdfec3a735127f5a1616bed03fa7bb732bfcca8659daf",
+    "reviews": {
+      "A": {
+        "reviewer": "logical-agent/screening_writer_resume/f47_source_a",
+        "path": "temp/hard-screen-20261003/worker/F47/exact-review-a.md",
+        "sha256": "ae91aca344842d70418d92c5d9e664d8bfc9cdf1169fb0cba347bfbe80129925",
+        "verdict": "APPROVE_SOURCE_VALIDITY_AND_PRETRIAL_ONLY",
+        "source_original": "temp/hard-screen-20261003/worker/F47/source-a-received.md",
+        "source_original_sha256": "0ee85216d9274550340d46811ff217e43c5e69219c24d10a4213a893551049a2",
+        "stage_reuse": "Same independent source-first reviewer reused after both original reports preserved; TWO distinct reviewers total, not4fresh.",
+        "actual_checks": "Independent all38manifest+3checkpoint hash recomputation and PowerShell binding/equality PASS; analytical law/allhistory/seed/globalbound and runnersemantics review.",
+        "python": "NOT_EXECUTED: direct executable CommandNotFoundException, no alternateprobes/installs; author actual purePASS separate.",
+        "no_cross_full_report": true
+      },
+      "B": {
+        "reviewer": "logical-agent/screening_writer_resume/f47_source_b",
+        "path": "temp/hard-screen-20261003/worker/F47/exact-review-b.md",
+        "sha256": "c16821080a4835fccd4a099bb321e5983d72e0ee593a2aa554ecece32f5c7378",
+        "verdict": "APPROVE_SOURCE_VALIDITY_AND_PRETRIAL_ONLY",
+        "source_original": "temp/hard-screen-20261003/worker/F47/source-b-received.md",
+        "source_original_sha256": "601716f0692a0c0e642016b30a1facb35db6c3b8381f6cd58f4a69356bed224f",
+        "stage_reuse": "Same independent source-first reviewer reused after both original reports preserved; TWO distinct reviewers total, not4fresh.",
+        "actual_checks": "Independent all38manifest+3checkpoint hash recomputation and PowerShell binding/equality PASS; analytical law/allhistory/seed/globalbound and runnersemantics review.",
+        "python": "NOT_EXECUTED: direct executable CommandNotFoundException, no alternateprobes/installs; author actual purePASS separate.",
+        "no_cross_full_report": true
+      }
+    },
+    "source_originals_preserved_before_oracle_exposure": true,
+    "current_inputs_changed": false,
+    "targeted_revisions": [],
+    "transcription": "Complete received first terminal bodies saved with final newline; local hash is bytebinding, not rawtransport authentication.",
+    "coverage": "10exact/28support/wholetrim3/schema/15localdimensions/ringpotential/Hseparatebound/delayedH/Kcorrect/everylegalcontroller/seed/worstinvoice/immutablev2v3/READYrealLFseam.",
+    "native_calls": 0,
+    "retained": 0,
+    "limits": "No freeze/neutral/native/runtimeisolation/backend/cleanup/hardness/finalpoolapproval. Historical counts/parent comparisons/source transports not authenticated by these reviews."
+  },
+  "neutral_turns": 2,
+  "neutral_problem_count": 0,
+  "problem_turns": [
+    1,
+    1,
+    1
+  ],
+  "terminal_finals": [
+    1,
+    1,
+    1
+  ],
+  "outcome_retries": 0,
+  "replacements": 0,
+  "regrades": 0,
+  "H_K_participant_runs": 0,
+  "scored_treatment_runs": 0,
+  "transport_expiry": false,
+  "requested_model": "gpt-6-sol",
+  "effective_backend_verified": false,
+  "reasoning_effort_considered": false,
+  "selected_proof_rerun": false,
+  "old_fulltests_rerun": false,
+  "reused_fulltests": "Historic153total/147pass/6environment-skips/0fail evidence reused, not fresh full verification.",
+  "limits": [
+    "F46 actualdispatch/completedturns/exit UNKNOWN and profile preserved; counts lowerbounds, not zero contribution.",
+    "F41 incomplete original unpreviewed/ungraded/unchanged.",
+    "Same two source-first reviewers reused for parallel full stage, two notfour independent reviewers.",
+    "Both reviewer directPython unavailable/NOT_EXECUTED, independent PowerShell hash/equality +analytical/code checks PASS; author actualpurePython PASS separate.",
+    "Grade originals complete received JSON transcriptions, not authenticated hidden transport; B first compact formatting retained separately.",
+    "Editor TypeScript/Biome unavailable, no install/settings decisions; actualNodeJSON/schema/count/hash/inverse checks.",
+    "F32+ two successive final artifact rounds/archive DEFERRED; exclusion not skill-effect evidence."
+  ]
+}

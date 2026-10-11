@@ -1,0 +1,186 @@
+{
+  "candidate": "F140_NATIVE_V1",
+  "immutable_bindings": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F140-proposal/C.md",
+      "bytes": 3315,
+      "sha256": "4a97dcd52bd5b15d100967bac69b7eee9853183bcdf0cbe1473a9c7379435a53"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140-proposal/H.md",
+      "bytes": 3347,
+      "sha256": "e9e8332b17c7e200236baffd74e22e68a7c038a107036babb154bee095c429ef"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140-proposal/oracle.md",
+      "bytes": 8949,
+      "sha256": "0d50c3ad08f31e7d2c4f829a7e0314b9ec281c30c66d4ea95190234be328338b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140-proposal/design-note.md",
+      "bytes": 8711,
+      "sha256": "da457b45d2a77bc8fc98cfed2d7443f46584a14baf967d485e15c0850cfc321c"
+    },
+    {
+      "path": ".omo/evidence/F140-source-a-code-review.md",
+      "bytes": 6757,
+      "sha256": "7d64aa8018088fc6db3fb45dd9e88b889e6e38616a3e9e6f247a95bfcb786642"
+    },
+    {
+      "path": ".omo/evidence/F140-source-b-code-review.md",
+      "bytes": 10318,
+      "sha256": "d9cb85462801f37c68a962586460fc0349db1cb9860ae07e5dbaa4e8075f9a40"
+    },
+    {
+      "path": "temp/hard-screen-20261003/native-participant-prospective-contract.md",
+      "bytes": 4676,
+      "sha256": "5dfafffb42236980364f4312b86c785f72c6b2e0541773a5016c4d6f227e1d75"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v2.md",
+      "bytes": 4891,
+      "sha256": "fd1604f92e01d548e6fe3535c86c3cd1b615a3778feae81cc14e5f192702ed4e"
+    },
+    {
+      "path": "evals/hard-screen-20261003/prospective-method-v3.md",
+      "bytes": 4726,
+      "sha256": "3f7b02ac7a2a779942653a14b18d3cb74f168ce4abc20e24c6d1a9d6592dd099"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/response-1.json",
+      "bytes": 5046,
+      "sha256": "21647fadb2451ac90b7d507d27ff13ea9dba768454f22aa3a1b4c1fb5f43dd48"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/response-2.json",
+      "bytes": 5148,
+      "sha256": "573dbf37d44f5b3fe67dec7b312f841d56cc50aac1513802c6dd2662dc4514e5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/response-3.json",
+      "bytes": 5268,
+      "sha256": "9b19de566dbf39de85a4c6e1424d130d3f012a71838c30155ad58949918890d3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/native-readback-actual.json",
+      "bytes": 2520,
+      "sha256": "41d103ab427acbaf87ea3391953a713b6fac33c69f4ed4aaa9d850096f06fd75"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/grade-a-FIRST.json",
+      "bytes": 5225,
+      "sha256": "abb5af9aeb0a9bc09ee2f8f19899854ba88426552186499cd28a2a47dcc79e32"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/grade-b-FIRST.json",
+      "bytes": 7736,
+      "sha256": "3d6795baaeb94599f98218e6d12ce293bf1828915b04c14f8560b83d4e575400"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/grades-readback-actual.json",
+      "bytes": 17213,
+      "sha256": "376fb723c6e4a79f8ba4160ba7dc59b57c635639335f4555b05885ade6aa0d82"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/native-pretrial.json",
+      "bytes": 13393,
+      "sha256": "90cbdf09ad92af18feda2842ad34903651b0bed48dd93d41c06fcadced0a1866"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/blind/packet.json",
+      "bytes": 15092,
+      "sha256": "b08b01eef0e8dbe6bcad51c37181512d0375c80838515393a259dfb3db2755f3"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/blind/private-mapping.json",
+      "bytes": 2119,
+      "sha256": "b7d3e0ebb3a3256a70475fea2beb12dad761592d5a8a9b7764458635de73216b"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/blind/validation-actual.json",
+      "bytes": 4996,
+      "sha256": "9f5a31c25eb5f2902ce1fb26bb96c7f00ad1215777a3dd98bef231eac83a3dbf"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F140/blind/validation-actual-1.json",
+      "bytes": 4144,
+      "sha256": "5d9f5184b587d584d78e869bf2bc7a6db0b9f54d045212c7bc036288ba4ffec1"
+    }
+  ],
+  "source_validity": [
+    {
+      "verdict": "APPROVE",
+      "report": {
+        "path": ".omo/evidence/F140-source-a-code-review.md",
+        "bytes": 6757,
+        "sha256": "7d64aa8018088fc6db3fb45dd9e88b889e6e38616a3e9e6f247a95bfcb786642"
+      },
+      "accepted_equivalents": "Shared document-receipt simultaneous commencement and asymmetric carrier-first commencement."
+    },
+    {
+      "verdict": "APPROVE",
+      "report": {
+        "path": ".omo/evidence/F140-source-b-code-review.md",
+        "bytes": 10318,
+        "sha256": "d9cb85462801f37c68a962586460fc0349db1cb9860ae07e5dbaa4e8075f9a40"
+      },
+      "accepted_equivalents": "Shared document-receipt simultaneous commencement and asymmetric carrier-first commencement."
+    }
+  ],
+  "mapping": [
+    {
+      "response_id": "R01",
+      "original_slot": 3,
+      "source": "temp/hard-screen-20261003/worker/F140/response-3.json"
+    },
+    {
+      "response_id": "R02",
+      "original_slot": 1,
+      "source": "temp/hard-screen-20261003/worker/F140/response-1.json"
+    },
+    {
+      "response_id": "R03",
+      "original_slot": 2,
+      "source": "temp/hard-screen-20261003/worker/F140/response-2.json"
+    }
+  ],
+  "actual_receipts": {
+    "native": "temp/hard-screen-20261003/worker/F140/native-readback-actual.json",
+    "packet_failed": "temp/hard-screen-20261003/worker/F140/blind/validation-actual-1.json",
+    "packet_passed": "temp/hard-screen-20261003/worker/F140/blind/validation-actual.json",
+    "first_grades": "temp/hard-screen-20261003/worker/F140/grades-readback-actual.json",
+    "local_result": "temp/hard-screen-20261003/worker/F140/final/verification-actual.json"
+  },
+  "checks": [
+    {
+      "scenario": "Frozen source, review, route, response, packet and first-grade bindings",
+      "invocation": "temp/hard-screen-20261003/worker/F140/final/verification-actual.json#/invocation",
+      "binary_observable": "All byte counts and SHA-256 hashes equal frozen bindings; exitCode 0",
+      "artifact": "temp/hard-screen-20261003/worker/F140/final/verification-actual.json"
+    },
+    {
+      "scenario": "Original launch requests, task/answer equality and native readback hashes",
+      "invocation": "temp/hard-screen-20261003/worker/F140/final/verification-actual.json#/invocation",
+      "binary_observable": "Three original records exactly match pretrial requests and anonymous answers; answer hashes equal native receipt",
+      "artifact": "temp/hard-screen-20261003/worker/F140/final/verification-actual.json"
+    },
+    {
+      "scenario": "Complete independent FIRST grades and 37 exact supporting quotes",
+      "invocation": "temp/hard-screen-20261003/worker/F140/final/verification-actual.json#/invocation",
+      "binary_observable": "Six rows score 10 with both error flags false; 37 quotes match; jointly qualifying IDs []",
+      "artifact": "temp/hard-screen-20261003/worker/F140/final/verification-actual.json"
+    },
+    {
+      "scenario": "README append and frozen local result",
+      "invocation": "temp/hard-screen-20261003/worker/F140/final/verification-actual.json#/invocation",
+      "binary_observable": "102282-byte original prefix hash unchanged; added suffix exact CRLF bytes; output hashes match manifest",
+      "artifact": "temp/hard-screen-20261003/worker/F140/final/verification-actual.json"
+    }
+  ],
+  "limitations": [
+    "Native request/response integrity does not verify hidden backend, host context or complete tool history.",
+    "Current graders returned packet-only judgments; their full host-injected context is unknown.",
+    "No old CLI qualification, neutral run, skill comparison, holdout use, or catalogue-wide uniqueness is claimed."
+  ],
+  "retention_basis": "Both graders identify zero qualifying failures; EXCLUDED_NOT_HARD and retained count 0/6."
+}

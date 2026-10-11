@@ -1,0 +1,327 @@
+{
+  "first_grade_objects": [
+    {
+      "grader": "A",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F73/grades-FIRST/grade-a-received.json",
+        "bytes": 6109,
+        "sha256": "3b0c57d25e01cfbdaaba059300f9ef7d4243c14890a1b244dacf5779d5bbba3f"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F73/reports/grade-a-first.json",
+        "bytes": 6109,
+        "sha256": "3b0c57d25e01cfbdaaba059300f9ef7d4243c14890a1b244dacf5779d5bbba3f"
+      },
+      "parsed_original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F73/grades-FIRST/grade-a-parsed.json",
+        "bytes": 6110,
+        "sha256": "3090c271d320cf5c73184a1f89abbc4dbfe0b123e42d1c6febcb4d3d04bde7c8"
+      },
+      "parsed_public_copy": {
+        "path": "evals/hard-screen-20261003/F73/reports/grade-a-parsed.json",
+        "bytes": 6110,
+        "sha256": "3090c271d320cf5c73184a1f89abbc4dbfe0b123e42d1c6febcb4d3d04bde7c8"
+      },
+      "complete_first": {
+        "report": "FIRST",
+        "grades": [
+          {
+            "id": "R01",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "public_evidence": [
+              "The proposed operation therefore has **zero whole-task success** under the stated site laws.",
+              "Buy only the 3-unit gravity-hose kit and install it during minutes 0–2. At minute 2, start gravity flow and the original pump together. Stop the pump after 1.5 active minutes; leave gravity running until minute 10.",
+              "Both debris conditions allow the original pump to run for the required 1.5 minutes."
+            ],
+            "reason": "Correctly rejects the unchanged proposal: fine grit permits discharge past the irreversible breach threshold, while coarse grit stops short of drawdown. Its correction installs with the pump stopped, costs 3 units, removes 15 litres by minute 10 through additive concurrent flows, uses only 1.5 original-pump active minutes, and exposes the berm to only 3 litres. The stated at-least-95% success bound is conservative and does not change the lawful authorization; the supplied acceptance laws establish that the specified operation works in both debris conditions.",
+            "corrective_policy_if_qualifying": null,
+            "exclusions_applied": [
+              "Actual lawful authorization prevails over label differences.",
+              "Complete lawful short and concurrent operations are accepted.",
+              "No proof, recipe, minimum, uniqueness, timing or word quota is imposed.",
+              "A conservative success bound does not establish a materially false mission guarantee.",
+              "One-root protection: no repeated deductions or severity inflation."
+            ]
+          },
+          {
+            "id": "R02",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "public_evidence": [
+              "The 95% motor-survival figure does not establish whole-task success; the proposed operation has **zero** probability of satisfying both requirements.",
+              "Minutes 0–2: Install the kit with the pump stopped.",
+              "Minutes 2–3.5: Run gravity flow and the original pump together, then stop the pump.",
+              "Minutes 3.5–10: Continue gravity flow to the 5-litre target.",
+              "Its 1.5 active minutes are below the two-minute debris stop in either condition, and its 3-litre surface discharge is below the berm’s 12-litre breach threshold."
+            ],
+            "reason": "Accurately distinguishes motor survival from whole-task success and identifies both debris-specific failures of the unchanged proposal. The complete correction respects installation, original-pump lifetime, distinct concurrent outlets, budget, target, deadline and intact access throughout. Its at-least-95% bound is conservative relative to the supplied deterministic operating laws and supports the correct authorization. It makes no false necessity, exclusion or canonical-schedule claim.",
+            "corrective_policy_if_qualifying": null,
+            "exclusions_applied": [
+              "Complete lawful sequential and concurrent operations are accepted.",
+              "Actual lawful authorization prevails over label differences.",
+              "No proof, recipe, minimum, uniqueness, timing or word quota is imposed.",
+              "A conservative success bound does not establish a materially false mission guarantee.",
+              "One-root protection: no repeated deductions or severity inflation."
+            ]
+          },
+          {
+            "id": "R03",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "public_evidence": [
+              "The 95% motor-survival report therefore does not establish whole-task success; the proposed operation cannot meet both requirements in either debris condition.",
+              "**Use the gravity-hose kit alone as the purchase (3 units):**",
+              "Install it during minutes 0–2.",
+              "Run gravity flow from minute 2 to minute 10.",
+              "Run the existing original pump from minute 2 to minute 3.5, then stop it.",
+              "This operation costs 3 units and meets both requirements in both debris conditions."
+            ],
+            "reason": "Correctly rejects the unchanged guarded-pump proposal and supplies a complete affordable correction. The schedule leaves the pump stopped during installation, then runs the two permitted outlets concurrently for 1.5 minutes before continuing gravity alone. The combined discharge reaches 5 litres at minute 10; the original pump remains below its two-minute lifetime and surface discharge remains below the breach threshold. The both-condition success statement follows directly from the supplied operating laws. Calling the kit the sole purchase does not exclude use of the already available pump, which the answer expressly schedules.",
+            "corrective_policy_if_qualifying": null,
+            "exclusions_applied": [
+              "Actual lawful authorization prevails over label differences.",
+              "Complete lawful short and concurrent operations are accepted.",
+              "No proof, recipe, minimum, uniqueness, timing or word quota is imposed.",
+              "Ordinary ambiguity alone cannot manufacture qualification; the explicit schedule resolves the purchase wording.",
+              "One-root protection: no repeated deductions or severity inflation."
+            ]
+          }
+        ],
+        "objective_error_ids": [],
+        "qualifying_ids": [],
+        "limits": [
+          "Read only the assigned grading packet; its SHA256 matched da75d6a4a0d7dc0ec85e7805802e74cb92567554b80ce5603fbb2af43c79de90.",
+          "Judgments use only the supplied task, rubric, failure anchor, selection rules and public responses.",
+          "No other grader results, external sources, tests or private reasoning were consulted."
+        ]
+      }
+    },
+    {
+      "grader": "B",
+      "original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F73/grades-FIRST/grade-b-received.json",
+        "bytes": 5234,
+        "sha256": "fd86d3dff9243e7888964d6414504c02752a384b9662e8e38ca5b21401fb3c27"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F73/reports/grade-b-first.json",
+        "bytes": 5234,
+        "sha256": "fd86d3dff9243e7888964d6414504c02752a384b9662e8e38ca5b21401fb3c27"
+      },
+      "parsed_original": {
+        "path": "local-retained:temp/hard-screen-20261003/worker/F73/grades-FIRST/grade-b-parsed.json",
+        "bytes": 5235,
+        "sha256": "484dd0e331715a0cd475dfc7fec7439ea7fc6c5ed37c460a9d66010c353a45f5"
+      },
+      "parsed_public_copy": {
+        "path": "evals/hard-screen-20261003/F73/reports/grade-b-parsed.json",
+        "bytes": 5235,
+        "sha256": "484dd0e331715a0cd475dfc7fec7439ea7fc6c5ed37c460a9d66010c353a45f5"
+      },
+      "complete_first": {
+        "report": "FIRST",
+        "grades": [
+          {
+            "id": "R01",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "public_evidence": [
+              "The proposed operation therefore has **zero whole-task success** under the stated site laws.",
+              "Buy only the 3-unit gravity-hose kit and install it during minutes 0–2. At minute 2, start gravity flow and the original pump together. Stop the pump after 1.5 active minutes; leave gravity running until minute 10."
+            ],
+            "reason": "Correctly rejects unchanged authorization: fine grit permits irreversible breach before target, while coarse grit stops short. The correction installs with the pump stopped, spends 3, removes 12 litres by gravity and 3 by the original pump, reaches 5 at minute 10, and preserves the berm throughout. Required pump use is below its two-minute debris lifetime in either condition. The accurate motor certificate supports at least 95% survival through the shorter required interval and hence the required success probability. No false necessity or exclusion is asserted.",
+            "corrective_policy_if_qualifying": null,
+            "exclusions_applied": [
+              "Complete lawful short and concurrent operations accepted.",
+              "No canonical schedule, proof, branch, name or word quota imposed.",
+              "No qualifying failure inferred from omitted elaboration.",
+              "One-root protection observed."
+            ]
+          },
+          {
+            "id": "R02",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "public_evidence": [
+              "The 95% motor-survival figure does not establish whole-task success; the proposed operation has **zero** probability of satisfying both requirements.",
+              "Minutes 2–3.5: Run gravity flow and the original pump together, then stop the pump.",
+              "Motor survival through ten active minutes is 95%, so survival through the required 1.5 minutes is **at least 95%**."
+            ],
+            "reason": "Accurately distinguishes motor survival from the unchanged proposal's whole-task failure. The complete correction uses the permitted concurrent distinct outlets after stopped-pump installation, costs 3, respects cumulative original-pump lifetime, and removes exactly 15 litres by minute 10. Only 3 litres reach the surface outlet, preserving access throughout. The survival bound for the shorter active interval establishes success above 90%. No universal exclusion or unsupported necessity appears.",
+            "corrective_policy_if_qualifying": null,
+            "exclusions_applied": [
+              "Complete lawful concurrent operation accepted.",
+              "No minimum or uniqueness requirement imposed.",
+              "No explanation or format quota imposed.",
+              "One-root protection observed."
+            ]
+          },
+          {
+            "id": "R03",
+            "scores": {
+              "decision": 2,
+              "evidence": 2,
+              "mechanism": 2,
+              "feasibility": 2,
+              "robustness": 2
+            },
+            "total": 10,
+            "objective_error": false,
+            "qualifying_failure": false,
+            "public_evidence": [
+              "The 95% motor-survival report therefore does not establish whole-task success; the proposed operation cannot meet both requirements in either debris condition.",
+              "Run the existing original pump from minute 2 to minute 3.5, then stop it.",
+              "This operation costs 3 units and meets both requirements in both debris conditions."
+            ],
+            "reason": "Correctly rejects the guarded proposal and explains its breach and debris failure mechanisms. The stated correction is complete: install during minutes 0–2, run gravity for eight minutes, and concurrently run the original pump for 1.5 minutes. It costs 3, reaches 5 litres at minute 10, and discharges only 3 litres beside the berm. Both debris conditions permit the required pump interval. The motor certificate supplies the at-least-95% survival bound for that shorter interval; omitting its explicit restatement does not invalidate the lawful operation. The final statement addresses feasibility in both debris conditions and does not explicitly assert certain motor survival or a false unconditional probability guarantee.",
+            "corrective_policy_if_qualifying": null,
+            "exclusions_applied": [
+              "Complete lawful short and equivalent operations accepted.",
+              "Actual lawful operation prevails over purchase-label differences.",
+              "Omitted probability elaboration alone is nonqualifying.",
+              "Ambiguity is not converted into an endorsed false guarantee.",
+              "No recipe, proof or word quota imposed.",
+              "One-root protection observed."
+            ]
+          }
+        ],
+        "objective_error_ids": [],
+        "qualifying_ids": [],
+        "limits": [
+          "Read only the assigned packet; its SHA256 matched the expected value.",
+          "Judgments use only supplied criteria and exact public responses; no other grader results or hidden reasoning were consulted."
+        ]
+      }
+    }
+  ],
+  "rows": [
+    {
+      "grader": "A",
+      "id": "R01",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "A",
+      "id": "R02",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "A",
+      "id": "R03",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "B",
+      "id": "R01",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "B",
+      "id": "R02",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    },
+    {
+      "grader": "B",
+      "id": "R03",
+      "scores": {
+        "decision": 2,
+        "evidence": 2,
+        "mechanism": 2,
+        "feasibility": 2,
+        "robustness": 2
+      },
+      "total": 10,
+      "objective_error": false,
+      "qualifying_failure": false
+    }
+  ],
+  "joint_qualifying_ids": [],
+  "decision": "EXCLUDED",
+  "transmission_limit": "Raw files preserve complete returned-body local UTF-8 transcriptions, not transport authentication; Both original report/grades/scores schemas unchanged. Initial A capture produced no file; bounded writes preserved the complete same returned body, without new grader or judgment."
+}

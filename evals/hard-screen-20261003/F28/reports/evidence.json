@@ -1,0 +1,65 @@
+{
+  "suite_hashes": {
+    "cases.json": "af64eb1af910c740ef01456821354d131e2ed922e24f1f339a4e8eba9ef601a9",
+    "rubrics.json": "c421998cfdd1c826b1e9353859b8224c42a34784930005f35fd0a8060358d2a9",
+    "protocol.json": "1d6b3b6ab17400702f7e344f7f389301c67b14eb5b91d480bf832dfebcceb9c3"
+  },
+  "code_commit": "f33931faf9b892ef113fd0dda65d671a39806c3b",
+  "repository_commit_at_dispatch": "782322d4f229f4477741fda0cecbcd195d23665d",
+  "requested_model": "gpt-6-sol",
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "scored_treatment_runs": 0,
+  "heldout_executed": false,
+  "native_trials": [
+    {
+      "response_id": "R01",
+      "case_id": "F28C",
+      "repetition": 2,
+      "status": "completed",
+      "final_sha256": "171e5abb8893fd0cfb60a3012dff080be190cff56718b22b90a2b37cf0787c86",
+      "turn_id": "local-turn-b64913a3191c6c1f",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R02",
+      "case_id": "F28C",
+      "repetition": 3,
+      "status": "completed",
+      "final_sha256": "06ca6dd7278643bb7274e0065d5ab6e5c1952cb584bf891b23fc9b51c348dbde",
+      "turn_id": "local-turn-51b1f5e5802542e9",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    },
+    {
+      "response_id": "R03",
+      "case_id": "F28C",
+      "repetition": 1,
+      "status": "completed",
+      "final_sha256": "0f83b58fa096660c0ff2ec02486ff9492912ad701a0962dc013251bf76e57afd",
+      "turn_id": "local-turn-1acd1800e9801ad9",
+      "actual_common_developer_match": true,
+      "actual_common_user_prefix_match": true,
+      "task_input_readback_verified": true,
+      "process_stopped": true,
+      "source_preserved": true,
+      "copied_auth_root_removed": true
+    }
+  ],
+  "grading_packet_sha256": "7f529a829714d7aaea328212fc356aeed937984b333d662a76be3b6b56879276",
+  "grading_packet_redaction": "Built from blank current task/rubric/anchor/anonymous answers and explicitly read generic criteria. Before grader dispatch checked no arm/model/host metadata, paths, IDs, or previous-case clauses.",
+  "pretrial_reviews": [
+    "f28_source_a and f28_source_b independently reconstructed8/8/0 from source records only; both warn compact explicit structure may be easy.",
+    "First oracle review corrected Ksupport criterion to feasibility/nonnegativecost, explicit certificate array indexing, and Hservice description.",
+    "Distinct final review independently enumerated1200policy pairs and approved exact suite/oracle/certificate bindings."
+  ]
+}

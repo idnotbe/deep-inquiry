@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "candidate": "F135_ORACLE_R2_LOCAL_RESULT_V1",
+  "operation": "Mechanical extraction of unchanged FIRST results; no regrade",
+  "packet_sha256": "bafce29ca49d48ce73e352ad794228857e26fcf73130a7b940f7638195257ae0",
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "mapping": [
+    {
+      "anonymous_id": "R-A",
+      "repetition": 2
+    },
+    {
+      "anonymous_id": "R-B",
+      "repetition": 3
+    },
+    {
+      "anonymous_id": "R-C",
+      "repetition": 1
+    }
+  ],
+  "graders": [
+    {
+      "whole_FIRST": "grader-one-FIRST.full.json",
+      "results": [
+        {
+          "id": "R-A",
+          "rubric_dimension_scores": {
+            "mandate-compliant executable choice": 2,
+            "use of permit and estimate evidence": 2,
+            "acquisition cash and inherited obligations": 2,
+            "protection rights, timing and funding": 2,
+            "decision support under unresolved identities": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The immediate unchanged asset acceptance is executable. Its 20–40 package bounds, both cash equations, reserve treatment and minimum outcomes match the supplied facts. It correctly rejects the share purchase's admissible 0.80 million loss.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "The asset purchase guarantees a minimum net cash gain of **£0.20 million**",
+            "The binding cooperative volume is **20–40 new facilities**.",
+            "Scheduled performance satisfies every payment condition, and all three payments arrive within the measurement period."
+          ],
+          "material_decision_consequence": "Correctly selects assets with minimum +0.20 million over declining at zero and excludes shares for breaching the loss ceiling. No erroneous material consequence is observed.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The unresolved identities determine a bounded range rather than preventing a decision. The complete asset policy is feasible under the stipulated contracts, performance, timing and funding. No separate source oracle was consulted."
+          },
+          "assessment": "Substantively correct across all five dimensions; no anchored v2 or v3 failure."
+        },
+        {
+          "id": "R-B",
+          "rubric_dimension_scores": {
+            "mandate-compliant executable choice": 2,
+            "use of permit and estimate evidence": 2,
+            "acquisition cash and inherited obligations": 2,
+            "protection rights, timing and funding": 2,
+            "decision support under unresolved identities": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The answer includes the prepaid-book novation and premises licence in an immediate unchanged asset acceptance. It correctly derives both package endpoints, accounts for all acquisition cash components, recognizes collectible reserve rights under both transactions and applies the downside mandate.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "accept the asset offer unchanged before 17:00 and complete tomorrow",
+            "Neither paper rules out the 60-facility union that drives the downside calculation.",
+            "Under the asset agreement, the certificate rights transfer with the prepaid obligations."
+          ],
+          "material_decision_consequence": "Correctly chooses the eligible alternative with the highest minimum cash result, +0.20 million, and rejects the shares' possible -0.80 million result. No erroneous material consequence is observed.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The packet establishes feasible endpoints and a fully executable asset acquisition without obtaining October identities. Stipulated performance, within-period reserve receipts and treasury funding support the policy. No separate source oracle was consulted."
+          },
+          "assessment": "Substantively correct across all five dimensions; no anchored v2 or v3 failure."
+        },
+        {
+          "id": "R-C",
+          "rubric_dimension_scores": {
+            "mandate-compliant executable choice": 2,
+            "use of permit and estimate evidence": 2,
+            "acquisition cash and inherited obligations": 2,
+            "protection rights, timing and funding": 2,
+            "decision support under unresolved identities": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The answer gives an executable asset closing instruction, correctly uses the 20–40 package range and derives the complete cash equations. Its treatment of prepaid obligations, transferred reserve rights, premises costs, terminal proceeds and treasury is consistent with the dossier.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "accept the executed asset offer without amendment before 17:00",
+            "The number of new cooperative packages is **20–40**, not an established 40.",
+            "Among the eligible choices, assets deliver a minimum £0.20 million gain, exceeding the zero result from declining."
+          ],
+          "material_decision_consequence": "Correctly accepts assets now, rejects shares using the feasible complete-overlap loss case and does not make acceptance depend on unavailable identities. No erroneous material consequence is observed.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "Unknown identities do not undermine the bounded downside calculation. The prescribed asset acquisition satisfies the contractual, operating, timing and funding constraints. No separate source oracle was consulted."
+          },
+          "assessment": "Substantively correct across all five dimensions; no anchored v2 or v3 failure."
+        }
+      ]
+    },
+    {
+      "whole_FIRST": "grader-two-FIRST.full.json",
+      "results": [
+        {
+          "id": "R-A",
+          "rubric_dimension_scores": {
+            "mandate-compliant executable choice": 2,
+            "use of permit and estimate evidence": 2,
+            "acquisition cash and inherited obligations": 2,
+            "protection rights, timing and funding": 2,
+            "decision support under unresolved identities": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The instruction accepts the unchanged asset offer before today's deadline and completes tomorrow. The answer correctly establishes 20–40 cooperative packages, shares net cash of −3.20 + 0.12N and assets net cash of −0.80 + 0.05N. Shares can lose £0.80m and are ineligible; assets guarantee £0.20m and beat declining. Purchase payments, prepaid obligations, reserve receipts, premises and terminal proceeds are correctly included.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "Instruct the closing solicitor to accept the £3.30 million asset offer, without amendments, before 17:00 today and complete tomorrow, 29 September 2030. Decline the share offer.",
+            "The binding cooperative volume is **20–40 new facilities**.",
+            "Scheduled performance satisfies every payment condition, and all three payments arrive within the measurement period."
+          ],
+          "material_decision_consequence": "The correct asset instruction secures a minimum £0.20m gain and avoids the shares' admissible £0.80m loss. No erroneous premise materially changes the recommendation.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "The stipulated file permits both complete and zero overlap between the two noncustomer groups. Those worlds determine the cash bounds without the October join. Signed asset novation, funded reserve, scheduled performance, terminal commitments and treasury make the chosen policy executable."
+          },
+          "overall_assessment": "Complete, substantively correct and executable; no objective error or qualifying inquiry failure."
+        },
+        {
+          "id": "R-B",
+          "rubric_dimension_scores": {
+            "mandate-compliant executable choice": 2,
+            "use of permit and estimate evidence": 2,
+            "acquisition cash and inherited obligations": 2,
+            "protection rights, timing and funding": 2,
+            "decision support under unresolved identities": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The answer correctly selects immediate unchanged asset acceptance, including the prepaid-book novation and premises licence. Its 20–40 package interval and both cash formulas are correct. It includes every stipulated cash component and correctly treats the funded reserve as performance receipts available under either acquisition. The minimum-result comparison correctly rejects shares and ranks assets above decline.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "accept the asset offer unchanged before 17:00 and complete tomorrow",
+            "The £0.90 reserve is collectible under **either** acquisition.",
+            "Neither paper rules out the 60-facility union that drives the downside calculation.",
+            "Approve the asset purchase because it has the highest minimum cash result among acquisitions and alternatives that satisfy the loss limit."
+          ],
+          "material_decision_consequence": "The recommendation obtains the best eligible minimum, £0.20m, while rejecting shares because their possible £0.80m loss exceeds the £0.50m ceiling. No false necessity, exclusion or unsupported count supports the decision.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "Unresolved identities create a bounded package count, not an ambiguous mandate or impossible decision. The file supplies all cash flows and already executed transfer and performance arrangements needed for asset acceptance today."
+          },
+          "overall_assessment": "Complete and correct across all five dimensions; no qualifying failure."
+        },
+        {
+          "id": "R-C",
+          "rubric_dimension_scores": {
+            "mandate-compliant executable choice": 2,
+            "use of permit and estimate evidence": 2,
+            "acquisition cash and inherited obligations": 2,
+            "protection rights, timing and funding": 2,
+            "decision support under unresolved identities": 2
+          },
+          "total_score": 10,
+          "objective_error": false,
+          "objective_error_evidence": "The answer sends a lawful unconditional asset instruction for today's deadline and tomorrow's £3.30m closing. It correctly derives the 20–40 package bounds, incorporates spent prepayments and the full inherited service obligation, recognizes transferred reserve rights, and computes shares at −£0.80m minimum versus assets at +£0.20m. It correctly rejects the seller and external estimates as guaranteed counts.",
+          "critical_failures": [],
+          "qualifying_inquiry_failure": false,
+          "qualifying_type": null,
+          "observable_claim_quotes": [
+            "accept the executed asset offer without amendment before 17:00, reject the share offer, and complete the asset purchase tomorrow for £3.30 million.",
+            "The number of new cooperative packages is **20–40**, not an established 40.",
+            "The share acquisition fails the mandatory loss test because complete overlap of the noncustomer register entries produces a £0.80 million loss.",
+            "Among the eligible choices, assets deliver a minimum £0.20 million gain, exceeding the zero result from declining."
+          ],
+          "material_decision_consequence": "The correct package bounds and service-reserve treatment support immediate asset acquisition with the highest permissible minimum result. There is no materially incorrect adopted premise.",
+          "source_oracle_ambiguity_or_infeasibility": {
+            "ambiguity": false,
+            "infeasibility": false,
+            "rationale": "Complete noncustomer overlap is a feasible downside witness, and the asset policy remains feasible throughout the allowed overlap range. Stipulated performance and funded certificate payments fall within the measurement period; no early identity release or unavailable amendment is needed."
+          },
+          "overall_assessment": "Complete and substantively correct; neither objective error nor qualifying inquiry failure is observed."
+        }
+      ]
+    }
+  ],
+  "same_joint_qualifying_ids": [],
+  "disposition": "EXCLUDED_NOT_HARD"
+}

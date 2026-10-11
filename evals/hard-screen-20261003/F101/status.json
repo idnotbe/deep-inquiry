@@ -1,0 +1,60 @@
+{
+  "candidate": "F101",
+  "status": "EXCLUDED_NOT_HARD",
+  "root_final": "ACCEPTED",
+  "retained": false,
+  "retained_count_change": 0,
+  "eligible_independent_FIRST_count": 1,
+  "two_protocol_valid_blind_grades": false,
+  "grader_eligibility": {
+    "blind_one": {
+      "status": "ELIGIBLE",
+      "basis": "Reports complete packet-only task evidence; ROOT accepts eligible FIRST."
+    },
+    "blind_two": {
+      "status": "INELIGIBLE_RAW_ONLY",
+      "basis": "Disclosed procedural SKILL reads outside packet; ROOT strict packet-only disposition.",
+      "additional_deviations": "Reviewer reports command>6000, truncated skill read and no report readback; not reconstructed as independent actual tool receipts."
+    }
+  },
+  "raw_scores_each_grader": [
+    10,
+    10,
+    10
+  ],
+  "raw_qualifying_ids_each": {
+    "blind_one": [],
+    "blind_two": []
+  },
+  "raw_full_passes_each_grader": 3,
+  "objective_errors_raw_each_grader": 0,
+  "exclusion_basis": "All3 concrete originals directly verified correct by ROOT and eligible blind_one; no qualifying failures; no hard family admitted. blind_two raw grades retained but not counted as eligible.",
+  "ROOT_content_verification_separate": true,
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "original_completed": 3,
+  "neutral_completed": 2,
+  "retry_count": 0,
+  "native_model_replays": 0,
+  "formal_affected_checks": 1,
+  "H_K_participant": "UNUSED",
+  "scored_treatment": "NOT_RUN",
+  "backend": "UNKNOWN_NONBLOCKING",
+  "reasoning_effort_considered": false,
+  "efficacy": "NOT_EVALUATED",
+  "retained_total": 0,
+  "target": 6,
+  "overall_goal": "ACTIVE_UNMET",
+  "root_owned_cumulative_counts": {
+    "candidate_identifiers": 85,
+    "preserved_terminal_problem_files": 246,
+    "completed_problem_turns": 305,
+    "older_protected": "UNKNOWN",
+    "neutral_excluded": true,
+    "valid_trial_total_claim": false
+  },
+  "next": "F101 closed; stages1-2 ACTIVE_UNMET0/6; no replay or regrade."
+}

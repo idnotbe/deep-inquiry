@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "candidate": "F97",
+  "status": "CLOSED_F97_RUNTIME_INCONCLUSIVE_NO_GRADING",
+  "closure": "ROOT_VERIFIED_CLOSED",
+  "empirical_hardness": "UNKNOWN",
+  "EXCLUDED_NOT_HARD": false,
+  "retained": 0,
+  "target": 6,
+  "neutral": {
+    "SAFE": "PASS_F97_FRESH_NEUTRAL_ALL_GUARDS_SAFE",
+    "unscored_trials": 2,
+    "completed_model_turns": 4,
+    "MCP_Node_exit": 0,
+    "SAME_owned_Python_close": 0,
+    "excluded_from_problem_counts": true
+  },
+  "original": {
+    "C2": {
+      "attempt": 1,
+      "MCP_Node_exit": 1,
+      "SAME_owned_Python_close": 1,
+      "error_stage": "response_contract",
+      "error_contract_code": "response_tool_attempted",
+      "tool_attempted_flag": true,
+      "actual_tool_execution": "NOT_INFERRED",
+      "source_preserved": true,
+      "process_stopped": true,
+      "copied_auth_root_removed": true,
+      "completed_model_turns": 1,
+      "preserved_final_phase_files": 1,
+      "preserved_file_bytes": 18,
+      "valid_problem_recommendation": "UNVERIFIED"
+    },
+    "C3": "NOT_RUN",
+    "C1": "NOT_RUN",
+    "collector": "NOT_RUN",
+    "prepared_f97_safe_root_gate": "NOT_RUN",
+    "SAFE": "ABSENT",
+    "packet": "ABSENT",
+    "map": "ABSENT",
+    "grades": "ABSENT"
+  },
+  "human_original_semantic_preview": false,
+  "raw_error_unknown_messages_transcript_requests_observations_final_semantics_read": false,
+  "model_replays": 0,
+  "outcome_retries": 0,
+  "grading_executions": 0,
+  "H_K_participant_UNUSED": true,
+  "scored_treatment": 0,
+  "cumulative": {
+    "candidate_ids": 81,
+    "preserved_final_phase_problem_files": 234,
+    "completed_problem_model_turns": 293,
+    "protected_UNKNOWN_preserved": true,
+    "valid_trial_count_claimed": false,
+    "neutral_excluded": true
+  },
+  "backend": "UNKNOWN",
+  "efficacy": "UNKNOWN",
+  "next": "F97 CLOSED; preserve originals unread/ungraded; no retry or recovery."
+}

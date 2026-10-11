@@ -1,0 +1,158 @@
+{
+  "status": "EXCLUDED_NOT_HARD_PROPOSED_ROOT_FINAL_REQUIRED",
+  "method": "Frozen prospective V2/V3/generic + A1-A3; SAME IDs jointly qualifying independently by BOTH graders.",
+  "packet": {
+    "path": "temp/hard-screen-20261003/worker/F94/blind-packet/packet.json",
+    "bytes": 17497,
+    "sha256": "4915c4fcfa01480e9ef71c7a909c7a01eeff4876d4061b8a248463a35215acaf"
+  },
+  "both_FULL_FIRSTs_saved_before_synthesis_and_mapping": true,
+  "reviews": [
+    {
+      "reviewer": "a",
+      "FIRST": {
+        "path": "temp/hard-screen-20261003/worker/F94/blind-FIRST-a.md",
+        "bytes": 4361,
+        "sha256": "18b6a8db6e1af0222b2828652fd5feeb7fbaac546f15f470af1c1d0cf00d3b68"
+      },
+      "responses": [
+        {
+          "id": "Q74",
+          "components": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "score": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        },
+        {
+          "id": "Q19",
+          "components": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "score": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        },
+        {
+          "id": "Q52",
+          "components": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "score": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        }
+      ],
+      "qualifying_ids": []
+    },
+    {
+      "reviewer": "b",
+      "FIRST": {
+        "path": "temp/hard-screen-20261003/worker/F94/blind-FIRST-b.md",
+        "bytes": 3460,
+        "sha256": "548ff14f22e592d4a8eee961397b616249e3e7d71d38cda210b587792868d282"
+      },
+      "responses": [
+        {
+          "id": "Q74",
+          "components": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "score": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        },
+        {
+          "id": "Q19",
+          "components": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "score": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        },
+        {
+          "id": "Q52",
+          "components": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "score": 10,
+          "full_pass": true,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false
+        }
+      ],
+      "qualifying_ids": []
+    }
+  ],
+  "joint_qualifying_ids": [],
+  "joint_count": 0,
+  "all3_extra_audit_triggered": false,
+  "all_lawful_equivalents_accepted": true,
+  "no_regrade_replacement_averaging_favorable_pick": true,
+  "retained": 0,
+  "target": 6,
+  "ROOT_FINAL_required": true,
+  "response_bindings": [
+    {
+      "repetition": 1,
+      "anonymous_id": "Q52",
+      "public_response": {
+        "path": "evals/hard-screen-20261003/F94/responses/R01.txt",
+        "bytes": 1801,
+        "sha256": "5b6c44d123bc24ff6680c667152fe7997721cf1826e1e57ba11302942e773243"
+      },
+      "source_sha256": "5b6c44d123bc24ff6680c667152fe7997721cf1826e1e57ba11302942e773243"
+    },
+    {
+      "repetition": 2,
+      "anonymous_id": "Q19",
+      "public_response": {
+        "path": "evals/hard-screen-20261003/F94/responses/R02.txt",
+        "bytes": 1518,
+        "sha256": "d63f1680c6603103dc81c19094ff46c9f05aff6114a44369b0d0aa742cd67d0f"
+      },
+      "source_sha256": "d63f1680c6603103dc81c19094ff46c9f05aff6114a44369b0d0aa742cd67d0f"
+    },
+    {
+      "repetition": 3,
+      "anonymous_id": "Q74",
+      "public_response": {
+        "path": "evals/hard-screen-20261003/F94/responses/R03.txt",
+        "bytes": 1493,
+        "sha256": "9afdc200b90157ce0d2a2ba2a271c903b7289ddd6ababef05a93ea831bea39f7"
+      },
+      "source_sha256": "9afdc200b90157ce0d2a2ba2a271c903b7289ddd6ababef05a93ea831bea39f7"
+    }
+  ]
+}

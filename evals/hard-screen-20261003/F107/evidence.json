@@ -1,0 +1,289 @@
+{
+  "schema_version": 1,
+  "status": {
+    "path": "evals/hard-screen-20261003/F107/status.json",
+    "bytes": 1750,
+    "sha256": "5a78304b572dd58480d0350897b9e343c1de924f1ecd99a83fa1c793dfc55713"
+  },
+  "source_and_helpers_unchanged": true,
+  "PRETRIAL": {
+    "path": "temp/hard-screen-20261003/worker/F107/PRETRIAL.json",
+    "bytes": 49183,
+    "sha256": "9529cdec85b704ceb08ab520f5c0e4679a27edefe8e4234762718d27b8a83800"
+  },
+  "ROOT_PRETRIAL": {
+    "path": "temp/hard-screen-20261003/f107-pretrial-root-gate.json",
+    "bytes": 2442,
+    "sha256": "1f707821c371af0917870747c182368b771c481a6607638f7c99955e8c378142"
+  },
+  "ROOT_SAFE": {
+    "path": "temp/hard-screen-20261003/f107-safe-root-gate.json",
+    "bytes": 1653,
+    "sha256": "93ea5959f2b1b51df67cc44c131da9dace06d6026d1a55d61c11a42a253e355e"
+  },
+  "original_SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F107/original-safe-readback.json",
+    "bytes": 12469,
+    "sha256": "424098d7ed912a8d6cbb96ab3a450aef95bd81606991663b2e2d1944c446b977"
+  },
+  "neutral_SAFE": {
+    "path": "temp/hard-screen-20261003/worker/F107/qualification/neutral-safe-readback.json",
+    "bytes": 8938,
+    "sha256": "a63d570789d4f55a9bd66a1566f54a23d12fea1d1fdb4310af10e6d88bf3c892"
+  },
+  "blind_builder": {
+    "path": "temp/hard-screen-20261003/worker/F107/blind-builder-actual-lossless.json",
+    "bytes": 686,
+    "sha256": "bc1f33fe810207757a0fd13021774e7ae19477a3755923c5dc9678d2110d56bc"
+  },
+  "blind_builder_readback": {
+    "path": "temp/hard-screen-20261003/worker/F107/blind-builder-readback.json",
+    "bytes": 340,
+    "sha256": "ca01f92875774ecb356978ddb6897bcc55ae64fac6b3ba4a5e8b0ca0d9508a72"
+  },
+  "both_FIRST_boundary": {
+    "path": "temp/hard-screen-20261003/worker/F107/reviews/both-blind-FIRST-boundary.json",
+    "bytes": 739,
+    "sha256": "5508ab7ab1a8f70e6c02221ca4ebe01410b0300d74c01f784e17252213b340b0"
+  },
+  "assignment_disclosure": {
+    "path": "temp/hard-screen-20261003/worker/F107/reviews/blind-dispatch-ledger.json",
+    "bytes": 1228,
+    "sha256": "fe835a88e9f89ef08a6f09b63db2d5821de6999ff57aab4daca27914ea1d88aa"
+  },
+  "canonical_assignment": {
+    "path": "temp/hard-screen-20261003/f107-blind-assignment.txt",
+    "bytes": 3777,
+    "sha256": "bfa3266ecf3751942f15c8b9361944526a239f900aab4d0d36ddecaea899bca5"
+  },
+  "actual_assignments": [
+    {
+      "path": "temp/hard-screen-20261003/worker/F107/reviews/blind-one-actual-assignment.txt",
+      "bytes": 3777,
+      "sha256": "bfa3266ecf3751942f15c8b9361944526a239f900aab4d0d36ddecaea899bca5"
+    },
+    {
+      "path": "temp/hard-screen-20261003/worker/F107/reviews/blind-two-actual-assignment.txt",
+      "bytes": 3848,
+      "sha256": "07b532d2381f7499ae1b68fd3f0e11a4e2d514dd065e31bc6a9cada0dfac211d"
+    }
+  ],
+  "duplicate_correction": {
+    "path": "temp/hard-screen-20261003/worker/F107/reviews/blind-two-duplicate-correction.txt",
+    "bytes": 440,
+    "sha256": "ea48a70eb8ce98728d2c660d356a16bce048206dd1f99b13393d88b1ecbdc597"
+  },
+  "exact_copies": [
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F107/original/F107_C-baseline-r3-attempt1/final.txt",
+        "bytes": 1643,
+        "sha256": "cf79a69e06b38bc42c6142c97f7d26e4c0e6d3feca3af0d84535de7b1cec4459"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F107/responses/F107_C-baseline-r3.txt",
+        "bytes": 1643,
+        "sha256": "cf79a69e06b38bc42c6142c97f7d26e4c0e6d3feca3af0d84535de7b1cec4459"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F107/original/F107_C-baseline-r2-attempt1/final.txt",
+        "bytes": 1544,
+        "sha256": "131a785a5f879a3cd095378da568f8ac382dab4efae98b0baafc895731037580"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F107/responses/F107_C-baseline-r2.txt",
+        "bytes": 1544,
+        "sha256": "131a785a5f879a3cd095378da568f8ac382dab4efae98b0baafc895731037580"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F107/original/F107_C-baseline-r1-attempt1/final.txt",
+        "bytes": 1601,
+        "sha256": "f18a4be68e82e79469fedd4aa5327b2872347d8c20e263613b354ea9f2cf28a9"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F107/responses/F107_C-baseline-r1.txt",
+        "bytes": 1601,
+        "sha256": "f18a4be68e82e79469fedd4aa5327b2872347d8c20e263613b354ea9f2cf28a9"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F107/reviews/blind-one-FIRST.full.md",
+        "bytes": 8161,
+        "sha256": "16dafad6724c41d22cd756f4f325beec9462f0f175558b2618cb397ec13fe970"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F107/reviews/blind-one-FIRST.full.md",
+        "bytes": 8161,
+        "sha256": "16dafad6724c41d22cd756f4f325beec9462f0f175558b2618cb397ec13fe970"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F107/reviews/blind-two-FIRST.full.md",
+        "bytes": 6313,
+        "sha256": "2b8918137233c687fe042cc63ba2731d7c2d945c1ae3d446397e72e113591caa"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F107/reviews/blind-two-FIRST.full.md",
+        "bytes": 6313,
+        "sha256": "2b8918137233c687fe042cc63ba2731d7c2d945c1ae3d446397e72e113591caa"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F107/reviews/helper-FIRST.full.md",
+        "bytes": 7024,
+        "sha256": "0d5600876f4298761a90ceadaf214e7144078631b928ce81897204ab01282ec5"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F107/reviews/helper-FIRST.full.md",
+        "bytes": 7024,
+        "sha256": "0d5600876f4298761a90ceadaf214e7144078631b928ce81897204ab01282ec5"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/f107-root-reviews/source-one-FIRST.full.md",
+        "bytes": 11304,
+        "sha256": "85ee0d9d0daf5ba4a4b92c68ce9ea85f40b633ad0c8e02cde84f1a9066be3992"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F107/reviews/source-one-FIRST.full.md",
+        "bytes": 11304,
+        "sha256": "85ee0d9d0daf5ba4a4b92c68ce9ea85f40b633ad0c8e02cde84f1a9066be3992"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/f107-root-reviews/source-two-FIRST.full.md",
+        "bytes": 8935,
+        "sha256": "efad09d357503b3895ed47533928257cccb55e52e17885cf2f04fabf27c9e172"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F107/reviews/source-two-FIRST.full.md",
+        "bytes": 8935,
+        "sha256": "efad09d357503b3895ed47533928257cccb55e52e17885cf2f04fabf27c9e172"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/f107-root-reviews/source-one-ALIGN.full.md",
+        "bytes": 8160,
+        "sha256": "67aa6c9ea1fe94353cb5a970b6920ebbdb8a9945962e962394c581eed10474ff"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F107/reviews/source-one-ALIGN.full.md",
+        "bytes": 8160,
+        "sha256": "67aa6c9ea1fe94353cb5a970b6920ebbdb8a9945962e962394c581eed10474ff"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/f107-root-reviews/source-two-ALIGN.full.md",
+        "bytes": 6607,
+        "sha256": "eba615bf1129bfaed68d488960923c6b4eabb3bd1ee1d08baa24e91885f5dd69"
+      },
+      "copy": {
+        "path": "evals/hard-screen-20261003/F107/reviews/source-two-ALIGN.full.md",
+        "bytes": 6607,
+        "sha256": "eba615bf1129bfaed68d488960923c6b4eabb3bd1ee1d08baa24e91885f5dd69"
+      },
+      "byte_exact": true
+    },
+    {
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F107/final-report-draft.md",
+        "bytes": 3740,
+        "sha256": "1962d86605fc41e2e86a1dd0d1fcb8900b82978e1cbf9823ddb96ac9ae273e42"
+      },
+      "copy": {
+        "path": "temp/hard-screen-20261003/worker/F107/root-final-prefinals/report.md",
+        "bytes": 3740,
+        "sha256": "1962d86605fc41e2e86a1dd0d1fcb8900b82978e1cbf9823ddb96ac9ae273e42"
+      },
+      "byte_exact": true,
+      "copy_state": "historical pre-acceptance copy; current report is accepted_report"
+    }
+  ],
+  "grades": {
+    "path": "evals/hard-screen-20261003/F107/grades.json",
+    "bytes": 4769,
+    "sha256": "79f2d4d576f3b7ba9e59eaa8aeb46a294e0277c86e4989d67e1ec4d340441442"
+  },
+  "index_proposal": {
+    "path": "temp/hard-screen-20261003/worker/F107/index-proposal/proof.json",
+    "bytes": 987,
+    "sha256": "1d81cba6b08028985fdd71d0408090d37dcf021fc734c9f5b358aacc96358279"
+  },
+  "counts": {
+    "raw_candidate_identifiers": 91,
+    "raw_problem_final_FILES": 262,
+    "completed_problem_turns": 321,
+    "older_history": "UNKNOWN",
+    "valid_trial_count": "NOT_INFERRED_FROM_RAW_FILES",
+    "source": "Coordinator final-preparation instruction; no protected historical-output rescan by this worker",
+    "F107_added": {
+      "candidate_identifiers": 1,
+      "problem_final_FILES": 3,
+      "completed_problem_turns": 3
+    },
+    "neutral_turns_excluded": 2
+  },
+  "root_verification_attempts": 2,
+  "native_retries": 0,
+  "extra_validity_audit_triggered": false,
+  "actual_backend": "UNVERIFIED/nonblocking",
+  "limits": [
+    "Outer timeout is not a watchdog guarantee; descendant cleanup unverified.",
+    "No efficacy conclusion; H/K and scored treatment unused.",
+    "A raw final-file count is not a valid-trial count.",
+    "Full agreed-scope verification deferred until actual six."
+  ],
+  "root_final_acceptance": "ACCEPTED",
+  "root_final_gate": "temp/hard-screen-20261003/f107-final-root-gate.json",
+  "historical_prefinals": [
+    {
+      "original_path": "evals/hard-screen-20261003/F107/report.md",
+      "path": "temp/hard-screen-20261003/worker/F107/root-final-prefinals/report.md",
+      "bytes": 3740,
+      "sha256": "1962d86605fc41e2e86a1dd0d1fcb8900b82978e1cbf9823ddb96ac9ae273e42"
+    },
+    {
+      "original_path": "evals/hard-screen-20261003/F107/status.json",
+      "path": "temp/hard-screen-20261003/worker/F107/root-final-prefinals/status.json",
+      "bytes": 1769,
+      "sha256": "89a784ec6a63790cff7a457b4d373671813122ab70d4ecd8fa39a7cbe7f39015"
+    },
+    {
+      "original_path": "evals/hard-screen-20261003/F107/grades.json",
+      "path": "temp/hard-screen-20261003/worker/F107/root-final-prefinals/grades.json",
+      "bytes": 4768,
+      "sha256": "c8481ace7eedfc6e367e6b4280af6f2bc8735131bf1f63de487335cabebeb5ab"
+    },
+    {
+      "original_path": "evals/hard-screen-20261003/F107/evidence.json",
+      "path": "temp/hard-screen-20261003/worker/F107/root-final-prefinals/evidence.json",
+      "bytes": 9598,
+      "sha256": "eb3ee4073687b1f89af21b89599af1fc78c0469ddfc8467c969ecaa9b3c6036a"
+    }
+  ],
+  "accepted_report": {
+    "path": "evals/hard-screen-20261003/F107/report.md",
+    "bytes": 3784,
+    "sha256": "959568657c2b17bf179ce68537cf8a1e1588fc1b3e16ea032aa0ea7989e63a13"
+  }
+}

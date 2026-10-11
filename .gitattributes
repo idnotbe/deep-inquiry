@@ -3,3 +3,9 @@
 # Preserve exact bytes of frozen evaluation evidence and its native runner.
 evals/v3/** -text whitespace=cr-at-eol
 tools/eval_inquiry.py -text whitespace=cr-at-eol
+evals/inquiry-discovery-20261012/A/question.md -text
+evals/inquiry-discovery-20261012/A/reference.md -text
+evals/inquiry-discovery-20261012/B/question.md -text
+evals/inquiry-discovery-20261012/B/reference.md -text
+evals/inquiry-discovery-20261012/C/question.md -text
+evals/inquiry-discovery-20261012/C/reference.md -text

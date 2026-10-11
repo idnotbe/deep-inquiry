@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "candidate": "F119",
+  "status": "EXCLUDED_NOT_HARD",
+  "root_FINAL_verified": true,
+  "retained": false,
+  "retained_count": 0,
+  "target": 6,
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "original_baseline_turns": 3,
+  "neutral_unscored_turns": 2,
+  "setup_retries": 0,
+  "objective_decision_errors": {
+    "grader_one": 0,
+    "grader_two": 0
+  },
+  "joint_qualifying_failures": 0,
+  "full_passes": {
+    "grader_one": 3,
+    "grader_two": 3
+  },
+  "mean_scores": {
+    "grader_one": 10,
+    "grader_two": 10
+  },
+  "H_K_participant_UNUSED": true,
+  "scored_treatment": 0,
+  "backend_model_verified": false,
+  "reasoning_effort_considered": false,
+  "broader_family_difficulty": "UNKNOWN; three correct decisions do not establish general difficulty or rationale",
+  "raw_totals_supplied_by_ROOT": {
+    "candidate_identifiers": 96,
+    "preserved_problem_final_files": 277,
+    "known_completed_problem_turns": 345,
+    "older_completed_turns": "UNKNOWN",
+    "neutral_turns_excluded": 2,
+    "historical_totals_recomputed": false
+  },
+  "disposition": "EXCLUDED_NOT_HARD",
+  "ROOT_FINAL_gate": "temp/hard-screen-20261003/f119-final-root-gate.json"
+}

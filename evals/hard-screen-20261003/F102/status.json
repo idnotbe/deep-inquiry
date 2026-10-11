@@ -1,0 +1,58 @@
+{
+  "candidate": "F102",
+  "status": "EXCLUDED_NOT_HARD",
+  "root_final": "ACCEPTED",
+  "retained": false,
+  "retained_count_change": 0,
+  "eligible_independent_FIRST_count": 2,
+  "two_protocol_valid_blind_grades": true,
+  "grader_eligibility": {
+    "blind_one": {
+      "status": "ELIGIBLE",
+      "basis": "Packet-only substantive input; six disclosed procedural files inside effective18 allowlist; symbolic reasoning, no forbidden access reported."
+    },
+    "blind_two": {
+      "status": "ELIGIBLE",
+      "basis": "Packet-only substantive input; seven disclosed procedural files inside effective18 allowlist; symbolic reasoning, no forbidden access reported."
+    }
+  },
+  "scores_each_grader": [
+    10,
+    10,
+    10
+  ],
+  "full_passes_each_grader": 3,
+  "objective_errors_each_grader": 0,
+  "qualifying_ids_each": {
+    "blind_one": [],
+    "blind_two": []
+  },
+  "joint_qualifying_ids": [],
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "original_completed": 3,
+  "neutral_completed": 2,
+  "retry_count": 0,
+  "native_model_replays": 0,
+  "formal_affected_checks": 1,
+  "H_K_participant": "UNUSED",
+  "scored_treatment": "NOT_RUN",
+  "backend": "UNKNOWN_NONBLOCKING",
+  "reasoning_effort_considered": false,
+  "efficacy": "NOT_EVALUATED",
+  "retained_total": 0,
+  "target": 6,
+  "overall_goal": "ACTIVE_UNMET",
+  "root_owned_cumulative_counts": {
+    "candidate_identifiers": 86,
+    "preserved_terminal_problem_files": 249,
+    "completed_problem_turns": 308,
+    "older_protected": "UNKNOWN",
+    "neutral_excluded": true,
+    "valid_trial_total_claim": false
+  },
+  "next": "F102 closed; stages1-2 ACTIVE_UNMET0/6; no replay or regrade."
+}

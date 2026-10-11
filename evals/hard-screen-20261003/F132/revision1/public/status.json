@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "candidate": "F132_SOURCE_FREEZE_1_HELPER_R2",
+  "status": "EXCLUDED_NOT_HARD",
+  "ROOT_FINAL_accepted": true,
+  "retained_count": 0,
+  "retained_target": 6,
+  "same_joint_qualifying_ids": [],
+  "objective_error_counts": [
+    0,
+    0
+  ],
+  "qualifying_failure_counts": [
+    0,
+    0
+  ],
+  "full_passes_per_grader": [
+    3,
+    3
+  ],
+  "mean_per_grader": [
+    10,
+    10
+  ],
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "original_completed_turns": 3,
+  "original_preserved_finals": 3,
+  "neutral_completed_turns": 2,
+  "setup_retries": 0,
+  "scored_treatment": 0,
+  "H_K_participant_unused": true,
+  "actual_backend": "UNKNOWN/nonblocking",
+  "requested_participant": "gpt-6-sol",
+  "effort_considered": false,
+  "efficacy": "UNKNOWN",
+  "raw_inventory": {
+    "candidate_identifiers": 102,
+    "problem_final_files": 295,
+    "known_completed_problem_turns": 363,
+    "older_problem_turns": "UNKNOWN",
+    "neutral_excluded": true,
+    "scope": "ROOT-supplied cumulative F132 checkpoint; not valid independent trial or family counts",
+    "independently_recounted": false
+  },
+  "disposition": "EXCLUDED_NOT_HARD"
+}

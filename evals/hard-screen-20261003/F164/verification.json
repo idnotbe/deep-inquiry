@@ -1,0 +1,820 @@
+{
+  "candidate": "F164",
+  "version": "closure-1",
+  "status": "PASS_AFFECTED_CHECKS",
+  "check_count": 201,
+  "passed": 201,
+  "failed": [],
+  "catalog_applied": true,
+  "checks": [
+    {
+      "id": "bound:evals/hard-screen-20261003/prospective-method-v2.md",
+      "pass": true
+    },
+    {
+      "id": "bound:evals/hard-screen-20261003/prospective-method-v3.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f160-preflight-review.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f163-information-structure-audit.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f163-native-pretrial.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f163-prefix-semantic-completion.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f163-preflight-review.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f163-semantic-audit-initial.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-collection-scope.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-dispatch-acceptance.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-native-launches.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-native-pretrial.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-preflight-review.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-root-predispatch-checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-source-review-v1-a.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-source-review-v1-b.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-source-review-v2-a.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-source-review-v2-b.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-submission-contract-review.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/f164-validity-disposition.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/issue-drafts-20261011/published/08-screen-f164.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/native-evidence-adoption.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/native-evidence-v4-adoption.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-evidence-feasibility-review.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-native-collection-v1.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-semantic-evidence-v3.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-semantic-evidence-v4-checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-semantic-evidence-v4.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-v4-review-rehearsal-a.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/prospective-v4-review-rehearsal-b.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F158/evidence/semantic-audit.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163-proposal/C.txt",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163-proposal/H.txt",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163-proposal/checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163-proposal/design-note.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163-proposal/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163-proposal/oracle-C.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163-proposal/oracle-H.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163-proposal/protocol.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163-proposal/rubric.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163-proposal/verify.mjs",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F163/pretrial-preparation.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/C.txt",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/H.txt",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/README.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/C.txt",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/H.txt",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/README.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/design-note.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/oracle-C.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/oracle-H.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/protocol.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/rubric.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/archive/v1/verify.mjs",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/design-note.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/freeze.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/oracle-C.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/oracle-H.md",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/protocol.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/rubric.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/source-v2-change.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164-proposal/verify.mjs",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164/evidence/collection-checks.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164/evidence/collection-manifest.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164/evidence/public-originals.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164/preparation/approved-read-call.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164/preparation/delivery-envelope.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164/preparation/delivery-stdout.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164/preparation/delivery-tool-result.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164/preparation/verify.mjs",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/hard-screen-20261003/worker/F164/pretrial-preparation.json",
+      "pass": true
+    },
+    {
+      "id": "bound:temp/problem-input-0164/input.txt",
+      "pass": true
+    },
+    {
+      "id": "manifest-disposition",
+      "pass": true
+    },
+    {
+      "id": "collector-anchor:collection-manifest.json",
+      "pass": true
+    },
+    {
+      "id": "collector-anchor:public-originals.json",
+      "pass": true
+    },
+    {
+      "id": "collector-anchor:collection-checks.json",
+      "pass": true
+    },
+    {
+      "id": "neutral-C",
+      "pass": true
+    },
+    {
+      "id": "three-originals",
+      "pass": true
+    },
+    {
+      "id": "collection-not-acceptance",
+      "pass": true
+    },
+    {
+      "id": "collection-window",
+      "pass": true
+    },
+    {
+      "id": "bounded-parent-report",
+      "pass": true
+    },
+    {
+      "id": "r1:order-and-validity",
+      "pass": true
+    },
+    {
+      "id": "r1:actual-submission",
+      "pass": true
+    },
+    {
+      "id": "r1:requested-settings",
+      "pass": true
+    },
+    {
+      "id": "r1:collection-submission-report",
+      "pass": true
+    },
+    {
+      "id": "r1:one-turn-report",
+      "pass": true
+    },
+    {
+      "id": "r1:record-inventory",
+      "pass": true
+    },
+    {
+      "id": "r1:semantic-not-run",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-kinds",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-binding:action",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-record:action",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-binding:nested_action",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-record:nested_action",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-binding:nested_observation",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-record:nested_observation",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-binding:observation",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-record:observation",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-binding:final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-record:final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-binding:final",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-record:final",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-binding:completion_final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-record:completion_final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r1:copy-binding:parent_final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r1:wrapper-plus-LF",
+      "pass": true
+    },
+    {
+      "id": "r1:nested-arguments",
+      "pass": true
+    },
+    {
+      "id": "r1:read-success",
+      "pass": true
+    },
+    {
+      "id": "r1:complete-C-receipt",
+      "pass": true
+    },
+    {
+      "id": "r1:receipt-report",
+      "pass": true
+    },
+    {
+      "id": "r1:observation-copy",
+      "pass": true
+    },
+    {
+      "id": "r1:final-copies",
+      "pass": true
+    },
+    {
+      "id": "r1:final-report",
+      "pass": true
+    },
+    {
+      "id": "r1:state-final",
+      "pass": true
+    },
+    {
+      "id": "r2:order-and-validity",
+      "pass": true
+    },
+    {
+      "id": "r2:actual-submission",
+      "pass": true
+    },
+    {
+      "id": "r2:requested-settings",
+      "pass": true
+    },
+    {
+      "id": "r2:collection-submission-report",
+      "pass": true
+    },
+    {
+      "id": "r2:one-turn-report",
+      "pass": true
+    },
+    {
+      "id": "r2:record-inventory",
+      "pass": true
+    },
+    {
+      "id": "r2:semantic-not-run",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-kinds",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-binding:action",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-record:action",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-binding:nested_action",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-record:nested_action",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-binding:nested_observation",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-record:nested_observation",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-binding:observation",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-record:observation",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-binding:final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-record:final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-binding:final",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-record:final",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-binding:completion_final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-record:completion_final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r2:copy-binding:parent_final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r2:wrapper-plus-LF",
+      "pass": true
+    },
+    {
+      "id": "r2:nested-arguments",
+      "pass": true
+    },
+    {
+      "id": "r2:read-success",
+      "pass": true
+    },
+    {
+      "id": "r2:complete-C-receipt",
+      "pass": true
+    },
+    {
+      "id": "r2:receipt-report",
+      "pass": true
+    },
+    {
+      "id": "r2:observation-copy",
+      "pass": true
+    },
+    {
+      "id": "r2:final-copies",
+      "pass": true
+    },
+    {
+      "id": "r2:final-report",
+      "pass": true
+    },
+    {
+      "id": "r2:state-final",
+      "pass": true
+    },
+    {
+      "id": "r3:order-and-validity",
+      "pass": true
+    },
+    {
+      "id": "r3:actual-submission",
+      "pass": true
+    },
+    {
+      "id": "r3:requested-settings",
+      "pass": true
+    },
+    {
+      "id": "r3:collection-submission-report",
+      "pass": true
+    },
+    {
+      "id": "r3:one-turn-report",
+      "pass": true
+    },
+    {
+      "id": "r3:record-inventory",
+      "pass": true
+    },
+    {
+      "id": "r3:semantic-not-run",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-kinds",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-binding:action",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-record:action",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-binding:nested_action",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-record:nested_action",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-binding:nested_observation",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-record:nested_observation",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-binding:observation",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-record:observation",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-binding:final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-record:final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-binding:final",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-record:final",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-binding:completion_final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-record:completion_final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r3:copy-binding:parent_final_mirror",
+      "pass": true
+    },
+    {
+      "id": "r3:wrapper-plus-LF",
+      "pass": true
+    },
+    {
+      "id": "r3:nested-arguments",
+      "pass": true
+    },
+    {
+      "id": "r3:read-success",
+      "pass": true
+    },
+    {
+      "id": "r3:complete-C-receipt",
+      "pass": true
+    },
+    {
+      "id": "r3:receipt-report",
+      "pass": true
+    },
+    {
+      "id": "r3:observation-copy",
+      "pass": true
+    },
+    {
+      "id": "r3:final-copies",
+      "pass": true
+    },
+    {
+      "id": "r3:final-report",
+      "pass": true
+    },
+    {
+      "id": "r3:state-final",
+      "pass": true
+    },
+    {
+      "id": "actual-counts",
+      "pass": true
+    },
+    {
+      "id": "state-counts",
+      "pass": true
+    },
+    {
+      "id": "reported-child-stability",
+      "pass": true
+    },
+    {
+      "id": "reported-parent-stability",
+      "pass": true
+    },
+    {
+      "id": "reported-stability-disposition",
+      "pass": true
+    },
+    {
+      "id": "incomplete-disposition",
+      "pass": true
+    },
+    {
+      "id": "retained-zero",
+      "pass": true
+    },
+    {
+      "id": "ungraded",
+      "pass": true
+    },
+    {
+      "id": "original-accounting",
+      "pass": true
+    },
+    {
+      "id": "no-additional-runs",
+      "pass": true
+    },
+    {
+      "id": "no-validity-upgrade",
+      "pass": true
+    },
+    {
+      "id": "history-preserved",
+      "pass": true
+    },
+    {
+      "id": "collector-history-preserved",
+      "pass": true
+    },
+    {
+      "id": "source-reviews-preserved",
+      "pass": true
+    },
+    {
+      "id": "uncertainty-preserved",
+      "pass": true
+    },
+    {
+      "id": "acceptance-pending",
+      "pass": true
+    },
+    {
+      "id": "catalog-prior-binding",
+      "pass": true
+    },
+    {
+      "id": "catalog-fragment-binding",
+      "pass": true
+    },
+    {
+      "id": "catalog-prefix",
+      "pass": true
+    },
+    {
+      "id": "catalog-suffix",
+      "pass": true
+    },
+    {
+      "id": "catalog-once",
+      "pass": true
+    }
+  ],
+  "limits": [
+    "Checks preserved reports/public copies; no raw-source semantic audit.",
+    "r3 known INVALID; r1/r2 UNVERIFIED; no grading or hardness conclusion.",
+    "Root final full check and fresh independent review pending separately."
+  ]
+}

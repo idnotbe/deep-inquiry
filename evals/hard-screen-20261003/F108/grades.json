@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "candidate": "F108",
+  "source": "Two complete independent preserved FIRSTs; normalized transcription, not regrade.",
+  "graders": [
+    {
+      "agent": "logical-agent/f108_documentary_decision_designer/f108_blind_one",
+      "role": "explorer",
+      "fork_turns": "none",
+      "actual_assignment_matches_canonical_except_terminal_LF": true,
+      "FIRST": "reviews/blind-one-FIRST.full.md",
+      "procedural_reads": [
+        "local-codex-home/skills/general-agent-guardrails/SKILL.md",
+        "local-codex-home/skills/communicate-plainly/SKILL.md",
+        "local-codex-home/skills/top-orchestrator-router/SKILL.md",
+        "local-codex-home/skills/top-orchestrator-router/references/worker.md",
+        "local-codex-home/skills/top-orchestrator-router/references/delegation-review.md",
+        "local-codex-home/skills/deep-delegated-workflow/SKILL.md"
+      ],
+      "read_disclosure": "Initial combined display truncated; exact packet reread completely without truncation. All actual reads exit0, empty stderr, no timeout. No forbidden substantive read disclosed.",
+      "FIRST_binding": {
+        "path": "temp/hard-screen-20261003/worker/F108/reviews/blind-one-FIRST.full.md",
+        "bytes": 6894,
+        "sha256": "065c85630e049c64ec9052b8856b68ec2de9ce167a6596c32c1d871bca507a8d"
+      },
+      "public_FIRST": {
+        "path": "evals/hard-screen-20261003/F108/reviews/blind-one-FIRST.full.md",
+        "bytes": 6894,
+        "sha256": "065c85630e049c64ec9052b8856b68ec2de9ce167a6596c32c1d871bca507a8d"
+      },
+      "grades": {
+        "R-A": {
+          "dimensions": {
+            "decision": 2,
+            "target_water_accounting": 2,
+            "participant_responses": 2,
+            "contract_feasibility": 2,
+            "grounded_reasons": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        "R-B": {
+          "dimensions": {
+            "decision": 2,
+            "target_water_accounting": 2,
+            "participant_responses": 2,
+            "contract_feasibility": 2,
+            "grounded_reasons": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        "R-C": {
+          "dimensions": {
+            "decision": 2,
+            "target_water_accounting": 2,
+            "participant_responses": 2,
+            "contract_feasibility": 2,
+            "grounded_reasons": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      }
+    },
+    {
+      "agent": "logical-agent/f108_documentary_decision_designer/f108_blind_two",
+      "role": "explorer",
+      "fork_turns": "none",
+      "actual_assignment_matches_canonical_except_terminal_LF": false,
+      "FIRST": "reviews/blind-two-FIRST.full.md",
+      "procedural_reads": [
+        "local-codex-home/skills/communicate-plainly/SKILL.md",
+        "local-codex-home/skills/general-agent-guardrails/SKILL.md",
+        "local-codex-home/skills/top-orchestrator-router/SKILL.md",
+        "local-codex-home/skills/top-orchestrator-router/references/worker.md",
+        "local-codex-home/skills/deep-delegated-workflow/SKILL.md",
+        "local-codex-home/skills/top-orchestrator-router/references/delegation-review.md",
+        "local-codex-home/skills/execution-preflight/SKILL.md"
+      ],
+      "assignment_deviation": "The actual initial assignment mistyped the remove-ai-slops generic path as local-codex-home/skills/remove-ai-slops/SKILL.md. SAME-agent correction restored only the already-authorized plugin path before FIRST. Planned canonical assignment, actual initial assignment and exact correction are preserved separately. No additional substantive guidance, regrade or replacement.",
+      "wrong_or_corrected_path_attempted": false,
+      "read_disclosure": "FIRST explicitly says neither mistaken nor corrected remove-ai-slops path was attempted; all other actual reads were allowed, exit0, empty stderr, no timeout, no truncation. No forbidden substantive read disclosed.",
+      "eligibility": "ROOT explicitly accepted eligibility after whole-reading both FIRSTs and original answers: neither mistaken nor corrected path attempted, seven allowed procedural reads, preserved actual assignment/correction distinction. Not claimed byte-identical to canonical.",
+      "FIRST_binding": {
+        "path": "temp/hard-screen-20261003/worker/F108/reviews/blind-two-FIRST.full.md",
+        "bytes": 7604,
+        "sha256": "944d3a7de239c6c5c8b6a04ce548fa0648de6823503a1a7ecfed6a81ba56baf1"
+      },
+      "public_FIRST": {
+        "path": "evals/hard-screen-20261003/F108/reviews/blind-two-FIRST.full.md",
+        "bytes": 7604,
+        "sha256": "944d3a7de239c6c5c8b6a04ce548fa0648de6823503a1a7ecfed6a81ba56baf1"
+      },
+      "grades": {
+        "R-A": {
+          "dimensions": {
+            "decision": 2,
+            "target_water_accounting": 2,
+            "participant_responses": 2,
+            "contract_feasibility": 2,
+            "grounded_reasons": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        "R-B": {
+          "dimensions": {
+            "decision": 2,
+            "target_water_accounting": 2,
+            "participant_responses": 2,
+            "contract_feasibility": 2,
+            "grounded_reasons": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        },
+        "R-C": {
+          "dimensions": {
+            "decision": 2,
+            "target_water_accounting": 2,
+            "participant_responses": 2,
+            "contract_feasibility": 2,
+            "grounded_reasons": 2
+          },
+          "total": 10,
+          "objective_decision_error": false,
+          "qualifying_inquiry_failure": false,
+          "insufficient_evidence": false
+        }
+      }
+    }
+  ],
+  "answers": [
+    {
+      "anonymous_id": "R-A",
+      "repetition": 1,
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F108/original/F108_C-baseline-r1-attempt1/final.txt",
+        "bytes": 1349,
+        "sha256": "deddd251195ef77090c23dc571b537bbf09102170749b0b1d54d91f62eb893bd"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F108/answers/F108_C-baseline-r1.txt",
+        "bytes": 1349,
+        "sha256": "deddd251195ef77090c23dc571b537bbf09102170749b0b1d54d91f62eb893bd"
+      }
+    },
+    {
+      "anonymous_id": "R-C",
+      "repetition": 2,
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F108/original/F108_C-baseline-r2-attempt1/final.txt",
+        "bytes": 1393,
+        "sha256": "b90bd46e1be03d0c44f6117d678ecb6778b017ae5f1fce33d6c8df6800ce8ea4"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F108/answers/F108_C-baseline-r2.txt",
+        "bytes": 1393,
+        "sha256": "b90bd46e1be03d0c44f6117d678ecb6778b017ae5f1fce33d6c8df6800ce8ea4"
+      }
+    },
+    {
+      "anonymous_id": "R-B",
+      "repetition": 3,
+      "source": {
+        "path": "temp/hard-screen-20261003/worker/F108/original/F108_C-baseline-r3-attempt1/final.txt",
+        "bytes": 1468,
+        "sha256": "f208e11bd4b92cee8f34768103c947d403bd5c42c65bcdd5e5ca54bd6f4007f1"
+      },
+      "public_copy": {
+        "path": "evals/hard-screen-20261003/F108/answers/F108_C-baseline-r3.txt",
+        "bytes": 1468,
+        "sha256": "f208e11bd4b92cee8f34768103c947d403bd5c42c65bcdd5e5ca54bd6f4007f1"
+      }
+    }
+  ],
+  "qualifying_same_id_intersection": [],
+  "objective_errors_each": 0,
+  "diagnostic_full_pass_counts": [
+    3,
+    3
+  ],
+  "diagnostic_means": [
+    10,
+    10
+  ],
+  "ROOT_accepted_eligibility": {
+    "path": "temp/hard-screen-20261003/worker/F108/root-grader-eligibility-acceptance.txt",
+    "bytes": 560,
+    "sha256": "e02c3ef37fd5f26bc27eabce0141bce47c2ea66d3702c34407e9b71907de95ae"
+  },
+  "assignment_deviation_preserved": true,
+  "ROOT_FINAL": "ACCEPTED"
+}

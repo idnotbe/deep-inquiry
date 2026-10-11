@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "candidate": "F138_SOURCE_V1_LOCAL_INCONCLUSIVE_V1",
+  "family": "F138",
+  "status": "INCONCLUSIVE_RUNTIME",
+  "difficulty": "UNKNOWN",
+  "retained_families": 0,
+  "target_families": 6,
+  "grades": 0,
+  "original_SAFE": false,
+  "ROOT_SAFE": false,
+  "runtime_valid": false,
+  "local_record": "PREPARED_FOR_ROOT_READBACK",
+  "model_requested": "gpt-6.1-sol",
+  "effort_requested": "medium",
+  "host_configuration_verified": true,
+  "actual_backend": "UNKNOWN",
+  "effort_is_admission_evidence": false,
+  "counts": {
+    "neutral_dispatches": 2,
+    "neutral_unscored_treatment": 1,
+    "original_dispatches": 3,
+    "original_completed_turns": 3,
+    "original_preserved_finals": 3,
+    "original_manifest_completed": 2,
+    "original_manifest_error": 1,
+    "retries": 0,
+    "reruns": 0,
+    "scored_treatments": 0,
+    "graders": 0
+  },
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "source_guard": {
+    "protected_sources": 13,
+    "r1_changed": 1,
+    "r1_preserved": false,
+    "r2_preserved": true,
+    "r3_preserved": true,
+    "changed_source": "GLOBAL config.toml; distinct from participant isolated profile",
+    "actor": "UNKNOWN"
+  },
+  "answer_preview": false,
+  "anonymous_packet_created": false,
+  "heldout_used": false,
+  "packaging_alias_used": false,
+  "efficacy": "UNKNOWN",
+  "F127_changed": false,
+  "goal_complete": false
+}

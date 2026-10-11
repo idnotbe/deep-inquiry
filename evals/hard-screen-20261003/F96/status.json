@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "candidate": "F96",
+  "case_id": "F96_C",
+  "status": "EXCLUDED_NOT_HARD",
+  "proposed_classification": "EXCLUDED_NOT_HARD",
+  "retained": 0,
+  "target": 6,
+  "cumulative": {
+    "screened_candidate_ids": 80,
+    "preserved_terminal_problem_files": 233,
+    "completed_problem_turns": 292,
+    "retained": 0,
+    "target": 6,
+    "other_unknowns": "F46/F51/F93-r3 preserved separately"
+  },
+  "original_order": [
+    2,
+    3,
+    1
+  ],
+  "actual_original_counts": {
+    "setup_launches": 3,
+    "turn_dispatches": 3,
+    "completed_turns": 3,
+    "preserved_terminal_finals": 3,
+    "setup_retry_count": 0
+  },
+  "actual_neutral_counts": {
+    "setup_launches": 2,
+    "turn_dispatches": 2,
+    "completed_turns": 2,
+    "preserved_terminal_finals": 2,
+    "setup_retry_count": 0
+  },
+  "same_joint_qualifying_ids": [],
+  "objective_decision_error_counts": [
+    0,
+    0
+  ],
+  "numerical_full_pass_counts": [
+    3,
+    3
+  ],
+  "grader_means": [
+    10,
+    10
+  ],
+  "all_three_extra_validity_audit_required": false,
+  "ROOT_PRETRIAL": {
+    "path": "temp/hard-screen-20261003/f96-pretrial-root-gate.json",
+    "bytes": 1949,
+    "sha256": "c17717d831146ae607659f0c2db97f32056a5f39d4c4ac7ab1565c61d111490d"
+  },
+  "ROOT_SAFE": {
+    "path": "temp/hard-screen-20261003/f96-safe-root-gate.json",
+    "bytes": 1664,
+    "sha256": "87e9dd9afbaf0c5ecc409dafd38cac2d5b874380f6592aaf5961e3055db48b82"
+  },
+  "ROOT_FINAL": "temp/hard-screen-20261003/f96-final-root-gate.json",
+  "H_K_participant_unused": true,
+  "scored_treatment": 0,
+  "efficacy": "NOT_EVALUATED",
+  "backend": "UNKNOWN_NONBLOCKING",
+  "effort_considered": false,
+  "source_revision": 0,
+  "criterion_changes": 0,
+  "affected_law_representation_checks": 1,
+  "original_model_replays": 0,
+  "lineage": "F95/F96 same lineage; cannot count twice as distinct retained families",
+  "H_matching": "SAME appraisal-target participation mechanism; larger batch/target and adjusted effort, not exact scalar payoff or established empirical difficulty.",
+  "full_goal_verification": "NOT_RUN; deferred actualsix",
+  "root_final_accepted": true
+}
